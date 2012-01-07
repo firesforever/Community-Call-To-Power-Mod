@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/9/2011 3:25:46 PM -->
+<GameData>
+	<HandicapInfos>
+
+		<Update>
+			<Set BarbCampGold="300" AIGrowthPercent="140" AIBuildingCostPercent="70" AIUnhappinessPercent="80" />
+			<Where Type="HANDICAP_SETTLER" />
+		</Update>
+		<Update>
+			<Set BarbCampGold="275" AIGrowthPercent="110" AIBuildingCostPercent="70" AIUnhappinessPercent="80" />
+			<Where Type="HANDICAP_CHIEFTAIN" />
+		</Update>
+		<Update>
+			<Set BarbCampGold="250" AIGrowthPercent="90" AIBuildingCostPercent="70" AIUnhappinessPercent="80" />
+			<Where Type="HANDICAP_WARLORD" />
+		</Update>
+		<Update>
+			<Set BarbCampGold="250" AIGrowthPercent="80" AIBuildingCostPercent="70" AIUnhappinessPercent="80" />
+			<Where Type="HANDICAP_PRINCE" />
+		</Update>
+		<Update>
+			<Set BarbCampGold="225" AIGrowthPercent="70" AIBuildingCostPercent="60" AIUnhappinessPercent="70" />
+			<Where Type="HANDICAP_KING" />
+		</Update>
+		<Update>
+			<Set BarbCampGold="200" AIGrowthPercent="60" AIBuildingCostPercent="50" AIUnhappinessPercent="60" />
+			<Where Type="HANDICAP_EMPEROR" />
+		</Update>
+		<Update>
+			<Set BarbCampGold="175" AIGrowthPercent="50" AIBuildingCostPercent="40" AIUnhappinessPercent="50" />
+			<Where Type="HANDICAP_IMMORTAL" />
+		</Update>
+		<Update>
+			<Set BarbCampGold="150" AIGrowthPercent="40" AIBuildingCostPercent="30" AIUnhappinessPercent="40" />
+			<Where Type="HANDICAP_DEITY" />
+		</Update>
+		
+		
+		
+	</HandicapInfos>
+
+</GameData>

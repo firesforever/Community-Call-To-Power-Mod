@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="0" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="0"/>
+			<Where Type="UNIT_CIVIL_ENGINEER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="1" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="1"/>
+			<Where Type="UNIT_MACHINE_GUNNER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="2" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="2"/>
+			<Where Type="UNIT_MISSILE_SQUAD" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="3" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="3"/>
+			<Where Type="UNIT_SUPERCARRIER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="4" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="4"/>
+			<Where Type="UNIT_COMBAT_CONTROLLER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="5" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="5"/>
+			<Where Type="UNIT_STEALTH_FIGHTER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="6" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="6"/>
+			<Where Type="UNIT_UNMANNED_AIRCRAFT" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="8" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="7"/>
+			<Where Type="UNIT_DDX_DESTROYER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="9" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="8"/>
+			<Where Type="UNIT_CGX_CRUISER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="10" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="9"/>
+			<Where Type="UNIT_STEALTH_GUNSHIP" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="11" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="10"/>
+			<Where Type="UNIT_STEALTH_SUBMARINE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="12" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="11"/>
+			<Where Type="UNIT_HYPERSONIC_CRUISE_MISSILE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="13" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="12"/>
+			<Where Type="UNIT_GAUSS_TANK" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="14" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="13"/>
+			<Where Type="UNIT_MASS_DRIVER_ARTILLERY" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="15" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="14"/>
+			<Where Type="UNIT_POWERED_INFANTRY" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="16" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="15"/>
+			<Where Type="UNIT_FUSION_SUPERCARRIER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="17" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="16"/>
+			<Where Type="UNIT_HYPERSONIC_BOMBER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="18" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="17"/>
+			<Where Type="UNIT_HYPERSONIC_INTERCEPTOR" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="19" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="18"/>
+			<Where Type="UNIT_MICRO_UAV_TEAM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="20" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="19"/>
+			<Where Type="UNIT_TACTICAL_LASER_AIR_DEFENSE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="21" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="20"/>
+			<Where Type="UNIT_ORBITAL_STRIKE_MISSILE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="22" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="21"/>
+			<Where Type="UNIT_SPACE_BOMBER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="23" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="22"/>
+			<Where Type="UNIT_SPACE_FIGHTER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="24" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="23"/>
+			<Where Type="UNIT_HUNTER_KILLER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="25" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="24"/>
+			<Where Type="UNIT_FUSION_TANK" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="26" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="25"/>
+			<Where Type="UNIT_HEAVY_ISOTOPE_PROJECTOR" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="27" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="26"/>
+			<Where Type="UNIT_BEAM_JUMPER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="28" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="27"/>
+			<Where Type="UNIT_PLASMA_DESTROYER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="29" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="28"/>
+			<Where Type="UNIT_FUSION_DREADNOUGHT" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="30" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="29"/>
+			<Where Type="UNIT_SUPERCAVITATING_SUBMARINE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="31" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="30"/>
+			<Where Type="UNIT_SUBMERSIBLE_CARRIER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="32" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="31"/>
+			<Where Type="UNIT_PARTICLE_GRID_AIR_DEFENSE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="33" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="32"/>
+			<Where Type="UNIT_CYBERNETIC_MARAUDER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="34" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="33"/>
+			<Where Type="UNIT_LEAP_INFANTRY" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="35" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="34"/>
+			<Where Type="UNIT_COG" />
+		</Update>
+		<Update>
+			<Set IconAtlas="UNIT_ATLAS_3" PortraitIndex="36" UnitFlagAtlas="UNIT_FLAG_ATLAS_2" UnitFlagIconOffset="35"/>
+			<Where Type="UNIT_GALLEON" />
+		</Update>
+	</Units>
+</GameData>

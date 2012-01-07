@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
+<!-- Global Defines -->
+<GameData>
+	<Defines>
+		<Update>
+			<Set Value="4" />
+			<Where Name="NUM_POLICY_BRANCHES_ALLOWED" />
+		</Update>
+		<Update>
+			<Set Value="10" />
+			<Where Name="EACH_GOLD_VALUE_PERCENT" />
+		</Update>
+		<Update>
+			<Set Value="8" />
+			<Where Name="EACH_GOLD_PER_TURN_VALUE_PERCENT" />
+		</Update>
+
+		<Update>
+			<Set Value="1" />
+			<Where Name="UNHAPPINESS_PER_POPULATION" />
+		</Update>
+		<Update>
+			<Set Value="1.5" />
+			<Where Name="UNHAPPINESS_PER_OCCUPIED_POPULATION" />
+		</Update>
+		<Update>
+			<Set Value="4" />
+			<Where Name="UNHAPPINESS_PER_CITY" />
+		</Update>
+		<Update>
+			<Set Value="6" />
+			<Where Name="UNHAPPINESS_PER_CAPTURED_CITY" />
+		</Update>
+		<Update>
+			<Set Value="-20" />
+			<Where Name="VERY_UNHAPPY_THRESHOLD" />
+		</Update>
+
+
+		<Update>
+			<Set Value="2000" />
+			<Where Name="BARBARIAN_MAX_XP_VALUE" />
+		</Update>
+		<Update>
+			<Set Value="6" />
+			<Where Name="BARBARIAN_CAMP_MINIMUM_DISTANCE_ANOTHER_CAMP" />
+		</Update>
+		<Update>
+			<Set Value="3" />
+			<Where Name="PLOTS_PER_RIVER_EDGE" />
+		</Update>
+		<Update>
+			<Set Value="5" />
+			<Where Name="POLICY_COST_INCREASE_TO_BE_EXPONENTED" />
+		</Update>
+		<Update>
+			<Set Value="1.6" />
+			<Where Name="POLICY_COST_EXPONENT" />
+		</Update>
+		<Update>
+			<Set Value="7" />
+			<Where Name="POLICY_COST_VISIBLE_DIVISOR" />
+		</Update>
+		<Update>
+			<Set Value="2" />
+			<Where Name="SWITCH_POLICY_BRANCHES_ANARCHY_TURNS" />
+		</Update>
+		<Update>
+			<Set Value="500" />
+			<Where Name="INITIAL_GOLD_PER_UNIT_TIMES_100" />
+		</Update>
+		<Update>
+			<Set Value="1" />
+			<Where Name="SCIENCE_PER_POPULATION" />
+		</Update>
+		<Update>
+			<Set Value="135" />
+			<Where Name="CITY_GROWTH_MULTIPLIER" />
+		</Update>
+		<Update>
+			<Set Value="2.2" />
+			<Where Name="CITY_GROWTH_EXPONENT" />
+		</Update>
+		<Update>
+			<Set Value="175" />
+			<Where Name="BASE_CITY_GROWTH_THRESHOLD" />
+		</Update>
+		<Update>
+			<Set Value="5" />
+			<Where Name="FOOD_CONSUMPTION_PER_POPULATION" />
+		</Update>
+		<Update>
+			<Set Value="10" />
+			<Where Name="RECON_VISIBILITY_RANGE" />
+		</Update>
+		<Update>
+			<Set Value="250" />
+			<Where Name="AIR_UNIT_REBASE_RANGE_MULTIPLIER" />
+		</Update>
+		<Update>
+			<Set Value="2" />
+			<Where Name="HAPPINESS_PER_NATURAL_WONDER" />
+		</Update>
+		<Update>
+			<Set Value="10" />
+			<Where Name="UNIT_MAINTENANCE_GAME_MULTIPLIER" />
+		</Update>
+		<Update>
+			<Set Value="7" />
+			<Where Name="UNIT_MAINTENANCE_GAME_EXPONENT_DIVISOR" />
+		</Update>
+		<Update>
+			<Set Value="500" />
+			<Where Name="TRADE_ROUTE_BASE_GOLD" />
+		</Update>
+		<Update>
+			<Set Value="500" />
+			<Where Name="TRADE_ROUTE_CITY_POP_GOLD_MULTIPLIER" />
+		</Update>
+		<Update>
+			<Set Value="12" />
+			<Where Name="GOLDEN_AGE_LENGTH" />
+		</Update>
+		<Update>
+			<Set Value="1.3" />
+			<Where Name="UNIT_UPGRADE_COST_PER_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Value=".8" />
+			<Where Name="HURRY_GOLD_PRODUCTION_EXPONENT" />
+		</Update>
+		<Update>
+			<Set Value="5" />
+			<Where Name="CULTURE_BOMB_COOLDOWN" />
+		</Update>
+		<Update>
+			<Set Value="-35" />
+			<Where Name="CULTURE_BOMB_MINOR_FRIENDSHIP_CHANGE" />
+		</Update>
+		<Update>
+			<Set Value="50" />
+			<Where Name="CITY_STRENGTH_POPULATION_CHANGE" />
+		</Update>
+		<Update>
+			<Set Value="9" />
+			<Where Name="MAXIMUM_ACQUIRE_PLOT_DISTANCE" />
+		</Update>
+		<Update>
+			<Set Value="3" />
+			<Where Name="MIN_CITY_RANGE" />
+		</Update>
+		<Update>
+			<Set Value="200" />
+			<Where Name="BASE_CAPTURE_GOLD" />
+		</Update>
+		<Update>
+			<Set Value="100" />
+			<Where Name="CAPTURE_GOLD_PER_POPULATION" />
+		</Update>
+		<Update>
+			<Set Value="200" />
+			<Where Name="CAPTURE_GOLD_RAND1" />
+		</Update>
+		<Update>
+			<Set Value="100" />
+			<Where Name="CAPTURE_GOLD_RAND2" />
+		</Update>
+		<Update>
+			<Set Value="200" />
+			<Where Name="GOLD_FROM_BARBARIAN_CONVERSION" />
+		</Update>
+		<Update>
+			<Set Value="450" />
+			<Where Name="MINOR_CIV_CONTACT_GOLD_FIRST" />
+		</Update>
+		<Update>
+			<Set Value="200" />
+			<Where Name="MINOR_CIV_CONTACT_GOLD_OTHER" />
+		</Update>
+		<Update>
+			<Set Value="10000" />
+			<Where Name="MINOR_GOLD_GIFT_LARGE" />
+		</Update>
+		<Update>
+			<Set Value="5000" />
+			<Where Name="MINOR_GOLD_GIFT_MEDIUM" />
+		</Update>
+		<Update>
+			<Set Value="2500" />
+			<Where Name="MINOR_GOLD_GIFT_SMALL" />
+		</Update>
+		<Update>
+			<Set Value="750" />
+			<Where Name="SETTLER_PRODUCTION_MULTIPLIER" />
+		</Update>
+		<Update>
+			<Set Value="500" />
+			<Where Name="BARBARIAN_UNIT_GOLD_RANSOM" />
+		</Update>
+		
+	</Defines>
+</GameData>

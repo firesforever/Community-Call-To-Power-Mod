@@ -1,0 +1,2394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 19/11/2010 00:14:54 -->
+<GameData>
+<Language_en_US>
+	<!-- ************************************CHINA********************************** -->
+
+
+	<!-- Antitanks************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_ZIS-30">
+		<Text>ZIS-30</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_ZIS-30">
+		<Text>Chinese AntiTank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_ZIS-30_TEXT">
+		<Text>The ZiS-30 was a light self-propelled anti-tank gun built for the Soviet Red Army in 1941. It was based on the Komsomolets armored artillery tractor. They were successful vehicles, but production was limited by the number of Komsomolets tractors still in use.
+</Text>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_TUPOLEV_SB-2">
+		<Text>TUPOLEV SB-2</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TUPOLEV_SB-2">
+		<Text>Chinese Bomber from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_TUPOLEV_SB-2_TEXT">
+		<Text>The Tupolev ANT-40, also known by its service name Tupolev SB (Russian: Скоростной бомбардировщик - Skorostnoi Bombardirovschik - "high speed bomber"), and development co-name TsAGI-40, was a high speed twin-engined three-seat monoplane bomber, first flown in 1934.
+
+The design was very advanced, but lacked refinement, much to the dismay of crews and maintenance personnel - and of Stalin, who pointed out that "there are no trivialities in aviation".
+
+Numerically the most important bomber in the world in the late 1930s, the SB was the first modern stressed-skin aircraft produced in quantity in the Soviet Union and probably the most formidable bomber of the mid-1930s. Many versions saw extensive action in Spain, the Republic of China, Mongolia, Finland and at the beginning of the War against Germany in 1941. It was also used in various duties in civil variants, as trainers and in many secondary roles.
+
+Successful in the Spanish Civil War because it outpaced most fighters, the aircraft was obsolete by 1941. By June 1941, 94% of bombers in the Red Army air force (VVS RKKA) were SBs.
+
+In July 1937, the Second Sino-Japanese War broke out. The Soviet Union signed the Sino-Soviet Non-Aggression Pact on 21 August 1937, and as part of this agreement, supplied large amounts of military equipment to the Chinese Nationalists, as well as deploying complete air force units, nominally manned by Soviet volunteers. An initial delivery of 62 SBs was made in September–October 1937, with combat operations by Soviet forces starting in December with attacks on Japanese ships on the Yangtze River. On 23 February 1938, to celebrate Soviet Army Day, Soviet SBs carried out a long range attack on Japanese airfields on Taiwan, claiming 40 Japanese aircraft destroyed on the ground.[31][32]
+
+A further 60 SBs were delivered to China in early 1938, these being heavily used to attack Japanese forces during the Battle of Wuhan. Losses were heavy, forcing the Chinese SB units to be temporarily withdrawn from combat. The Soviet units operating the SB over China re-equipped with the Ilyushin DB-3 in 1939, allowing their SBs to be transferred to Chinese units, but the Chinese made limited use of these reinforcements.[33]
+
+The Soviet Union supplied a further 100 SBs in 1941, just before it signed the Soviet–Japanese Neutrality Pact. The SB was gradually phased out of front-line operations against the Japanese with the delivery of more modern American bombers from 1942, being partly replaced by Lockheed Hudsons and B-25 Mitchells. Limited numbers of SBs continued in non-combat use, including operations against opium plantations, before being used against the Communists when the Chinese Civil War flared up in 1945, being finally withdrawn in 1946.
+
+</Text>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<!--
+	<Row Tag="TXT_KEY_UNIT_RENAULT_FT-17">
+		<Text>RENAULT FT-17</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_RENAULT_FT-17">
+		<Text>Chinese Early Tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_RENAULT_FT-17_TEXT">
+		<Text>	The Renault FT or Automitrailleuse à chenilles Renault FT modèle 1917, informally known as the FT-17 or FT17, was a French light tank; it is among the most revolutionary and influential tank designs in history. The FT was the first operational tank with an armament in a fully rotating turret,[nb 1] and its configuration with the turret on top, engine in the back and the driver in front became the conventional one, repeated in most tanks until today. Armour historian Steven Zaloga has called the Renault FT "the world's first modern tank".
+The FT was widely used by the French and the US in the later stages of World War I, after 31 May 1918. It was cheap and well-suited for mass production. It reflected an emphasis on quantity, both on a tactical level: Estienne proposed to overwhelm the enemy defences by a "swarm" of light tanks, and on a geostrategic level: the Entente was thought to be able to gain the upper hand by outproducing the Central Powers. A goal was set of 12,260 to be manufactured (4,440 of which in the USA) before the end of 1919.
+
+After the war, FTs were exported to many countries (Poland, Finland, Estonia, Lithuania, Romania, Yugoslavia, Czechoslovakia, Switzerland, Belgium, Netherlands, Spain, Brazil, Turkey, Iran, Afghanistan and Japan). As a result, FT tanks were used by most nations having armoured forces, invariably as their first tank type, including the United States. They took part in many later conflicts, such as the Russian Civil War, Polish-Soviet War, Chinese Civil War, Rif War and Spanish Civil War.
+
+In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, Czechoslovakia, Estonia, Finland, France, Nazi Germany, Iran, Japan, Lithuania, the Netherlands, Poland, Romania, the Russian White movement, the Soviet Union, Spain, Sweden, Switzerland, Turkey, Norway, the United Kingdom, the United States and the Kingdom of Yugoslavia.
+
+</Text>
+	</Row>-->
+
+	<!-- Fighters****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_POLIKARPOV_I-16">
+		<Text>POLIKARPOV I-16</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_POLIKARPOV_I-16">
+		<Text>Chinese Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_POLIKARPOV_I-16_TEXT">
+		<Text>The Polikarpov I-16 was a Soviet fighter aircraft of revolutionary design; it was the world's first cantilever-winged monoplane fighter with retractable landing gear. The I-16 was introduced in the mid-1930s and formed the backbone of the Soviet Air Force at the beginning of World War II. The diminutive fighter, nicknamed "Ishak" ("donkey") by Soviet pilots, prominently featured in the Second Sino-Japanese War,[1] the Battle of Khalkhin Gol[1] and the Spanish Civil War[2][3]—where it was called the Rata ("rat") by the Nationalists or Mosca ("fly") by the Republicans. The Finnish nickname for I-16 was Siipiorava ("Flying Squirrel").
+
+fought against the Japanese, fighting the fixed-landing gear equipped Nakajima Ki-27 Nate of the IJAAF and IJNAF's Mitsubishi A5M Claude. Further large scale action took place in fighting between the Soviet Union and Japan in the Battle of Khalkhin Gol in 1939. The next year, the Imperial Japanese Navy introduced the A6M Zero which was more than a match for the I-16.
+
+Further attempts were made to upgrade the firepower of the aircraft using 20 mm (0.79 in) ShVAK cannons, making the I-16 one of the most heavily armed fighters of that moment,[11] able to fire 28 pounds of ammunition in three seconds. Pilots loved the results, but the cannons were in short supply and only a small number of I-16 Type 12, 17, 27, and 28 were built. The cannons adversely affected performance with the 360° circle time increasing from 15 seconds in Type 5 to 18 seconds. Type 24 replaced the skid with a tailwheel and featured the much more powerful 670 kW (900 hp) Shvetsov M-63 engine. Type 29 replaced two of the ShKAS guns with a single 12.7 mm (.50 in) UBS. Types 18, 24, 27, 28, and 29 could be equipped to carry RS-82 unguided rockets.
+
+A 1939 government study found that I-16 had exhausted its performance potential. Addition of armor, radio, battery, and flaps during the aircraft's evolution exacerbated the rear weight distribution to the point where the aircraft required considerable forward pressure on the stick to maintain level flight and at the same time developed a tendency to enter uncontrolled dives. Extension and retraction of the landing flaps caused a dramatic change in the aircraft attitude. Accurate gunfire was difficult.
+
+
+</Text>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_WW2INFANTRY_CHINA">
+		<Text>Chinese WW2 Infantry</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_CHINA_WW2INFANTRY">
+		<Text>Chinese infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_CHINA_WW2INFANTRY_TEXT">
+		<Text></Text>
+	</Row>
+<!--
+	<!-- Paratroopers************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_CHINA_WW2PARATROOPER">
+		<Text>Chinese WW2 Paratroupers</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_CHINA_WW2PARATROOPER">
+		<Text>Chinese infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_CHINA_WW2PARATROOPER_TEXT">
+		<Text></Text>
+	</Row>
+-->
+	<!-- Tanks********************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_T-26B">
+		<Text>T-26B</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_T-26B">
+		<Text>Chinese tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_T-26B_TEXT">
+		<Text>The T-26 tank was a Soviet light infantry tank used during many conflicts of the 1930s as well as during World War II. It was a development of the British Vickers 6-Ton tank and is widely considered one of the most successful tank designs of the 1930s.[3]
+
+It was produced in greater numbers than any other tank of the period, with more than 11,000 produced.[4] During the 1930s, the USSR developed approximately 53 variants of the T-26, including other combat vehicles based on its chassis. Twenty-three of these were mass-produced.[5]
+
+The T-26 was used extensively in the armies of Spain, China and Turkey. In addition, captured T-26 light tanks were used by the Finnish, German, Romanian and Hungarian armies.[6]
+
+</Text>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_VICKERS_MK_E">
+		<Text>VICKERS MK E</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_VICKERS_MK_E">
+		<Text>Chinese light tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_VICKERS_MK_E_TEXT">
+		<Text>The Vickers 6-Ton Tank or Vickers Mark E was a British light tank designed as a private project at Vickers. It was not purchased by the British Army, but was picked up by a large number of foreign armed forces and was copied almost exactly by the Soviets as the T-26. It was also the direct predecessor of the Polish 7TP tank. By the start of World War II it was the second most common tank design in the world after the Renault FT-17.
+
+The British Army evaluated the Mark E, but rejected it, apparently due to questions about the reliability of the suspension. Vickers then started advertising the design to all buyers, and soon received a trickle of orders eventually including USSR, Greece, Poland, Bolivia, Siam, Finland, Portugal, China and Bulgaria. A Thai order was placed, but taken over by the British when the war started. Vickers built a total of 153 (the most common figure) Mark E's.
+
+</Text>
+	</Row>-->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row Tag="TXT_KEY_UNIT_M4A4_SHERMAN_V">
+		<Text>M4A4 SHERMAN V</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_M4A4_SHERMAN_V">
+		<Text>Chinese medium tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_M4A4_SHERMAN_V_TEXT">
+		<Text>The M4 Sherman, formally Medium Tank, M4, was the primary tank used by the United States during World War II. Thousands were also distributed to the Allies, including the British Commonwealth and Soviet armies, via lend-lease. In the United Kingdom, the M4 was named after Union General William Tecumseh Sherman, following the British practice of naming their American-built tanks after famous American Civil War generals. Subsequently the British name found its way into common use in the U.S.
+
+During World War II, approximately 19,247 M4 Shermans were issued to the US Army and about 1,114 to the US Marine Corps.[21] The U.S. also supplied 17,184 to Great Britain (some of which went to the Canadians and the Free Poles), while the Soviet Union received 4,102[22] and an estimated 812 were transferred to China.[23] These numbers were distributed further to the respective countries' allied nations.
+
+</Text>
+	</Row>-->
+	
+
+	<!-- ************************************FRANCE****************************** -->
+
+	
+	<!-- AAs******************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_HOTCHKISS_25mm_AA_HALF_TRACK">
+		<Text>Hotchkiss 25mm AA Half-Track</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_HOTCHKISS_25mm_AA_HALF_TRACK">
+		<Text>French AntiAircraft from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_HOTCHKISS_25mm_AA_HALF_TRACK_TEXT">
+		<Text>
+			The Hotchkiss 25 mm anti-aircraft gun was an anti-aircraft autocannon designed by the French firm of Hotchkiss. It served in World War II with French, Japanese and other nations' forces. Other than the designer company and the calibre, this weapon is not related to the semi-automatic 25 mm Hotchkiss anti-tank gun, in particular, the cartridge used is different.
+		</Text>
+	</Row>
+
+	<!-- Antitanks************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SOMUA_SAU-40">
+		<Text>Somua SAU-40</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SOMUA_SAU-40">
+		<Text>French AntiTank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SOMUA_SAU-40_TEXT">
+		<Text>
+			The SOMUA S35 was a French Cavalry tank of the Second World War. Built from 1936 until 1940 to equip the armoured divisions of the Cavalry, it was for its time a relatively agile medium-weight tank, superior in armour and armament to both its French and foreign competitors, such as the contemporary versions of the German Panzerkampfwagen III. It was constructed from well-sloped, mainly cast, armour sections, that however made it expensive to produce and time-consuming to maintain. During the German invasion of May 1940, the SOMUA S35 proved itself to be a tactically effective type, but this was negated by strategic mistakes in deploying its units. After the defeat of France in June 1940, limiting production to a number of 430, captured SOMUA S35s were used by the Axis powers. A derived type, the SOMUA S40, with an improved suspension, lowered hull cast and welded turret armour, replaced the original version on the production lines in July 1940.
+		</Text>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_DUNKERQUE_CLASS">
+		<Text>DUNKERQUE CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_DUNKERQUE_CLASS">
+		<Text>French Battleship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_DUNKERQUE_CLASS_TEXT">
+		<Text>
+			The Dunkerque was the first of a new class of warship of the French Navy labeled as a "fast battleship".
+			Not as well-armed and considerably less armoured than contemporary battleships, they are nonetheless considered scaled-down battleships and they are considerably more balanced (in the ship's performance tradeoffs between armour and armament) than battlecruisers. The Dunkerques were superior in all respects to and designed to counter the threat of the German pocket battleships of the Deutschland class, which were in effect scaled-up cruisers.
+			The design was innovative, having the entire main armament mounted forward in two quadruple turrets which gave unrestricted forward fire. The Royal Navy's Nelson class battleships also had the entire armament mounted forward, but in three turrets carrying nine guns, with the angles of fire for the rearmost turret limited by the turrets in front. The mounting of the main armament in fore quadruple turrets was a feature unique, in the French Navy, to late-design battleships such as Dunkerque, Richelieu and Jean Bart.
+		</Text>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_AMIOT_350">
+		<Text>AMIOT 350</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_AMIOT_350">
+		<Text>French Bomber from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_AMIOT_350_TEXT">
+		<Text>
+			The Amiot 350 series originated in the same 1934 requirement as a rival to the Lioré et Olivier LeO 451. Derived from the Amiot 341 mail plane, the Amiot 340 prototype was involved in a propaganda misinformation flight to Berlin in August of 1938 to convince the Germans that the French employed modern bombers. Though 130 machines were ordered by the French government that year, production delays and ordered modifications ensured that September 1939 saw no delivered aircraft. Eventually, the ordered number of this very modern aircraft reached 830, though ultimately only 80 machines were received by the Air Ministry. The main variant was the twin-tailed 351; however, due to various delays, the single-tailed 354 was accepted into service as an interim type.
+			The Amiot 351 was planned to mount one 7.5 mm (.295 in) MAC 1934 machine gun in nose and ventral positions and one 20 mm Hispano-Suiza HS.404 cannon in the dorsal position. Due to technical problems with the armament installation, many aircraft went to operational units with only a light machine gun in the dorsal position.
+			In May 1940, the Amiot 351/354 was in the process of equipping just two bomber groupes: GB 1/21 and GB II/21 based at Avignon. Though 200 were in the final stages of construction, only 35 were ready for flight. This situation was exacerbated by the Amiot 351/354 being built in three factories, two of which were later bombed by the Germans. On 16 May 1940, the Amiot 351/354's carried out armed reconnaissance sorties over Maastricht in the Netherlands - the first operation conducted by planes of this type.
+			By June, the Amiot 351/354 was also delivered for GB I/34 and GB II/34, neither flying them in combat. At that time, all Amiot 351/354s were based on the northern front. Three had been lost in combat, 10 in training accidents. All aircraft were ordered to evacuate to Africa on 17 June, 37 surviving the trip. As their numbers were too few to engage the Italians, they planes were sent back to Metropolitan France and their groupes disbanded in August 1940.
+			Five Amiot 351/354s continued to be used as a mail plane after the Battle of France. Four Amiot 351/354 were commandeered by the Luftwaffe as transports, two found service in the 1./KG200 special service geschwader.
+			Engines taken from these aircraft were later used on Messerschmitt Me 323 cargo transports.
+		</Text>
+	</Row>
+
+	<!-- Capital Ships************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_RICHELIEU_CLASS">
+		<Text>RICHELIEU CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_RICHELIEU_CLASS">
+		<Text>French Capital Ship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_RICHELIEU_CLASS_TEXT">
+		<Text>
+			The Richelieu class battleships were the last and largest battleships of the French Navy, staying in service into the 1960s. Designed in the 1930s to counter of threat of the Italian Vittorio Veneto class battleships, the Richelieu class were essentially scaled-up versions of the preceding Dunkerque class, featuring a main armament of eight 380 mm guns in two quadruple turrets in forward superfiring positions.
+			Four Richelieu class ships, of three different subclasses, were laid down over the course of three naval construction programs, in 1935, 1936, and 1938. Only the two first units, Richelieu and Jean Bart, were ever completed, and saw service during World War II, first under Vichy control in Dakar (1940) and Casablanca (1942), then under the Allies' control, Richelieu participating in British Home Fleet and Eastern Fleet operations, and supported the French forces return to Indochina in late 1945. Jean Bart was not completed until the 1950s, and took part in the operations off Port Saïd (Egypt) during the Suez Crisis in 1956. Both were scrapped in the late 1960s.
+		</Text>
+	</Row>
+
+	<!-- Carriers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_JOFFRE_CLASS">
+		<Text>JOFFRE CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_JOFFRE_CLASS">
+		<Text>French Aircraft Carrier from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_JOFFRE_CLASS_TEXT">
+		<Text>
+			The Joffre was designed to give the French Navy a fleet carrier of greater capability than the existing Béarn. The Béarn was hopelessly outclassed by the late 1930s as French aircraft carrier design had not kept pace with developments in other countries, and badly hampered by the fact it was not designed from the keel up as an aircraft carrier, but was instead a converted World War I-era battleship. Joffre was a design aimed at rectifying the deficiencies, but was still of limited capacity.
+			The lead ship was laid down on 26 November 1938, but the rapid arrival of World War II led to a slow down of construction and the ultimate cessation of work that came in June 1940 as the country capitulated to German invasion. Work on the Joffre was not continued by the Germans and the hull was scrapped. The second planned vessel of the class, the Painlevé was never laid down.
+			As the course of the war went, the lack of naval aviation did not become a factor for the French fleet, as France fell to land invasion before its navy could play a major role in the proceedings.
+		</Text>
+	</Row>
+
+	<!-- Cruisers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_LA_GALISSONNIERE">
+		<Text>LA GALISSONNIERE</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_LA_GALISSONNIERE">
+		<Text>French Cruiser from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_LA_GALISSONNIERE_TEXT">
+		<Text>
+			The La Galissonnière cruiser class was a group of six warships admitted in active service in the French Navy in the 1930s. They were the last French cruisers completed after 1935, until the completion of De Grasse in 1956. They are considered as fast, reliable and successful ships[1]. Two cruisers of this class, Georges Leygues and Montcalm, took part, on late September, 1940, to the defence of Dakar against a vain attempt of British and Free French Forces to occupy this important naval base of French West Africa, under the Vichy control. With the cruiser Gloire, they joined the Allied forces, after the successful Allied landings in North Africa, on November 1942.
+			The three other cruisers of La Galissoniere class, staying under Vichy control in Toulon, have been scuttled on November 27, 1942.
+			After refit with American help, Georges Leygues, Montcalm and Gloire took part to various Allied operations, as covering the D-Day Normandy landings in 1944. Postwar they were flagship of the French Mediterranean Squadron, and carried out several operations off Indo China coasts, till 1954, and afterwars off Algeria coasts, or off Egypt, during the Suez crisis.
+			They were scrapped between 1958 and 1970.
+		</Text>
+	</Row>
+
+	<!-- Destroyers**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_FANTASQUE_CLASS">
+		<Text>FANTASQUE CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_FANTASQUE_CLASS">
+		<Text>French Destroyer from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_FANTASQUE_CLASS_TEXT">
+		<Text>
+			The Fantasque class of six large, very fast destroyers (also referred to as the Malin class) was ordered under the French naval programme of 1930. They served in World War II for both Vichy France and the Free French Forces.
+			The original purpose of these large French destroyers, and the earlier Chacal class, was to operate with battleship and cruiser forces, although they were not restricted to this. The Italian navy, the Regia Marina, reacted by building the Capitani Romani class cruisers. Those ships that sailed with the Allies were classed as light cruisers.
+		</Text>
+	</Row>
+
+	<!-- Early Fighters************************************************ -->
+	<Row Tag="TXT_KEY_UNIT_NIEUPORT_17">
+		<Text>NIEUPORT 17</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_NIEUPORT_17">
+		<Text>
+			The Nieuport 17 was a French biplane fighter aircraft of World War I.
+		</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_NIEUPORT_17_TEXT">
+		<Text>
+			The type was a slightly larger development of the earlier Nieuport 11, and had a more powerful engine, larger wings, and a more refined structure in general. At first, it was equipped with a 110 hp (82 kW) Le Rhône 9J engine, though later versions were upgraded to a 130 hp (97 kW) engine. It had outstanding maneuverability, and an excellent rate of climb. Unfortunately, the narrow lower wing, marking it as a "sesquiplane" design with literally "one-and-a-half wings", was weak due to its single spar construction, and had a disconcerting tendency to disintegrate in sustained dives at high speed.[1] Initially, the Nieuport 17 retained the above wing mounted Lewis gun of the "11", but in French service this was soon replaced by a synchronised Vickers gun. In the Royal Flying Corps, the wing mounted Lewis was usually retained, by now on the improved Foster mounting, a curved metal rail which allowed the pilot to bring the gun down in order to change drums or clear jams. A few individual aircraft were fitted with both guns - but in practice this reduced performance unacceptably, and a single machine gun remained standard.
+			The type reached the French front in March 1916, and quickly began to replace the Nieuport 11 in French service. It was also ordered by the Royal Flying Corps and Royal Naval Air Service, as it was superior to any British fighter at that time. Worthy of note is the fact that during part of 1916, the Nieuport 17 equipped every fighter squadron of the Aéronautique Militaire. The Germans supplied captured examples to several of their aircraft manufacturers for them to copy. This resulted in the Siemens-Schuckert D.I which, apart from the engine installation, was a close copy and actually went into production, although in the event it was not used operationally on the Western Front.
+			By early 1917, the Nieuport was outclassed in most respects by the latest German fighters. Newer models (the Nieuport 24 and the 27) were brought out in an attempt to retain the type's ascendency. However, the SPAD S.VII had already replaced the Nieuport fighters in many French squadrons by mid-1917. The British persisted with Nieuports a little longer, not replacing their last Nieuport 24bis until early 1918.
+			Many Allied air aces flew Nieuport fighters, including Canadian ace W. A. Bishop, who received a Victoria Cross while flying it, and most famously of all, Albert Ball, V.C.
+			Like the other Nieuport types, the 17 was used as an advanced trainer for prospective fighter pilots after its operational days were over.
+		</Text>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_RENAULT_FT-17">
+		<Text>RENAULT FT-17</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_RENAULT_FT-17">
+		<Text>French Early Tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_RENAULT_FT-17_TEXT">
+		<Text>
+			The Renault FT or Automitrailleuse à chenilles Renault FT modèle 1917, informally known as the FT-17 or FT17, was a French light tank; it is among the most revolutionary and influential tank designs in history. The FT was the first operational tank with an armament in a fully rotating turret,[nb 1] and its configuration with the turret on top, engine in the back and the driver in front became the conventional one, repeated in most tanks until today. Armour historian Steven Zaloga has called the Renault FT "the world's first modern tank".
+The FT was widely used by the French and the US in the later stages of World War I, after 31 May 1918. It was cheap and well-suited for mass production. It reflected an emphasis on quantity, both on a tactical level: Estienne proposed to overwhelm the enemy defences by a "swarm" of light tanks, and on a geostrategic level: the Entente was thought to be able to gain the upper hand by outproducing the Central Powers. A goal was set of 12,260 to be manufactured (4,440 of which in the USA) before the end of 1919.
+
+After the war, FTs were exported to many countries (Poland, Finland, Estonia, Lithuania, Romania, Yugoslavia, Czechoslovakia, Switzerland, Belgium, Netherlands, Spain, Brazil, Turkey, Iran, Afghanistan and Japan). As a result, FT tanks were used by most nations having armoured forces, invariably as their first tank type, including the United States. They took part in many later conflicts, such as the Russian Civil War, Polish-Soviet War, Chinese Civil War, Rif War and Spanish Civil War.
+
+In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, Czechoslovakia, Estonia, Finland, France, Nazi Germany, Iran, Japan, Lithuania, the Netherlands, Poland, Romania, the Russian White movement, the Soviet Union, Spain, Sweden, Switzerland, Turkey, Norway, the United Kingdom, the United States and the Kingdom of Yugoslavia.
+
+
+
+		</Text>
+	</Row>
+
+	<!-- Fighters****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_MORANE-SAULNIER_M.S.406">
+		<Text>MORANE-SAULNIER M.S.406</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_MORANE-SAULNIER_M.S.406">
+		<Text>French Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_MORANE-SAULNIER_M.S.406_TEXT">
+		<Text>
+			The M.S.406 was a French Armée de l'Air fighter aircraft built by Morane-Saulnier starting in 1938. Numerically it was France's most important fighter during the opening stages of World War II.
+			Although sturdy and highly maneuverable, it was under-powered and weakly armed when compared to its contemporaries. Most critically, it was out-performed by the Messerschmitt Bf 109E during the Battle of France. The M.S.406 held its own in the early stages of the war (the so-called Phoney War), but when the war restarted in earnest in 1940, 387 were lost in combat or on the ground (for various reasons) for 183 kills in return. The type was more successful in the hands of Finnish and Swiss air forces who developed indigenous models.
+		</Text>
+	</Row>
+
+	<!-- Infantry - Replaced by Foreign Legion ************************************************** --><!--
+	<Row Tag="TXT_KEY_UNIT_WW2INFANTRY_FRANCE">
+		<Text>French WW2 Infantry</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_FRANCE_WW2INFANTRY">
+		<Text>French infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_FRANCE_WW2INFANTRY_TEXT">
+		<Text>
+			The first permanent army, paid with regular wages, was established under Charles VII of France. From 1792, the French Revolutionary Army fought the allies. Under Napoleon I, the French Army conquered most of Europe during the Napoleonic Wars. In August 1914, the French Armed Forces numbered 1,300,000 soldiers. During the First World War the French Armed Forces reached a size of 8,300,000 soldiers, of which about 300,000 came from the colonies. During the war around 1,400,000 soldiers were killed. It was the most deadly conflict in French history. The main generals were: Joseph Joffre, Foch, Mangin, Degoutte, Philippe Pétain, Nivelle, Franchet d'Esperey, Raspail and Maurice Sarrail (See French Army in World War I).
+			At the beginning of the war, the French Army was wearing the uniform of the Franco-Prussian War of 1870, but the uniform was maladopted to the trenches, and so in 1915 the Army replaced the uniform, with the Adrian helmet replacing the képi. A uniform with a capote, of bleu-horizon colour adopted to the trenches, was adopted, and the uniform for colonial soldiers coloured khaki.
+			At the beginning of the Second World War the Army deployed 2,240,000 combatants grouped into 94 divisions (of which 20 were active and 74 were reservists) from the Swiss border to the North Sea. These numbers were limited to 12% of the Wehrmacht forces, however, the Army of the Alps facing Italy and 600,000 men dispersed through the French colonial empire are not included in this figure.[citation needed] After 1945, despite enormous efforts in the First Indochina War of 1945–1954 and the Algerian War of 1954–62, both lands eventually left French control.
+			During the Cold War, the French Army, though not part of NATO's military command structure, planned for the defence of Western Europe. In 1977 The French Army switched from multi-brigade divisions to smaller divisions of about four to five battalions/regiments each. After 1977, II Corps (France) was stationed in South Germany, and effectively formed a reserve for NATO's Central Army Group. In the 1980s, III Corps headquarters was moved to Lille and planning started for its use in support of NATO's Northern Army Group. The Rapid Action Force of five light divisions was also intended as a NATO reinforcement force. In the late 1970s an attempt was made to form 14 reserve light infantry divisions, but this plan, which included the recreation of the 109th Infantry Division, was too ambitious. From June 1984, the French Army reserve consisted of 22 military divisions, administering all reserve units in a certain area, seven brigades de zone de defence, 22 regiments interarmees divisionnaires, and the 152nd Infantry Division, defending the ICBM launch sites.
+			In February 1996 the President of the Republic decided on a transition to a professional service force, and as part of the resulting changes, ten regiments were dissolved in 1997. The specialist brigades were transferred on 1 July 1997 to Lunéville for the engineers, Haguenau (the artillery brigade) and Strasbourg (engineers). The 2nd Armoured Division left Versailles on 1 September 1997 and was installed at Châlons-en-Champagne in place of the disbanding 10th Armoured Division. On 5 March 1998, in view of the ongoing structural adoptions of the French Army, the Minister of Defence decided to disband III Corps, and the dissolution became effective 1 July 1998. The headquarters transitioned to become Headquarters Commandement de la force d'action terrestre (CFAT) (the Land Forces Action Command).
+			During the late 1990s, during the professionalisation process, numbers dropped from the 1996 236,000 (132,000 conscripts) to around 140,000. By June 1999, the Army's strength had dropped to 186,000, including around 70,000 conscripts. 38 of 129 regiments were planned to be stood down from 1997–99. The previous structure's nine 'small' divisions and sundry separate combat and combat support brigades were replaced by nine combat and four combat support brigades. The Rapid Action Force, a corps of five small rapid-intervention divisions formed in 1983, was also disbanded, though several of its divisions were re-subordinated.
+			In 1999 the Army issued the Code of the French Soldier, which includes the injunctions:
+			(...) Mastering his own strength, he respects his opponent and is careful to spare civilians. He obeys orders while respecting laws, customs of war and international conventions.(...) He is aware of global societies and respects their differences. (...)
+		</Text>
+	</Row>-->
+
+	<!-- Paratroopers************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_FRANCE_WW2PARATROOPER">
+		<Text>French WW2 Paratroupers</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_FRANCE_WW2PARATROOPER">
+		<Text>French infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_FRANCE_WW2PARATROOPER_TEXT">
+		<Text>
+			The Troupes de marine or Infanterie de marine, formerly Troupes coloniales, are an arm of the French Army with a colonial heritage. The Troupes de marine have a dedicated overseas service role. Despite their title they have been a part of the Army since 1958. They are sometimes referred as French Marines in English-speaking medias
+			Soldiers of the troupes de marine are likely to spend much more of their service overseas, particularly in Africa, than other French soldiers. The troupes de marine include infantry (including light tank units and airborne units) and artillery. The Troupes de marine were founded in 1622 (officially titled compagnies ordinaires de la mer) as land forces under the control of the navy, notably for operations in French Canada. The Troupes de marine were transferred to the army in 1900 and became part of the Troupes Coloniales (Colonial Troops). The nickname la Coloniale or la Colo refers to this heritage.
+			At their height in 1940, the Troupes Coloniales consisted of nine divisions and several demi-brigades who manned machine gun emplacements on the Maginot Line. They were recruited both in France and overseas.
+			With France divesting itself of its colonies, on 1 December 1958 the title of Troupes de marine was readopted, this time for all the Troupes Coloniales. They became a major component in France's Forces d'Intervention.
+		</Text>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_REDOUTABLE_CLASS">
+		<Text>REDOUTABLE CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_REDOUTABLE_CLASS">
+		<Text>French Submarine from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_REDOUTABLE_CLASS_TEXT">
+		<Text>
+			The Redoutable class submarines were ocean-going submarines of the French Navy during the Second World War. They were officially called "Long patrol submarines" (Fr:Sous-marins de grande patrouille), or "Type 1 submarines". They were also referred to as the 1500 Series, and regarded as being in three sub-classes. The Redoubtable class were generally regarded as successful, being reliable and seaworthy, with a good range and armament. A total of 31 were built, the largest class of submarines built by the French Navy, and comprising one-third of its total submarine force.
+		</Text>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_CHAR_D2">
+		<Text>CHAR D2</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_CHAR_D2">
+		<Text>French tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_CHAR_D2_TEXT">
+		<Text>
+			The Char D2 was a French tank of the Interbellum.
+			In 1930, at a time the Char D1 had not even entered production, the Renault company agreed to build a better armoured version called the Char D2. By using welded armour plate instead of the dated riveted design of the D1 this would be lighter than a simple version of the D1 made with thicker plating. The tank should be able to serve as an alternative in the rôle of battle tank for the heavy Char B1, should the latter be forbidden by treaty. The failure of the armament limitation talks resulted in a severe reduction of the projected manufacture, now in the form of an interim tank. Organisational difficulties with Renault caused the actual production of a first series of fifty to be delayed to the years 1936 and 1937. A second series of fifty was ordered in 1938, despite indications that the type was mechanically unreliable, as a possible cheaper addition to the expensive Char B1, to be able to raise more armoured divisions of the Infantry Arm. Due to Renault's financial problems, this second, partially improved version, was only realised in early 1940, bringing total production to a hundred.
+			The three prototypes were, among others, fitted with turrets of the Renault FT 17 during a mock-up. The production models of the first series had the APX-1 turret, armed with a short 47mm SA34 tank gun. The second series used the much more powerful 47mm SA35 tank gun; from March 1940 this was retrofitted to a number of the older vehicles, despite a parallel project to rebuild them as flamethrower tanks.
+			In 1937 the type equipped one tank battalion, which was considered an elite unit, as part of Charles de Gaulle's regiment. It was well-trained in the use of advanced tactics, including the use of radio-sets. In 1940 the effectiveness of this unit had much diminished, because of the worn-out state of its tanks, aggravated by the decision to raise three autonomous tank companies with the new vehicles, even though insufficient trained crews were available. Nevertheless the Char D2 units fought tenaciously during the Battle of France, losing most of their tanks to mechanical breakdown instead of enemy action.
+		</Text>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_RENAULT_R-40">
+		<Text>RENAULT R-40</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_RENAULT_R-40">
+		<Text>French light tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_RENAULT_R-40_TEXT">
+		<Text>The Renault R40 or Char léger modèle 1935 R modifié 1939 was a French light infantry tank that was used early in World War II, an improvement of the Renault R35, of which it is often considered a variant.
+		</Text>
+	</Row> -->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row Tag="TXT_KEY_UNIT_CHAR_D2">
+		<Text>CHAR_D2</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_CHAR_D2">
+		<Text>French medium tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_CHAR_D2_TEXT">
+		<Text>The Char D2 was a French tank of the Interbellum.
+		In 1930, at a time the Char D1 had not even entered production, the Renault company agreed to build a better armoured version called the Char D2. By using welded armour plate instead of the dated riveted design of the D1 this would be lighter than a simple version of the D1 made with thicker plating. The tank should be able to serve as an alternative in the rôle of battle tank for the heavy Char B1, should the latter be forbidden by treaty. The failure of the armament limitation talks resulted in a severe reduction of the projected manufacture, now in the form of an interim tank. Organisational difficulties with Renault caused the actual production of a first series of fifty to be delayed to the years 1936 and 1937. A second series of fifty was ordered in 1938, despite indications that the type was mechanically unreliable, as a possible cheaper addition to the expensive Char B1, to be able to raise more armoured divisions of the Infantry Arm. Due to Renault's financial problems, this second, partially improved version, was only realised in early 1940, bringing total production to a hundred.
+		The three prototypes were, among others, fitted with turrets of the Renault FT 17 during a mock-up. The production models of the first series had the APX-1 turret, armed with a short 47mm SA34 tank gun. The second series used the much more powerful 47mm SA35 tank gun; from March 1940 this was retrofitted to a number of the older vehicles, despite a parallel project to rebuild them as flamethrower tanks.
+		In 1937 the type equipped one tank battalion, which was considered an elite unit, as part of Charles de Gaulle's regiment. It was well-trained in the use of advanced tactics, including the use of radio-sets. In 1940 the effectiveness of this unit had much diminished, because of the worn-out state of its tanks, aggravated by the decision to raise three autonomous tank companies with the new vehicles, even though insufficient trained crews were available. Nevertheless the Char D2 units fought tenaciously during the Battle of France, losing most of their tanks to mechanical breakdown instead of enemy action.
+		</Text>
+	</Row>-->
+	
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_CHAR_2C">
+		<Text>CHAR 2C</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_CHAR_2C">
+		<Text>French heavy tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_CHAR_2C_TEXT">
+		<Text>The Char 2C (also known as FCM 2C) was a French super-heavy tank developed, although never deployed, during World War I. It was the largest (in physical dimensions) operational tank ever.
+		</Text>
+	</Row>-->
+	
+	
+	<!-- ************************************GENERIC***************************** -->
+
+
+	<!-- Capital Ships************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_DREADNOUGHT">
+		<Text>DREADNOUGHT</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_DREADNOUGHT">
+		<Text>Capital Ship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_DREADNOUGHT_TEXT">
+		<Text></Text>
+	</Row>
+
+	<!-- Cruisers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_CRUISER">
+		<Text>CRUISER</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_CRUISER">
+		<Text>Cruiser from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_CRUISER_TEXT">
+		<Text></Text>
+	</Row>
+
+	<!-- Early Fighters************************************************ -->
+	<Row Tag="TXT_KEY_UNIT_EARLY_FIGHTER">
+		<Text>EARLY FIGHTER</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_EARLY_FIGHTER">
+		<Text>Early Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_EARLY_FIGHTER_TEXT">
+		<Text></Text>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_EARLY_TANK">
+		<Text>EARLY TANK</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_EARLY_TANK">
+		<Text>Early Tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_EARLY_TANK_TEXT">
+		<Text>
+			Tanks first appeared on the battlefield as a solution to trench warfare. They were large, heavy, slow moving vehicles capable of driving right over the top of enemy trenches; thereby eliminating the need to send soldiers "over the top" only to be blasted to pieces by enemies. The British Army was the first to use them, who built them in secret to begin with. To keep the enemy from finding out about this new solution, the public were informed that the vehicles were large water carriers, or tanks, and the name stuck.
+
+			World War I established the validity of the tank concept. After the war, many nations needed to have tanks, but only a few had the industrial resources to design and build them. During and after World War I, Britain and France were the intellectual leaders in tank design, with other countries generally following and adopting their designs. This early lead would be gradually lost during the course of the 1930s to the Soviet Union who with Germany began to design and build their own tanks.
+
+			While World War One saw the first use of the tank as a weapon of war, it was during World War Two that the tank soon became a dominant force on the battlefield. The British, American, German and Russian armies all had different approaches to tanks and tank warfare, each with their fair share of successes and failures. The infantry tank was a concept developed by the British and French in the years leading up to World War II. Infantry tanks were tanks designed to support the infantry in the attack. To achieve this they were generally heavily armoured compared to the cruiser tanks, to allow them to operate in close concert with infantry even under heavy gun fire. The extra armouring came at the expense of speed, which was not an issue when supporting relatively slow moving infantry.
+
+			Once the infantry tank-supported attack had broken through heavily defended areas in the enemy lines, other tanks such as cruisers, or light tanks, were expected to exploit their higher speed and longer range to operate far behind the front in order to cut lines of supply and communications.
+
+		</Text>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_LIGHT_TANK">
+		<Text>LIGHT TANK</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_LIGHT_TANK">
+		<Text>Light tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_LIGHT_TANK_TEXT">
+		<Text></Text>
+	</Row>-->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row Tag="TXT_KEY_UNIT_MEDIUM_TANK">
+		<Text>MEDIUM TANK</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_MEDIUM_TANK">
+		<Text>Medium tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_MEDIUM_TANK_TEXT">
+		<Text></Text>
+	</Row>	-->
+	
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_HEAVY_TANK">
+		<Text>HEAVY TANK</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_HEAVY_TANK">
+		<Text>Heavy tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_HEAVY_TANK_TEXT">
+		<Text></Text>
+	</Row>-->
+
+	
+	<!-- ************************************GERMANY***************************** -->
+
+	
+	<!-- AAs******************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_FLAKPANZER_38(T)">
+		<Text>FLAKPANZER 38(T)</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_FLAKPANZER_38(T)">
+		<Text>German AntiAircraft from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_FLAKPANZER_38(T)_TEXT">
+		<Text>The Flakpanzer 38(t) was intended to be issued to the anti-aircraft platoon of each tank battalion (Panzer Abteilung) in a Panzer division. Most of the Flakpanzer 38(t)s were issued to Panzer Divisions on the Western Front, the remainder served on the Eastern Front</Text>
+	</Row>
+
+	<!-- Antitanks************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SDKFZ162_JAGDPANZER_IV_L-70">
+		<Text>SDKFZ162 JAGDPANZER IV L-70</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SDKFZ162_JAGDPANZER_IV_L-70">
+		<Text>German AntiTank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SDKFZ162_JAGDPANZER_IV_L-70_TEXT">
+		<Text>The Jagdpanzer IV, Sd.Kfz. 162, was a tank destroyer based on the Panzer IV chassis built in three main variants. As one of the casemate-style turretless Jagdpanzer ("Hunting tank") designs, it was developed against the wishes of Heinz Guderian, the inspector general of the Panzertruppen, as a replacement for the Sturmgeschütz III (StuG III). Guderian objected against the needless, in his eyes, diversion of resources from Panzer IV tank production, as the Stug III and Sturmgeschütz IV were still more than adequate for their role.
+
+</Text>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SCHARNHORST_CLASS">
+		<Text>SCHARNHORST CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SCHARNHORST_CLASS">
+		<Text>German Battleship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SCHARNHORST_CLASS_TEXT">
+		<Text>The Scharnhorst class were the first capital ships, alternatively referred to as battlecruisers or battleships, built for the German Navy (Kriegsmarine) after World War I. The class comprised two vessels: the lead ship Scharnhorst and Gneisenau. Scharnhorst was launched first,[6] and so she is considered to be the lead ship by some sources; however, they are also referred to as the Gneisenau class in some other sources,[7] as Gneisenau was the first to be laid down and commissioned.[6] They marked the beginning of German naval rearmament after the Treaty of Versailles. The ships were armed with nine 28 cm (11 in) SK C/34 guns in three triple turrets, though there were plans to replace these weapons with six 38 cm (15 in) SK C/34 guns in twin turrets.
+
+The two ships were laid down in 1935, launched in late 1936, and commissioned into the German fleet by early 1939. Scharnhorst and Gneisenau operated together for much of the early portion of World War II, including sorties into the Atlantic to raid British merchant shipping. The two ships participated in Operation Weserübung, the German invasion of Norway. During operations off Norway, the two ships engaged the battlecruiser HMS Renown and sank the aircraft carrier HMS Glorious— in the engagement with Glorious, Scharnhorst achieved one of the longest-range naval gunfire hits in history. In early 1942, the two ships made a daylight dash up the English Channel from occupied France to Germany.
+
+In late 1942, Gneisenau was heavily damaged in an Allied air raid against Kiel. In early 1943, Scharnhorst joined the Bismarck class battleship Tirpitz in Norway to interdict Allied convoys to the Soviet Union. Scharnhorst and several destroyers sortied from Norway to attack a convoy; the Germans were instead intercepted by British naval patrols. During the battle of North Cape, the Royal Navy battleship HMS Duke of York sank Scharnhorst. In the meantime, repair work on Gneisenau had begun, and the ship was in the process of being rearmed. However, when Scharnhorst was sunk, work on her sister was abandoned. Instead, she was sunk as a blockship in Gdynia in 1945; the wreck was broken up for scrap in the 1950s.
+
+</Text>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_JUNKERS_JU-88">
+		<Text>JUNKERS JU-88</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_JUNKERS_JU-88">
+		<Text>German Bomber from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_JUNKERS_JU-88_TEXT">
+		<Text>The Junkers Ju 88 was a World War II German Luftwaffe twin-engine, multi-role aircraft. Designed by Hugo Junkers' company in the mid-1930s, it suffered from a number of technical problems during the later stages of its development and early operational roles, but became one of the most versatile combat aircraft of the war. Affectionately known as "The Maid of all Work" (a feminine version of "jack of all trades"), the Ju 88 proved to be suited to almost any role. Like a number of other Luftwaffe bombers, it was used successfully as a bomber, dive bomber, night fighter, torpedo bomber, reconnaissance aircraft, heavy fighter, and even as a flying bomb during the closing stages of conflict.[1]
+
+Despite its protracted development, the aircraft became one of the Luftwaffe's most important assets. The assembly line ran constantly from 1936 to 1945, and more than 16,000 Ju 88s were built in dozens of variants,[2] more than any other twin-engine German aircraft of the period. Throughout the production, the basic structure of the aircraft remained unchanged, proof of the outstanding quality of the original design.
+</Text>
+	</Row>
+
+	<!-- Capital Ships************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_BISMARK_CLASS">
+		<Text>BISMARK CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_BISMARK_CLASS">
+		<Text>German Capital Ship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_BISMARK_CLASS_TEXT">
+		<Text>The Bismarck class was a pair of battleships built by the German Kriegsmarine shortly before the outbreak of World War II. The ships were the largest warships built by the German Navy and the heaviest capital ships ever completed in Europe. Bismarck was laid down in July 1936 and completed in September 1940, while her sister Tirpitz's keel was laid in October 1936 and work finished in February 1941. The two ships were broadly similar to the World War I-era Bayern class, in that they mounted a similar main battery and were protected by a similar armour arrangement.
+
+Both ships had short service careers. Bismarck conducted only one operation, Operation Rheinübung, a sortie into the North Atlantic to raid supply convoys sent from North America to Great Britain. During the operation, she destroyed the British battlecruiser HMS Hood and damaged the new battleship Prince of Wales in the Battle of the Denmark Strait. After a three-day chase, the Royal Navy destroyed the ship; the exact cause of her loss is uncertain, due to claims by survivors from Bismarck that they scuttled their ship.
+
+Tirpitz's career was less dramatic; she was sent to Norwegian waters in 1942, where she acted as a fleet in being, threatening the convoys from Britain to the Soviet Union. She was repeatedly attacked by Royal Navy midget submarines and Royal Air Force bombers. Ultimately, Lancaster bombers hit the ship with three Tallboy bombs, which caused extensive internal damage and capsized the battleship. Tirpitz was broken up for scrap between 1948 and 1957. However, a large portion of the bow remains where it sank in 1944.
+
+</Text>
+	</Row>
+
+	<!-- Carriers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_GRAF_ZEPPELIN_CLASS">
+		<Text>GRAF ZEPPELIN CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_GRAF_ZEPPELIN_CLASS">
+		<Text>German Aircraft Carrier from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_GRAF_ZEPPELIN_CLASS_TEXT">
+		<Text>The Graf Zeppelin-class aircraft carriers were two German Kriegsmarine aircraft carriers laid down in the mid-1930s as part of the Plan Z rearmament program. Four ships were initially envisioned but reduced to two by Großadmiral (Grand Admiral) Erich Raeder in 1939. Eventually, only the Graf Zeppelin was launched in 1938 but never completed; she was sunk as a target ship by the Soviets in 1947. Construction on the second ship, designated Flugzeugträger B, was halted in 1939, before launching; the ship was scrapped the following year.
+
+A lack of experience in building aircraft carriers led to difficulties in implementing advanced technologies such as aircraft catapults into the Graf Zeppelin class. German designers studied Japanese designs but were constrained by the realities of creating a North Sea carrier versus a "Blue Water" design. For instance, several cruiser-type guns were envisioned to allow commerce raiding and defense against British cruisers. This contrasted with American and Japanese designs, which were more oriented toward a task-force defense and relied on supporting cruisers for surface firepower.
+
+These ships were also the subject of intense political wrangling within the German military. Reichsmarschall Hermann Göring, Commander of the Luftwaffe, was resentful of any incursion on his authority as head of the country's air power and frustrated Raeder at every opportunity. Within his own service, Raeder found opposition in Admiral Karl Dönitz, a submariner. Führer und Reichskanzler (Leader and Reich Chancellor) Adolf Hitler showed a decreasing interest in the carriers and became disappointed with the Kriegsmarine's surface fleet after the Battle of the Barents Sea in December 1942. This disenchantment on Hitler's part led to a stop on completing Graf Zeppelin and the resignation of Raeder.
+
+</Text>
+	</Row>
+
+	<!-- Cruisers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_DEUTSCHLAND_CLASS">
+		<Text>DEUTSCHLAND CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_DEUTSCHLAND_CLASS">
+		<Text>German Cruiser from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_DEUTSCHLAND_CLASS_TEXT">
+		<Text>
+			The Deutschland class was a series of three Panzerschiffe ("armoured ships"), a form of heavily armed cruiser, built by the German Reichsmarine more or less in accordance with restrictions imposed by the Treaty of Versailles. The class is named after the first ship of this class to be completed (the Deutschland). She and her sister ships, the Admiral Scheer and the Admiral Graf Spee, were all launched between 1931 and 1934 and served in Germany's Kriegsmarine during World War II.
+
+			The Panzerschiffe were built as replacements for the pre-dreadnought battleships allowed by the Treaty of Versailles. Deutschland replaced SMS Preussen, Admiral Scheer replaced SMS Lothringen and Admiral Graf Spee replaced SMS Braunschweig. The Panzerschiffe replaced capital ships used for coastal defense by the Reichsmarine. However, the Panzerschiffe were designed as high seas raiders: they had greater range and higher speed than the coastal defense ships they replaced and were much heavier armed than the heavy cruisers of rival navies.
+
+			The British began referring to the vessels as pocket battleships ("a battleship that fits into a pocket"), in reference to the heavy firepower of the relatively small vessels. They were considerably smaller than a true battleship and their armor and guns were far inferior to those of battleships and battlecruisers; however, they could outgun any contemporary cruiser. The ships were actually two feet longer than the American Pennsylvania-class battleships, and superficially resembled contemporary battleships due to their massive main gun turrets, unusually high conning tower/bridge and the masts of the Admiral Scheer and Admiral Graf Spee. The Deutschland's design and displacement was very similar to that of a heavy cruiser, though they were armed with guns larger than the heavy cruisers of other nations, albeit at the price of a lower speed than a cruiser. The Panzerschiffe had a greater cruising range than the following Hipper class cruisers, making them more suitable as high seas raiders. The term capital ship typically encompassed battleships and battlecruisers, and not heavy cruisers, but the Deutschlands were sometimes classified as capital ships (though by importance rather than attributes).
+
+			The Deutschland cruisers illustrate one aspect of fleet in being in that the hunt for the Admiral Graf Spee in 1939 alone tied up a total of three battleships, two battlecruisers, four aircraft carriers, and 16 cruisers.
+
+			Deutschland class ships were initially classified as panzerschiffe or "armoured ships", but the Kriegsmarine reclassified them as heavy cruisers in February 1940.
+
+		</Text>
+	</Row>
+
+	<!-- Destroyers**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_Z_CLASS">
+		<Text>Z CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_Z_CLASS">
+		<Text>German Destroyer from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_Z_CLASS_TEXT">
+		<Text>
+			At the outbreak of the Second World War, the German Navy, the Kriegsmarine, had 21 destroyers (Ger: Zerstörer).[1] These had all been built in the 1930s, making them modern vessels. A further 19 were brought into service during the war and more were captured from opposing navies, including the Italian Navy (Regia Marina) after the Italian surrender in 1943.[2]
+
+			German destroyer classes were generally known by the year of their design. Because of their size, use and weaponry, some vessels classified as "fleet torpedo boats", Flottentorpedoboot, are also described.[1]
+
+			Class general characteristics are taken from the first of each class, and may differ slightly for individual ships, particularly when they were refitted. Post-war, some surviving ships had significant changes to armament.
+
+		</Text>
+	</Row>
+
+	<!-- Early Fighters************************************************ -->
+	<Row Tag="TXT_KEY_UNIT_FOKKER_DR.1">
+		<Text>FOKKER DR.1</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_FOKKER_DR.1">
+		<Text>German Early Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_FOKKER_DR.1_TEXT">
+		<Text>
+			The triplane arrangement may be compared with the biplane in a number of ways.
+
+			A triplane arrangement has a narrower wing chord than a biplane of similar span and area. This gives each wing plane a slender appearance with higher aspect ratio, making it more efficient and giving increased lift. This potentially offers a faster rate of climb and tighter turning radius, both of which are important in a fighter. The Sopwith Triplane was a successful example, having the same wing span as the equivalent biplane, the Sopwith Pup.
+
+			Alternatively, a triplane has reduced span compared to a biplane of given wing area and aspect ratio, leading to a more compact and lightweight structure. This potentially offers better maneuvrability for a fighter, and higher load capacity with more practical ground handling for a large aircraft type.
+
+			The famous Fokker Dr.I triplane was a balance between the two approaches, having moderately shorter span and moderately higher aspect ratio than the equivalent biplane, the Fokker D.VI.
+
+		</Text>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_A7V">
+		<Text>A7V</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_A7V">
+		<Text>German Early Tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_A7V_TEXT">
+		<Text>The A7V was a tank introduced by Germany in 1918, near the end of World War I. One hundred vehicles were ordered during the spring of 1918, but only 21 were delivered. It was nicknamed "The Moving Fortress" by the British because of the shape of the hull. They saw action from March to October of that year, and were the only tanks produced by Germany in World War I to see operational use.</Text>
+	</Row>
+
+	<!-- Fighters****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_MESSERSCHMITT_BF-109E">
+		<Text>MESSERSCHMITT BF-109E</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_MESSERSCHMITT_BF-109E">
+		<Text>German Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_MESSERSCHMITT_BF-109E_TEXT">
+		<Text>
+			The Messerschmitt Bf 109, often called Me 109, was a German World War II fighter aircraft designed by Willy Messerschmitt and Robert Lusser during the early to mid 1930s.[2] It was one of the first true modern fighters of the era, including such features as all-metal monocoque construction, a closed canopy, a retractable landing gear, and was powered by a liquid-cooled, inverted-V12 aero engine.[3]
+
+			The Bf 109 first saw operational service during the Spanish Civil War and was still in service at the dawn of the jet age at the end of World War II, during which time it was the backbone of the Luftwaffe's fighter force.[4] From the end of 1941 the Bf 109 was supplemented by the Focke-Wulf Fw 190.
+
+			Originally conceived as an interceptor, later models were developed to fulfill multiple tasks, serving as bomber escort, fighter-bomber, day-, night-, all-weather fighter, ground-attack aircraft, and as reconnaissance aircraft. It was supplied to and operated by several states during World War II, and served with several countries for many years after the war. The Bf 109 was the most produced fighter aircraft in history, with a total of 33,984 units produced from 1936 up to April 1945.[1][4]
+
+			The Bf 109 was flown by the three top-scoring German fighter aces of World War II, who claimed 928 victories between them while flying with Jagdgeschwader 52, mainly on the Eastern Front, as well as by Hans-Joachim Marseille, the highest scoring German ace in the North African Campaign.[5] It was also flown by several other successful aces from Germany's allies, notably Finland, including the highest scoring non-German ace Ilmari Juutilainen, and pilots from Romania, Croatia and Hungary. Through constant development, the Bf 109 remained competitive with the latest Allied fighter aircraft until the end of the war.
+		</Text>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_WW2INFANTRY_GERMANY">
+		<Text>German WW2 Infantry</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_GERMANY_WW2INFANTRY">
+		<Text>German infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_GERMANY_WW2INFANTRY_TEXT">
+		<Text></Text>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_GERMANY_WW2PARATROOPER">
+		<Text>German WW2 Paratroupers</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_GERMANY_WW2PARATROOPER">
+		<Text>German infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_GERMANY_WW2PARATROOPER_TEXT">
+		<Text></Text>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_U-BOAT_TYPE_XXIII">
+		<Text>U-BOAT TYPE XXIII</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_U-BOAT_TYPE_XXIII">
+		<Text>German Submarine from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_U-BOAT_TYPE_XXIII_TEXT">
+		<Text>German Type XXIII submarines were the first so-called elektroboats to become operational. They were small coastal submarines designed to operate in the shallow waters of the North Sea, Black Sea and Mediterranean Sea, where larger Type XXI Elektro boats were at risk in World War II. They were so small they could carry only two torpedoes, which had to be loaded externally. As with their far larger brothers — the Type XXI — they were able to remain submerged almost all of the time and were faster than all previous designs worldwide, due to the improved streamlining of their shape, batteries with larger capacity and the snorkel, which allowed the diesel engines to be used while submerged. The Type XXI and XXIII U-boats revolutionized post-war submarine design</Text>
+	</Row>
+
+	<!-- Tanks - Replaced by Panzer (Unique Unit) ********************************************************* -->
+<!--<Row Tag="TXT_KEY_UNIT_PANZER_VI_TIGER">
+		<Text>PANZER VI TIGER</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_PANZER_VI_TIGER">
+		<Text>German tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_PANZER_VI_TIGER_TEXT">
+		<Text>Tiger I is the common name of a German heavy tank developed in 1942 and used in World War II. The final official German designation was Panzerkampfwagen Tiger Ausf. E, often shortened to Tiger. It was an answer to the unexpectedly formidable Soviet armour encountered in the initial months of Operation Barbarossa, particularly the T-34 and the KV-1. The Tiger I design gave the Wehrmacht its first tank mounting the 88 mm gun, which had previously demonstrated its effectiveness against both air and ground targets. During the course of the war, the Tiger I saw combat on all German battlefronts. It was usually deployed in independent tank battalions, which proved to be quite formidable.
+
+While the Tiger I was feared by many of its opponents, it was over-engineered, used expensive and labour intensive materials and production methods, and was time-consuming to produce. Only 1,347 were built between August 1942 and August 1944. The Tiger was prone to certain types of track failures and immobilisations, it was however, generally mechanically reliable but expensive to maintain and complicated to transport due to its overlapping and interleaved road wheels. In 1944, production was phased out in favour of the Tiger II.
+
+The tank was given its nickname Tiger, and the Roman numeral was added after the later Tiger II entered production. The initial official German designation was Panzerkampfwagen VI Ausführung H (‘Panzer VI version H’, abbreviated PzKpfw VI Ausf. H), but the tank was redesignated as PzKpfw VI Ausf. E in March 1943. It also had the ordnance inventory designation SdKfz 181.
+
+Today, only a handful of Tigers survive in museums and exhibitions worldwide. Perhaps the most notable specimen is the Bovington Tank Museum's Tiger 131, currently the only one restored to running order.
+
+</Text>
+	</Row>-->
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_PANZER_II">
+		<Text>PANZER II</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_PANZER_II">
+		<Text>German light tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_PANZER_II_TEXT">
+		<Text>The Panzer II was the common name for a family of German tanks used in World War II. The official German designation was Panzerkampfwagen II (abbreviated PzKpfw II). Although the vehicle had originally been designed as a stopgap while more advanced tanks were developed, it nonetheless went on to play an important role in the early years of World War II, during the Polish and French campaigns. By the end of 1942 it had been largely removed from front line service, and production of the tank itself ceased by 1943. Its chassis remained in use as the basis of several other armored vehicles.
+
+</Text>
+	</Row>-->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row Tag="TXT_KEY_UNIT_PANZER_IV_Ausf_H">
+		<Text>PANZER IV Ausf H</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_PANZER_IV_Ausf_H">
+		<Text>German medium tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_PANZER_IV_Ausf_H_TEXT">
+		<Text>The Panzerkampfwagen IV (Pz.Kpfw. IV), commonly known as the Panzer IV, was a medium tank developed in Nazi Germany in the late 1930s and used extensively during the Second World War. Its ordnance inventory designation was Sd.Kfz. 161.
+
+Designed as an infantry-support tank, the Panzer IV was not originally intended to engage enemy armor—that function was performed by the lighter Panzer III. However, with the flaws of pre-war doctrine becoming apparent and in the face of Soviet T-34 tanks, the Panzer IV soon assumed the tank-fighting role of its increasingly obsolete cousin. The most widely manufactured and deployed German tank of the Second World War, the Panzer IV was used as the base for many other fighting vehicles, including the Sturmgeschütz IV tank destroyer, the Wirbelwind self-propelled anti-aircraft weapon, and the Brummbär self-propelled gun, amongst others.
+
+Robust and reliable, it saw service in all combat theaters involving Germany, and has the distinction of being the only German tank to remain in continuous production throughout the war, with over 8,800 produced between 1936 and 1945. Upgrades and design modifications, often made in response to the appearance of new Allied tanks, extended its service life. Generally these involved increasing the Panzer IV's armor protection or upgrading its weapons, although during the last months of the war with Germany's pressing need for rapid replacement of losses, design changes also included retrograde measures to simplify and speed manufacture.
+
+The Panzer IV was the most widely exported tank in German service, with around 300 sold to partners such as Finland, Romania, Spain and Bulgaria. After the war, the French and Spanish sold dozens of Panzer IVs to Syria, where they saw combat in the 1967 Six-Day War.
+
+</Text>
+	</Row>	-->
+	
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_PANZER_VI_TIGER">
+		<Text>PANZER VI TIGER</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_PANZER_VI_TIGER">
+		<Text>German heavy tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_PANZER_VI_TIGER_TEXT">
+		<Text>Tiger I is the common name of a German heavy tank developed in 1942 and used in World War II. The final official German designation was Panzerkampfwagen Tiger Ausf. E, often shortened to Tiger. It was an answer to the unexpectedly formidable Soviet armour encountered in the initial months of Operation Barbarossa, particularly the T-34 and the KV-1. The Tiger I design gave the Wehrmacht its first tank mounting the 88 mm gun, which had previously demonstrated its effectiveness against both air and ground targets. During the course of the war, the Tiger I saw combat on all German battlefronts. It was usually deployed in independent tank battalions, which proved to be quite formidable.
+
+While the Tiger I was feared by many of its opponents, it was over-engineered, used expensive and labour intensive materials and production methods, and was time-consuming to produce. Only 1,347 were built between August 1942 and August 1944. The Tiger was prone to certain types of track failures and immobilisations, it was however, generally mechanically reliable but expensive to maintain and complicated to transport due to its overlapping and interleaved road wheels. In 1944, production was phased out in favour of the Tiger II.
+
+The tank was given its nickname Tiger, and the Roman numeral was added after the later Tiger II entered production. The initial official German designation was Panzerkampfwagen VI Ausführung H (‘Panzer VI version H’, abbreviated PzKpfw VI Ausf. H), but the tank was redesignated as PzKpfw VI Ausf. E in March 1943. It also had the ordnance inventory designation SdKfz 181.
+
+Today, only a handful of Tigers survive in museums and exhibitions worldwide. Perhaps the most notable specimen is the Bovington Tank Museum's Tiger 131, currently the only one restored to running order.
+</Text>
+	</Row>-->
+
+
+	<!-- ************************************GREECE******************************* -->
+
+	
+	<!-- Bombers******************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_BRISTOL_BLENHEIM">
+		<Text>BRISTOL BLENHEIM</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_BRISTOL_BLENHEIM">
+		<Text>Greek Bomber from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_BRISTOL_BLENHEIM_TEXT">
+		<Text>
+			The Bristol Blenheim was a British light bomber aircraft designed and built by the Bristol Aeroplane Company that was used extensively in the early days of the Second World War. It was adapted as an interim long-range and night fighter, pending the availability of the Beaufighter. It was one of the first British aircraft to have all-metal stressed-skin construction, to utilise retractable landing gear, flaps, powered gun turret and variable pitch propellers. A Canadian-built variant named the Bolingbroke was used as an anti-submarine and training aircraft.
+
+			The Blenheim Mk I outshone most biplane fighters in the late 1930s but stood little chance against the German Messerschmitt Bf 109 during daylight operations, though it proved successful as a night fighter. The Mark IV variant was equally unsuccessful, suffering major losses in the early stages of the war.[
+			The aircraft was ordered directly from the drawing board with the first production model serving as the only prototype.[6] The name then became Blenheim Mk I after a historic German village where the British had won a great victory. Subsequent deliveries started on 10 March 1937, with 114 Squadron being the first squadron to receive the Blenheim.[6] The aircraft would prove to be so successful that it was licensed by a number of countries, including Finland and the Yugoslavia, which completed 60 examples. Other countries bought it outright, including Romania, Greece and Turkey. Total production of the Blenheim Mk I in England amounted to 1,351 aircraft.[6]
+
+		</Text>
+	</Row>
+
+	<!-- Cruisers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_PISA_CLASS">
+		<Text>PISA CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_PISA_CLASS">
+		<Text>Greek Cruiser from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_PISA_CLASS_TEXT">
+		<Text>
+			The ships were designed and built in Italy but were armed with British Elswick Ordnance Company guns.
+			
+			The 3 Pisa-class armored cruisers were originally built for the Italian Regia Marina. However, budget problems led to the third ship being sold to Greece before completion. It was completed as Georgios Averof for Greece, armed with 9.2-inch instead of 10-inch main guns. Georgios Averof served with the Hellenic Navy in the Balkan Wars, World War I and World War II. It was decommissioned in 1952 and is now preserved as a museum ship in Faliron Bay near Athens.
+
+			Amalfi served with the Regia Marina in World War I and was torpedoed and sunk in 1915. Pisa also served with the Regia Marina. It was reclassified as a coastal battleship in 1921 and was used as a training ship until being scrapped
+
+		</Text>
+	</Row>
+
+	<!-- Destroyers**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_VASILEFS_GEORGIOS_CLASS">
+		<Text>VASILEFS GEORGIOS CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_VASILEFS_GEORGIOS_CLASS">
+		<Text>Greek Destroyer from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_VASILEFS_GEORGIOS_CLASS_TEXT">
+		<Text>
+			The G- and H-class destroyers were a class of twenty-four destroyers of the Royal Navy (two later transferred to the Royal Canadian Navy and one to the Polish Navy) launched in 1935–1939. They served in World War II and sixteen were lost, with a seventeenth being written off as a constructive total loss. Other ships were built for the navies of Argentina, Brazil, and Greece.
+
+			Two ships, modified versions of the G class, were built for the Greek Royal Hellenic Navy by Yarrow. The ships were fitted with German-made 12.7 cm SK C/34 naval guns and 37 mm AA guns. The installation of the armament was carried out in Greece as the Germans refused to ship the weapons to Britain.
+
+			Vasilefs Georgios: Named after King George I, she served with the RHN during the Greco-Italian War. Damaged by German aircraft, she managed to reach the Salamis Navy Yard and was put in drydock for repairs, where after further damage during German air attacks, she was finally scuttled to prevent capture. The Germans raised and repaired her and she was commissioned into the Kriegsmarine as Hermes (ZG3) on 21 March 1942. Hermes was heavily damaged off Cape Bon on 30 April 1943 and scuttled on 7 May 1943.
+			Vasilissa Olga: Named after Queen Olga, she served with the RHN during the Greco-Italian War. Along with other ships, escaped to Alexandria in May 1941 and joined the Allied forces. She was lost to German aircraft while anchored in Lakki Bay, Leros on 26 September 1943.
+			Two further ships, the Vasilefs Konstantinos and Vasilissa Sofia, named after King Constantine I and Queen Sofia respectively, were to be built in Greece, but construction halted due to the outbreak of the Second World War.
+
+		</Text>
+	</Row>
+
+	<!-- Early Fighters************************************************ -->
+	<Row Tag="TXT_KEY_UNIT_PZL_P.24">
+		<Text>PZL P.24</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_PZL_P.24">
+		<Text>Greek Early Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_PZL_P.24_TEXT">
+		<Text>
+			The PZL P.24 was a Polish fighter aircraft, designed in mid-1930s in the PZL factory in Warsaw. It was exported to several countries, but not used in Poland.
+
+			The PZL P.24 was the main Greek fighter at a time of the Italian attack in 1940, and engaged Italian bombers during the Greco-Italian War.
+		</Text>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_RENAULT_FT-17">
+		<Text>RENAULT FT-17</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_RENAULT_FT-17">
+		<Text>Greek Early Tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_RENAULT_FT-17_TEXT">
+		<Text>The Renault FT or Automitrailleuse à chenilles Renault FT modèle 1917, informally known as the FT-17 or FT17, was a French light tank; it is among the most revolutionary and influential tank designs in history. The FT was the first operational tank with an armament in a fully rotating turret,[nb 1] and its configuration with the turret on top, engine in the back and the driver in front became the conventional one, repeated in most tanks until today. Armour historian Steven Zaloga has called the Renault FT "the world's first modern tank".
+			The FT was widely used by the French and the US in the later stages of World War I, after 31 May 1918. It was cheap and well-suited for mass production. It reflected an emphasis on quantity, both on a tactical level: Estienne proposed to overwhelm the enemy defences by a "swarm" of light tanks, and on a geostrategic level: the Entente was thought to be able to gain the upper hand by outproducing the Central Powers. A goal was set of 12,260 to be manufactured (4,440 of which in the USA) before the end of 1919.
+
+			After the war, FTs were exported to many countries (Poland, Finland, Estonia, Lithuania, Romania, Yugoslavia, Czechoslovakia, Switzerland, Belgium, Netherlands, Spain, Brazil, Turkey, Iran, Afghanistan and Japan). As a result, FT tanks were used by most nations having armoured forces, invariably as their first tank type, including the United States. They took part in many later conflicts, such as the Russian Civil War, Polish-Soviet War, Chinese Civil War, Rif War and Spanish Civil War.
+
+			In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, Czechoslovakia, Estonia, Finland, France, Nazi Germany, Iran, Japan, Lithuania, the Netherlands, Poland, Romania, the Russian White movement, the Soviet Union, Spain, Sweden, Switzerland, Turkey, Norway, the United Kingdom, the United States and the Kingdom of Yugoslavia.
+		</Text>
+	</Row>
+
+	<!-- Fighters****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SUPERMARINE_SPITFIRE">
+		<Text>SUPERMARINE SPITFIRE</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SUPERMARINE_SPITFIRE">
+		<Text>Greek Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SUPERMARINE_SPITFIRE_TEXT">
+		<Text>
+			The Supermarine Spitfire is a British single-seat fighter aircraft which was used by the Royal Air Force and many other Allied countries throughout the Second World War. The Spitfire continued to be used as a front line fighter and in secondary roles into the 1950s. It was produced in greater numbers than any other British aircraft, and was the only British fighter in production throughout the war.[5]
+
+			The Spitfire was designed as a short-range, high-performance interceptor aircraft[6] by R. J. Mitchell, chief designer at Supermarine Aviation Works (since 1928 a subsidiary of Vickers-Armstrong). Mitchell continued to refine the design until his death from cancer in 1937, whereupon his colleague Joseph Smith became chief designer.[7] The Spitfire's elliptical wing had a thin cross-section, allowing a higher top speed than several contemporary fighters, including the Hawker Hurricane.[8] Speed was seen as essential to carry out the mission of home defence against enemy bombers.[6]
+
+			During the Battle of Britain, the Spitfire was perceived by the public as the RAF fighter of the battle, whereas in fact, the more numerous Hurricane actually shouldered a greater proportion of the burden against the Luftwaffe. The Spitfire units did, however, have a lower attrition rate and a higher victory to loss ratio than those flying Hurricanes .[9]
+
+			After the Battle of Britain, the Spitfire became the backbone of RAF Fighter Command, and saw action in the European, Mediterranean, Pacific and the South-East Asian theatres. Much loved by its pilots, the Spitfire served in several roles, including interceptor, photo-reconnaissance, fighter-bomber, carrier-based fighter, and trainer. It was built in many variants, using several wing configurations.[10] Although the original airframe was designed to be powered by a Rolls-Royce Merlin engine producing 1,030 hp (768 kW), it was adaptable enough to use increasingly more powerful Merlin and the later Rolls-Royce Griffon engines; the latter was eventually able to produce 2,035 hp (1,520  kW).[11]
+
+		</Text>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_WW2INFANTRY_GREECE">
+		<Text>Greek WW2 Infantry</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_GREECE_WW2INFANTRY">
+		<Text>Greek infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_GREECE_WW2INFANTRY_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_GREECE_WW2PARATROOPER">
+		<Text>Greek WW2 Paratroupers</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_GREECE_WW2PARATROOPER">
+		<Text>Greek infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_GREECE_WW2PARATROOPER_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_KATSONIS_CLASS">
+		<Text>KATSONIS CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_KATSONIS_CLASS">
+		<Text>Greek Submarine from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_KATSONIS_CLASS_TEXT">
+		<Text>
+			The Katsonis class was a French-built class of two submarines for the Hellenic Navy, serving from 1927–28 until the Second World War. The ships of the class were the first new submarines acquired by Greece after the First World War.
+			
+			Katsonis (Y-1), commissioned on 8 June 1928, it was sunk by a German submarine chaser on 14 September 1943
+			Papanikolis (Y-2), commissioned on 21 December 1927, it served throughout World War II until scrapped in 1945. Only its conning tower has been preserved, and is exhibited at the Hellenic Maritime Museum.
+
+		</Text>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_VICKERS_MK_II">
+		<Text>VICKERS MK II</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_VICKERS_MK_II">
+		<Text>Greek tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_VICKERS_MK_II_TEXT">
+		<Text>
+			The Vickers Medium Mark II was a British tank built by Vickers in the Inter-war period.
+
+			The Medium Mark II, derived from the Vickers Medium Mark I, was developed to replace the last of the Medium Mark Cs still in use. Production and rebuilding ran from 1925 until 1934. The tank was phased out of service from 1939, replaced by the Cruiser Mk I. It featured several improvements over the Vickers Mark I : a higher superstructure with the driver's vizor on top of it instead of in front of it; an improved suspension protected by armour skirts; and Rackham clutches, providing a primitive form of mechanical servo-control. Due to a slightly higher weight its rated speed was somewhat slower than that of the Medium Mark I, at 13 mph compared to 15 mph.
+
+		</Text>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_VICKERS_MK_E">
+		<Text>VICKERS MK E</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_VICKERS_MK_E">
+		<Text>Greek light tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_VICKERS_MK_E_TEXT">
+		<Text>The Vickers 6-Ton Tank or Vickers Mark E was a British light tank designed as a private project at Vickers. It was not purchased by the British Army, but was picked up by a large number of foreign armed forces and was copied almost exactly by the Soviets as the T-26. It was also the direct predecessor of the Polish 7TP tank. By the start of World War II it was the second most common tank design in the world after the Renault FT-17.
+
+			The British Army evaluated the Mark E, but rejected it, apparently due to questions about the reliability of the suspension. Vickers then started advertising the design to all buyers, and soon received a trickle of orders eventually including USSR, Greece, Poland, Bolivia, Siam, Finland, Portugal, China and Bulgaria. A Thai order was placed, but taken over by the British when the war started. Vickers built a total of 153 (the most common figure) Mark E's.
+</Text>
+	</Row>-->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row Tag="TXT_KEY_UNIT_VICKERS_MK_II">
+		<Text>VICKERS MK II</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_VICKERS_MK_II">
+		<Text>Greek medium tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_VICKERS_MK_II_TEXT">
+		<Text>The Vickers Medium Mark II was a British tank built by Vickers in the Inter-war period.
+
+			The Medium Mark II, derived from the Vickers Medium Mark I, was developed to replace the last of the Medium Mark Cs still in use. Production and rebuilding ran from 1925 until 1934. The tank was phased out of service from 1939, replaced by the Cruiser Mk I. It featured several improvements over the Vickers Mark I : a higher superstructure with the driver's vizor on top of it instead of in front of it; an improved suspension protected by armour skirts; and Rackham clutches, providing a primitive form of mechanical servo-control. Due to a slightly higher weight its rated speed was somewhat slower than that of the Medium Mark I, at 13 mph compared to 15 mph.
+</Text>
+	</Row>-->
+	
+
+	<!-- ************************************ROME******************************* -->
+
+	
+	<!-- AAs******************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_AUTOCANNONE_90-53">
+		<Text>AUTOCANNONE 90-53</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_AUTOCANNONE_90-53">
+		<Text>Roman AntiAircraft from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_AUTOCANNONE_90-53_TEXT">
+		<Text>
+			The Cannone da 90/53 was an Italian designed cannon, and one of the most successful anti-aircraft guns to see service during World War II. It was used both in an anti-aircraft role and as an anti-tank gun. The designation "90/53" meant that the gun had a 90 mm caliber and a barrel 53 caliber-lengths long.
+
+		</Text>
+	</Row>
+
+	<!-- Antitanks************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SEMOVENTE_M42M-75-34">
+		<Text>SEMOVENTE M42M-75-34</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SEMOVENTE_M42M-75-34">
+		<Text>Roman AntiTank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SEMOVENTE_M42M-75-34_TEXT">
+		<Text>
+			The Semovente 75/34 was an Italian self-propelled gun in use during World War II. It was built by mounting a 75 mm L34 gun (a longer gun than on the Semovente 75/18) on the chassis of a M15/42 tank. 192 were built before the Italian surrender in September 1943. The vehicle was never used in combat by the Italian army. Most were seized by German troops after Italy's surrender and used against the allies in Italy and the Balkans until the end of the war.
+
+		</Text>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_CONTE_DI_CAVOUR_CLASS">
+		<Text>CONTE DI CAVOUR CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_CONTE_DI_CAVOUR_CLASS">
+		<Text>Roman Battleship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_CONTE_DI_CAVOUR_CLASS_TEXT">
+		<Text>
+			The Conte di Cavour class was a battleship class of the Regia Marina in World War I and World War II.
+
+		</Text>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_SAVOIA-MARCHETTI_SM.84">
+		<Text>SAVOIA-MARCHETTI SM.84</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SAVOIA-MARCHETTI_SM.84">
+		<Text>Roman Bomber from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SAVOIA-MARCHETTI_SM.84_TEXT">
+		<Text>
+			The Savoia-Marchetti SM.84 was an Italian bomber aircraft of World War II. It was designed by Savoia-Marchetti as a replacement for its successful SM.79, and shared its three-engine layout. However, although it entered service with the Regia Aeronautica in 1941, it never replaced the SM.79, being retired from service before it.
+
+		</Text>
+	</Row>
+
+	<!-- Capital Ships************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_LITTORIO_CLASS">
+		<Text>LITTORIO CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_LITTORIO_CLASS">
+		<Text>Roman Capital Ship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_LITTORIO_CLASS_TEXT">
+		<Text>
+			The Vittorio Veneto class (also known as the Littorio class)[A 1] was a class of battleship of the Regia Marina, the Italian navy. They were the most modern battleships used by Italy during World War II.
+
+			The Littorios were developed in response to the French Dunkerque-class battleships, with a second pair ordered in response to the Richelieu class battleships. They were part of Benito Mussolini's overall strategy of achieving Italian dominance in the Mediterranean Sea and the creation of a new Roman Empire. The first full-fledged battleships laid down after the expiration of the Washington and London naval treaties, the first two ships were laid down in 1935.
+
+			Like all other battleships of this period, their nominal displacement was given as 35,000 tons standard, although they greatly exceeded those figures. This was in common with all post-treaty battleships except the British Nelson class. The first pair of ships were commissioned in late April and early May 1940.
+
+		</Text>
+	</Row>
+
+	<!-- Carriers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_AQUILA_CLASS">
+		<Text>AQUILA CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_AQUILA_CLASS">
+		<Text>Roman Aircraft Carrier from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_AQUILA_CLASS_TEXT">
+		<Text>
+			Aquila (Italian language: "Eagle") was an Italian aircraft carrier converted from the trans-Atlantic passenger liner SS Roma during World War II. Work on Aquila began in late 1941 at the Ansaldo shipyard in Genoa and continued for the next two years. With the signing of the Italian armistice on 8 September 1943, however, all work was halted and the vessel remained unfinished. Aquila was eventually scrapped in 1952.
+			
+			Though she was not built from the keel up and never attained operational status, Aquila is considered Italy’s first aircraft carrier. She was an ambitious conversion that, completed sooner, might well have proven a formidable adversary for her British counterparts in the Mediterranean during World War II.
+
+		</Text>
+	</Row>
+
+	<!-- Cruisers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_ZARA_CLASS">
+		<Text>ZARA CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_ZARA_CLASS">
+		<Text>Roman Cruiser from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_ZARA_CLASS_TEXT">
+		<Text>
+			The Zara class was an Italian heavy cruiser design of the Regia Marina from the early 1930s, considered by many to be one of the best cruiser designs of World War II.[citation needed] Four ships of the class were completed, Zara, Fiume, Pola and Gorizia, all of which saw extensive service during the war.
+			The Zaras were essentially an improved Trento class tasked with dealing with the latest French designs.
+
+		</Text>
+	</Row>
+
+	<!-- Destroyers**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SOLDATI_CLASS">
+		<Text>SOLDATI CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SOLDATI_CLASS">
+		<Text>Roman Destroyer from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SOLDATI_CLASS_TEXT">
+		<Text>
+			The Soldati class (also known as Camicia Nera class) were a group of destroyers built for the Italian Navy during World War II. The ships were named after military professions (Artigliere, for example, meaning "artilleryman"). There were two batches; twelve ships were built in 1938-39, and a second batch of seven ships were ordered in 1942, although only five were completed.
+
+			Ten ships of the class were lost during the war. Of the survivors three were transferred to the French Navy and two to the Soviet Navy as war reparations, while two served in the Italian post-war navy, the Marina Militare.
+
+		</Text>
+	</Row>
+
+	<!-- Early Fighters************************************************ -->
+	<Row Tag="TXT_KEY_UNIT_ANSALDO_SVA-5">
+		<Text>ANSALDO SVA-5</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_ANSALDO_SVA-5">
+		<Text>Roman Early Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_ANSALDO_SVA-5_TEXT">
+		<Text>
+			The Ansaldo SVA (named for Savoia-Verduzio-Ansaldo) was a family of Italian reconnaissance biplane aircraft of World War I and the decade after. Originally conceived as a fighter, the SVA was found inadequate for that role. Nevertheless, its impressive speed, range and operational ceiling, with its top speed making it one of the fastest (if not the fastest) of all Allied combat aircraft in World War I, gave it the right properties to be an excellent reconnaissance aircraft and even light bomber. Production of the aircraft continued well after the war, with the final examples delivered in 1928. Two minor variants were produced, one with reconnaissance cameras, the other without cameras but extra fuel tanks.
+
+			The SVA was a conventionally-laid out unequal-span biplane, featuring Warren Truss-style struts, and therefore having no transverse (spanwise) bracing wires. The plywood-skinned fuselage had the typical Ansaldo triangular rear cross-section behind the cockpit, transitioning to a rectangular cross section going forwards through the rear cockpit area, with a full rectangular cross section forward of the cockpit.
+
+			The famous Flight over Vienna propaganda flight, inspired by Gabriele d'Annunzio, was carried out on August 9, 1918, by the 87th Squadriglia La Serenissima from San Pelagio, consisting of an eleven plane flight of various models of Ansaldo SVA-series biplanes. At least two of the aircraft were two seater SVA 9 or 10s to accommodate d'Annunzio himself for the flight he inspired, with the remainder being SVA 5 single-seaters.
+
+		</Text>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_FIAT_3000">
+		<Text>FIAT 3000</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_FIAT_3000">
+		<Text>Roman Early Tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_FIAT_3000_TEXT">
+		<Text>
+			The Fiat 3000, whose design was based on that of the French Renault FT-17, was the first tank to be produced in series in Italy. It was to be the standard tank of the emerging Italian armored units in World War I.
+
+		</Text>
+	</Row>
+
+	<!-- Fighters****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_MACCHI_C.200_SAETTA">
+		<Text>MACCHI C.200 SAETTA</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_MACCHI_C.200_SAETTA">
+		<Text>Roman Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_MACCHI_C.200_SAETTA_TEXT">
+		<Text>
+			The Macchi C.200 Saetta (also variously identified as the MC.200) (Italian: Thunderbolt) was a World War II fighter aircraft built by Aeronautica Macchi in Italy, and used in various forms throughout the Regia Aeronautica (Italian Air Force). The MC.200 had excellent manoeuvrability and general flying characteristics left little to be desired.[1] Stability in a high-speed dive was exceptional,[2] but it was underpowered and underarmed for a modern fighter.[3]
+
+			From the time Italy entered war on 10 June 1940, until the armistice of 8 September 1943, the C. 200 flew more operational sorties than any Italian aircraft. The Saetta ranged over Greece, North Africa, Yugoslavia, across the Mediterranean and Russia (where it obtained an excellent kill to loss ratio of 88 to 15).[4][5] Its very strong all-metal construction and air-cooled engine made the aircraft ideal for ground attack and several units flew it as a fighter-bomber. Over 1,000 were built by the time the war ended.[6]
+
+		</Text>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_WW2INFANTRY_ROME">
+		<Text>Roman WW2 Infantry</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_ROME_WW2INFANTRY">
+		<Text>Roman infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_ROME_WW2INFANTRY_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_ROME_WW2PARATROOPER">
+		<Text>Roman WW2 Paratroupers</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_ROME_WW2PARATROOPER">
+		<Text>Roman infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_ROME_WW2PARATROOPER_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_MARCELLO_CLASS">
+		<Text>MARCELLO CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_MARCELLO_CLASS">
+		<Text>Roman Submarine from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_MARCELLO_CLASS_TEXT">
+		<Text>
+			The Marcello-class was a class of eleven submarines built by CRDA in Trieste for the Royal Italian Navy (Italian: Regia Marina). The submarines were built from 1938 to 1939, and all eleven served in the Mediterranean at the start of the Second World War. After Provana's 1940 sinking, the remaining boats were transferred to the German submarine base at Bordeaux in August 1940. Four boats were sunk in the Atlantic, and two were converted to transports for trade with Japan. One of the latter pair, Comandante Cappellini (sometimes also called Cappellini), was commissioned into the Germany Kriegsmarine as UIT-24, and the Imperial Japanese Navy as I-503. Only Dandolo was in operational condition at the end of the war.
+
+		</Text>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_M15-42">
+		<Text>M15-42</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_M15-42">
+		<Text>Roman tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_M15-42_TEXT">
+		<Text>
+			The M15/42 was an Italian World War II medium tank first built in January 1943. Some 90 vehicles were built before the Italian armistice in September 1943 and in connection to that event they were used in battle against the Germans by the Ariete armored division in Rome. After that point they were confiscated and used by the Germans who also built another 28 M15/42 tanks. Armament was one 47 mm main gun and four 8 mm Breda 38 machine guns. The official Italian designation was Carro Armato M 15/42. This designation includes the designation ("armored tank"), the tank classification ("M" for medium tank), the weight in tonnes (15), and the year of adoption (1942).
+
+			It was developed from the M13/40 and the M14/41. It had a more powerful engine and air filters to cope with the harsh conditions of the desert. By the time it entered service, it was already obsolete.
+
+			The turret had an improved (compared to the M13) 47 mm / 40 caliber gun with an elevation of +20 degrees and a depression of –10 degrees. The turret could traverse 360 degrees and was electrically operated. An 8 mm Modello 38 machine gun was mounted co-axial with the main armament with a similar machine gun mounted on the roof for anti-aircraft defense.
+
+		</Text>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_L6-40">
+		<Text>L6-40</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_L6-40">
+		<Text>Roman light tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_L6-40_TEXT">
+		<Text>The Fiat L6/40 was a light tank used by the Italian army from 1940 and on through World War II. The official Italian designation was Carro Armato ("armored tank") L 6/40. This designation is understood as follows: "L" for Leggero (Italian: "light"), followed by the weight in tons (6) and the year of adoption (1940).
+
+</Text>
+	</Row>-->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row Tag="TXT_KEY_UNIT_M15-42">
+		<Text>M15-42</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_M15-42">
+		<Text>Roman medium tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_M15-42_TEXT">
+		<Text>The M15/42 was an Italian World War II medium tank first built in January 1943. Some 90 vehicles were built before the Italian armistice in September 1943 and in connection to that event they were used in battle against the Germans by the Ariete armored division in Rome. After that point they were confiscated and used by the Germans who also built another 28 M15/42 tanks. Armament was one 47 mm main gun and four 8 mm Breda 38 machine guns. The official Italian designation was Carro Armato M 15/42. This designation includes the designation ("armored tank"), the tank classification ("M" for medium tank), the weight in tonnes (15), and the year of adoption (1942).
+
+It was developed from the M13/40 and the M14/41. It had a more powerful engine and air filters to cope with the harsh conditions of the desert. By the time it entered service, it was already obsolete.
+
+The turret had an improved (compared to the M13) 47 mm / 40 caliber gun with an elevation of +20 degrees and a depression of –10 degrees. The turret could traverse 360 degrees and was electrically operated. An 8 mm Modello 38 machine gun was mounted co-axial with the main armament with a similar machine gun mounted on the roof for anti-aircraft defense.
+
+</Text>
+	</Row>-->
+	
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_P26-40">
+		<Text>P26-40</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_P26-40">
+		<Text>Roman heavy tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_P26-40_TEXT">
+		<Text>The P40 was an Italian World War II tank design. It was armed with a 75 mm gun and an 8 mm Breda machine gun, plus another optional machine gun in an anti-aircraft mount. The official Italian designation was Carro Armato ("armored tank") P 26/40. The designation means:[citation needed] P for pesante (Italian: "heavy"), the weight of 26 tons, and the year of adoption 1940.
+
+Design had started in 1940 but very few had been built by the time Italy signed the armistice with the Allies and the few produced afterwards were used by the Germans.
+
+</Text>
+	</Row>-->
+	
+	
+	<!-- ************************************JAPAN******************************* -->
+
+	
+	<!-- AAs******************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_TYPE98_KO-HI">
+		<Text>TYPE98 KO-HI</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TYPE98_KO-HI">
+		<Text>Japanese AntiAircraft from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_TYPE98_KO-HI_TEXT">
+		<Text>
+			The Type 98 20 mm AA Machine Cannon was the most common light anti-aircraft gun of the Imperial Japanese Army. About 80% of IJA light AA guns were Type 98. It entered service in 1938 and first saw combat in Nomonhan. It was used until the end of the Second World War.
+
+			The gun can be emplaced in about 3 minutes by an experienced crew or fired inaccurately from its wheels.
+
+			This weapon and its variants were based on the French design of the 13.2 mm Hotchkiss machine gun of the 1930s, which the Japanese forces had bought and further developed at home.
+
+		</Text>
+	</Row>
+
+	<!-- Antitanks************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_TYPE1_HO-NI_II">
+		<Text>TYPE1 HO-NI_II</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TYPE1_HO-NI_II">
+		<Text>Japanese AntiTank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_TYPE1_HO-NI_II_TEXT">
+		<Text>
+			The Type 1 Gun tank Ho-Ni I was a tank destroyer developed by the Imperial Japanese Army for use during World War II in the Pacific theater.
+
+		</Text>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_KONGO_CLASS">
+		<Text>KONGO CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_KONGO_CLASS">
+		<Text>Japanese Battleship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_KONGO_CLASS_TEXT">
+		<Text>
+			The Kongō class battlecruisers were a class of ships of the Imperial Japanese Navy (IJN) constructed immediately before World War I. Designed by British naval architect George Thurston, the lead ship of the class was the last Japanese capital ship constructed outside of Japan. Displacing 27,500 long tons (27,941 t) upon completion, the vessels of this class were considered the first fully modern capital ships of the IJN.[2] Four vessels of the class (Kongō, Hiei, Kirishima, and Haruna) were completed from 1913 to 1915: Kongō in a Vickers shipyard in Britain, the latter three in Japanese shipyards.
+
+			Following World War I and the signing of the Washington Naval Treaty, Hiei was placed in reserve and reconfigured as a training vessel and a transport to avoid being scrapped, while Kongō, Kirishima and Haruna were placed in reserve in their original configuration. During the 1920s, all but Hiei were reconstructed and reclassified as battleships. Following Japan's withdrawal from the London Naval Treaty, all four were reactivated and underwent a massive second reconstruction. Following the completion of these modifications, which increased top speeds to over 30 knots (35 mph), all four were reclassified as fast battleships.
+
+			The Kongō class battleships were the most active capital ships of the Japanese Navy during World War II, participating in most major engagements of the war. Hiei and Kirishima acted as escorts during the attack on Pearl Harbor, while Kongō and Haruna supported the invasion of Singapore. All four participated in the battles of Midway and Guadalcanal. Hiei and Kirishima were both lost during the Naval Battle of Guadalcanal in November 1942, while Haruna and Kongō jointly bombarded Henderson Field. The two remaining battleships spent most of 1943 shuttling between Japanese naval bases before participating in the major naval campaigns of 1944. Haruna and Kongō engaged American surface vessels during the Battle of Leyte Gulf. Kongō was sunk by submarine attack in November 1944, while Haruna was sunk at her moorings by air attack in Kure Naval Base in late July 1945.
+
+		</Text>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_MITSUBISHI_G4M_BETTY">
+		<Text>MITSUBISHI G4M BETTY</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_MITSUBISHI_G4M_BETTY">
+		<Text>Japanese Bomber from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_MITSUBISHI_G4M_BETTY_TEXT">
+		<Text>
+			The Mitsubishi G4M (or "Type 1 land-based attack aircraft"), Isshikirikkō was the main twin-engine, land-based bomber used by the Imperial Japanese Navy Air Service in World War II. The Allies gave the G4M the reporting name of Betty. The Allies usually gave Japanese fighters and floatplanes "male" names, while giving "female" names to bombers and reconnaissance aircraft. These did not come into general use until mid-1943.[1]
+
+			The G4M had a range of over 3,700 miles achieved by structural lightness and an almost total disregard for armor protection. This proved to be its weakness when Allied opposition increased in the later stages of World War II.[2]
+
+		</Text>
+	</Row>
+
+	<!-- Capital Ships************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_YAMATO_CLASS">
+		<Text>YAMATO CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_YAMATO_CLASS">
+		<Text>Japanese Capital Ship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_YAMATO_CLASS_TEXT">
+		<Text>
+			The Yamato-class battleships were battleships of the Imperial Japanese Navy (IJN) constructed and operated during World War II. Displacing 72,000 long tons (73,000 t) at full load, the vessels were the heaviest and most powerfully armed battleships ever constructed. The class carried the largest naval artillery ever fitted to a warship, nine 460-millimetre (18.1 in) naval guns, each capable of firing 2,998-pound (1,360 kg) shells over 26 miles (42 km). Two battleships of the class (Yamato and Musashi) were completed, while a third (Shinano) was converted to an aircraft carrier during construction.
+
+			Due to the threat of American submarines and aircraft carriers, both Yamato and Musashi spent the majority of their careers in naval bases at Brunei, Truk, and Kure—deploying on several occasions in response to American raids on Japanese bases—before participating in the Battle of Leyte Gulf in October 1944, as part of Admiral Kurita's Centre Force. Musashi was sunk during the course of the battle by American carrier airplanes. Shinano was sunk ten days after her commissioning in November 1944 by the submarine USS Archer-Fish, while Yamato was sunk in April 1945 during Operation Ten-Go.
+
+			On the eve of the Allies' occupation of Japan, special-service officers of the Imperial Japanese Navy destroyed virtually all records, drawings, and photographs of or relating to the Yamato-class battleships, leaving only fragmentary records of the design characteristics and other technical matters. The destruction of these documents was so efficient that until 1948 the only known images of the Yamato and Musashi were those taken by United States Navy aircraft involved in the attacks on the two battleships. Although some additional photographs and information, from documents that were not destroyed, have come to light over the years, the loss of the majority of written records for the class has made extensive research into the Yamato-class somewhat difficult.[6][7] Because of the lack of written records, information on the class largely came from interviews of Japanese officers following Japan's surrender.[8] However, in October 1942, based upon a special request from Adolf Hitler, German Admiral Paul Wenneker, attached to the German Naval Attache in Japan, was allowed to inspect a Yamato class battleship while it was undergoing maintenance in a dockyard, at which time Admiral Wenneker cabled a detailed description of the warship to Berlin. On 22 August 1943, Erich Groner, a German Navy historian, and author of the book Die Deutschen Kriegschiffe, 1815-1945, was shown the report while at the "Führer Headquarters", and was directed to make an "interpretation" and then prepare a "design sketch drawing" of the Japanese battleship. The material was preserved by Erich Groner's wife, Mrs. H. Groner, and submitted to publishers in the 1950s
+		</Text>
+	</Row>
+
+	<!-- Carriers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SHOKAKU_CLASS">
+		<Text>SHOKAKU CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SHOKAKU_CLASS">
+		<Text>Japanese Aircraft Carrier from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SHOKAKU_CLASS_TEXT">
+		<Text>
+			The Shōkaku class was a 32,000 long tons (33,000 t) aircraft carrier class of the Imperial Japanese Navy. Only two vessels were built in this class; Shōkaku and Zuikaku. Together, they formed the 5th Carrier Division. Both were lost in action during World War II.
+
+		</Text>
+	</Row>
+
+	<!-- Cruisers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_TAKAO_CLASS">
+		<Text>TAKAO CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TAKAO_CLASS">
+		<Text>Japanese Cruiser from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_TAKAO_CLASS_TEXT">
+		<Text>
+			The Takao class was a class of four heavy cruisers of the Imperial Japanese Navy launched between May 1930 and April 1931.
+			
+			They were an evolution from the preceding Myoko class, with heavier torpedo armamanent and had an almost battleship-like, large bridge structure.
+
+			Their main gun armament was ten 8-inch (203 mm) guns in twin mounts and they were also armed with sixteen 24 inch torpedoes (carrying more than the Myokos or Mogamis), making the Takaos the most heavily armed cruisers of the IJN. The only flaw was that they were considered top-heavy and thus prone to capsizing, while Turret #3 had a poor firing arc. These two problems were rectified in the follow-up Mogamis; nonetheless the Takaos were considered the best cruisers that the IJN ever built.
+
+		</Text>
+	</Row>
+
+	<!-- Destroyers**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_KAGERO_CLASS">
+		<Text>KAGERO CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_KAGERO_CLASS">
+		<Text>Japanese Destroyer from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_KAGERO_CLASS_TEXT">
+		<Text>
+			The Kagerō class destroyers was a class of ships in service with the Imperial Japanese Navy during World War II. There were 19 ships total in the class. The IJN called them Destroyer Type-A (甲型駆逐艦,, Kō-gata Kuchikukan?) from their plan name.
+
+		</Text>
+	</Row>
+
+	<!-- Early Fighters************************************************ -->
+	<Row Tag="TXT_KEY_UNIT_KAWASAKI_KI-10_PERRY">
+		<Text>KAWASAKI KI-10 PERRY</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_KAWASAKI_KI-10_PERRY">
+		<Text>Japanese Early Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_KAWASAKI_KI-10_PERRY_TEXT">
+		<Text>
+			The Kawasaki Ki-10 (Army Type 95 Fighter) was the last biplane fighter used by the Imperial Japanese Army, entering service in 1935. Built by Kawasaki Kōkūki Kōgyō KK for the Imperial Japanese Army, it saw combat service in Manchukuo and in north China during the early stages of the Second Sino-Japanese War. Its reporting name given by the Allies was "Perry".
+
+		</Text>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_TYPE79_KO-GATA">
+		<Text>TYPE79 KO-GATA</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TYPE79_KO-GATA">
+		<Text>Japanese Early Tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_TYPE79_KO-GATA_TEXT">
+		<Text></Text>
+	</Row>
+
+	<!-- Fighters - Replaced by Zero (Unique Unit) ****************************************************** -->
+	<!--<Row Tag="TXT_KEY_UNIT_MITSUBISHI_A6M5_ZERO">
+		<Text>MITSUBISHI A6M5 ZERO</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_MITSUBISHI_A6M5_ZERO">
+		<Text>Japanese Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_MITSUBISHI_A6M5_ZERO_TEXT">
+		<Text>The Mitsubishi A6M Zero was a long range fighter aircraft operated by the Imperial Japanese Navy Air Service (IJNAS) from 1940 to 1945. The A6M was designated as the Mitsubishi Navy Type 0 Carrier Fighter (零式艦上戦闘機, rei-shiki-kanjou-sentouki?), and also designated as the Mitsubishi A6M Rei-sen and Mitsubishi Navy 12-shi Carrier Fighter. The A6M was usually referred to by the Allies as the "Zero", from the 'Navy Type 0 Carrier Fighter' designation. The official Allied reporting name was Zeke.
+
+			When it was introduced early in World War II, the Zero was the best carrier-based fighter in the world, combining excellent maneuverability and very long range.[1] In early combat operations, the Zero gained a legendary reputation as a "dogfighter", achieving the outstanding kill ratio of 12 to 1,[2] but by mid-1942 a combination of new tactics and the introduction of better equipment enabled the Allied pilots to engage the Zero on more equal terms.[3] The IJNAS also frequently used the type as a land-based fighter. By 1943, inherent design weaknesses and the increasing lack of more powerful aircraft engines meant that the Zero became less effective against newer enemy fighters that possessed greater firepower, armor, and speed, and approached the Zero's maneuverability. Although the Mitsubishi A6M was outdated by 1944, it was never totally supplanted by the newer Japanese aircraft types. During the final years of the War in the Pacific, the Zero was used in kamikaze operations.[4] In the course of the war, more Zeros were built than any other Japanese aircraft.[5]
+
+</Text>
+	</Row>-->
+
+	<!-- Infantry************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_WW2INFANTRY_JAPAN">
+		<Text>Japanese WW2 Infantry</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_JAPAN_WW2INFANTRY">
+		<Text>Japanese infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_JAPAN_WW2INFANTRY_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_JAPAN_WW2PARATROOPER">
+		<Text>Japanese WW2 Paratroupers</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_JAPAN_WW2PARATROOPER">
+		<Text>Japanese infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_JAPAN_WW2PARATROOPER_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_B1_TYPE">
+		<Text>B1 TYPE</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_B1_TYPE">
+		<Text>Japanese Submarine from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_B1_TYPE_TEXT">
+		<Text>
+			The Type B1 submarine (also known as the I-15 series) were the most numerous submarine class of the Imperial Japanese Navy during World War II. In total 20 were built, starting with I-15, which gave the series their alternative name.
+
+			These submarines were fast, had a very long range, and carried a single seaplane, located in a hangar in front of the conning tower, and launched by a catapult. Late in the war, some of the submarines had their aircraft hangar removed, to replace it with a 14 cm gun. In 1944, the I-36 and I-37 were modified so that they could carry four Kaiten manned torpedoes, with I-36 later being further modified to carry six.
+
+		</Text>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_TYPE3_CHI-NU">
+		<Text>TYPE3 CHI-NU</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TYPE3_CHI-NU">
+		<Text>Japanese tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_TYPE3_CHI-NU_TEXT">
+		<Text>
+			The Type 3 medium tank Chi-Nu was another improvement over the Type 97 Chi-Ha line of medium tanks of the Imperial Japanese Army in World War II. The Type 3 Chi-Nu mounted one Type 3 75 mm Tank Gun, one of the largest guns ever to be fitted on a World War II Japanese tank.
+			
+			Type 3 medium tank Chi-Nu was developed to cope with the American M4 Sherman after it was clear that the Type 1 Chi-He design was still inadequate. The Army Technical Bureau had been working on the Type 4 Chi-To medium tank as the counter to the M4 Sherman, but there were problems and delays in the program, and as a result a stopgap tank was required. Development on the Type 3 Chi-Nu started in May 1943 and was finished by October, just six months later. The low priority given to tank production by 1943 meant that the Type 3 did not actually enter production until 1944, by which time raw materials were in very short supply, and much of Japan's industrial infrastructure had been destroyed by American bombing.
+
+		</Text>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_TYPE4_KE-NU">
+		<Text>TYPE4 KE-NU</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TYPE4_KE-NU">
+		<Text>Japanese light tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_TYPE4_KE-NU_TEXT">
+		<Text>The Type 4 Ke-Nu was a light tank of the Imperial Japanese Army in World War II. It was a conversion of existing hulls of Type 95 Ha-Go light tanks re-fitted with a larger tower of the Type 97 Chi-Ha medium tank.[1]
+
+			The Type 4 Ke-Nu was a side effect of the on-going development of the Type 97 Chi-Ha medium tank. The original Type 97 Chi-Ha had been armed with a low muzzle velocity 57 mm tank gun. Operational experience in Manchukuo, China in the early stages of the Second Sino-Japanese War and against the Soviet Union at Nomonhan during the brief Japanese-Soviet Border War in 1939 revealed that this gun was totally inadequate against any form of opposing armor, and a new higher velocity 47 mm tank gun was developed. This was then installed in the Type 97 Chi-Ha medium tank to produce the Type 97-kai Shinhoto version. This left a large number of surplus Type 97 turrets, which were later retrofitted onto the hulls of the obsolete Type 95 Ha-Go light tank. The result was designated the Type 4 Ke-Nu. In total, approximately 100 units were converted in 1944.[2]
+
+		</Text>
+	</Row>-->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row Tag="TXT_KEY_UNIT_TYPE97_SHINHOTO_CHI-HA">
+		<Text>TYPE97 SHINHOTO CHI-HA</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TYPE97_SHINHOTO_CHI-HA">
+		<Text>Japanese medium tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_TYPE97_SHINHOTO_CHI-HA_TEXT">
+		<Text>The Type 97 Chi-Ha was a medium tank used by the Imperial Japanese Army during the Second Sino-Japanese War, at Nomonhan against the Soviet Union, and in the Second World War. It was the most widely produced Japanese medium tank of World War II, although the armor protection was considered as average in the 1930s.[2] The 57 mm main gun, designed to support the infantry, was a carry over from the 1933 Type 89 medium tank. Later it was replaced by 47 mm gun more effective against enemy armor. The 170 hp Mitsubishi engine was a capable engine for the tank in 1938,[2] and – notably for the time – it was a nonflammable diesel. After 1941, the tank was considered less effective than most Allied tank designs.[1]
+
+			The Type 97's low silhouette and semicircular radio antenna on the turret distinguished the tank from its contemporaries. The crude suspension was derived from the Type 95 Ha-Go light tank, but used six road wheels instead of four.[2]
+
+</Text>
+	</Row>-->
+	
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_TYPE100_O-I">
+		<Text>TYPE100 O-I</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TYPE100_O-I">
+		<Text>Japanese heavy tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_TYPE100_O-I_TEXT">
+		<Text></Text>
+	</Row>-->
+
+	
+	<!-- ************************************RUSSIA****************************** -->
+
+	
+	<!-- AAs******************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_ZSU-37">
+		<Text>ZSU-37</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_ZSU-37">
+		<Text>Russian AntiAircraft from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_ZSU-37_TEXT">
+		<Text>
+			ZSU-37 was a Soviet-made, light, self-propelled anti-aircraft gun (SPAAG), developed by the end of 1943 and produced at Works No. 40 in Mytishchi. It was the first Soviet series-produced tracked SPAAG. ZSU stands for Zenitnaya Samokhodnaya Ustanovka (Russian: Зенитная Самоходная Установка), meaning "anti-aircraft self-propelled mount".
+
+		</Text>
+	</Row>
+
+	<!-- Antitanks************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SU-100">
+		<Text>SU-100</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SU-100">
+		<Text>Russian AntiTank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SU-100_TEXT">
+		<Text>
+			The SU-100 was a Soviet tank destroyer. It was used extensively during the last year of World War II and saw service for many years afterwards with the armies of Soviet allies around the world.
+
+		</Text>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_GANGUT_CLASS">
+		<Text>GANGUT CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_GANGUT_CLASS">
+		<Text>Russian Battleship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_GANGUT_CLASS_TEXT">
+		<Text>
+			The Gangut-class battleships were the first dreadnoughts begun for the Imperial Russian Navy before World War I. They had a convoluted design history involving several British companies, evolving requirements, an international design competition, and foreign protests. Four ships were ordered in 1909; two were named after victorious battles of Peter the Great in the Great Northern War and the other two were named after battles in the Crimean War. Three ships of the class used names of pre-dreadnought battleships of the Petropavlovsk-class lost in the Russo-Japanese War. Construction was delayed by financing problems until the Duma formally authorized the ships in 1911. They were delivered from December 1914 through January 1915, although they still needed work on the turrets and fire-control systems until mid-1915. Their role was to defend the mouth of the Gulf of Finland against the Germans, who never tried to enter, so the ships spent their time training and providing cover for minelaying operations. Their crews participated in the general mutiny of the Baltic Fleet after the February Revolution in 1917, and joined the Bolsheviks the following year. The Russians were forced to evacuate their naval base at Helsinki after Finland became independent in December 1917. The Gangut-class ships led the first contingent of ships to Kronstadt even though the Gulf of Finland was still frozen.
+
+		</Text>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_PETLYAKOV_PE-8">
+		<Text>PETLYAKOV PE-8</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_PETLYAKOV_PE-8">
+		<Text>Russian Bomber from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_PETLYAKOV_PE-8_TEXT">
+		<Text>
+			The Petlyakov Pe-8 was a Soviet heavy bomber designed before World War II, and the only four-engine bomber the USSR built during the war. Produced in limited numbers, it was used to bomb Berlin in August 1941. It was also used for so-called "morale raids" designed to raise the spirit of the Soviet people by exposing Axis vulnerabilities. Its primary mission, however, was to attack German airfields, rail yards and other rear-area facilities at night, although one was used to fly the People's Commissar of Foreign Affairs (Foreign Minister) Vyacheslav Molotov from Moscow to the United States in 1942.
+
+			Originally designated the TB-7, the aircraft was renamed the Pe-8 after its primary designer, Vladimir Petlyakov, died in a plane crash in 1942. Supply problems complicated the aircraft's production and the Pe-8s also had engine problems. As Soviet morale boosters, they were also high-value targets for the Luftwaffe's fighter pilots. The loss rate of these aircraft, whether from mechanical failure, friendly fire, or combat, doubled between 1942 and 1944.
+
+			By the end of the war, most of the surviving aircraft had been withdrawn from combat units. After the war, some were modified as transports for important officials, and a few others were used in various Soviet testing programs. Some supported the Soviet Arctic operations until the late 1950s.
+
+		</Text>
+	</Row>
+
+	<!-- Capital Ships************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_SOVETSKY_SOYUZ_CLASS">
+		<Text>SOVETSKY SOYUZ CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SOVETSKY_SOYUZ_CLASS">
+		<Text>Russian Capital Ship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SOVETSKY_SOYUZ_CLASS_TEXT">
+		<Text>
+			The Sovetsky Soyuz class battleships (Project 23, Russian: Советский Союз), also known as "Stalin's Republics", were a class of battleships begun by the Soviet Union in the late 1930s but never brought into service. They were designed in response to the battleships being built by Germany. Only four hulls of the sixteen originally planned had been laid down by 1940, when the decision was made to cut the program to only three ships to divert resources to an expanded army rearmament program.
+
+			These ships would have rivaled the Imperial Japanese Yamato class in size if any had been completed, although with significantly weaker firepower: 406-millimeter (16.0 in) guns compared to the 460-millimeter (18.1 in) guns of the Japanese ships. However they would have been superior to their German rivals, the Bismarck class, at least on paper. The failure of the Soviet armor plate industry to build cemented armor plates thicker than 230 millimeters (9.1 in) would have negated any advantages from the Sovetsky Soyuz class's thicker armor in combat.
+
+			Construction of the first four ships was plagued with difficulties as the Soviet shipbuilding and related industries were not prepared to build such large ships. One battleship, Sovetskaya Belorussiya, was cancelled on 19 October 1940 after serious construction flaws were found. Construction of the other three ships was suspended shortly after Nazi Germany invaded the Soviet Union in June 1941, and never resumed. All three of the surviving hulls were scrapped in the late 1940s.
+
+		</Text>
+	</Row>
+
+	<!-- Carriers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_PROJECT_71">
+		<Text>PROJECT 71</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_PROJECT_71">
+		<Text>Russian Aircraft Carrier from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_PROJECT_71_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Cruisers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_KIROV_CLASS">
+		<Text>KIROV CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_KIROV_CLASS">
+		<Text>Russian Cruiser from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_KIROV_CLASS_TEXT">
+		<Text>
+			The Kirov-class (Project 26) cruisers were six vessels built between 1935 and 1944 for the Soviet Navy: Kirov, Voroshilov, Maxim Gorky, Molotov, Kalinin, and Kaganovich. After the first two ships, armor protection was increased and subsequent ships are sometimes called the Maxim Gorky class. These were the first large ships built by the Soviets from the keel up after the Russian Civil War and were derived from the Italian light cruiser Raimondo Montecuccoli, being designed with assistance from the Italian Ansaldo company. Two ships each were deployed in the Black and Baltic Seas during World War II while the last pair was still under construction in Siberia and saw no combat during the war. The first four ships bombarded Axis troops and facilities after the Germans invaded the Soviet Union in June 1941. All six ships survived the war and lingered until the 1970s in training and other secondary roles before being scrapped.
+
+		</Text>
+	</Row>
+
+	<!-- Destroyers**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_GNEVNY_CLASS">
+		<Text>GNEVNY CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_GNEVNY_CLASS">
+		<Text>Russian Destroyer from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_GNEVNY_CLASS_TEXT">
+		<Text>
+			The Gnevny class were a group of destroyers built for the Soviet Navy in the late 1930s - early 1940s. They are sometimes known as the Gremyashchiy class destroyer and the Official Soviet Designation was Project 7. These ships fought in World War II.
+
+			In the early 1930s the Soviets felt able to re-start construction of fleet destroyers and forty eight ships were ordered under the second Five year Plan.
+
+			The design was produced with Italian assistance despite ideological differences between the Soviets and Fascist Italy. They resemble contemporary destroyers built in Italy for the Greek and Turkish Navies.
+
+			They suffered from some of the weaknesses of contemporary Italian ships with structural weakness and limited seaworthiness. There were also significant machinery problems in the earliest ships. The design flaws were apparent after trials of the first units in 1936/7 and production stopped after 30 ships. A modified design was then placed into production as the Type 7U.
+
+			Four surviving ships from the Pacific Fleet were transferred to the People's Liberation Army Navy and served as the Anshan class destroyers.
+
+		</Text>
+	</Row>
+
+	<!-- Early Fighters************************************************ -->
+	<Row Tag="TXT_KEY_UNIT_POLIKARPOV_PO-2">
+		<Text>POLIKARPOV PO-2</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_POLIKARPOV_PO-2">
+		<Text>Russian Early Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_POLIKARPOV_PO-2_TEXT">
+		<Text>
+			The Polikarpov U-2 or Po-2 served as a general-purpose Soviet biplane, nicknamed Kukuruznik (Russian: Кукурузник, from Russian "kukuruza" (кукуруза) for maize; thus, 'maize duster' or 'crop duster'), NATO reporting name of "Mule".[2] The reliable, uncomplicated and forgiving aircraft served as a trainer and crop-duster in peacetime as well as a low-cost ground attack, aerial reconnaissance, psychological warfare and liaison aircraft during war, proving to be one of the most versatile light combat types to be built in USSR.[3] It is the second most produced aircraft, and the most produced biplane, in the history of aviation. More than 40,000 Po-2s were built between 1928 and 1953. It remained in production for a longer period of time than any other Soviet-era aircraft.[3]
+
+		</Text>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_EARLYT-34-85">
+		<Text>EARLYT-34-85</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_EARLYT-34-85">
+		<Text>Russian Early Tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_EARLYT-34-85_TEXT">
+		<Text></Text>
+	</Row>
+
+	<!-- Fighters****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_YAKOVLEV_YAK-9">
+		<Text>YAKOVLEV YAK-9</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_YAKOVLEV_YAK-9">
+		<Text>Russian Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_YAKOVLEV_YAK-9_TEXT">
+		<Text>
+			The Yakovlev Yak-9 was a single-engine fighter aircraft used by the Soviet Union in World War II and after. Fundamentally a lighter development of the Yak-7 with the same armament, it arrived at the front at the end of 1942. The Yak-9 had a lowered rear fuselage decking and all-around vision canopy. Its lighter airframe gave the new fighter a flexibility that previous model had lacked.[1] The pilots that flew it, regarded its performances at the same level of those of the Messerschmitt Bf 109G and Focke-Wulf Fw 190A-3/A-4. [2] The Yak-9 was the most mass-produced Soviet fighter of all time. It remained in production from 1942 to 1948, with 16,769 built (14,579 during the war).[3] It was the first Soviet aircraft to shoot down a Messerschmitt Me 262 jet. [2] It was used by North Korea in the Korean War.[4]
+
+		</Text>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_WW2INFANTRY_RUSSIA">
+		<Text>Russian WW2 Infantry</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_RUSSIA_WW2INFANTRY">
+		<Text>Russian infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_RUSSIA_WW2INFANTRY_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_RUSSIA_WW2PARATROOPER">
+		<Text>Russian WW2 Paratroupers</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_RUSSIA_WW2PARATROOPER">
+		<Text>Russian infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_RUSSIA_WW2PARATROOPER_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SHCHUKA_CLASS">
+		<Text>SHCHUKA CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SHCHUKA_CLASS">
+		<Text>Russian Submarine from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SHCHUKA_CLASS_TEXT">
+		<Text>
+			The Shchuka class submarines (Russian: Щука), also referred to as Shch or SC class submarines were a medium-sized class of Soviet submarines, built in large numbers and used during World War II. "Shchuka" is Russian for pike.
+
+		</Text>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_T-34-85">
+		<Text>T-34-85</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_T-34-85">
+		<Text>Russian tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_T-34-85_TEXT">
+		<Text>
+			The T-34 was a Soviet medium tank produced from 1940 to 1958. Although its armour and armament were surpassed by later tanks of the era, it has been often credited as the most effective, efficient and influential design of World War II.[4] First produced at the KhPZ factory in Kharkov (Kharkiv, Ukraine), it was the mainstay of Soviet armoured forces throughout World War II, and widely exported afterwards. It was the most-produced tank of the war, and the second most-produced tank of all time, after its successor, the T-54/55 series.[5] In 1996, T-34 variants were still in service in at least 27 countries.
+
+			The T-34 was developed from the BT series of fast tanks and was intended to replace both the BT-5 and BT-7 tanks and the T-26 infantry tank in service.[6] At its introduction, it was the tank with the best balanced attributes of firepower, mobility, protection and ruggedness, although initially its battlefield effectiveness suffered from the unsatisfactory ergonomic layout of its crew compartment, scarcity of radios, and poor tactical employment. The two-man turret-crew arrangement required the commander to aim and fire the gun, an arrangement common to most Soviet tanks of the day; this proved to be inferior to three-man (commander, gunner, and loader) turret crews of German Panzer III and Panzer IV tanks.
+
+			The design and construction of the tank were continuously refined during the war to enhance effectiveness and decrease costs, allowing steadily greater numbers of T-34s to be fielded. In early 1944, the improved T-34-85 was introduced, with a more powerful 85 mm gun and a three-man turret design. By the war's end in 1945, the versatile and cost-effective T-34 had replaced many light and heavy tanks in service, and accounted for the majority of Soviet tank production. Its evolutionary development led directly to the T-54/55 series of tanks, built until 1981 and still operational as of 2010[update] and which itself led to the T-62, T-72 and T-90 tanks which, along with several Chinese tanks based on the T-55, form the backbone of many of the world's armies even today.
+
+			The T-34 was among the most important weapons fielded by the Red Army in World War II. At the time it was first fielded in 1940, commentators considered it one of the finest tank designs in the world.[7][8] By mid-war, the T-34 no longer technically outclassed its opponents, but it remained effective in combat
+		</Text>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_T-26">
+		<Text>T-26</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_T-26">
+		<Text>Russian light tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_T-26_TEXT">
+		<Text>The T-26 tank was a Soviet light infantry tank used during many conflicts of the 1930s as well as during World War II. It was a development of the British Vickers 6-Ton tank and is widely considered one of the most successful tank designs of the 1930s.[3]
+
+It was produced in greater numbers than any other tank of the period, with more than 11,000 produced.[4] During the 1930s, the USSR developed approximately 53 variants of the T-26, including other combat vehicles based on its chassis. Twenty-three of these were mass-produced.[5]
+
+The T-26 was used extensively in the armies of Spain, China and Turkey. In addition, captured T-26 light tanks were used by the Finnish, German, Romanian and Hungarian armies.[6]
+
+Though nearly obsolete by the beginning of World War II, the T-26 was the most important tank of the Spanish Civil War and played a significant role during the Battle of Lake Khasan in 1938 as well as in the Winter War in 1939-40. The T-26 was the most numerous tank in the Red Army's armored force during the German invasion of the Soviet Union in June 1941.[7] The Soviet T-26 light tanks last saw use in August 1945, during the Soviet invasion of Manchuria.[8]
+
+The T-26 was reliable and simple to maintain, and its design was continually modernised between 1931 and 1941. However, no new models of the T-26 were developed after 1940.
+
+</Text>
+	</Row>	-->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row Tag="TXT_KEY_UNIT_T-34-76">
+		<Text>T-34-76</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_T-34-76">
+		<Text>Russian medium tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_T-34-76_TEXT">
+		<Text>The T-34 was a Soviet medium tank produced from 1940 to 1958. Although its armour and armament were surpassed by later tanks of the era, it has been often credited as the most effective, efficient and influential design of World War II.[4] First produced at the KhPZ factory in Kharkov (Kharkiv, Ukraine), it was the mainstay of Soviet armoured forces throughout World War II, and widely exported afterwards. It was the most-produced tank of the war, and the second most-produced tank of all time, after its successor, the T-54/55 series.[5] In 1996, T-34 variants were still in service in at least 27 countries.
+
+			The T-34 was developed from the BT series of fast tanks and was intended to replace both the BT-5 and BT-7 tanks and the T-26 infantry tank in service.[6] At its introduction, it was the tank with the best balanced attributes of firepower, mobility, protection and ruggedness, although initially its battlefield effectiveness suffered from the unsatisfactory ergonomic layout of its crew compartment, scarcity of radios, and poor tactical employment. The two-man turret-crew arrangement required the commander to aim and fire the gun, an arrangement common to most Soviet tanks of the day; this proved to be inferior to three-man (commander, gunner, and loader) turret crews of German Panzer III and Panzer IV tanks.
+
+			The design and construction of the tank were continuously refined during the war to enhance effectiveness and decrease costs, allowing steadily greater numbers of T-34s to be fielded. In early 1944, the improved T-34-85 was introduced, with a more powerful 85 mm gun and a three-man turret design. By the war's end in 1945, the versatile and cost-effective T-34 had replaced many light and heavy tanks in service, and accounted for the majority of Soviet tank production. Its evolutionary development led directly to the T-54/55 series of tanks, built until 1981 and still operational as of 2010[update] and which itself led to the T-62, T-72 and T-90 tanks which, along with several Chinese tanks based on the T-55, form the backbone of many of the world's armies even today.
+
+			The T-34 was among the most important weapons fielded by the Red Army in World War II. At the time it was first fielded in 1940, commentators considered it one of the finest tank designs in the world.[7][8] By mid-war, the T-34 no longer technically outclassed its opponents, but it remained effective in combat
+		</Text>
+	</Row>	-->
+	
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_IS-2">
+		<Text>IS-2</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_IS-2">
+		<Text>Russian heavy tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_IS-2_TEXT">
+		<Text>The Iosif Vissarionovich tank (or IS tank, also known as the Joseph Stalin tank), was a heavy tank developed by the Soviet Union during World War II and first used in the Kursk area in September 1943.[2] The tanks in the series are also sometimes called JS or ИС tanks.
+
+The heavy tank was designed with thick armour to counter the German 88 mm guns, and carried a main gun that was capable of defeating the German Tiger and Panther tanks. It was mainly a breakthrough tank, firing a heavy high-explosive shell that was useful against entrenchments and bunkers. The IS-2 was put into service in April 1944, and was used as a spearhead in the Battle of Berlin by the Red Army in the final stage of the war.
+
+</Text>
+	</Row>-->
+
+	
+	<!-- ************************************ENGLAND********************************** -->
+
+	
+	<!-- AAs******************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_CRUSADER_III_AA">
+		<Text>CRUSADER III AA</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_CRUSADER_III_AA">
+		<Text>English AntiAircraft from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_CRUSADER_III_AA_TEXT">
+		<Text>
+			The 6-pounder was replaced with a Bofors 40 mm anti-aircraft gun with an autoloader and powered mounting in an open topped turret. The crew numbered four: gun commander, gun layer, loader, and driver.
+			MKII, a Crusader armed with twin Oerlikon 20 mm guns for anti-aircraft use. Mk III only differed from the Mk II by the position of the radio, which was moved to the hull in order to free some space inside the turret. A variation with triple Oerlikons that was produced in very limited quantities. Due to Allied air superiority none of the AA versions saw much action.
+
+		</Text>
+	</Row>
+
+	<!-- Antitanks************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_M10_ACHILLES">
+		<Text>M10 ACHILLES</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_M10_ACHILLES">
+		<Text>English AntiTank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_M10_ACHILLES_TEXT">
+		<Text>
+			The 17 pounder, Self Propelled, Achilles was a British variant of the American M10 Tank destroyer armed with the powerful British Ordnance QF 17 pounder anti-tank gun in place of the standard 3" (76.2 mm) Gun M7. With a total of 1,100 M10s converted, the 17 pdr SP Achilles was the second most numerous armoured fighting vehicle to see service armed with the 17 pounder gun, behind the Sherman Firefly.
+
+			The name "Achilles" was officially a designation applied to both the 3" gun and 17 pounder versions (as Achilles I/II and Achilles Ic/IIc respectively) but was little used during the Second World War; at the time, the vehicle was called 17pdr M10, or 17pdr SP M10, or even occasionally, "Firefly". It has since become identified almost exclusively with the 17 pounder version.
+
+		</Text>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_KING_GEORGE_V_CLASS">
+		<Text>KING GEORGE V CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_KING_GEORGE_V_CLASS">
+		<Text>English Battleship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_KING_GEORGE_V_CLASS_TEXT">
+		<Text>
+			The King George V-class battleships were the most modern British battleships used during World War II. Five ships of this class were built and commissioned: King George V (1940), Prince of Wales (1941), Duke of York (1941), Howe (1942), and Anson (1942).
+
+			The Washington Naval Treaty of 1922 limiting all of the number, displacement, and armaments of warships built following its ratification, and this was extended by the First London Naval Treaty, but these treaties were due to expire in 1936. With increased tension between the major naval nations (the U.K., the U.S.A., Japan, France, and Italy), it was supposed by the designers of these battleships that the treaty might not be renewed, and the ships of the King George V-class were designed with this possibility in mind.
+
+			All five of these battleships served during World War II. Prince of Wales was the only one of these sunk at sea when she and with the battlecruiser HMS Repulse were sunk by Japanese air attacks off the eastern coast of Malaya.
+
+		</Text>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_HP_HALIFAX">
+		<Text>HP HALIFAX</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_HP_HALIFAX">
+		<Text>English Bomber from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_HP_HALIFAX_TEXT">
+		<Text>
+			The Handley Page Halifax was one of the British front-line, four-engined heavy bombers of the Royal Air Force during the Second World War. A contemporary of the famous Avro Lancaster, the Halifax remained in service until the end of the war, performing a variety of duties in addition to bombing. The Halifax was also operated by squadrons of the Royal Canadian Air Force, Royal Australian Air Force, Free French Air Force, and Free Polish Air Force, and after the Second World War by the Royal Egyptian Air Force, the Armée de l'Air and the Royal Pakistan Air Force.
+
+		</Text>
+	</Row>
+
+	<!-- Capital Ships************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_ADMIRAL_CLASS">
+		<Text>ADMIRAL CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_ADMIRAL_CLASS">
+		<Text>English Capital Ship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_ADMIRAL_CLASS_TEXT">
+		<Text>
+			The British Royal Navy's pre-dreadnought Admiral class battleships of the 1880s followed the pattern of the Devastation class in having the main armament on centre-line mounts with the superstructure in between. This pattern was followed by most following British designs until HMS Dreadnought in 1906.
+
+			They were known as the Admiral-class because they were all named after British admirals, such as Admiral George Anson.
+
+		</Text>
+	</Row>
+
+	<!-- Carriers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_ARK_ROYAL_CLASS">
+		<Text>ARK ROYAL CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_ARK_ROYAL_CLASS">
+		<Text>English Aircraft Carrier from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_ARK_ROYAL_CLASS_TEXT">
+		<Text>
+			HMS Ark Royal (pennant number 91) was an aircraft carrier of the Royal Navy that served during the Second World War.
+
+			Designed in 1934 to fit the restrictions of the Washington Naval Treaty, Ark Royal was built by Cammell Laird and Company, Ltd. at Birkenhead, England, and completed in November 1938. Her design differed from previous aircraft carriers. Ark Royal was the first ship on which the hangars and flight deck were an integral part of the hull, instead of an add-on or part of the superstructure. Designed to carry a large number of aircraft, she had two hangar deck levels. She served during a period that first saw the extensive use of naval air power; a number of carrier tactics were developed and refined aboard Ark Royal.
+
+			Ark Royal served in some of the most active naval theatres of the Second World War. She was involved in the first aerial and U-boat kills of the war, operations off Norway, the search for the German battleship Bismarck, and the Malta Convoys. Ark Royal survived several near misses and gained a reputation as a 'lucky ship'. The Germans incorrectly reported her as sunk on multiple occasions.
+
+			She was torpedoed on 13 November 1941 by the German submarine U-81 and sank the following day. Her sinking was the subject of several inquiries; investigators were keen to know how the carrier was lost, in spite of efforts to save the ship and tow her to the naval base at Gibraltar. They found that several design flaws contributed to the loss, which were rectified in new British carriers.
+
+			Her wreck was discovered by a BBC crew in December 2002, approximately 30 nmi (35 mi; 56 km) from Gibraltar.
+
+		</Text>
+	</Row>
+
+	<!-- Cruisers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_DIDO_CLASS">
+		<Text>DIDO CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_DIDO_CLASS">
+		<Text>English Cruiser from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_DIDO_CLASS_TEXT">
+		<Text>
+			The Dido class was a class of sixteen (including the Bellona sub-class) light cruisers built for the Royal Navy. The design was influenced by the Arethusa class light cruisers. The first group of three ships was commissioned in 1940, the second group (six ships) and third group (two ships) were commissioned in 1941–1942. The Bellona class ships commissioned between 1943 to 1944. Most members of the class were named after figures of Greek mythology.
+
+			They were designed as fleet escorts to protect heavier units from both light surface forces and aircraft. The enthusiasm felt for them by the Board of Admiralty was borne out by good results in action and the only real problem with the type was shortage of gun-mountings and a need to stiffen them forward to take the weight of the forward turrets.
+
+		</Text>
+	</Row>
+
+	<!-- Destroyers**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_TRIBA_CLASS">
+		<Text>TRIBA CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TRIBA_CLASS">
+		<Text>English Destroyer from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_TRIBA_CLASS_TEXT">
+		<Text>
+			The L and M class was a class of sixteen destroyers which served in the British Royal Navy during World War II. The ships of the class were launched between 1939 and 1942.
+
+		</Text>
+	</Row>
+
+	<!-- Early Fighters************************************************ -->
+	<Row Tag="TXT_KEY_UNIT_SPOWITH_CAMEL">
+		<Text>SOPWITH CAMEL</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SPOWITH_CAMEL">
+		<Text>English Early Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SPOWITH_CAMEL_TEXT">
+		<Text>
+			The Sopwith Camel was a British First World War single-seat biplane fighter introduced on the Western Front in 1917. Manufactured by Sopwith Aviation Company, it had a short-coupled fuselage, heavy, powerful rotary engine, and concentrated fire from twin synchronized machine guns. Though difficult to handle, to an experienced pilot it provided unmatched manoeuvrability. A superlative fighter, the Camel was credited with shooting down 1,294 enemy aircraft, more than any other Allied fighter of the war. Near the end of the conflict, it also served as a ground-attack aircraft.
+
+		</Text>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_MK_A_WHIPPET">
+		<Text>MK A WHIPPET</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_MK_A_WHIPPET">
+		<Text>English Early Tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_MK_A_WHIPPET_TEXT">
+		<Text>The Medium Mark A Whippet was a British tank of World War I. It was intended to complement the slower British heavy tanks by using its relative mobility and speed in exploiting any break in the enemy lines.[2] Possibly the most successful British tank of World War I, the Whippet was responsible for more German casualties than any other British tank of the war.[3] Whippets later took part in several of the British Army's postwar actions, notably in Ireland and North Russia</Text>
+	</Row>
+
+	<!-- Fighters****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SUPERMARINE_SPITFIRE_MK_V">
+		<Text>SUPERMARINE SPITFIRE MK V</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SUPERMARINE_SPITFIRE_MK_V">
+		<Text>English Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SUPERMARINE_SPITFIRE_MK_V_TEXT">
+		<Text>
+			The British Supermarine Spitfire was the only fighter aircraft of the Second World War to fight in front line service, from the beginnings of the conflict, in September 1939, through to the end in August 1945. Post-war the Spitfire's service career continued into the 1950s.[1] The basic airframe proved to be extremely adaptable, capable of taking far more powerful engines and far greater loads than its original role as a short-range interceptor had allowed for. This would lead to 19 marks of Spitfire and 52 sub-variants being produced throughout the Second World War and beyond.[2] The many changes were made in order to fulfil Royal Air Force requirements and to successfully combat ever-improving enemy aircraft.[3] With the death of Reginald J. Mitchell in June 1937, all variants of the Spitfire were designed by his replacement, Joseph Smith, and a team of engineers and draftsmen.[4]
+
+			These articles present a brief history of the Spitfire through all of its variants, including many of the defining characteristics of each sub-type. This article deals with Spitfires powered by early Rolls-Royce Merlin engines which mostly utilised single-speed, single-stage superchargers. The second article describes Spitfire variants powered by later Merlins, with two-stage, two-speed superchargers, while the final article describes the Spitfires powered by Rolls-Royce Griffon engines.
+
+			Late in 1940, the RAF predicted that the advent of the pressurised Junkers Ju 86P bomber series over Britain would be the start of a new sustained high altitude bombing offensive by the Luftwaffe, in which case development was put in hand for a pressurised version of the Spitfire, with a new version of the Merlin (the Mk VI). It would take some time to develop the new fighter and an emergency stop-gap measure was needed as soon as possible: this was the Mk V.[80]
+
+			The basic Mk V was a Mk I with the Merlin 45 series engine. This engine delivered 1,440 hp (1,074 kW) at take-off, and incorporated a new single-speed single-stage supercharger design. Improvements to the carburettor also allowed the Spitfire to use zero gravity manoeuvres without any problems with fuel flow. Several Mk I and Mk II airframes were converted to Mk V standard by Supermarine and started equipping fighter units from early 1941. The majority of the Mk Vs were built at Castle Bromwich
+		</Text>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_WW2INFANTRY_ENGLAND">
+		<Text>English WW2 Infantry</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_ENGLAND_WW2INFANTRY">
+		<Text>English infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_ENGLAND_WW2INFANTRY_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_ENGLAND_WW2PARATROOPER">
+		<Text>English WW2 Paratroupers</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_ENGLAND_WW2PARATROOPER">
+		<Text>English infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_ENGLAND_WW2PARATROOPER_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_U_CLASS">
+		<Text>U CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_U_CLASS">
+		<Text>English Submarine from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_U_CLASS_TEXT">
+		<Text>
+			The British U class submarines (officially "War Emergency 1940 and 1941 programmes, short hull "[1]) were a class of 49 small submarines built just before and during the Second World War. The class is sometimes known as the Undine class, after the first submarine built.
+
+		</Text>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_A27M_CROMWELL">
+		<Text>A27M CROMWELL</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_A27M_CROMWELL">
+		<Text>English tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_A27M_CROMWELL_TEXT">
+		<Text>
+			Tank, Cruiser, Mk VIII, Cromwell (A27M),[nb 1] and the related Centaur tank, were one of the most successful series of cruiser tanks fielded by Britain in the Second World War. The Cromwell tank, named after the English Civil War leader Oliver Cromwell, was the first tank in the British arsenal to combine a dual-purpose gun, high speed from the powerful and reliable Meteor engine, and reasonable armour, all in one balanced package. Its design formed the basis of the Comet tank.
+
+			The Cromwell first saw action in the Battle of Normandy in June 1944. The tank equipped the armoured reconnaissance regiments, of the Royal Armoured Corps, within the 7th, 11th, and Guards Armoured Divisions. While the armour regiments of the latter two divisions were equipped with M4 Shermans, the armour regiments of the 7th Armour was fully equipped with Cromwell tanks.
+
+		</Text>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_A11_MATILDA_I">
+		<Text>A11 MATILDA I</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_A11_MATILDA_I">
+		<Text>English light tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_A11_MATILDA_I_TEXT">
+		<Text>The Tank, Infantry, Mk I, Matilda I (A11)[1] was a British infantry tank of the Second World War. It is not to be confused with the later model Tank, Infantry Mk II (A12), also known as the "Matilda II" which took over the "Matilda" name after the early part of the war when the first Matilda was withdrawn from combat service. They were of totally different design and did not share components, but did have some similar traits because they were both designed to be infantry tanks, a type of tank that tended to sacrifice speed for increased armour protection.
+
+</Text>
+	</Row>-->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row Tag="TXT_KEY_UNIT_A12_MATILDA_II">
+		<Text>A12 MATILDA II</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_A12_MATILDA_II">
+		<Text>English medium tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_A12_MATILDA_II_TEXT">
+		<Text>The Infantry Tank Mark II known as the Matilda II (sometimes referred to as Matilda senior or simply an 'I' tank) was a British infantry tank of the Second World War. It was also identified from its General Staff Specification A12.
+
+It served from the start of the war to its end and became particularly associated with the North Africa Campaign. It was replaced in service by the Infantry Tank Mk III Valentine.
+
+When the earlier Infantry Tank Mark I which was also known as "Matilda" was removed from service the Infantry Tank Mk II simply became known as the Matilda.
+
+</Text>
+	</Row>	-->
+	
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_A22_CHURCHILL">
+		<Text>A22 CHURCHILL</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_A22_CHURCHILL">
+		<Text>English heavy tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_A22_CHURCHILL_TEXT">
+		<Text>The Tank, Infantry, Mk IV (A22) was a heavy British infantry tank used in the Second World War, best known for its heavy armour, large longitudinal chassis with all-around tracks with multiple bogies, and its use as the basis of many specialist vehicles. It was one of the heaviest allied tanks of the war. This series of tanks was named after Winston Churchill,[1] who was Prime Minister of the United Kingdom and Minister of Defence at the time, and had been involved with the development of the tank as a weapon during the First World War.
+
+</Text>
+	</Row>-->
+
+	
+	<!-- ************************************AMERICA********************************* -->
+
+	
+	<!-- AAs******************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_M16A1_MGMC">
+		<Text>M16A1 MGMC</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_M16A1_MGMC">
+		<Text>American AntiAircraft from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_M16A1_MGMC_TEXT">
+		<Text>
+			The Carrier, Personnel Half-track M3 was an armored vehicle used by the United States, the British Empire and the other Allies during World War II and the Cold War. Nearly 43,000 were produced, and supplied to the U.S. Army and Marines, as well as British Commonwealth and Soviet Red Army forces, serving on all fronts throughout the war.
+			
+			Anti-aircraft variants: T1E4/M13 MGMC - M3 based Multiple Gun Motor Carriage equipped with the Maxson M33 mount with 2 M2HB machine guns (5,000 rounds). The T1E4 prototypes had the hull sides removed for easy of working with the mount. These were reintroduced on production M13s. This was a development of previous T1s that had all been based on the M2 Half-track Car.
+		</Text>
+	</Row>
+
+	<!-- Antitanks************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_M18_HELLCAT">
+		<Text>M18 HELLCAT</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_M18_HELLCAT">
+		<Text>American AntiTank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_M18_HELLCAT_TEXT">
+		<Text>
+			The 76 mm Gun Motor Carriage (GMC) M18 was an American tank destroyer of World War II. The manufacturer, Buick, gave it the nickname "Hellcat" and it was the fastest tracked armored fighting vehicle during the war with a top speed up to 60 mph.[1] Hellcat crews took advantage of the vehicle's speed to protect against hits to its thin armor. Many German Panther and Tiger tanks were destroyed because they could not turn their turrets fast enough to return fire.
+
+		</Text>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SOUTH_DAKOTA_CLASS">
+		<Text>SOUTH DAKOTA CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SOUTH_DAKOTA_CLASS">
+		<Text>American Battleship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SOUTH_DAKOTA_CLASS_TEXT">
+		<Text>
+			The South Dakota-class was a group of four fast battleships built by the United States Navy. They were the second class of battleships to be named after the 40th State; the first class was designed in the 1920s and canceled under the terms of the Washington Naval Treaty. The class comprised four ships: South Dakota, Indiana, Massachusetts, and Alabama. They were more compact and better protected than the preceding North Carolina class, but had the same main battery, nine 16-inch (406 mm)/45-caliber guns in triple turrets. The ships can be visually distinguished from the earlier vessels by their single funnel, compared to twin funnels in the North Carolinas. According to authors William Garzke and Robert Dulin, the South Dakota design was the best "treaty battleship" ever built.[1]
+
+			Construction began shortly before World War II, with Fiscal Year (FY) 1939 appropriations. Commissioning through the summer of 1942, the four ships served in both the Atlantic, ready to intercept possible German capital ship sorties, and the Pacific, in carrier groups and shore bombardments. All four ships were retired post-war; South Dakota and Indiana were scrapped, while Massachusetts and Alabama were retained as museum ships.
+
+		</Text>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_B-17_FLYING_FORTRESS">
+		<Text>B-17 FLYING FORTRESS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_B-17_FLYING_FORTRESS">
+		<Text>American Bomber from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_B-17_FLYING_FORTRESS_TEXT">
+		<Text>
+			The Boeing B-17 Flying Fortress was a four-engine heavy bomber aircraft developed in the 1930s for the then-United States Army Air Corps (USAAC). Competing against Douglas and Martin for a contract to build 200 bombers, the Boeing entry outperformed both competitors and more than met the Air Corps' expectations. Although Boeing lost the contract because the prototype crashed, the Air Corps was so impressed with Boeing's design that they ordered 13 more B-17s for further evaluation. From its introduction in 1938, the B-17 Flying Fortress evolved through numerous design advances.
+
+			The B-17 was primarily employed by the United States Army Air Forces (USAAF) in the daylight precision strategic bombing campaign of World War II against German industrial and military targets. The United States Eighth Air Force based at Thorpe Abbotts airfield in England and the Fifteenth Air Force based in Italy complemented the RAF Bomber Command's nighttime area bombing in Operation Pointblank to help secure air superiority over the cities, factories and battlefields of Western Europe in preparation for Operation Overlord.[4] The B-17 also participated to a lesser extent in the War in the Pacific where it conducted raids against Japanese shipping and airfields.
+
+			From its pre-war inception, the USAAC (later USAAF) touted the aircraft as a strategic weapon; it was a potent, high-flying, long-range bomber that was able to defend itself, and to return home despite extensive battle damage. It quickly took on mythic proportions,[5][N 1][6] and widely circulated stories and photos of B-17s surviving battle damage increased its iconic status.[7] With a service ceiling greater than any of its Allied contemporaries, the B-17 established itself as an effective weapons system, dropping more bombs than any other U.S. aircraft in World War II. Of the 1.5 million metric tons of bombs dropped on Germany by U.S. aircraft, 640,000 tons were dropped from B-17s.[8]
+
+		</Text>
+	</Row>
+
+	<!-- Capital Ships************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_IOWA_CLASS">
+		<Text>IOWA CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_IOWA_CLASS">
+		<Text>American Capital Ship from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_IOWA_CLASS_TEXT">
+		<Text>
+			The Iowa-class battleships were a class of fast battleships ordered by the United States Navy in 1939 and 1940 to escort the Fast Carrier Task Forces which would operate in the Pacific Theater of World War II. Six were ordered during the course of World War II, but only four were completed in time to see service in the Pacific Theater. The last two had been laid down, but as a result of the postwar drawdown of the armed forces they were canceled prior to completion and eventually scrapped. Like other third-generation American battleships, the Iowa class followed the design pattern set forth in the preceding North Carolina- and South Dakota-class battleships, which placed great emphasis on speed as well as on the secondary and anti-aircraft batteries.[7]
+
+			Between the mid-1940s and the early 1990s the Iowa-class battleships were involved in four major wars fought by the United States. In World War II, they defended aircraft carriers and shelled Japanese positions. During the Korean War, the battleships provided seaborne artillery support for United Nations forces fighting against North Korea, and in 1968 New Jersey shelled Viet Cong and Vietnam People's Army military forces in the Vietnam War. All four were reactivated and armed with missiles during the 1980s as part of the 600-ship Navy initiative; in 1991 Missouri and Wisconsin fired missiles and 16-inch (406 mm) guns at Iraqi targets during the First Gulf War. Citing the impending end of the Cold War and the sizable operating expense, the United States Navy decommissioned all four battleships in the late 1980s and early 1990s.
+
+			Initially, all four battleships were removed from the Naval Vessel Register; however, the United States Congress compelled the Navy to reinstate two of the four battleships on the grounds that existing naval gunfire support would be inadequate for amphibious operations. This resulted in a lengthy debate over whether battleships should have a role in the modern navy. Meanwhile, the battleships struck from the Naval Vessel Register were slated to be donated to not-for-profit organizations. Three of the four battleships have officially been transferred to private groups and operate as part of their associated maritime museums, while the fourth (Iowa) is currently off limits to the public pending an official transfer to an eligible not-for-profit for use as a museum ship.
+
+		</Text>
+	</Row>
+
+	<!-- Carriers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_YORKTOWN_CLASS">
+		<Text>YORKTOWN CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_YORKTOWN_CLASS">
+		<Text>American Aircraft Carrier from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_YORKTOWN_CLASS_TEXT">
+		<Text>
+			The Yorktown class was a class of three aircraft carriers built by the U.S. and completed shortly before World War II. They bore the brunt of early action in that war, and the sole survivor of the class was to become the most decorated ship in the history of the U.S. Navy.
+
+		</Text>
+	</Row>
+
+	<!-- Cruisers****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_BALTIMORE_CLASS">
+		<Text>BALTIMORE CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_BALTIMORE_CLASS">
+		<Text>American Cruiser from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_BALTIMORE_CLASS_TEXT">
+		<Text>
+			The Baltimore class cruiser was a type of heavy cruiser in the United States Navy from the last years of the Second World War. Fast and heavily armed, ships like the Baltimore cruisers were mainly used by the Navy in World War II to protect the fast aircraft carriers in carrier battle groups. With their strong anti-aircraft armament, Baltimores could contribute especially in air defenses of these battle groups. Additionally, their 8-inch main guns and smaller medium guns were regularly used to bombard land targets in support of amphibious landings. After the war, the ships were, for the most part, moved to the reserve fleet but then reactivated for the Korean War. By 1971, all ships based on the original design were decommissioned. However, four Baltimore class cruisers were refitted and converted into some of the first guided missile cruisers in the world, becoming Albany-class and Boston-class cruisers. The last of these was decommissioned in 1980. No example of the Baltimore class still exists.
+
+		</Text>
+	</Row>
+
+	<!-- Destroyers**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_FLETCHER_CLASS">
+		<Text>FLETCHER CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_FLETCHER_CLASS">
+		<Text>American Destroyer from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_FLETCHER_CLASS_TEXT">
+		<Text>
+			The Fletcher class were a class of destroyers built by the United States during World War II. The class was designed in 1939 as a result of dissatisfaction with the earlier destroyer leader types. Some went on to serve during the Korean War and into the Vietnam War.[2]
+
+			The United States Navy commissioned 175 Fletcher-class destroyers between 1942 and 1944, more than any other destroyer class, and the "Fletcher" design was generally regarded as highly successful. The Fletcher class had a design speed of 38 knots, armed with five 5" guns in single mounts and carrying 10 21" torpedo in twin quintuple centerline mounts. [3] The Allen M. Sumner- and Gearing classes were Fletcher derivatives.
+
+			The long-range Fletcher- class ships would participate in battles in every aspect that could be asked of a destroyer, from Anti-Submarine Warfare and Anti-Aircraft Warfare to surface actions.[4] They could cover the vast distances required by fleet actions in the Pacific. In fact, they served almost exclusively in the Pacific Theater of Operations during World War II.[5] In a massive effort, the Fletcher-class ships were built by shipyards across the United States and, after World War II ended, many were sold to the very countries they had fought against: Italy, Germany, and Japan, as well as other navies, where they would go on to have even longer, distinguished careers.
+
+			Three have been preserved as museum ships in the US, and one in Greece.
+
+		</Text>
+	</Row>
+
+	<!-- Early Fighters************************************************ -->
+	<Row Tag="TXT_KEY_UNIT_SPAD_S.XIII">
+		<Text>SPAD S.XIII</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SPAD_S.XIII">
+		<Text>American Early Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_SPAD_S.XIII_TEXT">
+		<Text>
+			The SPAD S.XIII was a French biplane fighter aircraft of World War I, developed by Société Pour L'Aviation et ses Dérivés (SPAD) from the earlier highly successful SPAD S.VII. It was one of the most capable fighters of the war, and one of the most-produced, with 8,472 built and orders for around 10,000 more cancelled at the Armistice.[2]
+			
+			The SPAD S.XIII first flew on 4 April 1917, and in the following month, was already being delivered to the French Air Service. Other Allied forces were quick to adopt the new fighter as well, and nearly half of the 893 purchased for the United States Army Air Service were still in service in 1920. It was also exported to Japan, Poland, and Czechoslovakia after the war.
+
+			The S.XIII was flown by famous French fighter pilots such as Georges Guynemer and Rene Fonck, and also by Italian ace Francesco Baracca. Aces of the United States Army Air Service who flew the Spad XIII include Eddie Rickenbacker (America's leading ace with 26 confirmed victories) and Frank Luke (18 victories).
+
+		</Text>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_M1917">
+		<Text>M1917</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_M1917">
+		<Text>American Early Tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_M1917_TEXT">
+		<Text>
+			The Six Ton Tank (or Special Tractor) M1917 was a US tank, and was America's first important mass produced tank.[1] The Six Ton Tank M1917 was a license built copy of the French Renault FT17[2], and was accepted by the army in October 1918. The US Army ordered approximately 4,440 Six Ton M1917 Tanks between 1918 and 1919, receiving about 950 tanks before cancelling the contract. No US manufactured tank reached Europe in time to participate in World War I.
+
+		</Text>
+	</Row>
+
+	<!-- Fighters****************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_P-40_WARHAWK">
+		<Text>P-40 WARHAWK</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_P-40_WARHAWK">
+		<Text>American Fighter from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_P-40_WARHAWK_TEXT">
+		<Text>
+			The Curtiss P-40 Warhawk was an American single-engine, single-seat, all-metal fighter and ground attack aircraft that first flew in 1938. The P-40 design was a modification of the previous Curtiss P-36 Hawk which reduced development time and enabled a rapid entry into production and operational service. The Warhawk was used by the air forces of 28 nations, including those of most Allied powers during World War II, and remained in front line service until the end of the war. It was the third most-produced American fighter, after the P-51 and P-47; by November 1944, when production of the P-40 ceased, 13,738 had been built,[3] all at Curtiss-Wright Corporation's main production facility at Buffalo, New York.
+
+			Warhawk was the name the United States Army Air Corps adopted for all models, making it the official name in the United States for all P-40s. The British Commonwealth and Soviet air forces used the name Tomahawk for models equivalent to the P-40B and P-40C, and the name Kittyhawk for models equivalent to the P-40D and all later variants.
+
+			P-40s first saw combat with the British Commonwealth squadrons of the Desert Air Force (DAF) in the Middle East and North African campaigns, during June 1941.[4][5] The Royal Air Force's No. 112 Squadron was among the first to operate Tomahawks, in North Africa, and the unit was the first to feature the "shark mouth" logo,[6] copying similar markings on some Luftwaffe Messerschmitt Bf 110 twin-engine fighters.[6] [N 1]
+
+			The P-40's lack of a two-stage supercharger made it inferior to Luftwaffe fighters such as the Messerschmitt Bf 109 or the Focke-Wulf Fw 190 in high-altitude combat and it was rarely used in operations in Northwest Europe. Between 1941 and 1944, however, the P-40 played a critical role with Allied air forces in three major theaters: North Africa, the Southwest Pacific and China. It also had a significant role in the Middle East, Southeast Asia, Eastern Europe, Alaska and Italy. The P-40's performance at high altitudes was not as critical in those theaters, where it served as an air superiority fighter, bomber escort and fighter bomber. Although it gained a post-war reputation as a mediocre design, suitable only for close air support, more recent research including scrutiny of the records of individual Allied squadrons indicates that the P-40 performed surprisingly well as an air superiority fighter, at times suffering severe losses, but also taking a very heavy toll on enemy aircraft.[8] The P-40 offered the additional advantage of low cost, which kept it in production as a ground-attack fighter long after it was obsolete in the air superiority role. As of 2008, 19 P-40s were airworthy.[9]
+
+		</Text>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_WW2INFANTRY_AMERICA">
+		<Text>American WW2 Infantry</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_AMERICA_WW2INFANTRY">
+		<Text>American infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_AMERICA_WW2INFANTRY_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_AMERICA_WW2PARATROOPER">
+		<Text>American WW2 Paratroupers</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_AMERICA_WW2PARATROOPER">
+		<Text>American infantry from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_AMERICA_WW2PARATROOPER_TEXT">
+		<Text>This is now the long text description about the unit</Text>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_GATO_CLASS">
+		<Text>GATO CLASS</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_GATO_CLASS">
+		<Text>American Submarine from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_GATO_CLASS_TEXT">
+		<Text>
+			The United States Navy Gato-class submarine formed the core of the submarine service that was largely responsible for the destruction of the Japanese merchant marine and a large portion of the Imperial Japanese Navy in World War II. Named after the first vessel of this design, USS Gato, the Gato class and its successors, the Balao and Tench classes, formed the majority of the United States Navy's WWII submarine fleet.[4] Gato's name comes from a species of small catshark. Like most other U.S. Navy submarines of the period, the Gato class were given the names of marine creatures, the one odd exception being USS Scorpion.
+
+		</Text>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row Tag="TXT_KEY_UNIT_M4A3_SHERMAN_IV">
+		<Text>M4A3 SHERMAN IV</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_M4A3_SHERMAN_IV">
+		<Text>American tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_M4A3_SHERMAN_IV_TEXT">
+		<Text>
+			The M4 Sherman, formally Medium Tank, M4, was the primary tank used by the United States during World War II. Thousands were also distributed to the Allies, including the British Commonwealth and Soviet armies, via lend-lease. In the United Kingdom, the M4 was named after Union General William Tecumseh Sherman, following the British practice of naming their American-built tanks after famous American Civil War generals. Subsequently the British name found its way into common use in the U.S.
+
+			The Sherman evolved from the Grant and Lee medium tanks, which had an unusual side-sponson mounted 75 mm gun. It retained much of the previous mechanical design, but added the first American main 75 mm gun mounted on a fully traversing turret, with a gyrostabilizer enabling the crew to fire with reasonable accuracy while the tank was on the move.[4] The designers stressed mechanical reliability, ease of production and maintenance, durability, standardization of parts and ammunition in a limited number of variants, and moderate size and weight. These factors made the Sherman superior in some regards, to the earlier German light and medium tanks that had swept across Europe in the blitzkrieg campaigns of 1939-41, and which still made up the majority of the German armor—albeit usually in up-gunned and up-armored variants—forces in the later stages of the war. The Sherman ended up being produced in large numbers and formed the backbone of most Allied offensives, starting in late 1942.
+
+			The original Shermans were able to defeat the relatively small German tanks such as the Panzer III and IV they faced when first deployed in North Africa. Later, they found themselves more evenly matched against the newer up-gunned and up- armored Pz.Kpfw. IV medium tanks. Many models were outmatched by the 45 ton Panther tank and wholly inadequate against the armor and range of the 56 ton Tiger I and later 72 ton Tiger II heavy tanks, suffering high casualties against their heavier armor and more powerful 88 mm cannons. Mobility, mechanical reliability and sheer numbers, supported by growing superiority in supporting fighter-bombers and artillery, offset these disadvantages. Later versions of the Sherman introduced 76 mm guns, giving them better armor penetration than the original 75 mm gun, though still insufficient at range against late war German heavy tanks. The British developed a version of the Sherman called the Firefly which had an improved gun to much more effectively take on Panthers and Tigers.
+
+			Production of the Sherman was favored by the commander of the Armored Ground Forces, albeit controversially, over the heavier M26 Pershing, which resulted in the latter being deployed too late to play any significant role in the war. In the Pacific Theater, the Sherman was used chiefly against Japanese infantry and fortifications; in its rare encounters with much lighter Japanese tanks with weaker armor and guns, the Sherman's superiority was overwhelming.
+
+			Production of the M4 exceeded 50,000 units, and its chassis also served as the basis for numerous other armored vehicles such as tank destroyers, tank retrievers, and self-propelled artillery. Only Mikhail Koshkin's design of the Soviet T-34 tank was ultimately produced in larger numbers during World War II. Many German generals and many historians considered the T-34 the best tank of the war,[5] but even so the Russians recognized the Sherman's particular advantages when they used them in certain niche situations.[6]
+
+			The Sherman would finally give way to post-war tanks developed from the M26. Various original and updated versions of the Sherman would continue to see combat effectively in many later conflicts, including the Korean War, the Arab-Israeli Wars, and Indo-Pakistani Wars into the late 20th century, against the T-34 and sometimes much more modern Soviet tanks.[7]
+
+		</Text>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_M5_STUART">
+		<Text>M5 STUART</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_M5_STUART">
+		<Text>American light tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_M5_STUART_TEXT">
+		<Text>The M3 Stuart, formally Light Tank M3, was an American light tank of World War II and supplied to British and Commonwealth forces under lend-lease prior to the entry of the U.S. into the war—and used thereafter by U.S. and Allied forces until the end of the war.
+
+The name General Stuart or Stuart given by the British comes from the American Civil War Confederate General J.E.B. Stuart and was used for both the M3 and the derivative M5 Light Tank. In British service, it also had the unofficial nickname of Honey after a tank driver remarked "She's a honey".[1] To the United States Army, the tanks were officially known only as "Light Tank M3" and "Light Tank M5".
+
+The M3 Stuarts were the first American-manned (U.S.) tanks in World War II to engage the enemy in tank versus tank combat.[2][3]
+
+</Text>
+	</Row>	-->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row Tag="TXT_KEY_UNIT_M4A3_SHERMAN_IV">
+		<Text>M4A3 SHERMAN IV</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_M4A3_SHERMAN_IV">
+		<Text>American medium tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_M4A3_SHERMAN_IV_TEXT">
+		<Text>The M4 Sherman, formally Medium Tank, M4, was the primary tank used by the United States during World War II. Thousands were also distributed to the Allies, including the British Commonwealth and Soviet armies, via lend-lease. In the United Kingdom, the M4 was named after Union General William Tecumseh Sherman, following the British practice of naming their American-built tanks after famous American Civil War generals. Subsequently the British name found its way into common use in the U.S.
+
+The Sherman evolved from the Grant and Lee medium tanks, which had an unusual side-sponson mounted 75 mm gun. It retained much of the previous mechanical design, but added the first American main 75 mm gun mounted on a fully traversing turret, with a gyrostabilizer enabling the crew to fire with reasonable accuracy while the tank was on the move.[4] The designers stressed mechanical reliability, ease of production and maintenance, durability, standardization of parts and ammunition in a limited number of variants, and moderate size and weight. These factors made the Sherman superior in some regards, to the earlier German light and medium tanks that had swept across Europe in the blitzkrieg campaigns of 1939-41, and which still made up the majority of the German armor—albeit usually in up-gunned and up-armored variants—forces in the later stages of the war. The Sherman ended up being produced in large numbers and formed the backbone of most Allied offensives, starting in late 1942.
+
+The original Shermans were able to defeat the relatively small German tanks such as the Panzer III and IV they faced when first deployed in North Africa. Later, they found themselves more evenly matched against the newer up-gunned and up- armored Pz.Kpfw. IV medium tanks. Many models were outmatched by the 45 ton Panther tank and wholly inadequate against the armor and range of the 56 ton Tiger I and later 72 ton Tiger II heavy tanks, suffering high casualties against their heavier armor and more powerful 88 mm cannons. Mobility, mechanical reliability and sheer numbers, supported by growing superiority in supporting fighter-bombers and artillery, offset these disadvantages. Later versions of the Sherman introduced 76 mm guns, giving them better armor penetration than the original 75 mm gun, though still insufficient at range against late war German heavy tanks. The British developed a version of the Sherman called the Firefly which had an improved gun to much more effectively take on Panthers and Tigers.
+
+Production of the Sherman was favored by the commander of the Armored Ground Forces, albeit controversially, over the heavier M26 Pershing, which resulted in the latter being deployed too late to play any significant role in the war. In the Pacific Theater, the Sherman was used chiefly against Japanese infantry and fortifications; in its rare encounters with much lighter Japanese tanks with weaker armor and guns, the Sherman's superiority was overwhelming.
+
+Production of the M4 exceeded 50,000 units, and its chassis also served as the basis for numerous other armored vehicles such as tank destroyers, tank retrievers, and self-propelled artillery. Only Mikhail Koshkin's design of the Soviet T-34 tank was ultimately produced in larger numbers during World War II. Many German generals and many historians considered the T-34 the best tank of the war,[5] but even so the Russians recognized the Sherman's particular advantages when they used them in certain niche situations.[6]
+
+The Sherman would finally give way to post-war tanks developed from the M26. Various original and updated versions of the Sherman would continue to see combat effectively in many later conflicts, including the Korean War, the Arab-Israeli Wars, and Indo-Pakistani Wars into the late 20th century, against the T-34 and sometimes much more modern Soviet tanks.[7]
+
+</Text>
+	</Row>-->
+	
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row Tag="TXT_KEY_UNIT_M26_PERSHING">
+		<Text>M26 PERSHING</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_M26_PERSHING">
+		<Text>American heavy tank from WW2.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_CIV5_M26_PERSHING_TEXT">
+		<Text>The Heavy Tank M26 Pershing was an American heavy tank briefly used in World War II and in the Korean War. It was named after General John Pershing, who led the American Expeditionary Force in Europe in World War I.
+
+Development of the M26 during World War II was prolonged by a number of factors, the most important being opposition to the tank from Army Ground Forces (AGF). As a result, only the initial 20 M26 (T26E3) tanks deployed to Europe in January 1945 saw combat in World War II.[1] The M26 and its improved derivative, the M46 Patton, both saw more combat in Korea. The M26 was underpowered and mechanically unreliable and so was withdrawn from Korea in 1951, in favor of the M46, which had a more powerful engine.[2] The lineage of the M26 continued with the M47 Patton, and was reflected in the new designs of the later M48 Patton and M60 Combat Tank.
+
+</Text>
+	</Row>-->
+
+</Language_en_US>	
+</GameData>

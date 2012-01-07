@@ -1,0 +1,1642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 19/11/2010 00:14:54 -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+<Units>
+			
+	<!-- ************************************ROME******************************* -->
+
+	
+	<!-- AAs*********************************************************** -->
+	<Row>
+		<Class>UNITCLASS_ANTI_AIRCRAFT_GUN</Class>
+		<Type>UNIT_AUTOCANNONE_90-53</Type>
+		<Description>TXT_KEY_UNIT_AUTOCANNONE_90-53</Description>
+		<Help>TXT_KEY_UNIT_HELP_AUTOCANNONE_90-53</Help>
+		<UnitArtInfo>ART_DEF_UNIT_AUTOCANNONE_90_53</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_AUTOCANNONE_90-53_TEXT</Civilopedia>
+		<PrereqTech>TECH_RADIO</PrereqTech>
+		<ObsoleteTech>TECH_ROCKETRY</ObsoleteTech>
+		<Combat>32</Combat>
+		<Cost>8000</Cost>
+		<Moves>2</Moves>
+		<Range>2</Range>
+		<CombatClass>UNITCOMBAT_GUN</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_ANTI_AIRCRAFT_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_MOBILE_SAM</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>35</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<Conscription>5</Conscription>
+		<UnitFlagIconOffset>61</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>16</PortraitIndex>
+		<MoveRate>WHEELED</MoveRate>
+	</Row>
+
+	<!-- Antitanks***************************************************** -->
+	<Row>
+		<Class>UNITCLASS_ANTI_TANK_GUN</Class>
+		<Type>UNIT_ANTI_SEMOVENTE_M42M-75-34</Type>
+		<Description>TXT_KEY_UNIT_SEMOVENTE_M42M-75-34</Description>
+		<Help>TXT_KEY_UNIT_HELP_SEMOVENTE_M42M-75-34</Help>
+		<UnitArtInfo>ART_DEF_UNIT_SEMOVENTE_M42M_75_34</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_SEMOVENTE_M42M-75-34_TEXT</Civilopedia>
+		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		<ObsoleteTech>TECH_ADVANCED_FLIGHT</ObsoleteTech>
+		<Combat>32</Combat>
+		<Cost>8000</Cost>
+		<Moves>2</Moves>
+		<CombatClass>UNITCOMBAT_GUN</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_AT_GUN_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_HELICOPTER_GUNSHIP</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>35</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<Conscription>1</Conscription>
+		<UnitFlagIconOffset>60</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>15</PortraitIndex>
+		<MoveRate>WHEELED</MoveRate>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row>
+		<Class>UNITCLASS_BATTLESHIP</Class>
+		<Type>UNIT_CONTE_DI_CAVOUR_CLASS</Type>
+		<Description>TXT_KEY_UNIT_CONTE_DI_CAVOUR_CLASS</Description>
+		<Help>TXT_KEY_UNIT_HELP_CONTE_DI_CAVOUR_CLASS</Help>
+		<UnitArtInfo>ART_DEF_UNIT_CONTE_DI_CAVOUR_CLASS</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_CONTE_DI_CAVOUR_CLASS_TEXT</Civilopedia>
+		<PrereqTech>TECH_BIG_GUNS_DOCTRINE</PrereqTech>
+		<ObsoleteTech>TECH_ADVANCED_MAGNETICS</ObsoleteTech>
+		<Combat>80</Combat>
+		<RangedCombat>70</RangedCombat>
+		<Cost>21000</Cost>
+		<Moves>4</Moves>
+		<Range>3</Range>
+		<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+		<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_BATTLESHIP_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>60</AdvancedStartCost>
+		<MinAreaSize>20</MinAreaSize>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>68</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>21</PortraitIndex>
+		<MoveRate>BOAT</MoveRate>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<Class>UNITCLASS_BOMBER</Class>
+		<Type>UNIT_SAVOIA-MARCHETTI_SM.84</Type>
+		<Description>TXT_KEY_UNIT_SAVOIA-MARCHETTI_SM.84</Description>
+		<Help>TXT_KEY_UNIT_HELP_SAVOIA-MARCHETTI_SM.84</Help>
+		<UnitArtInfo>ART_DEF_UNIT_SAVOIA_MARCHETTI_SM_84</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_SAVOIA-MARCHETTI_SM.84_TEXT</Civilopedia>
+		<PrereqTech>TECH_FLIGHT</PrereqTech>
+		<ObsoleteTech>TECH_HYBRID_SCRAMJETS</ObsoleteTech>
+		<RangedCombat>50</RangedCombat>
+		<Cost>17000</Cost>
+		<Moves>2</Moves>
+		<Immobile>true</Immobile>
+		<Range>10</Range>
+		<Special>SPECIALUNIT_FIGHTER</Special>
+		<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+		<Domain>DOMAIN_AIR</Domain>
+		<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_BOMBER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<AirUnitCap>1</AirUnitCap>
+		<RangedCombatLimit>100</RangedCombatLimit>
+		<CombatLimit>0</CombatLimit>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>2</XPValueDefense>
+		<UnitFlagIconOffset>64</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>18</PortraitIndex>
+		<MoveRate>AIR_REBASE</MoveRate>
+	</Row>
+<!--
+	<!-- Capital Ships************************************************* -->
+	<Row>
+		<Class>UNITCLASS_CAPITALSHIP</Class>
+		<Type>UNIT_LITTORIO_CLASS</Type>
+		<Description>TXT_KEY_UNIT_LITTORIO_CLASS</Description>
+		<Help>TXT_KEY_UNIT_HELP_LITTORIO_CLASS</Help>
+		<UnitArtInfo>ART_DEF_UNIT_LITTORIO_CLASS</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_LITTORIO_CLASS_TEXT</Civilopedia>
+		<PrereqTech>TECH_BIG_GUNS_DOCTRINE</PrereqTech>
+		<ObsoleteTech>TECH_ADVANCED_MAGNETICS</ObsoleteTech>
+		<Combat>90</Combat>
+		<RangedCombat>80</RangedCombat>
+		<Cost>26000</Cost>
+		<Moves>4</Moves>
+		<Range>3</Range>
+		<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+		<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_BATTLESHIP_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>60</AdvancedStartCost>
+		<MinAreaSize>20</MinAreaSize>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>68</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>21</PortraitIndex>
+		<MoveRate>BOAT</MoveRate>
+	</Row>
+-->
+	<!-- Carriers****************************************************** -->
+	<Row>
+		<Class>UNITCLASS_CARRIER</Class>
+		<Type>UNIT_AQUILA_CLASS</Type>
+		<Description>TXT_KEY_UNIT_AQUILA_CLASS</Description>
+		<Help>TXT_KEY_UNIT_HELP_AQUILA_CLASS</Help>
+		<UnitArtInfo>ART_DEF_UNIT_AQUILA_CLASS</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_AQUILA_CLASS_TEXT</Civilopedia>
+		<PrereqTech>TECH_FLIGHT</PrereqTech>
+		<ObsoleteTech>TECH_REACTOR_MINIATURIZATION</ObsoleteTech>
+		<Combat>40</Combat>
+		<Cost>24000</Cost>
+		<Moves>5</Moves>
+		<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+		<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_CARRIER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>60</AdvancedStartCost>
+		<MinAreaSize>20</MinAreaSize>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+		<DomainCargo>DOMAIN_AIR</DomainCargo>
+		<UnitFlagIconOffset>70</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>23</PortraitIndex>
+		<MoveRate>BOAT</MoveRate>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<Class>UNITCLASS_CRUISER</Class>
+		<Type>UNIT_ZARA_CLASS</Type>
+		<Description>TXT_KEY_UNIT_ZARA_CLASS</Description>
+		<Help>TXT_KEY_UNIT_HELP_ZARA_CLASS</Help>
+		<UnitArtInfo>ART_DEF_UNIT_ZARA_CLASS</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_ZARA_CLASS_TEXT</Civilopedia>
+		<PrereqTech>TECH_TORPEDOES</PrereqTech>
+		<ObsoleteTech>TECH_CRUISE_MISSILES</ObsoleteTech>
+		<Combat>50</Combat>
+		<RangedCombat>40</RangedCombat>
+		<Cost>17500</Cost>
+		<Moves>6</Moves>
+		<Range>3</Range>
+		<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+		<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>60</AdvancedStartCost>
+		<MinAreaSize>20</MinAreaSize>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>80</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>33</PortraitIndex>
+		<MoveRate>BOAT</MoveRate>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<Class>UNITCLASS_DESTROYER</Class>
+		<Type>UNIT_SOLDATI_CLASS</Type>
+		<Description>TXT_KEY_UNIT_SOLDATI_CLASS</Description>
+		<Help>TXT_KEY_UNIT_HELP_SOLDATI_CLASS</Help>
+		<UnitArtInfo>ART_DEF_UNIT_SOLDATI_CLASS</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_SOLDATI_CLASS_TEXT</Civilopedia>
+		<PrereqTech>TECH_TORPEDOES</PrereqTech>
+		<ObsoleteTech>TECH_ADVANCED_MAGNETICS</ObsoleteTech>
+		<Combat>40</Combat>
+		<RangedCombat>30</RangedCombat>
+		<Cost>14880</Cost>
+		<Moves>8</Moves>
+		<Range>2</Range>
+		<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+		<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_DESTROYER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>60</AdvancedStartCost>
+		<MinAreaSize>20</MinAreaSize>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>67</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>20</PortraitIndex>
+		<MoveRate>BOAT</MoveRate>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<Class>UNITCLASS_EARLYFIGHTER</Class>
+		<Type>UNIT_ANSALDO_SVA-5</Type>
+		<Description>TXT_KEY_UNIT_ANSALDO_SVA-5</Description>
+		<Help>TXT_KEY_UNIT_HELP_ANSALDO_SVA-5</Help>
+		<UnitArtInfo>ART_DEF_UNIT_ANSALDO_SVA-5</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_ANSALDO_SVA-5_TEXT</Civilopedia>
+		<PrereqTech>TECH_FLIGHT</PrereqTech>
+		<ObsoleteTech>TECH_ADVANCED_FLIGHT</ObsoleteTech>
+		<RangedCombat>28</RangedCombat>
+		<Cost>10500</Cost>
+		<Moves>2</Moves>
+		<Immobile>true</Immobile>
+		<Range>5</Range>
+		<Special>SPECIALUNIT_FIGHTER</Special>
+		<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+		<Domain>DOMAIN_AIR</Domain>
+		<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_FIGHTER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<AirUnitCap>1</AirUnitCap>
+		<RangedCombatLimit>100</RangedCombatLimit>
+		<CombatLimit>0</CombatLimit>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>2</XPValueDefense>
+		<UnitFlagIconOffset>62</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>17</PortraitIndex>
+		<MoveRate>AIR_REBASE</MoveRate>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<Class>UNITCLASS_EARLYTANK</Class>
+		<Type>UNIT_FIAT_3000</Type>
+		<Description>TXT_KEY_UNIT_FIAT_3000</Description>
+		<Help>TXT_KEY_UNIT_HELP_FIAT_3000</Help>
+		<UnitArtInfo>ART_DEF_UNIT_FIAT_3000</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_FIAT_3000_TEXT</Civilopedia>
+		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		<ObsoleteTech>TECH_COMPOSITE_ARMOR</ObsoleteTech>
+		<Combat>41</Combat>
+		<Cost>1500</Cost>
+		<Moves>4</Moves>
+		<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_TANK_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_TANK</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>57</UnitFlagIconOffset>
+		<PortraitIndex>13</PortraitIndex>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<MoveRate>WHEELED</MoveRate>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<Class>UNITCLASS_FIGHTER</Class>
+		<Type>UNIT_MACCHI_C.200_SAETTA</Type>
+		<Description>TXT_KEY_UNIT_MACCHI_C.200_SAETTA</Description>
+		<Help>TXT_KEY_UNIT_HELP_MACCHI_C.200_SAETTA</Help>
+		<UnitArtInfo>ART_DEF_UNIT_MACCHI_C_200_SAETTA</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_MACCHI_C.200_SAETTA_TEXT</Civilopedia>
+		<PrereqTech>TECH_FLIGHT</PrereqTech>
+		<ObsoleteTech>TECH_ADVANCED_FLIGHT</ObsoleteTech>
+		<RangedCombat>40</RangedCombat>
+		<Cost>12400</Cost>
+		<Moves>2</Moves>
+		<Immobile>true</Immobile>
+		<Range>8</Range>
+		<Special>SPECIALUNIT_FIGHTER</Special>
+		<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+		<Domain>DOMAIN_AIR</Domain>
+		<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_FIGHTER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<AirUnitCap>1</AirUnitCap>
+		<RangedCombatLimit>100</RangedCombatLimit>
+		<CombatLimit>0</CombatLimit>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>2</XPValueDefense>
+		<UnitFlagIconOffset>62</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>17</PortraitIndex>
+		<MoveRate>AIR_REBASE</MoveRate>
+	</Row>
+
+	<!-- Infantry****************************************************** -->
+	<Row>
+		<Class>UNITCLASS_INFANTRY</Class>
+		<Type>UNIT_ROME_WW2INFANTRY</Type>
+		<Description>TXT_KEY_UNIT_WW2INFANTRY_ROME</Description>
+		<Help>TXT_KEY_UNIT_HELP_ROME_WW2INFANTRY</Help>
+		<UnitArtInfo>ART_DEF_UNIT_INFANTRY_ITALY_V2</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_ROMAN_WW2INFANTRY_TEXT</Civilopedia>
+		<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+		<ObsoleteTech>TECH_EXOSKELETONS</ObsoleteTech>
+		<Combat>36</Combat>
+		<Cost>9300</Cost>
+		<Moves>2</Moves>
+		<CombatClass>UNITCOMBAT_GUN</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_INFANTRY_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_MECHANIZED_INFANTRY</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>35</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<Conscription>6</Conscription>
+		<UnitFlagIconOffset>54</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>11</PortraitIndex>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<Class>UNITCLASS_PARATROOPER</Class>
+		<Type>UNIT_ROME_WW2PARATROOPER</Type>
+		<Description>TXT_KEY_UNIT_ROME_WW2PARATROOPER</Description>
+		<Help>TXT_KEY_UNIT_HELP_ROME_WW2PARATROOPER</Help>
+		<UnitArtInfo>ART_DEF_UNIT_PARATROOPER_ITALY</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_ROMAN_WW2PARATROOPER_TEXT</Civilopedia>
+		<PrereqTech>TECH_FLIGHT</PrereqTech>
+		<ObsoleteTech>TECH_EXOSKELETONS</ObsoleteTech>
+		<Combat>40</Combat>
+		<Cost>13600</Cost>
+		<Moves>2</Moves>
+		<CombatClass>UNITCOMBAT_GUN</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_PARADROP</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_PARATROOPER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<AdvancedStartCost>40</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<Conscription>1</Conscription>
+		<UnitFlagIconOffset>59</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>14</PortraitIndex>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<Class>UNITCLASS_SUBMARINE</Class>
+		<Type>UNIT_MARCELLO_CLASS</Type>
+		<Description>TXT_KEY_UNIT_MARCELLO_CLASS</Description>
+		<Help>TXT_KEY_UNIT_HELP_MARCELLO_CLASS</Help>
+		<UnitArtInfo>ART_DEF_UNIT_MARCELLO_CLASS</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_MARCELLO_CLASS_TEXT</Civilopedia>
+		<PrereqTech>TECH_SUBMERSIBLES</PrereqTech>
+		<ObsoleteTech>TECH_METAMATERIALS</ObsoleteTech>
+		<Combat>30</Combat>
+		<RangedCombat>70</RangedCombat>
+		<Cost>18000</Cost>
+		<Moves>5</Moves>
+		<Range>3</Range>
+		<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+		<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_SUBMARINE_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>60</AdvancedStartCost>
+		<MinAreaSize>20</MinAreaSize>
+		<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>69</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>22</PortraitIndex>
+		<MoveRate>SUB</MoveRate>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row>
+		<Class>UNITCLASS_TANK</Class>
+		<Type>UNIT_M15-42</Type>
+		<Description>TXT_KEY_UNIT_M15-42</Description>
+		<Help>TXT_KEY_UNIT_HELP_M15-42</Help>
+		<UnitArtInfo>ART_DEF_UNIT_M15_42</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_M15-42_TEXT</Civilopedia>
+		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		<ObsoleteTech>TECH_COMPOSITE_ARMOR</ObsoleteTech>
+		<Combat>50</Combat>
+		<Cost>17360</Cost>
+		<Moves>5</Moves>
+		<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_TANK_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_ARMOR</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>57</UnitFlagIconOffset>
+		<PortraitIndex>13</PortraitIndex>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<MoveRate>WHEELED</MoveRate>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row>
+		<Class>UNITCLASS_LIGHTTANK</Class>			
+		<Type>UNIT_L6-40</Type>
+		<Description>TXT_KEY_UNIT_L6-40</Description>
+		<Help>TXT_KEY_UNIT_HELP_L6-40</Help>
+		<UnitArtInfo>ART_DEF_UNIT_L6-40</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_L6-40_TEXT</Civilopedia>			
+		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		<ObsoleteTech>TECH_COMPOSITE_ARMOR</ObsoleteTech>
+		<Combat>45</Combat>
+		<Cost>16360</Cost>
+		<Moves>5</Moves>
+		<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_TANK_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_ARMOR</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>57</UnitFlagIconOffset>
+		<PortraitIndex>13</PortraitIndex>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<MoveRate>WHEELED</MoveRate>
+	</Row>-->
+
+	<!-- Medium Tanks********************************************************* -->
+	<!--<Row>
+		<Class>UNITCLASS_MEDIUMTANK</Class>		
+		<Type>UNIT_M15-42</Type>
+		<Description>TXT_KEY_UNIT_M15-42</Description>
+		<Help>TXT_KEY_UNIT_HELP_M15-42</Help>
+		<UnitArtInfo>ART_DEF_UNIT_M15-42</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_M15-42_TEXT</Civilopedia>		
+		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		<ObsoleteTech>TECH_COMPOSITE_ARMOR</ObsoleteTech>
+		<Combat>50</Combat>
+		<Cost>17360</Cost>
+		<Moves>5</Moves>
+		<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_TANK_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_ARMOR</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>57</UnitFlagIconOffset>
+		<PortraitIndex>13</PortraitIndex>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<MoveRate>WHEELED</MoveRate>
+	</Row>-->
+
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row>
+		<Class>UNITCLASS_HEAVYTANK</Class>		
+		<Type>UNIT_P26-40</Type>
+		<Description>TXT_KEY_UNIT_P26-40</Description>
+		<Help>TXT_KEY_UNIT_HELP_P26-40</Help>
+		<UnitArtInfo>ART_DEF_UNIT_P26-40</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_P26-40_TEXT</Civilopedia>
+		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		<ObsoleteTech>TECH_COMPOSITE_ARMOR</ObsoleteTech>
+		<Combat>60</Combat>
+		<Cost>20360</Cost>
+		<Moves>5</Moves>
+		<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_TANK_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_ARMOR</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>57</UnitFlagIconOffset>
+		<PortraitIndex>13</PortraitIndex>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<MoveRate>WHEELED</MoveRate>
+	</Row>-->
+	
+</Units>
+
+<Civilization_UnitClassOverrides>
+
+	<!-- ************************************ROME******************************* -->
+	
+
+	<!-- AAs******************************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_ANTI_AIRCRAFT_GUN</UnitClassType>
+		<UnitType>UNIT_AUTOCANNONE_90-53</UnitType>
+	</Row>
+
+	<!-- Antitanks************************************************************* -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_ANTI_TANK_GUN</UnitClassType>
+		<UnitType>UNIT_SEMOVENTE_M42M-75-34</UnitType>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
+		<UnitType>UNIT_CONTE_DI_CAVOUR_CLASS</UnitType>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_BOMBER</UnitClassType>
+		<UnitType>UNIT_SAVOIA-MARCHETTI_SM.84</UnitType>
+	</Row>
+<!--
+	<!-- Capital Ships************************************************* -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_CAPITALSHIP</UnitClassType>
+		<UnitType>UNIT_LITTORIO_CLASS</UnitType>
+	</Row>
+-->
+	<!-- Carriers****************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_CARRIER</UnitClassType>
+		<UnitType>UNIT_AQUILA_CLASS</UnitType>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_CRUISER</UnitClassType>
+		<UnitType>UNIT_ZARA_CLASS</UnitType>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_EARLYFIGHTER</UnitClassType>
+		<UnitType>UNIT_ANSALDO_SVA-5</UnitType>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_EARLYTANK</UnitClassType>
+		<UnitType>UNIT_FIAT_3000</UnitType>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+		<UnitType>UNIT_ROME_WW2INFANTRY</UnitType>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_PARATROOPER</UnitClassType>
+		<UnitType>UNIT_ROME_WW2PARATROOPER</UnitType>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_SUBMARINE</UnitClassType>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+	</Row>
+
+	<!-- Tanks************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_TANK</UnitClassType>
+		<UnitType>UNIT_M15-42</UnitType>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_LIGHTTANK</UnitClassType>
+		<UnitType>UNIT_L6-40</UnitType>
+	</Row>-->
+
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_MEDIUMTANK</UnitClassType>
+		<UnitType>UNIT_M15-42</UnitType>
+	</Row>-->
+
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row>
+		<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+		<UnitClassType>UNITCLASS_HEAVYTANK</UnitClassType>
+		<UnitType>UNIT_P26-40</UnitType>
+	</Row>-->
+
+</Civilization_UnitClassOverrides>
+
+<Unit_AITypes>
+
+	
+	<!-- ************************************ROME******************************* -->
+
+	
+	<!-- AAs*********************************************************** -->
+	<Row>
+		<UnitType>UNIT_AUTOCANNONE_90-53</UnitType>
+		<UnitAIType>UNITAI_COUNTER</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_AUTOCANNONE_90-53</UnitType>
+		<UnitAIType>UNITAI_CITY_SPECIAL</UnitAIType>
+	</Row>
+
+	<!-- Antitanks***************************************************** -->
+	<Row>
+		<UnitType>UNIT_SEMOVENTE_M42M-75-34</UnitType>
+		<UnitAIType>UNITAI_COUNTER</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SEMOVENTE_M42M-75-34</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row>
+		<UnitType>UNIT_CONTE_DI_CAVOUR_CLASS</UnitType>
+		<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CONTE_DI_CAVOUR_CLASS</UnitType>
+		<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<UnitType>UNIT_SAVOIA-MARCHETTI_SM.84</UnitType>
+		<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+	</Row>
+<!--
+	<!-- Capital Ships************************************************* -->
+	<Row>
+		<UnitType>UNIT_LITTORIO_CLASS</UnitType>
+		<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LITTORIO_CLASS</UnitType>
+		<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+	</Row>
+-->
+	<!-- Carriers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_AQUILA_CLASS</UnitType>
+		<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_ZARA_CLASS</UnitType>
+		<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ZARA_CLASS</UnitType>
+		<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<UnitType>UNIT_ANSALDO_SVA-5</UnitType>
+		<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANSALDO_SVA-5</UnitType>
+		<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<UnitType>UNIT_FIAT_3000</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FIAT_3000</UnitType>
+		<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
+	</Row>
+
+	<!-- Infantry****************************************************** -->
+	<Row>
+		<UnitType>UNIT_ROME_WW2INFANTRY</UnitType>
+		<UnitAIType>UNITAI_ATTACK</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROME_WW2INFANTRY</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROME_WW2INFANTRY</UnitType>
+		<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<UnitType>UNIT_ROME_WW2PARATROOPER</UnitType>
+		<UnitAIType>UNITAI_PARADROP</UnitAIType>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row>
+		<UnitType>UNIT_L6-40</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_L6-40</UnitType>
+		<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+	</Row>-->
+
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+	</Row>-->
+
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row>
+		<UnitType>UNIT_P26-40</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_P26-40</UnitType>
+		<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+	</Row>-->
+
+</Unit_AITypes>
+
+<Unit_Flavors>
+	
+
+	<!-- ************************************ROME******************************* -->
+
+	
+	<!-- AAs************************************************** -->
+	<Row>
+		<UnitType>UNIT_AUTOCANNONE_90-53</UnitType>
+		<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+		<Flavor>25</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_AUTOCANNONE_90-53</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>
+	
+	<!-- Antitanks************************************************** -->
+	<Row>
+		<UnitType>UNIT_SEMOVENTE_M42M-75-34</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>2</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SEMOVENTE_M42M-75-34</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>
+	
+	<!-- Battleships*************************************************** -->
+	<Row>
+		<UnitType>UNIT_CONTE_DI_CAVOUR_CLASS</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CONTE_DI_CAVOUR_CLASS</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CONTE_DI_CAVOUR_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<UnitType>UNIT_SAVOIA-MARCHETTI_SM.84</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SAVOIA-MARCHETTI_SM.84</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>6</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SAVOIA-MARCHETTI_SM.84</UnitType>
+		<FlavorType>FLAVOR_AIR</FlavorType>
+		<Flavor>15</Flavor>
+	</Row>
+<!--
+	<!-- Capital Ships************************************************* -->
+	<Row>
+		<UnitType>UNIT_LITTORIO_CLASS</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LITTORIO_CLASS</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LITTORIO_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+-->
+	<!-- Carriers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_AQUILA_CLASS</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_AQUILA_CLASS</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>4</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_AQUILA_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL</FlavorType>
+		<Flavor>7</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_AQUILA_CLASS</UnitType>
+		<FlavorType>FLAVOR_AIR</FlavorType>
+		<Flavor>3</Flavor>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_ZARA_CLASS</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>6</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ZARA_CLASS</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ZARA_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ZARA_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+		<Flavor>7</Flavor>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>6</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>6</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL</FlavorType>
+		<Flavor>7</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+		<Flavor>4</Flavor>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<UnitType>UNIT_ANSALDO_SVA-5</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANSALDO_SVA-5</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANSALDO_SVA-5</UnitType>
+		<FlavorType>FLAVOR_AIR</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANSALDO_SVA-5</UnitType>
+		<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+		<Flavor>15</Flavor>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<UnitType>UNIT_FIAT_3000</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FIAT_3000</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FIAT_3000</UnitType>
+		<FlavorType>FLAVOR_MOBILE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<FlavorType>FLAVOR_AIR</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+		<Flavor>15</Flavor>
+	</Row>
+	
+	<!-- Infantry************************************************** -->
+	<Row>
+		<UnitType>UNIT_ROME_WW2INFANTRY</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROME_WW2INFANTRY</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<UnitType>UNIT_ROME_WW2PARATROOPER</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROME_WW2PARATROOPER</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROME_WW2PARATROOPER</UnitType>
+		<FlavorType>FLAVOR_AIR</FlavorType>
+		<Flavor>3</Flavor>
+	</Row>
+	
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>6</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+		<Flavor>2</Flavor>
+	</Row>
+	
+	<!-- Tanks************************************************** -->
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<FlavorType>FLAVOR_MOBILE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row>
+		<UnitType>UNIT_L6-40</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_L6-40</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_L6-40</UnitType>
+		<FlavorType>FLAVOR_MOBILE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>-->
+
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<FlavorType>FLAVOR_MOBILE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>-->
+
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row>
+		<UnitType>UNIT_P26-40</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_P26-40</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_P26-40</UnitType>
+		<FlavorType>FLAVOR_MOBILE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>-->
+	
+</Unit_Flavors>
+
+<Unit_ClassUpgrades>
+
+	
+	<!-- ************************************ROME******************************* -->
+
+	
+	<!-- AAs************************************************** -->
+	<Row>
+		<UnitType>UNIT_AUTOCANNONE_90-53</UnitType>
+		<UnitClassType>UNITCLASS_MOBILE_SAM</UnitClassType>
+	</Row>
+
+	<!-- Antitanks************************************************** -->
+	<Row>
+		<UnitType>UNIT_SEMOVENTE_M42M-75-34</UnitType>
+		<UnitClassType>UNITCLASS_HELICOPTER_GUNSHIP</UnitClassType>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row>
+		<UnitType>UNIT_CONTE_DI_CAVOUR_CLASS</UnitType>
+		<UnitClassType>UNITCLASS_CGX_CRUISER</UnitClassType>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<UnitType>UNIT_SAVOIA-MARCHETTI_SM.84</UnitType>
+		<UnitClassType>UNITCLASS_UNMANNED_AIRCRAFT</UnitClassType>
+	</Row>
+<!--
+	<!-- Capital Ships************************************************* -->
+	<Row>
+		<UnitType>UNIT_LITTORIO_CLASS</UnitType>
+		<UnitClassType>UNITCLASS_FUSION_DREADNOUGHT</UnitClassType>
+	</Row>
+-->
+	<!-- Carriers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_AQUILA_CLASS</UnitType>
+		<UnitClassType>UNITCLASS_FUSION_SUPERCARRIER</UnitClassType>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_ZARA_CLASS</UnitType>
+		<UnitClassType>UNITCLASS_MISSILE_CRUISER</UnitClassType>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<UnitClassType>UNITCLASS_DDX_DESTROYER</UnitClassType>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<UnitType>UNIT_ANSALDO_SVA-5</UnitType>
+		<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<UnitType>UNIT_FIAT_3000</UnitType>
+		<UnitClassType>UNITCLASS_TANK</UnitClassType>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<UnitClassType>UNITCLASS_JET_FIGHTER</UnitClassType>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row>
+		<UnitType>UNIT_ROME_WW2INFANTRY</UnitType>
+		<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<UnitType>UNIT_ROME_WW2PARATROOPER</UnitType>
+		<UnitClassType>UNITCLASS_POWERED_INFANTRY</UnitClassType>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<UnitClassType>UNITCLASS_STEALTH_SUBMARINE</UnitClassType>
+	</Row>
+
+	<!-- Tanks************************************************** -->
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row>
+		<UnitType>UNIT_L6-40</UnitType>
+		<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
+	</Row>-->
+
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
+	</Row>-->
+
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row>
+		<UnitType>UNIT_P26-40</UnitType>
+		<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
+	</Row>-->
+
+</Unit_ClassUpgrades>
+
+
+<Unit_ResourceQuantityRequirements>
+
+
+	<!-- ************************************ROME******************************* -->
+
+	
+	<!-- Battleships*************************************************** -->
+	<Row>
+		<UnitType>UNIT_CONTE_DI_CAVOUR_CLASS</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+	</Row>
+<!--
+	<!-- Capital Ships************************************************* -->
+	<Row>
+		<UnitType>UNIT_LITTORIO_CLASS</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+	</Row>
+-->		
+</Unit_ResourceQuantityRequirements>
+
+<Unit_FreePromotions>
+
+	<!-- ************************************ROME******************************* -->
+
+	
+	<!-- AAs************************************************** -->
+	<Row>
+		<UnitType>UNIT_AUTOCANNONE_90-53</UnitType>
+		<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_AUTOCANNONE_90-53</UnitType>
+		<PromotionType>PROMOTION_ANTI_AIR</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_AUTOCANNONE_90-53</UnitType>
+		<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
+	</Row>
+
+	<!-- Antitanks************************************************** -->
+	<Row>
+		<UnitType>UNIT_SEMOVENTE_M42M-75-34</UnitType>
+		<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+	</Row>
+
+	<!-- Battleships*************************************************** -->
+	<Row>
+		<UnitType>UNIT_CONTE_DI_CAVOUR_CLASS</UnitType>
+		<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CONTE_DI_CAVOUR_CLASS</UnitType>
+		<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	</Row>
+
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<UnitType>UNIT_SAVOIA-MARCHETTI_SM.84</UnitType>
+		<PromotionType>PROMOTION_NAVAL_PENALTY</PromotionType>
+	</Row>
+<!--
+	<!-- Capital Ships************************************************* -->
+	<Row>
+		<UnitType>UNIT_LITTORIO_CLASS</UnitType>
+		<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LITTORIO_CLASS</UnitType>
+		<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LITTORIO_CLASS</UnitType>
+		<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
+	</Row>
+-->	
+	<!-- Carriers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_AQUILA_CLASS</UnitType>
+		<PromotionType>PROMOTION_CARGO_II</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_AQUILA_CLASS</UnitType>
+		<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_ZARA_CLASS</UnitType>
+		<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ZARA_CLASS</UnitType>
+		<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ZARA_CLASS</UnitType>
+		<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SOLDATI_CLASS</UnitType>
+		<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<UnitType>UNIT_ANSALDO_SVA-5</UnitType>
+		<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANSALDO_SVA-5</UnitType>
+		<PromotionType>PROMOTION_WEAK_RANGED</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANSALDO_SVA-5</UnitType>
+		<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<UnitType>UNIT_FIAT_3000</UnitType>
+		<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FIAT_3000</UnitType>
+		<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FIAT_3000</UnitType>
+		<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<PromotionType>PROMOTION_WEAK_RANGED</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MACCHI_C.200_SAETTA</UnitType>
+		<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<UnitType>UNIT_ROME_WW2PARATROOPER</UnitType>
+		<PromotionType>PROMOTION_PARADROP</PromotionType>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<PromotionType>PROMOTION_INVISIBLE_SUBMARINE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARCELLO_CLASS</UnitType>
+		<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+	</Row>
+
+	<!-- Light Tanks*********************************************************-->
+	<!--<Row>
+		<UnitType>UNIT_L6-40</UnitType>
+		<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_L6-40</UnitType>
+		<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_L6-40</UnitType>
+		<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+	</Row>-->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_M15-42</UnitType>
+		<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+	</Row>-->
+	
+	<!-- Heavy Tanks********************************************************* -->
+	<!--<Row>
+		<UnitType>UNIT_P26-40</UnitType>
+		<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_P26-40</UnitType>
+		<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_P26-40</UnitType>
+		<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+	</Row>-->
+		
+</Unit_FreePromotions>
+</GameData>

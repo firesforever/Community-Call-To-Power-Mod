@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/10/2010 1:53:02 PM -->
+<GameData>
+	<Projects>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="14"/>
+			<Where Type="PROJECT_WORMHOLE_DETECTION_ARRAY" />
+		</Update>
+	</Projects>
+</GameData>

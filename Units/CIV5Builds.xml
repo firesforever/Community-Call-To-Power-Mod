@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/10/2010 1:43:09 PM -->
+<GameData>
+	<Builds>
+		<Update>
+			<Set PrereqTech="TECH_TRADING" />
+			<Where Type="BUILD_TRADING_POST" />
+		</Update>
+		<Update>
+			<Set PrereqTech="TECH_ECONOMY_OF_SCALE" />
+			<Where Type="BUILD_PLANTATION" />
+		</Update>
+		<Update>
+			<Set PrereqTech="TECH_MINING" />
+			<Where Type="BUILD_REMOVE_JUNGLE" />
+		</Update>
+	</Builds>
+
+	<BuildFeatures>
+		<Update>
+			<Set Production="100" />
+			<Where BuildType="BUILD_REMOVE_JUNGLE" />
+		</Update>
+		<Update>
+			<Set Production="100" />
+			<Where BuildType="BUILD_REMOVE_FOREST" />
+		</Update>
+	</BuildFeatures>
+
+</GameData>
