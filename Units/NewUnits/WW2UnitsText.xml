@@ -42,25 +42,6 @@ The Soviet Union supplied a further 100 SBs in 1941, just before it signed the S
 </Text>
 	</Row>
 
-	<!-- Early Tank**************************************************** -->
-	<!--
-	<Row Tag="TXT_KEY_UNIT_RENAULT_FT-17">
-		<Text>RENAULT FT-17</Text>
-	</Row>
-	<Row Tag="TXT_KEY_UNIT_HELP_RENAULT_FT-17">
-		<Text>Chinese Early Tank from WW2.</Text>
-	</Row>
-	<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_RENAULT_FT-17_TEXT">
-		<Text>	The Renault FT or Automitrailleuse à chenilles Renault FT modèle 1917, informally known as the FT-17 or FT17, was a French light tank; it is among the most revolutionary and influential tank designs in history. The FT was the first operational tank with an armament in a fully rotating turret,[nb 1] and its configuration with the turret on top, engine in the back and the driver in front became the conventional one, repeated in most tanks until today. Armour historian Steven Zaloga has called the Renault FT "the world's first modern tank".
-The FT was widely used by the French and the US in the later stages of World War I, after 31 May 1918. It was cheap and well-suited for mass production. It reflected an emphasis on quantity, both on a tactical level: Estienne proposed to overwhelm the enemy defences by a "swarm" of light tanks, and on a geostrategic level: the Entente was thought to be able to gain the upper hand by outproducing the Central Powers. A goal was set of 12,260 to be manufactured (4,440 of which in the USA) before the end of 1919.
-
-After the war, FTs were exported to many countries (Poland, Finland, Estonia, Lithuania, Romania, Yugoslavia, Czechoslovakia, Switzerland, Belgium, Netherlands, Spain, Brazil, Turkey, Iran, Afghanistan and Japan). As a result, FT tanks were used by most nations having armoured forces, invariably as their first tank type, including the United States. They took part in many later conflicts, such as the Russian Civil War, Polish-Soviet War, Chinese Civil War, Rif War and Spanish Civil War.
-
-In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, Czechoslovakia, Estonia, Finland, France, Nazi Germany, Iran, Japan, Lithuania, the Netherlands, Poland, Romania, the Russian White movement, the Soviet Union, Spain, Sweden, Switzerland, Turkey, Norway, the United Kingdom, the United States and the Kingdom of Yugoslavia.
-
-</Text>
-	</Row>-->
-
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_POLIKARPOV_I-16">
 		<Text>POLIKARPOV I-16</Text>
@@ -212,7 +193,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 			Engines taken from these aircraft were later used on Messerschmitt Me 323 cargo transports.
 		</Text>
 	</Row>
-
+<!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_RICHELIEU_CLASS">
 		<Text>RICHELIEU CLASS</Text>
@@ -226,7 +207,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 			Four Richelieu class ships, of three different subclasses, were laid down over the course of three naval construction programs, in 1935, 1936, and 1938. Only the two first units, Richelieu and Jean Bart, were ever completed, and saw service during World War II, first under Vichy control in Dakar (1940) and Casablanca (1942), then under the Allies' control, Richelieu participating in British Home Fleet and Eastern Fleet operations, and supported the French forces return to Indochina in late 1945. Jean Bart was not completed until the 1950s, and took part in the operations off Port Saïd (Egypt) during the Suez Crisis in 1956. Both were scrapped in the late 1960s.
 		</Text>
 	</Row>
-
+-->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_JOFFRE_CLASS">
 		<Text>JOFFRE CLASS</Text>
@@ -241,7 +222,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 			As the course of the war went, the lack of naval aviation did not become a factor for the French fleet, as France fell to land invasion before its navy could play a major role in the proceedings.
 		</Text>
 	</Row>
-
+<!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_LA_GALISSONNIERE">
 		<Text>LA GALISSONNIERE</Text>
@@ -257,7 +238,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 			They were scrapped between 1958 and 1970.
 		</Text>
 	</Row>
-
+-->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_FANTASQUE_CLASS">
 		<Text>FANTASQUE CLASS</Text>
@@ -271,7 +252,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 			The original purpose of these large French destroyers, and the earlier Chacal class, was to operate with battleship and cruiser forces, although they were not restricted to this. The Italian navy, the Regia Marina, reacted by building the Capitani Romani class cruisers. Those ships that sailed with the Allies were classed as light cruisers.
 		</Text>
 	</Row>
-
+<!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_NIEUPORT_17">
 		<Text>NIEUPORT 17</Text>
@@ -300,7 +281,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 	</Row>
 	<Row Tag="TXT_KEY_CIV5_RENAULT_FT-17_TEXT">
 		<Text>
-			The Renault FT or Automitrailleuse à chenilles Renault FT modèle 1917, informally known as the FT-17 or FT17, was a French light tank; it is among the most revolutionary and influential tank designs in history. The FT was the first operational tank with an armament in a fully rotating turret,[nb 1] and its configuration with the turret on top, engine in the back and the driver in front became the conventional one, repeated in most tanks until today. Armour historian Steven Zaloga has called the Renault FT "the world's first modern tank".
+			The Renault FT or Automitrailleuse à chenilles Renault FT modele 1917, informally known as the FT-17 or FT17, was a French light tank; it is among the most revolutionary and influential tank designs in history. The FT was the first operational tank with an armament in a fully rotating turret,[nb 1] and its configuration with the turret on top, engine in the back and the driver in front became the conventional one, repeated in most tanks until today. Armour historian Steven Zaloga has called the Renault FT "the world's first modern tank".
 The FT was widely used by the French and the US in the later stages of World War I, after 31 May 1918. It was cheap and well-suited for mass production. It reflected an emphasis on quantity, both on a tactical level: Estienne proposed to overwhelm the enemy defences by a "swarm" of light tanks, and on a geostrategic level: the Entente was thought to be able to gain the upper hand by outproducing the Central Powers. A goal was set of 12,260 to be manufactured (4,440 of which in the USA) before the end of 1919.
 
 After the war, FTs were exported to many countries (Poland, Finland, Estonia, Lithuania, Romania, Yugoslavia, Czechoslovakia, Switzerland, Belgium, Netherlands, Spain, Brazil, Turkey, Iran, Afghanistan and Japan). As a result, FT tanks were used by most nations having armoured forces, invariably as their first tank type, including the United States. They took part in many later conflicts, such as the Russian Civil War, Polish-Soviet War, Chinese Civil War, Rif War and Spanish Civil War.
@@ -311,7 +292,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_MORANE-SAULNIER_M.S.406">
 		<Text>MORANE-SAULNIER M.S.406</Text>
@@ -433,7 +414,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 	
 	<!-- ************************************GENERIC***************************** -->
 
-
+<!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_DREADNOUGHT">
 		<Text>DREADNOUGHT</Text>
@@ -488,7 +469,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 	</Row>
 
 	<!-- Light Tanks********************************************************* -->
-	<!--<Row Tag="TXT_KEY_UNIT_LIGHT_TANK">
+	<Row Tag="TXT_KEY_UNIT_LIGHT_TANK">
 		<Text>LIGHT TANK</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_LIGHT_TANK">
@@ -518,7 +499,8 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 	</Row>
 	<Row Tag="TXT_KEY_CIV5_HEAVY_TANK_TEXT">
 		<Text></Text>
-	</Row>-->
+	</Row>
+-->
 
 	
 	<!-- ************************************GERMANY***************************** -->
@@ -578,7 +560,7 @@ In late 1942, Gneisenau was heavily damaged in an Allied air raid against Kiel. 
 Despite its protracted development, the aircraft became one of the Luftwaffe's most important assets. The assembly line ran constantly from 1936 to 1945, and more than 16,000 Ju 88s were built in dozens of variants,[2] more than any other twin-engine German aircraft of the period. Throughout the production, the basic structure of the aircraft remained unchanged, proof of the outstanding quality of the original design.
 </Text>
 	</Row>
-
+<!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_BISMARK_CLASS">
 		<Text>BISMARK CLASS</Text>
@@ -595,7 +577,7 @@ Tirpitz's career was less dramatic; she was sent to Norwegian waters in 1942, wh
 
 </Text>
 	</Row>
-
+-->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_GRAF_ZEPPELIN_CLASS">
 		<Text>GRAF ZEPPELIN CLASS</Text>
@@ -612,7 +594,7 @@ These ships were also the subject of intense political wrangling within the Germ
 
 </Text>
 	</Row>
-
+<!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_DEUTSCHLAND_CLASS">
 		<Text>DEUTSCHLAND CLASS</Text>
@@ -634,7 +616,7 @@ These ships were also the subject of intense political wrangling within the Germ
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_Z_CLASS">
 		<Text>Z CLASS</Text>
@@ -652,7 +634,7 @@ These ships were also the subject of intense political wrangling within the Germ
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_FOKKER_DR.1">
 		<Text>FOKKER DR.1</Text>
@@ -683,7 +665,7 @@ These ships were also the subject of intense political wrangling within the Germ
 	<Row Tag="TXT_KEY_CIV5_A7V_TEXT">
 		<Text>The A7V was a tank introduced by Germany in 1918, near the end of World War I. One hundred vehicles were ordered during the spring of 1918, but only 21 were delivered. It was nicknamed "The Moving Fortress" by the British because of the shape of the hull. They saw action from March to October of that year, and were the only tanks produced by Germany in World War I to see operational use.</Text>
 	</Row>
-
+-->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_MESSERSCHMITT_BF-109E">
 		<Text>MESSERSCHMITT BF-109E</Text>
@@ -825,7 +807,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_PISA_CLASS">
 		<Text>PISA CLASS</Text>
@@ -843,7 +825,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_VASILEFS_GEORGIOS_CLASS">
 		<Text>VASILEFS GEORGIOS CLASS</Text>
@@ -863,7 +845,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_PZL_P.24">
 		<Text>PZL P.24</Text>
@@ -878,24 +860,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 			The PZL P.24 was the main Greek fighter at a time of the Italian attack in 1940, and engaged Italian bombers during the Greco-Italian War.
 		</Text>
 	</Row>
-
-	<!-- Early Tank**************************************************** -->
-	<Row Tag="TXT_KEY_UNIT_RENAULT_FT-17">
-		<Text>RENAULT FT-17</Text>
-	</Row>
-	<Row Tag="TXT_KEY_UNIT_HELP_RENAULT_FT-17">
-		<Text>Greek Early Tank from WW2.</Text>
-	</Row>
-	<Row Tag="TXT_KEY_CIV5_RENAULT_FT-17_TEXT">
-		<Text>The Renault FT or Automitrailleuse à chenilles Renault FT modèle 1917, informally known as the FT-17 or FT17, was a French light tank; it is among the most revolutionary and influential tank designs in history. The FT was the first operational tank with an armament in a fully rotating turret,[nb 1] and its configuration with the turret on top, engine in the back and the driver in front became the conventional one, repeated in most tanks until today. Armour historian Steven Zaloga has called the Renault FT "the world's first modern tank".
-			The FT was widely used by the French and the US in the later stages of World War I, after 31 May 1918. It was cheap and well-suited for mass production. It reflected an emphasis on quantity, both on a tactical level: Estienne proposed to overwhelm the enemy defences by a "swarm" of light tanks, and on a geostrategic level: the Entente was thought to be able to gain the upper hand by outproducing the Central Powers. A goal was set of 12,260 to be manufactured (4,440 of which in the USA) before the end of 1919.
-
-			After the war, FTs were exported to many countries (Poland, Finland, Estonia, Lithuania, Romania, Yugoslavia, Czechoslovakia, Switzerland, Belgium, Netherlands, Spain, Brazil, Turkey, Iran, Afghanistan and Japan). As a result, FT tanks were used by most nations having armoured forces, invariably as their first tank type, including the United States. They took part in many later conflicts, such as the Russian Civil War, Polish-Soviet War, Chinese Civil War, Rif War and Spanish Civil War.
-
-			In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, Czechoslovakia, Estonia, Finland, France, Nazi Germany, Iran, Japan, Lithuania, the Netherlands, Poland, Romania, the Russian White movement, the Soviet Union, Spain, Sweden, Switzerland, Turkey, Norway, the United Kingdom, the United States and the Kingdom of Yugoslavia.
-		</Text>
-	</Row>
-
+-->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SUPERMARINE_SPITFIRE">
 		<Text>SUPERMARINE SPITFIRE</Text>
@@ -1058,7 +1023,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_LITTORIO_CLASS">
 		<Text>LITTORIO CLASS</Text>
@@ -1076,7 +1041,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_AQUILA_CLASS">
 		<Text>AQUILA CLASS</Text>
@@ -1092,7 +1057,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_ZARA_CLASS">
 		<Text>ZARA CLASS</Text>
@@ -1107,7 +1072,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SOLDATI_CLASS">
 		<Text>SOLDATI CLASS</Text>
@@ -1123,7 +1088,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_ANSALDO_SVA-5">
 		<Text>ANSALDO SVA-5</Text>
@@ -1155,7 +1120,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_MACCHI_C.200_SAETTA">
 		<Text>MACCHI C.200 SAETTA</Text>
@@ -1340,7 +1305,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_YAMATO_CLASS">
 		<Text>YAMATO CLASS</Text>
@@ -1357,7 +1322,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 			On the eve of the Allies' occupation of Japan, special-service officers of the Imperial Japanese Navy destroyed virtually all records, drawings, and photographs of or relating to the Yamato-class battleships, leaving only fragmentary records of the design characteristics and other technical matters. The destruction of these documents was so efficient that until 1948 the only known images of the Yamato and Musashi were those taken by United States Navy aircraft involved in the attacks on the two battleships. Although some additional photographs and information, from documents that were not destroyed, have come to light over the years, the loss of the majority of written records for the class has made extensive research into the Yamato-class somewhat difficult.[6][7] Because of the lack of written records, information on the class largely came from interviews of Japanese officers following Japan's surrender.[8] However, in October 1942, based upon a special request from Adolf Hitler, German Admiral Paul Wenneker, attached to the German Naval Attache in Japan, was allowed to inspect a Yamato class battleship while it was undergoing maintenance in a dockyard, at which time Admiral Wenneker cabled a detailed description of the warship to Berlin. On 22 August 1943, Erich Groner, a German Navy historian, and author of the book Die Deutschen Kriegschiffe, 1815-1945, was shown the report while at the "Führer Headquarters", and was directed to make an "interpretation" and then prepare a "design sketch drawing" of the Japanese battleship. The material was preserved by Erich Groner's wife, Mrs. H. Groner, and submitted to publishers in the 1950s
 		</Text>
 	</Row>
-
+-->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SHOKAKU_CLASS">
 		<Text>SHOKAKU CLASS</Text>
@@ -1371,7 +1336,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_TAKAO_CLASS">
 		<Text>TAKAO CLASS</Text>
@@ -1389,7 +1354,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_KAGERO_CLASS">
 		<Text>KAGERO CLASS</Text>
@@ -1403,7 +1368,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_KAWASAKI_KI-10_PERRY">
 		<Text>KAWASAKI KI-10 PERRY</Text>
@@ -1428,7 +1393,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 	<Row Tag="TXT_KEY_CIV5_TYPE79_KO-GATA_TEXT">
 		<Text></Text>
 	</Row>
-
+-->
 	<!-- Fighters - Replaced by Zero (Unique Unit) ****************************************************** -->
 	<!--<Row Tag="TXT_KEY_UNIT_MITSUBISHI_A6M5_ZERO">
 		<Text>MITSUBISHI A6M5 ZERO</Text>
@@ -1602,7 +1567,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_SOVETSKY_SOYUZ_CLASS">
 		<Text>SOVETSKY SOYUZ CLASS</Text>
@@ -1620,7 +1585,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_PROJECT_71">
 		<Text>PROJECT 71</Text>
@@ -1631,7 +1596,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 	<Row Tag="TXT_KEY_CIV5_PROJECT_71_TEXT">
 		<Text>This is now the long text description about the unit</Text>
 	</Row>
-
+<!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_KIROV_CLASS">
 		<Text>KIROV CLASS</Text>
@@ -1645,7 +1610,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_GNEVNY_CLASS">
 		<Text>GNEVNY CLASS</Text>
@@ -1667,7 +1632,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_POLIKARPOV_PO-2">
 		<Text>POLIKARPOV PO-2</Text>
@@ -1692,7 +1657,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 	<Row Tag="TXT_KEY_CIV5_EARLYT-34-85_TEXT">
 		<Text></Text>
 	</Row>
-
+-->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_YAKOVLEV_YAK-9">
 		<Text>YAKOVLEV YAK-9</Text>
@@ -1882,7 +1847,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_ADMIRAL_CLASS">
 		<Text>ADMIRAL CLASS</Text>
@@ -1898,7 +1863,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_ARK_ROYAL_CLASS">
 		<Text>ARK ROYAL CLASS</Text>
@@ -1920,7 +1885,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_DIDO_CLASS">
 		<Text>DIDO CLASS</Text>
@@ -1936,7 +1901,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_TRIBA_CLASS">
 		<Text>TRIBA CLASS</Text>
@@ -1950,7 +1915,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_SPOWITH_CAMEL">
 		<Text>SOPWITH CAMEL</Text>
@@ -1975,7 +1940,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 	<Row Tag="TXT_KEY_CIV5_MK_A_WHIPPET_TEXT">
 		<Text>The Medium Mark A Whippet was a British tank of World War I. It was intended to complement the slower British heavy tanks by using its relative mobility and speed in exploiting any break in the enemy lines.[2] Possibly the most successful British tank of World War I, the Whippet was responsible for more German casualties than any other British tank of the war.[3] Whippets later took part in several of the British Army's postwar actions, notably in Ireland and North Russia</Text>
 	</Row>
-
+-->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SUPERMARINE_SPITFIRE_MK_V">
 		<Text>SUPERMARINE SPITFIRE MK V</Text>
@@ -2156,7 +2121,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_IOWA_CLASS">
 		<Text>IOWA CLASS</Text>
@@ -2174,7 +2139,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_YORKTOWN_CLASS">
 		<Text>YORKTOWN CLASS</Text>
@@ -2188,7 +2153,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_BALTIMORE_CLASS">
 		<Text>BALTIMORE CLASS</Text>
@@ -2202,7 +2167,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_FLETCHER_CLASS">
 		<Text>FLETCHER CLASS</Text>
@@ -2222,7 +2187,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 
 		</Text>
 	</Row>
-
+<!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_SPAD_S.XIII">
 		<Text>SPAD S.XIII</Text>
@@ -2254,7 +2219,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 
 		</Text>
 	</Row>
-
+-->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_P-40_WARHAWK">
 		<Text>P-40 WARHAWK</Text>
