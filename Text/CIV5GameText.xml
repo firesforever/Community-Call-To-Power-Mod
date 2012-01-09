@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 11/10/2010 1:49:15 PM -->
 <GameData>
 	<Language_en_US>
@@ -41,7 +41,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BREWERY_STRATEGY</Tag>
-			<Text>+15 [ICON_GOLD] Gold from [ICON_RES_WHEAT] Wheat, [ICON_RES_SUGAR] Sugar, and [ICON_RES_SPICES] Spices nearby.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture per turn from [ICON_RES_WHEAT] Wheat nearby.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_WHEAT] Wheat nearby.</Text>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat, [ICON_RES_SUGAR] Sugar, and [ICON_RES_SPICES] Spices worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MAHABODHI_TEMPLE</Tag>
@@ -69,7 +69,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DOCKS_STRATEGY</Tag>
-			<Text>+5 [ICON_FOOD] Food in every sea tile near this City.</Text>
+			<Text>+1 [ICON_FOOD] Food in every sea tile near this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ZIGGURAT_OF_MARDUK</Tag>
@@ -81,7 +81,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_ZIGGURAT_OF_MARDUK_HELP</Tag>
-			<Text>+5 [ICON_FOOD] Food from every worked tile next to a river.</Text>
+			<Text>+1 [ICON_FOOD] Food from every worked tile next to a river.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_ZIGGURAT_OF_MARDUK_QUOTE</Tag>
@@ -97,7 +97,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_THE_LABYRNTH_HELP</Tag>
-			<Text>+5 [ICON_PRODUCTION] Production from Engineer Specialist in every City.[NEWLINE][NEWLINE]A Great Engineer appears near this City.</Text>
+			<Text>+1 [ICON_PRODUCTION] Production from Engineer Specialist in every City.[NEWLINE][NEWLINE]A Great Engineer appears near this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_THE_LABYRNTH_QUOTE</Tag>
@@ -188,6 +188,10 @@
 			<Text>An abbey, or nunnery, is a Christian monastery or convent, under the government of an Abbot or an Abbess, who serves as the spiritual father or mother of the community. The term can also refer to an establishment which has long ceased to function as an abbey, but continues to carry the name—in some cases for centuries.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_ABBEY_HELP</Tag>
+			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces 1 [ICON_GOLD] Gold. Each source of [ICON_RES_SILK] Silk worked by this City produces 1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_TEMPLE_OF_SOLOMON</Tag>
 			<Text>Temple of Solomon</Text>
 		</Row>
@@ -273,7 +277,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ARTILLERY_RANGE_STRATEGY</Tag>
-			<Text>+15 XP for all Land Units.</Text>
+			<Text>+15 XP for all Siege and Archer Units.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Tag>
@@ -361,7 +365,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_REGIONAL_FAIR_HELP</Tag>
-			<Text>+5 [ICON_GOLD] Gold from Merchant Specialist in every City.[NEWLINE][NEWLINE]You may build up to 1.</Text>
+			<Text>+1 [ICON_GOLD] Gold from Merchant Specialist in every City.[NEWLINE][NEWLINE]You may build up to 1.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MILL</Tag>
@@ -385,7 +389,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TOWN_HALL_STRATEGY</Tag>
-			<Text>+2.5 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.</Text>
+			<Text>+0.5 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUN_TZU_ART_OF_WAR</Tag>
@@ -429,7 +433,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_LEONARDO_WORKSHOP_HELP</Tag>
-			<Text>+5 [ICON_PRODUCTION] Production from Engineer Specialist in every City.[NEWLINE][NEWLINE]A Great Engineer appears near this City.</Text>
+			<Text>+1 [ICON_PRODUCTION] Production from Engineer Specialist in every City.[NEWLINE][NEWLINE]A Great Engineer appears near this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_LEONARDO_WORKSHOP_QUOTE</Tag>
@@ -516,6 +520,10 @@
 			<Text>A guild is an association of craftsmen in a particular trade. The earliest guilds were formed as confraternities of workers. They were organized in a manner something between a trade union, a cartel and a secret society. They often depended on grants of letters patent by an authority or monarch to enforce the flow of trade to their self-employed members, and to retain ownership of tools and the supply of materials. A lasting legacy of traditional guilds are the guildhalls constructed and used as meeting places.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_GUILD_HALL_HELP</Tag>
+			<Text>+1 [ICON_PRODUCTION] Production from Engineer Specialist in this City. +1 [ICON_GOLD] Gold from Merchant Specialist in this City. +1 [ICON_CULTURE] Culture from Artist Specialist in this City. +1 [ICON_RESEARCH] Science from Scientist Specialist in this City.[NEWLINE][NEWLINE]DOES NOT WORK YET...SORRY :(.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_NATIONAL_ACADEMY</Tag>
 			<Text>National Academy</Text>
 		</Row>
@@ -537,7 +545,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_EAST_INDIA_COMPANY_HELP</Tag>
-			<Text>+5 [ICON_GOLD] Gold from Merchant Specialist in every City.[NEWLINE][NEWLINE]Must have at least 3 Harbors in your empire.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+			<Text>+1 [ICON_GOLD] Gold from Merchant Specialist in every City.[NEWLINE][NEWLINE]Must have at least 3 Harbors in your empire.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_EAST_INDIA_COMPANY_QUOTE</Tag>
@@ -569,7 +577,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PUBLISHING_HOUSE_DESC</Tag>
-			<Text>Publishing is the process of production and dissemination of literature or information – the activity of making information available for public view. In some cases authors may be their own publishers, meaning: originators and developers of content also provide media to deliver and display the content.</Text>
+			<Text>Publishing is the process of production and dissemination of literature or information for public view. In some cases authors may be their own publishers, meaning: originators and developers of content also provide media to deliver and display the content.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PUBLISHING_HOUSE_STRATEGY</Tag>
@@ -625,7 +633,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_CONSTITUTION_HELP</Tag>
-			<Text>+1 [ICON_CULTURE] Culture from Artist Specialist in every City.[NEWLINE][NEWLINE]1 Free Social Policy.</Text>
+			<Text>+1 [ICON_FOOD] Food from Artist Specialist in every City.[NEWLINE][NEWLINE]1 Free Social Policy.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_CONSTITUTION_QUOTE</Tag>
@@ -681,7 +689,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_RANCH_STRATEGY</Tag>
-			<Text>+15 [ICON_PRODUCTION] Production per turn from [ICON_RES_HORSE] Horses and +15 [ICON_FOOD] Food from [ICON_RES_COW] Cattle nearby.[NEWLINE][NEWLINE]+2 [ICON_CULTURE] Culture per turn from [ICON_RES_HORSE] Horses and +2 [ICON_CULTURE] Culture from [ICON_RES_COW] Cattle nearby.[NEWLINE][NEWLINE]City must have an improved source of at least one of these resources nearby.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_HORSE] Horse for construction.</Text>
+			<Text>Each source of [ICON_RES_HORSE] Horses, [ICON_RES_COW] Cattle, and [ICON_RES_SHEEP] Sheep worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of at least one of these resources nearby.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_HORSE] Horse for construction.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DECLARATION_OF_INDEPENDENCE</Tag>
@@ -709,7 +717,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_HORSE_DERBY_HELP</Tag>
-			<Text>+30 [ICON_PRODUCTION] Production and +50 [ICON_GOLD] Gold from every [ICON_RES_HORSE] Horse worked by this City.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_HORSE] Horses.[NEWLINE][NEWLINE]You may build 1.</Text>
+			<Text>+6 [ICON_PRODUCTION] Production and +10 [ICON_GOLD] Gold from every [ICON_RES_HORSE] Horse worked by this City.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_HORSE] Horses.[NEWLINE][NEWLINE]You may build 1.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_HORSE_DERBY_QUOTE</Tag>
@@ -741,7 +749,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_WALL_STREET_HELP</Tag>
-			<Text>+10 [ICON_GOLD] Gold from Merchant Specialist in every City.</Text>
+			<Text>+2 [ICON_GOLD] Gold from Merchant Specialist in every City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_WALL_STREET_QUOTE</Tag>
@@ -829,7 +837,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OIL_REFINERY_HELP</Tag>
-			<Text>Each source of [ICON_RES_OIL] Oil worked by this city produces +200 [ICON_PRODUCTION] Production and +800 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_OIL] Oil nearby.</Text>
+			<Text>Each source of [ICON_RES_OIL] Oil worked by this city produces +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_OIL] Oil nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_NAVAL_BASE</Tag>
@@ -1317,7 +1325,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CELL_TOWERS_HELP</Tag>
-			<Text>+20 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
+			<Text>+4 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SERVER_FARM</Tag>
@@ -1329,7 +1337,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SERVER_FARM_HELP</Tag>
-			<Text>+10 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE][ICON_CULTURE] Culture cost of acquiring new tiles reduced by 35% in this City.</Text>
+			<Text>+2 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE][ICON_CULTURE] Culture cost of acquiring new tiles reduced by 35% in this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INTERNET</Tag>
@@ -1401,7 +1409,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BODY_EXCHANGE_HELP</Tag>
-			<Text>+40 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.</Text>
+			<Text>+8 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OPTICAL_INTERCONNECTS</Tag>
@@ -1457,7 +1465,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_FUSION_POWER_PLANT_HELP</Tag>
-			<Text>+100 [ICON_PRODUCTION] Production for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]You may build up to 1.</Text>
+			<Text>+20 [ICON_PRODUCTION] Production for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]You may build up to 1.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ADVANCED_AUTO_PLANT</Tag>
@@ -1469,7 +1477,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ADVANCED_AUTO_PLANT_STRATEGY</Tag>
-			<Text>+35 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]Required for Gauss Tank and Mass Driver Artillery production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_ALUMINUM] Aluminum.</Text>
+			<Text>+7 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]Required for Gauss Tank and Mass Driver Artillery production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_ALUMINUM] Aluminum.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ROBOTIC_OPERATING_ROOM</Tag>
@@ -1481,7 +1489,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ROBOTIC_OPERATING_ROOM_HELP</Tag>
-			<Text>+20 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizen in this City.[NEWLINE][NEWLINE]10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.</Text>
+			<Text>+4 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizen in this City.[NEWLINE][NEWLINE]10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DINOSAUR_PARK</Tag>
@@ -1493,7 +1501,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_DINOSAUR_PARK_HELP</Tag>
-			<Text>+100 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizen in this City.</Text>
+			<Text>+20 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizen in this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_DINOSAUR_PARK_QUOTE</Tag>
@@ -1729,7 +1737,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_IMPLANT_STATION_HELP</Tag>
-			<Text>+20 [ICON_PRODUCTION] Production for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]+20 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
+			<Text>+4 [ICON_PRODUCTION] Production for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]+4 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BEHAVIORAL_MOD_CHIP</Tag>
@@ -1785,7 +1793,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MIND_CONTROL_NETWORK_HELP</Tag>
-			<Text>-25 [ICON_PRODUCTION] Production for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]-25 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]-5 [ICON_RESEARCH] Science for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
+			<Text>-5 [ICON_PRODUCTION] Production for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]-5 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]-1 [ICON_RESEARCH] Science for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPACE_ELEVATOR</Tag>
@@ -1813,7 +1821,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ARCOLOGY_HELP</Tag>
-			<Text>+200 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
+			<Text>+40 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_VACUUM_DRYDOCK</Tag>
@@ -1877,7 +1885,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_ROBOTIC_EGALITARIAN_ACT_HELP</Tag>
-			<Text>+5 [ICON_PRODUCTION] Production for every specialist in your empire.[NEWLINE][NEWLINE]+5 [ICON_HAPPINESS_1] Happiness per City.[NEWLINE][NEWLINE]1 Allowed Per Civ.</Text>
+			<Text>+1 [ICON_PRODUCTION] Production for every specialist in your empire.[NEWLINE][NEWLINE]+5 [ICON_HAPPINESS_1] Happiness per City.[NEWLINE][NEWLINE]1 Allowed Per Civ.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_ROBOTIC_EGALITARIAN_ACT_QUOTE</Tag>
@@ -1893,7 +1901,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_OCEAN_HABITAT_PROTOTYPE_HELP</Tag>
-			<Text>+20 [ICON_GOLD] Gold from Water Tiles.[NEWLINE][NEWLINE]+20 [ICON_PRODUCTION] Production from Water Tiles.[NEWLINE][NEWLINE]+20 [ICON_FOOD] Food from Water Tiles.[NEWLINE][NEWLINE]City must be built on the coast.[NEWLINE][NEWLINE]1 Allowed Per Civ.</Text>
+			<Text>+4 [ICON_GOLD] Gold from Water Tiles.[NEWLINE][NEWLINE]+20 [ICON_PRODUCTION] Production from Water Tiles.[NEWLINE][NEWLINE]+4 [ICON_FOOD] Food from Water Tiles.[NEWLINE][NEWLINE]City must be built on the coast.[NEWLINE][NEWLINE]1 Allowed Per Civ.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_OCEAN_HABITAT_PROTOTYPE_QUOTE</Tag>
@@ -4571,7 +4579,11 @@
 			<Text>The Wormhole Detection Array is a feat of human engineering that places many detection stations around the solar system, all of which coordinate to pinpoint possible wormhole entrances.  Any such wormhole entrances could potentially open up the stars to human colonization, or perhaps even alien contact.</Text>
 		</Row>
 		<Update>
-			<Set Text="Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +10 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.[NEWLINE][NEWLINE]City must not be in Plains."/>
+			<Set Text="Each source of [ICON_RES_FUR] Fur and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_HORSE] Horses, [ICON_RES_FUR] Fur, or [ICON_RES_IVORY] Ivory nearby."/>
+			<Where Tag="TXT_KEY_BUILDING_CIRCUS_HELP" />
+		</Update>
+		<Update>
+			<Set Text="Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.[NEWLINE][NEWLINE]City must not be in Plains."/>
 			<Where Tag="TXT_KEY_BUILDING_STONE_WORKS_HELP" />
 		</Update>
 		<Update>
@@ -4591,11 +4603,11 @@
 			<Where Tag="TXT_KEY_WONDER_LOUVRE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_CULTURE] Culture from Artist Specialist in every City.[NEWLINE][NEWLINE]Must have built a Monument in all Cities. The cost goes up the more cities there are in the empire."/>
+			<Set Text="+1 [ICON_PRODUCTION] Production from Artist Specialist in every City.[NEWLINE][NEWLINE]Must have built a Monument in all Cities. The cost goes up the more cities there are in the empire."/>
 			<Where Tag="TXT_KEY_BUILDING_NATIONAL_EPIC_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_CULTURE] Culture from Artist Specialist in every City."/>
+			<Set Text="+1 [ICON_GOLD] Gold from Artist Specialist in every City."/>
 			<Where Tag="TXT_KEY_WONDER_SISTINE_CHAPEL_HELP" />
 		</Update>
 		<Update>
@@ -4607,14 +4619,6 @@
 			<Set Text="Greatly increases [ICON_PRODUCTION] Production in this City."/>
 		</Update>
 		<Update>
-			<Set Text="+2.5 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City."/>
-			<Where Tag="TXT_KEY_BUILDING_MARKET_STRATEGY" />
-		</Update>
-		<Update>
-			<Set Text="+2.5 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City."/>
-			<Where Tag="TXT_KEY_BUILDING_MARKET_STRATEGY" />
-		</Update>
-		<Update>
 			<Set Text="City must be built next to a River or Lake."/>
 			<Where Tag="TXT_KEY_BUILDING_GARDEN_HELP" />
 		</Update>
@@ -4623,11 +4627,11 @@
 			<Where Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+10 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.[NEWLINE][NEWLINE]City must have a Bank."/>
+			<Set Text="+2 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.[NEWLINE][NEWLINE]City must have a Bank."/>
 			<Where Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+5 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.[NEWLINE][NEWLINE]City must have a Market."/>
+			<Set Text="City must have a Market."/>
 			<Where Tag="TXT_KEY_BUILDING_BANK_HELP" />
 		</Update>
 		<Update>
@@ -4639,23 +4643,23 @@
 			<Where Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+5 [ICON_GOLD] Gold from Merchant Specialist in every City.[NEWLINE][NEWLINE]City must be built within 2 tiles of a Mountain that is inside your territory."/>
+			<Set Text="+1 [ICON_GOLD] Gold from Merchant Specialist in every City.[NEWLINE][NEWLINE]City must be built within 2 tiles of a Mountain that is inside your territory."/>
 			<Where Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+30 [ICON_FOOD] Food from every Oasis and +2.5 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City."/>
+			<Set Text="+2 [ICON_FOOD] Food from every Oasis."/>
 			<Where Tag="TXT_KEY_BUILDING_BAZAAR_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each sorce of [ICON_RES_COW] Cow and [ICON_RES_HORSE] Horse worked by this City produces +10 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Each sorce of [ICON_RES_SHEEP] Sheep worked by this City produces +10 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Requires improved source of [ICON_RES_HORSE] Horses nearby."/>
+			<Set Text="Each sorce of [ICON_RES_COW] Cow and [ICON_RES_HORSE] Horse worked by this City produces +1 [ICON_PRODUCTION] Production. Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]Requires improved source of [ICON_RES_COW] Cow, [ICON_RES_HORSE] Horse, or [ICON_RES_SHEEP] Sheep nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_STABLE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_IRON] Iron worked by this City produces +20 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of Iron nearby."/>
+			<Set Text="Each source of [ICON_RES_IRON] Iron and [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_FORGE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+10% [ICON_FOOD] Food carried over after a [ICON_CITIZEN] Citizen is born."/>
+			<Set Text="Each source of [ICON_RES_DEER] Deer and [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]+10% [ICON_FOOD] Food carried over after a [ICON_CITIZEN] Citizen is born."/>
 			<Where Tag="TXT_KEY_BUILDING_GRANARY_HELP" />
 		</Update>
 		<Update>
@@ -4671,23 +4675,23 @@
 			<Where Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+10 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]City must be built next to a River." />
+			<Set Text="+2 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]City must be built next to a River." />
 			<Where Tag="TXT_KEY_BUILDING_HYDRO_PLANT_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+15 [ICON_GOLD] Gold from water tiles worked by this City.[NEWLINE][NEWLINE]City must be built on the coast." />
+			<Set Text="+3 [ICON_GOLD] Gold from water tiles worked by this City.[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_WONDER_COLOSSUS_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_GOLD] Gold and [ICON_RES_SILVER] Silver worked by this City produces +30 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources mined nearby." />
+			<Set Text="Each source of [ICON_RES_GOLD] Gold, [ICON_RES_SILVER] Silver, and [ICON_RES_GEMS] Gems worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources mined nearby." />
 			<Where Tag="TXT_KEY_BUILDING_MINT_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+5 [ICON_PRODUCTION] Production from each worked Forest tile." />
+			<Set Text="+1 [ICON_PRODUCTION] Production from each worked Forest tile." />
 			<Where Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+5 [ICON_PRODUCTION] Production from Engineer Specialists in every City.[NEWLINE]+5 [ICON_GOLD] Gold from Merchant Specialists in every City.[NEWLINE]+1 [ICON_RESEARCH] Science from Scientist Specialist in every City.[NEWLINE]+1 [ICON_CULTURE] Culture from Artist Specialists in every City." />
+			<Set Text="+1 [ICON_PRODUCTION] Production from Engineer Specialists in every City.[NEWLINE]+1 [ICON_GOLD] Gold from Merchant Specialists in every City.[NEWLINE]+1 [ICON_RESEARCH] Science from Scientist Specialist and Artist Specialist in every City." />
 			<Where Tag="TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP" />
 		</Update>
 		<Update>
@@ -4723,23 +4727,23 @@
 			<Where Tag="TXT_KEY_BUILDING_WINDMILL_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+5 [ICON_GOLD] Gold from Merchant Specialists in every City.[NEWLINE][NEWLINE]Requires Markets in every City.[NEWLINE][NEWLINE]Cost increases for each additional City." />
+			<Set Text="+1 [ICON_GOLD] Gold from Merchant Specialists in every City.[NEWLINE][NEWLINE]Requires Markets in every City.[NEWLINE][NEWLINE]Cost increases for each additional City." />
 			<Where Tag="TXT_KEY_BUILDING_NATIONAL_TREASURY_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+5 [ICON_GOLD] Gold from Water Tiles.[NEWLINE][NEWLINE]+10 [ICON_FOOD] Food from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must be built on the coast." />
+			<Set Text="+1 [ICON_FOOD] Food from Water Tiles.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_BUILDING_LIGHTHOUSE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each worked Lake tile provides +10 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built next to a River or Lake." />
+			<Set Text="Each worked Lake tile provides +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built next to a River or Lake." />
 			<Where Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land). +25% [ICON_PRODUCTION] Production when building Naval Units.[NEWLINE][NEWLINE]+5 [ICON_FOOD] Food from Water Tiles.[NEWLINE][NEWLINE]+5 [ICON_GOLD] Gold from Water Tiles.[NEWLINE][NEWLINE]City must be built on the coast." />
+			<Set Text="+15 XP for Naval Units produced in this City.[NEWLINE]Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land).[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_BUILDING_HARBOR_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+5 [ICON_FOOD] Food from Water Tiles.[NEWLINE][NEWLINE]+5 [ICON_GOLD] Gold from Water Tiles.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Production from Water Tiles.[NEWLINE][NEWLINE]+10 [ICON_PRODUCTION] Production from Sea Resources worked by this City." />
+			<Set Text="+1 [ICON_GOLD] Gold from Water Tiles.[NEWLINE]+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have a Harbor." />
 			<Where Tag="TXT_KEY_BUILDING_SEAPORT_HELP" />
 		</Update>
 		<Update>
@@ -5156,11 +5160,11 @@
 		</Update>
 
 		<Update>
-			<Set Text="Strategic Resources provide +5 [ICON_PRODUCTION] Production and Horse, Iron and Uranium Resources provide double quantity." />
+			<Set Text="Strategic Resources provide +1 [ICON_PRODUCTION] Production and Horse, Iron and Uranium Resources provide double quantity." />
 			<Where Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES" />
 		</Update>
 		<Update>
-			<Set Text="+15 [ICON_GOLD] Gold from each [ICON_CONNECTED] Trade Route and Oil Resources provide double quantity." />
+			<Set Text="+3 [ICON_GOLD] Gold from each [ICON_CONNECTED] Trade Route and Oil Resources provide double quantity." />
 			<Where Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD" />
 		</Update>
 	</Language_en_US>
