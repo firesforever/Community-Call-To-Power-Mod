@@ -9,22 +9,22 @@
 		<Row>
 			<SpecialistType>SPECIALIST_CITIZEN</SpecialistType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>10</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>15</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>20</Yield>
+			<Yield>4</Yield>
 		</Row>
 	</SpecialistYields>
 
