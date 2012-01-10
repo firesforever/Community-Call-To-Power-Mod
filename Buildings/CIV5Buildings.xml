@@ -407,7 +407,7 @@
 		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>12</Yield>
+			<Yield>8</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
@@ -1351,6 +1351,7 @@
 			<Help>TXT_KEY_BUILDING_AIRCRAFT_PLANT_STRATEGY</Help>
 			<GoldMaintenance>20</GoldMaintenance>
 			<Cost>1275</Cost>
+			<MutuallyExclusiveGroup>33</MutuallyExclusiveGroup>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1371,6 +1372,7 @@
 			<Help>TXT_KEY_BUILDING_AUTO_PLANT_STRATEGY</Help>
 			<GoldMaintenance>20</GoldMaintenance>
 			<Cost>1275</Cost>
+			<MutuallyExclusiveGroup>33</MutuallyExclusiveGroup>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1449,6 +1451,7 @@
 			<GoldMaintenance>25</GoldMaintenance>
 			<Water>true</Water>
 			<Cost>1275</Cost>
+			<MutuallyExclusiveGroup>33</MutuallyExclusiveGroup>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
