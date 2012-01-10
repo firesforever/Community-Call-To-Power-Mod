@@ -92,6 +92,7 @@ WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MODERN' )
 
 
 --BUILDING MAINTENANCE
+
 --Nano
 UPDATE Buildings
 SET GoldMaintenance = GoldMaintenance * 4.6
@@ -107,11 +108,34 @@ UPDATE Buildings
 SET GoldMaintenance = GoldMaintenance * 3.15
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MODERN' ) );
 
+--Industrial
+UPDATE Buildings
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase (reduced back to normal)
+WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_INDUSTRIAL' ) );
 
+--Renaissance
+UPDATE Buildings
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase (reduced back to normal)
+WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_RENAISSANCE' ) );
+
+--Medieval
+UPDATE Buildings
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase (reduced back to normal)
+WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MEDIEVAL' ) );
+
+-- Classical
+UPDATE Buildings
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase (reduced back to normal)
+WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_CLASSICAL' ) );
+
+--Ancient
+UPDATE Buildings
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 10% Increase (reduced back to normal)
+WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_ANCIENT' ) );
 
 --EXTRA HAPPINESS AT START
 UPDATE HandicapInfos
-SET HappinessDefault = HappinessDefault + 3;
+SET HappinessDefault = HappinessDefault;
 
 
 --
