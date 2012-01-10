@@ -219,7 +219,6 @@
 
 		<!--ToolTips Information-->
 		<!--Governments-->
-		<Delete Tag="TXT_KEY_POLICY_BRANCH_FASCISM_HELP" />
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_MONARCHY_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR] is good for empires looking to expand through military might.[NEWLINE][NEWLINE]+0% [ICON_FOOD] Food empire wide.[NEWLINE]+5% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+10% [ICON_GOLD] Gold empire wide.[NEWLINE]+0% [ICON_RESEARCH] Science empire wide.[NEWLINE]-0% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+3 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments and Anarchism.</Text>
 		</Row>
@@ -689,7 +688,7 @@
 			<Text>Clergy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_CLERGY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Clergy[ENDCOLOR][NEWLINE]+20 [ICON_GOLD] Gold from every Temple.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Clergy[ENDCOLOR][NEWLINE]+4 [ICON_GOLD] Gold from every Temple.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PAPISM">
 			<Text>Papism</Text>
@@ -703,7 +702,7 @@
 			<Text>Social Contract</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_CONTRACT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Social Contract[ENDCOLOR][NEWLINE]+20 [ICON_PRODUCTION] Production from every Colosseum.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Social Contract[ENDCOLOR][NEWLINE]+4 [ICON_PRODUCTION] Production from every Colosseum.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_CIVIC_VIRTUE">
 			<Text>Civic Virtue</Text>
@@ -735,7 +734,7 @@
 			<Text>Consensus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_CONSENSUS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Consensus[ENDCOLOR][NEWLINE]+30 [ICON_FOOD] Food from every Garden.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Consensus[ENDCOLOR][NEWLINE]+6 [ICON_FOOD] Food from every Garden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_EQUALITY">
 			<Text>Equality</Text>
@@ -805,25 +804,25 @@
 			<Text>Nationalization</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALIZATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Nationalization[ENDCOLOR][NEWLINE]+100 [ICON_GOLD] Gold from every Workshop and +300 [ICON_GOLD] Gold from every Factory.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Nationalization[ENDCOLOR][NEWLINE]+20 [ICON_GOLD] Gold from every Workshop and +60 [ICON_GOLD] Gold from every Factory.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PROLETARIAN_DICTATORSHIP">
 			<Text>Proletarian Dictatorship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PROLETARIAN_DICTATORSHIP_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Proletarian Dictatorship[ENDCOLOR][NEWLINE]+15 [ICON_PRODUCTION] Production from every Specialist.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Proletarian Dictatorship[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production from every Specialist.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY3">
 			<Text>Planed Economy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY3_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+100 [ICON_FOOD] Food from every Supermarket.[NEWLINE]+125 [ICON_PRODUCTION] Production from every Factory.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+20 [ICON_FOOD] Food from every Supermarket.[NEWLINE]+25 [ICON_PRODUCTION] Production from every Factory.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_UTOPIAN_SOCIALISM">
 			<Text>Uopian Socialism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_UTOPIAN_SOCIALISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Utopian Socialism[ENDCOLOR][NEWLINE]+5 [ICON_PRODUCTION] Production from every Improvement.[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Luxury resource.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Utopian Socialism[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production from every Improvement.[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Luxury resource.</Text>
 		</Row>
 
 		<!--Corporate-->
@@ -831,13 +830,13 @@
 			<Text>Corporate Charter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_CHARTER_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Corporate Charter[ENDCOLOR][NEWLINE]+850 [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Corporate Charter[ENDCOLOR][NEWLINE]+170 [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SHAREHOLDER_VIEW">
 			<Text>Shareholder View</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SHAREHOLDER_VIEW_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Shareholder View[ENDCOLOR][NEWLINE]+5 [ICON_GOLD] from every improvement.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Shareholder View[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] from every improvement.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_BOARD">
 			<Text>Executive Board</Text>
@@ -855,7 +854,7 @@
 			<Text>Management Class</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MANAGEMENT_CLASS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Management Class[ENDCOLOR][NEWLINE]+20 [ICON_PRODUCTION] Production from every Specialist.[NEWLINE]+80 [ICON_GOLD] Gold from every Specialist. </Text>
+			<Text>[COLOR_POSITIVE_TEXT]Management Class[ENDCOLOR][NEWLINE]+4 [ICON_PRODUCTION] Production from every Specialist.[NEWLINE]+8 [ICON_GOLD] Gold from every Specialist. </Text>
 		</Row>
 
 		<!--Technocracy-->
@@ -907,7 +906,7 @@
 			<Text>Gaia Hypothesis</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_GAIA_HYPOTHESIS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Gaia Hypothesis[ENDCOLOR][NEWLINE]+10 [ICON_FOOD] Food from every improvement.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Gaia Hypothesis[ENDCOLOR][NEWLINE]+2 [ICON_FOOD] Food from every improvement.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SUSTAINABILITY">
 			<Text>Sustainability</Text>
@@ -927,7 +926,7 @@
 			<Text>Open Source Governance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_OPEN_SOURCE_GOVERNANCE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Open Source Governance[ENDCOLOR][NEWLINE]+25 [ICON_FOOD] Food from every Farm, Fishing Boat, and Pasture.[NEWLINE]+30 [ICON_PRODUCTION] Production from every Mine, Lumbermill, and Manufactory.[NEWLINE]+50 [ICON_GOLD] Gold from every Trading Post, Plantation, Camp, Quarry, Well, Offshore Platform, and Custom House.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Open Source Governance[ENDCOLOR][NEWLINE]+5 [ICON_FOOD] Food from every Farm, Fishing Boat, and Pasture.[NEWLINE]+6 [ICON_PRODUCTION] Production from every Mine, Lumbermill, and Manufactory.[NEWLINE]+10 [ICON_GOLD] Gold from every Trading Post, Plantation, Camp, Quarry, Well, Offshore Platform, and Custom House.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_INSTANT_REFERENDUM">
 			<Text>Instant Referendum</Text>
@@ -939,7 +938,7 @@
 			<Text>Pure Democracy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PURE_DEMOCRACY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Pure Democracy[ENDCOLOR][NEWLINE]+80 [ICON_PRODUCTION] Production from every Specialist.[NEWLINE]+100 [ICON_GOLD] Gold from every Specialist.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Pure Democracy[ENDCOLOR][NEWLINE]+16 [ICON_PRODUCTION] Production from every Specialist.[NEWLINE]+20 [ICON_GOLD] Gold from every Specialist.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_RECALL">
 			<Text>Executive Recall</Text>
@@ -990,6 +989,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Peace[ENDCOLOR][NEWLINE]Allied [ICON_CITY_STATE] City-States will occassionally gift you [ICON_GREAT_PEOPLE] Great People.</Text>
 		</Row>
 
+
 		<!--Imperialism-->
 		<Row Tag="TXT_KEY_NEWPOLICY_POLITICAL_EXPANSION">
 			<Text>Political Expansion</Text>
@@ -1013,7 +1013,7 @@
 			<Text>Annexation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ANNEXATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Annexation[ENDCOLOR][NEWLINE]+20 [ICON_PRODUCTION] Production from every Granary.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Annexation[ENDCOLOR][NEWLINE]+4 [ICON_PRODUCTION] Production from every Granary.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_EMPIRE">
 			<Text>Empire</Text>
@@ -1033,7 +1033,7 @@
 			<Text>Agrarian Populism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_AGRARIAN_POPULISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Agrarian Populism[ENDCOLOR][NEWLINE]+20 [ICON_FOOD] from every Granary.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Agrarian Populism[ENDCOLOR][NEWLINE]+4 [ICON_FOOD] from every Granary.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_POPULAR_REFERENDUM">
 			<Text>Popular Referendum</Text>
@@ -1059,31 +1059,31 @@
 			<Text>Privatization</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PRIVATIZATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Privatization[ENDCOLOR][NEWLINE]+10 [ICON_GOLD] Gold from every Trading Post.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Privatization[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Gold from every Trading Post.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ECONOMIC_FREEDOM">
 			<Text>Economic Freedom</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ECONOMIC_FREEDOM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Economic Freedom[ENDCOLOR][NEWLINE]+5 [ICON_FOOD] Food and +5 [ICON_GOLD] Gold from every Plantation.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Economic Freedom[ENDCOLOR][NEWLINE]+1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold from every Plantation.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_LABOR_MARKET">
 			<Text>Labor Market</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_LABOR_MARKET_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Labor Market[ENDCOLOR][NEWLINE]+15 [ICON_PRODUCTION] Production from every Quarry.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Labor Market[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production from every Quarry.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MARKET_ECONOMY">
 			<Text>Market Economy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MARKET_ECONOMY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Market Economy[ENDCOLOR][NEWLINE]+65 [ICON_PRODUCTION] Production from every Bank.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Market Economy[ENDCOLOR][NEWLINE]+13 [ICON_PRODUCTION] Production from every Bank.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MONOPOLY">
 			<Text>Monopoly</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MONOPOLY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Monopoly[ENDCOLOR][NEWLINE]+5 [ICON_GOLD] Gold from every Improvement.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold from every Improvement.</Text>
 		</Row>
 
 		<!--Liberalism-->
@@ -1123,7 +1123,7 @@
 			<Text>Traditional Institutions</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_TRADITIONAL_INSTITUTIONS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Traditional Institutions[ENDCOLOR][NEWLINE]+40 [ICON_PRODUCTION] Production from every Stone Works.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Traditional Institutions[ENDCOLOR][NEWLINE]+16 [ICON_PRODUCTION] Production from every Stone Works.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_NATURAL_LAW">
 			<Text>Natural Law</Text>
@@ -1135,13 +1135,13 @@
 			<Text>Fiscal Conservatism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_FISCAL_CONSERVATISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Fiscal Conservatism[ENDCOLOR][NEWLINE]+15 [ICON_PRODUCTION] Production and +5 [ICON_GOLD] Gold from every Lumbermill.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Fiscal Conservatism[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold from every Lumbermill.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ORDER">
 			<Text>Social Order</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ORDER_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Social Order[ENDCOLOR][NEWLINE]+180 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Social Order[ENDCOLOR][NEWLINE]+36 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_LIBERTARIANISM">
 			<Text>Libertarianism</Text>
@@ -1173,7 +1173,7 @@
 			<Text>Jingoism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_JINGOISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Jingoism[ENDCOLOR][NEWLINE]+75 [ICON_PRODUCTION] Production from every Military Academy.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Jingoism[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production from every Military Academy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_EXCEPTIONALISM">
 			<Text>Exceptionalism</Text>
@@ -1187,7 +1187,7 @@
 			<Text>Means of Production</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MEANS_OF_PRODUCTION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Means of Production[ENDCOLOR][NEWLINE]+20 [ICON_GOLD] Gold from every Workshop.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Means of Production[ENDCOLOR][NEWLINE]+4 [ICON_GOLD] Gold from every Workshop.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY">
 			<Text>Planned Economy</Text>
@@ -1199,13 +1199,13 @@
 			<Text>Redistribution</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_REDISTRIBUTION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Redistribution[ENDCOLOR][NEWLINE]+60 [ICON_FOOD] Food from every Hospital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Redistribution[ENDCOLOR][NEWLINE]+12 [ICON_FOOD] Food from every Hospital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_STATE_OWNED_ENTERPRISE">
 			<Text>State Owned Enterprise</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_STATE_OWNED_ENTERPRISE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]State Owned Enterprise[ENDCOLOR][NEWLINE]+75 [ICON_PRODUCTION] Production from every Public School.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]State Owned Enterprise[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production from every Public School.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_WELFARE_STATE">
 			<Text>Welfare State</Text>
@@ -1251,19 +1251,19 @@
 			<Text>Endangered Species Act</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ENDANGERED_SPECIES_ACT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Endangered Species Act[ENDCOLOR][NEWLINE]+45 [ICON_FOOD] Food from every Mill.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Endangered Species Act[ENDCOLOR][NEWLINE]+9 [ICON_FOOD] Food from every Mill.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ENVIRONMENTAL_MOVEMENT">
 			<Text>Environmental Movement</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ENVIRONMENTAL_MOVEMENT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Environmental Movement[ENDCOLOR][NEWLINE]+5 [ICON_PRODUCTION] Production and +15 [ICON_GOLD] Gold from every Lumbermill.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Environmental Movement[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production and +3 [ICON_GOLD] Gold from every Lumbermill.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ANIMAL_RIGHTS">
 			<Text>Animal Rights</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ANIMAL_RIGHTS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Animal Rights[ENDCOLOR][NEWLINE]+20 [ICON_FOOD] Food from every Farm.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Animal Rights[ENDCOLOR][NEWLINE]+4 [ICON_FOOD] Food from every Farm.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_CLEAN_AIR_ACT">
 			<Text>Clean Air Act</Text>
@@ -1275,7 +1275,7 @@
 			<Text>Deep Ecology</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_DEEP_ECOLOGY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Deep Ecology[ENDCOLOR][NEWLINE]+10 [ICON_RESEARCH] Science from every Recycling Plant.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Deep Ecology[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Recycling Plant.</Text>
 		</Row>
 
 
@@ -1289,7 +1289,7 @@
 			<Text>Old Money</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_OLD_MONEY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Old Money[ENDCOLOR][NEWLINE]+50 [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Old Money[ENDCOLOR][NEWLINE]+10 [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ELITISM">
 			<Text>Elitism</Text>
@@ -1327,7 +1327,7 @@
 			<Text>Single Party State</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SINGLE_PARTY_STATE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Single Party State[ENDCOLOR][NEWLINE]+40 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Single Party State[ENDCOLOR][NEWLINE]+8 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ABSOLUTISM">
 			<Text>Absolutism</Text>
@@ -1339,7 +1339,7 @@
 			<Text>Power Structures</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_POWER_STRUCTURES_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Power Structures[ENDCOLOR][NEWLINE]+50 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Power Structures[ENDCOLOR][NEWLINE]+10 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_UNLIMITED_POWER">
 			<Text>Unlimited Power</Text>
@@ -1353,7 +1353,7 @@
 			<Text>Lobbyists</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_LOBBYISTS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Lobbyists[ENDCOLOR][NEWLINE]+50 [ICON_GOLD] Gold from every Courthouse.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Lobbyists[ENDCOLOR][NEWLINE]+10 [ICON_GOLD] Gold from every Courthouse.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ECONOMIC_INEQUALITY">
 			<Text>Economic Inequality</Text>
@@ -1365,7 +1365,7 @@
 			<Text>Shadow Party</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SHADOW_PARTY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Shadow Party[ENDCOLOR][NEWLINE]+5 [ICON_GOLD] Gold from Specialist in every City.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Shadow Party[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold from Specialist in every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BOURGEOIS">
 			<Text>Bourgeois</Text>
@@ -1377,7 +1377,7 @@
 			<Text>Top 1 Percent</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_TOP_1_PERCENT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Top 1 Percent[ENDCOLOR][NEWLINE]+75 [ICON_PRODUCTION] Production from every Mint.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Top 1 Percent[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production from every Mint.</Text>
 		</Row>
 
 		<!--Pluralism-->
@@ -1397,7 +1397,7 @@
 			<Text>Interest Groups</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_INTEREST_GROUPS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Interest Groups[ENDCOLOR][NEWLINE]+25 [ICON_FOOD] Food from every Market.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Interest Groups[ENDCOLOR][NEWLINE]+1 [ICON_FOOD] Food from every Market.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_POWER_SHARING">
 			<Text>Power Sharing</Text>
@@ -1417,7 +1417,7 @@
 			<Text>Manorialism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MANORIALISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Manorialism[ENDCOLOR][NEWLINE]+5 [ICON_GOLD] Gold from every Plantation.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Manorialism[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold from every Plantation.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_WARRIOR_NOBILITY">
 			<Text>Warrior Nobility</Text>
@@ -1429,19 +1429,19 @@
 			<Text>Feudal Society</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_FEUDAL_SOCIETY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Feudal Society[ENDCOLOR][NEWLINE]+10 [ICON_FOOD] Food from every Farm.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Feudal Society[ENDCOLOR][NEWLINE]+2 [ICON_FOOD] Food from every Farm.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_VASSALAGE">
 			<Text>Vassalage</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_VASSALAGE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Vassalage[ENDCOLOR][NEWLINE]+10 [ICON_PRODUCTION] Production from every Trading Post.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Vassalage[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production from every Trading Post.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_OATH_OF_FEALTY">
 			<Text>Oath of Fealty</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_OATH_OF_FEALTY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Oath of Fealty[ENDCOLOR][NEWLINE]+25 [ICON_FOOD] Food and +70 [ICON_PRODUCTION] Production from every Castle.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Oath of Fealty[ENDCOLOR][NEWLINE]+5 [ICON_FOOD] Food and +14 [ICON_PRODUCTION] Production from every Castle.</Text>
 		</Row>
 
 		<!--Parliamentary-->
@@ -1449,7 +1449,7 @@
 			<Text>Hybrid Model</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_HYBRID_MODEL_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Hybrid Model[ENDCOLOR][NEWLINE]+10 [ICON_PRODUCTION] Production from every Mine.[NEWLINE]+10 [ICON_FOOD] Food from every Farm.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Hybrid Model[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production from every Mine.[NEWLINE]+2 [ICON_FOOD] Food from every Farm.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PROPORTIONAL_REPRESENTATION">
 			<Text>Proportional Representation</Text>
@@ -1461,7 +1461,7 @@
 			<Text>Head of State</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_HEAD_OF_STATE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Head of State[ENDCOLOR][NEWLINE]+90 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.[NEWLINE]+12 [ICON_CULTURE] Culture in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Head of State[ENDCOLOR][NEWLINE]+18 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.[NEWLINE]+12 [ICON_CULTURE] Culture in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_CHAMBERS_OF_PARLIAMENT">
 			<Text>Chambers of Parliament</Text>
@@ -1519,7 +1519,7 @@
 			<Text>Enumerated Powers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ENUMERATED_POWERS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Enumerated Powers[ENDCOLOR][NEWLINE]+240 [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Enumerated Powers[ENDCOLOR][NEWLINE]+48 [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_RESERVED_POWERS">
 			<Text>Reserved Powers</Text>
@@ -1551,7 +1551,7 @@
 			<Text>Census</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_CENSUS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Census[ENDCOLOR][NEWLINE]+10 [ICON_GOLD] Gold from every City.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Census[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Gold from every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PRIMARIES">
 			<Text>Primaries</Text>

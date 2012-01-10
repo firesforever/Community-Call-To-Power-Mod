@@ -4,33 +4,6 @@
 
 	<Resources>
 		<Row>
-			<Type>RESOURCE_ALLIGATOR</Type>
-			<TechCityTrade>TECH_TRAPPING</TechCityTrade>
-			<Description>TXT_KEY_RESOURCE_ALLIGATOR</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_ALLIGATOR_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_ALLIGATOR_HELP</Help>
-			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_DEER</ArtDefineTag>
-			<ArtDefineTagHeavy>ART_DEF_RESOURCE_DEER</ArtDefineTagHeavy>
-			<AltArtDefineTag>ART_DEF_RESOURCE_DEER</AltArtDefineTag>
-			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_DEER</AltArtDefineTagHeavy>
-			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
-			<AIObjective>1</AIObjective>
-			<ConstAppearance>100</ConstAppearance>
-			<MinAreaSize>3</MinAreaSize>
-			<MaxLatitude>90</MaxLatitude>
-			<RandApp1>20</RandApp1>
-			<RandApp2>20</RandApp2>
-			<Player>100</Player>
-			<Flatlands>true</Flatlands>
-			<IconString>[ICON_RES_ALLIGATOR]</IconString>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
-			
-		</Row>
-		<Row>
 			<Type>RESOURCE_COFFEE</Type>
 			<TechReveal>TECH_COFFEE_TRADE</TechReveal>
 			<TechCityTrade>TECH_COFFEE_TRADE</TechCityTrade>
@@ -40,7 +13,7 @@
 			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
 			<ArtDefineTag>ART_DEF_RESOURCE_SPICE</ArtDefineTag>
 			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
+			<ResourceUsage>0</ResourceUsage>
 			<AIObjective>1</AIObjective>
 			<ConstAppearance>100</ConstAppearance>
 			<MinAreaSize>3</MinAreaSize>
@@ -54,7 +27,6 @@
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
-			
 		</Row>
 		<Row>
 			<Type>RESOURCE_COPPER</Type>
@@ -68,7 +40,7 @@
 			<AltArtDefineTag>ART_DEF_RESOURCE_URANIUM</AltArtDefineTag>
 			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_URANIUM</AltArtDefineTagHeavy>
 			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
+			<ResourceUsage>0</ResourceUsage>
 			<AIObjective>1</AIObjective>
 			<ConstAppearance>100</ConstAppearance>
 			<MinAreaSize>3</MinAreaSize>
@@ -84,28 +56,6 @@
 			
 		</Row>
 		<Row>
-			<Type>RESOURCE_CORN</Type>
-			<Description>TXT_KEY_RESOURCE_CORN</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_CORN_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_CORN_HELP</Help>
-			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_WHEAT</ArtDefineTag>
-			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
-			<AIObjective>1</AIObjective>
-			<ConstAppearance>100</ConstAppearance>
-			<MinAreaSize>3</MinAreaSize>
-			<MaxLatitude>90</MaxLatitude>
-			<RandApp1>20</RandApp1>
-			<RandApp2>20</RandApp2>
-			<Flatlands>true</Flatlands>
-			<IconString>[ICON_RES_CORN]</IconString>
-			<PortraitIndex>3</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
-			
-		</Row>
-		<Row>
 			<Type>RESOURCE_CRAB</Type>
 			<TechCityTrade>TECH_SAILING</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_CRAB</Description>
@@ -113,7 +63,7 @@
 			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
 			<ArtDefineTag>ART_DEF_RESOURCE_FISH</ArtDefineTag>
 			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
+			<ResourceUsage>0</ResourceUsage>
 			<AIObjective>1</AIObjective>
 			<ConstAppearance>100</ConstAppearance>
 			<MinAreaSize>10</MinAreaSize>
@@ -130,127 +80,6 @@
 			
 		</Row>
 		<Row>
-			<Type>RESOURCE_POPPY</Type>
-			<TechReveal>TECH_DRUGS</TechReveal>
-			<TechCityTrade>TECH_DRUGS</TechCityTrade>
-			<Description>TXT_KEY_RESOURCE_POPPY</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_POPPY_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_POPPY_HELP</Help>
-			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_BANANA</ArtDefineTag>
-			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
-			<AIObjective>1</AIObjective>
-			<ConstAppearance>100</ConstAppearance>
-			<MinAreaSize>3</MinAreaSize>
-			<MaxLatitude>90</MaxLatitude>
-			<RandApp1>20</RandApp1>
-			<RandApp2>20</RandApp2>
-			<Flatlands>true</Flatlands>
-			<IconString>[ICON_RES_POPPY]</IconString>
-			<PortraitIndex>6</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
-			
-		</Row>
-		<Row>
-			<Type>RESOURCE_RARE_EARTHS</Type>
-			<TechReveal>TECH_COMPUTERS</TechReveal>
-			<TechCityTrade>TECH_COMPUTERS</TechCityTrade>
-			<Description>TXT_KEY_RESOURCE_RARE_EARTHS</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_RARE_EARTHS_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_RARE_EARTHS_HELP</Help>
-			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_SILVER</ArtDefineTag>
-			<ArtDefineTagHeavy>ART_DEF_RESOURCE_SILVER</ArtDefineTagHeavy>
-			<AltArtDefineTag>ART_DEF_RESOURCE_SILVER</AltArtDefineTag>
-			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_SILVER</AltArtDefineTagHeavy>
-			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
-			<AIObjective>1</AIObjective>
-			<ConstAppearance>100</ConstAppearance>
-			<MinAreaSize>3</MinAreaSize>
-			<MaxLatitude>90</MaxLatitude>
-			<RandApp1>10</RandApp1>
-			<RandApp2>10</RandApp2>
-			<Player>100</Player>
-			<Hills>true</Hills>
-			<NoRiverSide>false</NoRiverSide>
-			<IconString>[ICON_RES_RARE_EARTHS]</IconString>
-			<PortraitIndex>7</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
-			
-		</Row>
-		<Row>
-			<Type>RESOURCE_RICE</Type>
-			<Description>TXT_KEY_RESOURCE_RICE</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_RICE_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_RICE_HELP</Help>
-			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_WHEAT</ArtDefineTag>
-			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
-			<AIObjective>1</AIObjective>
-			<ConstAppearance>100</ConstAppearance>
-			<MinAreaSize>3</MinAreaSize>
-			<MaxLatitude>90</MaxLatitude>
-			<RandApp1>20</RandApp1>
-			<RandApp2>20</RandApp2>
-			<Flatlands>true</Flatlands>
-			<IconString>[ICON_RES_RICE]</IconString>
-			<PortraitIndex>8</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
-			
-		</Row>
-		<Row>
-			<Type>RESOURCE_SOYBEANS</Type>
-			<Description>TXT_KEY_RESOURCE_SOYBEANS</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_SOYBEANS_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_SOYBEANS_HELP</Help>
-			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_WHEAT</ArtDefineTag>
-			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
-			<AIObjective>1</AIObjective>
-			<ConstAppearance>100</ConstAppearance>
-			<MinAreaSize>3</MinAreaSize>
-			<MaxLatitude>90</MaxLatitude>
-			<RandApp1>20</RandApp1>
-			<RandApp2>20</RandApp2>
-			<Flatlands>true</Flatlands>
-			<IconString>[ICON_RES_SOYBEANS]</IconString>
-			<PortraitIndex>9</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
-			
-		</Row>
-		<Row>
-			<Type>RESOURCE_TEA</Type>
-			<Description>TXT_KEY_RESOURCE_TEA</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_TEA_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_TEA_HELP</Help>
-			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_WINE</ArtDefineTag>
-			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
-			<AIObjective>1</AIObjective>
-			<ConstAppearance>100</ConstAppearance>
-			<MinAreaSize>3</MinAreaSize>
-			<MaxLatitude>70</MaxLatitude>
-			<RandApp1>20</RandApp1>
-			<RandApp2>20</RandApp2>
-			<Player>100</Player>
-			<Hills>true</Hills>
-			<NoRiverSide>false</NoRiverSide>
-			<IconString>[ICON_RES_TEA]</IconString>
-			<PortraitIndex>10</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
-			
-		</Row>
-		<Row>
 			<Type>RESOURCE_TITANIUM</Type>
 			<TechReveal>TECH_ADVANCED_FLIGHT</TechReveal>
 			<TechCityTrade>TECH_ADVANCED_FLIGHT</TechCityTrade>
@@ -263,7 +92,7 @@
 			<AltArtDefineTag>ART_DEF_RESOURCE_COAL</AltArtDefineTag>
 			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_COAL</AltArtDefineTagHeavy>
 			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
+			<ResourceUsage>0</ResourceUsage>
 			<AIObjective>1</AIObjective>
 			<ConstAppearance>100</ConstAppearance>
 			<MinAreaSize>3</MinAreaSize>
@@ -279,122 +108,29 @@
 			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
 			
 		</Row>
-		<Row>
-			<Type>RESOURCE_TOBACCO</Type>
-			<TechReveal>TECH_DRUGS</TechReveal>
-			<TechCityTrade>TECH_DRUGS</TechCityTrade>
-			<Description>TXT_KEY_RESOURCE_TOBACCO</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_TOBACCO_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_TOBACCO_HELP</Help>
-			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_SILK</ArtDefineTag>
-			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
-			<AIObjective>1</AIObjective>
-			<ConstAppearance>100</ConstAppearance>
-			<MaxLatitude>70</MaxLatitude>
-			<RandApp1>20</RandApp1>
-			<RandApp2>20</RandApp2>
-			<Player>100</Player>
-			<Flatlands>true</Flatlands>
-			<NoRiverSide>false</NoRiverSide>
-			<IconString>[ICON_RES_TOBACCO]</IconString>
-			<PortraitIndex>12</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
-			
-		</Row>
-		<Row>
-			<Type>RESOURCE_COCOA</Type>
-			<Description>TXT_KEY_RESOURCE_COCOA</Description>
-			<Civilopedia>TXT_KEY_CIV5_RESOURCE_COCOA_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_COCOA_HELP</Help>
-			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_BANANA</ArtDefineTag>
-			<AITradeModifier>10</AITradeModifier>
-			<ResourceUsage>1</ResourceUsage>
-			<AIObjective>1</AIObjective>
-			<ConstAppearance>100</ConstAppearance>
-			<MaxLatitude>70</MaxLatitude>
-			<RandApp1>20</RandApp1>
-			<RandApp2>20</RandApp2>
-			<Player>100</Player>
-			<NoRiverSide>false</NoRiverSide>
-			<IconString>[ICON_RES_COCOA]</IconString>
-			<PortraitIndex>13</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
-			
-		</Row>
-		
 	</Resources>
 
 
 	<Resource_YieldChanges>
 		<Row>
-			<ResourceType>RESOURCE_ALLIGATOR</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CORN</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RARE_EARTHS</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RICE</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_SOYBEANS</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TEA</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COCOA</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 	</Resource_YieldChanges>
 
@@ -420,58 +156,14 @@
 			<TerrainType>TERRAIN_HILL</TerrainType>
 		</Row>
 		<Row>
-			<ResourceType>RESOURCE_CORN</ResourceType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CORN</ResourceType>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 			<TerrainType>TERRAIN_COAST</TerrainType>
 		</Row>
 		<Row>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
-			<TerrainType>TERRAIN_PLAINS</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RARE_EARTHS</ResourceType>
-			<TerrainType>TERRAIN_TUNDRA</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RARE_EARTHS</ResourceType>
-			<TerrainType>TERRAIN_DESERT</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RARE_EARTHS</ResourceType>
-			<TerrainType>TERRAIN_HILL</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RICE</ResourceType>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_SOYBEANS</ResourceType>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TEA</ResourceType>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TEA</ResourceType>
-			<TerrainType>TERRAIN_PLAINS</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TEA</ResourceType>
-			<TerrainType>TERRAIN_HILL</TerrainType>
-		</Row>
-		<Row>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<TerrainType>TERRAIN_TUNDRA</TerrainType>
 		</Row>
@@ -483,36 +175,11 @@
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<TerrainType>TERRAIN_HILL</TerrainType>
 		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-			<TerrainType>TERRAIN_PLAINS</TerrainType>
-		</Row>
-		
 	</Resource_TerrainBooleans>
 	
 	<Resource_FeatureBooleans>
 		<Row>
-			<ResourceType>RESOURCE_ALLIGATOR</ResourceType>
-			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_ALLIGATOR</ResourceType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-		</Row>
-		<Row>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RICE</ResourceType>
-			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COCOA</ResourceType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 		</Row>
 	</Resource_FeatureBooleans>
@@ -530,32 +197,16 @@
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<TerrainType>TERRAIN_TUNDRA</TerrainType>
 		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COCOA</ResourceType>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COCOA</ResourceType>
-			<TerrainType>TERRAIN_PLAINS</TerrainType>
-		</Row>
 	</Resource_FeatureTerrainBooleans>
 	
 	<Resource_QuantityTypes>
 		<Row>
-			<ResourceType>RESOURCE_ALLIGATOR</ResourceType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<Quantity>2</Quantity>
 		</Row>
 		<Row>
-			<ResourceType>RESOURCE_ALLIGATOR</ResourceType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Quantity>6</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Quantity>2</Quantity>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
@@ -563,14 +214,6 @@
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CORN</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CORN</ResourceType>
 			<Quantity>1</Quantity>
 		</Row>
 		<Row>
@@ -582,75 +225,15 @@
 			<Quantity>1</Quantity>
 		</Row>
 		<Row>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RARE_EARTHS</ResourceType>
-			<Quantity>6</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RARE_EARTHS</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RICE</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RICE</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_SOYBEANS</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_SOYBEANS</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TEA</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TEA</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-			<Quantity>6</Quantity>
-		</Row>
-		<Row>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<Quantity>2</Quantity>
 		</Row>
 		<Row>
-			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COCOA</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<Quantity>1</Quantity>
 		</Row>
 	</Resource_QuantityTypes>
 	<Improvement_ResourceTypes>
-		<Row>
-			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
-			<ResourceType>RESOURCE_ALLIGATOR</ResourceType>
-		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
@@ -658,57 +241,18 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
-			<ResourceType>RESOURCE_CORN</ResourceType>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 		</Row>
 		<Row>
-			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
-			<ResourceType>RESOURCE_RARE_EARTHS</ResourceType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
-			<ResourceType>RESOURCE_RICE</ResourceType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
-			<ResourceType>RESOURCE_SOYBEANS</ResourceType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
-			<ResourceType>RESOURCE_TEA</ResourceType>
-		</Row>
-		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
-			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
-			<ResourceType>RESOURCE_COCOA</ResourceType>
-		</Row>
-		
+		</Row>		
 	</Improvement_ResourceTypes>
 	
 	<Language_en_US>
-		<Row Tag="TXT_KEY_RESOURCE_ALLIGATOR">
-			<Text>Alligator</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_ALLIGATOR_HELP">
-			<Text>Exotic meat and leather sought out by the wealthy.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_COFFEE">
 			<Text>Coffee</Text>
 		</Row>
@@ -721,47 +265,11 @@
 		<Row Tag="TXT_KEY_RESOURCE_COPPER_HELP">
 			<Text>Metal used in a vast number of processes.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_CORN">
-			<Text>Corn</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_CORN_HELP">
-			<Text>Stape food originally from the Americas.</Text>
-		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_CRAB">
 			<Text>Crab</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_CRAB_HELP">
 			<Text>Succulent food from the depths of the sea.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_POPPY">
-			<Text>Poppy</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_POPPY_HELP">
-			<Text>Both vital Medicine and Addictive Drug.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_RARE_EARTHS">
-			<Text>Rare Earths</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_RARE_EARTHS_HELP">
-			<Text>Key group of resources needed for many post modern technologies.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_RICE">
-			<Text>Rice</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_RICE_HELP">
-			<Text>Staple food originally from Asia.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_SOYBEANS">
-			<Text>Soybeans</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_SOYBEANS_HELP">
-			<Text>High protein staple food.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_TEA">
-			<Text>Tea</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_TEA_HELP">
-			<Text>Herbal drink favored in many cultures.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_TITANIUM">
 			<Text>Titanium</Text>
@@ -769,36 +277,9 @@
 		<Row Tag="TXT_KEY_RESOURCE_TITANIUM_HELP">
 			<Text>Valuable metal prized in the Aerospace Industry.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_TOBACCO">
-			<Text>Tobacco</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_TOBACCO_HELP">
-			<Text>Commodity that is smoked or chewed.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_COCOA">
-			<Text>Cocoa</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_COCOA_HELP">
-			<Text>Highly valued for the making of Chocolate and other sweeteners..</Text>
-		</Row>
 	</Language_en_US>
 	<Resource_Flavors>
 		<Row>
-			<ResourceType>RESOURCE_ALLIGATOR</ResourceType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_ALLIGATOR</ResourceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>10</Flavor>
@@ -806,16 +287,6 @@
 		<Row>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CORN</ResourceType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
@@ -826,72 +297,12 @@
 		<Row>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RARE_EARTHS</ResourceType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_RICE</ResourceType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_SOYBEANS</ResourceType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TEA</ResourceType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TEA</ResourceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COCOA</ResourceType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COCOA</ResourceType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>5</Flavor>
 		</Row>
 	</Resource_Flavors>
 	<!--<IconFontMapping> not working
@@ -907,4 +318,159 @@
 			<Asset>sv_tradecitystate.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>-->
+	<Yields>
+		<Update>
+			<Set MinCity="3"/>
+			<Where Type="YIELD_FOOD"/>
+		</Update>
+		<Update>
+			<Set MinCity="2"/>
+			<Where Type="YIELD_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set MinCity="2"/>
+			<Where Type="YIELD_GOLD"/>
+		</Update>
+	</Yields>
+
+	<Defines>
+		<Update>
+			<Where Name="INFLUENCE_HILL_COST"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="INFLUENCE_RIVER_COST"/>
+			<Set Value="0"/>
+		</Update>
+		<Update>
+			<Where Name="MIN_START_FOUND_VALUE_AS_PERCENT_OF_BEST"/>
+			<Set Value="90"/>
+		</Update>
+		<Update>
+			<Set Value="15000"/>
+			<Where Name="AI_GOLD_PRIORITY_UPGRADE_BASE"/>
+		</Update>
+		<Update>
+			<Set Value="7500"/>
+			<Where Name="BUILDER_TASKING_BASELINE_BUILD_IMPROVEMENTS"/>
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where Name="BUILDER_TASKING_IMPROVE_RESOURCE_TENDENCY"/>
+		</Update>
+		<Update>
+			<Set Value="15000"/>
+			<Where Name="BUILDER_TASKING_BASELINE_BUILD_RESOURCE_IMPROVEMENTS"/>
+		</Update>
+		<Update>
+			<Set Value="10000"/>
+			<Where Name="BUILDER_TASKING_BASELINE_BUILD_ROUTES"/>
+		</Update>
+		<Update>
+			<Set Value="25000"/>
+			<Where Name="BUILDER_TASKING_BASELINE_REPAIR"/>
+		</Update>
+		<Update>
+			<Set Value="12"/>
+			<Where Name="FRIENDSHIP_PER_UNIT_GIFTED"/>
+		</Update>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="FRIENDSHIP_PER_BARB_KILLED"/>
+		</Update>
+		<Update>
+			<Set Value="1.25"/>
+			<Where Name="AI_STRATEGY_DEFEND_MY_LANDS_UNITS_PER_CITY"/>
+		</Update>
+		<Update>
+			<Set Value="11"/>
+			<Where Name="AI_CITIZEN_VALUE_FOOD"/>
+		</Update>
+		<Update>
+			<Set Value="10"/>
+			<Where Name="AI_CITIZEN_VALUE_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Value="4"/>
+			<Where Name="AI_CITIZEN_VALUE_GOLD"/>
+		</Update>
+		<Update>
+			<Set Value="12"/>
+			<Where Name="AI_CITIZEN_VALUE_SCIENCE"/>
+		</Update>
+		<Update>
+			<Set Value="125"/>
+			<Where Name="AI_HOMELAND_MOVE_PRIORITY_UPGRADE"/>
+		</Update>
+		<Update>
+			<Set Value="6"/>
+			<Where Name="FRIENDS_CULTURE_BONUS_AMOUNT_ANCIENT"/>
+		</Update>
+		<Update>
+			<Set Value="9"/>
+			<Where Name="FRIENDS_CULTURE_BONUS_AMOUNT_MEDIEVAL"/>
+		</Update>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="FRIENDS_CULTURE_BONUS_AMOUNT_INDUSTRIAL"/>
+		</Update>
+		<Update>
+			<Set Value="6"/>
+			<Where Name="ALLIES_CULTURE_BONUS_AMOUNT_ANCIENT"/>
+		</Update>
+		<Update>
+			<Set Value="9"/>
+			<Where Name="ALLIES_CULTURE_BONUS_AMOUNT_MEDIEVAL"/>
+		</Update>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="ALLIES_CULTURE_BONUS_AMOUNT_INDUSTRIAL"/>
+		</Update>
+		<Update>
+			<Set Value="200"/>
+			<Where Name="FRIENDS_CAPITAL_FOOD_BONUS_AMOUNT_PRE_RENAISSANCE"/>
+		</Update>
+		<Update>
+			<Set Value="200"/>
+			<Where Name="FRIENDS_CAPITAL_FOOD_BONUS_AMOUNT_POST_RENAISSANCE"/>
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="FRIENDS_OTHER_CITIES_FOOD_BONUS_AMOUNT_POST_RENAISSANCE"/>
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="ALLIES_OTHER_CITIES_FOOD_BONUS_AMOUNT"/>
+		</Update>
+	</Defines>
+
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Set Bias="3"/>
+			<Where MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+		</Update>
+	</Leader_MajorCivApproachBiases>
+
+	<Leader_Flavors>
+		<Update>
+			<Set Flavor="9"/>
+			<Where FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+		</Update>
+		<Update>
+			<Set Flavor="6"/>
+			<Where FlavorType="FLAVOR_EXPANSION"/>
+		</Update>
+		<Update>
+			<Set Flavor="8"/>
+			<Where FlavorType="FLAVOR_GROWTH"/>
+		</Update>
+		<Update>
+			<Set Flavor="9"/>
+			<Where FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+		</Update>
+		<Update>
+			<Set Flavor="8"/>
+			<Where FlavorType="FLAVOR_INFRASTRUCTURE"/>
+		</Update>
+	</Leader_Flavors>
 </GameData>
