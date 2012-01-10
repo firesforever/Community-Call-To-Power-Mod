@@ -4751,7 +4751,7 @@
 			<Where Tag="TXT_KEY_BUILDING_HARBOR_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_GOLD] Gold from Water Tiles.[NEWLINE]+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have a Harbor." />
+			<Set Text="+2 [ICON_GOLD] Gold from Water Tiles.[NEWLINE]+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have a Harbor." />
 			<Where Tag="TXT_KEY_BUILDING_SEAPORT_HELP" />
 		</Update>
 		<Update>
