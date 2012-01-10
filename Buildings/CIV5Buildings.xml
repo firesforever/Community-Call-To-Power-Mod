@@ -116,7 +116,7 @@
 		<Row>
 			<BuildingType>BUILDING_WINDMILL</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FOUNDRY</BuildingType>
@@ -324,7 +324,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>6</Yield>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_MILL</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>6</Yield>
@@ -333,7 +333,7 @@
 			<BuildingType>BUILDING_MILL</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>8</Yield>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -928,11 +928,11 @@
 			<Where Type="BUILDING_KREPOST"/>
 		</Update>
 		<Update>
-			<Set Cost="180" PrereqTech="TECH_TRADING" SpecialistCount="1" GreatPeopleRateChange="1" />
+			<Set Cost="180" PrereqTech="TECH_TRADING" SpecialistCount="1" GreatPeopleRateChange="0" />
 			<Where Type="BUILDING_BAZAAR"/>
 		</Update>
 		<Update>
-			<Set Cost="180" PrereqTech="TECH_TRADING" GreatPeopleRateChange="1" SpecialistCount="1" />
+			<Set Cost="180" PrereqTech="TECH_TRADING" GreatPeopleRateChange="1" SpecialistCount="0" />
 			<Where Type="BUILDING_MARKET"/>
 		</Update>
 		<Row>
@@ -965,15 +965,15 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 		</Row>
 		<Update>
-			<Set Cost="160" Culture="2" Happiness="2" SpecialistCount="1" GreatPeopleRateChange="1" SpecialistType="SPECIALIST_ARTIST" PrereqTech="TECH_MYSTICISM" />
+			<Set Cost="160" Culture="2" Happiness="2" SpecialistCount="1" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_ARTIST" PrereqTech="TECH_MYSTICISM" />
 			<Where Type="BUILDING_BURIAL_TOMB"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="160" Happiness="0" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="1" SpecialistCount="1" />
+			<Set GoldMaintenance="2" Cost="160" Happiness="0" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" SpecialistCount="1" />
 			<Where Type="BUILDING_TEMPLE"/>
 		</Update>
 		<Update>
-			<Set Cost="160" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="1" Culture="5" Happiness="0" SpecialistCount="1"/>
+			<Set Cost="160" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" Culture="5" Happiness="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_MUD_PYRAMID_MOSQUE"/>
 		</Update>
 		<Update>
@@ -989,7 +989,7 @@
 			<Where Type="BUILDING_MONUMENT"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="220" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="1" SpecialistCount="0" Happiness="1" PrereqTech="TECH_MASONRY"/>
+			<Set GoldMaintenance="2" Cost="220" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="0" SpecialistCount="0" Happiness="1" PrereqTech="TECH_MASONRY"/>
 			<Where Type="BUILDING_STONE_WORKS"/>
 		</Update>
 		<Update>
@@ -1014,7 +1014,8 @@
 			<ConquestProb>100</ConquestProb>
 			<Happiness>1</Happiness>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<GreatPeopleRateChange>0</GreatPeopleRateChange>
+			<SpecialistCount>1</SpecialistCount>
 			<BuildingClass>BUILDINGCLASS_ABBEY</BuildingClass>
 			<ArtDefineTag>ART_DEF_BUILDING_LIBRARY</ArtDefineTag>
 			<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
@@ -1042,19 +1043,19 @@
 			<Where Type="BUILDING_COURTHOUSE"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="300" GreatPeopleRateChange="1" SpecialistCount="1" SpecialistType="SPECIALIST_ENGINEER" />
+			<Set GoldMaintenance="2" Cost="300" GreatPeopleRateChange="0" SpecialistCount="1" SpecialistType="SPECIALIST_ENGINEER" />
 			<Where Type="BUILDING_FLOATING_GARDENS"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="300" GreatPeopleRateChange="1" SpecialistCount="1" SpecialistType="SPECIALIST_ENGINEER"/>
+			<Set GoldMaintenance="2" Cost="300" GreatPeopleRateChange="0" SpecialistCount="1" SpecialistType="SPECIALIST_ENGINEER"/>
 			<Where Type="BUILDING_WATERMILL"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="300" GreatPeopleRateChange="1" SpecialistCount="1" SpecialistType="SPECIALIST_SCIENTIST"/>
+			<Set GoldMaintenance="2" Cost="300" GreatPeopleRateChange="0" SpecialistCount="1" SpecialistType="SPECIALIST_SCIENTIST"/>
 			<Where Type="BUILDING_LIBRARY"/>
 		</Update>
 		<Update>
-			<Set Cost="300" GreatPeopleRateChange="1" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1"/>
+			<Set Cost="300" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1"/>
 			<Where Type="BUILDING_PAPER_MAKER"/>
 		</Update>
 		<Update>
@@ -1066,21 +1067,17 @@
 			<Where Type="BUILDING_WORKSHOP"/>
 		</Update>
 		<Update>
-			<Set Cost="300" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="1" GreatPeopleRateChange="1" Happiness="1"/>
+			<Set Cost="300" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="1" GreatPeopleRateChange="0" Happiness="1"/>
 			<Where Type="BUILDING_MINT"/>
 		</Update>
 		<Update>
 			<Set GoldMaintenance="2" Cost="300" />
 			<Where Type="BUILDING_STABLE"/>
 		</Update>
-		<Update>
-			<Set GoldMaintenance="0" Cost="380" PrereqTech="TECH_MATHEMATICS" BuildingProductionModifier="0" GreatPeopleRateChange="2" SpecialistCount="0"/>
-			<Where Type="BUILDING_WINDMILL"/>
-		</Update>
 		
 		<!--MEDIEVAL ERA-->
 		<Update>
-			<Set GoldMaintenance="3" Cost="540" ConquestProb="100" FoodKept="10" Happiness="2" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="2"/>
+			<Set GoldMaintenance="3" Cost="540" ConquestProb="100" FoodKept="10" Happiness="2" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_AQUEDUCT" />
 		</Update>
 		<Update>
@@ -1108,7 +1105,8 @@
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<SpecialistCount>1</SpecialistCount>
+			<GreatPeopleRateChange>0</GreatPeopleRateChange>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="3" Cost="630" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="1" />
@@ -1119,14 +1117,14 @@
 			<Where Type="BUILDING_GARDEN"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="3" Cost="540" SpecialistType="SPECIALIST_MERCHANT" GreatPeopleRateChange="1"/>
+			<Set GoldMaintenance="3" Cost="540" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount ="1" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_HARBOR"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="540" SpecialistType="SPECIALIST_MERCHANT" GreatPeopleRateChange="1"/>
+			<Set GoldMaintenance="2" Cost="540" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount ="0" GreatPeopleRateChange="1"/>
 			<Where Type="BUILDING_LIGHTHOUSE"/>
 		</Update>
-		<Row>
+		<!--<Row> TAKEN IT OUT FOR NOW
 			<Type>BUILDING_MILL</Type>
 			<Description>TXT_KEY_BUILDING_MILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MILL_DESC</Civilopedia>
@@ -1141,17 +1139,21 @@
 			<PrereqTech>TECH_AGRICULTURAL_REVOLUTION</PrereqTech>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
-		</Row>
+		</Row>-->
+		<Update>
+			<Set GoldMaintenance="5" Cost="570" PrereqTech="TECH_AGRICULTURAL_REVOLUTION" BuildingProductionModifier="0" GreatPeopleRateChange="0" SpecialistCount="1"/>
+			<Where Type="BUILDING_WINDMILL"/>
+		</Update>
 		<Update>
 			<Set GoldMaintenance="2" Cost="540" />
 			<Where Type="BUILDING_MONASTERY"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="3" Cost="540" GreatPeopleRateChange="2" SpecialistCount="0"/>
+			<Set GoldMaintenance="3" Cost="540" GreatPeopleRateChange="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_MUSEUM"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="5" Cost="610" GreatPeopleRateChange="2" SpecialistCount="0" Happiness="2" Culture="5"/>
+			<Set GoldMaintenance="5" Cost="610" GreatPeopleRateChange="0" SpecialistCount="1" Happiness="2" Culture="5"/>
 			<Where Type="BUILDING_OPERA_HOUSE"/>
 		</Update>
 		<Row>
@@ -1173,7 +1175,7 @@
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="6" Cost="610" PrereqTech="TECH_DRAMA" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="0" GreatPeopleRateChange="2" Happiness="4"/>
+			<Set GoldMaintenance="6" Cost="610" PrereqTech="TECH_DRAMA" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="0" GreatPeopleRateChange="0" Happiness="4"/>
 			<Where Type="BUILDING_THEATRE"/>
 		</Update>
 		<Row>
@@ -1215,7 +1217,7 @@
 			<PrereqTech>TECH_BLAST_FURNACE</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<GreatPeopleRateChange>0</GreatPeopleRateChange>
 		</Row>
 		<Row>
 			<Type>BUILDING_GUILD_HALL</Type>
@@ -1229,7 +1231,7 @@
 			<BuildingClass>BUILDINGCLASS_GUILD_HALL</BuildingClass>
 			<FreeStartEra>ERA_MODERN</FreeStartEra>
 			<PrereqTech>TECH_GUILDS</PrereqTech>
-			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 		</Row>
 		<Update>
@@ -1270,7 +1272,7 @@
 			<PrereqTech>TECH_CONSTITUTION</PrereqTech>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="8" Cost="840" Culture="0" GreatPeopleRateChange="2" SpecialistCount="0"/>
+			<Set GoldMaintenance="8" Cost="840" Culture="0" GreatPeopleRateChange="0" SpecialistCount="0"/>
 			<Where Type="BUILDING_PUBLIC_SCHOOL"/>
 		</Update>
 		<Row>
@@ -1304,15 +1306,15 @@
 			<PrereqTech>TECH_NATIONALISM</PrereqTech>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="0" Cost="720" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="0"/>
+			<Set GoldMaintenance="0" Cost="720" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="1"/>
 			<Where Type="BUILDING_SEAPORT"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="6" Cost="720" SpecialistCount="1" GreatPeopleRateChange="2" />
+			<Set GoldMaintenance="6" Cost="720" SpecialistCount="2" GreatPeopleRateChange="0" />
 			<Where Type="BUILDING_UNIVERSITY"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="6" Cost="720" SpecialistCount="1" GreatPeopleRateChange="2" />
+			<Set GoldMaintenance="6" Cost="720" SpecialistCount="2" GreatPeopleRateChange="0" />
 			<Where Type="BUILDING_WAT"/>
 		</Update>
 		
@@ -4154,7 +4156,7 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<Row>
+		<!--<Row> TAKING IT OUT FOR NOW
 			<BuildingType>BUILDING_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>45</Flavor>
@@ -4163,7 +4165,7 @@
 			<BuildingType>BUILDING_MILL</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>43</Flavor>
-		</Row>
+		</Row>-->
 		<Update>
 			<Where BuildingType="BUILDING_MONASTERY" FlavorType="FLAVOR_CULTURE" />
 			<Set Flavor="45" />
@@ -6981,6 +6983,10 @@
 			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_FOUNDRY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
+		</Row>
 	</Building_ClassesNeededInCity>
 	<Building_ResourceQuantityRequirements>
 		<Update>
@@ -7107,16 +7113,6 @@
 			<BuildingType>BUILDING_ABBEY</BuildingType>
 			<ResourceType>RESOURCE_SILK</ResourceType>
 			<CultureChange>1</CultureChange>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_RANCH</BuildingType>
-			<ResourceType>RESOURCE_COW</ResourceType>
-			<CultureChange>2</CultureChange>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_RANCH</BuildingType>
-			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<CultureChange>2</CultureChange>
 		</Row>
 	</Building_ResourceCultureChanges>
 	<Building_ResourceYieldChanges>
