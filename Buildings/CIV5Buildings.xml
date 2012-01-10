@@ -39,6 +39,16 @@
 			<Yield>5</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_MEDICAL_LAB</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDICAL_LAB</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
@@ -166,7 +176,7 @@
 		<Row>
 			<BuildingType>BUILDING_CHEMICAL_PLANT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>6</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CHEMICAL_PLANT</BuildingType>
@@ -176,17 +186,17 @@
 		<Row>
 			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>27</Yield>
+			<Yield>12</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>60</Yield>
+			<Yield>12</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_SHIPYARD</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>50</Yield>
+			<Yield>18</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TRANSCONTINENTAL_RAILROAD</BuildingType>
@@ -367,7 +377,7 @@
 		<Row>
 			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
@@ -390,39 +400,29 @@
 			<Yield>15</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>100</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>40</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>10</Yield>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>50</Yield>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>12</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>80</Yield>
+			<Yield>15</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>36</Yield>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LABORATORY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>4</Yield>
+			<Yield>18</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DRUG_STORE</BuildingType>
@@ -444,7 +444,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>18</Yield>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_TELEVISION</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>120</Yield>
@@ -453,7 +453,7 @@
 			<BuildingType>BUILDING_TELEVISION</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>3</Yield>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -544,7 +544,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>100</Yield>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_TELECOMMUNICATIONS_NETWORK</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>100</Yield>
@@ -553,7 +553,7 @@
 			<BuildingType>BUILDING_TELECOMMUNICATIONS_NETWORK</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>3</Yield>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_WEALTH_OF_NATIONS</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -698,7 +698,7 @@
 		<Row>
 			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>200</Yield>
+			<Yield>100</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
@@ -902,7 +902,7 @@
 		<Row>
 			<BuildingType>BUILDING_NAVAL_BASE</BuildingType>
 			<DomainType>DOMAIN_SEA</DomainType>
-			<Experience>30</Experience>
+			<Experience>15</Experience>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AIRBASE</BuildingType>
@@ -1340,7 +1340,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>1600</Defense>
+			<Defense>400</Defense>
 			<BuildingClass>BUILDINGCLASS_AIRBASE</BuildingClass>
 			<PrereqTech>TECH_FLIGHT</PrereqTech>
 		</Row>
@@ -1434,7 +1434,7 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="15" Cost="1175" Happiness="3" FoodKept="10" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1" />
+			<Set GoldMaintenance="15" Cost="1100" Happiness="3" FoodKept="10" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1" />
 			<Where Type="BUILDING_HOSPITAL"/>
 		</Update>
 		<Update>
@@ -1446,16 +1446,16 @@
 			<Description>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_STRATEGY</Help>
-			<GoldMaintenance>150</GoldMaintenance>
+			<GoldMaintenance>25</GoldMaintenance>
 			<Water>true</Water>
-			<Cost>2760</Cost>
+			<Cost>1275</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_INDUSTRIAL_SHIPYARD</BuildingClass>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
 		</Row>
 		<Row>
@@ -1463,7 +1463,7 @@
 			<Description>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE_STRATEGY</Help>
-			<Cost>3224</Cost>
+			<Cost>1050</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1478,12 +1478,12 @@
 			<Description>TXT_KEY_BUILDING_MASS_TRANSIT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MASS_TRANSIT_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_MASS_TRANSIT_STRATEGY</Help>
-			<GoldMaintenance>95</GoldMaintenance>
-			<Cost>2480</Cost>
+			<GoldMaintenance>5</GoldMaintenance>
+			<Cost>975</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Happiness>2</Happiness>
+			<Happiness>3</Happiness>
 			<BuildingClass>BUILDINGCLASS_MASS_TRANSIT</BuildingClass>
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
@@ -1491,11 +1491,11 @@
 			<SpecialistCount>1</SpecialistCount>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="70" Cost="2110" TrainedFreePromotion="PROMOTION_MEDIC" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1" GreatPeopleRateChange="0"/>
+			<Set GoldMaintenance="20" Cost="1175" TrainedFreePromotion="PROMOTION_MEDIC" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_MEDICAL_LAB"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="75" Cost="2480"/>
+			<Set GoldMaintenance="0" Cost="1175"/>
 			<Where Type="BUILDING_MILITARY_BASE"/>
 		</Update>
 		<Row>
@@ -1503,14 +1503,14 @@
 			<Description>TXT_KEY_BUILDING_NAVAL_BASE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NAVAL_BASE_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_NAVAL_BASE_STRATEGY</Help>
-			<GoldMaintenance>95</GoldMaintenance>
+			<GoldMaintenance>10</GoldMaintenance>
 			<Water>true</Water>
-			<Cost>2960</Cost>
+			<Cost>1050</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>1500</Defense>
+			<Defense>400</Defense>
 			<BuildingClass>BUILDINGCLASS_NAVAL_BASE</BuildingClass>
 			<PrereqTech>TECH_REFINING</PrereqTech>
 		</Row>
@@ -1519,7 +1519,8 @@
 			<Description>TXT_KEY_BUILDING_OIL_REFINERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_OIL_REFINERY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_OIL_REFINERY_HELP</Help>
-			<Cost>3500</Cost>
+			<GoldMaintenance>5</GoldMaintenance>
+			<Cost>1050</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1533,12 +1534,12 @@
 			<Type>BUILDING_POLICE_STATION</Type>
 			<Description>TXT_KEY_BUILDING_POLICE_STATION</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POLICE_STATION_DESC</Civilopedia>
-			<GoldMaintenance>450</GoldMaintenance>
-			<Cost>2480</Cost>
+			<GoldMaintenance>15</GoldMaintenance>
+			<Cost>975</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Happiness>2</Happiness>
+			<Happiness>3</Happiness>
 			<BuildingClass>BUILDINGCLASS_POLICE_STATION</BuildingClass>
 			<FreeStartEra>ERA_MODERN</FreeStartEra>
 			<PrereqTech>TECH_SOCIALISM</PrereqTech>
@@ -1547,29 +1548,30 @@
 			<Type>BUILDING_RECYCLING_PLANT</Type>
 			<Description>TXT_KEY_BUILDING_RECYCLING_PLANT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_RECYCLING_PLANT_DESC</Civilopedia>
-			<GoldMaintenance>525</GoldMaintenance>
-			<Cost>2728</Cost>
+			<Help>TXT_KEY_BUILDING_RECYCLING_PLANT_HELP</Help>
+			<GoldMaintenance>5</GoldMaintenance>
+			<Cost>1050</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Happiness>1</Happiness>
+			<Happiness>2</Happiness>
 			<BuildingClass>BUILDINGCLASS_RECYCLING_PLANT</BuildingClass>
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="75" Cost="2480" SpecialistCount="1" GreatPeopleRateChange="0"/>
+			<Set GoldMaintenance="20" Cost="1275" SpecialistCount="2" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_LABORATORY"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="120" Cost="2700" PrereqTech="TECH_PLASTIC" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="1" GreatPeopleRateChange="0" Happiness="5"/>
+			<Set GoldMaintenance="20" Cost="1175" PrereqTech="TECH_PLASTIC" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="0" GreatPeopleRateChange="0" Happiness="5"/>
 			<Where Type="BUILDING_STADIUM"/>
 		</Update>
 		<Update>
-			<Set Cost="2480" PrereqTech="TECH_ECONOMICS" SpecialistCount="1" GreatPeopleRateChange="0"/>
+			<Set Cost="1360" PrereqTech="TECH_ECONOMICS" SpecialistCount="2" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_STOCK_EXCHANGE"/>
 		</Update>
 		<Row>
@@ -1577,8 +1579,8 @@
 			<Description>TXT_KEY_BUILDING_SUPERMARKET</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SUPERMARKET_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SUPERMARKET_STRATEGY</Help>
-			<GoldMaintenance>115</GoldMaintenance>
-			<Cost>2720</Cost>
+			<GoldMaintenance>10</GoldMaintenance>
+			<Cost>1050</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1586,9 +1588,9 @@
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<SpecialistCount>0</SpecialistCount>
 		</Row>
-		<Row>
+		<!--<Row> TAKING THEM OUT
 			<Type>BUILDING_TELECOMMUNICATIONS_NETWORK</Type>
 			<Description>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK_DESC</Civilopedia>
@@ -1617,18 +1619,20 @@
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDING_TEXTILE_MILL</Type>
 			<Description>TXT_KEY_BUILDING_TEXTILE_MILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TEXTILE_MILL_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_TEXTILE_MILL_STRATEGY</Help>
-			<Cost>2600</Cost>
+			<Cost>1050</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_TEXTILE_MILL</BuildingClass>
 			<PrereqTech>TECH_INDUSTRIAL_PROCESSES</PrereqTech>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
 		</Row>
 		
 		
@@ -4779,7 +4783,7 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_TELECOMMUNICATIONS_NETWORK</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
@@ -4808,7 +4812,7 @@
 			<BuildingType>BUILDING_TELEVISION</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>7</Flavor>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
@@ -7009,6 +7013,14 @@
 			<BuildingType>BUILDING_AIRBASE_PLANT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_AIRCRAFT_PLANT</BuildingClassType>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_SHIPYARD</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NAVAL_BASE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+		</Row>
 	</Building_ClassesNeededInCity>
 	<Building_ResourceQuantityRequirements>
 		<Update>
@@ -7152,6 +7164,46 @@
 		<Row>
 			<BuildingType>BUILDING_FOOD_PROCESSING_PLANT</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
 		</Row>
 	</Building_LocalResourceOrs>
 	<Building_ResourceCultureChanges>
@@ -7384,6 +7436,138 @@
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDICAL_LAB</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
 		</Row>
 	</Building_ResourceYieldChanges>
 	<Building_TechEnhancedYieldChanges>
