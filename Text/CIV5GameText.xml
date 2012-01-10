@@ -849,7 +849,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_NAVAL_BASE_STRATEGY</Tag>
-			<Text>+20 XP for all Sea units built in this City.</Text>
+			<Text>+15 XP for all Sea units built in this City.[NEWLINE][NEWLINE]Requires a Seaport in this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUPERMARKET</Tag>
@@ -873,7 +873,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_STRATEGY</Tag>
-			<Text>Required for Battleship, Carrier, Supercarrier, Missile Cruiser, Nuclear Submarine, and Submarine production.[NEWLINE][NEWLINE]City must be built on the coast.[NEWLINE][NEWLINE]Can build up to 3.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil.</Text>
+			<Text>Required for Battleship, Carrier, Supercarrier, Missile Cruiser, Nuclear Submarine, and Submarine production.[NEWLINE][NEWLINE]City must have a Seaport.[NEWLINE][NEWLINE]Can build up to 3.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TRANSCONTINENTAL_RAILROAD</Tag>
@@ -910,6 +910,10 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_RECYCLING_PLANT_DESC</Tag>
 			<Text>Recycling involves processing used materials (waste) into new products to prevent waste of potentially useful materials, reduce the consumption of fresh raw materials, reduce energy usage, reduce air pollution (from incineration) and water pollution (from landfilling) by reducing the need for "conventional" waste disposal, and lower greenhouse gas emissions as compared to virgin production.  Recycling is a key component of modern waste reduction and is the third component of the "Reduce, Reuse, Recycle" waste hierarchy.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_RECYCLING_PLANT_HELP</Tag>
+			<Text>Each source of [ICON_RES_MARBLE] Marble or [ICON_RES_SILK] Silk worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of one of these resources nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MASS_TRANSIT</Tag>
@@ -1013,7 +1017,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CHEMICAL_PLANT_STRATEGY</Tag>
-			<Text>Each source of [ICON_DYE] Dye worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE]Each source of [ICON_INCENSE] Incense worked by this City Produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of [ICON_DYE] Dye or [ICON_INCENSE] Incense nearby.</Text>
+			<Text>Each source of [ICON_RES DYE] Dye worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE]Each source of [ICON_RES_INCENSE] Incense worked by this City Produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_DYE] Dye or [ICON_RES_INCENSE] Incense nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEXTILE_MILL</Tag>
@@ -1037,7 +1041,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOOD_PROCESSING_PLANT_STRATEGY</Tag>
-			<Text>Each source of [ICON_SPICES] Spices and [ICON_COFFEE] worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_WINE] Wine and [ICON_DEER] Deer worked by this City produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_SPICES] Spices and [ICON_RES_COFFEE] worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_WINE] Wine and [ICON_RES_DEER] Deer worked by this City produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE</Tag>
@@ -1049,7 +1053,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE_STRATEGY</Tag>
-			<Text>Significantly increases [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold in City.</Text>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat and [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_WHEAT] Wheat or [ICON_RES_BANANA] Banana nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INTERNATIONAL_AID_ORGANIZATION</Tag>
@@ -4587,6 +4591,10 @@
 			<Where Tag="TXT_KEY_BUILDING_STONE_WORKS_HELP" />
 		</Update>
 		<Update>
+			<Set Text="Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Theatre."/>
+			<Where Tag="TXT_KEY_BUILDING_STADIUM_HELP" />
+		</Update>
+		<Update>
 			<Set Text="Greatly increases [ICON_HAPPINESS_1] Happiness in the empire."/>
 			<Where Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP" />
 		</Update>
@@ -4627,7 +4635,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+2 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.[NEWLINE][NEWLINE]City must have a Bank."/>
+			<Set Text="Each souce of [ICON_RES_GOLD] worked by this City produces +3 [ICON_GOLD] Gold.[NEWLINE] Each source of [ICON_RES_SILVER] Silver or [ICON_RES_GEMS] Gems worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+2 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.[NEWLINE][NEWLINE]City must have a Bank."/>
 			<Where Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP" />
 		</Update>
 		<Update>
@@ -4635,7 +4643,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BANK_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_IRON] Iron or [ICON_COPPER] Copper worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Military Academy."/>
+			<Set Text="Each source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Military Academy."/>
 			<Where Tag="TXT_KEY_BUILDING_ARSENAL_HELP" />
 		</Update>
 		<Update>
@@ -4763,7 +4771,7 @@
 			<Where Tag="TXT_KEY_BUILDING_HOSPITAL_STRATEGY" />
 		</Update>
 		<Update>
-			<Set Text="Free Medic Promotion for units built in this City." />
+			<Set Text="Each source of [ICON_RES_URANIUM] Uranium worked by this City produces +3 [ICON_RESEARCH] Science.[NEWLINE]Free Medic Promotion for units built in this City.[NEWLINE][NEWLINE]City must have a Hospital." />
 			<Where Tag="TXT_KEY_BUILDING_MEDICAL_LAB_HELP" />
 		</Update>
 		<Update>
