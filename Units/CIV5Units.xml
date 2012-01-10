@@ -810,137 +810,137 @@
 		</Row>
 	</Unit_ResourceQuantityRequirements>
 	<Units>
-		<!--ANCIENT ERA-->
+		<!--Ancient Era-->
 		<Update>
-			<Set Cost="575" />
+			<Set Cost="120" />
 			<Where Type="UNIT_ARCHER" />
 		</Update>
 		<Update>
-			<Set Cost="575" />
+			<Set Cost="140" />
 			<Where Type="UNIT_BABYLONIAN_BOWMAN" />
 		</Update>
 		<Update>
-			<Set Cost="575" />
+			<Set Cost="120" />
 			<Where Type="UNIT_INCAN_SLINGER" />
 		</Update>
 		<Update>
-			<Set Cost="665" PrereqTech="TECH_CARRIAGES" />
+			<Set Cost="160" PrereqTech="TECH_CARRIAGES" />
 			<Where Type="UNIT_CHARIOT_ARCHER" />
 		</Update>
 		<Update>
-			<Set Cost="665" PrereqTech="TECH_CARRIAGES" />
+			<Set Cost="160" PrereqTech="TECH_CARRIAGES" />
 			<Where Type="UNIT_EGYPTIAN_WARCHARIOT" />
 		</Update>
 		<Update>
-			<Set Cost="750" PrereqTech="TECH_CARRIAGES" />
+			<Set Cost="160" PrereqTech="TECH_CARRIAGES" />
 			<Where Type="UNIT_INDIAN_WARELEPHANT" />
 		</Update>
 		<Update>
-			<Set Cost="470" />
+			<Set Cost="120" />
 			<Where Type="UNIT_SPEARMAN" />
 		</Update>
 		<Update>
-			<Set Cost="540" />
+			<Set Cost="140" />
 			<Where Type="UNIT_GREEK_HOPLITE" />
 		</Update>
 		<Update>
-			<Set Cost="510" />
+			<Set Cost="120" />
 			<Where Type="UNIT_PERSIAN_IMMORTAL" />
 		</Update>
 		<Update>
-			<Set Cost="380" />
+			<Set Cost="80" />
 			<Where Type="UNIT_WARRIOR" />
 		</Update>
 		<Update>
-			<Set Cost="380" />
+			<Set Cost="80" />
 			<Where Type="UNIT_POLYNESIAN_MAORI_WARRIOR" />
 		</Update>
 		<Update>
-			<Set Cost="380" />
+			<Set Cost="80" />
 			<Where Type="UNIT_AZTEC_JAGUAR" />
 		</Update>
 		<Update>
-			<Set Cost="285" />
+			<Set Cost="60" />
 			<Where Type="UNIT_SCOUT" />
 		</Update>
 		<Update>
-			<Set Cost="300" />
+			<Set Cost="80" />
 			<Where Type="UNIT_WORKBOAT" />
 		</Update>
 		<Update>
-			<Set Cost="350" ObsoleteTech="TECH_DYNAMITE" />
+			<Set Cost="70" ObsoleteTech="TECH_DYNAMITE" />
 			<Where Type="UNIT_WORKER" />
 		</Update>
 		
 		<!--CLASSICAL ERA-->
 		<Update>
-			<Set Cost="1500" PrereqTech="TECH_BALLISTICS" ObsoleteTech="TECH_SIEGE_ENGINES"/>
+			<Set Cost="250" PrereqTech="TECH_BALLISTICS" ObsoleteTech="TECH_SIEGE_ENGINES"/>
 			<Where Type="UNIT_ROMAN_BALLISTA" />
 		</Update>
 		<Update>
-			<Set Cost="1500" PrereqTech="TECH_BALLISTICS" ObsoleteTech="TECH_SIEGE_ENGINES"/>
+			<Set Cost="250" PrereqTech="TECH_BALLISTICS" ObsoleteTech="TECH_SIEGE_ENGINES"/>
 			<Where Type="UNIT_CATAPULT" />
 		</Update>
 		<Update>
-			<Set Cost="1350" />
+			<Set Cost="180" />
 			<Where Type="UNIT_GREEK_COMPANIONCAVALRY" />
 		</Update>
 		<Update>
-			<Set Cost="1350" />
+			<Set Cost="180" />
 			<Where Type="UNIT_HORSEMAN" />
 		</Update>
 		<Update>
-			<Set Cost="1250" />
+			<Set Cost="210" />
 			<Where Type="UNIT_SWORDSMAN" />
 		</Update>
 		<Update>
-			<Set Cost="1250" />
+			<Set Cost="210" />
 			<Where Type="UNIT_IROQUOIAN_MOHAWKWARRIOR" />
 		</Update>
 		<Update>
-			<Set Cost="1250" />
+			<Set Cost="210" />
 			<Where Type="UNIT_ROMAN_LEGION" />
 		</Update>
 		<Update>
-			<Set Cost="600" Combat="6" RangedCombat="4" PrereqTech="TECH_SHIPBUILDING" ObsoleteTech="TECH_RUDDER"/>
+			<Set Cost="140" Combat="6" RangedCombat="4" PrereqTech="TECH_SHIPBUILDING" ObsoleteTech="TECH_RUDDER"/>
 			<Where Type="UNIT_TRIREME" />
 		</Update>
 		
 		<!--MEDIEVAL ERA-->
 		<Update>
-			<Set Cost="3800" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
 			<Where Type="UNIT_SPANISH_CONQUISTADOR" />
 		</Update>
 		<Update>
-			<Set Cost="3800" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
 			<Where Type="UNIT_MONGOLIAN_KESHIK" />
 		</Update>
 		<Update>
-			<Set Cost="3800" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
 			<Where Type="UNIT_KNIGHT" />
 		</Update>
 		<Update>
-			<Set Cost="3800" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
 			<Where Type="UNIT_ARABIAN_CAMELARCHER" />
 		</Update>
 		<Update>
-			<Set Cost="3800" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
 			<Where Type="UNIT_SIAMESE_WARELEPHANT" />
 		</Update>
 		<Update>
-			<Set Cost="3800" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
 			<Where Type="UNIT_SONGHAI_MUSLIMCAVALRY" />
 		</Update>
 		<Update>
-			<Set Cost="3375" PrereqTech="TECH_METAL_CASTING" />
+			<Set Cost="360" PrereqTech="TECH_METAL_CASTING" />
 			<Where Type="UNIT_CROSSBOWMAN" />
 		</Update>
 		<Update>
-			<Set Cost="3375" PrereqTech="TECH_METAL_CASTING" />
+			<Set Cost="360" PrereqTech="TECH_METAL_CASTING" />
 			<Where Type="UNIT_CHINESE_CHUKONU" />
 		</Update>
 		<Update>
-			<Set Cost="3375" PrereqTech="TECH_METAL_CASTING" />
+			<Set Cost="360" PrereqTech="TECH_METAL_CASTING" />
 			<Where Type="UNIT_ENGLISH_LONGBOWMAN" />
 		</Update>
 		<Row>
@@ -949,7 +949,7 @@
 			<PrereqTech>TECH_RUDDER</PrereqTech>
 			<Combat>10</Combat>
 			<RangedCombat>6</RangedCombat>
-			<Cost>2475</Cost>
+			<Cost>280</Cost>
 			<Moves>5</Moves>
 			<HurryCostModifier>30</HurryCostModifier>
 			<Range>2</Range>
@@ -975,61 +975,61 @@
 			<MoveRate>BOAT</MoveRate>
 		</Row>
 		<Update>
-			<Set Combat="20" Cost="4200" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Set Combat="20" Cost="450" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
 			<Where Type="UNIT_LANCER" />
 		</Update>
 		<Update>
-			<Set Cost="4200" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Set Cost="450" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
 			<Where Type="UNIT_OTTOMAN_SIPAHI" />
 		</Update>
 		<Update>
-			<Set Cost="3100" PrereqTech="TECH_FEUDALISM" />
+			<Set Cost="320" PrereqTech="TECH_FEUDALISM" />
 			<Where Type="UNIT_PIKEMAN" />
 		</Update>
 		<Update>
-			<Set Cost="1550" PrereqTech="TECH_FEUDALISM" />
+			<Set Cost="160" PrereqTech="TECH_FEUDALISM" />
 			<Where Type="UNIT_GERMAN_LANDSKNECHT" />
 		</Update>
 		<Update>
-			<Set Cost="3600" PrereqTech="TECH_METALLURGY" />
+			<Set Cost="380" PrereqTech="TECH_METALLURGY" />
 			<Where Type="UNIT_LONGSWORDSMAN" />
 		</Update>
 		<Update>
-			<Set Cost="3600" PrereqTech="TECH_METALLURGY" />
+			<Set Cost="380" PrereqTech="TECH_METALLURGY" />
 			<Where Type="UNIT_DANISH_BERSERKER" />
 		</Update>
 		<Update>
-			<Set Cost="3600" PrereqTech="TECH_METALLURGY" />
+			<Set Cost="380" PrereqTech="TECH_METALLURGY" />
 			<Where Type="UNIT_JAPANESE_SAMURAI" />
 		</Update>
 		<Update>
-			<Set Cost="4275" PrereqTech="TECH_SIEGE_ENGINES" />
+			<Set Cost="420" PrereqTech="TECH_SIEGE_ENGINES" />
 			<Where Type="UNIT_TREBUCHET" />
 		</Update>
 		
 		<!--RENAISSANCE ERA-->
 		<Update>
-			<Set RangedCombat="22" Cost="6600" Range="3" ObsoleteTech="TECH_SHELLS" />
+			<Set RangedCombat="22" Cost="660" Range="3" ObsoleteTech="TECH_SHELLS" />
 			<Where Type="UNIT_CANNON" />
 		</Update>
 		<Update>
-			<Set Cost="3900" Moves="7" Combat="15" RangedCombat="9" PrereqTech="TECH_NAVIGATION" ObsoleteTech="TECH_TORPEDOES"/>
+			<Set Cost="480" Moves="7" Combat="15" RangedCombat="9" PrereqTech="TECH_NAVIGATION" ObsoleteTech="TECH_TORPEDOES"/>
 			<Where Type="UNIT_CARAVEL" />
 		</Update>
 		<Update>
-			<Set Combat="22" Cost="5100" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_TRACKED_VEHICLES" />
+			<Set Combat="22" Cost="550" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_TRACKED_VEHICLES" />
 			<Where Type="UNIT_CAVALRY" />
 		</Update>
 		<Update>
-			<Set Cost="5400" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_TRACKED_VEHICLES"/>
+			<Set Cost="550" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_TRACKED_VEHICLES"/>
 			<Where Type="UNIT_RUSSIAN_COSSACK" />
 		</Update>
 		<Update>
-			<Set Cost="4800" Moves="5" Combat="25" RangedCombat="18" ObsoleteTech="TECH_TORPEDOES"/>
+			<Set Cost="550" Moves="5" Combat="25" RangedCombat="18" ObsoleteTech="TECH_TORPEDOES"/>
 			<Where Type="UNIT_FRIGATE" />
 		</Update>
 		<Update>
-			<Set Cost="4800" Combat="25" RangedCombat="22" ObsoleteTech="TECH_TORPEDOES"/>
+			<Set Cost="550" Combat="25" RangedCombat="22" ObsoleteTech="TECH_TORPEDOES"/>
 			<Where Type="UNIT_ENGLISH_SHIPOFTHELINE" />
 		</Update>
 		<Row>
@@ -1038,7 +1038,7 @@
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
 			<Combat>30</Combat>
 			<RangedCombat>23</RangedCombat>
-			<Cost>5400</Cost>
+			<Cost>660</Cost>
 			<Moves>4</Moves>
 			<HurryCostModifier>30</HurryCostModifier>
 			<Range>2</Range>
@@ -1070,7 +1070,7 @@
 			<Help>TXT_KEY_UNIT_HELP_MACHINE_GUNNER</Help>
 			<Combat>12</Combat>
 			<RangedCombat>25</RangedCombat>
-			<Cost>4750</Cost>
+			<Cost>600</Cost>
 			<Moves>2</Moves>
 			<Range>2</Range>
 			<Class>UNITCLASS_MACHINE_GUNNER</Class>
@@ -1092,31 +1092,31 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 		</Row>
 		<Update>
-			<Set Cost="3600" />
+			<Set Cost="400" />
 			<Where Type="UNIT_MUSKETMAN" />
 		</Update>
 		<Update>
-			<Set Cost="4200" />
+			<Set Cost="440" />
 			<Where Type="UNIT_SPANISH_TERCIO" />
 		</Update>
 		<Update>
-			<Set Cost="3600" />
+			<Set Cost="400" />
 			<Where Type="UNIT_AMERICAN_MINUTEMAN" />
 		</Update>
 		<Update>
-			<Set Cost="3600" />
+			<Set Cost="400" />
 			<Where Type="UNIT_FRENCH_MUSKETEER" />
 		</Update>
 		<Update>
-			<Set Cost="3600" />
+			<Set Cost="400" />
 			<Where Type="UNIT_OTTOMAN_JANISSARY" />
 		</Update>
 		<Update>
-			<Set Combat="27" Cost="5800" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
+			<Set Combat="27" Cost="620" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_DANISH_SKI_INFANTRY" />
 		</Update>
 		<Update>
-			<Set Combat="27" Cost="5800" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
+			<Set Combat="27" Cost="620" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_RIFLEMAN" />
 		</Update>
 		

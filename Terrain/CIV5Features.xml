@@ -2,7 +2,293 @@
 <!-- Created by ModBuddy on 11/10/2010 1:46:56 PM -->
 <GameData>
 	<Feature_YieldChanges>
+		<Delete/><?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/10/2010 1:46:56 PM -->
+<GameData>
+	<Features>
+		<Update>
+			<Where Type="FEATURE_CRATER" />
+			<Set Culture="2" InBorderHappiness="2" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_FUJI" />
+			<Set Culture="2" InBorderHappiness="2" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_MESA" />
+			<Set Culture="2" InBorderHappiness="2" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_REEF" />
+			<Set Culture="1" InBorderHappiness="1" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_VOLCANO" />
+			<Set Culture="2" InBorderHappiness="2" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_GIBRALTAR" />
+			<Set Culture="2" InBorderHappiness="2" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_GEYSER" />
+			<Set Culture="2" InBorderHappiness="2" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_FOUNTAIN_YOUTH" />
+			<Set Culture="2" InBorderHappiness="2" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_POTOSI" />
+			<Set Culture="2" InBorderHappiness="2" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_EL_DORADO" />
+			<Set Culture="2" InBorderHappiness="2" />
+		</Update>
+	</Features>
+	<Feature_YieldChanges>
 		<Delete/>
+		<Row>
+			<FeatureType>FEATURE_LAKE</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_LAKE</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_CRATER</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_CRATER</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>7</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_CRATER</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FUJI</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FUJI</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FUJI</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_MESA</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_MESA</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_REEF</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_REEF</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_REEF</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_GEYSER</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_GEYSER</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_GEYSER</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_EL_DORADO</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>14</Yield>
+		</Row>
+	</Feature_YieldChanges>
+	<Feature_RiverYieldChanges>
+		<Delete/>
+		<Row>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Feature_RiverYieldChanges>
+</GameData>
 		<Row>
 			<FeatureType>FEATURE_LAKE</FeatureType>
 			<YieldType>YIELD_FOOD</YieldType>

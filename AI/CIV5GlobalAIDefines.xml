@@ -22,7 +22,7 @@
 		</Update>
 
 		<Update>
-			<Set Value="300" />
+			<Set Value="60" />
 			<Where Name="AI_GOLD_PRIORITY_UPGRADE_BASE" />
 		</Update>
 		<Update>
@@ -105,15 +105,15 @@
 			<Where Name="ALLIES_CAPITAL_FOOD_BONUS_AMOUNT" />
 		</Update>
 		<Update>
-			<Set Value="2000" />
+			<Set Value="400" />
 			<Where Name="ALLIES_OTHER_CITIES_FOOD_BONUS_AMOUNT" />
 		</Update>
 		<Update>
-			<Set Value="1500" />
+			<Set Value="300" />
 			<Where Name="FRIENDS_CAPITAL_FOOD_BONUS_AMOUNT_POST_RENAISSANCE" />
 		</Update>
 		<Update>
-			<Set Value="1000" />
+			<Set Value="200" />
 			<Where Name="FRIENDS_CAPITAL_FOOD_BONUS_AMOUNT_PRE_RENAISSANCE" />
 		</Update>
 		<Update>
@@ -121,7 +121,7 @@
 			<Where Name="FRIENDS_OTHER_CITIES_FOOD_BONUS_AMOUNT_PRE_RENAISSANCE" />
 		</Update>
 		<Update>
-			<Set Value="500" />
+			<Set Value="100" />
 			<Where Name="FRIENDS_OTHER_CITIES_FOOD_BONUS_AMOUNT_POST_RENAISSANCE" />
 		</Update>
 		<Update>
@@ -157,19 +157,19 @@
 			<Where Name="ALLIES_EXTRA_TURNS_UNIT_SPAWN" />
 		</Update>
 		<Update>
-			<Set Value="71.5" />
+			<Set Value="12.6" />
 			<Where Name="GOLD_GIFT_FRIENDSHIP_DIVISOR" />
 		</Update>
 		<Update>
-			<Set Value="750" />
+			<Set Value="150" />
 			<Where Name="AI_GOLD_PRIORITY_DIPLOMACY_BASE" />
 		</Update>
 		<Update>
-			<Set Value="125" />
+			<Set Value="5" />
 			<Where Name="AI_GOLD_PRIORITY_DIPLOMACY_PER_FLAVOR_POINT" />
 		</Update>
 		<Update>
-			<Set Value="1000" />
+			<Set Value="200" />
 			<Where Name="AI_GOLD_BALANCE_TO_HALVE_PLOT_BUY_MINIMUM" />
 		</Update>
 

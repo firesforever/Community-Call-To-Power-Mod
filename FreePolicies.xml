@@ -1106,7 +1106,7 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_HOMO_ILLUMINATUS</PolicyType>
-			<FlavorType>FLAVOR_INFRASTUCTURE</FlavorType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
 		<Row>
@@ -1707,7 +1707,7 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_ETHNOCENTRISM</PolicyType>
-			<FlavorType>FLAVOR_MILITARTY_TRAINING</FlavorType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>17</Flavor>
 		</Row>
 		<Row>
@@ -1982,7 +1982,7 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_ENDANGERED_SPECIES_ACT</PolicyType>
-			<FlavorType>FLAVOR_GOLDN</FlavorType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
 		<Row>
@@ -2178,7 +2178,7 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_UNLIMITED_POWER</PolicyType>
-			<FlavorType>FLAVOR_INFRASTUCTURE</FlavorType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
@@ -2428,7 +2428,7 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PARLIAMENTARY</PolicyType>
-			<FlavorType>FLAVOR_PRODUCTUION</FlavorType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>11</Flavor>
 		</Row>
 		<Row>
@@ -2808,7 +2808,7 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_BIG_BROTHER</PolicyType>
-			<FlavorType>FLAVOR_OFFENSIVE</FlavorType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>100</Flavor>
 		</Row>
 		<Row>
@@ -2818,7 +2818,4 @@
 		</Row
 	</Policy_Flavors>
 	
-	<Policy_BuildingClassYieldModifiers>
-		<Delete/>
-	</Policy_BuildingClassYieldModifiers>
 </GameData>
