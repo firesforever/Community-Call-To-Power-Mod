@@ -367,7 +367,7 @@
 			<Tag>TXT_KEY_BUILDING_REGIONAL_FAIR_HELP</Tag>
 			<Text>+1 [ICON_GOLD] Gold from Merchant Specialist in every City.[NEWLINE][NEWLINE]You may build up to 1.</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_MILL</Tag>
 			<Text>Mill</Text>
 		</Row>
@@ -378,7 +378,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MILL_STRATEGY</Tag>
 			<Text>Significantly increases [ICON_FOOD] Food and [ICON_PRODUCTION] Production in the City.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TOWN_HALL</Tag>
 			<Text>Town Hall</Text>
@@ -609,7 +609,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOUNDRY_HELP</Tag>
-			<Text>Requires 1 [ICON_RES_IRON] Iron.</Text>
+			<Text>Requires 1 [ICON_RES_IRON] Iron.[NEWLINE]City must have a Forge.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PRISON</Tag>
