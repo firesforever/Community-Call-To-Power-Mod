@@ -989,7 +989,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRBASE_STRATEGY</Tag>
-			<Text>+20 XP for all Air units built in this City.</Text>
+			<Text>+15 XP for all Air units built in this City.[NEWLINE][NEWLINE]City must have an Aircraft Plant.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT</Tag>
@@ -1001,7 +1001,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_STRATEGY</Tag>
-			<Text>Required for Fighter, Bomber, B-17, Jet Fighter, and Helicopter Gunship production.[NEWLINE][NEWLINE]Can build up to 3.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil.</Text>
+			<Text>Required for Fighter, Bomber, B-17, Jet Fighter, and Helicopter Gunship production.[NEWLINE][NEWLINE]Can build up to 3.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CHEMICAL_PLANT</Tag>
@@ -1013,7 +1013,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CHEMICAL_PLANT_STRATEGY</Tag>
-			<Text>Increases [ICON_RESEARCH] Science and [ICON_PRODUCTION] Production in this City.</Text>
+			<Text>Each source of [ICON_DYE] Dye worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE]Each source of [ICON_INCENSE] Incense worked by this City Produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of [ICON_DYE] Dye or [ICON_INCENSE] Incense nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEXTILE_MILL</Tag>
@@ -1037,7 +1037,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOOD_PROCESSING_PLANT_STRATEGY</Tag>
-			<Text>Increases [ICON_FOOD] Food and [ICON_PRODUCTION] Production in this City</Text>
+			<Text>Each source of [ICON_SPICES] Spices and [ICON_COFFEE] worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_WINE] Wine and [ICON_DEER] Deer worked by this City produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE</Tag>
@@ -4635,7 +4635,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BANK_HELP" />
 		</Update>
 		<Update>
-			<Set Text="City must have a Military Academy."/>
+			<Set Text="Each source of [ICON_IRON] Iron or [ICON_COPPER] Copper worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Military Academy."/>
 			<Where Tag="TXT_KEY_BUILDING_ARSENAL_HELP" />
 		</Update>
 		<Update>
@@ -4675,11 +4675,11 @@
 			<Where Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+2 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]City must be built next to a River." />
+			<Set Text="+1 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum for Construction.[NEWLINE][NEWLINE]City must be built next to a River." />
 			<Where Tag="TXT_KEY_BUILDING_HYDRO_PLANT_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+3 [ICON_GOLD] Gold from water tiles worked by this City.[NEWLINE][NEWLINE]City must be built on the coast." />
+			<Set Text="+2 [ICON_GOLD] Gold from water tiles worked by this City.[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_WONDER_COLOSSUS_HELP" />
 		</Update>
 		<Update>
