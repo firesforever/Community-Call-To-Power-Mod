@@ -447,13 +447,13 @@
 	<Traits>
 		<Update>
 			<Where Type="TRAIT_LAND_TRADE_GOLD" />
-			<Set TradeRouteChange="15"/>
+			<Set TradeRouteChange="3"/>
 		</Update>
 	</Traits>
 	<Trait_YieldChangesStrategicResources>
 		<Update>
 			<Where TraitType="TRAIT_STRATEGIC_RICHES" />
-			<Set Yield="5" />
+			<Set Yield="1" />
 		</Update>
 	</Trait_YieldChangesStrategicResources>
 </GameData>
