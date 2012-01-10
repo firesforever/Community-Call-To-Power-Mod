@@ -6486,7 +6486,7 @@
 		<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OCEAN_HABITAT_PROTOTYPE</BuildingType>
