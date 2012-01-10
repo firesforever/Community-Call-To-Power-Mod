@@ -861,7 +861,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUPERMARKET_STRATEGY</Tag>
-			<Text>Greatly improves [ICON_FOOD] Food output in the City.</Text>
+			<Text>Each source of [ICON_RES_SUGAR] Sugar worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE]Each source of [ICON_RES_FISH] and [ICON_RES_CRAB] Crab worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD</Tag>
@@ -971,7 +971,7 @@
 			<Tag>TXT_KEY_WONDER_CONTRACEPTION_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"Neglect of an effective birth control policy is a never-failing source of poverty which, in turn, is the parent of revolution and crime.[NEWLINE][TAB][TAB]" - Aristotle[NEWLINE][TAB]</Text>
 		</Row>
-		<Row>
+		<!--!<Row>
 			<Tag>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK</Tag>
 			<Text>Telecommunications Network</Text>
 		</Row>
@@ -982,7 +982,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK_STRATEGY</Tag>
 			<Text>Increases [ICON_RESEARCH] Science and [ICON_GOLD] Gold in this City.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRBASE</Tag>
 			<Text>Airbase</Text>
@@ -1029,7 +1029,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEXTILE_MILL_STRATEGY</Tag>
-			<Text>Significantly increases [ICON_GOLD] Gold output of this City.</Text>
+			<Text>Each source of [ICON_RES_COTTON] Cotton, [ICON_RES_FUR] Fur, and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby."</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOOD_PROCESSING_PLANT</Tag>
@@ -1123,7 +1123,7 @@
 			<Tag>TXT_KEY_WONDER_CRYSTAL_CATHEDRAL_QUOTE</Tag>
 			<Text>[NEWLINE][NEWLINE]“You can educate yourself right out of a relationship with God.” (Tammy Faye Bakker)</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_TELEVISION</Tag>
 			<Text>Television</Text>
 		</Row>
@@ -1134,7 +1134,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TELEVISION_STRATEGY</Tag>
 			<Text>Increases [ICON_GOLD] Gold and [ICON_RESEARCH] Science in this City.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHOPPING_MALL</Tag>
 			<Text>Shopping Mall</Text>
@@ -4589,10 +4589,6 @@
 		<Update>
 			<Set Text="Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.[NEWLINE][NEWLINE]City must not be in Plains."/>
 			<Where Tag="TXT_KEY_BUILDING_STONE_WORKS_HELP" />
-		</Update>
-		<Update>
-			<Set Text="Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Theatre."/>
-			<Where Tag="TXT_KEY_BUILDING_STADIUM_HELP" />
 		</Update>
 		<Update>
 			<Set Text="Greatly increases [ICON_HAPPINESS_1] Happiness in the empire."/>
