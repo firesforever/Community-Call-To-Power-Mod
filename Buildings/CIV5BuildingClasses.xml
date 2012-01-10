@@ -334,7 +334,6 @@
 			<Type>BUILDINGCLASS_INDUSTRIAL_SHIPYARD</Type>
 			<Description>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD</Description>
 			<DefaultBuilding>BUILDING_INDUSTRIAL_SHIPYARD</DefaultBuilding>
-			<MaxPlayerInstances>3</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_TRANSCONTINENTAL_RAILROAD</Type>
@@ -346,7 +345,6 @@
 			<Type>BUILDINGCLASS_AUTO_PLANT</Type>
 			<Description>TXT_KEY_BUILDING_AUTO_PLANT</Description>
 			<DefaultBuilding>BUILDING_AUTO_PLANT</DefaultBuilding>
-			<MaxPlayerInstances>3</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_RECYCLING_PLANT</Type>
@@ -390,7 +388,6 @@
 			<Type>BUILDINGCLASS_AIRCRAFT_PLANT</Type>
 			<Description>TXT_KEY_BUILDING_AIRCRAFT_PLANT</Description>
 			<DefaultBuilding>BUILDING_AIRCRAFT_PLANT</DefaultBuilding>
-			<MaxPlayerInstances>3</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_AIRBASE</Type>
