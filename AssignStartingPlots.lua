@@ -248,9 +248,9 @@ function AssignStartingPlots.Create()
 		-- Resources variables
 		resources = {},                 -- Stores all resource data, pulled from the XML
 		resource_setting,				-- User selection for Resource Setting, chosen on game launch (when applicable)
-		amounts_of_resources_placed = table.fill(0, 47), -- Stores amounts of each resource ID placed. WARNING: This table uses adjusted resource ID (+1) to account for Lua indexing. Add 1 to all IDs to index this table.
-		luxury_assignment_count = table.fill(0, 47), -- Stores amount of each luxury type assigned to regions. WARNING: current implementation will crash if a Luxury is attached to resource ID 0 (default = iron), because this table uses unadjusted resource ID as table index.
-		luxury_low_fert_compensation = table.fill(0, 47), -- Stores number of times each resource ID had extras handed out at civ starts. WARNING: Indexed by resource ID.
+		amounts_of_resources_placed = table.fill(0, 48), -- Edited by CCTP. Stores amounts of each resource ID placed. WARNING: This table uses adjusted resource ID (+1) to account for Lua indexing. Add 1 to all IDs to index this table.
+		luxury_assignment_count = table.fill(0, 48), -- Edited by CCTP. Stores amount of each luxury type assigned to regions. WARNING: current implementation will crash if a Luxury is attached to resource ID 0 (default = iron), because this table uses unadjusted resource ID as table index.
+		luxury_low_fert_compensation = table.fill(0, 48), -- Edited by CCTP. Stores number of times each resource ID had extras handed out at civ starts. WARNING: Indexed by resource ID.
 		region_low_fert_compensation = {}; -- Stores number of luxury compensation each region received
 		luxury_region_weights = {},		-- Stores weighted assignments for the types of regions
 		luxury_fallback_weights = {},	-- In case all options for a given region type got assigned or disabled, also used for Undefined regions
@@ -373,10 +373,9 @@ function AssignStartingPlots.Create()
 		iron_ID, horse_ID, coal_ID, oil_ID, aluminum_ID, uranium_ID,
 		whale_ID, pearls_ID, ivory_ID, fur_ID, silk_ID,
 		dye_ID, spices_ID, sugar_ID, cotton_ID, wine_ID, incense_ID,
-		gold_ID, silver_ID, gems_ID, marble_ID, alligator_ID, 
-		coffee_ID, copper_ID, corn_ID, poppy_ID, 
-		earths_ID, rice_ID, beans_ID, tea_ID, titanium_ID, 
-		tobacco_ID, cocoa_ID,
+		-- Added by CCTP. 
+		gold_ID, silver_ID, gems_ID, marble_ID,
+		coffee_ID, copper_ID, titanium_ID,  crab_ID
 		
 	}
 	
@@ -459,30 +458,14 @@ function AssignStartingPlots:__Init()
 		elseif resourceType == "RESOURCE_MARBLE" then
 			self.marble_ID = resourceID;
 		-- CCTP Resources
-		elseif resourceType == "RESOURCE_ALLIGATOR" then
-			self.alligator_ID = resourceID;
 		elseif resourceType == "RESOURCE_COFFEE" then
 			self.coffee_ID = resourceID;
 		elseif resourceType == "RESOURCE_COPPER" then
 			self.copper_ID = resourceID;
-		elseif resourceType == "RESOURCE_CORN" then
-			self.corn_ID = resourceID;
-		elseif resourceType == "RESOURCE_POPPY" then
-			self.poppy_ID = resourceID;
-		elseif resourceType == "RESOURCE_RARE_EARTHS" then
-			self.earths_ID = resourceID;
-		elseif resourceType == "RESOURCE_RICE" then
-			self.rice_ID = resourceID;
-		elseif resourceType == "RESOURCE_SOYBEANS" then
-			self.beans_ID = resourceID;
-		elseif resourceType == "RESOURCE_TEA" then
-			self.tea_ID = resourceID;
 		elseif resourceType == "RESOURCE_TITANIUM" then
 			self.titanium_ID = resourceID;
-		elseif resourceType == "RESOURCE_TOBACCO" then
-			self.tobacco_ID = resourceID;
-		elseif resourceType == "RESOURCE_COCOA" then
-			self.cocoa_ID = resourceID;
+		elseif resourceType == "RESOURCE_CRAB" then
+			self.crab_ID = resourceID;
 		end
 	end
 end
@@ -3269,41 +3252,52 @@ function AssignStartingPlots:AttemptToPlaceBonusResourceAtPlot(x, y, bAllowOasis
 	end
 	local plotType = plot:GetPlotType()
 	--
+	--[[ START CCTP
+	local bamt = 1
+	local diceroll = Map.Rand(3, "Bonus Resource quantity amount selection 1-3 - LUA");
+	if diceroll == 1 then
+		bamt = 2
+	elseif diceroll == 2 then
+		bamt = 2
+	else
+		bamt = 1
+	end
+	-- END CCTP. The above code Replaces the Quantities that used to be in place(1 for all) in the code below for random qunatities from 1-3.]]
 	if featureType == FeatureTypes.FEATURE_JUNGLE then -- Place Banana
-		plot:SetResourceType(self.banana_ID, 1);
+		plot:SetResourceType(self.banana_ID, 1); -- Changed 1 too 1 by CCTP
 		--print("Placed Banana.");
 		self.amounts_of_resources_placed[self.banana_ID + 1] = self.amounts_of_resources_placed[self.banana_ID + 1] + 1;
 		return true, false
 	elseif featureType == FeatureTypes.FEATURE_FOREST then -- Place Deer
-		plot:SetResourceType(self.deer_ID, 1);
+		plot:SetResourceType(self.deer_ID, 1); -- Changed 1 too bamt by CCTP
 		--print("Placed Deer.");
 		self.amounts_of_resources_placed[self.deer_ID + 1] = self.amounts_of_resources_placed[self.deer_ID + 1] + 1;
 		return true, false
 	elseif plotType == PlotTypes.PLOT_HILLS and featureType == FeatureTypes.NO_FEATURE then
-		plot:SetResourceType(self.sheep_ID, 1);
+		plot:SetResourceType(self.sheep_ID, 1); -- Changed 1 too bamt by CCTP
 		--print("Placed Sheep.");
 		self.amounts_of_resources_placed[self.sheep_ID + 1] = self.amounts_of_resources_placed[self.sheep_ID + 1] + 1;
 		return true, false
 	elseif plotType == PlotTypes.PLOT_LAND then
 		if featureType == FeatureTypes.NO_FEATURE then
 			if terrainType == TerrainTypes.TERRAIN_GRASS then -- Place Cows
-				plot:SetResourceType(self.cow_ID, 1);
+				plot:SetResourceType(self.cow_ID, 1); -- Changed 1 too bamt by CCTP
 				--print("Placed Cow.");
 				self.amounts_of_resources_placed[self.cow_ID + 1] = self.amounts_of_resources_placed[self.cow_ID + 1] + 1;
 				return true, false
 			elseif terrainType == TerrainTypes.TERRAIN_PLAINS then -- Place Wheat
-				plot:SetResourceType(self.wheat_ID, 1);
+				plot:SetResourceType(self.wheat_ID, 1); -- Changed 1 too bamt by CCTP
 				--print("Placed Wheat.");
 				self.amounts_of_resources_placed[self.wheat_ID + 1] = self.amounts_of_resources_placed[self.wheat_ID + 1] + 1;
 				return true, false
 			elseif terrainType == TerrainTypes.TERRAIN_TUNDRA then -- Place Deer
-				plot:SetResourceType(self.deer_ID, 1);
+				plot:SetResourceType(self.deer_ID, 1); -- Changed 1 too bamt by CCTP
 				--print("Placed Deer.");
 				self.amounts_of_resources_placed[self.deer_ID + 1] = self.amounts_of_resources_placed[self.deer_ID + 1] + 1;
 				return true, false
 			elseif terrainType == TerrainTypes.TERRAIN_DESERT then
 				if plot:IsFreshWater() then -- Place Wheat
-					plot:SetResourceType(self.wheat_ID, 1);
+					plot:SetResourceType(self.wheat_ID, 1); -- Changed 1 too bamt by CCTP
 					--print("Placed Wheat.");
 					self.amounts_of_resources_placed[self.wheat_ID + 1] = self.amounts_of_resources_placed[self.wheat_ID + 1] + 1;
 					return true, false
@@ -3319,10 +3313,19 @@ function AssignStartingPlots:AttemptToPlaceBonusResourceAtPlot(x, y, bAllowOasis
 	elseif plotType == PlotTypes.PLOT_OCEAN then
 		if terrainType == TerrainTypes.TERRAIN_COAST and featureType == FeatureTypes.NO_FEATURE then
 			if plot:IsLake() == false then -- Place Fish
-				plot:SetResourceType(self.fish_ID, 1);
+			-- START CCTP
+				local choice = self.fish_ID;
+				local diceroll = Map.Rand(3,"Selection of Strategic Resource type - Start Normalization LUA");
+				if diceroll <= 2 then
+					choice = self.fish_ID;
+				elseif diceroll == 3 then
+					choice = self.crab_ID;
+				end
+				plot:SetResourceType(choice, 1);  -- Changed 1 too bamt by CCTP
 				--print("Placed Fish.");
-				self.amounts_of_resources_placed[self.fish_ID + 1] = self.amounts_of_resources_placed[self.fish_ID + 1] + 1;
+				self.amounts_of_resources_placed[choice + 1] = self.amounts_of_resources_placed[choice + 1] + 1;
 				return true, false
+			-- END CCTP
 			end
 		end
 	end	
@@ -3381,36 +3384,12 @@ function AssignStartingPlots:AttemptToPlaceSmallStrategicAtPlot(x, y)
 	elseif featureType == FeatureTypes.NO_FEATURE then
 		if terrainType == TerrainTypes.TERRAIN_GRASS or terrainType == TerrainTypes.TERRAIN_PLAINS then -- Could be horses.
 			local choice = self.horse_ID;
-			local diceroll = Map.Rand(16, "Selection of Strategic Resource type - Start Normalization LUA");
+			local diceroll = Map.Rand(4, "Selection of Strategic Resource type - Start Normalization LUA");
 			if diceroll == 2 then
 				choice = self.iron_ID;
 				--print("Placed Iron.");
--- START CCTP RESOURCES
-			elseif diceroll == 3 then
-				choice = self.copper_ID;
-			elseif diceroll == 4 then
-				choice = self.titanium_ID;
-			elseif diceroll == 5 then
-				choice = self.earths_ID;
-			elseif diceroll == 6 then
-				choice = self.alligator_ID;
-			elseif diceroll == 7 then
-				choice = self.coffee_ID;
-			elseif diceroll == 8 then
-				choice = self.corn_ID;
-			elseif diceroll == 9 then
-				choice = self.poppy_ID;
-			elseif diceroll == 10 then
-				choice = self.rice_ID;
-			elseif diceroll == 11 then
-				choice = self.beans_ID;
-			elseif diceroll == 12 then
-				choice = self.tea_ID;
-			elseif diceroll == 13 then
-				choice = self.tobacco_ID;
-			elseif diceroll == 14 then
-				choice = self.cocoa_ID;
--- END CCTP RESOURCES
+			--else
+				--print("Placed Horse.");
 			end
 			plot:SetResourceType(choice, 2);
 			self.amounts_of_resources_placed[choice + 1] = self.amounts_of_resources_placed[choice + 1] + 2;
@@ -3439,7 +3418,7 @@ function AssignStartingPlots:AddStrategicBalanceResources(region_number)
 	local odd = self.firstRingYIsOdd;
 	local even = self.firstRingYIsEven;
 	local nextX, nextY, plot_adjustments;
-	local iron_list, copper_list, titanium_list, earths_list, alligator_list, coffee_list, corn_list, poppy_list, rice_list, beans_list, tea_list, tobacco_list, cocoa_list, horse_list, oil_list = {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {};
+	local iron_list, horse_list, oil_list = {}, {}, {};
 	local iron_fallback, horse_fallback, oil_fallback = {}, {}, {};
 	local radius = 3;
 	
@@ -3533,9 +3512,9 @@ function AssignStartingPlots:AddStrategicBalanceResources(region_number)
 		end
 	end
 
-	local uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt, copper_amt, titanium_amt, earth_amt, alligator_amt, coffee_amt, corn_amt, poppy_amt, rice_amt, beans_amt, tea_amt, tobacco_amt, cocoa_amt = self:GetMajorStrategicResourceQuantityValues()
+	local uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt = self:GetMajorStrategicResourceQuantityValues()
 	local shuf_list;
-	local placed_iron, placed_copper, placed_titanium, placed_earths, placed_horse, placed_oil = false, false, false, false, false, false, false, false, false, false, false, false, false, false, false;
+	local placed_iron, placed_horse, placed_oil = false, false, false ;
 
 -- START CCTP RESOURCES
 	if table.maxn(copper_list) > 0 then
@@ -3552,74 +3531,11 @@ function AssignStartingPlots:AddStrategicBalanceResources(region_number)
 			placed_titanium = true;
 		end
 	end
-	if table.maxn(earths_list) > 0 then
-		shuf_list = GetShuffledCopyOfTable(earths_list)
-		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(self.earths_ID, earths_amt, 1, 1, -1, 0, 0, shuf_list);
-		if iNumLeftToPlace == 0 then
-			placed_earths = true;
-		end
-	end
-	if table.maxn(alligator_list) > 0 then
-		shuf_list = GetShuffledCopyOfTable(alligator_list)
-		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(self.alligator_ID, alligator_amt, 1, 1, -1, 0, 0, shuf_list);
-		if iNumLeftToPlace == 0 then
-			placed_alligator = true;
-		end
-	end
 	if table.maxn(coffee_list) > 0 then
 		shuf_list = GetShuffledCopyOfTable(coffee_list)
 		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(self.coffee_ID, coffee_amt, 1, 1, -1, 0, 0, shuf_list);
 		if iNumLeftToPlace == 0 then
 			placed_coffee = true;
-		end
-	end
-	if table.maxn(corn_list) > 0 then
-		shuf_list = GetShuffledCopyOfTable(corn_list)
-		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(self.corn_ID, corn_amt, 1, 1, -1, 0, 0, shuf_list);
-		if iNumLeftToPlace == 0 then
-			placed_corn = true;
-		end
-	end
-	if table.maxn(poppy_list) > 0 then
-		shuf_list = GetShuffledCopyOfTable(poppy_list)
-		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(self.poppy_ID, poppy_amt, 1, 1, -1, 0, 0, shuf_list);
-		if iNumLeftToPlace == 0 then
-			placed_poppy = true;
-		end
-	end
-	if table.maxn(rice_list) > 0 then
-		shuf_list = GetShuffledCopyOfTable(rice_list)
-		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(self.rice_ID, rice_amt, 1, 1, -1, 0, 0, shuf_list);
-		if iNumLeftToPlace == 0 then
-			placed_iron = rice;
-		end
-	end
-	if table.maxn(beans_list) > 0 then
-		shuf_list = GetShuffledCopyOfTable(beans_list)
-		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(self.beans_ID, beans_amt, 1, 1, -1, 0, 0, shuf_list);
-		if iNumLeftToPlace == 0 then
-			placed_beans = true;
-		end
-	end
-	if table.maxn(tea_list) > 0 then
-		shuf_list = GetShuffledCopyOfTable(tea_list)
-		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(self.tea_ID, tea_amt, 1, 1, -1, 0, 0, shuf_list);
-		if iNumLeftToPlace == 0 then
-			placed_tea = true;
-		end
-	end
-	if table.maxn(cocoa_list) > 0 then
-		shuf_list = GetShuffledCopyOfTable(cocoa_list)
-		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(self.cocoa_ID, cocoa_amt, 1, 1, -1, 0, 0, shuf_list);
-		if iNumLeftToPlace == 0 then
-			placed_cocoa = true;
-		end
-	end
-	if table.maxn(tobacco_list) > 0 then
-		shuf_list = GetShuffledCopyOfTable(tobacco_list)
-		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(self.tobacco_ID, tobacco_amt, 1, 1, -1, 0, 0, shuf_list);
-		if iNumLeftToPlace == 0 then
-			placed_tobacco = true;
 		end
 	end
 -- END CCTP RESOURCES
@@ -3677,7 +3593,17 @@ function AssignStartingPlots:AttemptToPlaceStoneAtGrassPlot(x, y)
 		if featureType == FeatureTypes.NO_FEATURE then
 			local terrainType = plot:GetTerrainType()
 			if terrainType == TerrainTypes.TERRAIN_GRASS then -- Place Stone
-				plot:SetResourceType(self.stone_ID, 1);
+				--[[ START CCTP
+				local samt = 1
+				local diceroll = Map.Rand(3, "Bonus Resource quantity amount selection 1-2 - LUA");
+				if diceroll == 1 then
+					samt = 2
+				elseif diceroll == 2 then
+					samt = 1
+				else samt = 1	
+				end
+				-- END CCTP. The above code Replaces the Quantities that used to be in place(1) in the code below for random quantities from 1-3.]]
+				plot:SetResourceType(self.stone_ID, 1); --was samt
 				print("Placed Stone.");
 				self.amounts_of_resources_placed[self.stone_ID + 1] = self.amounts_of_resources_placed[self.stone_ID + 1] + 1;
 				return true
@@ -8492,36 +8418,36 @@ function AssignStartingPlots:PlaceLuxuries()
 
 		-- First pass, checking only first two rings with a 50% ratio.
 		shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[primary])
-		local iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 2, iNumToPlace, 0.5, -1, 0, 0, shuf_list);
+		local iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 1, iNumToPlace, 0.5, -1, 0, 0, shuf_list);
 		if iNumLeftToPlace > 0 and secondary > 0 then
 			shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[secondary])
-			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 2, iNumLeftToPlace, 0.5, -1, 0, 0, shuf_list);
+			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 1, iNumLeftToPlace, 0.5, -1, 0, 0, shuf_list);
 		end
 		if iNumLeftToPlace > 0 and tertiary > 0 then
 			shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[tertiary])
-			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 2, iNumLeftToPlace, 0.5, -1, 0, 0, shuf_list);
+			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 1, iNumLeftToPlace, 0.5, -1, 0, 0, shuf_list);
 		end
 		if iNumLeftToPlace > 0 and quaternary > 0 then
 			shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[quaternary])
-			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 2, iNumLeftToPlace, 0.5, -1, 0, 0, shuf_list);
+			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 1, iNumLeftToPlace, 0.5, -1, 0, 0, shuf_list);
 		end
 
 		if iNumLeftToPlace > 0 then
 			-- Second pass, checking three rings with a 100% ratio.
 			luxury_plot_lists = self:GenerateLuxuryPlotListsAtCitySite(x, y, 3, false)
 			shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[primary])
-			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 2, iNumLeftToPlace, 1, -1, 0, 0, shuf_list);
+			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 1, iNumLeftToPlace, 1, -1, 0, 0, shuf_list);
 			if iNumLeftToPlace > 0 and secondary > 0 then
 				shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[secondary])
-				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 2, iNumLeftToPlace, 1, -1, 0, 0, shuf_list);
+				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 1, iNumLeftToPlace, 1, -1, 0, 0, shuf_list);
 			end
 			if iNumLeftToPlace > 0 and tertiary > 0 then
 				shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[tertiary])
-				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 2, iNumLeftToPlace, 1, -1, 0, 0, shuf_list);
+				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 1, iNumLeftToPlace, 1, -1, 0, 0, shuf_list);
 			end
 			if iNumLeftToPlace > 0 and quaternary > 0 then
 				shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[quaternary])
-				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 2, iNumLeftToPlace, 1, -1, 0, 0, shuf_list);
+				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(this_region_luxury, 1, iNumLeftToPlace, 1, -1, 0, 0, shuf_list);
 			end
 		end
 
@@ -8539,19 +8465,19 @@ function AssignStartingPlots:PlaceLuxuries()
 		 		primary, secondary, tertiary, quaternary = self:GetIndicesForLuxuryType(random_res);
 		 		if randoms_to_place > 0 then
 					shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[primary])
-					randoms_to_place = self:PlaceSpecificNumberOfResources(random_res, 2, 1, 1, -1, 0, 0, shuf_list);
+					randoms_to_place = self:PlaceSpecificNumberOfResources(random_res, 1, 1, 1, -1, 0, 0, shuf_list);
 				end
 				if randoms_to_place > 0 and secondary > 0 then
 					shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[secondary])
-					randoms_to_place = self:PlaceSpecificNumberOfResources(random_res, 2, 1, 1, -1, 0, 0, shuf_list);
+					randoms_to_place = self:PlaceSpecificNumberOfResources(random_res, 1, 1, 1, -1, 0, 0, shuf_list);
 				end
 				if randoms_to_place > 0 and tertiary > 0 then
 					shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[tertiary])
-					randoms_to_place = self:PlaceSpecificNumberOfResources(random_res, 2, 1, 1, -1, 0, 0, shuf_list);
+					randoms_to_place = self:PlaceSpecificNumberOfResources(random_res, 1, 1, 1, -1, 0, 0, shuf_list);
 				end
 				if randoms_to_place > 0 and quaternary > 0 then
 					shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[quaternary])
-					randoms_to_place = self:PlaceSpecificNumberOfResources(random_res, 2, 1, 1, -1, 0, 0, shuf_list);
+					randoms_to_place = self:PlaceSpecificNumberOfResources(random_res, 1, 1, 1, -1, 0, 0, shuf_list);
 				end
 			end
 		end
@@ -8640,18 +8566,18 @@ function AssignStartingPlots:PlaceLuxuries()
 				primary, secondary, tertiary, quaternary = self:GetIndicesForLuxuryType(use_this_ID);
 				luxury_plot_lists = self:GenerateLuxuryPlotListsAtCitySite(x, y, 2, false)
 				shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[primary])
-				local iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 2, 1, 1, -1, 0, 0, shuf_list);
+				local iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 1, 1, 1, -1, 0, 0, shuf_list);
 				if iNumLeftToPlace > 0 and secondary > 0 then
 					shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[secondary])
-					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 2, 1, 1, -1, 0, 0, shuf_list);
+					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 1, 1, 1, -1, 0, 0, shuf_list);
 				end
 				if iNumLeftToPlace > 0 and tertiary > 0 then
 					shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[tertiary])
-					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 2, 1, 1, -1, 0, 0, shuf_list);
+					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 1, 1, 1, -1, 0, 0, shuf_list);
 				end
 				if iNumLeftToPlace > 0 and quaternary > 0 then
 					shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[quaternary])
-					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 2, 1, 1, -1, 0, 0, shuf_list);
+					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 1, 1, 1, -1, 0, 0, shuf_list);
 				end
 				--if iNumLeftToPlace == 0 then
 					--print("-"); print("Placed Luxury ID#", use_this_ID, "at City State#", city_state, "in Region#", region_number, "located at Plot", x, y);
@@ -8687,18 +8613,18 @@ function AssignStartingPlots:PlaceLuxuries()
 		
 		-- Place luxuries.
 		shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[primary])
-		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 2, iNumThisLuxToPlace, 0.3, 2, 0, 3, shuf_list);
+		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 1, iNumThisLuxToPlace, 0.3, 2, 0, 3, shuf_list);
 		if iNumLeftToPlace > 0 and secondary > 0 then
 			shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[secondary])
-			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 2, iNumLeftToPlace, 0.3, 2, 0, 3, shuf_list);
+			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 1, iNumLeftToPlace, 0.3, 2, 0, 3, shuf_list);
 		end
 		if iNumLeftToPlace > 0 and tertiary > 0 then
 			shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[tertiary])
-			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 2, iNumLeftToPlace, 0.4, 2, 0, 2, shuf_list);
+			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 1, iNumLeftToPlace, 0.4, 2, 0, 2, shuf_list);
 		end
 		if iNumLeftToPlace > 0 and quaternary > 0 then
 			shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[quaternary])
-			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 2, iNumLeftToPlace, 0.5, 2, 0, 2, shuf_list);
+			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 1, iNumLeftToPlace, 0.5, 2, 0, 2, shuf_list);
 		end
 		--print("-"); print("-"); print("Number of LuxuryID", res_ID, "left to place in Region#", region_number, "is", iNumLeftToPlace);
 	end
@@ -8739,18 +8665,18 @@ function AssignStartingPlots:PlaceLuxuries()
 			end
 			-- Place this luxury type.
 			current_list = self.global_luxury_plot_lists[primary];
-			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 2, iNumThisLuxToPlace, 0.25, 2, 4, 6, current_list);
+			iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 1, iNumThisLuxToPlace, 0.25, 2, 4, 6, current_list);
 			if iNumLeftToPlace > 0 and secondary > 0 then
 				current_list = self.global_luxury_plot_lists[secondary];
-				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 2, iNumLeftToPlace, 0.25, 2, 4, 6, current_list);
+				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 1, iNumLeftToPlace, 0.25, 2, 4, 6, current_list);
 			end
 			if iNumLeftToPlace > 0 and tertiary > 0 then
 				current_list = self.global_luxury_plot_lists[tertiary];
-				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 2, iNumLeftToPlace, 0.25, 2, 4, 6, current_list);
+				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 1, iNumLeftToPlace, 0.25, 2, 4, 6, current_list);
 			end
 			if iNumLeftToPlace > 0 and quaternary > 0 then
 				current_list = self.global_luxury_plot_lists[quaternary];
-				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 2, iNumLeftToPlace, 0.3, 2, 4, 6, current_list);
+				iNumLeftToPlace = self:PlaceSpecificNumberOfResources(res_ID, 1, iNumLeftToPlace, 0.3, 2, 4, 6, current_list);
 			end
 			iNumRandomLuxPlaced = iNumRandomLuxPlaced + iNumThisLuxToPlace - iNumLeftToPlace;
 			--print("-"); print("Random Luxury Target Number:", iNumThisLuxToPlace);
@@ -8838,18 +8764,18 @@ function AssignStartingPlots:PlaceLuxuries()
 				primary, secondary, tertiary, quaternary = self:GetIndicesForLuxuryType(use_this_ID);
 				luxury_plot_lists = self:GenerateLuxuryPlotListsAtCitySite(x, y, 2, false)
 				shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[primary])
-				local iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 2, 1, 1, -1, 0, 0, shuf_list);
+				local iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 1, 1, 1, -1, 0, 0, shuf_list);
 				if iNumLeftToPlace > 0 and secondary > 0 then
 					shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[secondary])
-					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 2, 1, 1, -1, 0, 0, shuf_list);
+					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 1, 1, 1, -1, 0, 0, shuf_list);
 				end
 				if iNumLeftToPlace > 0 and tertiary > 0 then
 					shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[tertiary])
-					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 2, 1, 1, -1, 0, 0, shuf_list);
+					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 1, 1, 1, -1, 0, 0, shuf_list);
 				end
 				if iNumLeftToPlace > 0 and quaternary > 0 then
 					shuf_list = GetShuffledCopyOfTable(luxury_plot_lists[quaternary])
-					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 2, 1, 1, -1, 0, 0, shuf_list);
+					iNumLeftToPlace = self:PlaceSpecificNumberOfResources(use_this_ID, 1, 1, 1, -1, 0, 0, shuf_list);
 				end
 				--if iNumLeftToPlace == 0 then
 					--print("-"); print("Placed Second Luxury type of ID#", use_this_ID, "for start located at Plot", x, y, " in Region#", region_number);
@@ -8918,7 +8844,7 @@ function AssignStartingPlots:PlaceSmallQuantitiesOfStrategics(frequency, plot_li
 	local iNumTotalPlots = table.maxn(plot_list);
 	local iNumToPlace = math.ceil(iNumTotalPlots / frequency);
 
-	local uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt, copper_amt, titanium_amt, earths_amt, alligator_amt, coffee_amt, corn_amt, poppy_amt, rice_amt, beans_amt, tea_amt, tobacco_amt, cocoa_amt = self:GetSmallStrategicResourceQuantityValues()
+	local uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt = self:GetSmallStrategicResourceQuantityValues()
 	
 	-- Main loop
 	local current_index = 1;
@@ -8952,18 +8878,7 @@ function AssignStartingPlots:PlaceSmallQuantitiesOfStrategics(frequency, plot_li
 								selected_ID = self.coal_ID;
 								selected_quantity = coal_amt;
 -- START CCTP RESOURCES
-							elseif diceroll == 2 then
-								selected_ID = self.copper_ID;
-								selected_quantity = copper_amt;
-							elseif diceroll == 3 then
-								selected_ID = self.titanium_ID;
-								selected_quantity = titanium_amt;
-							elseif diceroll == 4 then
-								selected_ID = self.earths_ID;
-								selected_quantity = earths_amt;
-							elseif diceroll == 5 then
-								selected_ID = self.alligator_ID;
-								selected_quantity = alligator_amt;
+	--Deleted						
 -- END CCTP RESOURCES
 							else
 								selected_ID = self.oil_ID;
@@ -8983,15 +8898,7 @@ function AssignStartingPlots:PlaceSmallQuantitiesOfStrategics(frequency, plot_li
 								selected_ID = self.coal_ID;
 								selected_quantity = coal_amt;
 -- START CCTP RESOURCES
-							elseif diceroll == 2 then
-								selected_ID = self.alligator_ID;
-								selected_quantity = alligator_amt;
-							elseif diceroll == 3 then
-								selected_ID = self.coffee_ID;
-								selected_quantity = coffee_amt;
-							elseif diceroll == 4 then
-								selected_ID = self.cocoa_ID;
-								selected_quantity = cocoa_amt;
+		--Deleted
 -- END CCTP RESOURCES
 							else
 								selected_ID = self.aluminum_ID;
@@ -9020,15 +8927,7 @@ function AssignStartingPlots:PlaceSmallQuantitiesOfStrategics(frequency, plot_li
 										selected_ID = self.horse_ID;
 										selected_quantity = horse_amt;
 -- START CCTP RESOURCES
-									elseif diceroll == 3 then
-										selected_ID = self.copper_ID;
-										selected_quantity = copper_amt;
-									elseif diceroll == 4 then
-										selected_ID = self.titanium_ID;
-										selected_quantity = titanium_amt;
-									elseif diceroll == 5 then
-										selected_ID = self.earths_ID;
-										selected_quantity = earths_amt;
+	--Deleted
 -- END CCTP RESOURCES
 									else
 										selected_ID = self.coal_ID;
@@ -9040,15 +8939,7 @@ function AssignStartingPlots:PlaceSmallQuantitiesOfStrategics(frequency, plot_li
 										selected_ID = self.iron_ID;
 										selected_quantity = iron_amt;
 -- START CCTP RESOURCES
-									elseif diceroll == 3 then
-										selected_ID = self.copper_ID;
-										selected_quantity = copper_amt;
-									elseif diceroll == 4 then
-										selected_ID = self.titanium_ID;
-										selected_quantity = titanium_amt;
-									elseif diceroll == 5 then
-										selected_ID = self.earths_ID;
-										selected_quantity = earths_amt;
+	--Deleted
 -- END CCTP RESOURCES
 									else
 										selected_ID = self.coal_ID;
@@ -9065,24 +8956,7 @@ function AssignStartingPlots:PlaceSmallQuantitiesOfStrategics(frequency, plot_li
 										selected_ID = self.iron_ID;
 										selected_quantity = iron_amt;
 -- START CCTP RESOURCES
-									elseif diceroll == 4 then
-										selected_ID = self.corn_ID;
-										selected_quantity = corn_amt;
-									elseif diceroll == 5 then
-										selected_ID = self.rice_ID;
-										selected_quantity = rice_amt;
-									elseif diceroll == 6 then
-										selected_ID = self.beans_ID;
-										selected_quantity = beans_amt;
-									elseif diceroll == 7 then
-										selected_ID = self.tea_ID;
-										selected_quantity = tea_amt;
-									elseif diceroll == 8 then
-										selected_ID = self.cocoa_ID;
-										selected_quantity = cocoa_amt;
-									elseif diceroll == 9 then
-										selected_ID = self.tobacco_ID;
-										selected_quantity = tobacco_amt;
+	--Deleted
 -- END CCTP RESOURCES
 									else
 										selected_ID = self.horse_ID;
@@ -9096,11 +8970,7 @@ function AssignStartingPlots:PlaceSmallQuantitiesOfStrategics(frequency, plot_li
 									selected_quantity = iron_amt;
 								elseif diceroll == 3 then
 -- START CCTP RESOURCES
-									selected_ID = self.corn_ID;
-									selected_quantity = corn_amt;
-								elseif diceroll == 4 then
-									selected_ID = self.poppy_ID;
-									selected_quantity = poppy_amt;
+	--Deleted
 -- END CCTP RESOURCES
 								else
 									selected_ID = self.horse_ID;
@@ -9115,15 +8985,7 @@ function AssignStartingPlots:PlaceSmallQuantitiesOfStrategics(frequency, plot_li
 									selected_ID = self.aluminum_ID;
 									selected_quantity = alum_amt;
 -- START CCTP RESOURCES
-									elseif diceroll == 2 then
-										selected_ID = self.copper_ID;
-										selected_quantity = copper_amt;
-									elseif diceroll == 3 then
-										selected_ID = self.titanium_ID;
-										selected_quantity = titanium_amt;
-									elseif diceroll == 4 then
-										selected_ID = self.earths_ID;
-										selected_quantity = earths_amt;
+	--Deleted
 -- END CCTP RESOURCES
 								else
 									selected_ID = self.oil_ID;
@@ -9192,10 +9054,28 @@ function AssignStartingPlots:PlaceFish(frequency, plot_list)
 						if fish_radius > 5 then
 							fish_radius = 3;
 						end
-						res_plot:SetResourceType(self.fish_ID, 1);
+						-- START CCTP
+						local choice = self.fish_ID;
+						local diceroll = Map.Rand(4,"Fish/Crab Choice - Place Fish LUA");
+						if diceroll <= 2 then
+							choice = self.fish_ID;
+						elseif diceroll >= 3 then
+							choice = self.crab_ID;
+						end
+						--[[local fcamt = 1 --CCTP Stuff
+						local diceroll = Map.Rand(3, "Fish/Crab Resource quantity selection 1- - LUA");
+						if diceroll == 1 then
+						fcamt = 2
+						elseif diceroll == 2 then
+						fcamt = 2
+						else
+						fcamt = 1
+						end]]
+						res_plot:SetResourceType(choice, 1); --was fcamt
 						self:PlaceResourceImpact(x, y, 4, fish_radius);
 						placed_this_res = true;
-						self.amounts_of_resources_placed[self.fish_ID + 1] = self.amounts_of_resources_placed[self.fish_ID + 1] + 1;
+						self.amounts_of_resources_placed[choice + 1] = self.amounts_of_resources_placed[choice + 1] + 1;
+						-- END CCTP
 					end
 				end
 			end
@@ -9451,35 +9331,42 @@ function AssignStartingPlots:AddExtraBonusesToHillsRegions()
 		-- Now that the plot lists are ready, place the Bonuses.
 		if table.maxn(dry_hills) > 0 then
 			local resources_to_place = {
-			{self.sheep_ID, 1, 100, 0, 1} };
+			{self.sheep_ID, 3, 100, 0, 1} };
 			self:ProcessResourceList(9 / infertility_quotient, 3, dry_hills, resources_to_place)
 		end
 		if table.maxn(jungles) > 0 then
 			local resources_to_place = {
-			{self.banana_ID, 1, 100, 1, 2} };
+			{self.banana_ID, 3, 100, 1, 2} };
 			self:ProcessResourceList(14 / infertility_quotient, 3, jungles, resources_to_place)
 		end
 		if table.maxn(flat_tundra) > 0 then
 			local resources_to_place = {
-			{self.deer_ID, 1, 100, 0, 1} };
+			{self.deer_ID, 2, 100, 0, 1} };
 			self:ProcessResourceList(14 / infertility_quotient, 3, flat_tundra, resources_to_place)
 		end
 		if table.maxn(flat_plains) > 0 then
 			local resources_to_place = {
-			{self.wheat_ID, 1, 100, 0, 2} };
+			{self.wheat_ID, 2, 100, 0, 2} };
 			self:ProcessResourceList(18 / infertility_quotient, 3, flat_plains, resources_to_place)
 		end
 		if table.maxn(flat_grass) > 0 then
 			local resources_to_place = {
-			{self.cow_ID, 1, 100, 0, 2} };
+			{self.cow_ID, 3, 100, 0, 2} };
 			self:ProcessResourceList(20 / infertility_quotient, 3, flat_grass, resources_to_place)
 		end
 		if table.maxn(forests) > 0 then
 			local resources_to_place = {
-			{self.deer_ID, 1, 100, 1, 2} };
+			{self.deer_ID, 2, 100, 1, 2} };
 			self:ProcessResourceList(24 / infertility_quotient, 3, forests, resources_to_place)
 		end
 		
+		--CCTP CHANGES BEGIN
+		if table.maxn(jungles) > 0 then
+			local resources_to_place = {
+			{self.coffee_ID, 3, 100, 0, 1} };
+			self:ProcessResourceList(15 / infertility_quotient, 3, jungles, resources_to_place)
+		end
+		--CCTP CHANGES END
 		--
 		--print("-"); print("Added extra Bonus resources to Hills Region#", region_number);
 		--
@@ -9645,19 +9532,9 @@ function AssignStartingPlots:PrintFinalResourceTotalsToLog()
 	print("- Coal....: ", self.amounts_of_resources_placed[self.coal_ID + 1]);
 	print("- Oil.....: ", self.amounts_of_resources_placed[self.oil_ID + 1]);
 	print("- Aluminum: ", self.amounts_of_resources_placed[self.aluminum_ID + 1]);
-	print("- Uranium.: ", self.amounts_of_resources_placed[self.uranium_ID + 1]);	
-	print("- Alligator...: ", self.amounts_of_resources_placed[self.alligator_ID + 1]);
-	print("- Coffee...: ", self.amounts_of_resources_placed[self.coffee_ID + 1]);
-	print("- Copper...: ", self.amounts_of_resources_placed[self.copper_ID + 1]);
-	print("- Corn...: ", self.amounts_of_resources_placed[self.corn_ID + 1]);
-	print("- Poppy...: ", self.amounts_of_resources_placed[self.poppy_ID + 1]);
-	print("- Rare Earths...: ", self.amounts_of_resources_placed[self.earths_ID + 1]);
-	print("- Rice...: ", self.amounts_of_resources_placed[self.rice_ID + 1]);
-	print("- Soybeans...: ", self.amounts_of_resources_placed[self.beans_ID + 1]);
-	print("- Tea...: ", self.amounts_of_resources_placed[self.tea_ID + 1]);
-	print("- Titanium...: ", self.amounts_of_resources_placed[self.titanium_ID + 1]);
-	print("- Tobacco...: ", self.amounts_of_resources_placed[self.tobacco_ID + 1]);
-	print("- Cocoa...: ", self.amounts_of_resources_placed[self.cocoa_ID + 1]);
+	print("- Uranium.: ", self.amounts_of_resources_placed[self.uranium_ID + 1]);
+	-- START CCTP	
+	-- END CCTP
 	print("-");
 	print("- BONUS Resources -");
 	print("- Cow.....: ", self.amounts_of_resources_placed[self.cow_ID + 1]);
@@ -9667,6 +9544,12 @@ function AssignStartingPlots:PrintFinalResourceTotalsToLog()
 	print("- Banana..: ", self.amounts_of_resources_placed[self.banana_ID + 1]);
 	print("- Fish....: ", self.amounts_of_resources_placed[self.fish_ID + 1]);
 	print("- Stone...: ", self.amounts_of_resources_placed[self.stone_ID + 1]);
+	-- START CCTP
+	print("- Crab...: ", self.amounts_of_resources_placed[self.crab_ID + 1]);
+	print("- Coffee...: ", self.amounts_of_resources_placed[self.coffee_ID + 1]);
+	print("- Copper...: ", self.amounts_of_resources_placed[self.copper_ID + 1]);
+	print("- Titanium...: ", self.amounts_of_resources_placed[self.titanium_ID + 1]);
+	-- END CCTP
 	print("-");
 	print("-----------------------------------------------------");
 end
@@ -9674,26 +9557,26 @@ end
 function AssignStartingPlots:GetMajorStrategicResourceQuantityValues()
 	-- This function determines quantity per tile for each strategic resource's major deposit size.
 	-- Note: scripts that cannot place Oil in the sea need to increase amounts on land to compensate.
-	local uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt, copper_amt, titanium_amt, earths_amt, alligator_amt, coffee_amt, corn_amt, poppy_amt, rice_amt, beans_amt, tea_amt, tobacco_amt, cocoa_amt = 4, 4, 7, 6, 7, 8, 6, 5, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3;
+	local uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt = 4, 4, 7, 6, 7, 8;
 	-- Check the resource setting.
 	if self.resource_setting == 1 then -- Sparse
-		uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt, copper_amt, titanium_amt, earths_amt, alligator_amt, coffee_amt, corn_amt, poppy_amt, rice_amt, beans_amt, tea_amt, tobacco_amt, cocoa_amt = 2, 4, 5, 4, 5, 5, 4, 4, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2;
+		uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt = 2, 4, 5, 4, 5, 5;
 	elseif self.resource_setting == 3 then -- Abundant
-		uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt, copper_amt, titanium_amt, earths_amt, alligator_amt, coffee_amt, corn_amt, poppy_amt, rice_amt, beans_amt, tea_amt, tobacco_amt, cocoa_amt = 4, 6, 9, 9, 10, 10, 8, 8, 8, 4, 4, 4, 4, 4, 4, 4, 4, 4;
+		uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt = 4, 6, 9, 9, 10, 10;
 	end
-	return uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt, copper_amt, titanium_amt, earths_amt, alligator_amt, coffee_amt, corn_amt, poppy_amt, rice_amt, beans_amt, tea_amt, tobacco_amt, cocoa_amt
+	return uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt
 end
 ------------------------------------------------------------------------------
 function AssignStartingPlots:GetSmallStrategicResourceQuantityValues()
 	-- This function determines quantity per tile for each strategic resource's small deposit size.
-	local uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt, copper_amt, titanium_amt, earths_amt, alligator_amt, coffee_amt, corn_amt, poppy_amt, rice_amt, beans_amt, tea_amt, tobacco_amt, cocoa_amt = 2, 2, 3, 2, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2;
+	local uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt = 2, 2, 3, 2, 3, 3;
 	-- Check the resource setting.
 	if self.resource_setting == 1 then -- Sparse
-		uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt, copper_amt, titanium_amt, earths_amt, alligator_amt, coffee_amt, corn_amt, poppy_amt, rice_amt, beans_amt, tea_amt, tobacco_amt, cocoa_amt = 1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2;
+		uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt = 1, 1, 2, 1, 2, 2;
 	elseif self.resource_setting == 3 then -- Abundant
-		uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt, copper_amt, titanium_amt, earths_amt, alligator_amt, coffee_amt, corn_amt, poppy_amt, rice_amt, beans_amt, tea_amt, tobacco_amt, cocoa_amt = 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3;
+		uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt = 3, 3, 3, 3, 3, 3;
 	end
-	return uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt, copper_amt, titanium_amt, earths_amt, alligator_amt, coffee_amt, corn_amt, poppy_amt, rice_amt, beans_amt, tea_amt, tobacco_amt, cocoa_amt
+	return uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt
 end
 ------------------------------------------------------------------------------
 function AssignStartingPlots:PlaceStrategicAndBonusResources()
@@ -9706,7 +9589,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	-- Order of placement matters, so changing the order may affect a later dependency.
 	
 	-- Adjust amounts, if applicable, based on Resource Setting.
-	local uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt, copper_amt, titanium_amt, earths_amt, alligator_amt, coffee_amt, corn_amt, poppy_amt, rice_amt, beans_amt, tea_amt, tobacco_amt, cocoa_amt = self:GetMajorStrategicResourceQuantityValues()
+	local uran_amt, horse_amt, oil_amt, iron_amt, coal_amt, alum_amt = self:GetMajorStrategicResourceQuantityValues()
 
 	-- Adjust appearance rate per Resource Setting chosen by user.
 	local bonus_multiplier = 1;
@@ -9719,95 +9602,84 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	-- Place Strategic resources.
 	print("Map Generation - Placing Strategics");
 	local resources_to_place = {
-	{self.oil_ID, oil_amt, 45, 1, 1},
-	{self.uranium_ID, uran_amt, 35, 0, 1},
--- START CCTP RESOURCES
-	{self.copper_ID, copper_amt, 29, 0, 1},	
-	{self.titanium_ID, titanium_amt, 32, 0, 1},
-	{self.earths_ID, earths_amt, 34, 0, 1},
-	{self.alligator_ID, alligator_amt, 39, 0, 1} };
--- END CCTP RESOURCES
+	{self.oil_ID, oil_amt, 65, 1, 1},
+	{self.uranium_ID, uran_amt, 35, 0, 1} };
+--[[ START CCTP RESOURCES
+	--{self.copper_ID, copper_amt, 29, 0, 1},	
+	--{self.titanium_ID, titanium_amt, 32, 0, 1},
+	--{self.earths_ID, earths_amt, 34, 0, 1},
+-- END CCTP RESOURCES]]
 	self:ProcessResourceList(9, 1, self.marsh_list, resources_to_place)
 
 	local resources_to_place = {
 	{self.oil_ID, oil_amt, 40, 1, 2},
 	{self.aluminum_ID, alum_amt, 15, 1, 2},
-	{self.iron_ID, iron_amt, 45, 1, 2},
--- START CCTP RESOURCES
-	{self.copper_ID, copper_amt, 30, 0, 1},	
-	{self.titanium_ID, titanium_amt, 35, 0, 1},
-	{self.earths_ID, earths_amt, 39, 0, 1} };
--- END CCTP RESOURCES
+	{self.iron_ID, iron_amt, 45, 1, 2} };
+--[[ START CCTP RESOURCES
+	--{self.copper_ID, copper_amt, 30, 0, 1},	
+	--{self.titanium_ID, titanium_amt, 35, 0, 1},
+	--{self.earths_ID, earths_amt, 39, 0, 1} };
+-- END CCTP RESOURCES]]
 	self:ProcessResourceList(16, 1, self.tundra_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.oil_ID, oil_amt, 60, 1, 1},
 	{self.aluminum_ID, alum_amt, 15, 2, 3},
-	{self.iron_ID, iron_amt, 25, 2, 3},
--- START CCTP RESOURCES
-	{self.copper_ID, copper_amt, 30, 0, 1},	
-	{self.titanium_ID, titanium_amt, 31, 0, 1},
-	{self.earths_ID, earths_amt, 32, 0, 1} };
--- END CCTP RESOURCES
+	{self.iron_ID, iron_amt, 25, 2, 3} };
+--[[ START CCTP RESOURCES
+	--{self.copper_ID, copper_amt, 30, 0, 1},	
+	--{self.titanium_ID, titanium_amt, 31, 0, 1},
+	--{self.earths_ID, earths_amt, 32, 0, 1} };
+-- END CCTP RESOURCES]]
 	self:ProcessResourceList(17, 1, self.snow_flat_list, resources_to_place)
 
 	local resources_to_place = {
 	{self.oil_ID, oil_amt, 65, 0, 1},
-	{self.iron_ID, iron_amt, 35, 1, 1},
--- START CCTP RESOURCES
-	{self.copper_ID, copper_amt, 32, 0, 1},	
-	{self.titanium_ID, titanium_amt, 35, 0, 1},
-	{self.earths_ID, earths_amt, 38, 0, 1} };
--- END CCTP RESOURCES
+	{self.iron_ID, iron_amt, 35, 1, 1} };
+--[[ START CCTP RESOURCES
+	--{self.copper_ID, copper_amt, 32, 0, 1},	
+	--{self.titanium_ID, titanium_amt, 35, 0, 1},
+	--{self.earths_ID, earths_amt, 38, 0, 1} };
+-- END CCTP RESOURCES]]
 	self:ProcessResourceList(13, 1, self.desert_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.iron_ID, iron_amt, 26, 0, 2},
 	{self.coal_ID, coal_amt, 35, 1, 3},
-	{self.aluminum_ID, alum_amt, 39, 2, 3},
--- START CCTP RESOURCES
-	{self.copper_ID, copper_amt, 30, 0, 1},	
-	{self.titanium_ID, titanium_amt, 34, 0, 1},
-	{self.earths_ID, earths_amt, 29, 0, 1} };
--- END CCTP RESOURCES
+	{self.aluminum_ID, alum_amt, 39, 2, 3} };
+--[[ START CCTP RESOURCES
+	--{self.copper_ID, copper_amt, 30, 0, 1},	
+	--{self.titanium_ID, titanium_amt, 34, 0, 1},
+	--{self.earths_ID, earths_amt, 29, 0, 1} };
+-- END CCTP RESOURCES]]
 	self:ProcessResourceList(22, 1, self.hills_list, resources_to_place)
 
 	local resources_to_place = {
-	{self.coal_ID, coal_amt, 40, 1, 2},
-	{self.uranium_ID, uran_amt, 45, 1, 2},
--- START CCTP RESOURCES
-	{self.copper_ID, copper_amt, 30, 0, 1},	
-	{self.titanium_ID, titanium_amt, 35, 0, 1},
-	{self.earths_ID, earths_amt, 25, 0, 1},
-	{self.alligator_ID, alligator_amt, 29, 0, 1},
-	{self.coffee_ID, coffee_amt, 20, 0, 1},
-	{self.cocoa_ID, cocoa_amt, 15, 0, 1} };
--- END CCTP RESOURCES
+	{self.coal_ID, coal_amt, 55, 1, 2},
+	{self.uranium_ID, uran_amt, 45, 1, 2} };
+--[[START CCTP RESOURCES
+	--{self.copper_ID, copper_amt, 30, 0, 1},	
+	--{self.titanium_ID, titanium_amt, 35, 0, 1},
+	--{self.earths_ID, earths_amt, 25, 0, 1},
+	--{self.coffee_ID, coffee_amt, 20, 0, 1},
+-- END CCTP RESOURCES]]
 	self:ProcessResourceList(33, 1, self.jungle_flat_list, resources_to_place)
+	
 	local resources_to_place = {
 	{self.coal_ID, coal_amt, 30, 1, 2},
 	{self.uranium_ID, uran_amt, 70, 1, 1} };
 	self:ProcessResourceList(39, 1, self.forest_flat_list, resources_to_place)
 
 	local resources_to_place = {
-	{self.horse_ID, horse_amt, 40, 2, 5},
--- START CCTP RESOURCES
-	{self.corn_ID, corn_amt, 35, 0, 1},
-	{self.rice_ID, rice_amt, 30, 0, 1},
-	{self.cocoa_ID, cocoa_amt, 10, 0, 1},	
-	{self.beans_ID, beans_amt, 25, 0, 1},
-	{self.tea_ID, tea_amt, 20, 0, 1},
-	{self.tobacco_ID, tobacco_amt, 15, 0, 1} };
--- END CCTP RESOURCES
-	self:ProcessResourceList(33, 1, self.dry_grass_flat_no_feature, resources_to_place)
+	{self.horse_ID, horse_amt, 100, 2, 5} }; --new
+--[[ START CCTP RESOURCES
+-- END CCTP RESOURCES]]
+	self:ProcessResourceList(38, 1, self.dry_grass_flat_no_feature, resources_to_place) --was 33
+	
 	local resources_to_place = {
--- START CCTP RESOURCES
-	{self.horse_ID, horse_amt, 45, 1, 4},
-	{self.corn_ID, corn_amt, 50, 0, 1},
-	{self.beans_ID, beans_amt, 35, 0, 1},
-	{self.poppy_ID, poppy_amt, 30, 0, 1} };
--- END CCTP RESOURCES
-	self:ProcessResourceList(33, 1, self.plains_flat_no_feature, resources_to_place)
+	{self.horse_ID, horse_amt, 40, 1, 4},
+	{self.iron_ID, iron_amt, 60, 1, 1} }; --new
+	self:ProcessResourceList(30, 1, self.plains_flat_no_feature, resources_to_place)--was 33
 
 	self:AddModernMinorStrategicsToCityStates() -- Added spring 2011
 	
@@ -9862,179 +9734,165 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 		local resources_to_place = { {self.uranium_ID, uran_amt, 100, 0, 0} };
 		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
 	end
--- START CCTP
-	if self.amounts_of_resources_placed[self.copper_ID + 1] < 8 then
-		print("Map has very low copper, adding another (on hills).");
-		local resources_to_place = { {self.copper_ID, copper_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.copper_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low copper, adding another (on land).");
-		local resources_to_place = { {self.copper_ID, copper_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.titanium_ID + 1] < 8 then
-		print("Map has very low titanium, adding another (on hills).");
-		local resources_to_place = { {self.titanium_ID, titanium_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.titanium_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low titanium, adding another (on land).");
-		local resources_to_place = { {self.titanium_ID, titanium_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.earths_ID + 1] < 8 then
-		print("Map has very low rare earths, adding another (on hills).");
-		local resources_to_place = { {self.earths_ID, earths_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.earths_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low rare earths, adding another (on land).");
-		local resources_to_place = { {self.earths_ID, earths_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.alligator_ID + 1] < 8 then
-		print("Map has very low alligator, adding another (on hills).");
-		local resources_to_place = { {self.alligator_ID, alligator_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.alligator_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low alligator, adding another (on land).");
-		local resources_to_place = { {self.alligator_ID, alligator_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.coffee_ID + 1] < 8 then
-		print("Map has very low coffee, adding another (on hills).");
-		local resources_to_place = { {self.coffee_ID, coffee_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.coffee_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low coffee, adding another (on land).");
-		local resources_to_place = { {self.coffee_ID, coffee_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.corn_ID + 1] < 8 then
-		print("Map has very low corn, adding another (on hills).");
-		local resources_to_place = { {self.corn_ID, corn_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.corn_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low corn, adding another (on land).");
-		local resources_to_place = { {self.corn_ID, corn_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.poppy_ID + 1] < 8 then
-		print("Map has very low poppy, adding another (on hills).");
-		local resources_to_place = { {self.poppy_ID, poppy_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.poppy_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low poppy, adding another (on land).");
-		local resources_to_place = { {self.poppy_ID, poppy_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.rice_ID + 1] < 8 then
-		print("Map has very low rice, adding another (on hills).");
-		local resources_to_place = { {self.rice_ID, rice_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.rice_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low rice, adding another (on land).");
-		local resources_to_place = { {self.rice_ID, rice_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.cocoa_ID + 1] < 8 then
-		print("Map has very low cocoa, adding another (on hills).");
-		local resources_to_place = { {self.cocoa_ID, cocoa_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.cocoa_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low cocoa, adding another (on land).");
-		local resources_to_place = { {self.cocoa_ID, cocoa_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.tea_ID + 1] < 8 then
-		print("Map has very low tea, adding another (on hills).");
-		local resources_to_place = { {self.tea_ID, tea_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.tea_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low tea, adding another (on land).");
-		local resources_to_place = { {self.tea_ID, tea_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.beans_ID + 1] < 8 then
-		print("Map has very low soybeans, adding another (on hills).");
-		local resources_to_place = { {self.beans_ID, beans_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.beans_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low soybeans, adding another (on land).");
-		local resources_to_place = { {self.beans_ID, beans_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.tobacco_ID + 1] < 8 then
-		print("Map has very low tobacco, adding another (on hills).");
-		local resources_to_place = { {self.tobacco_ID, tobacco_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
-	if self.amounts_of_resources_placed[self.tobacco_ID + 1] < 4 * self.iNumCivs then
-		print("Map has very low tobacco, adding another (on land).");
-		local resources_to_place = { {self.tobacco_ID, tobacco_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place) -- 99999 means one per that many tiles: a single instance.
-	end
--- END CCTP
+
 	
 	
 	-- Place Bonus Resources
 	print("Map Generation - Placing Bonuses");
-	self:PlaceFish(10 * bonus_multiplier, self.coast_list);
+	self:PlaceFish(7 * bonus_multiplier, self.coast_list); --was 10
 	self:PlaceSexyBonusAtCivStarts()
 	self:AddExtraBonusesToHillsRegions()
+	--[[ CTTP Changes
+	local bsamt = 1
+	local diceroll = Map.Rand(3, "Bonus Resource quantity selection 1-3 - LUA"); --changed to 1-2 instances
+	if diceroll == 1 then
+		bsamt = 2
+	elseif diceroll == 2 then
+		bsamt = 2
+	else
+		bsamt = 1
+	end
+	-- CTTP Changes End]]
+	-- CCTP Changes Start
+	local resources_to_place = {
+	{self.wheat_ID, 1, 100, 2, 3} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(18 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place) --was 27
 	
 	local resources_to_place = {
-	{self.deer_ID, 2, 100, 1, 2} };
-	self:ProcessResourceList(8 * bonus_multiplier, 3, self.extra_deer_list, resources_to_place)
+	{self.wheat_ID, 1, 100, 0, 2} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(10 * bonus_multiplier, 3, self.desert_wheat_list, resources_to_place) --was 10
+	
+	local resources_to_place = {
+	{self.cow_ID, 1, 100, 1, 2} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(20 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place) --was 18
 
 	local resources_to_place = {
-	{self.wheat_ID, 2, 100, 0, 2} };
-	self:ProcessResourceList(10 * bonus_multiplier, 3, self.desert_wheat_list, resources_to_place)
+	{self.sheep_ID, 1, 100, 1, 1} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(14 * bonus_multiplier, 3, self.hills_open_list, resources_to_place) --was 13
+	
+	local resources_to_place = {
+	{self.deer_ID, 1, 100, 1, 2} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(8 * bonus_multiplier, 3, self.extra_deer_list, resources_to_place) --was 8
 
 	local resources_to_place = {
-	{self.deer_ID, 3, 100, 1, 2} };
-	self:ProcessResourceList(12 * bonus_multiplier, 3, self.tundra_flat_no_feature, resources_to_place)
+	{self.deer_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(15 * bonus_multiplier, 3, self.forest_flat_that_are_not_tundra, resources_to_place) --was 25
 
 	local resources_to_place = {
-	{self.banana_ID, 2, 100, 0, 3} };
-	self:ProcessResourceList(14 * bonus_multiplier, 3, self.banana_list, resources_to_place)
+	{self.deer_ID, 1, 100, 1, 2} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(10 * bonus_multiplier, 3, self.tundra_flat_no_feature, resources_to_place) --was 12
+	
+	local resources_to_place = {
+	{self.banana_ID, 1, 100, 0, 3} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(10 * bonus_multiplier, 3, self.banana_list, resources_to_place) --was 14
 
 	local resources_to_place = {
-	{self.wheat_ID, 3, 100, 2, 3} };
-	self:ProcessResourceList(27 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	{self.stone_ID, 1, 100, 1, 1} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(20 * bonus_multiplier, 3, self.dry_grass_flat_no_feature, resources_to_place) --was 20
 
 	local resources_to_place = {
-	{self.cow_ID, 2, 100, 1, 2} };
-	self:ProcessResourceList(18 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
+	{self.stone_ID, 1, 100, 1, 2} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(15 * bonus_multiplier, 3, self.tundra_flat_no_feature, resources_to_place) --was 15
 
 	local resources_to_place = {
-	{self.stone_ID, 2, 100, 1, 1} };
-	self:ProcessResourceList(20 * bonus_multiplier, 3, self.dry_grass_flat_no_feature, resources_to_place)
+	{self.stone_ID, 1, 100, 1, 2} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(15 * bonus_multiplier, 3, self.desert_flat_no_feature, resources_to_place) --was 19
 
 	local resources_to_place = {
-	{self.sheep_ID, 2, 100, 1, 1} };
-	self:ProcessResourceList(13 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
-
+	{self.copper_ID, 1, 100, 2, 3} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(20 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	
 	local resources_to_place = {
-	{self.stone_ID, 3, 100, 1, 2} };
-	self:ProcessResourceList(15 * bonus_multiplier, 3, self.tundra_flat_no_feature, resources_to_place)
-
+	{self.copper_ID, 1, 100, 2, 3} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(25 * bonus_multiplier, 3, self.tundra_flat_no_feature, resources_to_place)
+	
 	local resources_to_place = {
-	{self.stone_ID, 2, 100, 1, 2} };
-	self:ProcessResourceList(19 * bonus_multiplier, 3, self.desert_flat_no_feature, resources_to_place)
-
+	{self.copper_ID, 1, 100, 2, 3} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(20 * bonus_multiplier, 3, self.desert_flat_no_feature, resources_to_place)
+	
 	local resources_to_place = {
-	{self.deer_ID, 2, 100, 3, 4} };
-	self:ProcessResourceList(25 * bonus_multiplier, 3, self.forest_flat_that_are_not_tundra, resources_to_place)
+	{self.copper_ID, 1, 100, 1, 1} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(15 * bonus_multiplier, 3, self.hills_open_list, resources_to_place) 
+	
+	local resources_to_place = {
+	{self.coffee_ID, 1, 100, 2, 3} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(20 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	
+	local resources_to_place = {
+	{self.coffee_ID, 1, 100, 2, 3} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(18 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
+	
+	local resources_to_place = {
+	{self.titanium_ID, 1, 100, 1, 1} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(10 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
+	
+	if self.amounts_of_resources_placed[self.fish_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low fish, adding another.");
+		local resources_to_place = { {self.fish_ID, fish_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.coast_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.crab_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low crab, adding another.");
+		local resources_to_place = { {self.crab_ID, crab_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.coast_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.wheat_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low wheat, adding another.");
+		local resources_to_place = { {self.wheat_ID, wheat_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.plains_flat_no_feature, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.cow_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low cow, adding another.");
+		local resources_to_place = { {self.cow_ID, cow_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
+	end
+		
+	if self.amounts_of_resources_placed[self.sheep_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low sheep, adding another.");
+		local resources_to_place = { {self.sheep_ID, sheep_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.deer_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low deer, adding another.");
+		local resources_to_place = { {self.deer_ID, deer_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.banana_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low banana, adding another.");
+		local resources_to_place = { {self.banana_ID, banana_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.stone_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low stone, adding another.");
+		local resources_to_place = { {self.stone_ID, stone_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.copper_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low copper, adding another.");
+		local resources_to_place = { {self.copper_ID, copper_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.coffee_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low coffee, adding another.");
+		local resources_to_place = { {self.coffee_ID, coffee_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.titanium_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low titanium, adding another.");
+		local resources_to_place = { {self.titanium_ID, titanium_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
+	end
+	-- CTTP Changes End
+	
 end
 ------------------------------------------------------------------------------
 function AssignStartingPlots:PlaceResourcesAndCityStates()
