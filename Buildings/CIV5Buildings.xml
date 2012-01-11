@@ -1324,7 +1324,7 @@
 			<Where Type="BUILDING_UNIVERSITY"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="6" Cost="720" SpecialistCount="2" GreatPeopleRateChange="0" Help="TXT_KEY_BUILDING_WAT_HELP"/>
+			<Set GoldMaintenance="6" Cost="720" SpecialistCount="2" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_WAT"/>
 		</Update>
 		
