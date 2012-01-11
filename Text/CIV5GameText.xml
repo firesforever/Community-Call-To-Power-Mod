@@ -552,10 +552,6 @@
 			<Text>[NEWLINE][TAB][TAB]“Brass shines as fair to the ignorant as gold to the goldsmiths.”[NEWLINE][TAB][TAB] - Elizabeth I[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_WAT_HELP</Tag>
-			<Text>+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library."</Text>
-		</Row>
-		<Row>
 			<Tag>TXT_KEY_BUILDING_COPERNICUS_OBSERVATORY</Tag>
 			<Text>Copernicus' Observatory</Text>
 		</Row>
@@ -4721,6 +4717,10 @@
 		<Update>
 			<Set Text="+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library." />
 			<Where Tag="TXT_KEY_BUILDING_UNIVERSITY_HELP" />
+		</Update>
+		<Update>
+			<Set Text="+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library." />
+			<Where Tag="TXT_KEY_BUILDING_WAT_STRATEGY" />
 		</Update>
 		<Update>
 			<Set Text="Significantly increases [ICON_PRODUCTION] Production in this City.[NEWLINE][NEWLINE]Requires a nearby desert for construction." />
