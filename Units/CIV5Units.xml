@@ -1122,38 +1122,38 @@
 		
 		<!--INDUSTRIAL ERA-->
 		<Update>
-			<Set Cost="8000" PrereqTech="TECH_RADAR" ObsoleteTech="TECH_ROCKETRY" />
+			<Set Cost="765" PrereqTech="TECH_RADAR" ObsoleteTech="TECH_ROCKETRY" />
 			<Where Type="UNIT_ANTI_AIRCRAFT_GUN" />
 		</Update>
 		<Update>
-			<Set Cost="8000" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Set Cost="765" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
 			<Where Type="UNIT_ANTI_TANK_GUN" />
 		</Update>
 		<Update>
-			<Set RangedCombat="34" Cost="12400" PrereqTech="TECH_SHELLS" ObsoleteTech="TECH_MAGNETICS_MINIATURIZATION" />
+			<Set RangedCombat="34" Cost="900" PrereqTech="TECH_SHELLS" ObsoleteTech="TECH_MAGNETICS_MINIATURIZATION" />
 			<Where Type="UNIT_ARTILLERY" />
 		</Update>
 		<Update>
-			<Set Cost="17000" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
+			<Set Cost="1050" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
 			<Where Type="UNIT_BOMBER" />
 		</Update>
 		<Update>
-			<Set Cost="17000" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
+			<Set Cost="1050" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
 			<Where Type="UNIT_AMERICAN_B17" />
 		</Update>
 		<Update>
-			<Set Combat="80" RangedCombat="70" Cost="21000" PrereqTech="TECH_BIG_GUNS_DOCTRINE" ObsoleteTech="TECH_ADVANCED_MAGNETICS"/>
+			<Set Combat="80" RangedCombat="70" Cost="1050" PrereqTech="TECH_BIG_GUNS_DOCTRINE" ObsoleteTech="TECH_ADVANCED_MAGNETICS"/>
 			<Where Type="UNIT_BATTLESHIP" />
 		</Update>
 		<Update>
-			<Set Combat="40" Cost="24000" ObsoleteTech="TECH_REACTOR_MINIATURIZATION"/>
+			<Set Combat="40" Cost="1175" ObsoleteTech="TECH_REACTOR_MINIATURIZATION"/>
 			<Where Type="UNIT_CARRIER" />
 		</Update>
 		<Row>
 			<Class>UNITCLASS_CIVIL_ENGINEER</Class>
 			<Type>UNIT_CIVIL_ENGINEER</Type>
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
-			<Cost>7440</Cost>
+			<Cost>750</Cost>
 			<Moves>3</Moves>
 			<Capture>UNITCLASS_CIVIL_ENGINEER</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
@@ -1172,27 +1172,27 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 		</Row>
 		<Update>
-			<Set Combat="40" RangedCombat="30" Cost="14880" PrereqTech="TECH_TORPEDOES" ObsoleteTech="TECH_ADVANCED_MAGNETICS" />
+			<Set Combat="40" RangedCombat="30" Cost="850" PrereqTech="TECH_TORPEDOES" ObsoleteTech="TECH_ADVANCED_MAGNETICS" />
 			<Where Type="UNIT_DESTROYER" />
 		</Update>
 		<Update>
-			<Set Cost="12400" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Set Cost="930" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
 			<Where Type="UNIT_FIGHTER" />
 		</Update>
 		<Update>
-			<Set Cost="12400" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Set Cost="930" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
 			<Where Type="UNIT_JAPANESE_ZERO" />
 		</Update>
 		<Update>
-			<Set Cost="9300" PrereqTech="TECH_MILITARY_SCIENCE" ObsoleteTech="TECH_EXOSKELETONS" />
+			<Set Cost="850" PrereqTech="TECH_MILITARY_SCIENCE" ObsoleteTech="TECH_EXOSKELETONS" />
 			<Where Type="UNIT_INFANTRY" />
 		</Update>
 		<Update>
-			<Set Cost="9300" PrereqTech="TECH_MILITARY_SCIENCE" ObsoleteTech="TECH_EXOSKELETONS"/>
+			<Set Cost="850" PrereqTech="TECH_MILITARY_SCIENCE" ObsoleteTech="TECH_EXOSKELETONS"/>
 			<Where Type="UNIT_FRENCH_FOREIGNLEGION" />
 		</Update>
 		<Update>
-			<Set Combat="40" RangedCombat="20" Cost="9300" PrereqTech="TECH_NAVAL_ARMOR" ObsoleteTech="TECH_TORPEDOES" />
+			<Set Combat="40" RangedCombat="20" Cost="780" PrereqTech="TECH_NAVAL_ARMOR" ObsoleteTech="TECH_TORPEDOES" />
 			<Where Type="UNIT_IRONCLAD" />
 		</Update>
 		<Row>
@@ -1202,7 +1202,7 @@
 			<Help>TXT_KEY_UNIT_HELP_MISSILE_SQUAD</Help>
 			<Combat>20</Combat>
 			<RangedCombat>40</RangedCombat>
-			<Cost>11000</Cost>
+			<Cost>925</Cost>
 			<Moves>2</Moves>
 			<Range>2</Range>
 			<Class>UNITCLASS_MISSILE_SQUAD</Class>
@@ -1224,19 +1224,19 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 		</Row>
 		<Update>
-			<Set Cost="17360" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
+			<Set Cost="1050" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
 			<Where Type="UNIT_TANK" />
 		</Update>
 		<Update>
-			<Set Cost="17360" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
+			<Set Cost="1050" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
 			<Where Type="UNIT_GERMAN_PANZER" />
 		</Update>
 		<Update>
-			<Set Cost="13600" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_EXOSKELETONS" />
+			<Set Cost="920" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_EXOSKELETONS" />
 			<Where Type="UNIT_PARATROOPER" />
 		</Update>
 		<Update>
-			<Set Combat="30" RangedCombat="70" Cost="18000" PrereqTech="TECH_SUBMERSIBLES" ObsoleteTech="TECH_METAMATERIALS"/>
+			<Set Combat="30" RangedCombat="70" Cost="950" PrereqTech="TECH_SUBMERSIBLES" ObsoleteTech="TECH_METAMATERIALS"/>
 			<Where Type="UNIT_SUBMARINE" />
 		</Update>
 		

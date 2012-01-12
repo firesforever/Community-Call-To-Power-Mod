@@ -329,6 +329,62 @@
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 			<Quantity>1</Quantity>
 		</Row>
+		<Row>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
 		
 	</Resource_QuantityTypes>
 
