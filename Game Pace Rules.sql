@@ -110,27 +110,27 @@ WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MODERN' )
 
 --Industrial
 UPDATE Buildings
-SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase (reduced back to normal)
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_INDUSTRIAL' ) );
 
 --Renaissance
 UPDATE Buildings
-SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase (reduced back to normal)
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_RENAISSANCE' ) );
 
 --Medieval
 UPDATE Buildings
-SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase (reduced back to normal)
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MEDIEVAL' ) );
 
 -- Classical
 UPDATE Buildings
-SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase (reduced back to normal)
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_CLASSICAL' ) );
 
 --Ancient
 UPDATE Buildings
-SET GoldMaintenance = GoldMaintenance * 1.0 -- 10% Increase (reduced back to normal)
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 10% Increase
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_ANCIENT' ) );
 
 --EXTRA HAPPINESS AT START

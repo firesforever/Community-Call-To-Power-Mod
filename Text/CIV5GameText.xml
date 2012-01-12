@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 11/10/2010 1:49:15 PM -->
 <GameData>
 	<Language_en_US>
@@ -163,7 +163,7 @@
 			<Tag>TXT_KEY_WONDER_SPHINX_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]“You can tell whether a man is clever by his answers. You can tell whether a man is wise by his questions.”[NEWLINE][TAB][TAB] - Naguib Mahfouz[NEWLINE][TAB]</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_STATUE_OF_ZEUS</Tag>
 			<Text>Statue of Zeus</Text>
 		</Row>
@@ -178,7 +178,7 @@
 		<Row>
 			<Tag>TXT_KEY_WONDER_STATUE_OF_ZEUS_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]“The dice of Zeus always fall luckily.”[NEWLINE][TAB][TAB] - Sophocles[NEWLINE][TAB]</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ABBEY</Tag>
 			<Text>Abbey</Text>
@@ -189,7 +189,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ABBEY_HELP</Tag>
-			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces 1 [ICON_GOLD] Gold. Each source of [ICON_RES_SILK] Silk worked by this City produces 1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces 1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_SILK] Silk worked by this City produces 1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEMPLE_OF_SOLOMON</Tag>
@@ -367,7 +367,7 @@
 			<Tag>TXT_KEY_BUILDING_REGIONAL_FAIR_HELP</Tag>
 			<Text>+1 [ICON_GOLD] Gold from Merchant Specialist in every City.[NEWLINE][NEWLINE]You may build up to 1.</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_MILL</Tag>
 			<Text>Mill</Text>
 		</Row>
@@ -378,7 +378,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MILL_STRATEGY</Tag>
 			<Text>Significantly increases [ICON_FOOD] Food and [ICON_PRODUCTION] Production in the City.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TOWN_HALL</Tag>
 			<Text>Town Hall</Text>
@@ -521,7 +521,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_GUILD_HALL_HELP</Tag>
-			<Text>+1 [ICON_PRODUCTION] Production from Engineer Specialist in this City. +1 [ICON_GOLD] Gold from Merchant Specialist in this City. +1 [ICON_CULTURE] Culture from Artist Specialist in this City. +1 [ICON_RESEARCH] Science from Scientist Specialist in this City.[NEWLINE][NEWLINE]DOES NOT WORK YET...SORRY :(.</Text>
+			<Text>+1 [ICON_PRODUCTION] Production from Engineer Specialist in this City.[NEWLINE]+1 [ICON_GOLD] Gold from Merchant Specialist in this City.[NEWLINE]+1 [ICON_CULTURE] Culture from Artist Specialist in this City.[NEWLINE]+1 [ICON_RESEARCH] Science from Scientist Specialist in this City.[NEWLINE][NEWLINE]DOES NOT WORK YET...SORRY :(.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_NATIONAL_ACADEMY</Tag>
@@ -550,10 +550,6 @@
 		<Row>
 			<Tag>TXT_KEY_WONDER_EAST_INDIA_COMPANY_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]“Brass shines as fair to the ignorant as gold to the goldsmiths.”[NEWLINE][TAB][TAB] - Elizabeth I[NEWLINE][TAB]</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_WAT_HELP</Tag>
-			<Text>+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library."</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPERNICUS_OBSERVATORY</Tag>
@@ -609,7 +605,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOUNDRY_HELP</Tag>
-			<Text>Requires 1 [ICON_RES_IRON] Iron.</Text>
+			<Text>Requires 1 [ICON_RES_IRON] Iron.[NEWLINE]City must have a Forge.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PRISON</Tag>
@@ -678,6 +674,10 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MISSIONARY_CHURCH_DESC</Tag>
 			<Text>A Missionary Church is a church whose general purpose is to spread the religious values and ideals from one area to another.  While Missionary Churches are generally thought of as crossing borders or oceans, they also spread shorter distances such as across town or state.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_WAT_HELP</Tag>
+			<Text>+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_RANCH</Tag>
@@ -849,7 +849,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_NAVAL_BASE_STRATEGY</Tag>
-			<Text>+20 XP for all Sea units built in this City.</Text>
+			<Text>+15 XP for all Sea units built in this City.[NEWLINE][NEWLINE]Requires a Seaport in this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUPERMARKET</Tag>
@@ -861,7 +861,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUPERMARKET_STRATEGY</Tag>
-			<Text>Greatly improves [ICON_FOOD] Food output in the City.</Text>
+			<Text>Each source of [ICON_RES_SUGAR] Sugar worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_FISH] and [ICON_RES_CRAB] Crab worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD</Tag>
@@ -873,7 +873,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_STRATEGY</Tag>
-			<Text>Required for Battleship, Carrier, Supercarrier, Missile Cruiser, Nuclear Submarine, and Submarine production.[NEWLINE][NEWLINE]City must be built on the coast.[NEWLINE][NEWLINE]Can build up to 3.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil.</Text>
+			<Text>Required for Battleship, Carrier, Supercarrier, Missile Cruiser, Nuclear Submarine, and Submarine production.[NEWLINE][NEWLINE]City must have a Seaport.[NEWLINE][NEWLINE]Can build up to 3.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TRANSCONTINENTAL_RAILROAD</Tag>
@@ -901,7 +901,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AUTO_PLANT_STRATEGY</Tag>
-			<Text>Required for Tank, Panzer, Modern Armor, and Rocket Artillery production.[NEWLINE][NEWLINE]Can build up to 3.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil.</Text>
+			<Text>Required for Tank, Panzer, Modern Armor, and Rocket Artillery production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil.[NEWLINE]City must have a Factory.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_RECYCLING_PLANT</Tag>
@@ -910,6 +910,10 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_RECYCLING_PLANT_DESC</Tag>
 			<Text>Recycling involves processing used materials (waste) into new products to prevent waste of potentially useful materials, reduce the consumption of fresh raw materials, reduce energy usage, reduce air pollution (from incineration) and water pollution (from landfilling) by reducing the need for "conventional" waste disposal, and lower greenhouse gas emissions as compared to virgin production.  Recycling is a key component of modern waste reduction and is the third component of the "Reduce, Reuse, Recycle" waste hierarchy.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_RECYCLING_PLANT_HELP</Tag>
+			<Text>Each source of [ICON_RES_MARBLE] Marble or [ICON_RES_SILK] Silk worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of one of these resources nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MASS_TRANSIT</Tag>
@@ -967,7 +971,7 @@
 			<Tag>TXT_KEY_WONDER_CONTRACEPTION_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"Neglect of an effective birth control policy is a never-failing source of poverty which, in turn, is the parent of revolution and crime.[NEWLINE][TAB][TAB]" - Aristotle[NEWLINE][TAB]</Text>
 		</Row>
-		<Row>
+		<!--!<Row>
 			<Tag>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK</Tag>
 			<Text>Telecommunications Network</Text>
 		</Row>
@@ -978,7 +982,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK_STRATEGY</Tag>
 			<Text>Increases [ICON_RESEARCH] Science and [ICON_GOLD] Gold in this City.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRBASE</Tag>
 			<Text>Airbase</Text>
@@ -989,7 +993,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRBASE_STRATEGY</Tag>
-			<Text>+20 XP for all Air units built in this City.</Text>
+			<Text>+15 XP for all Air units built in this City.[NEWLINE][NEWLINE]City must have an Aircraft Plant.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT</Tag>
@@ -1001,7 +1005,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_STRATEGY</Tag>
-			<Text>Required for Fighter, Bomber, B-17, Jet Fighter, and Helicopter Gunship production.[NEWLINE][NEWLINE]Can build up to 3.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil.</Text>
+			<Text>Required for Fighter, Bomber, B-17, Jet Fighter, and Helicopter Gunship production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CHEMICAL_PLANT</Tag>
@@ -1013,7 +1017,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CHEMICAL_PLANT_STRATEGY</Tag>
-			<Text>Increases [ICON_RESEARCH] Science and [ICON_PRODUCTION] Production in this City.</Text>
+			<Text>Each source of [ICON_RES_DYE] Dye worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Each source of [ICON_RES_INCENSE] Incense worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_DYE] Dye or [ICON_RES_INCENSE] Incense nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEXTILE_MILL</Tag>
@@ -1025,7 +1029,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEXTILE_MILL_STRATEGY</Tag>
-			<Text>Significantly increases [ICON_GOLD] Gold output of this City.</Text>
+			<Text>Each source of [ICON_RES_COTTON] Cotton, [ICON_RES_FUR] Fur, and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby."</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOOD_PROCESSING_PLANT</Tag>
@@ -1037,7 +1041,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOOD_PROCESSING_PLANT_STRATEGY</Tag>
-			<Text>Increases [ICON_FOOD] Food and [ICON_PRODUCTION] Production in this City</Text>
+			<Text>Each source of [ICON_RES_SPICES] Spices and [ICON_RES_COFFEE] Coffee worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_WINE] Wine and [ICON_RES_DEER] Deer worked by this City produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE</Tag>
@@ -1049,7 +1053,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE_STRATEGY</Tag>
-			<Text>Significantly increases [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold in City.</Text>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat and [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_WHEAT] Wheat or [ICON_RES_BANANA] Banana nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INTERNATIONAL_AID_ORGANIZATION</Tag>
@@ -1119,7 +1123,7 @@
 			<Tag>TXT_KEY_WONDER_CRYSTAL_CATHEDRAL_QUOTE</Tag>
 			<Text>[NEWLINE][NEWLINE]“You can educate yourself right out of a relationship with God.” (Tammy Faye Bakker)</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_TELEVISION</Tag>
 			<Text>Television</Text>
 		</Row>
@@ -1130,7 +1134,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TELEVISION_STRATEGY</Tag>
 			<Text>Increases [ICON_GOLD] Gold and [ICON_RESEARCH] Science in this City.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHOPPING_MALL</Tag>
 			<Text>Shopping Mall</Text>
@@ -4627,7 +4631,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+2 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.[NEWLINE][NEWLINE]City must have a Bank."/>
+			<Set Text="Each souce of [ICON_RES_GOLD] worked by this City produces +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_SILVER] Silver or [ICON_RES_GEMS] Gems worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+2 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.[NEWLINE][NEWLINE]City must have a Bank."/>
 			<Where Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP" />
 		</Update>
 		<Update>
@@ -4635,7 +4639,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BANK_HELP" />
 		</Update>
 		<Update>
-			<Set Text="City must have a Military Academy."/>
+			<Set Text="Each source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Military Academy."/>
 			<Where Tag="TXT_KEY_BUILDING_ARSENAL_HELP" />
 		</Update>
 		<Update>
@@ -4651,7 +4655,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BAZAAR_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each sorce of [ICON_RES_COW] Cow and [ICON_RES_HORSE] Horse worked by this City produces +1 [ICON_PRODUCTION] Production. Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]Requires improved source of [ICON_RES_COW] Cow, [ICON_RES_HORSE] Horse, or [ICON_RES_SHEEP] Sheep nearby."/>
+			<Set Text="Each sorce of [ICON_RES_COW] Cow and [ICON_RES_HORSE] Horse worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]Requires improved source of [ICON_RES_COW] Cow, [ICON_RES_HORSE] Horse, or [ICON_RES_SHEEP] Sheep nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_STABLE_HELP" />
 		</Update>
 		<Update>
@@ -4675,11 +4679,11 @@
 			<Where Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+2 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]City must be built next to a River." />
+			<Set Text="+1 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum for Construction.[NEWLINE][NEWLINE]City must be built next to a River." />
 			<Where Tag="TXT_KEY_BUILDING_HYDRO_PLANT_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+3 [ICON_GOLD] Gold from water tiles worked by this City.[NEWLINE][NEWLINE]City must be built on the coast." />
+			<Set Text="+2 [ICON_GOLD] Gold from water tiles worked by this City.[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_WONDER_COLOSSUS_HELP" />
 		</Update>
 		<Update>
@@ -4715,6 +4719,10 @@
 			<Where Tag="TXT_KEY_BUILDING_UNIVERSITY_HELP" />
 		</Update>
 		<Update>
+			<Set Text="+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library." />
+			<Where Tag="TXT_KEY_BUILDING_WAT_STRATEGY" />
+		</Update>
+		<Update>
 			<Set Text="Significantly increases [ICON_PRODUCTION] Production in this City.[NEWLINE][NEWLINE]Requires a nearby desert for construction." />
 			<Where Tag="TXT_KEY_BUILDING_SOLAR_PLANT_HELP" />
 		</Update>
@@ -4743,7 +4751,7 @@
 			<Where Tag="TXT_KEY_BUILDING_HARBOR_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_GOLD] Gold from Water Tiles.[NEWLINE]+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have a Harbor." />
+			<Set Text="+2 [ICON_GOLD] Gold from Water Tiles.[NEWLINE]+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have a Harbor." />
 			<Where Tag="TXT_KEY_BUILDING_SEAPORT_HELP" />
 		</Update>
 		<Update>
@@ -4763,7 +4771,7 @@
 			<Where Tag="TXT_KEY_BUILDING_HOSPITAL_STRATEGY" />
 		</Update>
 		<Update>
-			<Set Text="Free Medic Promotion for units built in this City." />
+			<Set Text="Each source of [ICON_RES_URANIUM] Uranium worked by this City produces +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE}Free Medic Promotion for units built in this City.[NEWLINE][NEWLINE]City must have a Hospital." />
 			<Where Tag="TXT_KEY_BUILDING_MEDICAL_LAB_HELP" />
 		</Update>
 		<Update>
