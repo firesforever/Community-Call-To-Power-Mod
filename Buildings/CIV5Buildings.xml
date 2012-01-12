@@ -2284,7 +2284,7 @@
 			<Set Cost="5950" Culture="4" SpecialistCount="2" GreatPeopleRateChange="4"/>
 			<Where Type="BUILDING_STATUE_OF_LIBERTY"/>
 		</Update>
-		<Row>
+	<!--	<Row>
 			<Type>BUILDING_STATUE_OF_ZEUS</Type>
 			<Description>TXT_KEY_BUILDING_STATUE_OF_ZEUS</Description>
 			<Civilopedia>TXT_KEY_WONDER_STATUE_OF_ZEUS_DESC</Civilopedia>
@@ -2300,7 +2300,7 @@
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<WonderSplashImage>SplashZeus.dds</WonderSplashImage>
-		</Row>
+		</Row>-->
 		<Update>
 			<Set Cost="235" GreatPeopleRateChange="4"/>
 			<Where Type="BUILDING_STONEHENGE"/>
@@ -5369,7 +5369,7 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>65</Flavor>
@@ -5378,7 +5378,7 @@
 			<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>25</Flavor>
-		</Row>
+		</Row>-->
 		<!--keep stonehenge wonder at 25-->
 		<Update>
 			<Where BuildingType="BUILDING_STONEHENGE" FlavorType="FLAVOR_CULTURE"/>
@@ -6436,10 +6436,10 @@
 	</Building_Flavors>
 	<Building_LocalResourceAnds>
 		<Delete BuildingType="BUILDING_FORGE" ResourceType="RESOURCE_IRON" />
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
 			<ResourceType>RESOURCE_IVORY</ResourceType>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
