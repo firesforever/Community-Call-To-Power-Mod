@@ -942,7 +942,7 @@
 			<Where Type="BUILDING_BAZAAR"/>
 		</Update>
 		<Update>
-			<Set Cost="180" PrereqTech="TECH_TRADING" GreatPeopleRateChange="1" SpecialistCount="0" />
+			<Set Cost="180" PrereqTech="TECH_TRADING" GreatPeopleRateChange="0" SpecialistCount="1" />
 			<Where Type="BUILDING_MARKET"/>
 		</Update>
 		<Row>
