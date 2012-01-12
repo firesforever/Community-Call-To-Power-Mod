@@ -9670,11 +9670,12 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	{self.uranium_ID, uran_amt, 70, 1, 1} };
 	self:ProcessResourceList(39, 1, self.forest_flat_list, resources_to_place)
 
-	local resources_to_place = {
+	--Horse in Grassland (removed for now)
+	--[[local resources_to_place = {
 	{self.horse_ID, horse_amt, 100, 2, 5} }; --new
 --[[ START CCTP RESOURCES
 -- END CCTP RESOURCES]]
-	self:ProcessResourceList(38, 1, self.dry_grass_flat_no_feature, resources_to_place) --was 33
+	self:ProcessResourceList(38, 1, self.dry_grass_flat_no_feature, resources_to_place) --was 33]]
 	
 	local resources_to_place = {
 	{self.horse_ID, horse_amt, 40, 1, 4},
@@ -9800,7 +9801,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 
 	local resources_to_place = {
 	{self.copper_ID, 1, 100, 2, 3} }; -- Changed 1 too bsamt by CCTP.
-	self:ProcessResourceList(20 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(25 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place) --was 20
 	
 	local resources_to_place = {
 	{self.copper_ID, 1, 100, 2, 3} }; -- Changed 1 too bsamt by CCTP.
@@ -9812,7 +9813,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	
 	local resources_to_place = {
 	{self.copper_ID, 1, 100, 1, 1} }; -- Changed 1 too bsamt by CCTP.
-	self:ProcessResourceList(15 * bonus_multiplier, 3, self.hills_open_list, resources_to_place) 
+	self:ProcessResourceList(28 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)--was 15 
 	
 	local resources_to_place = {
 	{self.coffee_ID, 1, 100, 2, 3} }; -- Changed 1 too bsamt by CCTP.
