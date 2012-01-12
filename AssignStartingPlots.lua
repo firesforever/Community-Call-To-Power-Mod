@@ -9670,12 +9670,11 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	{self.uranium_ID, uran_amt, 70, 1, 1} };
 	self:ProcessResourceList(39, 1, self.forest_flat_list, resources_to_place)
 
-	--Horse in Grassland (removed for now)
-	--[[local resources_to_place = {
+	--[[Horse in Grassland (removed for now)
+	local resources_to_place = {
 	{self.horse_ID, horse_amt, 100, 2, 5} }; --new
---[[ START CCTP RESOURCES
--- END CCTP RESOURCES]]
-	self:ProcessResourceList(38, 1, self.dry_grass_flat_no_feature, resources_to_place) --was 33]]
+	self:ProcessResourceList(38, 1, self.dry_grass_flat_no_feature, resources_to_place) --was 33
+	]]
 	
 	local resources_to_place = {
 	{self.horse_ID, horse_amt, 40, 1, 4},
