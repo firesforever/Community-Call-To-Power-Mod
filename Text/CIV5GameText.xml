@@ -163,7 +163,7 @@
 			<Tag>TXT_KEY_WONDER_SPHINX_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]“You can tell whether a man is clever by his answers. You can tell whether a man is wise by his questions.”[NEWLINE][TAB][TAB] - Naguib Mahfouz[NEWLINE][TAB]</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_STATUE_OF_ZEUS</Tag>
 			<Text>Statue of Zeus</Text>
 		</Row>
@@ -178,7 +178,7 @@
 		<Row>
 			<Tag>TXT_KEY_WONDER_STATUE_OF_ZEUS_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]“The dice of Zeus always fall luckily.”[NEWLINE][TAB][TAB] - Sophocles[NEWLINE][TAB]</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ABBEY</Tag>
 			<Text>Abbey</Text>
