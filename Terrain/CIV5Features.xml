@@ -68,7 +68,7 @@
 		<Row>
 			<FeatureType>FEATURE_OASIS</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
