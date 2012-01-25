@@ -6,7 +6,7 @@
 
 		<!-- Ancient Era -->
 
-		<!-- Small -->
+<!--
 		<Row>
 			<Type>BUILDING_SMALL_FISH_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_FISH_MARKET</BuildingClass>
@@ -131,7 +131,7 @@
 
 		
 		
-		<!-- Medium -->
+
 		<Row>
 			<Type>BUILDING_MEDIUM_FISH_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_FISH_MARKET</BuildingClass>
@@ -255,7 +255,7 @@
 
 		
 		
-		<!-- Large -->
+
 		<Row>
 			<Type>BUILDING_LARGE_FISH_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_LARGE_FISH_MARKET</BuildingClass>
@@ -379,7 +379,7 @@
 
 
 
-		<!-- Huge -->
+
 		<Row>
 			<Type>BUILDING_HUGE_FISH_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_HUGE_FISH_MARKET</BuildingClass>
@@ -502,7 +502,7 @@
 		</Row>
 		
 
-
+-->
 		<!-- Monopoly -->
 		<Row>
 			<Type>BUILDING_FISH_MONOPOLY</Type>
@@ -629,11 +629,93 @@
 
 
 		<!-- Classical Era -->
-
+<!--
+		<Row>
+			<Type>BUILDING_SMALL_POPPY_REFINERY</Type>
+			<BuildingClass>BUILDINGCLASS_SMALL_POPPY_REFINERY</BuildingClass>
+			<Cost>1300</Cost>
+			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY_STRATEGY</Help>			
+			<NukeImmune>true</NukeImmune>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_MEDIUM_POPPY_REFINERY</Type>
+			<BuildingClass>BUILDINGCLASS_MEDIUM_POPPY_REFINERY</BuildingClass>
+			<Cost>1800</Cost>
+			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY_STRATEGY</Help>			
+			<NukeImmune>true</NukeImmune>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_LARGE_POPPY_REFINERY</Type>
+			<BuildingClass>BUILDINGCLASS_LARGE_POPPY_REFINERY</BuildingClass>
+			<Cost>1400</Cost>
+			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY_STRATEGY</Help>			
+			<NukeImmune>true</NukeImmune>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_HUGE_POPPY_REFINERY</Type>
+			<BuildingClass>BUILDINGCLASS_HUGE_POPPY_REFINERY</BuildingClass>
+			<Cost>1900</Cost>
+			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY_STRATEGY</Help>			
+			<NukeImmune>true</NukeImmune>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+-->
+		<Row>
+			<Type>BUILDING_POPPY_MONOPOLY</Type>
+			<BuildingClass>BUILDINGCLASS_POPPY_MONOPOLY</BuildingClass>
+			<Cost>7400</Cost>
+			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_POPPY_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_POPPY_MONOPOLY_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_POPPY_MONOPOLY_STRATEGY</Help>			
+			<NukeImmune>true</NukeImmune>
+			<HappinessPerCity>2</HappinessPerCity>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
 
 		<!-- Medieval Era -->
 
-		<!-- Small -->
+
+<!--
 		<Row>
 			<Type>BUILDING_SMALL_COFFEE_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_COFFEE_MILL</BuildingClass>
@@ -649,7 +731,7 @@
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
-		<!-- Medium -->
+
 		<Row>
 			<Type>BUILDING_MEDIUM_COFFEE_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_COFFEE_MILL</BuildingClass>
@@ -665,7 +747,7 @@
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
-		<!-- Large -->
+
 		<Row>
 			<Type>BUILDING_LARGE_COFFEE_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_LARGE_COFFEE_MILL</BuildingClass>
@@ -681,7 +763,7 @@
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
-		<!-- Huge -->
+
 		<Row>
 			<Type>BUILDING_HUGE_COFFEE_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_HUGE_COFFEE_MILL</BuildingClass>
@@ -697,6 +779,7 @@
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
+-->
 		<!-- Monopoly -->
 		<Row>
 			<Type>BUILDING_COFFEE_MONOPOLY</Type>
@@ -723,7 +806,7 @@
 
 		<!-- Modern Era -->
 
-		<!-- Small -->
+<!-- 
 		<Row>
 			<Type>BUILDING_SMALL_TITANIUM_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_TITANIUM_SMELTER</BuildingClass>
@@ -739,7 +822,7 @@
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
-		<!-- Medium -->
+
 		<Row>
 			<Type>BUILDING_MEDIUM_TITANIUM_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_TITANIUM_SMELTER</BuildingClass>
@@ -755,7 +838,7 @@
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
-		<!-- Large -->
+
 		<Row>
 			<Type>BUILDING_LARGE_TITANIUM_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_LARGE_TITANIUM_SMELTER</BuildingClass>
@@ -771,7 +854,7 @@
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
-		<!-- Huge -->
+
 		<Row>
 			<Type>BUILDING_HUGE_TITANIUM_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_HUGE_TITANIUM_SMELTER</BuildingClass>
@@ -787,6 +870,7 @@
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
+-->
 		<!-- Monopoly -->
 		<Row>
 			<Type>BUILDING_TITANIUM_MONOPOLY</Type>
@@ -810,7 +894,7 @@
 
 		<!-- Ancient Era -->
 
-		<!-- Small -->
+<!--
 		<Row>
 			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -844,7 +928,7 @@
 			<ResourceType>RESOURCE_DEER</ResourceType>
 		</Row>
 
-		<!-- Medium -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -879,7 +963,7 @@
 		</Row>
 
 
-		<!-- Large -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -913,7 +997,7 @@
 			<ResourceType>RESOURCE_DEER</ResourceType>
 		</Row>
 
-		<!-- Huge -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -946,7 +1030,7 @@
 			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 		</Row>
-
+-->
 		<!-- Monopoly -->
 		<Row>
 			<BuildingType>BUILDING_FISH_MONOPOLY</BuildingType>
@@ -983,8 +1067,26 @@
 
 
 		<!-- Classical Era -->
-
-
+		<Row>
+			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+		</Row>
 
 		<!-- Medieval Era -->
 
@@ -1051,7 +1153,7 @@
 
 		<!-- Ancient Era -->
 
-		<!-- Small -->
+<!-- 		
 		<Row>
 			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -1093,7 +1195,7 @@
 			<Cost>1</Cost>
 		</Row>
 
-		<!-- Medium -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -1136,7 +1238,7 @@
 		</Row>
 
 
-		<!-- Large -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -1179,7 +1281,7 @@
 		</Row>
 
 
-		<!-- Huge -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -1222,57 +1324,82 @@
 		</Row>
 
 
-
+-->
 		<!-- Monopoly -->
 		<Row>
 			<BuildingType>BUILDING_FISH_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
-			<Cost>1</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<Cost>1</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WHEAT_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
-			<Cost>1</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BANANA_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_BANANA</ResourceType>
-			<Cost>1</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>1</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CATTLE_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_COW</ResourceType>
-			<Cost>1</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SHEEP_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
-			<Cost>1</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DEER_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
-			<Cost>1</Cost>
+			<Cost>12</Cost>
 		</Row>
 
 
 		<!-- Classical Era -->
 
-		<!-- Small -->
-		
+<!--
+		<Row>
+			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+-->
+		<Row>
+			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<Cost>12</Cost>
+		</Row>
 
 		<!-- Medieval Era -->
-
+<!--
 		<Row>
 			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
@@ -1293,10 +1420,11 @@
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<Cost>1</Cost>
 		</Row>
+-->
 		<Row>
 			<BuildingType>BUILDING_COFFEE_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<Cost>1</Cost>
+			<Cost>12</Cost>
 		</Row>
 
 
@@ -1306,31 +1434,31 @@
 
 		<!-- Modern Era -->
 
-		<!-- Small -->
+<!-- 
 		<Row>
 			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<Cost>1</Cost>
 		</Row>
-		<!-- Medium -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_TITANIUM_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<Cost>1</Cost>
 		</Row>
-		<!-- Large -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<Cost>1</Cost>
 		</Row>
-		<!-- Huge -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<Cost>1</Cost>
 		</Row>
-		<!-- Monopoly -->
+-->
 		
 		<Row>
 			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
@@ -1340,10 +1468,11 @@
 		
 	</Building_ResourceQuantityRequirements>
 
+<!--
 	<Building_ClassesNeededInCity>
 		
 		
-		<!-- Ancient Era -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SMALL_FISH_MARKET</BuildingClassType>
@@ -1481,11 +1610,26 @@
 		</Row>
 
 		
-		<!-- Classical Era -->
+
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SMALL_POPPY_REFINERY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MEDIUM_POPPY_REFINERY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LARGE_POPPY_REFINERY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_POPPY_REFINERY</BuildingClassType>
+		</Row>
 		
 		
-		
-		<!-- Medieval Era -->
+
 
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_COFFEE_MILL</BuildingType>
@@ -1505,10 +1649,10 @@
 		</Row>
 
 
-		<!-- Industrial Era -->
 
 
-		<!-- Modern Era -->
+
+
 
 
 		<Row>
@@ -1578,17 +1722,23 @@
 			<NumBuildingNeeded>2</NumBuildingNeeded>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_POPPY_REFINERY</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HUGE_TITANIUM_SMELTER</BuildingClassType>
 			<NumBuildingNeeded>2</NumBuildingNeeded>
 		</Row>
 	</Building_PrereqBuildingClasses>
+	
+-->
 
+<!--
 	<Building_YieldChanges>
 		
-		<!-- Ancient Era -->
 
-		<!-- Small -->
 		<Row>
 			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -1660,7 +1810,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>	
-		<!-- Medium -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -1732,7 +1882,7 @@
 			<Yield>3</Yield>
 		</Row>
 
-		<!-- Large -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_FISH_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -1803,7 +1953,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
 		</Row>
-		<!-- Huge -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -1874,12 +2024,30 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>5</Yield>
 		</Row>
-		<!-- Classical Era -->
+
+		<Row>
+			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>15</Yield>
+		</Row>
 
 
-		<!-- Medieval Era -->
 
-		<!-- Small -->
 		<Row>
 			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -1902,29 +2070,28 @@
 		</Row>
 
 
-		<!-- Industrial Era -->
 
-		<!-- Modern Era -->
 
-		<!-- Small -->
+
+
 		<Row>
 			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>20</Yield>
 		</Row>
-		<!-- Medium -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_TITANIUM_SMELTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>24</Yield>
 		</Row>
-		<!-- Large -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>28</Yield>
 		</Row>
-		<!-- Huge -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -1933,6 +2100,7 @@
 		
 		
 	</Building_YieldChanges>
+-->
 
 	<Building_GlobalYieldModifiers>
 
@@ -1999,7 +2167,11 @@
 		<!-- Classical Era -->
 
 		<!-- Monopoly -->
-		
+		<Row>
+			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
 
 		<!-- Medieval Era -->
 
@@ -2033,7 +2205,7 @@
 	<!-- Building Flavors for the Monopoly System.-->
 	<Building_Flavors>
 		<!-- 1 FISH MARKET -->
-		<!-- SMALL -->
+		<!-- 
 		<Row>
 			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2044,7 +2216,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
-		<!-- MEDIUM -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2055,7 +2227,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
-		<!-- LARGE -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_FISH_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2066,7 +2238,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
-		<!-- HUGE -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2077,7 +2249,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>60</Flavor>
 		</Row>
-		<!-- MONOPOLY -->
+ -->
 		<Row>
 			<BuildingType>BUILDING_FISH_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2090,39 +2262,39 @@
 		</Row>
 
 		<!-- 4 WHEAT MILL -->
-		<!-- SMALL -->
+<!-- 
 		<Row>
 			<BuildingType>BUILDING_SMALL_WHEAT_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
 
-		<!-- MEDIUM -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_WHEAT_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>70</Flavor>
 		</Row>
-		<!-- LARGE -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_WHEAT_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>100</Flavor>
 		</Row>
-		<!-- HUGE -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_WHEAT_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>120</Flavor>
 		</Row>
-		<!-- MONOPOLY -->
+ -->
 		<Row>
 			<BuildingType>BUILDING_WHEAT_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>180</Flavor>
 		</Row>
 		<!-- 5 CRAB MARKET -->
-		<!-- SMALL -->
+		<!--
 		<Row>
 			<BuildingType>BUILDING_SMALL_CRAB_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2133,7 +2305,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
-		<!-- MEDIUM -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_CRAB_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2144,7 +2316,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
-		<!-- LARGE -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_CRAB_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2155,7 +2327,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
-		<!-- HUGE -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_CRAB_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2166,7 +2338,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>60</Flavor>
 		</Row>
-		<!-- MONOPOLY -->
+-->
 		<Row>
 			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2178,38 +2350,38 @@
 			<Flavor>90</Flavor>
 		</Row>
 		<!-- 9 BANANA MARKET -->
-		<!-- SMALL -->
+		<!--
 		<Row>
 			<BuildingType>BUILDING_SMALL_BANANA_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
-		<!-- MEDIUM -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_BANANA_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>70</Flavor>
 		</Row>
-		<!-- LARGE -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_BANANA_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>100</Flavor>
 		</Row>
-		<!-- HUGE -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_BANANA_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>120</Flavor>
 		</Row>
-		<!-- MONOPOLY -->
+-->
 		<Row>
 			<BuildingType>BUILDING_BANANA_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>180</Flavor>
 		</Row>
 		<!-- 18 COPPER SMELTER -->
-		<!-- SMALL -->
+<!--
 		<Row>
 			<BuildingType>BUILDING_SMALL_COPPER_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -2220,7 +2392,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
-		<!-- MEDIUM -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_COPPER_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -2231,7 +2403,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
-		<!-- LARGE -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_COPPER_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -2242,7 +2414,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
-		<!-- HUGE -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_COPPER_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -2253,7 +2425,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>60</Flavor>
 		</Row>
-		<!-- MONOPOLY -->
+-->
 		<Row>
 			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -2264,70 +2436,126 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>90</Flavor>
 		</Row>
-		<!-- 34 TITANIUM SMELTER -->
-		<!-- SMALL -->
+		<!-- 24 POPPY_REFINERY -->
+<!--
+		<Row>
+			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+-->
+		<Row>
+			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+<!--
+
 		<Row>
 			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
-		<!-- MEDIUM -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_TITANIUM_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>70</Flavor>
 		</Row>
-		<!-- LARGE -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>100</Flavor>
 		</Row>
-		<!-- HUGE -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>120</Flavor>
 		</Row>
-		<!-- MONOPOLY -->
+-->
 		<Row>
 			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>180</Flavor>
 		</Row>
 		<!-- 35 DEER BUTCHER -->
-		<!-- SMALL -->
+<!--
 		<Row>
 			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
-		<!-- MEDIUM -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_DEER_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>70</Flavor>
 		</Row>
-		<!-- LARGE -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_DEER_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>100</Flavor>
 		</Row>
-		<!-- HUGE -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>120</Flavor>
 		</Row>
-		<!-- MONOPOLY -->
+-->
 		<Row>
 			<BuildingType>BUILDING_DEER_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>180</Flavor>
 		</Row>
 		<!-- 39 COFFEE MILL -->
-		<!-- SMALL -->
+<!--
 		<Row>
 			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2338,7 +2566,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
-		<!-- MEDIUM -->
+
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_COFFEE_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2349,7 +2577,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
-		<!-- LARGE -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_COFFEE_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2360,7 +2588,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
-		<!-- HUGE -->
+		
 		<Row>
 			<BuildingType>BUILDING_HUGE_COFFEE_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2371,7 +2599,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>60</Flavor>
 		</Row>
-		<!-- MONOPOLY -->
+-->
 		<Row>
 			<BuildingType>BUILDING_COFFEE_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2383,7 +2611,7 @@
 			<Flavor>90</Flavor>
 		</Row>
 		<!-- 40 SHEEP BUTCHER -->
-		<!-- SMALL -->
+<!--
 		<Row>
 			<BuildingType>BUILDING_SMALL_SHEEP_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2394,7 +2622,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
-		<!-- MEDIUM -->
+		
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_SHEEP_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2405,7 +2633,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
-		<!-- LARGE -->
+
 		<Row>
 			<BuildingType>BUILDING_LARGE_SHEEP_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2416,7 +2644,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
-		<!-- HUGE -->
+
 		<Row>
 			<BuildingType>BUILDING_HUGE_SHEEP_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2427,7 +2655,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>60</Flavor>
 		</Row>
-		<!-- MONOPOLY -->
+-->
 		<Row>
 			<BuildingType>BUILDING_SHEEP_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
