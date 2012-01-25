@@ -11,7 +11,7 @@
 		<Row>
 			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BIG_BEN</BuildingType>
@@ -81,7 +81,7 @@
 		<Row>
 			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>30</Yield>
+			<Yield>8</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
@@ -91,12 +91,12 @@
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>100</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_IRONWORKS</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>60</Yield>
+			<Yield>14</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WATERMILL</BuildingType>
@@ -522,7 +522,7 @@
 		<Row>
 			<BuildingType>BUILDING_PETRA</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>12</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_REGIONAL_FAIR</BuildingType>
@@ -532,7 +532,7 @@
 		<Row>
 			<BuildingType>BUILDING_THE_GRAND_MOSQUE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>40</Yield>
+			<Yield>12</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_EAST_INDIA_COMPANY</BuildingType>
@@ -942,7 +942,7 @@
 			<Where Type="BUILDING_BAZAAR"/>
 		</Update>
 		<Update>
-			<Set Cost="180" PrereqTech="TECH_TRADING" GreatPeopleRateChange="1" SpecialistCount="0" />
+			<Set Cost="180" PrereqTech="TECH_TRADING" GreatPeopleRateChange="0" SpecialistCount="1" />
 			<Where Type="BUILDING_MARKET"/>
 		</Update>
 		<Row>
@@ -1131,7 +1131,7 @@
 			<Where Type="BUILDING_HARBOR"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="540" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount ="0" GreatPeopleRateChange="1"/>
+			<Set GoldMaintenance="2" Cost="540" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount ="0" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_LIGHTHOUSE"/>
 		</Update>
 		<!--<Row> TAKEN IT OUT FOR NOW
@@ -1324,7 +1324,7 @@
 			<Where Type="BUILDING_UNIVERSITY"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="6" Cost="720" SpecialistCount="2" GreatPeopleRateChange="0"/>
+			<Set GoldMaintenance="6" Cost="720" SpecialistCount="2" GreatPeopleRateChange="0" Help="TXT_KEY_BUILDING_WAT_HELP" Strategy="TXT_KEY_BUILDING_WAT_STRATEGY"/>
 			<Where Type="BUILDING_WAT"/>
 		</Update>
 		
@@ -1440,7 +1440,7 @@
 			<Where Type="BUILDING_HOSPITAL"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="10" Cost="1175" PrereqTech="TECH_ELECTRICITY" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="1" GreatPeopleRateChange="0"/>
+			<Set GoldMaintenance="10" Cost="1050" PrereqTech="TECH_ELECTRICITY" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="1" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_HYDRO_PLANT"/>
 		</Update>
 		<Row>
@@ -1494,7 +1494,7 @@
 			<SpecialistCount>1</SpecialistCount>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="20" Cost="1175" TrainedFreePromotion="PROMOTION_MEDIC" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1" GreatPeopleRateChange="0"/>
+			<Set GoldMaintenance="20" Cost="1175" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1" GreatPeopleRateChange="0" FoodKept="0"/>
 			<Where Type="BUILDING_MEDICAL_LAB"/>
 		</Update>
 		<Update>
@@ -1648,7 +1648,7 @@
 			<Help>TXT_KEY_WONDER_AL_JABR_HELP</Help>
 			<Quote>TXT_KEY_WONDER_AL_JABR_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>1960</Cost>
+			<Cost>935</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1662,7 +1662,7 @@
 			<WonderSplashImage>SplashAlJabr.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="1890" GreatPeopleRateChange="0" Culture="4"/>
+			<Set Cost="900" GreatPeopleRateChange="0" Culture="4"/>
 			<Where Type="BUILDING_ANGKOR_WAT" />
 		</Update>
 		<Row>
@@ -1672,7 +1672,7 @@
 			<Quote>TXT_KEY_WONDER_ARCHIMEDES_LAB_QUOTE</Quote>
 			<Help>TXT_KEY_WONDER_ARCHIMEDES_LAB_HELP</Help>
 			<NukeImmune>true</NukeImmune>
-			<Cost>1800</Cost>
+			<Cost>970</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1684,15 +1684,15 @@
 			<GreatPeopleRateChange>8</GreatPeopleRateChange>
 		</Row>
 		<Update>
-			<Set Cost="2160" PrereqTech="TECH_MACHINERY" Culture="0" GreatPeopleRateChange="3" SpecialistCount="1"/>
+			<Set Cost="1425" PrereqTech="TECH_MACHINERY" Culture="0" GreatPeopleRateChange="3" SpecialistCount="1"/>
 			<Where Type="BUILDING_BIG_BEN"/>
 		</Update>
 		<Update>
-			<Set Cost="4216" Culture="2" SpecialistCount="1" GreatPeopleRateChange="3"/>
+			<Set Cost="1425" Culture="2" SpecialistCount="1" GreatPeopleRateChange="3"/>
 			<Where Type="BUILDING_BRANDENBURG_GATE"/>
 		</Update>
 		<Update>
-			<Set Cost="1980" Culture="2" GreatPeopleRateChange="3" SpecialistCount="1" Happiness="2"/>
+			<Set Cost="970" Culture="2" GreatPeopleRateChange="3" SpecialistCount="1" Happiness="2"/>
 			<Where Type="BUILDING_CHICHEN_ITZA"/>
 		</Update>
 		<Row>
@@ -1702,7 +1702,7 @@
 			<Help>TXT_KEY_WONDER_COMMUNIST_MANIFESTO_HELP</Help>
 			<Quote>TXT_KEY_WONDER_COMMUNIST_MANIFESTO_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>5170</Cost>
+			<Cost>1750</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1723,7 +1723,7 @@
 			<Quote>TXT_KEY_WONDER_COPERNICUS_OBSERVATORY_QUOTE</Quote>
 			<NearbyMountainRequired>true</NearbyMountainRequired>
 			<NukeImmune>true</NukeImmune>
-			<Cost>2640</Cost>
+			<Cost>1425</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1736,7 +1736,7 @@
 			<WonderSplashImage>SplashCopernicus.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="5460" Culture="4" SpecialistCount="1" GreatPeopleRateChange="3"/>
+			<Set Cost="1825" Culture="4" SpecialistCount="1" GreatPeopleRateChange="3"/>
 			<Where Type="BUILDING_CRISTO_REDENTOR"/>
 		</Update>
 		<!--CRYSTAL CATHEDRAL-->
@@ -1808,7 +1808,7 @@
 			<Help>TXT_KEY_WONDER_EDISON_LAB_HELP</Help>
 			<Quote>TXT_KEY_WONDER_EDISON_LAB_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>5456</Cost>
+			<Cost>1475</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1821,7 +1821,7 @@
 			<WonderSplashImage>SplashEdisonLab.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="5700" UnmoddedHappiness="6" Culture="2" GreatPeopleRateChange="0"/>
+			<Set Cost="1900" UnmoddedHappiness="6" Culture="2" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_EIFFEL_TOWER"/>
 		</Update>
 		<!--FACEBOOK-->
@@ -1851,7 +1851,7 @@
 			<Help>TXT_KEY_WONDER_GALILEO_TELESCOPE_HELP</Help>
 			<Quote>TXT_KEY_WONDER_GALILEO_TELESCOPE_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>1890</Cost>
+			<Cost>935</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1871,7 +1871,7 @@
 			<Help>TXT_KEY_WONDER_GUTENBERG_BIBLE_HELP</Help>
 			<Quote>TXT_KEY_WONDER_GUTENBERG_BIBLE_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>2050</Cost>
+			<Cost>970</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1885,7 +1885,7 @@
 			<WonderSplashImage>SplashGutenberg_bible.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="1710" />
+			<Set Cost="970" />
 			<Where Type="BUILDING_HIMEJI_CASTLE"/>
 		</Update>
 		<!--started formatting the quotes properly but cnat get the quotes right-->
@@ -1896,7 +1896,7 @@
 			<Help>TXT_KEY_WONDER_HOLLYWOOD_HELP</Help>
 			<Quote>TXT_KEY_WONDER_HOLLYWOOD_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>6450</Cost>
+			<Cost>1475</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1997,7 +1997,7 @@
 			<Help>TXT_KEY_WONDER_BACH_CATHEDRAL_HELP</Help>
 			<Quote>TXT_KEY_WONDER_BACH_CATHEDRAL_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>1980</Cost>
+			<Cost>900</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2016,7 +2016,7 @@
 			<Civilopedia>TXT_KEY_WONDER_KONG_MIAO_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_KONG_MIAO_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>880</Cost>
+			<Cost>540</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2056,7 +2056,7 @@
 			<Help>TXT_KEY_WONDER_LEONARDO_WORKSHOP_HELP</Help>
 			<Quote>TXT_KEY_WONDER_LEONARDO_WORKSHOP_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>2160</Cost>
+			<Cost>970</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2089,7 +2089,7 @@
 			<WonderSplashImage>SplashMTheory.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="792" TradeRouteModifier="0" Culture="2" GreatPeopleRateChange="3" SpecialistCount="1"/>
+			<Set Cost="540" TradeRouteModifier="0" Culture="2" GreatPeopleRateChange="1" SpecialistCount="1"/>
 			<Where Type="BUILDING_MACHU_PICHU"/>
 		</Update>
 		<Row>
@@ -2100,7 +2100,7 @@
 			<Quote>TXT_KEY_WONDER_MAGELLAN_VOYAGE_QUOTE</Quote>
 			<Water>true</Water>
 			<NukeImmune>true</NukeImmune>
-			<Cost>1980</Cost>
+			<Cost>900</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2121,7 +2121,7 @@
 			<Help>TXT_KEY_WONDER_MAHABODHI_TEMPLE_HELP</Help>
 			<Quote>TXT_KEY_WONDER_MAHABODHI_TEMPLE_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>300</Cost>
+			<Cost>380</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2133,7 +2133,7 @@
 			<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			<WonderSplashImage>SplashMahabodhi.dds</WonderSplashImage>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDING_MAUSOLEUM_OF_MAUSOLUS</Type>
 			<Description>TXT_KEY_BUILDING_MAUSOLEUM_OF_MAUSOLUS</Description>
 			<Civilopedia>TXT_KEY_WONDER_MAUSOLEUM_OF_MAUSOLUS_DESC</Civilopedia>
@@ -2151,7 +2151,7 @@
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
 			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 			<WonderSplashImage>SplashMausoleum.dds</WonderSplashImage>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDING_NAZCA_LINES</Type>
 			<Description>TXT_KEY_BUILDING_NAZCA_LINES</Description>
@@ -2159,7 +2159,7 @@
 			<Help>TXT_KEY_WONDER_NAZCA_LINES_HELP</Help>
 			<Quote>TXT_KEY_WONDER_NAZCA_LINES_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>880</Cost>
+			<Cost>540</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2173,7 +2173,7 @@
 			<WonderSplashImage>SplashNazcaLines.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="2025" UnmoddedHappiness="8" Culture="2" PrereqTech="TECH_THEOLOGY" SpecialistType="SPECIALIST_ARTIST" GreatPeopleRateChange="3" SpecialistCount="1"/>
+			<Set Cost="970" UnmoddedHappiness="8" Culture="2" PrereqTech="TECH_THEOLOGY" SpecialistType="SPECIALIST_ARTIST" GreatPeopleRateChange="3" SpecialistCount="1"/>
 			<Where Type="BUILDING_NOTRE_DAME"/>
 		</Update>
 		<Row>
@@ -2183,7 +2183,7 @@
 			<Help>TXT_KEY_WONDER_PARTHENON_HELP</Help>
 			<Quote>TXT_KEY_WONDER_PARTHENON_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>880</Cost>
+			<Cost>395</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2198,7 +2198,7 @@
 			<WonderSplashImage>SplashParthenon.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="4960" PrereqTech="TECH_TELEPHONE" Culture="0" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="3" SpecialistCount="1"/>
+			<Set Cost="1900" PrereqTech="TECH_TELEPHONE" Culture="0" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="3" SpecialistCount="1"/>
 			<Where Type="BUILDING_PENTAGON"/>
 		</Update>
 		<Row>
@@ -2209,11 +2209,13 @@
 			<Quote>TXT_KEY_WONDER_PETRA_QUOTE</Quote>
 			<NearbyMountainRequired>true</NearbyMountainRequired>
 			<NukeImmune>true</NukeImmune>
-			<Cost>280</Cost>
+			<Cost>350</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>4</Culture>
+			<Culture>1</Culture>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
 			<BuildingClass>BUILDINGCLASS_PETRA</BuildingClass>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<PrereqTech>TECH_MINING</PrereqTech>
@@ -2226,7 +2228,7 @@
 			<Help>TXT_KEY_WONDER_PRINCIPIA_MATHEMATICA_HELP</Help>
 			<Quote>TXT_KEY_WONDER_PRINCIPIA_MATHEMATICA_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>2760</Cost>
+			<Cost>1475</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2245,7 +2247,7 @@
 			<Help>TXT_KEY_WONDER_SHAKESPEARE_THEATER_HELP</Help>
 			<Quote>TXT_KEY_WONDER_SHAKESPEARE_THEATER_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>2000</Cost>
+			<Cost>970</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2259,7 +2261,7 @@
 			<WonderSplashImage>SplashShakespearTheater.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="2240" Culture="12" GlobalCultureRateModifier="0" GreatPeopleRateChange="0"/>
+			<Set Cost="970" Culture="12" GlobalCultureRateModifier="0" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_SISTINE_CHAPEL"/>
 		</Update>
 		<Row>
@@ -2268,7 +2270,7 @@
 			<Civilopedia>TXT_KEY_WONDER_SPHINX_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_SPHINX_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>260</Cost>
+			<Cost>380</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2281,7 +2283,7 @@
 			<WonderSplashImage>SplashSphinx.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="5950" Culture="4" SpecialistCount="2" GreatPeopleRateChange="4"/>
+			<Set Cost="1900" Culture="4" SpecialistCount="2" GreatPeopleRateChange="4"/>
 			<Where Type="BUILDING_STATUE_OF_LIBERTY"/>
 		</Update>
 	<!--	<Row>
@@ -2302,7 +2304,7 @@
 			<WonderSplashImage>SplashZeus.dds</WonderSplashImage>
 		</Row>-->
 		<Update>
-			<Set Cost="235" GreatPeopleRateChange="4"/>
+			<Set Cost="380" GreatPeopleRateChange="4"/>
 			<Where Type="BUILDING_STONEHENGE"/>
 		</Update>
 		<Row>
@@ -2312,7 +2314,7 @@
 			<Help>TXT_KEY_WONDER_SUN_TZU_ART_OF_WAR_HELP</Help>
 			<Quote>TXT_KEY_WONDER_SUN_TZU_ART_OF_WAR_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>1920</Cost>
+			<Cost>935</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2324,11 +2326,11 @@
 		</Row>
 		<!--SYDNEY OPERA HOUSE-->
 		<Update>
-			<Set Cost="4000" />
+			<Set Cost="3400" />
 			<Where Type="BUILDING_SYDNEY_OPERA_HOUSE"/>
 		</Update>
 		<Update>
-			<Set Cost="2040" PrereqTech="TECH_FUNDAMENTALISM" GreatPeopleRateChange="0" Culture="4"/>
+			<Set Cost="970" PrereqTech="TECH_FUNDAMENTALISM" GreatPeopleRateChange="0" Culture="4"/>
 			<Where Type="BUILDING_TAJ_MAHAL"/>
 		</Update>
 		<Row>
@@ -2339,7 +2341,7 @@
 			<Quote>TXT_KEY_WONDER_TEMPLE_OF_HEAVEN_QUOTE</Quote>
 			<NearbyMountainRequired>true</NearbyMountainRequired>
 			<NukeImmune>true</NukeImmune>
-			<Cost>270</Cost>
+			<Cost>365</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2361,7 +2363,7 @@
 			<Quote>TXT_KEY_WONDER_TEMPLE_OF_SOLOMON_QUOTE</Quote>
 			<NearbyMountainRequired>true</NearbyMountainRequired>
 			<NukeImmune>true</NukeImmune>
-			<Cost>730</Cost>
+			<Cost>520</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2384,7 +2386,7 @@
 			<Help>TXT_KEY_WONDER_TERRACOTTA_ARMY_HELP</Help>
 			<Quote>TXT_KEY_WONDER_TERRACOTTA_ARMY_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>730</Cost>
+			<Cost>540</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2397,11 +2399,11 @@
 			<WonderSplashImage>SplashTerracottaArmy.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="320" ObsoleteTech="NULL" Culture="1" SpecialistCount="0" GreatPeopleRateChange="0"/>
+			<Set Cost="395" ObsoleteTech="NULL" Culture="1" SpecialistCount="0" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_COLOSSUS"/>
 		</Update>
 		<Update>
-			<Set Cost="2800" Culture="2" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="0" GreatPeopleRateChange="0" UnhappinessModifier="0" CityCountUnhappinessMod="0" UnmoddedHappiness="10"/>
+			<Set Cost="1475" Culture="2" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="0" GreatPeopleRateChange="0" UnhappinessModifier="0" CityCountUnhappinessMod="0" UnmoddedHappiness="10"/>
 			<Where Type="BUILDING_FORBIDDEN_PALACE"/>
 		</Update>
 		<Row>
@@ -2411,41 +2413,40 @@
 			<Help>TXT_KEY_WONDER_THE_GRAND_MOSQUE_HELP</Help>
 			<Quote>TXT_KEY_WONDER_THE_GRAND_MOSQUE_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>2040</Cost>
+			<Cost>940</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>4</Culture>
+			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_THE_GRAND_MOSQUE</BuildingClass>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<PrereqTech>TECH_FUNDAMENTALISM</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
-			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<SpecialistCount>2</SpecialistCount>
 			<WonderSplashImage>SplashGreatMosque.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="640" Culture="2" SpecialistCount="1" GreatPeopleRateChange="0"/>
+			<Set Cost="540" Culture="2" SpecialistCount="1" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_GREAT_LIBRARY"/>
 		</Update>
 		<Update>
-			<Set Cost="260" Culture="2" GreatPeopleRateChange="4" />
+			<Set Cost="395" Culture="2" GreatPeopleRateChange="4" />
 			<Where Type="BUILDING_GREAT_LIGHTHOUSE"/>
 		</Update>
 		<Update>
-			<Set Cost="660" SpecialistCount="1" GreatPeopleRateChange="3" Culture="0"/>
+			<Set Cost="570" SpecialistCount="1" GreatPeopleRateChange="3" Culture="0"/>
 			<Where Type="BUILDING_GREAT_WALL"/>
 		</Update>
 		<Update>
-			<Set Cost="1900" FreeGreatPeople="0"/>
+			<Set Cost="970" FreeGreatPeople="0"/>
 			<Where Type="BUILDING_HAGIA_SOPHIA"/>
 		</Update>
 		<Update>
-			<Set Cost="680" PrereqTech="TECH_CODE_OF_LAWS" UnmoddedHappiness="2" Culture="4" GreatPeopleRateChange="0"/>
+			<Set Cost="540" PrereqTech="TECH_CODE_OF_LAWS" UnmoddedHappiness="2" Culture="4" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_HANGING_GARDEN"/>
 		</Update>
 		<Update>
-			<Set Cost="1710" PrereqTech="TECH_FEUDALISM" Culture="2" GreatPeopleRateChange="0"/>
+			<Set Cost="935" PrereqTech="TECH_FEUDALISM" Culture="2" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_KREMLIN"/>
 		</Update>
 		<Row>
@@ -2455,7 +2456,7 @@
 			<Help>TXT_KEY_WONDER_THE_LABYRNTH_HELP</Help>
 			<Quote>TXT_KEY_WONDER_THE_LABYRNTH_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>240</Cost>
+			<Cost>380</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2468,19 +2469,19 @@
 			<WonderSplashImage>SplashLabyrinth.dds</WonderSplashImage>
 		</Row>
 		<Update>
-			<Set Cost="1800" Culture="12" SpecialistType="SPECIALIST_ENGINEER"/>
+			<Set Cost="970" Culture="12" SpecialistType="SPECIALIST_ENGINEER"/>
 			<Where Type="BUILDING_LOUVRE"/>
 		</Update>
 		<Update>
-			<Set Cost="600" Culture="2" GreatPeopleRateChange="0"/>
+			<Set Cost="540" Culture="2" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_ORACLE"/>
 		</Update>
 		<Update>
-			<Set Cost="2280" Culture="2" GreatPeopleRateChange="0" SpecialistCount="2"/>
+			<Set Cost="1475" Culture="2" GreatPeopleRateChange="0" SpecialistCount="2"/>
 			<Where Type="BUILDING_PORCELAIN_TOWER"/>
 		</Update>
 		<Update>
-			<Set Cost="300" Culture="2" GreatPeopleRateChange="0" SpecialistCount="1"/>
+			<Set Cost="420" Culture="2" GreatPeopleRateChange="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_PYRAMID"/>
 		</Update>
 		<Row>
@@ -2490,7 +2491,7 @@
 			<Help>TXT_KEY_WONDER_THEORY_OF_EVOLUTION_HELP</Help>
 			<Quote>TXT_KEY_WONDER_THEORY_OF_EVOLUTION_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>5500</Cost>
+			<Cost>1900</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2504,7 +2505,7 @@
 		</Row>
 		<!--UNITED NATIONS-->
 		<Update>
-			<Set Cost="6800"/>
+			<Set Cost="3550"/>
 			<Where Type="BUILDING_UNITED_NATIONS"/>
 		</Update>
 		<!--VIRTUAL SECURITIES EXCHANGE-->
@@ -2535,7 +2536,7 @@
 			<Help>TXT_KEY_WONDER_WEALTH_OF_NATIONS_HELP</Help>
 			<Quote>TXT_KEY_WONDER_WEALTH_OF_NATIONS_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>6512</Cost>
+			<Cost>1900</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2553,7 +2554,7 @@
 			<Help>TXT_KEY_WONDER_ZIGGURAT_OF_MARDUK_HELP</Help>
 			<Quote>TXT_KEY_WONDER_ZIGGURAT_OF_MARDUK_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>230</Cost>
+			<Cost>410</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2632,7 +2633,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_BOND_MARKET_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_BOND_MARKET_HELP</Help>
 			<NukeImmune>true</NukeImmune>
-			<Cost>1620</Cost>
+			<Cost>865</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2646,7 +2647,7 @@
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="310" Culture="2" PrereqTech="TECH_CARRIAGES" UnmoddedHappiness="8"/>
+			<Set Cost="350" Culture="2" PrereqTech="TECH_CARRIAGES" UnmoddedHappiness="8"/>
 			<Where Type="BUILDING_CIRCUS_MAXIMUS"/>
 		</Update>
 		<Row>
@@ -2656,7 +2657,7 @@
 			<Help>TXT_KEY_CONSTITUTION_HELP</Help>
 			<Quote>TXT_KEY_CONSTITUTION_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>2280</Cost>
+			<Cost>1375</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2674,7 +2675,7 @@
 			<Help>TXT_KEY_WONDER_CONTRACEPTION_HELP</Help>
 			<Quote>TXT_KEY_WONDER_CONTRACEPTION_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>5200</Cost>
+			<Cost>1750</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2712,7 +2713,7 @@
 			<Help>TXT_KEY_DECLARATION_OF_INDEPENDENCE_HELP</Help>
 			<Quote>TXT_KEY_DECLARATION_OF_INDEPENDENCE_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>2300</Cost>
+			<Cost>1325</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2731,7 +2732,7 @@
 			<Quote>TXT_KEY_WONDER_EAST_INDIA_COMPANY_QUOTE</Quote>
 			<Water>true</Water>
 			<NukeImmune>true</NukeImmune>
-			<Cost>2040</Cost>
+			<Cost>865</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2818,11 +2819,11 @@
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
 		</Row>
 		<Update>
-			<Set Cost="1260" />
+			<Set Cost="900" />
 			<Where Type="BUILDING_HERMITAGE"/>
 		</Update>
 		<Update>
-			<Set Cost="680" PrereqTech="TECH_POETRY"/>
+			<Set Cost="480" PrereqTech="TECH_POETRY"/>
 			<Where Type="BUILDING_HEROIC_EPIC"/>
 		</Update>
 		<Row>
@@ -2832,7 +2833,7 @@
 			<Help>TXT_KEY_WONDER_HORSE_DERBY_HELP</Help>
 			<Quote>TXT_KEY_WONDER_HORSE_DERBY_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>1560</Cost>
+			<Cost>1325</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2881,7 +2882,7 @@
 			<GreatPeopleRateChange>15</GreatPeopleRateChange>
 		</Row>
 		<Update>
-			<Set Cost="2160" PrereqTech="TECH_METALLURGY" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2" Culture="0"/>
+			<Set Cost="900" PrereqTech="TECH_METALLURGY" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2" Culture="0"/>
 			<Where Type="BUILDING_IRONWORKS"/>
 		</Update>
 		<Row>
@@ -2891,7 +2892,7 @@
 			<Help>TXT_KEY_BUILDING_LITERARY_EPIC_HELP</Help>
 			<Quote>TXT_KEY_BUILDING_LITERARY_EPIC_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>1520</Cost>
+			<Cost>830</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2910,7 +2911,7 @@
 			<Quote>TXT_KEY_WONDER_MEGA_DAM_QUOTE</Quote>
 			<River>true</River>
 			<NukeImmune>true</NukeImmune>
-			<Cost>4960</Cost>
+			<Cost>1825</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2925,7 +2926,7 @@
 			<Description>TXT_KEY_BUILDING_NATIONAL_ACADEMY</Description>
 			<Civilopedia>TXT_KEY_WONDER_NATIONAL_ACADEMY_DESC</Civilopedia>
 			<NukeImmune>true</NukeImmune>
-			<Cost>2160</Cost>
+			<Cost>1375</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2939,11 +2940,11 @@
 			<PortraitIndex>46</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="576" GreatPeopleRateChange="2" SpecialistCount="2" SpecialistType="SPECIALIST_SCIENTIST"/>
+			<Set Cost="480" GreatPeopleRateChange="2" SpecialistCount="2" SpecialistType="SPECIALIST_SCIENTIST"/>
 			<Where Type="BUILDING_NATIONAL_COLLEGE"/>
 		</Update>
 		<Update>
-			<Set Cost="612" Culture="6"/>
+			<Set Cost="480" Culture="6"/>
 			<Where Type="BUILDING_NATIONAL_EPIC"/>
 		</Update>
 		<!--NATIONAL LAB-->
@@ -2953,7 +2954,7 @@
 			<Civilopedia>TXT_KEY_WONDER_NATIONAL_LABORATORY_DESC</Civilopedia>
 			<Help>TXT_KEY_WONDER_NATIONAL_LABORATORY_HELP</Help>
 			<NukeImmune>true</NukeImmune>
-			<Cost>5400</Cost>
+			<Cost>3400</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2983,7 +2984,7 @@
 			<PrereqTech>TECH_CONSERVATIONISM</PrereqTech>
 		</Row>
 		<Update>
-			<Set Cost="800" Culture="0" SpecialistCount="2" SpecialistType="SPECIALIST_MERCHANT"/>
+			<Set Cost="500" Culture="0" SpecialistCount="2" SpecialistType="SPECIALIST_MERCHANT"/>
 			<Where Type="BUILDING_NATIONAL_TREASURY"/>
 		</Update>
 		<!--OCEAN HABITAT-->
@@ -3013,7 +3014,7 @@
 			<Help>TXT_KEY_WONDER_OLYMPICS_HELP</Help>
 			<Quote>TXT_KEY_WONDER_OLYMPICS_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>360</Cost>
+			<Cost>365</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -3024,7 +3025,7 @@
 			<PrereqTech>TECH_SPORTS</PrereqTech>
 		</Row>
 		<Update>
-			<Set Cost="2160" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="2" GreatPeopleRateChange="4" Culture="0"/>
+			<Set Cost="1325" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="2" GreatPeopleRateChange="4" Culture="0"/>
 			<Where Type="BUILDING_OXFORD_UNIVERSITY"/>
 		</Update>
 		<!--QUANTUM SUPERCOMPUTER-->
@@ -3052,7 +3053,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_REGIONAL_FAIR_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_REGIONAL_FAIR_HELP</Help>
 			<NukeImmune>true</NukeImmune>
-			<Cost>1710</Cost>
+			<Cost>900</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -3169,7 +3170,7 @@
 			<Help>TXT_KEY_WONDER_TRANSCONTINENTAL_RAILROAD_HELP</Help>
 			<Quote>TXT_KEY_WONDER_TRANSCONTINENTAL_RAILROAD_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>5456</Cost>
+			<Cost>1825</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -3186,7 +3187,7 @@
 			<Help>TXT_KEY_WONDER_WALL_STREET_HELP</Help>
 			<Quote>TXT_KEY_WONDER_WALL_STREET_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>5200</Cost>
+			<Cost>1760</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -3204,7 +3205,7 @@
 			<Help>TXT_KEY_WONDER_WAR_COLLEGE_HELP</Help>
 			<Quote>TXT_KEY_WONDER_WAR_COLLEGE_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>4712</Cost>
+			<Cost>1325</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -5191,16 +5192,6 @@
 			<Flavor>25</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MAUSOLEUM_OF_MAUSOLUS</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>60</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MAUSOLEUM_OF_MAUSOLUS</BuildingType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_NAZCA_LINES</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>30</Flavor>
@@ -6464,7 +6455,7 @@
 		<Row>
 			<BuildingType>BUILDING_MEGA_DAM</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Building_RiverPlotYieldChanges>
 	<Building_SeaPlotYieldChanges>
@@ -6486,7 +6477,7 @@
 		<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OCEAN_HABITAT_PROTOTYPE</BuildingType>
@@ -6509,6 +6500,11 @@
 		<Row>
 			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -7165,10 +7161,6 @@
 			<ResourceType>RESOURCE_DEER</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FOOD_PROCESSING_PLANT</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
 		</Row>
@@ -7190,11 +7182,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
-			<ResourceType>RESOURCE_FISH</ResourceType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
@@ -7257,7 +7245,7 @@
 		<Row>
 			<BuildingType>BUILDING_STABLE</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -7429,18 +7417,6 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FOOD_PROCESSING_PLANT</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_FOOD_PROCESSING_PLANT</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -7467,6 +7443,12 @@
 		<Row>
 			<BuildingType>BUILDING_MEDICAL_LAB</BuildingType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDICAL_LAB</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>3</Yield>
 		</Row>
@@ -7525,15 +7507,15 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
-			<ResourceType>RESOURCE_FISH</ResourceType>
+			<BuildingType>BUILDING_FOOD_PROCESSING_PLANT</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SUPERMARKET</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>

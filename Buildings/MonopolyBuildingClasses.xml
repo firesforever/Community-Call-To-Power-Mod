@@ -4,7 +4,8 @@
 	<BuildingClasses>
 		
 		<!-- Ancient Era -->
-		<!-- Small -->
+<!--
+
 		<Row>
 			<Type>BUILDINGCLASS_SMALL_FISH_MARKET</Type>
 			<Description>TXT_KEY_BUILDING_SMALL_FISH_MARKET</Description>
@@ -45,7 +46,7 @@
 			<Description>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER</Description>
 			<DefaultBuilding>BUILDING_SMALL_DEER_BUTCHER</DefaultBuilding>
 		</Row>
-		<!-- Medium -->
+
 		<Row>
 			<Type>BUILDINGCLASS_MEDIUM_FISH_MARKET</Type>
 			<Description>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET</Description>
@@ -86,7 +87,7 @@
 			<Description>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER</Description>
 			<DefaultBuilding>BUILDING_MEDIUM_DEER_BUTCHER</DefaultBuilding>
 		</Row>
-		<!-- Large -->
+
 		<Row>
 			<Type>BUILDINGCLASS_LARGE_FISH_MARKET</Type>
 			<Description>TXT_KEY_BUILDING_LARGE_FISH_MARKET</Description>
@@ -127,7 +128,7 @@
 			<Description>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER</Description>
 			<DefaultBuilding>BUILDING_LARGE_DEER_BUTCHER</DefaultBuilding>
 		</Row>
-		<!-- Huge -->
+
 		<Row>
 			<Type>BUILDINGCLASS_HUGE_FISH_MARKET</Type>
 			<Description>TXT_KEY_BUILDING_HUGE_FISH_MARKET</Description>
@@ -168,6 +169,7 @@
 			<Description>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER</Description>
 			<DefaultBuilding>BUILDING_HUGE_DEER_BUTCHER</DefaultBuilding>
 		</Row>
+-->
 		<!-- Monopoly -->
 		<Row>
 			<Type>BUILDINGCLASS_FISH_MONOPOLY</Type>
@@ -218,14 +220,39 @@
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 
-		
-		<!-- Classical Era -->
-
-		
+		<!--Classical-->
+<!--
+		<Row>
+			<Type>BUILDINGCLASS_SMALL_POPPY_REFINERY</Type>
+			<Description>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY</Description>
+			<DefaultBuilding>BUILDING_SMALL_POPPY_REFINERY</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MEDIUM_POPPY_REFINERY</Type>
+			<Description>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY</Description>
+			<DefaultBuilding>BUILDING_MEDIUM_POPPY_REFINERY</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_LARGE_POPPY_REFINERY</Type>
+			<Description>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY</Description>
+			<DefaultBuilding>BUILDING_LARGE_POPPY_REFINERY</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HUGE_POPPY_REFINERY</Type>
+			<Description>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY</Description>
+			<DefaultBuilding>BUILDING_HUGE_POPPY_REFINERY</DefaultBuilding>
+		</Row>
+-->
+		<Row>
+			<Type>BUILDINGCLASS_POPPY_MONOPOLY</Type>
+			<Description>TXT_KEY_BUILDING_POPPY_MONOPOLY</Description>
+			<DefaultBuilding>BUILDING_POPPY_MONOPOLY</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
 
 
 		<!-- Medieval Era -->
-
+<!--
 
 		<Row>
 			<Type>BUILDINGCLASS_SMALL_COFFEE_MILL</Type>
@@ -247,6 +274,7 @@
 			<Description>TXT_KEY_BUILDING_HUGE_COFFEE_MILL</Description>
 			<DefaultBuilding>BUILDING_HUGE_COFFEE_MILL</DefaultBuilding>
 		</Row>
+-->
 		<Row>
 			<Type>BUILDINGCLASS_COFFEE_MONOPOLY</Type>
 			<Description>TXT_KEY_BUILDING_COFFEE_MONOPOLY</Description>
@@ -260,30 +288,28 @@
 
 		<!-- Modern Era -->
 
-		<!-- Small -->
+<!--		
 		<Row>
 			<Type>BUILDINGCLASS_SMALL_TITANIUM_SMELTER</Type>
 			<Description>TXT_KEY_BUILDING_SMALL_TITANIUM_SMELTER</Description>
 			<DefaultBuilding>BUILDING_SMALL_TITANIUM_SMELTER</DefaultBuilding>
 		</Row>
-		<!-- Medium -->
 		<Row>
 			<Type>BUILDINGCLASS_MEDIUM_TITANIUM_SMELTER</Type>
 			<Description>TXT_KEY_BUILDING_MEDIUM_TITANIUM_SMELTER</Description>
 			<DefaultBuilding>BUILDING_MEDIUM_TITANIUM_SMELTER</DefaultBuilding>
 		</Row>
-		<!-- Large -->
 		<Row>
 			<Type>BUILDINGCLASS_LARGE_TITANIUM_SMELTER</Type>
 			<Description>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER</Description>
 			<DefaultBuilding>BUILDING_LARGE_TITANIUM_SMELTER</DefaultBuilding>
 		</Row>
-		<!-- Huge -->
 		<Row>
 			<Type>BUILDINGCLASS_HUGE_TITANIUM_SMELTER</Type>
 			<Description>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER</Description>
 			<DefaultBuilding>BUILDING_HUGE_TITANIUM_SMELTER</DefaultBuilding>
 		</Row>
+-->
 		<!-- Monopoly -->
 		<Row>
 			<Type>BUILDINGCLASS_TITANIUM_MONOPOLY</Type>

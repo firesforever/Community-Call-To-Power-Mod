@@ -374,8 +374,11 @@ function AssignStartingPlots.Create()
 		whale_ID, pearls_ID, ivory_ID, fur_ID, silk_ID,
 		dye_ID, spices_ID, sugar_ID, cotton_ID, wine_ID, incense_ID,
 		-- Added by CCTP. 
-		gold_ID, silver_ID, gems_ID, marble_ID,
-		coffee_ID, copper_ID, titanium_ID,  crab_ID
+		gold_ID, silver_ID, gems_ID, marble_ID, poppy_ID, crab_ID,
+		--[[
+		aloe_vera_ID, jade_ID, manganese_ID, oak_ID, squid_ID,
+		coffee_ID, copper_ID, titanium_ID,
+		]]
 		
 	}
 	
@@ -462,10 +465,24 @@ function AssignStartingPlots:__Init()
 			self.coffee_ID = resourceID;
 		elseif resourceType == "RESOURCE_COPPER" then
 			self.copper_ID = resourceID;
+		elseif resourceType == "RESOURCE_POPPY" then
+			self.poppy_ID = resourceID;
 		elseif resourceType == "RESOURCE_TITANIUM" then
 			self.titanium_ID = resourceID;
 		elseif resourceType == "RESOURCE_CRAB" then
 			self.crab_ID = resourceID;
+	--[[
+		elseif resourceType == "RESOURCE_ALOE_VERA" then
+			self.aloe_vera_ID = resourceID;
+		elseif resourceType == "RESOURCE_JADE" then
+			self.jade_ID = resourceID;
+		elseif resourceType == "RESOURCE_MANGANESE" then
+			self.manganese_ID = resourceID;
+		elseif resourceType == "RESOURCE_OAK" then
+			self.oak_ID = resourceID;
+		elseif resourceType == "RESOURCE_SQUID" then
+			self.squid_ID = resourceID;
+			]]
 		end
 	end
 end
@@ -9548,7 +9565,15 @@ function AssignStartingPlots:PrintFinalResourceTotalsToLog()
 	print("- Crab...: ", self.amounts_of_resources_placed[self.crab_ID + 1]);
 	print("- Coffee...: ", self.amounts_of_resources_placed[self.coffee_ID + 1]);
 	print("- Copper...: ", self.amounts_of_resources_placed[self.copper_ID + 1]);
+	print("- Poppy...: ", self.amounts_of_resources_placed[self.poppy_ID + 1]);
 	print("- Titanium...: ", self.amounts_of_resources_placed[self.titanium_ID + 1]);
+	--[[
+	print("- Aloe Vera...: ", self.amounts_of_resources_placed[self.aloe_vera_ID + 1]);
+	print("- Jade...: ", self.amounts_of_resources_placed[self.jade_ID + 1]);
+	print("- Manganese...: ", self.amounts_of_resources_placed[self.manganese_ID + 1]);
+	print("- Oak...: ", self.amounts_of_resources_placed[self.oak_ID + 1]);
+	print("- Squid...: ", self.amounts_of_resources_placed[self.squid_ID + 1]);
+]]
 	-- END CCTP
 	print("-");
 	print("-----------------------------------------------------");
@@ -9823,8 +9848,53 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	self:ProcessResourceList(18 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
 	
 	local resources_to_place = {
+	{self.poppy_ID, 1, 100, 2, 3} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(25 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	
+	local resources_to_place = {
+	{self.poppy_ID, 1, 100, 2, 3} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(18 * bonus_multiplier, 3, self.dry_grass_flat_no_feature, resources_to_place)
+	
+	local resources_to_place = {
 	{self.titanium_ID, 1, 100, 1, 1} }; -- Changed 1 too bsamt by CCTP.
 	self:ProcessResourceList(10 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
+	--[[
+	local resources_to_place = {
+	{self.aloe_vera_ID, 1, 100, 1, 1} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(10 * bonus_multiplier, 3, self.desert_flat_no_feature, resources_to_place)
+	
+	local resources_to_place = {
+	{self.aloe_vera_ID, 1, 100, 1, 1} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(20 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	
+	local resources_to_place = {
+	{self.jade_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(10 * bonus_multiplier, 3, self.jade_list, resources_to_place)
+	
+	local resources_to_place = {
+	{self.jade_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(23 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
+	
+	local resources_to_place = {
+	{self.manganese_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(9 * bonus_multiplier, 3, self.ocean_list, resources_to_place)
+	
+	local resources_to_place = {
+	{self.manganese_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(23 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
+	
+	local resources_to_place = {
+	{self.oak_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(9 * bonus_multiplier, 3, self.forest_list, resources_to_place)
+	
+	local resources_to_place = {
+	{self.squid_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(5 * bonus_multiplier, 3, self.ocean_list, resources_to_place)
+	
+	local resources_to_place = {
+	{self.squid_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(11 * bonus_multiplier, 3, self.coast_list, resources_to_place)
+	]]
 	
 	if self.amounts_of_resources_placed[self.fish_ID + 1] < 4 * self.iNumCivs then
 		--print("Map has very low fish, adding another.");
@@ -9891,6 +9961,37 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 		local resources_to_place = { {self.titanium_ID, titanium_amt, 100, 0, 0} };
 		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
 	end
+--[[
+	if self.amounts_of_resources_placed[self.aloe_vera_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low aloe vera, adding another.");
+		local resources_to_place = { {self.aloe_vera_ID, aloe_vera_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.jade_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low jade, adding another.");
+		local resources_to_place = { {self.jade_ID, jade_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.hills_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.manganese_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low manganese, adding another.");
+		local resources_to_place = { {self.manganese_ID, manganese_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.ocean_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.oak_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low oak, adding another.");
+		local resources_to_place = { {self.oak_ID, oak_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
+	end
+	
+	if self.amounts_of_resources_placed[self.squid_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low squid, adding another.");
+		local resources_to_place = { {self.squid_ID, squid_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.coast_list, resources_to_place)
+	end
+	]]
 	-- CTTP Changes End
 	
 end
