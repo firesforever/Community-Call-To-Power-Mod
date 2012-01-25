@@ -167,7 +167,7 @@
 			<Where Name="CAPTURE_GOLD_RAND2" />
 		</Update>
 		<Update>
-			<Set Value="40" />
+			<Set Value="50" />
 			<Where Name="GOLD_FROM_BARBARIAN_CONVERSION" />
 		</Update>
 		<Update>

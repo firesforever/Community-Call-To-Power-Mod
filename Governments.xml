@@ -1567,18 +1567,6 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<Row>
-			<PolicyType>POLICY_CONSENSUS</PolicyType>
-			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>6</Yield>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_CONSENSUS</PolicyType>
-			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>6</Yield>
-		</Row>
 	</Policy_ImprovementYieldChanges>
 	
 	<Policy_CapitalYieldPerPopChanges>

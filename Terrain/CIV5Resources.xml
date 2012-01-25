@@ -188,9 +188,14 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<ResourceType>RESOURCE_PEARLS</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_GEMS</ResourceType>

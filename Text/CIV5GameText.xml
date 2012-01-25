@@ -861,7 +861,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUPERMARKET_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_SUGAR] Sugar worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_FISH] and [ICON_RES_CRAB] Crab worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_SUGAR] Sugar and [ICON_RES_COFFEE] Coffee worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD</Tag>
@@ -873,7 +873,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_STRATEGY</Tag>
-			<Text>Required for Battleship, Carrier, Supercarrier, Missile Cruiser, Nuclear Submarine, and Submarine production.[NEWLINE][NEWLINE]City must have a Seaport.[NEWLINE][NEWLINE]Can build up to 3.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil.</Text>
+			<Text>Required for Battleship, Carrier, Supercarrier, Missile Cruiser, Nuclear Submarine, and Submarine production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Seaport and must not contain an Aircraft Plant or an Auto Plant.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TRANSCONTINENTAL_RAILROAD</Tag>
@@ -901,7 +901,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AUTO_PLANT_STRATEGY</Tag>
-			<Text>Required for Tank, Panzer, Modern Armor, and Rocket Artillery production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil.[NEWLINE]City must have a Factory.</Text>
+			<Text>Required for Tank, Panzer, Modern Armor, and Rocket Artillery production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory and must not contain an Aircraft Plant or Industrial Shipyard.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_RECYCLING_PLANT</Tag>
@@ -949,7 +949,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_MEGA_DAM_HELP</Tag>
-			<Text>+15 [ICON_PRODUCTION] Production in every tile next to a river.[NEWLINE][NEWLINE]May build up to 1.</Text>
+			<Text>+3 [ICON_PRODUCTION] Production in every tile next to a river.[NEWLINE][NEWLINE]May build up to 1.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_MEGA_DAM_QUOTE</Tag>
@@ -1005,7 +1005,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_STRATEGY</Tag>
-			<Text>Required for Fighter, Bomber, B-17, Jet Fighter, and Helicopter Gunship production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory.</Text>
+			<Text>Required for Fighter, Bomber, B-17, Jet Fighter, and Helicopter Gunship production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory and must not contain an Auto Plant or Industrial Shipyard.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CHEMICAL_PLANT</Tag>
@@ -1041,7 +1041,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOOD_PROCESSING_PLANT_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_SPICES] Spices and [ICON_RES_COFFEE] Coffee worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_WINE] Wine and [ICON_RES_DEER] Deer worked by this City produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_SPICES] Spices worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_WINE] Wine and [ICON_RES_DEER] Deer worked by this City produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE</Tag>
@@ -4655,7 +4655,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BAZAAR_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each sorce of [ICON_RES_COW] Cow and [ICON_RES_HORSE] Horse worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]Requires improved source of [ICON_RES_COW] Cow, [ICON_RES_HORSE] Horse, or [ICON_RES_SHEEP] Sheep nearby."/>
+			<Set Text="Each sorce of [ICON_RES_COW] Cow, [ICON_RES_SHEEP] Sheep, and [ICON_RES_HORSE] Horse worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]Requires improved source of [ICON_RES_COW] Cow, [ICON_RES_HORSE] Horse, or [ICON_RES_SHEEP] Sheep nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_STABLE_HELP" />
 		</Update>
 		<Update>
@@ -4719,10 +4719,6 @@
 			<Where Tag="TXT_KEY_BUILDING_UNIVERSITY_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library." />
-			<Where Tag="TXT_KEY_BUILDING_WAT_STRATEGY" />
-		</Update>
-		<Update>
 			<Set Text="Significantly increases [ICON_PRODUCTION] Production in this City.[NEWLINE][NEWLINE]Requires a nearby desert for construction." />
 			<Where Tag="TXT_KEY_BUILDING_SOLAR_PLANT_HELP" />
 		</Update>
@@ -4747,11 +4743,11 @@
 			<Where Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+15 XP for Naval Units produced in this City.[NEWLINE]Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land).[NEWLINE][NEWLINE]City must be built on the coast." />
+			<Set Text="+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]+15 XP for Naval Units produced in this City.[NEWLINE]Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land).[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_BUILDING_HARBOR_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+2 [ICON_GOLD] Gold from Water Tiles.[NEWLINE]+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have a Harbor." />
+			<Set Text="+1 [ICON_GOLD] Gold from Water Tiles.[NEWLINE]+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have a Harbor." />
 			<Where Tag="TXT_KEY_BUILDING_SEAPORT_HELP" />
 		</Update>
 		<Update>
@@ -4771,7 +4767,7 @@
 			<Where Tag="TXT_KEY_BUILDING_HOSPITAL_STRATEGY" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_URANIUM] Uranium worked by this City produces +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE}Free Medic Promotion for units built in this City.[NEWLINE][NEWLINE]City must have a Hospital." />
+			<Set Text="Each source of [ICON_RES_URANIUM] Uranium and [ICON_RES_POPPY] Poppy worked by this City produces +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have a Hospital." />
 			<Where Tag="TXT_KEY_BUILDING_MEDICAL_LAB_HELP" />
 		</Update>
 		<Update>

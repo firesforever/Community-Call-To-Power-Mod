@@ -29,6 +29,11 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>4</Yield>
@@ -260,7 +265,13 @@
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
@@ -299,6 +310,12 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_WELL</ImprovementType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -322,6 +339,62 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
 		</Row>
+<!--
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+-->
 	</Improvement_ResourceType_Yields>
 	<Improvement_TechYieldChanges>
 		<Delete/>
@@ -353,12 +426,6 @@
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<TechType>TECH_GUILDS</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
-			<TechType>TECH_COMBUSTION</TechType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>

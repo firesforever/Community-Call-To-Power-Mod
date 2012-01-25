@@ -80,6 +80,30 @@
 			
 		</Row>
 		<Row>
+			<Type>RESOURCE_POPPY</Type>
+			<TechReveal>TECH_DRUGS</TechReveal>
+			<TechCityTrade>TECH_DRUGS</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_POPPY</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_POPPY_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_POPPY_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_BANANA</ArtDefineTag>
+			<AITradeModifier>10</AITradeModifier>
+			<ResourceUsage>0</ResourceUsage>
+			<AIObjective>1</AIObjective>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>20</RandApp1>
+			<RandApp2>20</RandApp2>
+			<Flatlands>true</Flatlands>
+			<IconString>[ICON_RES_POPPY]</IconString>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
+			
+		</Row>
+		<Row>
 			<Type>RESOURCE_TITANIUM</Type>
 			<TechReveal>TECH_ADVANCED_FLIGHT</TechReveal>
 			<TechCityTrade>TECH_ADVANCED_FLIGHT</TechCityTrade>
@@ -108,6 +132,119 @@
 			<!--ResourceUsage 0= bonus, 1 = strategic 2 = luxury-->
 			
 		</Row>
+<!--	<Row>
+			<Type>RESOURCE_ALOE_VERA</Type>
+			<TechReveal>TECH_CALENDAR</TechReveal>
+			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_ALOE_VERA</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_ALOE_VERA_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_ALOE_VERA_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			<ArtDefineTag>?</ArtDefineTag>
+			<AITradeModifier>10</AITradeModifier>
+			<ResourceUsage>0</ResourceUsage>
+			<AIObjective>1</AIObjective>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>20</RandApp1>
+			<RandApp2>20</RandApp2>
+			<Flatlands>true</Flatlands>
+			<IconString>[ICON_RES_ALOE_VERA]</IconString>
+			<PortraitIndex>?</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+			
+		</Row> 
+		<Row>
+			<Type>RESOURCE_JADE</Type>
+			<TechReveal>TECH_MASONRY</TechReveal>
+			<TechCityTrade>TECH_MASONRY</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_JADE</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_JADE_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_JADE_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			<ArtDefineTag>?</ArtDefineTag>
+			<AITradeModifier>10</AITradeModifier>
+			<ResourceUsage>0</ResourceUsage>
+			<AIObjective>1</AIObjective>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>20</RandApp1>
+			<RandApp2>20</RandApp2>
+			<Flatlands>true</Flatlands>
+			<IconString>[ICON_RES_JADE]</IconString>
+			<PortraitIndex>?</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+			
+		</Row>
+		<Row>
+			<Type>RESOURCE_MANGANESE</Type>
+			<TechReveal>TECH_SCIENTIFIC_THEORY</TechReveal>
+			<TechCityTrade>TECH_SCIENTIFIC_THEORY</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_MANGANESE</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MANGANESE_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_MANGANESE_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			<ArtDefineTag>?</ArtDefineTag>
+			<AITradeModifier>10</AITradeModifier>
+			<ResourceUsage>0</ResourceUsage>
+			<AIObjective>1</AIObjective>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>20</RandApp1>
+			<RandApp2>20</RandApp2>
+			<IconString>[ICON_RES_MANGANESE]</IconString>
+			<PortraitIndex>?</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+			
+		</Row>
+		<Row>
+			<Type>RESOURCE_OAK</Type>
+			<TechReveal>TECH_CONSTRUCTION</TechReveal>
+			<TechCityTrade>TECH_CONSTRUCTION</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_OAK</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_OAK_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_OAK_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			<ArtDefineTag>?</ArtDefineTag>
+			<AITradeModifier>10</AITradeModifier>
+			<ResourceUsage>0</ResourceUsage>
+			<AIObjective>1</AIObjective>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>20</RandApp1>
+			<RandApp2>20</RandApp2>
+			<Flatlands>true</Flatlands>
+			<IconString>[ICON_RES_OAK]</IconString>
+			<PortraitIndex>?</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+			
+		</Row>
+		<Row>
+			<Type>RESOURCE_SQUID</Type>
+			<TechReveal>TECH_ASTRONOMY</TechReveal>
+			<TechCityTrade>TECH_ASTRONOMY</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_SQUID</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_SQUID_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_SQUID_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			<ArtDefineTag>?</ArtDefineTag>
+			<AITradeModifier>10</AITradeModifier>
+			<ResourceUsage>0</ResourceUsage>
+			<AIObjective>1</AIObjective>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>20</RandApp1>
+			<RandApp2>20</RandApp2>
+			<IconString>[ICON_RES_SQUID]</IconString>
+			<PortraitIndex>?</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+			
+		</Row> -->
 	</Resources>
 
 
@@ -128,10 +265,42 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+<!--
+		<Row>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+-->
 	</Resource_YieldChanges>
 
 	<Resource_TerrainBooleans>
@@ -175,6 +344,36 @@
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<TerrainType>TERRAIN_HILL</TerrainType>
 		</Row>
+<!--
+		<Row>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<TerrainType>TERRAIN_HILL</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+		</Row>
+		-->
 	</Resource_TerrainBooleans>
 	
 	<Resource_FeatureBooleans>
@@ -182,6 +381,16 @@
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 		</Row>
+<!--
+		<Row>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+		-->
 	</Resource_FeatureBooleans>
 
 	<Resource_FeatureTerrainBooleans>
@@ -194,45 +403,41 @@
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
 		</Row>
 		<Row>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<TerrainType>TERRAIN_TUNDRA</TerrainType>
 		</Row>
+<!--
+		<Row>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<TerrainType>TERRAIN_HILL</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_PLAINS</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		-->
 	</Resource_FeatureTerrainBooleans>
 	
-	<Resource_QuantityTypes>
-		<Row>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-	</Resource_QuantityTypes>
 	<Improvement_ResourceTypes>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
@@ -247,9 +452,39 @@
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 		</Row>
 		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+		</Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-		</Row>		
+		</Row>
+<!--
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+		</Row>
+		-->
 	</Improvement_ResourceTypes>
 	
 	<Language_en_US>
@@ -271,13 +506,52 @@
 		<Row Tag="TXT_KEY_RESOURCE_CRAB_HELP">
 			<Text>Succulent food from the depths of the sea.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_POPPY">
+			<Text>Poppy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_POPPY_HELP">
+			<Text>Both vital Medicine and Addictive Drug.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_TITANIUM">
 			<Text>Titanium</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_TITANIUM_HELP">
 			<Text>Valuable metal prized in the Aerospace Industry.</Text>
 		</Row>
+<!--
+		<Row Tag="TXT_KEY_RESOURCE_ALOE_VERA">
+			<Text>Aloe Vera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_ALOE_VERA_HELP">
+			<Text>Herb used for many medicinal practices.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JADE">
+			<Text>Jade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JADE_HELP">
+			<Text>Stone used for many types of ornaments.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MANGANESE">
+			<Text>Manganese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MANGANESE_HELP">
+			<Text>Metal used in many processes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_OAK">
+			<Text>Oak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_OAK_HELP">
+			<Text>Strong wood used in building construction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SQUID">
+			<Text>Squied</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SQUID_HELP">
+			<Text>Deep-sea animal that darts around the ocean.</Text>
+		</Row>
+-->
 	</Language_en_US>
+	
 	<Resource_Flavors>
 		<Row>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
@@ -304,13 +578,77 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
+		<Row>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<!--
+		<Row>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<FlavorType>FLAVOR_FOOD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-->
 	</Resource_Flavors>
+	
 	<!--<IconFontMapping> not working
 	<Row>
 		<IconName>ICON_RES_ALLIGATOR</IconName>
 		<IconMapping>79</IconMapping>
 	</Row>
 	</IconFontMapping>-->
+	
 	<!--<ArtDefine_StrategicView> not working
 		<Row>
 			<StrategicViewType>ART_DEF_RESOURCE_ALLIGATOR</StrategicViewType>
@@ -318,6 +656,7 @@
 			<Asset>sv_tradecitystate.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>-->
+	
 	<Yields>
 		<Update>
 			<Set MinCity="3"/>
