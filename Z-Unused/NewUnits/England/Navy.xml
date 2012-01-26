@@ -1,0 +1,422 @@
+<!-- Created by ModBuddy on 19/11/2010 00:14:54 -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+<Units>
+
+<!-- Battleships ************************************************** -->
+		<Row>
+			<Class>UNITCLASS_BATTLESHIP</Class>
+			<Type>UNIT_BATTLESHIP_KING_GEORGE_V_CLASS</Type>
+			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
+			<Combat>80</Combat>
+			<RangedCombat>70</RangedCombat>
+			<Cost>4200</Cost>
+			<Moves>4</Moves>
+			<Range>3</Range>
+			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_BATTLESHIP_KING_GEORGE_V_CLASS</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_BATTLESHIP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_BATTLESHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_BATTLESHIP_KING_GEORGE_V_CLASS</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_KING_GEORGE_V_CLASS</UnitArtInfo>
+			<UnitFlagIconOffset>68</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+<!-- Submarines ************************************************** -->
+		<Row>
+			<Class>UNITCLASS_SUBMARINE</Class>
+			<Type>UNIT_SUBMARINE_U_CLASS</Type>
+			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
+			<Combat>30</Combat>
+			<RangedCombat>70</RangedCombat>
+			<Cost>3600</Cost>
+			<Moves>5</Moves>
+			<Range>3</Range>
+			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SUBMARINE_U_CLASS</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_SUBMARINE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SUBMARINE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SUBMARINE_U_CLASS</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_CLASS</UnitArtInfo>
+			<UnitFlagIconOffset>69</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>22</PortraitIndex>
+			<MoveRate>SUB</MoveRate>
+		</Row>
+<!-- Carriers ************************************************** -->
+		<Row>
+			<Class>UNITCLASS_CARRIER</Class>
+			<Type>UNIT_ARK_ROYAL_CLASS</Type>
+			<PrereqTech>TECH_FLIGHT</PrereqTech>
+			<Combat>30</Combat>
+			<Cost>4800</Cost>
+			<Moves>5</Moves>
+			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ARK_ROYAL_CLASS</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_CARRIER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CARRIER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ARK_ROYAL_CLASS</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_ARK_ROYAL_CLASS</UnitArtInfo>
+			<UnitFlagIconOffset>70</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>23</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+<!-- Destroyer ************************************************** -->		
+		<Row>
+			<Class>UNITCLASS_DESTROYER</Class>
+			<Type>UNIT_TRIBA_CLASS</Type>
+			<PrereqTech>TECH_COMBUSTION</PrereqTech>
+			<Combat>35</Combat>
+			<RangedCombat>22</RangedCombat>
+			<Cost>3750</Cost>
+			<Moves>8</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TRIBA_CLASS</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_DESTROYER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_DESTROYER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TRIBA_CLASS</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_TRIBA_CLASS</UnitArtInfo>
+			<UnitFlagIconOffset>67</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>20</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+	
+</Units>
+
+<Civilization_UnitClassOverrides>
+<!-- Battleships ************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+		<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
+		<UnitType>UNIT_BATTLESHIP_KING_GEORGE_V_CLASS</UnitType>
+	</Row>
+<!-- Submarines ************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+		<UnitClassType>UNITCLASS_SUBMARINE</UnitClassType>
+		<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+	</Row>
+<!-- Carriers ************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+		<UnitClassType>UNITCLASS_CARRIER</UnitClassType>
+		<UnitType>UNIT_ARK_ROYAL_CLASS</UnitType>
+	</Row>
+<!-- Destroyers ************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+		<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
+		<UnitType>UUNIT_TRIBA_CLASS</UnitType>
+	</Row>
+	
+</Civilization_UnitClassOverrides>
+
+<Unit_AITypes>
+<!-- Battleships ************************************************** -->
+		<Row>
+			<UnitType>UNIT_BATTLESHIP_KING_GEORGE_V_CLASS</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP_KING_GEORGE_V_CLASS</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+<!-- Submarines ************************************************** -->
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+<!-- Carriers ************************************************** -->
+		<Row>
+			<UnitType>UNIT_ARK_ROYAL_CLASS</UnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+<!-- Destroyer ************************************************** -->		
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+
+</Unit_AITypes>
+
+<Unit_Flavors>
+<!-- Battleships ************************************************** -->
+		<Row>
+			<UnitType>UNIT_BATTLESHIP_KING_GEORGE_V_CLASS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP_KING_GEORGE_V_CLASS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP_KING_GEORGE_V_CLASS</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+<!-- Submarines ************************************************** -->
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+<!-- Carriers ************************************************** -->
+		<Row>
+			<UnitType>UNIT_ARK_ROYAL_CLASS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARK_ROYAL_CLASS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARK_ROYAL_CLASS</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARK_ROYAL_CLASS</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+<!-- Destroyers ************************************************** -->		
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+
+</Unit_Flavors>
+
+<Unit_ClassUpgrades>
+<!-- Battleships ************************************************** -->
+
+<!-- Submarines ************************************************** -->
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<UnitClassType>UNITCLASS_NUCLEAR_SUBMARINE</UnitClassType>
+		</Row>
+<!-- Carriers ************************************************** -->
+
+
+</Unit_ClassUpgrades>
+
+<Unit_ResourceQuantityRequirements>
+<!-- Battleships ************************************************** -->
+		<Row>
+			<UnitType>UNIT_BATTLESHIP_KING_GEORGE_V_CLASS</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+<!-- Submarines ************************************************** -->
+
+<!-- Carriers ************************************************** -->		
+
+
+</Unit_ResourceQuantityRequirements>
+
+<Unit_FreePromotions>
+<!-- Battleships ************************************************** -->
+		<Row>
+			<UnitType>UNIT_BATTLESHIP_KING_GEORGE_V_CLASS</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP_KING_GEORGE_V_CLASS</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+<!-- Submarines ************************************************** -->
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<PromotionType>PROMOTION_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE_U_CLASS</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+<!-- Carriers ************************************************** -->
+		<Row>
+			<UnitType>UNIT_ARK_ROYAL_CLASS</UnitType>
+			<PromotionType>PROMOTION_CARGO_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARK_ROYAL_CLASS</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+<!-- Destroyers ************************************************** -->
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIBA_CLASS</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		
+</Unit_FreePromotions>
+
+<Language_en_US>
+<!-- Battleships ************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_BATTLESHIP_KING_GEORGE_V_CLASS">
+		<Text>King George V Class</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_BATTLESHIP_KING_GEORGE_V_CLASS">
+		<Text>British Battleship from WW2.</Text>
+	</Row>
+<!-- Submarines ************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_SUBMARINE_U_CLASS">
+		<Text>T Class</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_SUBMARINE_U_CLASS">
+		<Text>British submarine from WW2.</Text>
+	</Row>
+<!-- Carriers ************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_ARK_ROYAL_CLASS">
+		<Text>Ark Royal Class</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_ARK_ROYAL_CLASS">
+		<Text>British carrier from WW2.</Text>
+	</Row>
+<!-- Destroyers ************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_TRIBA_CLASS">
+		<Text>Triba Class</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TRIBA_CLASS">
+		<Text>British destroyer from WW2.</Text>
+	</Row>
+	
+</Language_en_US>
+</GameData>

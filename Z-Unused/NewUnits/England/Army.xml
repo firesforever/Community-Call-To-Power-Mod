@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 19/11/2010 00:14:54 -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+<Units>
+
+	<!-- Infantry************************************************** -->
+	<Row>
+		<Class>UNITCLASS_INFANTRY</Class>
+		<Type>UNIT_ENGLAND_INFANTRY</Type>
+		<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+		<Combat>36</Combat>
+		<Cost>1860</Cost>
+		<Moves>2</Moves>
+		<CombatClass>UNITCOMBAT_GUN</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+		<Description>TXT_KEY_UNIT_INFANTRY_ENG</Description>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_INFANTRY_TEXT</Civilopedia>
+		<Strategy>TXT_KEY_UNIT_INFANTRY_STRATEGY</Strategy>
+		<Help>TXT_KEY_UNIT_HELP_TOMMIES</Help>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_MECHANIZED_INFANTRY</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>35</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<Conscription>6</Conscription>
+		<UnitArtInfo>ART_DEF_UNIT_ENGLAND_WW2INFANTRY1</UnitArtInfo>
+		<UnitFlagIconOffset>54</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>11</PortraitIndex>
+	</Row>
+	
+	<!-- Tanks************************************************** -->
+		<Row>
+			<Class>UNITCLASS_TANK</Class>
+			<Type>UNIT_TANK_A27M_CROMWELL</Type>
+			<PrereqTech>TECH_COMBUSTION</PrereqTech>
+			<Combat>50</Combat>
+			<Cost>3472</Cost>
+			<Moves>5</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TANK_A27M_CROMWELL</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_TANK_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_TANK_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TANK_A27M_CROMWELL</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_ARMOR</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_TANK_A27M_CROMWELL</UnitArtInfo>
+			<UnitFlagIconOffset>57</UnitFlagIconOffset>
+			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	<!-- Antitanks************************************************** -->
+		<Row>
+			<Class>UNITCLASS_ANTI_TANK_GUN</Class>
+			<Type>UNIT_ANTI_TANK_M10_ACHILLES</Type>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+			<Combat>32</Combat>
+			<Cost>1600</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TANK_M10_ACHILLES</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_ANTITANKGUN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AT_GUN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TANK_M10_ACHILLES</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_HELICOPTER_GUNSHIP</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>35</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_TANK_M10_ACHILLES</UnitArtInfo>
+			<UnitFlagIconOffset>60</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	<!-- AAs************************************************** -->
+		<Row>
+			<Class>UNITCLASS_ANTI_AIRCRAFT_GUN</Class>
+			<Type>UNIT_CRUSADER_III_AA</Type>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+			<Combat>32</Combat>
+			<Cost>1600</Cost>
+			<Moves>2</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CRUSADER_III_AA</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_ANTIAIRCRAFTGUN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ANTI_AIRCRAFT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CRUSADER_III_AA</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MOBILE_SAM</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>35</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>5</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_CRUSADER_III_AA</UnitArtInfo>
+			<UnitFlagIconOffset>61</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	<!-- Paratrooper************************************************** -->	
+		<Row>
+			<Class>UNITCLASS_PARATROOPER</Class>
+			<Type>UNIT_PARATROOPER_UK</Type>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<Combat>40</Combat>
+			<Cost>1750</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_PARADROP</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PARATROOPER_UK</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_PARATROOPER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_PARATROOPER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_PARATROOPER_UK</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER_UK</UnitArtInfo>
+			<UnitFlagIconOffset>59</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+		</Row>
+		
+	
+</Units>
+<Civilization_UnitClassOverrides>
+	<!-- Infantry************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+		<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+		<UnitType>UNIT_ENGLAND_INFANTRY</UnitType>
+	</Row>
+	
+	<!-- Tanks************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+		<UnitClassType>UNITCLASS_TANK</UnitClassType>
+		<UnitType>UNIT_TANK_A27M_CROMWELL</UnitType>
+	</Row>
+	<!-- Antitanks************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+		<UnitClassType>UNITCLASS_ANTI_TANK_GUN</UnitClassType>
+		<UnitType>UNIT_ANTI_TANK_M10_ACHILLES</UnitType>
+	</Row>
+	<!-- AAs************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+		<UnitClassType>UNITCLASS_ANTI_AIRCRAFT_GUN</UnitClassType>
+		<UnitType>UNIT_CRUSADER_III_AA</UnitType>
+	</Row>
+	<!-- Paratrooper************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+		<UnitClassType>UNITCLASS_PARATROOPER</UnitClassType>
+		<UnitType>UNIT_PARATROOPER_UK</UnitType>
+	</Row>
+	
+</Civilization_UnitClassOverrides>
+
+<Unit_AITypes>
+	<!-- Infantry************************************************** -->
+	<Row>
+		<UnitType>UNIT_ENGLAND_INFANTRY</UnitType>
+		<UnitAIType>UNITAI_ATTACK</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ENGLAND_INFANTRY</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ENGLAND_INFANTRY</UnitType>
+		<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+	</Row>
+	
+	<!-- Tanks************************************************** -->
+		<Row>
+			<UnitType>UNIT_TANK_A27M_CROMWELL</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TANK_A27M_CROMWELL</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	<!-- Antitanks************************************************** -->
+	<Row>
+		<UnitType>UNIT_ANTI_TANK_M10_ACHILLES</UnitType>
+		<UnitAIType>UNITAI_COUNTER</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANTI_TANK_M10_ACHILLES</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<!-- AAs************************************************** -->
+	<Row>
+		<UnitType>UNIT_CRUSADER_III_AA</UnitType>
+		<UnitAIType>UNITAI_COUNTER</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CRUSADER_III_AA</UnitType>
+		<UnitAIType>UNITAI_CITY_SPECIAL</UnitAIType>
+	</Row>
+	<!-- Paratrooper************************************************** -->
+	<Row>
+		<UnitType>UNIT_PARATROOPER_UK</UnitType>
+		<UnitAIType>UNITAI_PARADROP</UnitAIType>
+	</Row>
+
+</Unit_AITypes>
+
+<Unit_Flavors>
+	<!-- Infantry************************************************** -->
+	<Row>
+		<UnitType>UNIT_ENGLAND_INFANTRY</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ENGLAND_INFANTRY</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	
+	<!-- Tanks************************************************** -->
+	
+		<Row>
+			<UnitType>UNIT_TANK_A27M_CROMWELL</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TANK_A27M_CROMWELL</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TANK_A27M_CROMWELL</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+	<!-- Antitanks************************************************** -->
+	<Row>
+		<UnitType>UNIT_ANTI_TANK_M10_ACHILLES</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>1</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANTI_TANK_M10_ACHILLES</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<!-- AAs************************************************** -->
+	
+	<Row>
+		<UnitType>UNIT_CRUSADER_III_AA</UnitType>
+		<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+		<Flavor>25</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CRUSADER_III_AA</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>
+	<!-- Paratrooper************************************************** -->
+	<Row>
+		<UnitType>UNIT_PARATROOPER_UK</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PARATROOPER_UK</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PARATROOPER_UK</UnitType>
+		<FlavorType>FLAVOR_AIR</FlavorType>
+		<Flavor>3</Flavor>
+	</Row>
+	
+</Unit_Flavors>
+
+<Unit_ClassUpgrades>
+		<!-- Infantry************************************************** -->
+		<Row>
+			<UnitType>UNIT_ENGLAND_INFANTRY</UnitType>
+			<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
+		</Row>
+		
+		<!-- Tanks************************************************** -->
+		<Row>
+			<UnitType>UNIT_TANK_A27M_CROMWELL</UnitType>
+			<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
+		</Row>
+		
+		<!-- Antitanks************************************************** -->
+		<Row>
+			<UnitType>UNIT_ANTI_TANK_M10_ACHILLES</UnitType>
+			<UnitClassType>UNITCLASS_HELICOPTER_GUNSHIP</UnitClassType>
+		</Row>
+		
+		<!-- AAs************************************************** -->
+		<Row>
+			<UnitType>UNIT_CRUSADER_III_AA</UnitType>
+			<UnitClassType>UNITCLASS_MOBILE_SAM</UnitClassType>
+		</Row>
+
+</Unit_ClassUpgrades>
+
+
+<Unit_ResourceQuantityRequirements>
+		
+		<!-- Infantry************************************************** -->
+
+		
+		<!-- Tanks************************************************** -->
+		<Row>
+			<UnitType>UNIT_TANK_A27M_CROMWELL</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		
+		<!-- Antitanks************************************************** -->
+
+		
+		<!-- AAs************************************************** -->
+
+
+</Unit_ResourceQuantityRequirements>
+
+<Unit_FreePromotions>
+		
+		<!-- Infantry************************************************** -->
+		
+		<!-- Tanks************************************************** -->
+		<Row>
+			<UnitType>UNIT_TANK_A27M_CROMWELL</UnitType>
+			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TANK_A27M_CROMWELL</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TANK_A27M_CROMWELL</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<!-- Antitanks************************************************** -->
+		<Row>
+			<UnitType>UNIT_ANTI_TANK_M10_ACHILLES</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+		
+		<!-- AAs************************************************** -->
+		<Row>
+			<UnitType>UNIT_CRUSADER_III_AA</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_III_AA</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_III_AA</UnitType>
+			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
+		</Row>
+		<!-- Paratrooper************************************************** -->
+		<Row>
+			<UnitType>UNIT_PARATROOPER_UK</UnitType>
+			<PromotionType>PROMOTION_PARADROP</PromotionType>
+		</Row>
+		
+		
+</Unit_FreePromotions>
+
+<Language_en_US>
+	<!-- Infantry************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_INFANTRY_ENG">
+		<Text>Tommies</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TOMMIES">
+		<Text>British infantry from WW2.</Text>
+	</Row>
+	<!-- Tanks************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_TANK_A27M_CROMWELL">
+		<Text>A27M Cromwell</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TANK_A27M_CROMWELL">
+		<Text>British tank from WW2.</Text>
+	</Row>
+	<!-- Antitanks************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_TANK_M10_ACHILLES">
+		<Text>M10 Achilles</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_TANK_M10_ACHILLES">
+		<Text>British AntiTank from WW2.</Text>
+	</Row>
+	<!-- AAs************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_CRUSADER_III_AA">
+		<Text>Crusader III AA</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_CRUSADER_III_AA">
+		<Text>British AntiAircraft from WW2.</Text>
+	</Row>
+	<!-- Paratrooper************************************************** -->
+	<Row Tag="TXT_KEY_UNIT_PARATROOPER_UK">
+		<Text>Paratrooper</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_HELP_PARATROOPER_UK">
+		<Text>British Paratrooper.</Text>
+	</Row>
+
+</Language_en_US>
+</GameData>

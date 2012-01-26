@@ -308,3 +308,4 @@ ContextPtr:SetShowHideHandler( ShowHideHandler );
 
 --This code only needs to be done once, Firesforever 14/10/2010
 InitialSetup()
+CompileTableLuaCallbacks()

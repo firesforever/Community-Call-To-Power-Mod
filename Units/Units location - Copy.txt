@@ -1,0 +1,206 @@
+
+\Units\Art\WW2\China\Early Tank\Renault_FT-17_China\no_gloss.dds
+\Units\Art\WW2\China\Early Tank\Renault_FT-17_China\Renault_FT-17_China.dds
+\Units\Art\WW2\China\Early Tank\Renault_FT-17_China\Renault_FT-17_China.fxsxml
+\Units\Art\WW2\China\Early Tank\Renault_FT-17_China\Renault_FT-17_China.gr2
+
+
+\Units\Art\WW2\France\Capital Ship\Richelieu_Class\Richelieu_Class.dds
+\Units\Art\WW2\France\Capital Ship\Richelieu_Class\Richelieu_Class.fxsxml
+\Units\Art\WW2\France\Capital Ship\Richelieu_Class\Richelieu_Class.gr2
+\Units\Art\WW2\France\Capital Ship\Richelieu_Class\Richelieu_Class_gloss.dds
+
+\Units\Art\WW2\France\Cruiser\La_Galissonniere_Class\La_Galissonniere_Class.dds
+\Units\Art\WW2\France\Cruiser\La_Galissonniere_Class\La_Galissonniere_Class.fxsxml
+\Units\Art\WW2\France\Cruiser\La_Galissonniere_Class\La_Galissonniere_Class.gr2
+\Units\Art\WW2\France\Cruiser\La_Galissonniere_Class\La_Galissonniere_Class_gloss.dds
+
+\Units\Art\WW2\France\Early Fighter\Nieuport_17\Nieuport_17.dds
+\Units\Art\WW2\France\Early Fighter\Nieuport_17\Nieuport_17.fxsxml
+\Units\Art\WW2\France\Early Fighter\Nieuport_17\Nieuport_17.gr2
+\Units\Art\WW2\France\Early Fighter\Nieuport_17\no_gloss.dds
+
+\Units\Art\WW2\France\Early Tank\Renault_FT-17\no_gloss.dds
+\Units\Art\WW2\France\Early Tank\Renault_FT-17\Renault_FT-17.dds
+\Units\Art\WW2\France\Early Tank\Renault_FT-17\Renault_FT-17.fxsxml
+\Units\Art\WW2\France\Early Tank\Renault_FT-17\Renault_FT-17.gr2
+
+\Units\Art\WW2\Generic\Capital Ship\Dreadnought_Generic\Dreadnought_Generic.dds
+\Units\Art\WW2\Generic\Capital Ship\Dreadnought_Generic\Dreadnought_Generic.fxsxml
+\Units\Art\WW2\Generic\Capital Ship\Dreadnought_Generic\Dreadnought_Generic.gr2
+\Units\Art\WW2\Generic\Capital Ship\Dreadnought_Generic\Dreadnought_Generic_gloss.dds
+
+\Units\Art\WW2\Generic\Cruiser\Cruiser_Generic\Cruiser_Generic.dds
+\Units\Art\WW2\Generic\Cruiser\Cruiser_Generic\Cruiser_Generic.fxsxml
+\Units\Art\WW2\Generic\Cruiser\Cruiser_Generic\Cruiser_Generic.gr2
+\Units\Art\WW2\Generic\Cruiser\Cruiser_Generic\Cruiser_Generic_gloss.dds
+
+\Units\Art\WW2\Generic\Destroyer\Destroyer_Generic\Destroyer_Generic.dds
+\Units\Art\WW2\Generic\Destroyer\Destroyer_Generic\Destroyer_Generic.fxsxml
+\Units\Art\WW2\Generic\Destroyer\Destroyer_Generic\Destroyer_Generic.gr2
+\Units\Art\WW2\Generic\Destroyer\Destroyer_Generic\Destroyer_Generic_gloss.dds
+
+\Units\Art\WW2\Generic\Early Fighter\EarlyFighter_Generic\EarlyFighter_Generic.dds
+\Units\Art\WW2\Generic\Early Fighter\EarlyFighter_Generic\EarlyFighter_Generic.fxsxml
+\Units\Art\WW2\Generic\Early Fighter\EarlyFighter_Generic\EarlyFighter_Generic.gr2
+\Units\Art\WW2\Generic\Early Fighter\EarlyFighter_Generic\EarlyFighter_Generic_gloss.dds
+
+\Units\Art\WW2\Generic\Early Tank\EarlyTank_Generic\EarlyTank_Generic.dds
+\Units\Art\WW2\Generic\Early Tank\EarlyTank_Generic\EarlyTank_Generic.fxsxml
+\Units\Art\WW2\Generic\Early Tank\EarlyTank_Generic\EarlyTank_Generic.gr2
+\Units\Art\WW2\Generic\Early Tank\EarlyTank_Generic\EarlyTank_Generic_gloss.dds
+
+\Units\Art\WW2\Generic\Paratroopers\Paratrooper_Generic\no_gloss.dds
+\Units\Art\WW2\Generic\Paratroopers\Paratrooper_Generic\Paratrooper_Generic.dds
+\Units\Art\WW2\Generic\Paratroopers\Paratrooper_Generic\Paratrooper_Generic.fxsxml
+\Units\Art\WW2\Generic\Paratroopers\Paratrooper_Generic\Paratrooper_Generic.gr2
+
+\Units\Art\WW2\Germany\Capital Ship\Bismark_Class\Bismark_Class.dds
+\Units\Art\WW2\Germany\Capital Ship\Bismark_Class\Bismark_Class.fxsxml
+\Units\Art\WW2\Germany\Capital Ship\Bismark_Class\Bismark_Class.gr2
+\Units\Art\WW2\Germany\Capital Ship\Bismark_Class\Bismark_Class_gloss.dds
+
+\Units\Art\WW2\Germany\Cruiser\Deutschland_Class\Deutschland_Class.dds
+\Units\Art\WW2\Germany\Cruiser\Deutschland_Class\Deutschland_Class.fxsxml
+\Units\Art\WW2\Germany\Cruiser\Deutschland_Class\Deutschland_Class.gr2
+\Units\Art\WW2\Germany\Cruiser\Deutschland_Class\Deutschland_Class_gloss.dds
+
+\Units\Art\WW2\Germany\Early Fighter\Fokker_Dr.1\Fokker_Dr.1.dds
+\Units\Art\WW2\Germany\Early Fighter\Fokker_Dr.1\Fokker_Dr.1.fxsxml
+\Units\Art\WW2\Germany\Early Fighter\Fokker_Dr.1\Fokker_Dr.1.gr2
+\Units\Art\WW2\Germany\Early Fighter\Fokker_Dr.1\no_gloss.dds
+
+\Units\Art\WW2\Germany\Early Tank\A7V\A7V.dds
+\Units\Art\WW2\Germany\Early Tank\A7V\A7V.fxsxml
+\Units\Art\WW2\Germany\Early Tank\A7V\A7V.gr2
+\Units\Art\WW2\Germany\Early Tank\A7V\no_gloss.dds
+
+\Units\Art\WW2\Greek\Cruiser\Pisa_Class\Pisa_Class.dds
+\Units\Art\WW2\Greek\Cruiser\Pisa_Class\Pisa_Class.fxsxml
+\Units\Art\WW2\Greek\Cruiser\Pisa_Class\Pisa_Class.gr2
+\Units\Art\WW2\Greek\Cruiser\Pisa_Class\Pisa_Class_gloss.dds
+
+\Units\Art\WW2\Greek\Early Fighter\PZL_P.24\no_gloss.dds
+\Units\Art\WW2\Greek\Early Fighter\PZL_P.24\PZL_P.24.dds
+\Units\Art\WW2\Greek\Early Fighter\PZL_P.24\PZL_P.24.fxsxml
+\Units\Art\WW2\Greek\Early Fighter\PZL_P.24\PZL_P.24.gr2
+
+\Units\Art\WW2\Greek\Early Tank\Renault_FT-17\no_gloss.dds
+\Units\Art\WW2\Greek\Early Tank\Renault_FT-17\Renault_FT-17_Greece.dds
+\Units\Art\WW2\Greek\Early Tank\Renault_FT-17\Renault_FT-17_Greece.fxsxml
+\Units\Art\WW2\Greek\Early Tank\Renault_FT-17\Renault_FT-17_Greece.gr2
+
+\Units\Art\WW2\Italy\Capital Ship\Littorio_Class\Littorio_Class.dds
+\Units\Art\WW2\Italy\Capital Ship\Littorio_Class\Littorio_Class.fxsxml
+\Units\Art\WW2\Italy\Capital Ship\Littorio_Class\Littorio_Class.gr2
+\Units\Art\WW2\Italy\Capital Ship\Littorio_Class\Littorio_Class_gloss.dds
+
+\Units\Art\WW2\Italy\Cruiser\Zara_Class\Zara_Class.dds
+\Units\Art\WW2\Italy\Cruiser\Zara_Class\Zara_Class.fxsxml
+\Units\Art\WW2\Italy\Cruiser\Zara_Class\Zara_Class.gr2
+\Units\Art\WW2\Italy\Cruiser\Zara_Class\Zara_Class_gloss.dds
+
+\Units\Art\WW2\Italy\Early Fighter\Ansaldo_SVA-5\Ansaldo_SVA-5.dds
+\Units\Art\WW2\Italy\Early Fighter\Ansaldo_SVA-5\Ansaldo_SVA-5.fxsxml
+\Units\Art\WW2\Italy\Early Fighter\Ansaldo_SVA-5\Ansaldo_SVA-5.gr2
+\Units\Art\WW2\Italy\Early Fighter\Ansaldo_SVA-5\no_gloss.dds
+
+\Units\Art\WW2\Italy\Early Tank\Fiat_3000\Fiat_3000.dds
+\Units\Art\WW2\Italy\Early Tank\Fiat_3000\Fiat_3000.fxsxml
+\Units\Art\WW2\Italy\Early Tank\Fiat_3000\Fiat_3000.gr2
+\Units\Art\WW2\Italy\Early Tank\Fiat_3000\no_gloss.dds
+
+\Units\Art\WW2\Japan\Capital Ship\Yamato_Class\Yamato_Class.dds
+\Units\Art\WW2\Japan\Capital Ship\Yamato_Class\Yamato_Class.fxsxml
+\Units\Art\WW2\Japan\Capital Ship\Yamato_Class\Yamato_Class.gr2
+\Units\Art\WW2\Japan\Capital Ship\Yamato_Class\Yamato_Class_gloss.dds
+
+
+\Units\Art\WW2\Japan\Cruiser\Takao_Class\Takao_Class.dds
+\Units\Art\WW2\Japan\Cruiser\Takao_Class\Takao_Class.fxsxml
+\Units\Art\WW2\Japan\Cruiser\Takao_Class\Takao_Class.gr2
+\Units\Art\WW2\Japan\Cruiser\Takao_Class\Takao_Class_gloss.dds
+
+\Units\Art\WW2\Japan\Early Fighter\Kawasaki_Ki-10_Perry\Kawasaki_Ki-10_Perry.dds
+\Units\Art\WW2\Japan\Early Fighter\Kawasaki_Ki-10_Perry\Kawasaki_Ki-10_Perry.fxsxml
+\Units\Art\WW2\Japan\Early Fighter\Kawasaki_Ki-10_Perry\Kawasaki_Ki-10_Perry.gr2
+\Units\Art\WW2\Japan\Early Fighter\Kawasaki_Ki-10_Perry\no_gloss.dds
+
+\Units\Art\WW2\Japan\Early Tank\Type79_Ko-Gata\no_gloss.dds
+\Units\Art\WW2\Japan\Early Tank\Type79_Ko-Gata\Type79_Ko-Gata.dds
+\Units\Art\WW2\Japan\Early Tank\Type79_Ko-Gata\Type79_Ko-Gata.fxsxml
+\Units\Art\WW2\Japan\Early Tank\Type79_Ko-Gata\Type79_Ko-Gata.gr2
+
+
+\Units\Art\WW2\Russia\Capital Ship\Sovetsky_Soyuz_Class\Sovetsky_Soyuz_Class.dds
+\Units\Art\WW2\Russia\Capital Ship\Sovetsky_Soyuz_Class\Sovetsky_Soyuz_Class.fxsxml
+\Units\Art\WW2\Russia\Capital Ship\Sovetsky_Soyuz_Class\Sovetsky_Soyuz_Class.gr2
+\Units\Art\WW2\Russia\Capital Ship\Sovetsky_Soyuz_Class\Sovetsky_Soyuz_Class_gloss.dds
+
+
+\Units\Art\WW2\Russia\Cruiser\Kirov_Class\Kirov_Class.dds
+\Units\Art\WW2\Russia\Cruiser\Kirov_Class\Kirov_Class.fxsxml
+\Units\Art\WW2\Russia\Cruiser\Kirov_Class\Kirov_Class.gr2
+\Units\Art\WW2\Russia\Cruiser\Kirov_Class\Kirov_Class_gloss.dds
+
+\Units\Art\WW2\Russia\Early Fighter\Polikarpov_Po-2\no_gloss.dds
+\Units\Art\WW2\Russia\Early Fighter\Polikarpov_Po-2\Polikarpov_Po-2.fxsxml
+\Units\Art\WW2\Russia\Early Fighter\Polikarpov_Po-2\Polikarpov_Po-2.gr2
+\Units\Art\WW2\Russia\Early Fighter\Polikarpov_Po-2\Polikarpov_Po-2_4.dds
+
+\Units\Art\WW2\Russia\Early Tank\Renault_FT-17_Russia\no_gloss.dds
+\Units\Art\WW2\Russia\Early Tank\Renault_FT-17_Russia\Renault_FT-17_Russia.dds
+\Units\Art\WW2\Russia\Early Tank\Renault_FT-17_Russia\Renault_FT-17_Russia.fxsxml
+\Units\Art\WW2\Russia\Early Tank\Renault_FT-17_Russia\Renault_FT-17_Russia.gr2
+
+
+
+\Units\Art\WW2\UK\Capital Ship\Admiral_Class\Admiral_Class.dds
+\Units\Art\WW2\UK\Capital Ship\Admiral_Class\Admiral_Class.fxsxml
+\Units\Art\WW2\UK\Capital Ship\Admiral_Class\Admiral_Class.gr2
+\Units\Art\WW2\UK\Capital Ship\Admiral_Class\Admiral_Class_gloss.dds
+
+\Units\Art\WW2\UK\Cruiser\Dido_Class\Dido_Class.dds
+\Units\Art\WW2\UK\Cruiser\Dido_Class\Dido_Class.fxsxml
+\Units\Art\WW2\UK\Cruiser\Dido_Class\Dido_Class.gr2
+\Units\Art\WW2\UK\Cruiser\Dido_Class\Dido_Class_gloss.dds
+
+\Units\Art\WW2\UK\Early Fighter\Spowith_Camel\no_gloss.dds
+\Units\Art\WW2\UK\Early Fighter\Spowith_Camel\Spowith_Camel.dds
+\Units\Art\WW2\UK\Early Fighter\Spowith_Camel\Spowith_Camel.fxsxml
+\Units\Art\WW2\UK\Early Fighter\Spowith_Camel\Spowith_Camel.gr2
+
+\Units\Art\WW2\UK\Early Tank\MK_A_Whippet\MK_A_Whippet.dds
+\Units\Art\WW2\UK\Early Tank\MK_A_Whippet\MK_A_Whippet.fxsxml
+\Units\Art\WW2\UK\Early Tank\MK_A_Whippet\MK_A_Whippet.gr2
+\Units\Art\WW2\UK\Early Tank\MK_A_Whippet\no_gloss.dds
+
+
+
+\Units\Art\WW2\USA\Capital Ship\Iowa_Class\Iowa_Class.dds
+\Units\Art\WW2\USA\Capital Ship\Iowa_Class\Iowa_Class.fxsxml
+\Units\Art\WW2\USA\Capital Ship\Iowa_Class\Iowa_Class.gr2
+\Units\Art\WW2\USA\Capital Ship\Iowa_Class\Iowa_Class_gloss.dds
+
+
+\Units\Art\WW2\USA\Cruiser\Baltimore_Class\Baltimore_Class.dds
+\Units\Art\WW2\USA\Cruiser\Baltimore_Class\Baltimore_Class.fxsxml
+\Units\Art\WW2\USA\Cruiser\Baltimore_Class\Baltimore_Class.gr2
+\Units\Art\WW2\USA\Cruiser\Baltimore_Class\Baltimore_Class_gloss.dds
+
+
+\Units\Art\WW2\USA\Early Fighter\SPAD S.XIII\no_gloss.dds
+\Units\Art\WW2\USA\Early Fighter\SPAD S.XIII\SPAD_S.XIII.dds
+\Units\Art\WW2\USA\Early Fighter\SPAD S.XIII\SPAD_S.XIII.fxsxml
+\Units\Art\WW2\USA\Early Fighter\SPAD S.XIII\SPAD_S.XIII.gr2
+
+\Units\Art\WW2\USA\Early Tank\M1917\M1917.dds
+\Units\Art\WW2\USA\Early Tank\M1917\M1917.fxsxml
+\Units\Art\WW2\USA\Early Tank\M1917\M1917.gr2
+\Units\Art\WW2\USA\Early Tank\M1917\no_gloss.dds
+
+
+\Units\Art\WW2\USA\Tanks\M4A3_Sherman_IV\M4A3_Sherman_IV.dds
+\Units\Art\WW2\USA\Tanks\M4A3_Sherman_IV\M4A3_Sherman_IV.fxsxml
+\Units\Art\WW2\USA\Tanks\M4A3_Sherman_IV\M4A3_Sherman_IV.gr2
+\Units\Art\WW2\USA\Tanks\M4A3_Sherman_IV\no_gloss.dds

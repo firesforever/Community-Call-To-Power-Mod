@@ -1,0 +1,7 @@
+Installation
+
+If you do not have Winrar you should download and install it now. :)
+
+Place the downloaded CCTP 1's System & More Maps.rar in .....Documents/My Games/Sid Meier's Cvilization V/MODS/Community Call to Power Project (v 1)
+
+Right click and select extract here, overwrite all files when promted to do so, Done!

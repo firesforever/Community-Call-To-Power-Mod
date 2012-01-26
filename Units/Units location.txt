@@ -1,0 +1,511 @@
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/AntiTank/ZiS-30_China/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/AntiTank/ZiS-30_China/ZiS-30_China.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/AntiTank/ZiS-30_China/ZiS-30_China.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/AntiTank/ZiS-30_China/ZiS-30_China.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Bombers/Tupolev_SB-2/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Bombers/Tupolev_SB-2/Tupolev_SB-2.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Bombers/Tupolev_SB-2/Tupolev_SB-2.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Bombers/Tupolev_SB-2/Tupolev_SB-2_3.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Early Tank/Renault_FT-17_China/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Early Tank/Renault_FT-17_China/Renault_FT-17_China.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Early Tank/Renault_FT-17_China/Renault_FT-17_China.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Early Tank/Renault_FT-17_China/Renault_FT-17_China.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Fighters/Polikarpov_I-16_China/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Fighters/Polikarpov_I-16_China/Polikarpov_I-16_China.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Fighters/Polikarpov_I-16_China/Polikarpov_I-16_China.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Fighters/Polikarpov_I-16_China/Polikarpov_I-16_China.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Infantry/Infantry_China/Infantry_China.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Infantry/Infantry_China/Infantry_China.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Infantry/Infantry_China/Infantry_China.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Infantry/Infantry_China/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Tanks/T-26B/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Tanks/T-26B/T-26B.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Tanks/T-26B/T-26B.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Tanks/T-26B/T-26B.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiAircraft/Hotchkiss_25mm_AA_Half-Track/Hotchkiss_25mm_AA_Half-Track.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiAircraft/Hotchkiss_25mm_AA_Half-Track/Hotchkiss_25mm_AA_Half-Track.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiAircraft/Hotchkiss_25mm_AA_Half-Track/Hotchkiss_25mm_AA_Half-Track.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiAircraft/Hotchkiss_25mm_AA_Half-Track/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiTank/Somua_SAU-40/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiTank/Somua_SAU-40/Somua_SAU-40.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiTank/Somua_SAU-40/Somua_SAU-40.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiTank/Somua_SAU-40/Somua_SAU-40.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Battleships/Dunkerque_Class/Dunkerque_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Battleships/Dunkerque_Class/Dunkerque_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Battleships/Dunkerque_Class/Dunkerque_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Battleships/Dunkerque_Class/Dunkerque_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Bombers/Amiot_350/Amiot_350.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Bombers/Amiot_350/Amiot_350.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Bombers/Amiot_350/Amiot_350.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Bombers/Amiot_350/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Capital Ship/Richelieu_Class/Richelieu_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Capital Ship/Richelieu_Class/Richelieu_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Capital Ship/Richelieu_Class/Richelieu_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Capital Ship/Richelieu_Class/Richelieu_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Carriers/Joffre_Class/Joffre_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Carriers/Joffre_Class/Joffre_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Carriers/Joffre_Class/Joffre_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Carriers/Joffre_Class/Joffre_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Cruiser/La_Galissonniere_Class/La_Galissonniere_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Cruiser/La_Galissonniere_Class/La_Galissonniere_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Cruiser/La_Galissonniere_Class/La_Galissonniere_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Cruiser/La_Galissonniere_Class/La_Galissonniere_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Destroyer/Fantasque_Class/Fantasque_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Destroyer/Fantasque_Class/Fantasque_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Destroyer/Fantasque_Class/Fantasque_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Destroyer/Fantasque_Class/Fantasque_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Fighter/Nieuport_17/Nieuport_17.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Fighter/Nieuport_17/Nieuport_17.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Fighter/Nieuport_17/Nieuport_17.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Fighter/Nieuport_17/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Tank/Renault_FT-17/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Tank/Renault_FT-17/Renault_FT-17.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Tank/Renault_FT-17/Renault_FT-17.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Tank/Renault_FT-17/Renault_FT-17.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Fighters/Morane-Saulnier_M.S.406/Morane-Saulnier_M.S.406.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Fighters/Morane-Saulnier_M.S.406/Morane-Saulnier_M.S.406.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Fighters/Morane-Saulnier_M.S.406/Morane-Saulnier_M.S.406.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Fighters/Morane-Saulnier_M.S.406/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Infantry/Infantry_France/Infantry_France.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Infantry/Infantry_France/Infantry_France.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Infantry/Infantry_France/Infantry_France.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Infantry/Infantry_France/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Paratroopers/Paratrooper_France/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Paratroopers/Paratrooper_France/Paratrooper_France.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Paratroopers/Paratrooper_France/Paratrooper_France.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Paratroopers/Paratrooper_France/Paratrooper_France.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Submarines/Redoutable_Class/Redoutable_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Submarines/Redoutable_Class/Redoutable_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Submarines/Redoutable_Class/Redoutable_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Submarines/Redoutable_Class/Redoutable_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Tanks/Char_D2/Char_D2.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Tanks/Char_D2/Char_D2.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Tanks/Char_D2/Char_D2.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Tanks/Char_D2/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Capital Ship/Dreadnought_Generic/Dreadnought_Generic.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Capital Ship/Dreadnought_Generic/Dreadnought_Generic.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Capital Ship/Dreadnought_Generic/Dreadnought_Generic.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Capital Ship/Dreadnought_Generic/Dreadnought_Generic_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Cruiser/Cruiser_Generic/Cruiser_Generic.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Cruiser/Cruiser_Generic/Cruiser_Generic.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Cruiser/Cruiser_Generic/Cruiser_Generic.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Cruiser/Cruiser_Generic/Cruiser_Generic_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Destroyer/Destroyer_Generic/Destroyer_Generic.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Destroyer/Destroyer_Generic/Destroyer_Generic.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Destroyer/Destroyer_Generic/Destroyer_Generic.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Destroyer/Destroyer_Generic/Destroyer_Generic_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Fighter/EarlyFighter_Generic/EarlyFighter_Generic.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Fighter/EarlyFighter_Generic/EarlyFighter_Generic.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Fighter/EarlyFighter_Generic/EarlyFighter_Generic.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Fighter/EarlyFighter_Generic/EarlyFighter_Generic_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Tank/EarlyTank_Generic/EarlyTank_Generic.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Tank/EarlyTank_Generic/EarlyTank_Generic.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Tank/EarlyTank_Generic/EarlyTank_Generic.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Tank/EarlyTank_Generic/EarlyTank_Generic_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Paratroopers/Paratrooper_Generic/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Paratroopers/Paratrooper_Generic/Paratrooper_Generic.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Paratroopers/Paratrooper_Generic/Paratrooper_Generic.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Paratroopers/Paratrooper_Generic/Paratrooper_Generic.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiAircraft/Flakpanzer_38(t)/Flakpanzer_38(t).fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiAircraft/Flakpanzer_38(t)/Flakpanzer_38(t).gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiAircraft/Flakpanzer_38(t)/Flakpanzer_38(t)_3.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiAircraft/Flakpanzer_38(t)/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiTank/Sdkfz162_Jagdpanzer IV_L-70/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiTank/Sdkfz162_Jagdpanzer IV_L-70/Sdkfz162_Jagdpanzer IV_L-70.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiTank/Sdkfz162_Jagdpanzer IV_L-70/Sdkfz162_Jagdpanzer IV_L-70.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiTank/Sdkfz162_Jagdpanzer IV_L-70/Sdkfz162_Jagdpanzer_IV_L-70.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Battleships/Scharnhorst_Class/Scharnhorst_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Battleships/Scharnhorst_Class/Scharnhorst_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Battleships/Scharnhorst_Class/Scharnhorst_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Battleships/Scharnhorst_Class/Scharnhorst_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Bombers/Junkers_Ju-88/Junkers_Ju-88.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Bombers/Junkers_Ju-88/Junkers_Ju-88.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Bombers/Junkers_Ju-88/Junkers_Ju-88_3.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Bombers/Junkers_Ju-88/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Capital Ship/Bismark_Class/Bismark_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Capital Ship/Bismark_Class/Bismark_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Capital Ship/Bismark_Class/Bismark_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Capital Ship/Bismark_Class/Bismark_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Carriers/Graf_Zeppelin_Class/Graf_Zeppelin_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Carriers/Graf_Zeppelin_Class/Graf_Zeppelin_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Carriers/Graf_Zeppelin_Class/Graf_Zeppelin_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Carriers/Graf_Zeppelin_Class/Graf_Zeppelin_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Cruiser/Deutschland_Class/Deutschland_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Cruiser/Deutschland_Class/Deutschland_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Cruiser/Deutschland_Class/Deutschland_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Cruiser/Deutschland_Class/Deutschland_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Destroyer/Z_Class/Z_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Destroyer/Z_Class/Z_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Destroyer/Z_Class/Z_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Destroyer/Z_Class/Z_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Fighter/Fokker_Dr.1/Fokker_Dr.1.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Fighter/Fokker_Dr.1/Fokker_Dr.1.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Fighter/Fokker_Dr.1/Fokker_Dr.1.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Fighter/Fokker_Dr.1/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Tank/A7V/A7V.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Tank/A7V/A7V.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Tank/A7V/A7V.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Tank/A7V/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Fighters/Messerschmitt_Bf-109E/Messerschmitt_Bf-109E.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Fighters/Messerschmitt_Bf-109E/Messerschmitt_Bf-109E.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Fighters/Messerschmitt_Bf-109E/Messerschmitt_Bf-109E.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Fighters/Messerschmitt_Bf-109E/Messerschmitt_Bf-109E_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Infantry/Infantry_German_v2/Infantry_German_v2.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Infantry/Infantry_German_v2/Infantry_German_v2.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Infantry/Infantry_German_v2/Infantry_German_v2.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Infantry/Infantry_German_v2/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Paratroopers/Paratrooper_German/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Paratroopers/Paratrooper_German/Paratrooper_German.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Paratroopers/Paratrooper_German/Paratrooper_German.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Paratroopers/Paratrooper_German/Paratrooper_German.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Submarines/U-Boat_Type_XXIII/U-Boat_Type_XXIII.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Submarines/U-Boat_Type_XXIII/U-Boat_Type_XXIII.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Submarines/U-Boat_Type_XXIII/U-Boat_Type_XXIII.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Submarines/U-Boat_Type_XXIII/U-Boat_Type_XXIII_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Tanks/Panzer_VI_Tiger/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Tanks/Panzer_VI_Tiger/Panzer_VI_Tiger.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Tanks/Panzer_VI_Tiger/Panzer_VI_Tiger.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Tanks/Panzer_VI_Tiger/Panzer_VI_Tiger.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Bombers/Bristol_Blenheim/Bristol_Blenheim.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Bombers/Bristol_Blenheim/Bristol_Blenheim.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Bombers/Bristol_Blenheim/Bristol_Blenheim.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Bombers/Bristol_Blenheim/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Cruiser/Pisa_Class/Pisa_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Cruiser/Pisa_Class/Pisa_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Cruiser/Pisa_Class/Pisa_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Cruiser/Pisa_Class/Pisa_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Destroyer/Vasilefs_Georgios_Class/Vasilefs_Georgios_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Destroyer/Vasilefs_Georgios_Class/Vasilefs_Georgios_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Destroyer/Vasilefs_Georgios_Class/Vasilefs_Georgios_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Destroyer/Vasilefs_Georgios_Class/Vasilefs_Georgios_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Fighter/PZL_P.24/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Fighter/PZL_P.24/PZL_P.24.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Fighter/PZL_P.24/PZL_P.24.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Fighter/PZL_P.24/PZL_P.24.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Tank/Renault_FT-17/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Tank/Renault_FT-17/Renault_FT-17_Greece.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Tank/Renault_FT-17/Renault_FT-17_Greece.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Tank/Renault_FT-17/Renault_FT-17_Greece.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Fighters/Supermarine_Spitfire_Greece/Supermarine_Spitfire_Greece.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Fighters/Supermarine_Spitfire_Greece/Supermarine_Spitfire_Greece.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Fighters/Supermarine_Spitfire_Greece/Supermarine_Spitfire_Greece.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Fighters/Supermarine_Spitfire_Greece/Supermarine_Spitfire_Greece_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Infantry/Infantry_Greece/Infantry_Greece.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Infantry/Infantry_Greece/Infantry_Greece.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Infantry/Infantry_Greece/Infantry_Greece.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Infantry/Infantry_Greece/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Paratroopers/Paratrooper_Greece/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Paratroopers/Paratrooper_Greece/Paratrooper_Greece.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Paratroopers/Paratrooper_Greece/Paratrooper_Greece.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Paratroopers/Paratrooper_Greece/Paratrooper_Greece.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Submarines/Katsonis_Class/Katsonis_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Submarines/Katsonis_Class/Katsonis_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Submarines/Katsonis_Class/Katsonis_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Submarines/Katsonis_Class/Katsonis_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Tanks/Vickers_MK_II/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Tanks/Vickers_MK_II/Vickers_MK_II.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Tanks/Vickers_MK_II/Vickers_MK_II.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Tanks/Vickers_MK_II/Vickers_MK_II.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiAircraft/Autocannone_90-53
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiAircraft/Autocannone_90-53/Autocannone_90-53.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiAircraft/Autocannone_90-53/Autocannone_90-53.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiAircraft/Autocannone_90-53/Autocannone_90-53.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiAircraft/Autocannone_90-53/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiTank/Semovente_M42M-75-34/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiTank/Semovente_M42M-75-34/Semovente_M42M-75-34.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiTank/Semovente_M42M-75-34/Semovente_M42M-75-34.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiTank/Semovente_M42M-75-34/Semovente_M42M-75-34.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Battleships/Conte_Di_Cavour_Class/Conte_Di_Cavour_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Battleships/Conte_Di_Cavour_Class/Conte_Di_Cavour_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Battleships/Conte_Di_Cavour_Class/Conte_Di_Cavour_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Battleships/Conte_Di_Cavour_Class/Conte_Di_Cavour_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Bombers/Savoia-Marchetti_SM.84/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Bombers/Savoia-Marchetti_SM.84/Savoia-Marchetti_SM.84.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Bombers/Savoia-Marchetti_SM.84/Savoia-Marchetti_SM.84.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Bombers/Savoia-Marchetti_SM.84/Savoia-Marchetti_SM.84.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Capital Ship/Littorio_Class/Littorio_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Capital Ship/Littorio_Class/Littorio_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Capital Ship/Littorio_Class/Littorio_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Capital Ship/Littorio_Class/Littorio_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Carriers/Aquila_Class/Aquila_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Carriers/Aquila_Class/Aquila_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Carriers/Aquila_Class/Aquila_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Carriers/Aquila_Class/Aquila_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Cruiser/Zara_Class/Zara_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Cruiser/Zara_Class/Zara_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Cruiser/Zara_Class/Zara_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Cruiser/Zara_Class/Zara_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Destroyer/Soldati_Class/Soldati_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Destroyer/Soldati_Class/Soldati_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Destroyer/Soldati_Class/Soldati_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Destroyer/Soldati_Class/Soldati_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Fighter/Ansaldo_SVA-5/Ansaldo_SVA-5.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Fighter/Ansaldo_SVA-5/Ansaldo_SVA-5.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Fighter/Ansaldo_SVA-5/Ansaldo_SVA-5.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Fighter/Ansaldo_SVA-5/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Tank/Fiat_3000/Fiat_3000.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Tank/Fiat_3000/Fiat_3000.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Tank/Fiat_3000/Fiat_3000.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Tank/Fiat_3000/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Fighters/Macchi_C.200_Saetta/Macchi_C.200_Saetta.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Fighters/Macchi_C.200_Saetta/Macchi_C.200_Saetta.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Fighters/Macchi_C.200_Saetta/Macchi_C.200_Saetta.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Fighters/Macchi_C.200_Saetta/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Infantry/Infantry_Italy_v2/Infantry_Italy_v2.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Infantry/Infantry_Italy_v2/Infantry_Italy_v2.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Infantry/Infantry_Italy_v2/Infantry_Italy_v2.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Infantry/Infantry_Italy_v2/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Paratroopers/Paratrooper_Italy/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Paratroopers/Paratrooper_Italy/Paratrooper_Italy.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Paratroopers/Paratrooper_Italy/Paratrooper_Italy.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Paratroopers/Paratrooper_Italy/Paratrooper_Italy.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Submarines/Marcello_Class/Marcello_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Submarines/Marcello_Class/Marcello_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Submarines/Marcello_Class/Marcello_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Submarines/Marcello_Class/Marcello_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Tanks/M15-42/M15-42.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Tanks/M15-42/M15-42.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Tanks/M15-42/M15-42_2.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Tanks/M15-42/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiAircraft/Type98_Ko-Hi/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiAircraft/Type98_Ko-Hi/Type98_Ko-Hi.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiAircraft/Type98_Ko-Hi/Type98_Ko-Hi.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiAircraft/Type98_Ko-Hi/Type98_Ko-Hi.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiTank/Type1_Ho-Ni_II/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiTank/Type1_Ho-Ni_II/Type1_Ho-Ni_II.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiTank/Type1_Ho-Ni_II/Type1_Ho-Ni_II.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiTank/Type1_Ho-Ni_II/Type1_Ho-Ni_II.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Battleships/Kongo_Class/Kongo_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Battleships/Kongo_Class/Kongo_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Battleships/Kongo_Class/Kongo_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Battleships/Kongo_Class/Kongo_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Bombers/Mitsubishi_G4M_Betty/Mitsubishi_G4M_Betty.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Bombers/Mitsubishi_G4M_Betty/Mitsubishi_G4M_Betty.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Bombers/Mitsubishi_G4M_Betty/Mitsubishi_G4M_Betty.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Bombers/Mitsubishi_G4M_Betty/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Capital Ship/Yamato_Class/Yamato_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Capital Ship/Yamato_Class/Yamato_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Capital Ship/Yamato_Class/Yamato_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Capital Ship/Yamato_Class/Yamato_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Carriers/Shokaku_Class/Shokaku_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Carriers/Shokaku_Class/Shokaku_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Carriers/Shokaku_Class/Shokaku_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Carriers/Shokaku_Class/Shokaku_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Cruiser/Takao_Class/Takao_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Cruiser/Takao_Class/Takao_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Cruiser/Takao_Class/Takao_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Cruiser/Takao_Class/Takao_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Destroyer/Kagero_Class/Kagero_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Destroyer/Kagero_Class/Kagero_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Destroyer/Kagero_Class/Kagero_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Destroyer/Kagero_Class/Kagero_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Fighter/Kawasaki_Ki-10_Perry/Kawasaki_Ki-10_Perry.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Fighter/Kawasaki_Ki-10_Perry/Kawasaki_Ki-10_Perry.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Fighter/Kawasaki_Ki-10_Perry/Kawasaki_Ki-10_Perry.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Fighter/Kawasaki_Ki-10_Perry/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Tank/Type79_Ko-Gata/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Tank/Type79_Ko-Gata/Type79_Ko-Gata.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Tank/Type79_Ko-Gata/Type79_Ko-Gata.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Tank/Type79_Ko-Gata/Type79_Ko-Gata.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Fighters/Mitsubishi_A6M5_Zero/Mitsubishi_A6M5_Zero.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Fighters/Mitsubishi_A6M5_Zero/Mitsubishi_A6M5_Zero.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Fighters/Mitsubishi_A6M5_Zero/Mitsubishi_A6M5_Zero.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Fighters/Mitsubishi_A6M5_Zero/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Infantry/Infantry_Japan/Infantry_Japan.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Infantry/Infantry_Japan/Infantry_Japan.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Infantry/Infantry_Japan/Infantry_Japan.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Infantry/Infantry_Japan/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Paratroopers/Paratrooper_Japan/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Paratroopers/Paratrooper_Japan/Paratrooper_Japan.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Paratroopers/Paratrooper_Japan/Paratrooper_Japan.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Paratroopers/Paratrooper_Japan/Paratrooper_Japan.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Submarines/B1_Type/B1_Type.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Submarines/B1_Type/B1_Type.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Submarines/B1_Type/B1_Type.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Submarines/B1_Type/B1_Type_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Tanks/Type3_Chi-Nu/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Tanks/Type3_Chi-Nu/Type3_Chi-Nu.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Tanks/Type3_Chi-Nu/Type3_Chi-Nu.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Tanks/Type3_Chi-Nu/Type3_Chi-Nu.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiAircraft/ZSU-37/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiAircraft/ZSU-37/ZSU-37.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiAircraft/ZSU-37/ZSU-37.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiAircraft/ZSU-37/ZSU-37_2.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiTank/SU-100/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiTank/SU-100/SU-100.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiTank/SU-100/SU-100.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiTank/SU-100/SU-100.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Battleships/Gangut_Class/Gangut_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Battleships/Gangut_Class/Gangut_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Battleships/Gangut_Class/Gangut_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Battleships/Gangut_Class/Gangut_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Bombers/Petlyakov_Pe-8/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Bombers/Petlyakov_Pe-8/Petlyakov_Pe-8.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Bombers/Petlyakov_Pe-8/Petlyakov_Pe-8.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Bombers/Petlyakov_Pe-8/Petlyakov_Pe-8.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Capital Ship/Sovetsky_Soyuz_Class/Sovetsky_Soyuz_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Capital Ship/Sovetsky_Soyuz_Class/Sovetsky_Soyuz_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Capital Ship/Sovetsky_Soyuz_Class/Sovetsky_Soyuz_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Capital Ship/Sovetsky_Soyuz_Class/Sovetsky_Soyuz_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Carriers/Project_71/Project_71.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Carriers/Project_71/Project_71.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Carriers/Project_71/Project_71.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Carriers/Project_71/Project_71_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Cruiser/Kirov_Class/Kirov_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Cruiser/Kirov_Class/Kirov_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Cruiser/Kirov_Class/Kirov_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Cruiser/Kirov_Class/Kirov_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Destroyer/Gnevny_Class/Gnevny_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Destroyer/Gnevny_Class/Gnevny_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Destroyer/Gnevny_Class/Gnevny_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Destroyer/Gnevny_Class/Gnevny_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Fighter/Polikarpov_Po-2/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Fighter/Polikarpov_Po-2/Polikarpov_Po-2.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Fighter/Polikarpov_Po-2/Polikarpov_Po-2.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Fighter/Polikarpov_Po-2/Polikarpov_Po-2_4.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Tank/Renault_FT-17_Russia/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Tank/Renault_FT-17_Russia/Renault_FT-17_Russia.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Tank/Renault_FT-17_Russia/Renault_FT-17_Russia.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Tank/Renault_FT-17_Russia/Renault_FT-17_Russia.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Fighters/Yakovlev_Yak-9/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Fighters/Yakovlev_Yak-9/Yakovlev_Yak-9.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Fighters/Yakovlev_Yak-9/Yakovlev_Yak-9.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Fighters/Yakovlev_Yak-9/Yakovlev_Yak-9.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Infantry/Infantry_Russia/Infantry_Russia.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Infantry/Infantry_Russia/Infantry_Russia.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Infantry/Infantry_Russia/Infantry_Russia.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Infantry/Infantry_Russia/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Paratroopers/Paratrooper_Russia/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Paratroopers/Paratrooper_Russia/Paratrooper_Russia.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Paratroopers/Paratrooper_Russia/Paratrooper_Russia.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Paratroopers/Paratrooper_Russia/Paratrooper_Russia.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Submarines/Shchuka_Class/Shchuka_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Submarines/Shchuka_Class/Shchuka_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Submarines/Shchuka_Class/Shchuka_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Submarines/Shchuka_Class/Shchuka_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Tanks/T-34-85/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Tanks/T-34-85/T-34-85.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Tanks/T-34-85/T-34-85.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Tanks/T-34-85/T-34-85.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiAircraft/Crusader_III_AA
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiAircraft/Crusader_III_AA/Crusader_III_AA.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiAircraft/Crusader_III_AA/Crusader_III_AA.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiAircraft/Crusader_III_AA/Crusader_III_AA.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiAircraft/Crusader_III_AA/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiTank/M10_Achilles/M10_Achilles.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiTank/M10_Achilles/M10_Achilles.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiTank/M10_Achilles/M10_Achilles.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiTank/M10_Achilles/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Battleships/King_George_V_Class/King_George_V_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Battleships/King_George_V_Class/King_George_V_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Battleships/King_George_V_Class/King_George_V_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Battleships/King_George_V_Class/King_George_V_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Bombers/HP_Halifax/HP_Halifax.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Bombers/HP_Halifax/HP_Halifax.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Bombers/HP_Halifax/HP_Halifax.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Bombers/HP_Halifax/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Capital Ship/Admiral_Class/Admiral_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Capital Ship/Admiral_Class/Admiral_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Capital Ship/Admiral_Class/Admiral_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Capital Ship/Admiral_Class/Admiral_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Carriers/Ark_Royal_Class/Ark_Royal_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Carriers/Ark_Royal_Class/Ark_Royal_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Carriers/Ark_Royal_Class/Ark_Royal_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Carriers/Ark_Royal_Class/Ark_Royal_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Cruiser/Dido_Class/Dido_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Cruiser/Dido_Class/Dido_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Cruiser/Dido_Class/Dido_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Cruiser/Dido_Class/Dido_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Destroyer/Triba_Class/Triba_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Destroyer/Triba_Class/Triba_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Destroyer/Triba_Class/Triba_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Destroyer/Triba_Class/Triba_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Fighter/Spowith_Camel/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Fighter/Spowith_Camel/Spowith_Camel.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Fighter/Spowith_Camel/Spowith_Camel.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Fighter/Spowith_Camel/Spowith_Camel.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Tank/MK_A_Whippet/MK_A_Whippet.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Tank/MK_A_Whippet/MK_A_Whippet.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Tank/MK_A_Whippet/MK_A_Whippet.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Tank/MK_A_Whippet/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Fighters/Supermarine_Spitfire_MK_V/Supermarine_Spitfire_MK_V.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Fighters/Supermarine_Spitfire_MK_V/Supermarine_Spitfire_MK_V.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Fighters/Supermarine_Spitfire_MK_V/Supermarine_Spitfire_MK_V.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Fighters/Supermarine_Spitfire_MK_V/Supermarine_Spitfire_MK_V_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Infantry/Infantry_UK/Infantry_UK.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Infantry/Infantry_UK/Infantry_UK.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Infantry/Infantry_UK/Infantry_UK.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Infantry/Infantry_UK/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Paratroopers/Paratrooper_UK/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Paratroopers/Paratrooper_UK/Paratrooper_UK.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Paratroopers/Paratrooper_UK/Paratrooper_UK.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Paratroopers/Paratrooper_UK/Paratrooper_UK.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Submarines/U_Class/U_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Submarines/U_Class/U_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Submarines/U_Class/U_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Submarines/U_Class/U_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Tanks/A27M_Cromwell/A27M_Cromwell.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Tanks/A27M_Cromwell/A27M_Cromwell.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Tanks/A27M_Cromwell/A27M_Cromwell.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Tanks/A27M_Cromwell/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiAircraft/M16A1_MGMC
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiAircraft/M16A1_MGMC/M16A1_MGMC.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiAircraft/M16A1_MGMC/M16A1_MGMC.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiAircraft/M16A1_MGMC/M16A1_MGMC.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiAircraft/M16A1_MGMC/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiTank/M18_Hellcat/M18_Hellcat.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiTank/M18_Hellcat/M18_Hellcat.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiTank/M18_Hellcat/M18_Hellcat.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiTank/M18_Hellcat/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Battleships/South_Dakota_Class/South_Dakota_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Battleships/South_Dakota_Class/South_Dakota_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Battleships/South_Dakota_Class/South_Dakota_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Battleships/South_Dakota_Class/South_Dakota_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Bombers/B-17_Flying_Fortress/B-17_Flying_Fortress.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Bombers/B-17_Flying_Fortress/B-17_Flying_Fortress.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Bombers/B-17_Flying_Fortress/B-17_Flying_Fortress.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Bombers/B-17_Flying_Fortress/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Capital Ship/Iowa_Class/Iowa_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Capital Ship/Iowa_Class/Iowa_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Capital Ship/Iowa_Class/Iowa_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Capital Ship/Iowa_Class/Iowa_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Carriers/Yorktown_Class/Yorktown_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Carriers/Yorktown_Class/Yorktown_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Carriers/Yorktown_Class/Yorktown_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Carriers/Yorktown_Class/Yorktown_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Cruiser/Baltimore_Class/Baltimore_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Cruiser/Baltimore_Class/Baltimore_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Cruiser/Baltimore_Class/Baltimore_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Cruiser/Baltimore_Class/Baltimore_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Destroyer/Fletcher_Class/Fletcher_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Destroyer/Fletcher_Class/Fletcher_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Destroyer/Fletcher_Class/Fletcher_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Destroyer/Fletcher_Class/Fletcher_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Fighter/SPAD S.XIII/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Fighter/SPAD S.XIII/SPAD_S.XIII.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Fighter/SPAD S.XIII/SPAD_S.XIII.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Fighter/SPAD S.XIII/SPAD_S.XIII.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Tank/M1917/M1917.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Tank/M1917/M1917.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Tank/M1917/M1917.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Tank/M1917/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Fighters/P-40_Warhawk/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Fighters/P-40_Warhawk/P-40_Warhawk.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Fighters/P-40_Warhawk/P-40_Warhawk.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Fighters/P-40_Warhawk/P-40_Warhawk.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Infantry/Infantry_USA/Infantry_USA.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Infantry/Infantry_USA/Infantry_USA.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Infantry/Infantry_USA/Infantry_USA.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Infantry/Infantry_USA/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Paratroopers/Paratrooper_USA/no_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Paratroopers/Paratrooper_USA/Paratrooper_USA.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Paratroopers/Paratrooper_USA/Paratrooper_USA.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Paratroopers/Paratrooper_USA/Paratrooper_USA.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Submarines/Gato_Class/Gato_Class.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Submarines/Gato_Class/Gato_Class.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Submarines/Gato_Class/Gato_Class.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Submarines/Gato_Class/Gato_Class_gloss.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Tanks/M4A3_Sherman_IV/M4A3_Sherman_IV.dds</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Tanks/M4A3_Sherman_IV/M4A3_Sherman_IV.fxsxml</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Tanks/M4A3_Sherman_IV/M4A3_Sherman_IV.gr2</File>
+<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Tanks/M4A3_Sherman_IV/no_gloss.dds</File>
