@@ -4,6 +4,7 @@
 include( "IconSupport" );
 include( "InstanceManager" );
 include( "TechHelpInclude" );
+include( "LuaReqInclude" );
 
 local g_CultureInstanceManager3 = InstanceManager:new( "NotificationButton2", "Button", Controls.NotificationButton3Stack );
 local g_EconomicsManager = InstanceManager:new( "EconomicsButton", "OpenEconomics", Controls.EconomicsButtonStack );

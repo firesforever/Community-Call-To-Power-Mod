@@ -94,5 +94,6 @@ end
 ---------------------------------------------------------------
 -- !!! Important !!! Put this somewhere in your program where it runs
 -- at game init (after all functions above have been defined)
+-- THIS IS IN THE TECHTREE.LUA FILE
 ---------------------------------------------------------------
-CompileTableLuaCallbacks()
+--CompileTableLuaCallbacks()
