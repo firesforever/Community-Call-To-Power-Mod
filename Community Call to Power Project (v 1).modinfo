@@ -25,6 +25,7 @@
 
     <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="1">LuaReqs/LuaReqUnits.xml</File>
 
+    <File md5="2A4344E1AA47EB78E43985CC9AB0BBD6" import="1">Tech/TechTreeSelectbg.dds</File>
     <File md5="12E7317D1B2B9454957258B07CE34165">AI/CIV5GlobalAIDefines.xml</File>
     <File md5="CBBE4715F1EF26777BDE6B793E26467E">AI/CIV5Leaders.xml</File>
     <File md5="986A4E3DAAC617A22D2EA3DEF334B893">Art/Icons/Building Icons/buildingatlasFour.dds</File>

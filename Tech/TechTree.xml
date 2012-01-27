@@ -109,15 +109,16 @@
 
 		<ScrollPanel Anchor="L,T" Offset="16,46" Size="1010,500" ID="NotificationScrollPanel" Vertical="1" >
 
-			<Stack Anchor="L,T" Size="256,256" Offset="0,0" StackGrowth="B" Padding="0" ID="EconomicsButtonStack" >
+			<Image Anchor="L,T" Offset="0,0" TextureOffset="0.0" Size="928,499" Texture="TechTreeSelectbg.dds"/>
+			<Stack Anchor="L,T" Size="256,256" Offset="110,-35" StackGrowth="B" Padding="0" ID="EconomicsButtonStack" >
 			</Stack>
-			<Stack Anchor="C,T" Size="256,256" Offset="80,0" StackGrowth="B" Padding="0" ID="ScienceButtonStack" >
+			<Stack Anchor="C,C" Size="256,256" Offset="90,-5" StackGrowth="B" Padding="0" ID="ScienceButtonStack" >
 			</Stack>
-			<Stack Anchor="R,T" Size="256,256" Offset="-175,0" StackGrowth="B" Padding="0" ID="MilitaryButtonStack" >
+			<Stack Anchor="R,T" Size="256,256" Offset="-60,-35" StackGrowth="B" Padding="0" ID="MilitaryButtonStack" >
 			</Stack>
-			<Stack Anchor="L,B" Size="256,256" Offset="175,0" StackGrowth="B" Padding="0" ID="SocialButtonStack" >
+			<Stack Anchor="L,B" Size="256,256" Offset="110,-22" StackGrowth="B" Padding="0" ID="SocialButtonStack" >
 			</Stack>
-			<Stack Anchor="R,B" Size="256,256" Offset="0,0" StackGrowth="B" Padding="0" ID="EngineeringButtonStack" >
+			<Stack Anchor="R,B" Size="256,256" Offset="-60,-22" StackGrowth="B" Padding="0" ID="EngineeringButtonStack" >
 			</Stack>
 
 			
