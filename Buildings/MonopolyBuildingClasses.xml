@@ -4,7 +4,7 @@
 	<BuildingClasses>
 		
 		<!-- Ancient Era -->
-<!--
+
 
 		<Row>
 			<Type>BUILDINGCLASS_SMALL_FISH_MARKET</Type>
@@ -46,7 +46,12 @@
 			<Description>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER</Description>
 			<DefaultBuilding>BUILDING_SMALL_DEER_BUTCHER</DefaultBuilding>
 		</Row>
-
+		<Row>
+			<Type>BUILDINGCLASS_SMALL_STONE_CUTTER</Type>
+			<Description>TXT_KEY_BUILDING_SMALL_STONE_CUTTER</Description>
+			<DefaultBuilding>BUILDING_SMALL_STONE_CUTTER</DefaultBuilding>
+		</Row>
+<!--
 		<Row>
 			<Type>BUILDINGCLASS_MEDIUM_FISH_MARKET</Type>
 			<Description>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET</Description>
@@ -219,14 +224,20 @@
 			<DefaultBuilding>BUILDING_DEER_MONOPOLY</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
-
+		<Row>
+			<Type>BUILDINGCLASS_STONE_MONOPOLY</Type>
+			<Description>TXT_KEY_BUILDING_STONE_MONOPOLY</Description>
+			<DefaultBuilding>BUILDING_STONE_MONOPOLY</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
 		<!--Classical-->
-<!--
+
 		<Row>
 			<Type>BUILDINGCLASS_SMALL_POPPY_REFINERY</Type>
 			<Description>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY</Description>
 			<DefaultBuilding>BUILDING_SMALL_POPPY_REFINERY</DefaultBuilding>
 		</Row>
+		<!--
 		<Row>
 			<Type>BUILDINGCLASS_MEDIUM_POPPY_REFINERY</Type>
 			<Description>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY</Description>
@@ -252,13 +263,14 @@
 
 
 		<!-- Medieval Era -->
-<!--
+
 
 		<Row>
 			<Type>BUILDINGCLASS_SMALL_COFFEE_MILL</Type>
 			<Description>TXT_KEY_BUILDING_SMALL_COFFEE_MILL</Description>
 			<DefaultBuilding>BUILDING_SMALL_COFFEE_MILL</DefaultBuilding>
 		</Row>
+		<!--
 		<Row>
 			<Type>BUILDINGCLASS_MEDIUM_COFFEE_MILL</Type>
 			<Description>TXT_KEY_BUILDING_MEDIUM_COFFEE_MILL</Description>
@@ -288,12 +300,13 @@
 
 		<!-- Modern Era -->
 
-<!--		
+		
 		<Row>
 			<Type>BUILDINGCLASS_SMALL_TITANIUM_SMELTER</Type>
 			<Description>TXT_KEY_BUILDING_SMALL_TITANIUM_SMELTER</Description>
 			<DefaultBuilding>BUILDING_SMALL_TITANIUM_SMELTER</DefaultBuilding>
 		</Row>
+		<!--
 		<Row>
 			<Type>BUILDINGCLASS_MEDIUM_TITANIUM_SMELTER</Type>
 			<Description>TXT_KEY_BUILDING_MEDIUM_TITANIUM_SMELTER</Description>
