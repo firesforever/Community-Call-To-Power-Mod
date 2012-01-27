@@ -1017,7 +1017,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CHEMICAL_PLANT_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_DYE] Dye worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Each source of [ICON_RES_INCENSE] Incense worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_DYE] Dye or [ICON_RES_INCENSE] Incense nearby.</Text>
+			<Text>Each source of [ICON_RES_DYE] Dye worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Each source of [ICON_RES_INCENSE] Incense or [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEXTILE_MILL</Tag>
@@ -1241,7 +1241,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRPORT_STRATEGY</Tag>
-			<Text>Allows the Airlifting of 3 units a turn from this City.[NEWLINE][NEWLINE]+25% [ICON_GOLD] Gold from [ICON_CONNECTED] Trade Routes.[NEWLINE][NEWLINE]+10 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
+			<Text>Allows the Airlifting of 3 units a turn from this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BIOTECH_INDUSTRIAL_PARK</Tag>
@@ -4639,7 +4639,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BANK_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Military Academy."/>
+			<Set Text="Each source of [ICON_RES_IRON] Iron or [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Military Academy."/>
 			<Where Tag="TXT_KEY_BUILDING_ARSENAL_HELP" />
 		</Update>
 		<Update>
