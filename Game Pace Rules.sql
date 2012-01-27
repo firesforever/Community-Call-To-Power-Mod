@@ -70,7 +70,7 @@ WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_DIGITAL' 
 
 --Modern
 UPDATE Buildings 
-SET 'Cost' = Cost * 0.0 --was 3.0
+SET 'Cost' = Cost --was 3.0
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MODERN' ) );
 
 
