@@ -374,6 +374,18 @@
 			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Deer Resource.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_SMALL_STONE_CUTTER</Tag>
+			<Text>Small Stone Cutter</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_DESC</Tag>
+			<Text>A building used in the shaping and utilization of Stone.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_STRATEGY</Tag>
+			<Text>Increases the amount of [ICON_PRODUCTION] Production in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Stone Resource.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_SMALL_FUR_TANNERY</Tag>
 			<Text>Small Fur Tannery</Text>
 		</Row>
@@ -1494,9 +1506,10 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FISH_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]Requires 1 Fish Resource.[NEWLINE][NEWLINE]Requires 2 Huge Fish Market Buildings.</Text>
+			<Text>Each source of [ICON_RES_FISH] Fish in the empire produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_FISH] Fish.[NEWLINE][NEWLINE]Requires 2 Huge Fish Market Buildings.</Text>
 		</Row>
-		<Row>
+		
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_WHALE_MONOPOLY</Tag>
 			<Text>Whale Monopoly</Text>
 		</Row>
@@ -1519,7 +1532,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PEARL_MONOPOLY_STRATEGY</Tag>
 			<Text>+2 [ICON_HAPPINESS_1] Happiness per city.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Pearl Resource.[NEWLINE][NEWLINE]Requires 2 Huge Pearl Market Buildings.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_MONOPOLY</Tag>
 			<Text>Crab Monopoly</Text>
@@ -1530,7 +1543,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_MONOPOLY_STRATEGY</Tag>
-			<Text>[NEWLINE][NEWLINE]10% [ICON_FOOD] and +10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Crab Resource.[NEWLINE][NEWLINE]Requires 2 Huge Crab Market Buildings.</Text>
+			<Text>Each source of [ICON_RES_CRAB] Crab in the empire produces +1 [ICON_FOOD] and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_CRAB] Crab.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_MONOPOLY</Tag>
@@ -1542,9 +1555,9 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]Requires 1 Wheat Resource.[NEWLINE][NEWLINE]Requires 2 Huge Wheat Mill Buildings.</Text>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat in the empire produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_WHEAT] Wheat.</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_RICE_MONOPOLY</Tag>
 			<Text>Rice Monopoly</Text>
 		</Row>
@@ -1580,6 +1593,7 @@
 			<Tag>TXT_KEY_BUILDING_SOYBEAN_MONOPOLY_STRATEGY</Tag>
 			<Text>+20% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]Requires 1 Soybean Resource.[NEWLINE][NEWLINE]Requires 2 Huge Soybean Mill Buildings.</Text>
 		</Row>
+		-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_MONOPOLY</Tag>
 			<Text>Banana Monopoly</Text>
@@ -1590,8 +1604,9 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_MONOPOLY_STRATEGY</Tag>
-			<Text>+10% [ICON_FOOD] Food and +10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Banana Resource.[NEWLINE][NEWLINE]Requires 2 Huge Banana Market Buildings.</Text>
+			<Text>Each source of [ICON_RES_BANANA] Banana in the empire produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_BANANA] Bananas.</Text>
 		</Row>
+		<!--
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUGAR_MONOPOLY</Tag>
 			<Text>Sugar Monopoly</Text>
@@ -1688,6 +1703,7 @@
 			<Tag>TXT_KEY_BUILDING_DYE_MONOPOLY_STRATEGY</Tag>
 			<Text>+5% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Dye Resource.[NEWLINE][NEWLINE]Requires 2 Huge Dyeworks Buildings.</Text>
 		</Row>
+		-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_MONOPOLY</Tag>
 			<Text>Copper Monopoly</Text>
@@ -1698,8 +1714,9 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICONE_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]Requires 1 Copper Resource.[NEWLINE][NEWLINE]Requires 2 Huge Copper Smelter Buildings.</Text>
+			<Text>Each source of [ICON_RES_COPPER] Copper in the empire produces +2 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_COPPER] Copper.</Text>
 		</Row>
+		<!--
 		<Row>
 			<Tag>TXT_KEY_BUILDING_GOLD_MONOPOLY</Tag>
 			<Text>Gold Monopoly</Text>
@@ -1747,7 +1764,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_HORSE_MONOPOLY_STRATEGY</Tag>
 			<Text>+10% [ICON_PRODUCTION] Production and +10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Horse Resource.[NEWLINE][NEWLINE]Requires 2 Huge Horse Stable Buildings.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_MONOPOLY</Tag>
 			<Text>Cattle Monopoly</Text>
@@ -1758,7 +1775,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_MONOPOLY_STRATEGY</Tag>
-			<Text>+10% [ICON_PRODUCTION] Production Empire Wide and +20% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]Requires 1 Cow Resource.[NEWLINE][NEWLINE]Requires 2 Huge Cattle Yard Buildings.</Text>
+			<Text>Each source of Cow worked in the empire produces +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_COW] Cows.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHEEP_MONOPOLY</Tag>
@@ -1770,8 +1787,9 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHEEP_MONOPOLY_STRATEGY</Tag>
-			<Text>+10% [ICON_FOOD] Food and +10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Sheep Resource.[NEWLINE][NEWLINE]Requires 2 Huge Sheep Butcher Buildings.</Text>
+			<Text>Each source of [ICON_RES_SHEEP] Sheep in the empire produces +2 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_SHEEP] Sheep.</Text>
 		</Row>
+		<!--
 		<Row>
 			<Tag>TXT_KEY_BUILDING_GEM_MONOPOLY</Tag>
 			<Text>Gem Monopoly</Text>
@@ -1819,7 +1837,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ALLIGATOR_MONOPOLY_STRATEGY</Tag>
 			<Text>+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Alligator Resource.[NEWLINE][NEWLINE]Requires 2 Huge Alligator Butcher Buildings.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DEER_MONOPOLY</Tag>
 			<Text>Deer Monopoly</Text>
@@ -1830,9 +1848,9 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DEER_MONOPOLY_STRATEGY</Tag>
-			<Text>+10% [ICON_FOOD] Food and +10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Deer Resource.[NEWLINE][NEWLINE]Requires 2 Huge Deer Butcher Buildings.</Text>
+			<Text>Each source of [ICON_RES_DEER] Deer in the empire produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_DEER] Deer.</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_FUR_MONOPOLY</Tag>
 			<Text>Fur Monopoly</Text>
 		</Row>
@@ -1844,8 +1862,19 @@
 			<Tag>TXT_KEY_BUILDING_FUR_MONOPOLY_STRATEGY</Tag>
 			<Text>+5% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Fur Resource.[NEWLINE][NEWLINE]Requires 2 Huge Fur Tannery Buildings.</Text>
 		</Row>
-
-
+-->
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_MONOPOLY</Tag>
+			<Text>Stone Monopoly</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_MONOPOLY_DESC</Tag>
+			<Text>A building used in the shaping and utilization of Stone.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_MONOPOLY_STRATEGY</Tag>
+			<Text>Each source of [ICON_RES_STONE] Stone in the empire produces +3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_STONE] Stone.</Text>
+		</Row>
 
 		<!-- Classical Era -->
 
@@ -1998,6 +2027,7 @@
 			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Tobacco Resource.[NEWLINE][NEWLINE]Requires Large Tobacco Barn Building.</Text>
 		</Row>
 		<!-- Monopoly -->
+		<!--
 		<Row>
 			<Tag>TXT_KEY_BUILDING_IRON_MONOPOLY</Tag>
 			<Text>Iron Monopoly</Text>
@@ -2009,7 +2039,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_IRON_MONOPOLY_STRATEGY</Tag>
 			<Text>+20% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]Requires 1 Iron Resource.[NEWLINE][NEWLINE]Requires 2 Huge Iron Smelter Buildings.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POPPY_MONOPOLY</Tag>
 			<Text>Poppy Monopoly</Text>
@@ -2020,8 +2050,9 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POPPY_MONOPOLY_STRATEGY</Tag>
-			<Text>+2 [ICON_HAPPINESS_1] Happiness per city.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Poppy Resource.[NEWLINE][NEWLINE]Requires 2 Huge Poppy Refinery Buildings.</Text>
+			<Text>Each source of [ICON_RES_POPPY] Poppy in the empire produces +2 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_POPPY] Poppy.</Text>
 		</Row>
+		<!--
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Tag>
 			<Text>Tobacco Monopoly</Text>
@@ -2036,7 +2067,7 @@
 		</Row>
 
 
-
+-->
 		<!-- Medieval Era -->
 
 		<!-- Small -->
@@ -2102,7 +2133,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COFFEE_MONOPOLY_STRATEGY</Tag>
-			<Text>5% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Coffee Resource.[NEWLINE][NEWLINE]Requires 2 Huge Coffee Mill Buildings.</Text>
+			<Text>Each source of [ICON_RES_COFFEE] Coffee in the empire produces +1 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_COFFEE] Coffee.</Text>
 		</Row>
 
 
@@ -2470,7 +2501,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]Requires 1 Titanium Resource.[NEWLINE][NEWLINE]Requires 2 Huge Titanium Smelter Buildings.</Text>
+			<Text>Each source of [ICON_RES_TITANIUM] Titanium in the empire produces +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 Titanium.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_RARE_EARTH_MONOPOLY</Tag>

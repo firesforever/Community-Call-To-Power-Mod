@@ -6,11 +6,11 @@
 
 		<!-- Ancient Era -->
 
-<!--
+
 		<Row>
 			<Type>BUILDING_SMALL_FISH_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_FISH_MARKET</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>-1</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_FISH_MARKET</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_FISH_MARKET_DESC</Civilopedia>
@@ -25,7 +25,7 @@
 		<Row>
 			<Type>BUILDING_SMALL_CRAB_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_CRAB_MARKET</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>-1</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_CRAB_MARKET</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_CRAB_MARKET_DESC</Civilopedia>
@@ -40,7 +40,7 @@
 		<Row>
 			<Type>BUILDING_SMALL_WHEAT_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_WHEAT_MILL</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>-1</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_WHEAT_MILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_WHEAT_MILL_DESC</Civilopedia>
@@ -55,7 +55,7 @@
 		<Row>
 			<Type>BUILDING_SMALL_BANANA_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_BANANA_MARKET</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>-1</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_BANANA_MARKET</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_BANANA_MARKET_DESC</Civilopedia>
@@ -70,7 +70,7 @@
 		<Row>
 			<Type>BUILDING_SMALL_COPPER_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_COPPER_SMELTER</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>-1</Cost>
 			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER_DESC</Civilopedia>
@@ -85,7 +85,7 @@
 		<Row>
 			<Type>BUILDING_SMALL_CATTLE_YARD</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_CATTLE_YARD</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>-1</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_CATTLE_YARD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_CATTLE_YARD_DESC</Civilopedia>
@@ -100,7 +100,7 @@
 		<Row>
 			<Type>BUILDING_SMALL_SHEEP_BUTCHER</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_SHEEP_BUTCHER</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>-1</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER_DESC</Civilopedia>
@@ -115,7 +115,7 @@
 		<Row>
 			<Type>BUILDING_SMALL_DEER_BUTCHER</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_DEER_BUTCHER</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>-1</Cost>
 			<PrereqTech>TECH_TANNING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER_DESC</Civilopedia>
@@ -127,10 +127,23 @@
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
+		<Row>
+			<Type>BUILDING_SMALL_STONE_CUTTER</Type>
+			<BuildingClass>BUILDINGCLASS_SMALL_STONE_CUTTER</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SMALL_STONE_CUTTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_STRATEGY</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
+		</Row>
 
-
-		
-		
+<!--	
 
 		<Row>
 			<Type>BUILDING_MEDIUM_FISH_MARKET</Type>
@@ -507,12 +520,15 @@
 		<Row>
 			<Type>BUILDING_FISH_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_MONOPOLY</BuildingClass>
-			<Cost>1880</Cost>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_FISH_MARKET</FreeBuilding>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FISH_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FISH_MONOPOLY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_FISH_MONOPOLY_STRATEGY</Help>			
 			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -522,12 +538,15 @@
 		<Row>
 			<Type>BUILDING_CRAB_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_MONOPOLY</BuildingClass>
-			<Cost>1880</Cost>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_CRAB_MARKET</FreeBuilding>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CRAB_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CRAB_MONOPOLY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CRAB_MONOPOLY_STRATEGY</Help>
 			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -537,12 +556,15 @@
 		<Row>
 			<Type>BUILDING_WHEAT_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_WHEAT_MONOPOLY</BuildingClass>
-			<Cost>1880</Cost>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_WHEAT_MILL</FreeBuilding>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WHEAT_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WHEAT_MONOPOLY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_WHEAT_MONOPOLY_STRATEGY</Help>
 			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -552,12 +574,15 @@
 		<Row>
 			<Type>BUILDING_BANANA_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_BANANA_MONOPOLY</BuildingClass>
-			<Cost>1880</Cost>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_BANANA_MARKET</FreeBuilding>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BANANA_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BANANA_MONOPOLY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_BANANA_MONOPOLY_STRATEGY</Help>
 			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -567,12 +592,15 @@
 		<Row>
 			<Type>BUILDING_COPPER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_MONOPOLY</BuildingClass>
-			<Cost>1880</Cost>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_COPPER_SMELTER</FreeBuilding>
 			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COPPER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COPPER_MONOPOLY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_COPPER_MONOPOLY_STRATEGY</Help>			
 			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -582,12 +610,15 @@
 		<Row>
 			<Type>BUILDING_CATTLE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_MONOPOLY</BuildingClass>
-			<Cost>1880</Cost>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_CATTLE_YARD</FreeBuilding>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_MONOPOLY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CATTLE_MONOPOLY_STRATEGY</Help>		
 			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -597,12 +628,15 @@
 		<Row>
 			<Type>BUILDING_SHEEP_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_MONOPOLY</BuildingClass>
-			<Cost>1880</Cost>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_SHEEP_BUTCHER</FreeBuilding>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_MONOPOLY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SHEEP_MONOPOLY_STRATEGY</Help>		
 			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -612,32 +646,52 @@
 		<Row>
 			<Type>BUILDING_DEER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_DEER_MONOPOLY</BuildingClass>
-			<Cost>1880</Cost>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_DEER_BUTCHER</FreeBuilding>
 			<PrereqTech>TECH_TANNING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_DEER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DEER_MONOPOLY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_DEER_MONOPOLY_STRATEGY</Help>			
 			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
-
+		<Row>
+			<Type>BUILDING_STONE_MONOPOLY</Type>
+			<BuildingClass>BUILDINGCLASS_STONE_MONOPOLY</BuildingClass>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_STONE_CUTTER</FreeBuilding>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_STONE_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_STONE_MONOPOLY_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_STONE_MONOPOLY_STRATEGY</Help>
+			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
+		</Row>
 
 
 
 		<!-- Classical Era -->
-<!--
+
 		<Row>
 			<Type>BUILDING_SMALL_POPPY_REFINERY</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_POPPY_REFINERY</BuildingClass>
-			<Cost>1300</Cost>
+			<Cost>-1</Cost>
 			<PrereqTech>TECH_DRUGS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY_STRATEGY</Help>			
+			<Help>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY_STRATEGY</Help>
 			<NukeImmune>true</NukeImmune>
 			<Happiness>2</Happiness>
 			<HurryCostModifier>50</HurryCostModifier>
@@ -646,6 +700,7 @@
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
+<!--
 		<Row>
 			<Type>BUILDING_MEDIUM_POPPY_REFINERY</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_POPPY_REFINERY</BuildingClass>
@@ -698,13 +753,15 @@
 		<Row>
 			<Type>BUILDING_POPPY_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_MONOPOLY</BuildingClass>
-			<Cost>7400</Cost>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_POPPY_REFINERY</FreeBuilding>
 			<PrereqTech>TECH_DRUGS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_MONOPOLY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_POPPY_MONOPOLY_STRATEGY</Help>			
 			<NukeImmune>true</NukeImmune>
-			<HappinessPerCity>2</HappinessPerCity>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -715,11 +772,11 @@
 		<!-- Medieval Era -->
 
 
-<!--
+
 		<Row>
 			<Type>BUILDING_SMALL_COFFEE_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_COFFEE_MILL</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>-1</Cost>
 			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_COFFEE_MILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_COFFEE_MILL_DESC</Civilopedia>
@@ -731,7 +788,7 @@
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
-
+<!--
 		<Row>
 			<Type>BUILDING_MEDIUM_COFFEE_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_COFFEE_MILL</BuildingClass>
@@ -784,12 +841,15 @@
 		<Row>
 			<Type>BUILDING_COFFEE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_COFFEE_MONOPOLY</BuildingClass>
-			<Cost>2700</Cost>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_COFFEE_MILL</FreeBuilding>
 			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COFFEE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COFFEE_MONOPOLY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_COFFEE_MONOPOLY_STRATEGY</Help>			
 			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -806,11 +866,11 @@
 
 		<!-- Modern Era -->
 
-<!-- 
+
 		<Row>
 			<Type>BUILDING_SMALL_TITANIUM_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_TITANIUM_SMELTER</BuildingClass>
-			<Cost>600</Cost>
+			<Cost>-1</Cost>
 			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_TITANIUM_SMELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_TITANIUM_SMELTER_DESC</Civilopedia>
@@ -822,7 +882,7 @@
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
-
+<!--
 		<Row>
 			<Type>BUILDING_MEDIUM_TITANIUM_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_TITANIUM_SMELTER</BuildingClass>
@@ -875,12 +935,15 @@
 		<Row>
 			<Type>BUILDING_TITANIUM_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_TITANIUM_MONOPOLY</BuildingClass>
-			<Cost>6560</Cost>
+			<Cost>1350</Cost>
+			<FreeBuilding>BUILDINGCLASS_SMALL_TITANIUM_SMELTER</FreeBuilding>
 			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TITANIUM_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_STRATEGY</Help>			
 			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -889,7 +952,152 @@
 		</Row>
 		
 	</Buildings>
-
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_CRAB_MARKET</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_CRAB_MARKET</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_WHEAT_MILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_WHEAT_MILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_BANANA_MARKET</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_BANANA_MARKET</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_COPPER_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_COPPER_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_CATTLE_YARD</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_CATTLE_YARD</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_SHEEP_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_SHEEP_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
 	<Building_LocalResourceAnds>
 
 		<!-- Ancient Era -->
@@ -1064,7 +1272,10 @@
 			<BuildingType>BUILDING_DEER_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 		</Row>
-
+		<Row>
+			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
 
 		<!-- Classical Era -->
 		<Row>
@@ -1366,7 +1577,11 @@
 			<ResourceType>RESOURCE_DEER</ResourceType>
 			<Cost>12</Cost>
 		</Row>
-
+		<Row>
+			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>12</Cost>
+		</Row>
 
 		<!-- Classical Era -->
 
@@ -1434,13 +1649,13 @@
 
 		<!-- Modern Era -->
 
-<!-- 
+
 		<Row>
 			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<Cost>1</Cost>
 		</Row>
-
+<!-- 
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_TITANIUM_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
@@ -1463,12 +1678,13 @@
 		<Row>
 			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-			<Cost>1</Cost>
+			<Cost>12</Cost>
 		</Row>
 		
 	</Building_ResourceQuantityRequirements>
 
-<!--
+	<!--Building Classes Needing In City-->
+	<!--
 	<Building_ClassesNeededInCity>
 		
 		
@@ -1735,7 +1951,8 @@
 	
 -->
 
-<!--
+	<!--Building Yield Changes-->
+	<!--
 	<Building_YieldChanges>
 		
 
@@ -2101,13 +2318,13 @@
 		
 	</Building_YieldChanges>
 -->
-
+	
+	<!--Global Yield Mod-->
+	<!--
 	<Building_GlobalYieldModifiers>
 
 
-		<!-- Ancient Era -->
-		
-		<!-- Monopoly -->
+
 		<Row>
 			<BuildingType>BUILDING_FISH_MONOPOLY</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -2164,18 +2381,13 @@
 			<Yield>10</Yield>
 		</Row>
 
-		<!-- Classical Era -->
-
-		<!-- Monopoly -->
 		<Row>
 			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>10</Yield>
 		</Row>
 
-		<!-- Medieval Era -->
 
-		<!-- Monopoly -->
 	
 		<Row>
 			<BuildingType>BUILDING_COFFEE_MONOPOLY</BuildingType>
@@ -2185,14 +2397,7 @@
 
 
 		
-		<!-- Industrial Era -->
 
-		<!-- Monopoly -->
-
-		<!-- Modern Era -->
-
-
-		<!-- Monopoly -->
 		<Row>
 			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -2201,7 +2406,7 @@
 		
 		
 	</Building_GlobalYieldModifiers>
-
+-->
 	<!-- Building Flavors for the Monopoly System.-->
 	<Building_Flavors>
 		<!-- 1 FISH MARKET -->
@@ -2668,4 +2873,5 @@
 		</Row>
 	</Building_Flavors>
 
+	
 </GameData>
