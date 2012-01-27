@@ -130,6 +130,18 @@
 			<Yield>-1</Yield>
 		</Row>
 		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>

@@ -556,7 +556,12 @@
 		<Row>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
