@@ -231,12 +231,7 @@
 		<Row>
 			<BuildingType>BUILDING_ADVANCED_AIRCRAFT_PLANT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1000</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ADVANCED_AIRCRAFT_PLANT</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>200</Yield>
+			<Yield>30</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_LABORATORY</BuildingType>
@@ -715,11 +710,6 @@
 			<BuildingType>BUILDING_SHOPPING_MALL</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>600</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AIRPORT</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>200</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CELL_TOWERS</BuildingType>
@@ -1637,6 +1627,145 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 		</Row>
+		
+		<!--MODERN ERA-->
+		<Row>
+			<Type>BUILDING_ADVANCED_AIRCRAFT_PLANT</Type>
+			<Description>TXT_KEY_BUILDING_ADVANCED_AIRCRAFT_PLANT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ADVANCED_AIRCRAFT_PLANT_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_ADVANCED_AIRCRAFT_PLANT_STRATEGY</Help>
+			<GoldMaintenance>30</GoldMaintenance>
+			<Cost>1800</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<BuildingClass>BUILDINGCLASS_ADVANCED_AIRCRAFT_PLANT</BuildingClass>
+			<PrereqTech>TECH_SATELLITES</PrereqTech>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_AIRPORT</Type>
+			<Description>TXT_KEY_BUILDING_AIRPORT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_AIRPORT_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_AIRPORT_STRATEGY</Help>
+			<Cost>1675</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<Airlift>3</Airlift>
+			<BuildingClass>BUILDINGCLASS_AIRPORT</BuildingClass>
+			<FreeStartEra>ERA_FUTURE</FreeStartEra>
+			<PrereqTech>TECH_ADVANCED_FLIGHT</PrereqTech>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_CELL_TOWERS</Type>
+			<Description>TXT_KEY_BUILDING_CELL_TOWERS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CELL_TOWERS_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_CELL_TOWERS_HELP</Help>
+			<GoldMaintenance>50</GoldMaintenance>
+			<Cost>3000</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<Happiness>3</Happiness>
+			<BuildingClass>BUILDINGCLASS_CELL_TOWERS</BuildingClass>
+			<FreeStartEra>ERA_FUTURE</FreeStartEra>
+			<PrereqTech>TECH_MOBILE_PHONES</PrereqTech>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_INDUSTRIAL_ROBOTICS</Type>
+			<Description>TXT_KEY_BUILDING_INDUSTRIAL_ROBOTICS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_INDUSTRIAL_ROBOTICS_DESC</Civilopedia>
+			<GoldMaintenance>160</GoldMaintenance>
+			<Cost>4600</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<BuildingClass>BUILDINGCLASS_INDUSTRIAL_ROBOTICS</BuildingClass>
+			<FreeStartEra>ERA_NANOTECH</FreeStartEra>
+			<PrereqTech>TECH_ROBOTICS</PrereqTech>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>4</SpecialistCount>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+		</Row>
+		<Row>
+			<Type>BUILDING_MEGACHURCH</Type>
+			<Description>TXT_KEY_BUILDING_MEGACHURCH</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MEGACHURCH_DESC</Civilopedia>
+			<Cost>2400</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<Culture>6</Culture>
+			<Happiness>2</Happiness>
+			<BuildingClass>BUILDINGCLASS_MEGACHURCH</BuildingClass>
+			<PrereqTech>TECH_TELEVANGELISM</PrereqTech>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<GreatPeopleRateChange>5</GreatPeopleRateChange>
+		</Row>
+		<Update>
+			<Set GoldMaintenance="300" Cost="3000" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="3" GreatPeopleRateChange="2"/>
+			<Where Type="BUILDING_NUCLEAR_PLANT"/>
+		</Update>
+		<Row>
+			<Type>BUILDING_SERVER_FARM</Type>
+			<Description>TXT_KEY_BUILDING_SERVER_FARM</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SERVER_FARM_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SERVER_FARM_HELP</Help>
+			<GoldMaintenance>75</GoldMaintenance>
+			<Cost>3000</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PlotCultureCostModifier>-35</PlotCultureCostModifier>
+			<BuildingClass>BUILDINGCLASS_SERVER_FARM</BuildingClass>
+			<FreeStartEra>ERA_FUTURE</FreeStartEra>
+			<PrereqTech>TECH_INTERNET</PrereqTech>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+		</Row>
+		<Row>
+			<Type>BUILDING_SHOPPING_MALL</Type>
+			<Description>TXT_KEY_BUILDING_SHOPPING_MALL</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SHOPPING_MALL_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SHOPPING_MALL_STRATEGY</Help>
+			<GoldMaintenance>40</GoldMaintenance>
+			<Cost>2000</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<BuildingClass>BUILDINGCLASS_SHOPPING_MALL</BuildingClass>
+			<FreeStartEra>ERA_FUTURE</FreeStartEra>
+			<PrereqTech>TECH_CONSUMERISM</PrereqTech>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>4</SpecialistCount>
+			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+		</Row>
+		<Update>
+			<Set GoldMaintenance="30" Cost="1800" PrereqTech="TECH_SOLAR_POWER" SpecialistCount="2" GreatPeopleRateChange="2"/>
+			<Where Type="BUILDING_SOLAR_PLANT"/>
+		</Update>
+		<Update>
+			<Set GoldMaintenance="200" Cost="3600"/>
+			<Where Type="BUILDING_SPACESHIP_FACTORY"/>
+		</Update>
+
+
+
+
+
+
+		
+		
+		
+		
 		
 		
 		
@@ -3232,42 +3361,10 @@
 			<SpecialistCount>3</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
 		</Row>
-		
-		
-		
-		<Row>
-			<Type>BUILDING_MEGACHURCH</Type>
-			<Description>TXT_KEY_BUILDING_MEGACHURCH</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEGACHURCH_DESC</Civilopedia>
-			<Cost>2400</Cost>
-			<HurryCostModifier>25</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<Culture>6</Culture>
-			<Happiness>2</Happiness>
-			<BuildingClass>BUILDINGCLASS_MEGACHURCH</BuildingClass>
-			<PrereqTech>TECH_TELEVANGELISM</PrereqTech>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
-			<GreatPeopleRateChange>5</GreatPeopleRateChange>
-		</Row>
-		<Row>
-			<Type>BUILDING_SHOPPING_MALL</Type>
-			<Description>TXT_KEY_BUILDING_SHOPPING_MALL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SHOPPING_MALL_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SHOPPING_MALL_STRATEGY</Help>
-			<GoldMaintenance>40</GoldMaintenance>
-			<Cost>2000</Cost>
-			<HurryCostModifier>25</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<BuildingClass>BUILDINGCLASS_SHOPPING_MALL</BuildingClass>
-			<FreeStartEra>ERA_FUTURE</FreeStartEra>
-			<PrereqTech>TECH_CONSUMERISM</PrereqTech>
-			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<SpecialistCount>4</SpecialistCount>
-			<GreatPeopleRateChange>4</GreatPeopleRateChange>
-		</Row>
+
+
+
+
 		<Row>
 			<Type>BUILDING_SUPERCOMPUTER</Type>
 			<Description>TXT_KEY_BUILDING_SUPERCOMPUTER</Description>
@@ -3286,91 +3383,7 @@
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
 		</Row>
-		
-		<Row>
-			<Type>BUILDING_AIRPORT</Type>
-			<Description>TXT_KEY_BUILDING_AIRPORT</Description>
-			<Civilopedia>TXT_KEY_BUILDING_AIRPORT_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_AIRPORT_STRATEGY</Help>
-			<GoldMaintenance>130</GoldMaintenance>
-			<Cost>2000</Cost>
-			<HurryCostModifier>25</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<Airlift>3</Airlift>
-			<TradeRouteModifier>25</TradeRouteModifier>
-			<BuildingClass>BUILDINGCLASS_AIRPORT</BuildingClass>
-			<FreeStartEra>ERA_FUTURE</FreeStartEra>
-			<PrereqTech>TECH_ADVANCED_FLIGHT</PrereqTech>
-			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
-		</Row>
-		<Row>
-			<Type>BUILDING_INDUSTRIAL_ROBOTICS</Type>
-			<Description>TXT_KEY_BUILDING_INDUSTRIAL_ROBOTICS</Description>
-			<Civilopedia>TXT_KEY_BUILDING_INDUSTRIAL_ROBOTICS_DESC</Civilopedia>
-			<GoldMaintenance>160</GoldMaintenance>
-			<Cost>4600</Cost>
-			<HurryCostModifier>25</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<BuildingClass>BUILDINGCLASS_INDUSTRIAL_ROBOTICS</BuildingClass>
-			<FreeStartEra>ERA_NANOTECH</FreeStartEra>
-			<PrereqTech>TECH_ROBOTICS</PrereqTech>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>4</SpecialistCount>
-			<GreatPeopleRateChange>3</GreatPeopleRateChange>
-		</Row>
-		<Row>
-			<Type>BUILDING_ADVANCED_AIRCRAFT_PLANT</Type>
-			<Description>TXT_KEY_BUILDING_ADVANCED_AIRCRAFT_PLANT</Description>
-			<Civilopedia>TXT_KEY_BUILDING_ADVANCED_AIRCRAFT_PLANT_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_ADVANCED_AIRCRAFT_PLANT_STRATEGY</Help>
-			<Cost>4500</Cost>
-			<HurryCostModifier>25</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<BuildingClass>BUILDINGCLASS_ADVANCED_AIRCRAFT_PLANT</BuildingClass>
-			<PrereqTech>TECH_SATELLITES</PrereqTech>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>3</SpecialistCount>
-			<GreatPeopleRateChange>5</GreatPeopleRateChange>
-		</Row>
-		<Row>
-			<Type>BUILDING_CELL_TOWERS</Type>
-			<Description>TXT_KEY_BUILDING_CELL_TOWERS</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CELL_TOWERS_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_CELL_TOWERS_HELP</Help>
-			<GoldMaintenance>50</GoldMaintenance>
-			<Cost>3000</Cost>
-			<HurryCostModifier>25</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<Happiness>3</Happiness>
-			<BuildingClass>BUILDINGCLASS_CELL_TOWERS</BuildingClass>
-			<FreeStartEra>ERA_FUTURE</FreeStartEra>
-			<PrereqTech>TECH_MOBILE_PHONES</PrereqTech>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
-		</Row>
-		<Row>
-			<Type>BUILDING_SERVER_FARM</Type>
-			<Description>TXT_KEY_BUILDING_SERVER_FARM</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SERVER_FARM_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SERVER_FARM_HELP</Help>
-			<GoldMaintenance>75</GoldMaintenance>
-			<Cost>3000</Cost>
-			<HurryCostModifier>25</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<PlotCultureCostModifier>-35</PlotCultureCostModifier>
-			<BuildingClass>BUILDINGCLASS_SERVER_FARM</BuildingClass>
-			<FreeStartEra>ERA_FUTURE</FreeStartEra>
-			<PrereqTech>TECH_INTERNET</PrereqTech>
-			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
-			<GreatPeopleRateChange>6</GreatPeopleRateChange>
-		</Row>
+
 		<Row>
 			<Type>BUILDING_CLOUD_COMPUTING_NETWORK</Type>
 			<Description>TXT_KEY_BUILDING_CLOUD_COMPUTING_NETWORK</Description>
@@ -3783,18 +3796,7 @@
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
 		</Row>
-		<Update>
-			<Set GoldMaintenance="30" Cost="1800" PrereqTech="TECH_SOLAR_POWER" SpecialistCount="2" GreatPeopleRateChange="2"/>
-			<Where Type="BUILDING_SOLAR_PLANT"/>
-		</Update>
-		<Update>
-			<Set GoldMaintenance="300" Cost="3000" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="3" GreatPeopleRateChange="2"/>
-			<Where Type="BUILDING_NUCLEAR_PLANT"/>
-		</Update>
-		<Update>
-			<Set GoldMaintenance="200" Cost="3600"/>
-			<Where Type="BUILDING_SPACESHIP_FACTORY"/>
-		</Update>
+
 	</Buildings>
 	<Building_Flavors>
 		<!--ANCIENT ERA-->
@@ -7149,6 +7151,10 @@
 			<ResourceType>RESOURCE_INCENSE</ResourceType>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_CHEMICAL_PLANT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_FOOD_PROCESSING_PLANT</BuildingType>
 			<ResourceType>RESOURCE_SPICES</ResourceType>
 		</Row>
@@ -7369,12 +7375,6 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ARSENAL</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_CHEMICAL_PLANT</BuildingType>
 			<ResourceType>RESOURCE_DYE</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -7389,6 +7389,12 @@
 		<Row>
 			<BuildingType>BUILDING_CHEMICAL_PLANT</BuildingType>
 			<ResourceType>RESOURCE_INSENSE</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHEMICAL_PLANT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
