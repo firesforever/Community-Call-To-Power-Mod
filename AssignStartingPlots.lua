@@ -3533,7 +3533,7 @@ function AssignStartingPlots:AddStrategicBalanceResources(region_number)
 	local shuf_list;
 	local placed_iron, placed_horse, placed_oil = false, false, false ;
 
--- START CCTP RESOURCES
+--[[START CCTP RESOURCES
 	if table.maxn(copper_list) > 0 then
 		shuf_list = GetShuffledCopyOfTable(copper_list)
 		iNumLeftToPlace = self:PlaceSpecificNumberOfResources(self.copper_ID, copper_amt, 1, 1, -1, 0, 0, shuf_list);
@@ -3554,7 +3554,7 @@ function AssignStartingPlots:AddStrategicBalanceResources(region_number)
 		if iNumLeftToPlace == 0 then
 			placed_coffee = true;
 		end
-	end
+	end]]
 -- END CCTP RESOURCES
 	if table.maxn(iron_list) > 0 then
 		shuf_list = GetShuffledCopyOfTable(iron_list)
