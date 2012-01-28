@@ -25,6 +25,16 @@
 			<Text>Available Policies</Text>
 		</Row>
 
+		<!--Policy Select Buttons-->
+		<Row Tag="TXT_KEY_CCTP_GOVERNMENTS">
+			<Text>Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CCTP_GOVERNMENTIDE">
+			<Text>Government Ideologies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CCTP_GOVERNMENTSYS">
+			<Text>Government Systems</Text>
+		</Row>
 
 
 		<!--Box Titles-->
