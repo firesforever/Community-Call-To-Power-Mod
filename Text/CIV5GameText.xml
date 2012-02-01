@@ -3,6 +3,7 @@
 <GameData>
 	<Language_en_US>
 
+		<!--TECH TREES-->
 		<Row>
 			<Tag>TXT_KEY_TECHTREE_ENGINEERING</Tag>
 			<Text>Engineering ([ICON_PRODUCTION])  )</Text>
@@ -23,26 +24,124 @@
 			<Tag>TXT_KEY_TECHTREE_SOCIAL</Tag>
 			<Text>Social ([ICON_CULTURE]/[ICON_HAPPINESS_1])  </Text>
 		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_BURIAL_MOUND</Tag>
-			<Text>Burial Mound</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_BURIAL_MOUND_DESC</Tag>
-			<Text>Burial Mounds are a type of monumental architecture built primarily of earth, although they do occasionally have stone or wood foundations. These structures may or may not contain human burials.[NEWLINE][NEWLINE]Burial Mounds have been used for thousands of years as a both a function of spiritual rites, as well as more pragmatic protection against disease and vermin.</Text>
-		</Row>
+		
+		<!--BUILDINGS-->
+		<!--ANCIENT-->
+		<Update>
+			<Set Text="+2 [ICON_FOOD] Food from every Oasis."/>
+			<Where Tag="TXT_KEY_BUILDING_BAZAAR_HELP" />
+		</Update>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BREWERY</Tag>
 			<Text>Brewery</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_BREWERY_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_BREWERY_PEDIA</Tag>
 			<Text>A brewery is a dedicated building for the making of beer, though beer can be made at home, and has been for much of beer's history. A company which makes beer is called either a brewery or a brewing company.[NEWLINE][NEWLINE]The diversity of size in breweries is matched by the diversity of processes, degrees of automation, and kinds of beer produced in breweries. Typically a brewery is divided into distinct sections, with each section reserved for one part of the brewing process.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_BREWERY_STRATEGY</Tag>
+			<Tag>TXT_KEY_BUILDING_BREWERY_HELP</Tag>
 			<Text>Each source of [ICON_RES_WHEAT] Wheat, [ICON_RES_SUGAR] Sugar, and [ICON_RES_SPICES] Spices worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BREWERY_STRATEGY</Tag>
+			<Text>The Brewery increases the [ICON_HAPPINESS_1] Happiness in the empire and boost the city's growth by boosting the food output of many resources. It's useful if you want to grow your city.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BURIAL_MOUND</Tag>
+			<Text>Burial Mound</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BURIAL_MOUND_PEDIA</Tag>
+			<Text>Burial Mounds are a type of monumental architecture built primarily of earth, although they do occasionally have stone or wood foundations. These structures may or may not contain human burials.[NEWLINE][NEWLINE]Burial Mounds have been used for thousands of years as a both a function of spiritual rites, as well as more pragmatic protection against disease and vermin.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BURIAL_MOUND_STRATEGY</Tag>
+			<Text>The Burial Mound increases the Culture of a city, speeding the growth of the city's territory.</Text>
+		</Row>
+		<Update>
+			<Set Text="Each source of [ICON_RES_FUR] Fur and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_HORSE] Horses, [ICON_RES_FUR] Fur, or [ICON_RES_IVORY] Ivory nearby."/>
+			<Where Tag="TXT_KEY_BUILDING_CIRCUS_HELP" />
+		</Update>
+		<Update>
+			<Set Text="Each source of [ICON_RES_DEER] Deer and [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]+10% [ICON_FOOD] Food carried over after a [ICON_CITIZEN] Citizen is born."/>
+			<Where Tag="TXT_KEY_BUILDING_GRANARY_HELP" />
+		</Update>
+		<Update>
+			<Set Text="Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.[NEWLINE][NEWLINE]City must not be in Plains."/>
+			<Where Tag="TXT_KEY_BUILDING_STONE_WORKS_HELP" />
+		</Update>
+		
+		<!--CLASSICAL-->
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ABBEY</Tag>
+			<Text>Abbey</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ABBEY_PEDIA</Tag>
+			<Text>An abbey, or nunnery, is a Christian monastery or convent, under the government of an Abbot or an Abbess, who serves as the spiritual father or mother of the community. The term can also refer to an establishment which has long ceased to function as an abbey, but continues to carry the name—in some cases for centuries.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ABBEY_HELP</Tag>
+			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces 1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_SILK] Silk worked by this City produces 1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ABBEY_STRATEGY</Tag>
+			<Text>The Abbey increases the Science in a city and provides a small boost to [ICON_HAPPINESS_1] Happiness. It also provides additional bonuses for many resources.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ARTILLERY_RANGE</Tag>
+			<Text>Artillery Range</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ARTILLERY_RANGE_DESC</Tag>
+			<Text>Atillery Ranges give seige weapon operators the ability to test their equipment and become proficient at it's use.  Commanders of Other ground based units also recieve training here so they know the capabilities of current ranged weaponry.  </Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ARTILLERY_RANGE_HELP</Tag>
+			<Text>+15 XP for all Siege and Archer Units.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ARTILLERY_RANGE_STRATEGY</Tag>
+			<Text>The Artillery Range provides experience for Ranged Units built in the city. This experience can be used to give the units Promotions, making them more effective in battle.</Text>
+		</Row>
+		<Update>
+			<Set Text="Each worked Lake tile provides +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built next to a River or Lake." />
+			<Where Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP" />
+		</Update>
+		<Update>
+			<Set Text="+1 [ICON_PRODUCTION] Production from each worked Forest tile." />
+			<Where Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP" />
+		</Update>
+		<Update>
+			<Set Text="Each source of [ICON_RES_GOLD] Gold, [ICON_RES_SILVER] Silver, and [ICON_RES_GEMS] Gems worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources mined nearby." />
+			<Where Tag="TXT_KEY_BUILDING_MINT_HELP" />
+		</Update>
+		<Update>
+			<Set Text="+1 [ICON_RESEARCH] Science per 2 [ICON_CITIZEN] Citizens in this City." />
+			<Where Tag="TXT_KEY_BUILDING_PAPER_MAKER_HELP" />
+		</Update>
+		<Update>
+			<Set Text="Each sorce of [ICON_RES_COW] Cow, [ICON_RES_SHEEP] Sheep, and [ICON_RES_HORSE] Horse worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]Requires improved source of [ICON_RES_COW] Cow, [ICON_RES_HORSE] Horse, or [ICON_RES_SHEEP] Sheep nearby."/>
+			<Where Tag="TXT_KEY_BUILDING_STABLE_HELP" />
+		</Update>
+		<!--<Update>
+			<Where Tag="TXT_KEY_BUILDING_WORKSHOP_STRATEGY" />
+			<Set Text="Greatly increases [ICON_PRODUCTION] Production in this City."/>
+		</Update>-->
+		
+		<!--MEDIEVAL-->
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MAHABODHI_TEMPLE</Tag>
 			<Text>Mahabodhi Temple</Text>
@@ -180,18 +279,6 @@
 			<Text>[NEWLINE][TAB][TAB]“The dice of Zeus always fall luckily.”[NEWLINE][TAB][TAB] - Sophocles[NEWLINE][TAB]</Text>
 		</Row>-->
 		<Row>
-			<Tag>TXT_KEY_BUILDING_ABBEY</Tag>
-			<Text>Abbey</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_ABBEY_DESC</Tag>
-			<Text>An abbey, or nunnery, is a Christian monastery or convent, under the government of an Abbot or an Abbess, who serves as the spiritual father or mother of the community. The term can also refer to an establishment which has long ceased to function as an abbey, but continues to carry the name—in some cases for centuries.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_ABBEY_HELP</Tag>
-			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces 1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_SILK] Silk worked by this City produces 1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
-		</Row>
-		<Row>
 			<Tag>TXT_KEY_BUILDING_TEMPLE_OF_SOLOMON</Tag>
 			<Text>Temple of Solomon</Text>
 		</Row>
@@ -266,18 +353,6 @@
 		<Row>
 			<Tag>TXT_KEY_WONDER_NAZCA_LINES_QUOTE</Tag>
 			<Text>[NEWLINE][NEWLINE]We must spare our enemies or it will be our loss, since they and all that belongs to them must soon be ours."[NEWLINE][TAB][TAB] - Unknown[NEWLINE][TAB]</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_ARTILLERY_RANGE</Tag>
-			<Text>Artillery Range</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_ARTILLERY_RANGE_DESC</Tag>
-			<Text>Atillery Ranges give seige weapon operators the ability to test their equipment and become proficient at it's use.  Commanders of Other ground based units also recieve training here so they know the capabilities of current ranged weaponry.  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_ARTILLERY_RANGE_STRATEGY</Tag>
-			<Text>+15 XP for all Siege and Archer Units.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Tag>
@@ -674,6 +749,10 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MISSIONARY_CHURCH_DESC</Tag>
 			<Text>A Missionary Church is a church whose general purpose is to spread the religious values and ideals from one area to another.  While Missionary Churches are generally thought of as crossing borders or oceans, they also spread shorter distances such as across town or state.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MISSIONARY_CHURCH_HELP</Tag>
+			<Text>City must have an Abbey.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WAT_HELP</Tag>
@@ -1108,6 +1187,10 @@
 			<Text>A megachurch is a church having 2,000 or more attendees for a typical weekly service. The Hartford Institute's database lists more than 1,300 such Protestant churches in the United States. According to that data, approximately 50 churches on the list have attendance ranging from 10,000 to 47,000.  While 3,000 individual Roman Catholic parishes (churches) have 2,000 or more attendants for an average Sunday Mass, these churches are not seen as part of the megachurch movement.[NEWLINE][NEWLINE]Globally, these large congregations are a significant development in Protestant Christianity. While generally associated with the United States, the phenomenon has spread worldwide. In 2007, five of the ten largest Protestant churches were in South Korea.  Most megachurches tend to be evangelical or Pentecostal, and are often semi-independent from the major Christian denominations.[NEWLINE][NEWLINE]The megachurch movement, with a large number of local congregants who return on a weekly basis, is usually thought to have begun in the 1950s.  There have been large churches earlier in history, but they were considerably rarer. Examples include Charles Spurgeon's Baptist Metropolitan Tabernacle in London which attracted 5,000 weekly for years in the late 19th century, and religious broadcaster Aimee Semple McPherson's Angelus Temple in Los Angeles, which was similarly large.  The current largest megachurch in the world is the Yoido Full Gospel Church found in South Korea, with 830,000 members as of 2007.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_MEGACHURCH_HELP</Tag>
+			<Text>City must have a Missionary Church.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_CRYSTAL_CATHEDRAL</Tag>
 			<Text>Crystal Cathedral</Text>
 		</Row>
@@ -1264,6 +1347,10 @@
 			<Text>An industrial robot is officially defined by ISO as an automatically controlled, reprogrammable, multipurpose manipulator programmable in three or more axes. The field of robotics may be more practically defined as the study, design and use of robot systems for manufacturing (a top-level definition relying on the prior definition of robot).  Typical applications of robots include welding, painting, assembly, pick and place, packaging and palletizing, product inspection, and testing, all accomplished with high endurance, speed, and precision.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_ROBOTICS_HELP</Tag>
+			<Text>Each source of [ICON_RES_ALUMINUM] Aluminum and [ICON_RES_TITANIUM] Titanium worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold. Each source of [ICON_RES_COAL] Coal worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Factory.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_NATIONAL_LABORATORY</Tag>
 			<Text>National Laboratory</Text>
 		</Row>
@@ -1285,7 +1372,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ADVANCED_AIRCRAFT_PLANT_STRATEGY</Tag>
-			<Text>Required for Stealth Fighter, Stealth Bomber, Unmanned Aircraft, Hypersonic Interceptor, Hypersonic Bomber, and Stealth Gunship production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_ALUMINUM] Aluminum.</Text>
+			<Text>Required for Stealth Fighter, Stealth Bomber, Unmanned Aircraft, Hypersonic Interceptor, Hypersonic Bomber, and Stealth Gunship production.[NEWLINE][NEWLINE]City must have an Aircraft Plant. Requires 2 [ICON_RES_ALUMINUM] Aluminum.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_GPS_SATELLITES</Tag>
@@ -1329,7 +1416,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CELL_TOWERS_HELP</Tag>
-			<Text>+4 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
+			<Text>It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Stadium.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SERVER_FARM</Tag>
@@ -1341,7 +1428,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SERVER_FARM_HELP</Tag>
-			<Text>+2 [ICON_GOLD] Gold for every 1 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE][ICON_CULTURE] Culture cost of acquiring new tiles reduced by 35% in this City.</Text>
+			<Text>+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]City must have a Research Laboratory.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INTERNET</Tag>
@@ -4583,14 +4670,6 @@
 			<Text>The Wormhole Detection Array is a feat of human engineering that places many detection stations around the solar system, all of which coordinate to pinpoint possible wormhole entrances.  Any such wormhole entrances could potentially open up the stars to human colonization, or perhaps even alien contact.</Text>
 		</Row>
 		<Update>
-			<Set Text="Each source of [ICON_RES_FUR] Fur and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_HORSE] Horses, [ICON_RES_FUR] Fur, or [ICON_RES_IVORY] Ivory nearby."/>
-			<Where Tag="TXT_KEY_BUILDING_CIRCUS_HELP" />
-		</Update>
-		<Update>
-			<Set Text="Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.[NEWLINE][NEWLINE]City must not be in Plains."/>
-			<Where Tag="TXT_KEY_BUILDING_STONE_WORKS_HELP" />
-		</Update>
-		<Update>
 			<Set Text="Greatly increases [ICON_HAPPINESS_1] Happiness in the empire."/>
 			<Where Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP" />
 		</Update>
@@ -4617,10 +4696,6 @@
 		<Update>
 			<Set Text="+1 [ICON_RESEARCH] Science from Scientist Specialist in every City.[NEWLINE][NEWLINE]1 Free Technology.[NEWLINE][NEWLINE]Must have built a University in all Cities. The cost goes up the more cities there are in the empire."/>
 			<Where Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP" />
-		</Update>
-		<Update>
-			<Where Tag="TXT_KEY_BUILDING_WORKSHOP_STRATEGY" />
-			<Set Text="Greatly increases [ICON_PRODUCTION] Production in this City."/>
 		</Update>
 		<Update>
 			<Set Text="City must be built next to a River or Lake."/>
@@ -4651,20 +4726,8 @@
 			<Where Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+2 [ICON_FOOD] Food from every Oasis."/>
-			<Where Tag="TXT_KEY_BUILDING_BAZAAR_HELP" />
-		</Update>
-		<Update>
-			<Set Text="Each sorce of [ICON_RES_COW] Cow, [ICON_RES_SHEEP] Sheep, and [ICON_RES_HORSE] Horse worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]Requires improved source of [ICON_RES_COW] Cow, [ICON_RES_HORSE] Horse, or [ICON_RES_SHEEP] Sheep nearby."/>
-			<Where Tag="TXT_KEY_BUILDING_STABLE_HELP" />
-		</Update>
-		<Update>
 			<Set Text="Each source of [ICON_RES_IRON] Iron and [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_FORGE_HELP" />
-		</Update>
-		<Update>
-			<Set Text="Each source of [ICON_RES_DEER] Deer and [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]+10% [ICON_FOOD] Food carried over after a [ICON_CITIZEN] Citizen is born."/>
-			<Where Tag="TXT_KEY_BUILDING_GRANARY_HELP" />
 		</Update>
 		<Update>
 			<Set Text="10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born."/>
@@ -4687,24 +4750,12 @@
 			<Where Tag="TXT_KEY_WONDER_COLOSSUS_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_GOLD] Gold, [ICON_RES_SILVER] Silver, and [ICON_RES_GEMS] Gems worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources mined nearby." />
-			<Where Tag="TXT_KEY_BUILDING_MINT_HELP" />
-		</Update>
-		<Update>
-			<Set Text="+1 [ICON_PRODUCTION] Production from each worked Forest tile." />
-			<Where Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP" />
-		</Update>
-		<Update>
 			<Set Text="+1 [ICON_PRODUCTION] Production from Engineer Specialists in every City.[NEWLINE]+1 [ICON_GOLD] Gold from Merchant Specialists in every City.[NEWLINE]+1 [ICON_RESEARCH] Science from Scientist Specialist and Artist Specialist in every City." />
 			<Where Tag="TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP" />
 		</Update>
 		<Update>
 			<Set Text="+1 [ICON_RESEARCH] Science per 2 [ICON_CITIZEN] Citizens in this City." />
 			<Where Tag="TXT_KEY_BUILDING_LIBRARY_HELP" />
-		</Update>
-		<Update>
-			<Set Text="+1 [ICON_RESEARCH] Science per 2 [ICON_CITIZEN] Citizens in this City." />
-			<Where Tag="TXT_KEY_BUILDING_PAPER_MAKER_HELP" />
 		</Update>
 		<Update>
 			<Set Text="+1 [ICON_RESEARCH] Science per 2 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]City must have a University." />
@@ -4719,7 +4770,7 @@
 			<Where Tag="TXT_KEY_BUILDING_UNIVERSITY_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Significantly increases [ICON_PRODUCTION] Production in this City.[NEWLINE][NEWLINE]Requires a nearby desert for construction." />
+			<Set Text="Significantly increases [ICON_PRODUCTION] Production in this City.[NEWLINE][NEWLINE]Requires a nearby desert for construction. City must have a Factory." />
 			<Where Tag="TXT_KEY_BUILDING_SOLAR_PLANT_HELP" />
 		</Update>
 		<Update>
@@ -4739,10 +4790,6 @@
 			<Where Tag="TXT_KEY_BUILDING_LIGHTHOUSE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each worked Lake tile provides +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built next to a River or Lake." />
-			<Where Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP" />
-		</Update>
-		<Update>
 			<Set Text="+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]+15 XP for Naval Units produced in this City.[NEWLINE]Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land).[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_BUILDING_HARBOR_HELP" />
 		</Update>
@@ -4755,7 +4802,7 @@
 			<Where Tag="TXT_KEY_BUILDING_WATERMILL_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Required for Supercarrier, A-Bomb, Nuclear Missile, and Nuclear Submarine production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_URANIUM] Uranium." />
+			<Set Text="Required for Supercarrier, A-Bomb, Nuclear Missile, and Nuclear Submarine production.[NEWLINE][NEWLINE]City must have a Factory. Requires 2 [ICON_RES_URANIUM] Uranium." />
 			<Where Tag="TXT_KEY_BUILDING_NUCLEAR_PLANT_HELP" />
 		</Update>
 		<Update>

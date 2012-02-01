@@ -131,19 +131,27 @@
 
 	<Yields>
 		<Update>
-			<Set GoldenAgeYieldMod="2" />
-			<Where Type="YIELD_FOOD" />
-		</Update>
-		<Update>
-			<Set GoldenAgeYieldMod="2" />
+			<Set GoldenAgeYield="1" />
 			<Where Type="YIELD_PRODUCTION" />
 		</Update>
 		<Update>
-			<Set GoldenAgeYieldMod="2" />
+			<Set GoldenAgeYieldThreshold="1" />
+			<Where Type="YIELD_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set GoldenAgeYieldMod="0" />
+			<Where Type="YIELD_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set GoldenAgeYield="1" />
 			<Where Type="YIELD_GOLD" />
 		</Update>
 		<Update>
-			<Set GoldenAgeYieldMod="2" />
+			<Set GoldenAgeYield="1" />
+			<Where Type="YIELD_SCIENCE" />
+		</Update>
+		<Update>
+			<Set GoldenAgeYieldThreshold="1" />
 			<Where Type="YIELD_SCIENCE" />
 		</Update>
 
