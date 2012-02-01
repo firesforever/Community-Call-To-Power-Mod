@@ -923,22 +923,15 @@
 			<Where Type="BUILDING_BARRACKS"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="140" />
-			<Where Type="BUILDING_KREPOST"/>
-		</Update>
-		<Update>
 			<Set Cost="180" PrereqTech="TECH_TRADING" SpecialistCount="1" GreatPeopleRateChange="0" />
 			<Where Type="BUILDING_BAZAAR"/>
-		</Update>
-		<Update>
-			<Set Cost="180" PrereqTech="TECH_TRADING" GreatPeopleRateChange="0" SpecialistCount="1" />
-			<Where Type="BUILDING_MARKET"/>
 		</Update>
 		<Row>
 			<Type>BUILDING_BREWERY</Type>
 			<Description>TXT_KEY_BUILDING_BREWERY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_BREWERY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_BREWERY_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_BREWERY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_BREWERY_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_BREWERY_STRATEGY</Strategy>
 			<Cost>220</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<GoldMaintenance>2</GoldMaintenance>
@@ -951,7 +944,8 @@
 		<Row>
 			<Type>BUILDING_BURIAL_MOUND</Type>
 			<Description>TXT_KEY_BUILDING_BURIAL_MOUND</Description>
-			<Civilopedia>TXT_KEY_BUILDING_BURIAL_MOUND_DESC</Civilopedia>
+			<Civilopedia>TXT_KEY_BUILDING_BURIAL_MOUND_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BURIAL_MOUND_STRATEGY</Strategy>
 			<Cost>80</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -968,14 +962,6 @@
 			<Where Type="BUILDING_BURIAL_TOMB"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="160" Happiness="0" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" SpecialistCount="1" />
-			<Where Type="BUILDING_TEMPLE"/>
-		</Update>
-		<Update>
-			<Set Cost="160" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" Culture="5" Happiness="0" SpecialistCount="1"/>
-			<Where Type="BUILDING_MUD_PYRAMID_MOSQUE"/>
-		</Update>
-		<Update>
 			<Set GoldMaintenance="2" Cost="220" />
 			<Where Type="BUILDING_CIRCUS"/>
 		</Update>
@@ -984,12 +970,28 @@
 			<Where Type="BUILDING_GRANARY" />
 		</Update>
 		<Update>
+			<Set GoldMaintenance="2" Cost="140" />
+			<Where Type="BUILDING_KREPOST"/>
+		</Update>
+		<Update>
+			<Set Cost="180" PrereqTech="TECH_TRADING" GreatPeopleRateChange="0" SpecialistCount="1" />
+			<Where Type="BUILDING_MARKET"/>
+		</Update>
+		<Update>
 			<Set Cost="60" GoldMaintenance="0" />
 			<Where Type="BUILDING_MONUMENT"/>
 		</Update>
 		<Update>
+			<Set Cost="160" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" Culture="5" Happiness="0" SpecialistCount="1"/>
+			<Where Type="BUILDING_MUD_PYRAMID_MOSQUE"/>
+		</Update>
+		<Update>
 			<Set GoldMaintenance="2" Cost="220" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="0" SpecialistCount="0" Happiness="1" PrereqTech="TECH_MASONRY"/>
 			<Where Type="BUILDING_STONE_WORKS"/>
+		</Update>
+		<Update>
+			<Set GoldMaintenance="2" Cost="160" Happiness="0" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" SpecialistCount="1" />
+			<Where Type="BUILDING_TEMPLE"/>
 		</Update>
 		<Update>
 			<Set Cost="220" />
@@ -1004,8 +1006,9 @@
 		<Row>
 			<Type>BUILDING_ABBEY</Type>
 			<Description>TXT_KEY_BUILDING_ABBEY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_ABBEY_DESC</Civilopedia>
+			<Civilopedia>TXT_KEY_BUILDING_ABBEY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_ABBEY_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_ABBEY_STRATEGY</Strategy>
 			<GoldMaintenance>2</GoldMaintenance>
 			<Cost>300</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -1022,8 +1025,9 @@
 		<Row>
 			<Type>BUILDING_ARTILLERY_RANGE</Type>
 			<Description>TXT_KEY_BUILDING_ARTILLERY_RANGE</Description>
-			<Civilopedia>TXT_KEY_BUILDING_ARTILLERY_RANGE_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_ARTILLERY_RANGE_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_ARTILLERY_RANGE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_ARTILLERY_RANGE_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_ARTILLERY_RANGE_STRATEGY</Strategy>
 			<GoldMaintenance>3</GoldMaintenance>
 			<Cost>340</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -1046,33 +1050,35 @@
 			<Where Type="BUILDING_FLOATING_GARDENS"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="300" GreatPeopleRateChange="0" SpecialistCount="1" SpecialistType="SPECIALIST_ENGINEER"/>
-			<Where Type="BUILDING_WATERMILL"/>
-		</Update>
-		<Update>
 			<Set GoldMaintenance="2" Cost="300" GreatPeopleRateChange="0" SpecialistCount="1" SpecialistType="SPECIALIST_SCIENTIST"/>
 			<Where Type="BUILDING_LIBRARY"/>
-		</Update>
-		<Update>
-			<Set Cost="300" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1"/>
-			<Where Type="BUILDING_PAPER_MAKER"/>
 		</Update>
 		<Update>
 			<Set GoldMaintenance="2" Cost="380" PrereqTech="TECH_DIVISION_OF_LABOR" GreatPeopleRateChange="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_LONGHOUSE"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="380" PrereqTech="TECH_DIVISION_OF_LABOR" GreatPeopleRateChange="0" SpecialistCount="1"/>
-			<Where Type="BUILDING_WORKSHOP"/>
-		</Update>
-		<Update>
 			<Set Cost="300" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="1" GreatPeopleRateChange="0" Happiness="1"/>
 			<Where Type="BUILDING_MINT"/>
+		</Update>
+		<Update>
+			<Set Cost="300" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1"/>
+			<Where Type="BUILDING_PAPER_MAKER"/>
 		</Update>
 		<Update>
 			<Set GoldMaintenance="2" Cost="300" />
 			<Where Type="BUILDING_STABLE"/>
 		</Update>
+		<Update>
+			<Set GoldMaintenance="2" Cost="300" GreatPeopleRateChange="0" SpecialistCount="1" SpecialistType="SPECIALIST_ENGINEER"/>
+			<Where Type="BUILDING_WATERMILL"/>
+		</Update>
+		<Update>
+			<Set GoldMaintenance="2" Cost="380" PrereqTech="TECH_DIVISION_OF_LABOR" GreatPeopleRateChange="0" SpecialistCount="1"/>
+			<Where Type="BUILDING_WORKSHOP"/>
+		</Update>
+
+
 		
 		<!--MEDIEVAL ERA-->
 		<Update>
@@ -1086,10 +1092,6 @@
 		<Update>
 			<Set Cost="540" />
 			<Where Type="BUILDING_CASTLE"/>
-		</Update>
-		<Update>
-			<Set Cost="540" />
-			<Where Type="BUILDING_MUGHAL_FORT"/>
 		</Update>
 		<Row>
 			<Type>BUILDING_CITY_CLOCK</Type>
@@ -1140,12 +1142,12 @@
 			<PortraitIndex>28</PortraitIndex>
 		</Row>-->
 		<Update>
-			<Set GoldMaintenance="5" Cost="570" PrereqTech="TECH_AGRICULTURAL_REVOLUTION" BuildingProductionModifier="0" GreatPeopleRateChange="0" SpecialistCount="1"/>
-			<Where Type="BUILDING_WINDMILL"/>
-		</Update>
-		<Update>
 			<Set GoldMaintenance="2" Cost="540" />
 			<Where Type="BUILDING_MONASTERY"/>
+		</Update>
+		<Update>
+			<Set Cost="540" />
+			<Where Type="BUILDING_MUGHAL_FORT"/>
 		</Update>
 		<Update>
 			<Set GoldMaintenance="3" Cost="540" GreatPeopleRateChange="0" SpecialistCount="1"/>
@@ -1192,6 +1194,13 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
+		<Update>
+			<Set GoldMaintenance="5" Cost="570" PrereqTech="TECH_AGRICULTURAL_REVOLUTION" BuildingProductionModifier="0" GreatPeopleRateChange="0" SpecialistCount="1"/>
+			<Where Type="BUILDING_WINDMILL"/>
+		</Update>
+
+
+		
 
 		<!--RENAISSANCE ERA-->
 		<Update>
@@ -7013,7 +7022,7 @@
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_AIRBASE_PLANT</BuildingType>
+			<BuildingType>BUILDING_AIRCRAFT_PLANT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_AIRCRAFT_PLANT</BuildingClassType>
 		</Row>
 		<Row>
@@ -7414,7 +7423,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CHEMICAL_PLANT</BuildingType>
-			<ResourceType>RESOURCE_INSENSE</ResourceType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
