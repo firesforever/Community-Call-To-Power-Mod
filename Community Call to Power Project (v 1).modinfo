@@ -19,6 +19,9 @@
   <References />
   <Blocks />
   <Files>
+    <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="0">Frontiers/BuildingTableAdds.sql</File>
+    <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="1">Frontiers/CityView.lua</File>
+    <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="1">Frontiers/CityView.xml</File>
     <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="0">LuaReqs/LuaReqAdds.sql</File>
     <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="1">LuaReqs/LuaReqInclude.lua</File>
     <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="1">LuaReqs/LuaReqBuildings.xml</File>
