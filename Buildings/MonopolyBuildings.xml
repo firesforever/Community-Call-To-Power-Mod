@@ -693,7 +693,6 @@
 			<Civilopedia>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY_STRATEGY</Help>
 			<NukeImmune>true</NukeImmune>
-			<Happiness>2</Happiness>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -1649,13 +1648,12 @@
 
 		<!-- Modern Era -->
 
-
+<!--
 		<Row>
 			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<Cost>1</Cost>
 		</Row>
-<!-- 
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_TITANIUM_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>

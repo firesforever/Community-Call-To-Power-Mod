@@ -426,7 +426,7 @@
 		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_ROBOTICS</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>160</Yield>
+			<Yield>25</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TOWN_HALL</BuildingType>
@@ -7018,12 +7018,12 @@
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<BuildingType>BUILDING_AIRBASE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AICRAFT_PLANT</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_AIRCRAFT_PLANT</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_AIRCRAFT_PLANT</BuildingClassType>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_SHIPYARD</BuildingType>
@@ -7144,6 +7144,10 @@
 		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_RANCH</BuildingType>

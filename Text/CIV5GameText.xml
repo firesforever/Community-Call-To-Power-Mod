@@ -768,7 +768,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_RANCH_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_HORSE] Horses, [ICON_RES_COW] Cattle, and [ICON_RES_SHEEP] Sheep worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of at least one of these resources nearby.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_HORSE] Horse for construction.</Text>
+			<Text>Each source of [ICON_RES_HORSE] Horses, [ICON_RES_COW] Cattle, and [ICON_RES_SHEEP] Sheep worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of at least one of these resources nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DECLARATION_OF_INDEPENDENCE</Tag>
