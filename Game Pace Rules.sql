@@ -70,7 +70,7 @@ WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_DIGITAL' 
 
 --Modern
 UPDATE Buildings 
-SET 'Cost' = Cost * 3.0
+SET 'Cost' = Cost -- was * 3.0
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MODERN' ) );
 
 
@@ -87,7 +87,7 @@ WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_DIGITAL' 
 
 --Modern
 UPDATE Units
-SET 'Cost' = Cost * 2.69
+SET 'Cost' = Cost -- WAS * 2.69
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MODERN' ) );
 
 
@@ -105,7 +105,7 @@ WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_DIGITAL' 
 
 --Modern
 UPDATE Buildings
-SET GoldMaintenance = GoldMaintenance * 3.15
+SET GoldMaintenance = GoldMaintenance -- was * 3.15
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MODERN' ) );
 
 --Industrial
