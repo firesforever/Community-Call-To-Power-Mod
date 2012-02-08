@@ -1240,37 +1240,11 @@
 			<Where Type="UNIT_SUBMARINE" />
 		</Update>
 		
-		<Row>
-			<Type>UNIT_SUPERCARRIER</Type>
-			<Description>TXT_KEY_UNIT_SUPERCARRIER</Description>
-			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_SUPERCARRIER_TEXT</Civilopedia>
-			<Help>TXT_KEY_UNIT_HELP_SUPERCARRIER</Help>
-			<Combat>70</Combat>
-			<Cost>27500</Cost>
-			<Moves>8</Moves>
-			<Class>UNITCLASS_SUPERCARRIER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
-			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
-			<ObsoleteTech>TECH_ULTRA_PRESSURE_MACHINERY</ObsoleteTech>
-			<AdvancedStartCost>80</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
-			<DomainCargo>DOMAIN_AIR</DomainCargo>
-			<UnitArtInfo>ART_DEF_UNIT_CARRIER</UnitArtInfo>
-			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>70</UnitFlagIconOffset>
-			<PortraitIndex>23</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
-		</Row>
+		<!--MODERN ERA-->
+		<Update>
+			<Set Cost="2150" />
+			<Where Type="UNIT_ATOMIC_BOMB" />
+		</Update>
 		<Row>
 			<Type>UNIT_COMBAT_CONTROLLER</Type>
 			<Description>TXT_KEY_UNIT_COMBAT_CONTROLLER</Description>
@@ -1278,7 +1252,7 @@
 			<Help>TXT_KEY_UNIT_HELP_COMBAT_CONTROLLER</Help>
 			<Combat>28</Combat>
 			<RangedCombat>56</RangedCombat>
-			<Cost>6500</Cost>
+			<Cost>1250</Cost>
 			<Moves>3</Moves>
 			<Range>2</Range>
 			<Class>UNITCLASS_COMBAT_CONTROLLER</Class>
@@ -1299,13 +1273,57 @@
 			<PortraitIndex>30</PortraitIndex>
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 		</Row>
+		<Update>
+			<Set Cost="1325" PrereqTech="TECH_CRUISE_MISSILES" ObsoleteTech="TECH_SCRAMJET_ENGINES" HurryCostModifier="50" />
+			<Where Type="UNIT_GUIDED_MISSILE" />
+		</Update>
+		<Update>
+			<Set Cost="1300" PrereqTech="TECH_ADVANCED_FLIGHT" ObsoleteTech="TECH_SMART_MATERIALS" />
+			<Where Type="UNIT_HELICOPTER_GUNSHIP" />
+		</Update>
+		<Update>
+			<Set Cost="1375" PrereqTech="TECH_ADVANCED_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS"/>
+			<Where Type="UNIT_JET_FIGHTER" />
+		</Update>
+		<Update>
+			<Set Cost="1200" PrereqTech="TECH_INFANTRY_FIGHTING_VEHICLES" ObsoleteTech="TECH_EXOSKELETONS" />
+			<Where Type="UNIT_MECHANIZED_INFANTRY" />
+		</Update>
+		<Update>
+			<Set RangedCombat="50" Cost="1525" PrereqTech="TECH_CRUISE_MISSILES" ObsoleteTech="TECH_ULTRA_PRESSURE_MACHINERY" />
+			<Where Type="UNIT_MISSILE_CRUISER" />
+		</Update>
+		<Update>
+			<Set Cost="1100" PrereqTech="TECH_ROCKETRY" ObsoleteTech="TECH_DIGITAL_DEFENSE_DOCTRINE" />
+			<Where Type="UNIT_MOBILE_SAM" />
+		</Update>
+		<Update>
+			<Set Cost="1375" PrereqTech="TECH_COMPOSITE_ARMOR" ObsoleteTech="TECH_PARTICLE_BEAMS"/>
+			<Where Type="UNIT_MODERN_ARMOR" />
+		</Update>
+		<Update>
+			<Set Cost="3350" />
+			<Where Type="UNIT_NUCLEAR_MISSILE" />
+		</Update>
+		<Update>
+			<Set Combat="40" RangedCombat="90" Cost="1800" PrereqTech="TECH_NUCLEAR_FISSION" ObsoleteTech="TECH_ULTRA_PRESSURE_MACHINERY" />
+			<Where Type="UNIT_NUCLEAR_SUBMARINE" />
+		</Update>
+		<Update>
+			<Set RangedCombat="58" Cost="1325" Range="4" ObsoleteTech="TECH_PARTICLE_BEAMS"/>
+			<Where Type="UNIT_ROCKET_ARTILLERY" />
+		</Update>
+		<Update>
+			<Set Cost="1525" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
+			<Where Type="UNIT_STEALTH_BOMBER" />
+		</Update>
 		<Row>
 			<Type>UNIT_STEALTH_FIGHTER</Type>
 			<Description>TXT_KEY_UNIT_STEALTH_FIGHTER</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_STEALTHFIGHTER_TEXT</Civilopedia>
 			<Help>TXT_KEY_UNIT_HELP_STEALTH_FIGHTER</Help>
 			<RangedCombat>80</RangedCombat>
-			<Cost>22000</Cost>
+			<Cost>1450</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
 			<Range>12</Range>
@@ -1333,15 +1351,46 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
+			<Type>UNIT_SUPERCARRIER</Type>
+			<Description>TXT_KEY_UNIT_SUPERCARRIER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_SUPERCARRIER_TEXT</Civilopedia>
+			<Help>TXT_KEY_UNIT_HELP_SUPERCARRIER</Help>
+			<Combat>70</Combat>
+			<Cost>1800</Cost>
+			<Moves>8</Moves>
+			<Class>UNITCLASS_SUPERCARRIER</Class>
+			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+			<ObsoleteTech>TECH_ULTRA_PRESSURE_MACHINERY</ObsoleteTech>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_CARRIER</UnitArtInfo>
+			<MoveRate>BOAT</MoveRate>
+			<UnitFlagIconOffset>70</UnitFlagIconOffset>
+			<PortraitIndex>23</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
 			<Type>UNIT_UNMANNED_AIRCRAFT</Type>
 			<Description>TXT_KEY_UNIT_UNMANNED_AIRCRAFT</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_UNMANNED_AIRCRAFT_TEXT</Civilopedia>
 			<Help>TXT_KEY_UNIT_HELP_UNMANNED_AIRCRAFT</Help>
 			<RangedCombat>50</RangedCombat>
-			<Cost>24500</Cost>
+			<Cost>1300</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
-			<Range>22</Range>
+			<Range>16</Range>
 			<Class>UNITCLASS_UNMANNED_AIRCRAFT</Class>
 			<Special>SPECIALUNIT_FIGHTER</Special>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
@@ -1365,6 +1414,11 @@
 			<PortraitIndex>37</PortraitIndex>
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 		</Row>
+
+		<!--DIGITAL ERA-->
+
+
+
 		<Row>
 			<Type>UNIT_DDX_DESTROYER</Type>
 			<Description>TXT_KEY_UNIT_DDX_DESTROYER</Description>
@@ -2177,59 +2231,12 @@
 			<Set BaseHurry="4000" HurryMultiplier="400" />
 			<Where Type="UNIT_ENGINEER" />
 		</Update>
-		<Update>
-			<Set RangedCombat="50" Cost="15000" PrereqTech="TECH_CRUISE_MISSILES" ObsoleteTech="TECH_ULTRA_PRESSURE_MACHINERY" />
-			<Where Type="UNIT_MISSILE_CRUISER" />
-		</Update>
-		<Update>
-			<Set Combat="40" RangedCombat="90" Cost="12500" PrereqTech="TECH_NUCLEAR_FISSION" ObsoleteTech="TECH_ULTRA_PRESSURE_MACHINERY" />
-			<Where Type="UNIT_NUCLEAR_SUBMARINE" />
-		</Update>
+		
 		<Update>
 			<Set Combat="180" Cost="55000" PrereqTech="TECH_EXTREME_MECHANIZATION" />
 			<Where Type="UNIT_MECH" />
 		</Update>
-		<Update>
-			<Set Cost="75000" />
-			<Where Type="UNIT_NUCLEAR_MISSILE" />
-		</Update>
-		<Update>
-			<Set Cost="42500" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
-			<Where Type="UNIT_STEALTH_BOMBER" />
-		</Update>
-		<Update>
-			<Set Cost="16500" PrereqTech="TECH_ADVANCED_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS"/>
-			<Where Type="UNIT_JET_FIGHTER" />
-		</Update>
-		<Update>
-			<Set Cost="10000" PrereqTech="TECH_CRUISE_MISSILES" ObsoleteTech="TECH_SCRAMJET_ENGINES" HurryCostModifier="50" />
-			<Where Type="UNIT_GUIDED_MISSILE" />
-		</Update>
-		<Update>
-			<Set Cost="13000" PrereqTech="TECH_COMPOSITE_ARMOR" ObsoleteTech="TECH_PARTICLE_BEAMS"/>
-			<Where Type="UNIT_MODERN_ARMOR" />
-		</Update>
-		<Update>
-			<Set Cost="11000" PrereqTech="TECH_ADVANCED_FLIGHT" ObsoleteTech="TECH_SMART_MATERIALS" />
-			<Where Type="UNIT_HELICOPTER_GUNSHIP" />
-		</Update>
-		<Update>
-			<Set Cost="4000" PrereqTech="TECH_ROCKETRY" ObsoleteTech="TECH_DIGITAL_DEFENSE_DOCTRINE" />
-			<Where Type="UNIT_MOBILE_SAM" />
-		</Update>
-		<Update>
-			<Set RangedCombat="58" Cost="14500" Range="4" ObsoleteTech="TECH_PARTICLE_BEAMS"/>
-			<Where Type="UNIT_ROCKET_ARTILLERY" />
-		</Update>
-		<Update>
-			<Set Cost="7000" PrereqTech="TECH_INFANTRY_FIGHTING_VEHICLES" ObsoleteTech="TECH_EXOSKELETONS" />
-			<Where Type="UNIT_MECHANIZED_INFANTRY" />
-		</Update>
-		<Update>
-			<Set Cost="60000" />
-			<Where Type="UNIT_ATOMIC_BOMB" />
-		</Update>
-
+		
 
 
 	
