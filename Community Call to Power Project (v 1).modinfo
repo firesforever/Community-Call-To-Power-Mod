@@ -838,6 +838,7 @@
   </Files>
   <Actions>
 	  <OnModActivated>
+		<UpdateDatabase>Frontiers/BuildingTableAdds.sql</UpdateDatabase>
 		<UpdateDatabase>LuaReqs/LuaReqAdds.sql</UpdateDatabase>
 		<UpdateDatabase>LuaReqs/LuaReqBuildings.xml</UpdateDatabase>  
 		<UpdateDatabase>LuaReqs/LuaReqUnits.xml</UpdateDatabase> 
