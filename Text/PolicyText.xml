@@ -271,7 +271,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Populism[ENDCOLOR] is great for increasing the empire's [ICON_HAPPINESS_1] Happiness and [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Monument.[NEWLINE][NEWLINE]Incompatible with Aristocracy, Plutocracy, Feudalism, Totalitarianism, Corporate and Technocracy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CAPITALISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Capitalism[ENDCOLOR] greatly improves the empire's abiltiy to generate [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+5 [ICON_GOLD] Gold in every City.[NEWLINE][NEWLINE]Incompatible with Socialism.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Capitalism[ENDCOLOR] greatly improves the empire's abiltiy to generate [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+2 [ICON_GOLD] Gold in every City.[NEWLINE][NEWLINE]Incompatible with Socialism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_LIBERALISM_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Liberalism[ENDCOLOR] greatly increases the empire's [ICON_HAPPINESS_1] Happiness and [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]+2 [ICON_CULTURE] Culture from every Temple.[NEWLINE][NEWLINE]Incompatible with Autocracy, Feudalism, Totalitarianism, and Fascism</Text>
@@ -283,7 +283,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR] equips the empire with many military bonuses.[NEWLINE][NEWLINE]A Great General appears outside the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Incompatible with Pacifism and Anarchism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_SOCIALISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Socialism[ENDCOLOR] grants bonuses for having the many developed Cities.[NEWLINE][NEWLINE]+10 [ICON_PRODUCTION] Production from every Mine.[NEWLINE][NEWLINE]Incompatible with Aristocracy, Plutocracy, Capitalism and Fascism.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Socialism[ENDCOLOR] grants bonuses for having the many developed Cities.[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] Production from every Mine.[NEWLINE][NEWLINE]Incompatible with Aristocracy, Plutocracy, Capitalism and Fascism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ANARCHISM_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Anarchism[ENDCOLOR] grants many bonuses designed to keep your empire [ICON_HAPPINESS_1] happy.[NEWLINE][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness from every Courthouse.[NEWLINE][NEWLINE]Incompatible with Imperialism, Nationalism, Autocracy, Feudalism, Parliamentary, Federalism, Totalitarianism, Monarchy, Fascism, and Technocracy.</Text>
@@ -315,13 +315,13 @@
 			<Text>[COLOR_POSITIVE_TEXT]Constitutional[ENDCOLOR] enhanses the empire's [ICON_CULTURE] Culture and [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness for every Courthouse.[NEWLINE][NEWLINE]Incompatible with Autocracy, Totalitarianism, and Fascism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FEDERALISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Federalism[ENDCOLOR] greatly improves the [ICON_CULTURE] Cultural output of the empire.[NEWLINE][NEWLINE]+30 [ICON_FOOD] Food in every City.[NEWLINE][NEWLINE]Incompatible with Feudalism and Anarchism.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Federalism[ENDCOLOR] greatly improves the [ICON_CULTURE] Cultural output of the empire.[NEWLINE][NEWLINE]+5 [ICON_FOOD] Food in every City.[NEWLINE][NEWLINE]Incompatible with Feudalism and Anarchism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ELECTORAL_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Electoral[ENDCOLOR] improves the empire's [ICON_GOLD] Gold and [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness from every University.[NEWLINE][NEWLINE]Incompatible with Aristocracy, Feudalism, Autocracy, Totalitarianism, Fascism, Feudalism, and Communism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_TOTALITARIANISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Totalitarianism[ENDCOLOR] keepes the empire [ICON_HAPPINESS_1] happy through a series of strict military procedures.[NEWLINE][NEWLINE]+40 [ICON_PRODUCTION] Production in every City.[NEWLINE][NEWLINE]Incompatible with Pluralism, Constitutional, Electoral, Pacifism, Populism, Liberalism, Anarchism, Democracy, and Virtual Democracy.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Totalitarianism[ENDCOLOR] keepes the empire [ICON_HAPPINESS_1] happy through a series of strict military procedures.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] Production in every City.[NEWLINE][NEWLINE]Incompatible with Pluralism, Constitutional, Electoral, Pacifism, Populism, Liberalism, Anarchism, Democracy, and Virtual Democracy.</Text>
 		</Row>
 
 
@@ -814,19 +814,19 @@
 			<Text>Nationalization</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALIZATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Nationalization[ENDCOLOR][NEWLINE]+20 [ICON_GOLD] Gold from every Workshop and +60 [ICON_GOLD] Gold from every Factory.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Nationalization[ENDCOLOR][NEWLINE]+5 [ICON_GOLD] Gold from every Workshop and +15 [ICON_GOLD] Gold from every Factory.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PROLETARIAN_DICTATORSHIP">
 			<Text>Proletarian Dictatorship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PROLETARIAN_DICTATORSHIP_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Proletarian Dictatorship[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production from every Specialist.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Proletarian Dictatorship[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production from every Specialist.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY3">
 			<Text>Planed Economy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY3_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+20 [ICON_FOOD] Food from every Supermarket.[NEWLINE]+25 [ICON_PRODUCTION] Production from every Factory.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+15 [ICON_FOOD] Food from every Supermarket.[NEWLINE]+10 [ICON_PRODUCTION] Production from every Factory.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_UTOPIAN_SOCIALISM">
 			<Text>Uopian Socialism</Text>
@@ -864,7 +864,7 @@
 			<Text>Management Class</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MANAGEMENT_CLASS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Management Class[ENDCOLOR][NEWLINE]+4 [ICON_PRODUCTION] Production from every Specialist.[NEWLINE]+8 [ICON_GOLD] Gold from every Specialist. </Text>
+			<Text>[COLOR_POSITIVE_TEXT]Management Class[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Gold from every Specialist. </Text>
 		</Row>
 
 		<!--Technocracy-->
@@ -936,7 +936,7 @@
 			<Text>Open Source Governance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_OPEN_SOURCE_GOVERNANCE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Open Source Governance[ENDCOLOR][NEWLINE]+5 [ICON_FOOD] Food from every Farm, Fishing Boat, and Pasture.[NEWLINE]+6 [ICON_PRODUCTION] Production from every Mine, Lumbermill, and Manufactory.[NEWLINE]+10 [ICON_GOLD] Gold from every Trading Post, Plantation, Camp, Quarry, Well, Offshore Platform, and Custom House.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Open Source Governance[ENDCOLOR][NEWLINE]+1 [ICON_FOOD] Food from every Farm, Fishing Boat, and Pasture.[NEWLINE]+1 [ICON_PRODUCTION] Production from every Mine, Lumbermill, and Manufactory.[NEWLINE]+1 [ICON_GOLD] Gold from every Trading Post, Plantation, Camp, Quarry, Well, Offshore Platform, and Custom House.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_INSTANT_REFERENDUM">
 			<Text>Instant Referendum</Text>
@@ -948,7 +948,7 @@
 			<Text>Pure Democracy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PURE_DEMOCRACY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Pure Democracy[ENDCOLOR][NEWLINE]+16 [ICON_PRODUCTION] Production from every Specialist.[NEWLINE]+20 [ICON_GOLD] Gold from every Specialist.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Pure Democracy[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production from every Specialist.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_RECALL">
 			<Text>Executive Recall</Text>
@@ -1023,7 +1023,7 @@
 			<Text>Annexation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ANNEXATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Annexation[ENDCOLOR][NEWLINE]+4 [ICON_PRODUCTION] Production from every Granary.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Annexation[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production from every Granary.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_EMPIRE">
 			<Text>Empire</Text>
@@ -1043,7 +1043,7 @@
 			<Text>Agrarian Populism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_AGRARIAN_POPULISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Agrarian Populism[ENDCOLOR][NEWLINE]+4 [ICON_FOOD] from every Granary.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Agrarian Populism[ENDCOLOR][NEWLINE]+2 [ICON_FOOD] from every Granary.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_POPULAR_REFERENDUM">
 			<Text>Popular Referendum</Text>
@@ -1081,13 +1081,13 @@
 			<Text>Labor Market</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_LABOR_MARKET_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Labor Market[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production from every Quarry.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Labor Market[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production from every Quarry.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MARKET_ECONOMY">
 			<Text>Market Economy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MARKET_ECONOMY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Market Economy[ENDCOLOR][NEWLINE]+13 [ICON_PRODUCTION] Production from every Bank.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Market Economy[ENDCOLOR][NEWLINE]+5 [ICON_RESEARCH] Science from every Bank.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MONOPOLY">
 			<Text>Monopoly</Text>
@@ -1133,7 +1133,7 @@
 			<Text>Traditional Institutions</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_TRADITIONAL_INSTITUTIONS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Traditional Institutions[ENDCOLOR][NEWLINE]+16 [ICON_PRODUCTION] Production from every Stone Works.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Traditional Institutions[ENDCOLOR][NEWLINE]+4 [ICON_PRODUCTION] Production from every Stone Works.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_NATURAL_LAW">
 			<Text>Natural Law</Text>
@@ -1145,13 +1145,13 @@
 			<Text>Fiscal Conservatism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_FISCAL_CONSERVATISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Fiscal Conservatism[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold from every Lumbermill.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Fiscal Conservatism[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold from every Lumbermill.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ORDER">
 			<Text>Social Order</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ORDER_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Social Order[ENDCOLOR][NEWLINE]+36 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Social Order[ENDCOLOR][NEWLINE]+10 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_LIBERTARIANISM">
 			<Text>Libertarianism</Text>
@@ -1197,7 +1197,7 @@
 			<Text>Means of Production</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MEANS_OF_PRODUCTION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Means of Production[ENDCOLOR][NEWLINE]+4 [ICON_GOLD] Gold from every Workshop.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Means of Production[ENDCOLOR][NEWLINE]+5 [ICON_RESEARCH] Science from every Workshop.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY">
 			<Text>Planned Economy</Text>
@@ -1209,7 +1209,7 @@
 			<Text>Redistribution</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_REDISTRIBUTION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Redistribution[ENDCOLOR][NEWLINE]+12 [ICON_FOOD] Food from every Hospital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Redistribution[ENDCOLOR][NEWLINE]+10 [ICON_FOOD] Food from every Hospital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_STATE_OWNED_ENTERPRISE">
 			<Text>State Owned Enterprise</Text>
@@ -1261,19 +1261,19 @@
 			<Text>Endangered Species Act</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ENDANGERED_SPECIES_ACT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Endangered Species Act[ENDCOLOR][NEWLINE]+9 [ICON_FOOD] Food from every Mill.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Endangered Species Act[ENDCOLOR][NEWLINE]+10 [ICON_FOOD] Food from every Windmill.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ENVIRONMENTAL_MOVEMENT">
 			<Text>Environmental Movement</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ENVIRONMENTAL_MOVEMENT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Environmental Movement[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production and +3 [ICON_GOLD] Gold from every Lumbermill.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Environmental Movement[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Lumbermill.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ANIMAL_RIGHTS">
 			<Text>Animal Rights</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ANIMAL_RIGHTS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Animal Rights[ENDCOLOR][NEWLINE]+4 [ICON_FOOD] Food from every Farm.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Animal Rights[ENDCOLOR][NEWLINE]+2 [ICON_FOOD] Food from every Farm.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_CLEAN_AIR_ACT">
 			<Text>Clean Air Act</Text>
@@ -1337,7 +1337,7 @@
 			<Text>Single Party State</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SINGLE_PARTY_STATE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Single Party State[ENDCOLOR][NEWLINE]+8 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Single Party State[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ABSOLUTISM">
 			<Text>Absolutism</Text>
@@ -1349,7 +1349,7 @@
 			<Text>Power Structures</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_POWER_STRUCTURES_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Power Structures[ENDCOLOR][NEWLINE]+10 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Power Structures[ENDCOLOR][NEWLINE]+4 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_UNLIMITED_POWER">
 			<Text>Unlimited Power</Text>
@@ -1451,7 +1451,7 @@
 			<Text>Oath of Fealty</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_OATH_OF_FEALTY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Oath of Fealty[ENDCOLOR][NEWLINE]+5 [ICON_FOOD] Food and +14 [ICON_PRODUCTION] Production from every Castle.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Oath of Fealty[ENDCOLOR][NEWLINE]+4 [ICON_HAPPINESS_1] Happiness from every Castle.</Text>
 		</Row>
 
 		<!--Parliamentary-->
@@ -1459,7 +1459,7 @@
 			<Text>Hybrid Model</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_HYBRID_MODEL_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Hybrid Model[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production from every Mine.[NEWLINE]+2 [ICON_FOOD] Food from every Farm.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Hybrid Model[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production from every Mine.[NEWLINE]+1 [ICON_FOOD] Food from every Farm.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PROPORTIONAL_REPRESENTATION">
 			<Text>Proportional Representation</Text>
@@ -1471,7 +1471,7 @@
 			<Text>Head of State</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_HEAD_OF_STATE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Head of State[ENDCOLOR][NEWLINE]+18 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.[NEWLINE]+12 [ICON_CULTURE] Culture in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Head of State[ENDCOLOR][NEWLINE]+12 [ICON_CULTURE] Culture in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_CHAMBERS_OF_PARLIAMENT">
 			<Text>Chambers of Parliament</Text>
@@ -1529,7 +1529,7 @@
 			<Text>Enumerated Powers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ENUMERATED_POWERS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Enumerated Powers[ENDCOLOR][NEWLINE]+48 [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Enumerated Powers[ENDCOLOR][NEWLINE]+20 [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_RESERVED_POWERS">
 			<Text>Reserved Powers</Text>

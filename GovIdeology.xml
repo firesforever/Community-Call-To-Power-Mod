@@ -759,13 +759,13 @@
 			<PolicyType>POLICY_FISCAL_CONSERVATISM</PolicyType>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>15</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FISCAL_CONSERVATISM</PolicyType>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_ECONOMIC_FREEDOM</PolicyType>
@@ -801,128 +801,123 @@
 			<PolicyType>POLICY_PRIVATIZATION</PolicyType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>10</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_LABOR_MARKET</PolicyType>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>15</Yield>
+			<Yield>2</Yield>
 		</Row>	
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>			
+			<Yield>1</Yield>			
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_WELL</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONOPOLY</PolicyType>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_SOCIALISM</PolicyType>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>10</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_ANIMAL_RIGHTS</PolicyType>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>20</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_ENVIRONMENTAL_MOVEMENT</PolicyType>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>5</Yield>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
 		</Row>
-		<Row>
-			<PolicyType>POLICY_ENVIRONMENTAL_MOVEMENT</PolicyType>
-			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>15</Yield>
-		</Row>
+
 	</Policy_ImprovementYieldChanges>
 	
 	<Policy_BuildingClassHappiness>
@@ -981,7 +976,7 @@
 		<Row>
 			<PolicyType>POLICY_SOCIAL_ORDER</PolicyType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>180</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_CONSERVATISM</PolicyType>
@@ -992,14 +987,9 @@
 
 	<Policy_CityYieldChanges>
 		<Row>
-			<PolicyType>POLICY_FORCIBLE_IMPOSITION</PolicyType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
 			<PolicyType>POLICY_CAPITALISM</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Policy_CityYieldChanges>
 	
@@ -1031,25 +1021,25 @@
 			<PolicyType>POLICY_ANNEXATION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>20</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_AGRARIAN_POPULISM</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>20</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MARKET_ECONOMY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>65</YieldChange>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>5</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_TRADITIONAL_INSTITUTIONS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_STONE_WORKS</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>40</YieldChange>
+			<YieldChange>4</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_ETHNOCENTRISM</PolicyType>
@@ -1061,13 +1051,13 @@
 			<PolicyType>POLICY_JINGOISM</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>75</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MEANS_OF_PRODUCTION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>20</YieldChange>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>5</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PLANNED_ECONOMY2</PolicyType>
@@ -1079,7 +1069,7 @@
 			<PolicyType>POLICY_REDISTRIBUTION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>60</YieldChange>
+			<YieldChange>10</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_STATE_OWNED_ENTERPRISE</PolicyType>
@@ -1095,9 +1085,9 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_ENDANGERED_SPECIES_ACT</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_MILL</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_WINDMILL</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>45</YieldChange>
+			<YieldChange>10</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_DEEP_ECOLOGY</PolicyType>
