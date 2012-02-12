@@ -431,12 +431,12 @@
 		<Row>
 			<BuildingType>BUILDING_TOWN_HALL</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>10</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_CLOCK</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>18</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<!--<Row>
 			<BuildingType>BUILDING_TELEVISION</BuildingType>
@@ -1096,8 +1096,7 @@
 		<Row>
 			<Type>BUILDING_CITY_CLOCK</Type>
 			<Description>TXT_KEY_BUILDING_CITY_CLOCK</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CITY_CLOCK_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_CITY_CLOCK_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_CITY_CLOCK_PEDIA</Civilopedia>
 			<Cost>540</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>

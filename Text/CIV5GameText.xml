@@ -131,9 +131,18 @@
 		</Update>-->
 		
 		<!--MEDIEVAL-->
-
-		
-		
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CITY_CLOCK</Tag>
+			<Text>City Clock</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CITY_CLOCK_DESC</Tag>
+			<Text>A City Clock is a tower specifically built with one or more (often four) clock faces. Clock towers can be either freestanding or part of a church or municipal building such as a town hall. Some clock towers are not true clock towers having had their clock faces added to an already existing building. These 'false' clock towers should not be confused with true clock towers but are still significant buildings.  The mechanism inside the tower is known as a turret clock. It often marks the hour (and sometimes segments of an hour) by sounding large bells or chimes, sometimes playing simple musical phrases or tunes.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CITY_CLOCK_STRATEGY</Tag>
+			<Text>The City Clock increases the city's output of gold. </Text>
+		</Row>
 		
 		
 		
@@ -561,18 +570,6 @@
 		<Row>
 			<Tag>TXT_KEY_WONDER_AL_JABR_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"Algebra is the metaphysics of arithmetic."[NEWLINE][TAB][TAB]</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_CITY_CLOCK</Tag>
-			<Text>City Clock</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_CITY_CLOCK_DESC</Tag>
-			<Text>A City Clock is a tower specifically built with one or more (often four) clock faces. Clock towers can be either freestanding or part of a church or municipal building such as a town hall. Some clock towers are not true clock towers having had their clock faces added to an already existing building. These 'false' clock towers should not be confused with true clock towers but are still significant buildings.  The mechanism inside the tower is known as a turret clock. It often marks the hour (and sometimes segments of an hour) by sounding large bells or chimes, sometimes playing simple musical phrases or tunes.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_CITY_CLOCK_STRATEGY</Tag>
-			<Text>Increases [ICON_GOLD] Gold produced in this City.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BOND_MARKET</Tag>
