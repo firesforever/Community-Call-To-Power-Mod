@@ -837,18 +837,6 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<YieldChange>25</YieldChange>
 		</Row>
-		<Row>
-			<PolicyType>POLICY_OATH_OF_FEALTY</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>25</YieldChange>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_OATH_OF_FEALTY</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>75</YieldChange>
-		</Row>
 	</Policy_BuildingClassYieldChanges>
 
 	<Policy_CapitalYieldChanges>
@@ -863,24 +851,19 @@
 			<Yield>4</Yield>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_HEAD_OF_STATE</PolicyType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>90</Yield>
-		</Row>
-		<Row>
 			<PolicyType>POLICY_ENUMERATED_POWERS</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>240</Yield>
+			<Yield>20</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_SINGLE_PARTY_STATE</PolicyType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>40</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_POWER_STRUCTURES</PolicyType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>50</Yield>
+			<Yield>4</Yield>
 		</Row>
 	</Policy_CapitalYieldChanges>
 
@@ -951,12 +934,12 @@
 		<Row>
 			<PolicyType>POLICY_FEDERALISM</PolicyType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>30</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_TOTALITARIANISM</PolicyType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>40</Yield>
+			<Yield>3</Yield>
 		</Row>
 	</Policy_CityYieldChanges>
 	
@@ -991,6 +974,11 @@
 			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
 			<Happiness>3</Happiness>
 		</Row>
+		<Row>
+			<PolicyType>POLICY_OATH_OF_FEALTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
 	</Policy_BuildingClassHappiness>
 
 	<Policy_ImprovementYieldChanges>
@@ -998,13 +986,13 @@
 			<PolicyType>POLICY_HYBRID_MODEL</PolicyType>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>10</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_HYBRID_MODEL</PolicyType>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>10</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_VASSALAGE</PolicyType>
