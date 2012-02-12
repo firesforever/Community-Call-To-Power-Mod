@@ -21,7 +21,7 @@
 		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
 		<ObsoleteTech>TECH_ADVANCED_FLIGHT</ObsoleteTech>
 		<Combat>32</Combat>
-		<Cost>8000</Cost>
+		<Cost>700</Cost>
 		<Moves>2</Moves>
 		<CombatClass>UNITCOMBAT_GUN</CombatClass>
 		<Domain>DOMAIN_LAND</Domain>
@@ -53,7 +53,7 @@
 		<PrereqTech>TECH_FLIGHT</PrereqTech>
 		<ObsoleteTech>TECH_HYBRID_SCRAMJETS</ObsoleteTech>
 		<RangedCombat>50</RangedCombat>
-		<Cost>17000</Cost>
+		<Cost>1050</Cost>
 		<Moves>2</Moves>
 		<Immobile>true</Immobile>
 		<Range>10</Range>
@@ -122,7 +122,7 @@
 		<PrereqTech>TECH_FLIGHT</PrereqTech>
 		<ObsoleteTech>TECH_ADVANCED_FLIGHT</ObsoleteTech>
 		<RangedCombat>40</RangedCombat>
-		<Cost>12400</Cost>
+		<Cost>930</Cost>
 		<Moves>2</Moves>
 		<Immobile>true</Immobile>
 		<Range>8</Range>
@@ -158,7 +158,7 @@
 		<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
 		<ObsoleteTech>TECH_EXOSKELETONS</ObsoleteTech>
 		<Combat>36</Combat>
-		<Cost>9300</Cost>
+		<Cost>850</Cost>
 		<Moves>2</Moves>
 		<CombatClass>UNITCOMBAT_GUN</CombatClass>
 		<Domain>DOMAIN_LAND</Domain>
@@ -189,7 +189,7 @@
 		<PrereqTech>TECH_FLIGHT</PrereqTech>
 		<ObsoleteTech>TECH_EXOSKELETONS</ObsoleteTech>
 		<Combat>40</Combat>
-		<Cost>13600</Cost>
+		<Cost>920</Cost>
 		<Moves>2</Moves>
 		<CombatClass>UNITCOMBAT_GUN</CombatClass>
 		<Domain>DOMAIN_LAND</Domain>
@@ -219,7 +219,7 @@
 		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
 		<ObsoleteTech>TECH_COMPOSITE_ARMOR</ObsoleteTech>
 		<Combat>50</Combat>
-		<Cost>17360</Cost>
+		<Cost>1050</Cost>
 		<Moves>5</Moves>
 		<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 		<Domain>DOMAIN_LAND</Domain>
