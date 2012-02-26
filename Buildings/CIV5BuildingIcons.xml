@@ -273,10 +273,10 @@
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="10"/>
 			<Where Type="BUILDING_ABBEY"/>
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="12"/>
 			<Where Type="BUILDING_AQUEDUCT"/>
-		</Update>
+		</Update>-->
 		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="15"/>
 			<Where Type="BUILDING_ARTILLERY_RANGE"/>
