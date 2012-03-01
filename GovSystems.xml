@@ -998,7 +998,7 @@
 			<PolicyType>POLICY_VASSALAGE</PolicyType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>10</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_AMENDMENTS</PolicyType>
@@ -1010,13 +1010,13 @@
 			<PolicyType>POLICY_MANORIALISM</PolicyType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FEUDAL_SOCIETY</PolicyType>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>10</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Policy_ImprovementYieldChanges>
 
