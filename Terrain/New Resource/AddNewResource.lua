@@ -42,6 +42,7 @@ OnMapResourceGenerator("RESOURCE_POPPY" , { "TERRAIN_DESERT", "FEATURE_MARSH", "
 OnMapResourceGenerator("RESOURCE_RARE_EARTHS" , { "FEATURE_OASIS" } );
 OnMapResourceGenerator("RESOURCE_RICE" , { "FEATURE_JUNGLE", "FEATURE_FOREST" } );
 OnMapResourceGenerator("RESOURCE_SQUID");
+OnMapResourceGenerator("RESOURCE_AMBER");
 OnMapResourceGenerator("RESOURCE_SOYBEANS" , { "TERRAIN_DESERT", "FEATURE_MARSH", "FEATURE_FOREST", "FEATURE_JUNGLE" } );
 OnMapResourceGenerator("RESOURCE_TEA" , { "TERRAIN_DESERT", "FEATURE_MARSH" } );
 OnMapResourceGenerator("RESOURCE_TITANIUM" , { "FEATURE_OASIS" } );

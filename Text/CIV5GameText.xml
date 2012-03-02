@@ -451,18 +451,22 @@
 			<Tag>TXT_KEY_BUILDING_REGIONAL_FAIR_HELP</Tag>
 			<Text>+1 [ICON_GOLD] Gold from Merchant Specialist in every City.[NEWLINE][NEWLINE]You may build up to 1.</Text>
 		</Row>
-		<!--<Row>
-			<Tag>TXT_KEY_BUILDING_MILL</Tag>
-			<Text>Mill</Text>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JEWELRY_STORE</Tag>
+			<Text>Jewelry Store</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MILL_DESC</Tag>
-			<Text>A grinding mill is a unit operation designed to break a solid material into smaller pieces. There are many different types of grinding mills and many types of materials processed in them. Historically mills were powered by hand (mortar and pestle), working animal, wind (windmill) or water (watermill). Today they are also powered by electriCity.[NEWLINE][NEWLINE]The grinding of solid matters occurs under exposure of mechanical forces that trench the structure by overcoming of the interior bonding forces. After the grinding the state of the solid is changed: the grain size, the grain size disposition and the grain shape.</Text>
+			<Tag>TXT_KEY_BUILDING_JEWELRY_STORE_PEDIA</Tag>
+			<Text>A jewelry store or jeweler is a retail business specializing in selling jewelry.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MILL_STRATEGY</Tag>
-			<Text>Significantly increases [ICON_FOOD] Food and [ICON_PRODUCTION] Production in the City.</Text>
-		</Row>-->
+			<Tag>TXT_KEY_BUILDING_JEWELRY_STORE_HELP</Tag>
+			<Text>Each souce of [ICON_RES_GOLD] Gold worked by this City produces +3 [ICON_GOLD] Gold. Each source of [ICON_RES_SILVER] Silver or [ICON_RES_GEMS] Gems worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Mint.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JEWELRY_STORE_STRATEGY</Tag>
+			<Text>The Jeweler significantly improves the gold produced by precious metals.  Build it in cities with more than one of these metals for the best results.</Text>
+		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TOWN_HALL</Tag>
 			<Text>Town Hall</Text>
@@ -4703,7 +4707,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each souce of [ICON_RES_GOLD] worked by this City produces +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_SILVER] Silver or [ICON_RES_GEMS] Gems worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+2 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.[NEWLINE][NEWLINE]City must have a Bank."/>
+			<Set Text="City must have a Bank."/>
 			<Where Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP" />
 		</Update>
 		<Update>

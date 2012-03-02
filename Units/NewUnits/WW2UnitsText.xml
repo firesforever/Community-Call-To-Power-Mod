@@ -19,7 +19,7 @@
 
 	<!-- Bombers******************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_TUPOLEV_SB-2">
-		<Text>TUPOLEV SB-2</Text>
+		<Text>Tupolev SB-2</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_TUPOLEV_SB-2">
 		<Text>Chinese Bomber from WW2.</Text>
@@ -44,7 +44,7 @@ The Soviet Union supplied a further 100 SBs in 1941, just before it signed the S
 
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_POLIKARPOV_I-16">
-		<Text>POLIKARPOV I-16</Text>
+		<Text>Polikarpov I-16</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_POLIKARPOV_I-16">
 		<Text>Chinese Fighter from WW2.</Text>
@@ -163,7 +163,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 
 	<!-- Battleships*************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_DUNKERQUE_CLASS">
-		<Text>DUNKERQUE CLASS</Text>
+		<Text>Dunkerque Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_DUNKERQUE_CLASS">
 		<Text>French Battleship from WW2.</Text>
@@ -178,7 +178,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 
 	<!-- Bombers******************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_AMIOT_350">
-		<Text>AMIOT 350</Text>
+		<Text>Amiot 350</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_AMIOT_350">
 		<Text>French Bomber from WW2.</Text>
@@ -196,7 +196,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 <!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_RICHELIEU_CLASS">
-		<Text>RICHELIEU CLASS</Text>
+		<Text>Richelieu CLASS</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_RICHELIEU_CLASS">
 		<Text>French Capital Ship from WW2.</Text>
@@ -210,7 +210,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 -->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_JOFFRE_CLASS">
-		<Text>JOFFRE CLASS</Text>
+		<Text>Joffre Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_JOFFRE_CLASS">
 		<Text>French Aircraft Carrier from WW2.</Text>
@@ -225,7 +225,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 <!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_LA_GALISSONNIERE">
-		<Text>LA GALISSONNIERE</Text>
+		<Text>La Galissonniere</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_LA_GALISSONNIERE">
 		<Text>French Cruiser from WW2.</Text>
@@ -241,7 +241,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 -->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_FANTASQUE_CLASS">
-		<Text>FANTASQUE CLASS</Text>
+		<Text>Fantaque Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_FANTASQUE_CLASS">
 		<Text>French Destroyer from WW2.</Text>
@@ -255,7 +255,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 <!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_NIEUPORT_17">
-		<Text>NIEUPORT 17</Text>
+		<Text>Nieuport 17</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_NIEUPORT_17">
 		<Text>
@@ -274,7 +274,7 @@ During World War II, approximately 19,247 M4 Shermans were issued to the US Army
 
 	<!-- Early Tank**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_RENAULT_FT-17">
-		<Text>RENAULT FT-17</Text>
+		<Text>Renault FT-17</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_RENAULT_FT-17">
 		<Text>French Early Tank from WW2.</Text>
@@ -295,7 +295,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 -->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_MORANE-SAULNIER_M.S.406">
-		<Text>MORANE-SAULNIER M.S.406</Text>
+		<Text>Morane-Saulnier M.S.406</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_MORANE-SAULNIER_M.S.406">
 		<Text>French Fighter from WW2.</Text>
@@ -345,7 +345,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 
 	<!-- Submarines**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_REDOUTABLE_CLASS">
-		<Text>REDOUTABLE CLASS</Text>
+		<Text>Reboutable Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_REDOUTABLE_CLASS">
 		<Text>French Submarine from WW2.</Text>
@@ -358,7 +358,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 
 	<!-- Tanks********************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_CHAR_D2">
-		<Text>CHAR D2</Text>
+		<Text>Char D2</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_CHAR_D2">
 		<Text>French tank from WW2.</Text>
@@ -417,7 +417,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 <!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_DREADNOUGHT">
-		<Text>DREADNOUGHT</Text>
+		<Text>Dreadnought</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_DREADNOUGHT">
 		<Text>Capital Ship from WW2.</Text>
@@ -428,7 +428,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_CRUISER">
-		<Text>CRUISER</Text>
+		<Text>Cruiser</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_CRUISER">
 		<Text>Cruiser from WW2.</Text>
@@ -439,7 +439,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_EARLY_FIGHTER">
-		<Text>EARLY FIGHTER</Text>
+		<Text>Eearly Fighter</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_EARLY_FIGHTER">
 		<Text>Early Fighter from WW2.</Text>
@@ -450,7 +450,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 
 	<!-- Early Tank**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_EARLY_TANK">
-		<Text>EARLY TANK</Text>
+		<Text>Early Tank</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_EARLY_TANK">
 		<Text>Early Tank from WW2.</Text>
@@ -470,7 +470,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 
 	<!-- Light Tanks********************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_LIGHT_TANK">
-		<Text>LIGHT TANK</Text>
+		<Text>Light Tank</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_LIGHT_TANK">
 		<Text>Light tank from WW2.</Text>
@@ -508,7 +508,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 	
 	<!-- AAs******************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_FLAKPANZER_38(T)">
-		<Text>FLAKPANZER 38(T)</Text>
+		<Text>Flakpanzer 38(T)</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_FLAKPANZER_38(T)">
 		<Text>German AntiAircraft from WW2.</Text>
@@ -519,7 +519,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 
 	<!-- Antitanks************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SDKFZ162_JAGDPANZER_IV_L-70">
-		<Text>SDKFZ162 JAGDPANZER IV L-70</Text>
+		<Text>SDKFZ162 Jagdpanzer IV L-70</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SDKFZ162_JAGDPANZER_IV_L-70">
 		<Text>German AntiTank from WW2.</Text>
@@ -532,7 +532,7 @@ In all, the FT was used by Afghanistan, Belgium, Brazil, the Republic of China, 
 
 	<!-- Battleships*************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SCHARNHORST_CLASS">
-		<Text>SCHARNHORST CLASS</Text>
+		<Text>Scarnhorst Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SCHARNHORST_CLASS">
 		<Text>German Battleship from WW2.</Text>
@@ -549,7 +549,7 @@ In late 1942, Gneisenau was heavily damaged in an Allied air raid against Kiel. 
 
 	<!-- Bombers******************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_JUNKERS_JU-88">
-		<Text>JUNKERS JU-88</Text>
+		<Text>Junkers JU-88</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_JUNKERS_JU-88">
 		<Text>German Bomber from WW2.</Text>
@@ -563,7 +563,7 @@ Despite its protracted development, the aircraft became one of the Luftwaffe's m
 <!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_BISMARK_CLASS">
-		<Text>BISMARK CLASS</Text>
+		<Text>Bismark Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_BISMARK_CLASS">
 		<Text>German Capital Ship from WW2.</Text>
@@ -580,7 +580,7 @@ Tirpitz's career was less dramatic; she was sent to Norwegian waters in 1942, wh
 -->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_GRAF_ZEPPELIN_CLASS">
-		<Text>GRAF ZEPPELIN CLASS</Text>
+		<Text>Graf Zeppelin Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_GRAF_ZEPPELIN_CLASS">
 		<Text>German Aircraft Carrier from WW2.</Text>
@@ -597,7 +597,7 @@ These ships were also the subject of intense political wrangling within the Germ
 <!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_DEUTSCHLAND_CLASS">
-		<Text>DEUTSCHLAND CLASS</Text>
+		<Text>Deutschland Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_DEUTSCHLAND_CLASS">
 		<Text>German Cruiser from WW2.</Text>
@@ -619,7 +619,7 @@ These ships were also the subject of intense political wrangling within the Germ
 -->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_Z_CLASS">
-		<Text>Z CLASS</Text>
+		<Text>Z Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_Z_CLASS">
 		<Text>German Destroyer from WW2.</Text>
@@ -637,7 +637,7 @@ These ships were also the subject of intense political wrangling within the Germ
 <!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_FOKKER_DR.1">
-		<Text>FOKKER DR.1</Text>
+		<Text>Fokker DR.1</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_FOKKER_DR.1">
 		<Text>German Early Fighter from WW2.</Text>
@@ -668,7 +668,7 @@ These ships were also the subject of intense political wrangling within the Germ
 -->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_MESSERSCHMITT_BF-109E">
-		<Text>MESSERSCHMITT BF-109E</Text>
+		<Text>Messerchmitt BF-109E</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_MESSERSCHMITT_BF-109E">
 		<Text>German Fighter from WW2.</Text>
@@ -709,7 +709,7 @@ These ships were also the subject of intense political wrangling within the Germ
 
 	<!-- Submarines**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_U-BOAT_TYPE_XXIII">
-		<Text>U-BOAT TYPE XXIII</Text>
+		<Text>U-Boat Type XXIII</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_U-BOAT_TYPE_XXIII">
 		<Text>German Submarine from WW2.</Text>
@@ -793,7 +793,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 	
 	<!-- Bombers******************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_BRISTOL_BLENHEIM">
-		<Text>BRISTOL BLENHEIM</Text>
+		<Text>Bristol Blenheim</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_BRISTOL_BLENHEIM">
 		<Text>Greek Bomber from WW2.</Text>
@@ -810,7 +810,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 <!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_PISA_CLASS">
-		<Text>PISA CLASS</Text>
+		<Text>Pisa Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_PISA_CLASS">
 		<Text>Greek Cruiser from WW2.</Text>
@@ -828,7 +828,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 -->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_VASILEFS_GEORGIOS_CLASS">
-		<Text>VASILEFS GEORGIOS CLASS</Text>
+		<Text>Vasilefs Georgios Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_VASILEFS_GEORGIOS_CLASS">
 		<Text>Greek Destroyer from WW2.</Text>
@@ -863,7 +863,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 -->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SUPERMARINE_SPITFIRE">
-		<Text>SUPERMARINE SPITFIRE</Text>
+		<Text>Supermarine Spitfighter</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SUPERMARINE_SPITFIRE">
 		<Text>Greek Fighter from WW2.</Text>
@@ -905,7 +905,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 	<!-- Submarines**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_KATSONIS_CLASS">
-		<Text>KATSONIS CLASS</Text>
+		<Text>Katsonis Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_KATSONIS_CLASS">
 		<Text>Greek Submarine from WW2.</Text>
@@ -922,7 +922,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 	<!-- Tanks********************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_VICKERS_MK_II">
-		<Text>VICKERS MK II</Text>
+		<Text>Vickers MK II</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_VICKERS_MK_II">
 		<Text>Greek tank from WW2.</Text>
@@ -970,7 +970,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 	
 	<!-- AAs******************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_AUTOCANNONE_90-53">
-		<Text>AUTOCANNONE 90-53</Text>
+		<Text>Autocannone 90-53</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_AUTOCANNONE_90-53">
 		<Text>Roman AntiAircraft from WW2.</Text>
@@ -984,7 +984,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 	<!-- Antitanks************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SEMOVENTE_M42M-75-34">
-		<Text>SEMOVENTE M42M-75-34</Text>
+		<Text>Semovente M42M-75-34</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SEMOVENTE_M42M-75-34">
 		<Text>Roman AntiTank from WW2.</Text>
@@ -998,7 +998,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 	<!-- Battleships*************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_CONTE_DI_CAVOUR_CLASS">
-		<Text>CONTE DI CAVOUR CLASS</Text>
+		<Text>Conte Di Cavour</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_CONTE_DI_CAVOUR_CLASS">
 		<Text>Roman Battleship from WW2.</Text>
@@ -1012,7 +1012,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 	<!-- Bombers******************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_SAVOIA-MARCHETTI_SM.84">
-		<Text>SAVOIA-MARCHETTI SM.84</Text>
+		<Text>Savio-Marchetti SM.84</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SAVOIA-MARCHETTI_SM.84">
 		<Text>Roman Bomber from WW2.</Text>
@@ -1026,7 +1026,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 <!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_LITTORIO_CLASS">
-		<Text>LITTORIO CLASS</Text>
+		<Text>Littorio Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_LITTORIO_CLASS">
 		<Text>Roman Capital Ship from WW2.</Text>
@@ -1044,7 +1044,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 -->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_AQUILA_CLASS">
-		<Text>AQUILA CLASS</Text>
+		<Text>Aquilla Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_AQUILA_CLASS">
 		<Text>Roman Aircraft Carrier from WW2.</Text>
@@ -1060,7 +1060,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 <!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_ZARA_CLASS">
-		<Text>ZARA CLASS</Text>
+		<Text>Zara Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_ZARA_CLASS">
 		<Text>Roman Cruiser from WW2.</Text>
@@ -1075,7 +1075,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 -->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SOLDATI_CLASS">
-		<Text>SOLDATI CLASS</Text>
+		<Text>Soldati Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SOLDATI_CLASS">
 		<Text>Roman Destroyer from WW2.</Text>
@@ -1091,7 +1091,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 <!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_ANSALDO_SVA-5">
-		<Text>ANSALDO SVA-5</Text>
+		<Text>Ansaldo SVA-5</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_ANSALDO_SVA-5">
 		<Text>Roman Early Fighter from WW2.</Text>
@@ -1109,7 +1109,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 	<!-- Early Tank**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_FIAT_3000">
-		<Text>FIAT 3000</Text>
+		<Text>Fiat 3000</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_FIAT_3000">
 		<Text>Roman Early Tank from WW2.</Text>
@@ -1123,7 +1123,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 -->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_MACCHI_C.200_SAETTA">
-		<Text>MACCHI C.200 SAETTA</Text>
+		<Text>MachhiC.200 Saetta</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_MACCHI_C.200_SAETTA">
 		<Text>Roman Fighter from WW2.</Text>
@@ -1161,7 +1161,7 @@ Today, only a handful of Tigers survive in museums and exhibitions worldwide. Pe
 
 	<!-- Submarines**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_MARCELLO_CLASS">
-		<Text>MARCELLO CLASS</Text>
+		<Text>Marcello Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_MARCELLO_CLASS">
 		<Text>Roman Submarine from WW2.</Text>
@@ -1242,7 +1242,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 	
 	<!-- AAs******************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_TYPE98_KO-HI">
-		<Text>TYPE98 KO-HI</Text>
+		<Text>Type 98 KO-HI</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_TYPE98_KO-HI">
 		<Text>Japanese AntiAircraft from WW2.</Text>
@@ -1260,7 +1260,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 	<!-- Antitanks************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_TYPE1_HO-NI_II">
-		<Text>TYPE1 HO-NI_II</Text>
+		<Text>Type 1 HO-NI_II</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_TYPE1_HO-NI_II">
 		<Text>Japanese AntiTank from WW2.</Text>
@@ -1274,7 +1274,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 	<!-- Battleships*************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_KONGO_CLASS">
-		<Text>KONGO CLASS</Text>
+		<Text>Kongo Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_KONGO_CLASS">
 		<Text>Japanese Battleship from WW2.</Text>
@@ -1292,7 +1292,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 	<!-- Bombers******************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_MITSUBISHI_G4M_BETTY">
-		<Text>MITSUBISHI G4M BETTY</Text>
+		<Text>Mitsubishi G4M Betty</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_MITSUBISHI_G4M_BETTY">
 		<Text>Japanese Bomber from WW2.</Text>
@@ -1308,7 +1308,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 <!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_YAMATO_CLASS">
-		<Text>YAMATO CLASS</Text>
+		<Text>Yamato Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_YAMATO_CLASS">
 		<Text>Japanese Capital Ship from WW2.</Text>
@@ -1325,7 +1325,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 -->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SHOKAKU_CLASS">
-		<Text>SHOKAKU CLASS</Text>
+		<Text>Shokaku Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SHOKAKU_CLASS">
 		<Text>Japanese Aircraft Carrier from WW2.</Text>
@@ -1339,7 +1339,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 <!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_TAKAO_CLASS">
-		<Text>TAKAO CLASS</Text>
+		<Text>Takao CLass</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_TAKAO_CLASS">
 		<Text>Japanese Cruiser from WW2.</Text>
@@ -1357,7 +1357,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 -->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_KAGERO_CLASS">
-		<Text>KAGERO CLASS</Text>
+		<Text>Kagero Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_KAGERO_CLASS">
 		<Text>Japanese Destroyer from WW2.</Text>
@@ -1371,7 +1371,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 <!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_KAWASAKI_KI-10_PERRY">
-		<Text>KAWASAKI KI-10 PERRY</Text>
+		<Text>Kawasaki KI-10 Perry</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_KAWASAKI_KI-10_PERRY">
 		<Text>Japanese Early Fighter from WW2.</Text>
@@ -1385,7 +1385,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 	<!-- Early Tank**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_TYPE79_KO-GATA">
-		<Text>TYPE79 KO-GATA</Text>
+		<Text>Type79 KO-Gata</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_TYPE79_KO-GATA">
 		<Text>Japanese Early Tank from WW2.</Text>
@@ -1449,7 +1449,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 	<!-- Tanks********************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_TYPE3_CHI-NU">
-		<Text>TYPE3 CHI-NU</Text>
+		<Text>Type 3 Chi-Nu</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_TYPE3_CHI-NU">
 		<Text>Japanese tank from WW2.</Text>
@@ -1538,7 +1538,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 	<!-- Battleships*************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_GANGUT_CLASS">
-		<Text>GANGUT CLASS</Text>
+		<Text>Gangut Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_GANGUT_CLASS">
 		<Text>Russian Battleship from WW2.</Text>
@@ -1552,7 +1552,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 	<!-- Bombers******************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_PETLYAKOV_PE-8">
-		<Text>PETLYAKOV PE-8</Text>
+		<Text>Petlyakov PE-8</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_PETLYAKOV_PE-8">
 		<Text>Russian Bomber from WW2.</Text>
@@ -1570,7 +1570,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 <!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_SOVETSKY_SOYUZ_CLASS">
-		<Text>SOVETSKY SOYUZ CLASS</Text>
+		<Text>Sovetsky Soyuz Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SOVETSKY_SOYUZ_CLASS">
 		<Text>Russian Capital Ship from WW2.</Text>
@@ -1588,7 +1588,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 -->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_PROJECT_71">
-		<Text>PROJECT 71</Text>
+		<Text>Project 71</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_PROJECT_71">
 		<Text>Russian Aircraft Carrier from WW2.</Text>
@@ -1599,7 +1599,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 <!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_KIROV_CLASS">
-		<Text>KIROV CLASS</Text>
+		<Text>Kirov Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_KIROV_CLASS">
 		<Text>Russian Cruiser from WW2.</Text>
@@ -1613,7 +1613,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 -->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_GNEVNY_CLASS">
-		<Text>GNEVNY CLASS</Text>
+		<Text>Gnevny Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_GNEVNY_CLASS">
 		<Text>Russian Destroyer from WW2.</Text>
@@ -1635,7 +1635,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 <!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_POLIKARPOV_PO-2">
-		<Text>POLIKARPOV PO-2</Text>
+		<Text>Polikarpov Po-2</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_POLIKARPOV_PO-2">
 		<Text>Russian Early Fighter from WW2.</Text>
@@ -1649,7 +1649,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 	<!-- Early Tank**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_EARLYT-34-85">
-		<Text>EARLYT-34-85</Text>
+		<Text>EarlyT-34-85</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_EARLYT-34-85">
 		<Text>Russian Early Tank from WW2.</Text>
@@ -1660,7 +1660,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 -->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_YAKOVLEV_YAK-9">
-		<Text>YAKOVLEV YAK-9</Text>
+		<Text>Yavolev Yak-9</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_YAKOVLEV_YAK-9">
 		<Text>Russian Fighter from WW2.</Text>
@@ -1696,7 +1696,7 @@ Design had started in 1940 but very few had been built by the time Italy signed 
 
 	<!-- Submarines**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SHCHUKA_CLASS">
-		<Text>SHCHUKA CLASS</Text>
+		<Text>Shcuka Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SHCHUKA_CLASS">
 		<Text>Russian Submarine from WW2.</Text>
@@ -1787,7 +1787,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 	
 	<!-- AAs******************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_CRUSADER_III_AA">
-		<Text>CRUSADER III AA</Text>
+		<Text>Cruisader III AA</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_CRUSADER_III_AA">
 		<Text>English AntiAircraft from WW2.</Text>
@@ -1802,7 +1802,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 
 	<!-- Antitanks************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_M10_ACHILLES">
-		<Text>M10 ACHILLES</Text>
+		<Text>M10 Achilles</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_M10_ACHILLES">
 		<Text>English AntiTank from WW2.</Text>
@@ -1818,7 +1818,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 
 	<!-- Battleships*************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_KING_GEORGE_V_CLASS">
-		<Text>KING GEORGE V CLASS</Text>
+		<Text>King George V Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_KING_GEORGE_V_CLASS">
 		<Text>English Battleship from WW2.</Text>
@@ -1836,7 +1836,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 
 	<!-- Bombers******************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_HP_HALIFAX">
-		<Text>HP HALIFAX</Text>
+		<Text>HP Hailfax</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_HP_HALIFAX">
 		<Text>English Bomber from WW2.</Text>
@@ -1850,7 +1850,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 <!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_ADMIRAL_CLASS">
-		<Text>ADMIRAL CLASS</Text>
+		<Text>Admiral Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_ADMIRAL_CLASS">
 		<Text>English Capital Ship from WW2.</Text>
@@ -1866,7 +1866,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 -->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_ARK_ROYAL_CLASS">
-		<Text>ARK ROYAL CLASS</Text>
+		<Text>Ark Royal Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_ARK_ROYAL_CLASS">
 		<Text>English Aircraft Carrier from WW2.</Text>
@@ -1888,7 +1888,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 <!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_DIDO_CLASS">
-		<Text>DIDO CLASS</Text>
+		<Text>Dido Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_DIDO_CLASS">
 		<Text>English Cruiser from WW2.</Text>
@@ -1904,7 +1904,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 -->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_TRIBA_CLASS">
-		<Text>TRIBA CLASS</Text>
+		<Text>Triba Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_TRIBA_CLASS">
 		<Text>English Destroyer from WW2.</Text>
@@ -1918,7 +1918,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 <!--
 	<!-- Early Fighters************************************************ -->
 	<Row Tag="TXT_KEY_UNIT_SPOWITH_CAMEL">
-		<Text>SOPWITH CAMEL</Text>
+		<Text>Spowith CamelL</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SPOWITH_CAMEL">
 		<Text>English Early Fighter from WW2.</Text>
@@ -1932,7 +1932,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 
 	<!-- Early Tank**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_MK_A_WHIPPET">
-		<Text>MK A WHIPPET</Text>
+		<Text>MK A Whippet</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_MK_A_WHIPPET">
 		<Text>English Early Tank from WW2.</Text>
@@ -1943,7 +1943,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 -->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SUPERMARINE_SPITFIRE_MK_V">
-		<Text>SUPERMARINE SPITFIRE MK V</Text>
+		<Text>Supermarine Spitfire MK V</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SUPERMARINE_SPITFIRE_MK_V">
 		<Text>English Fighter from WW2.</Text>
@@ -1984,7 +1984,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 
 	<!-- Submarines**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_U_CLASS">
-		<Text>U CLASS</Text>
+		<Text>U Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_U_CLASS">
 		<Text>English Submarine from WW2.</Text>
@@ -1998,7 +1998,7 @@ The heavy tank was designed with thick armour to counter the German 88 mm guns, 
 
 	<!-- Tanks********************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_A27M_CROMWELL">
-		<Text>A27M CROMWELL</Text>
+		<Text>A27M Cromwell</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_A27M_CROMWELL">
 		<Text>English tank from WW2.</Text>
@@ -2076,7 +2076,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 
 	<!-- Antitanks************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_M18_HELLCAT">
-		<Text>M18 HELLCAT</Text>
+		<Text>M18 Hellcat</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_M18_HELLCAT">
 		<Text>American AntiTank from WW2.</Text>
@@ -2090,7 +2090,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 
 	<!-- Battleships*************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_SOUTH_DAKOTA_CLASS">
-		<Text>SOUTH DAKOTA CLASS</Text>
+		<Text>South Dakota Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SOUTH_DAKOTA_CLASS">
 		<Text>American Battleship from WW2.</Text>
@@ -2106,7 +2106,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 
 	<!-- Bombers******************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_B-17_FLYING_FORTRESS">
-		<Text>B-17 FLYING FORTRESS</Text>
+		<Text>B-17 Flying Fortress</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_B-17_FLYING_FORTRESS">
 		<Text>American Bomber from WW2.</Text>
@@ -2124,7 +2124,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 <!--
 	<!-- Capital Ships************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_IOWA_CLASS">
-		<Text>IOWA CLASS</Text>
+		<Text>Iowa Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_IOWA_CLASS">
 		<Text>American Capital Ship from WW2.</Text>
@@ -2142,7 +2142,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 -->
 	<!-- Carriers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_YORKTOWN_CLASS">
-		<Text>YORKTOWN CLASS</Text>
+		<Text>Yorktown Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_YORKTOWN_CLASS">
 		<Text>American Aircraft Carrier from WW2.</Text>
@@ -2156,7 +2156,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 <!--
 	<!-- Cruisers****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_BALTIMORE_CLASS">
-		<Text>BALTIMORE CLASS</Text>
+		<Text>Baltimore Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_BALTIMORE_CLASS">
 		<Text>American Cruiser from WW2.</Text>
@@ -2170,7 +2170,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 -->
 	<!-- Destroyers**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_FLETCHER_CLASS">
-		<Text>FLETCHER CLASS</Text>
+		<Text>Fletcher Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_FLETCHER_CLASS">
 		<Text>American Destroyer from WW2.</Text>
@@ -2222,7 +2222,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 -->
 	<!-- Fighters****************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_P-40_WARHAWK">
-		<Text>P-40 WARHAWK</Text>
+		<Text>P-40 Warhawk</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_P-40_WARHAWK">
 		<Text>American Fighter from WW2.</Text>
@@ -2264,7 +2264,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 
 	<!-- Submarines**************************************************** -->
 	<Row Tag="TXT_KEY_UNIT_GATO_CLASS">
-		<Text>GATO CLASS</Text>
+		<Text>Gato Class</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_GATO_CLASS">
 		<Text>American Submarine from WW2.</Text>
@@ -2278,7 +2278,7 @@ When the earlier Infantry Tank Mark I which was also known as "Matilda" was remo
 
 	<!-- Tanks********************************************************* -->
 	<Row Tag="TXT_KEY_UNIT_M4A3_SHERMAN_IV">
-		<Text>M4A3 SHERMAN IV</Text>
+		<Text>M4A3 Sherman IV</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_M4A3_SHERMAN_IV">
 		<Text>American tank from WW2.</Text>
