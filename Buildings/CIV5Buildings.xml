@@ -333,16 +333,11 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>6</Yield>
 		</Row>
-		<!--<Row>
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>6</Yield>
-		</Row>
 		<Row>
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>8</Yield>
-		</Row>-->
+			<BuildingType>BUILDING_JEWELERY_STORE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>12</Yield>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -1124,22 +1119,6 @@
 			<Set GoldMaintenance="2" Cost="540" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount ="0" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_LIGHTHOUSE"/>
 		</Update>
-		<!--<Row> TAKEN IT OUT FOR NOW
-			<Type>BUILDING_MILL</Type>
-			<Description>TXT_KEY_BUILDING_MILL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MILL_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MILL_STRATEGY</Help>
-			<GoldMaintenance>8</GoldMaintenance>
-			<Cost>630</Cost>
-			<HurryCostModifier>25</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<BuildingClass>BUILDINGCLASS_MILL</BuildingClass>
-			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<PrereqTech>TECH_AGRICULTURAL_REVOLUTION</PrereqTech>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>28</PortraitIndex>
-		</Row>-->
 		<Update>
 			<Set GoldMaintenance="2" Cost="540" />
 			<Where Type="BUILDING_MONASTERY"/>
@@ -1473,6 +1452,22 @@
 			<PrereqTech>TECH_INDUSTRIAL_PROCESSES</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_JEWELERY_STORE</Type>
+			<Description>TXT_KEY_BUILDING_JEWELERY_STORE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_JEWELERY_STORE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_JEWELERY_STORE_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_JEWELERY_STORE_STRATEGY</Strategy>
+			<Cost>1050</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<BuildingClass>BUILDINGCLASS_JEWELERY_STORE</BuildingClass>
+			<FreeStartEra>ERA_FUTURE</FreeStartEra>
+			<PrereqTech>TECH_CORPORTATIONS</PrereqTech>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
 		</Row>
 		<Row>
 			<Type>BUILDING_MASS_TRANSIT</Type>
@@ -4182,16 +4177,16 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<!--<Row> TAKING IT OUT FOR NOW
+		<Row> 
 			<BuildingType>BUILDING_MILL</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>45</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MILL</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>43</Flavor>
-		</Row>-->
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
 		<Update>
 			<Where BuildingType="BUILDING_MONASTERY" FlavorType="FLAVOR_CULTURE" />
 			<Set Flavor="45" />
@@ -7029,6 +7024,10 @@
 			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_JEWELERY_STORE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_NAVAL_BASE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
 		</Row>
@@ -7485,6 +7484,24 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_JEWELERY_STORE</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JEWELERY_STORE</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JEWELERY_STORE</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_MEDICAL_LAB</BuildingType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -7517,24 +7534,6 @@
 		<Row>
 			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
 			<ResourceType>RESOURCE_SILK</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
-			<ResourceType>RESOURCE_GOLD</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
-			<ResourceType>RESOURCE_SILVER</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
-			<ResourceType>RESOURCE_GEMS</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
