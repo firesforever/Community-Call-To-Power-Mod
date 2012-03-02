@@ -477,7 +477,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TOWN_HALL_STRATEGY</Tag>
-			<Text>+0.5 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.</Text>
+			<Text>+1 [ICON_GOLD] God for every 2 [ICON_CITIZEN] Citizens in this City</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUN_TZU_ART_OF_WAR</Tag>
@@ -1051,18 +1051,22 @@
 			<Tag>TXT_KEY_WONDER_CONTRACEPTION_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"Neglect of an effective birth control policy is a never-failing source of poverty which, in turn, is the parent of revolution and crime.[NEWLINE][TAB][TAB]" - Aristotle[NEWLINE][TAB]</Text>
 		</Row>
-		<!--!<Row>
-			<Tag>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK</Tag>
-			<Text>Telecommunications Network</Text>
+		!<Row>
+			<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS</Tag>
+			<Text>Public Baths</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK_DESC</Tag>
-			<Text>A telecommunications network is a collection of terminals, links and nodes which connect together to enable telecommunication between users of the terminals. Networks may use circuit switching or message switching. Each terminal in the network must have a unique address so messages or connections can be routed to the correct recipients.</Text>
+			<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS_PEDIA</Tag>
+			<Text>Public baths originated from a communal need for cleanliness. The term public may confuse some people, as some types of public baths are restricted depending on membership, gender, religious affiliation, or other reasons. In ancient times public bathing included saunas, massages and relaxation therapies. Members of the society considered it as a place to meet and socialize. Public bathing could be compared to the spa of modern times.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK_STRATEGY</Tag>
-			<Text>Increases [ICON_RESEARCH] Science and [ICON_GOLD] Gold in this City.</Text>
-		</Row>-->
+			<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS_HELP</Tag>
+			<Text>City must be built next to a River or Lake.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS_STRATEGY</Tag>
+			<Text>The Public Baths increases a civilization's happiness. It can only be constructed in a city next to a river or lake.</Text>
+		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRBASE</Tag>
 			<Text>Airbase</Text>
@@ -4755,11 +4759,11 @@
 			<Where Tag="TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_RESEARCH] Science per 2 [ICON_CITIZEN] Citizens in this City." />
+			<Set Text="+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City." />
 			<Where Tag="TXT_KEY_BUILDING_LIBRARY_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_RESEARCH] Science per 2 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]City must have a University." />
+			<Set Text="+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]City must have a University." />
 			<Where Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL_HELP" />
 		</Update>
 		<Update>
