@@ -9872,7 +9872,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	
 	local resources_to_place = {
 	{self.jade_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
-	self:ProcessResourceList(10 * bonus_multiplier, 3, self.jade_list, resources_to_place)
+	self:ProcessResourceList(10 * bonus_multiplier, 3, self.jungle_flat_list, resources_to_place)
 	
 	local resources_to_place = {
 	{self.jade_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
@@ -9880,7 +9880,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	
 	local resources_to_place = {
 	{self.manganese_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
-	self:ProcessResourceList(12 * bonus_multiplier, 3, self.coast_list, resources_to_place)
+	self:ProcessResourceList(22 * bonus_multiplier, 3, self.coast_list, resources_to_place)
 	
 	local resources_to_place = {
 	{self.manganese_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
@@ -9892,7 +9892,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	
 	local resources_to_place = {
 	{self.amber_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
-	self:ProcessResourceList(10 * bonus_multiplier, 3, self.amber_list, resources_to_place)
+	self:ProcessResourceList(10 * bonus_multiplier, 3, self.jungle_flat_list, resources_to_place)
 	
 	local resources_to_place = {
 	{self.squid_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
