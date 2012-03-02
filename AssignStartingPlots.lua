@@ -9896,7 +9896,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	
 	local resources_to_place = {
 	{self.squid_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
-	self:ProcessResourceList(8 * bonus_multiplier, 3, self.coast_list, resources_to_place)
+	self:ProcessResourceList(13 * bonus_multiplier, 3, self.coast_list, resources_to_place)
 	
 	if self.amounts_of_resources_placed[self.fish_ID + 1] < 4 * self.iNumCivs then
 		--print("Map has very low fish, adding another.");
