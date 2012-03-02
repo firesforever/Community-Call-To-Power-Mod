@@ -156,7 +156,6 @@
 		</Row> 
 		<Row>
 			<Type>RESOURCE_JADE</Type>
-			<TechReveal>TECH_MASONRY</TechReveal>
 			<TechCityTrade>TECH_MASONRY</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_JADE</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_JADE_TEXT</Civilopedia>
@@ -246,7 +245,7 @@
 			<TechCityTrade>TECH_DIVISION_OF_LABOR</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_AMBER</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_AMBER_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_SQUID_HELP</Help>
+			<Help>TXT_KEY_RESOURCE_AMBER_HELP</Help>
 			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
 			<ArtDefineTag>ART_DEF_RESOURCE_DYE</ArtDefineTag>
 			<AITradeModifier>10</AITradeModifier>
@@ -317,12 +316,7 @@
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_AMBER</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_AMBER</ResourceType>
-			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Resource_YieldChanges>
@@ -515,7 +509,7 @@
 			<ResourceType>RESOURCE_SQUID</ResourceType>
 		</Row>
 		<Row>
-			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<ResourceType>RESOURCE_AMBER</ResourceType>
 		</Row>
 	</Improvement_ResourceTypes>
