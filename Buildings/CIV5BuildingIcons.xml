@@ -523,7 +523,7 @@
 		</Update>
 		<Update>
 			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="2"/>
-			<Where Type="BUILDING_JEWERLY_STORE"/>
+			<Where Type="BUILDING_JEWELRY_STORE"/>
 		</Update>
 		<Update>
 			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="3"/>

@@ -214,6 +214,11 @@
 			<Yield>18</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_SUPERCOMPUTER</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>200</Yield>
@@ -334,7 +339,7 @@
 			<Yield>6</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_JEWELERY_STORE</BuildingType>
+			<BuildingType>BUILDING_JEWELRY_STORE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>12</Yield>
 		</Row>
@@ -689,11 +694,6 @@
 			<Set Yield="50"/>
 			<Where BuildingType="BUILDING_PAPER_MAKER" YieldType="YIELD_SCIENCE"/>
 		</Update>
-		<Row>
-			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>100</Yield>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -1454,18 +1454,18 @@
 			<SpecialistCount>1</SpecialistCount>
 		</Row>
 		<Row>
-			<Type>BUILDING_JEWELERY_STORE</Type>
-			<Description>TXT_KEY_BUILDING_JEWELERY_STORE</Description>
-			<Civilopedia>TXT_KEY_BUILDING_JEWELERY_STORE_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_JEWELERY_STORE_HELP</Help>
-			<Strategy>TXT_KEY_BUILDING_JEWELERY_STORE_STRATEGY</Strategy>
+			<Type>BUILDING_JEWELRY_STORE</Type>
+			<Description>TXT_KEY_BUILDING_JEWELRY_STORE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_JEWELRY_STORE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_JEWELRY_STORE_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_JEWELRY_STORE_STRATEGY</Strategy>
 			<Cost>1050</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<BuildingClass>BUILDINGCLASS_JEWELERY_STORE</BuildingClass>
+			<BuildingClass>BUILDINGCLASS_JEWELRY_STORE</BuildingClass>
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
-			<PrereqTech>TECH_CORPORTATIONS</PrereqTech>
+			<PrereqTech>TECH_CORPORATIONS</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 		</Row>
@@ -1567,7 +1567,7 @@
 			<Where Type="BUILDING_STADIUM"/>
 		</Update>
 		<Update>
-			<Set Cost="1360" PrereqTech="TECH_ECONOMICS" SpecialistCount="2" GreatPeopleRateChange="0"/>
+			<Set Cost="1050" PrereqTech="TECH_ECONOMICS" SpecialistCount="2" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_STOCK_EXCHANGE"/>
 		</Update>
 		<Row>
@@ -4177,16 +4177,6 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<Row> 
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>45</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
 		<Update>
 			<Where BuildingType="BUILDING_MONASTERY" FlavorType="FLAVOR_CULTURE" />
 			<Set Flavor="45" />
@@ -4664,6 +4654,16 @@
 			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JEWELRY_STORE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JEWELRY_STORE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MASS_TRANSIT</BuildingType>
@@ -7024,7 +7024,7 @@
 			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_JEWELERY_STORE</BuildingType>
+			<BuildingType>BUILDING_JEWELRY_STORE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
 		</Row>
 		<Row>
@@ -7484,19 +7484,19 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_JEWELERY_STORE</BuildingType>
+			<BuildingType>BUILDING_JEWELRY_STORE</BuildingType>
 			<ResourceType>RESOURCE_GOLD</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_JEWELERY_STORE</BuildingType>
+			<BuildingType>BUILDING_JEWELRY_STORE</BuildingType>
 			<ResourceType>RESOURCE_SILVER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_JEWELERY_STORE</BuildingType>
+			<BuildingType>BUILDING_JEWELRY_STORE</BuildingType>
 			<ResourceType>RESOURCE_GEMS</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>

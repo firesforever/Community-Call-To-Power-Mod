@@ -134,9 +134,9 @@
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_MILL</Type>
-			<Description>TXT_KEY_BUILDING_MILL</Description>
-			<DefaultBuilding>BUILDING_MILL</DefaultBuilding>
+			<Type>BUILDINGCLASS_JEWELRY_STORE</Type>
+			<Description>TXT_KEY_BUILDING_JEWELRY_STORE</Description>
+			<DefaultBuilding>BUILDING_JEWELRY_STORE</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_TOWN_HALL</Type>
