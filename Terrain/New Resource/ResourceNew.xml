@@ -179,7 +179,7 @@
 		<Row>
 			<Type>RESOURCE_MANGANESE</Type>
 			<TechReveal>TECH_METALLURGY</TechReveal>
-			<TechCityTrade>TECH_METALURGY</TechCityTrade>
+			<TechCityTrade>TECH_METALLURGY</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_MANGANESE</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MANGANESE_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_MANGANESE_HELP</Help>
@@ -456,8 +456,16 @@
 			<TerrainType>TERRAIN_GRASS</TerrainType>
 		</Row>
 		<Row>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
 			<ResourceType>RESOURCE_AMBER</ResourceType>
 			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
 		</Row>
 	</Resource_FeatureTerrainBooleans>
 	
@@ -659,7 +667,7 @@
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_SQUID</ResourceType>
-			<FlavorType>FLAVOR_FOOD</FlavorType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>

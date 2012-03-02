@@ -7018,7 +7018,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AIRBASE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_AICRAFT_PLANT</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_AIRCRAFT_PLANT</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
