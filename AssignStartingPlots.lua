@@ -320,6 +320,8 @@ function AssignStartingPlots.Create()
 		extra_deer_list = {},
 		desert_wheat_list = {},
 		banana_list = {},
+		jade_list = {},
+		amber_list = {},
 		barren_plots = 0,
 		
 		-- Positioner defaults. These are the controls for the "Center Bias" placement method for civ starts in regions.
@@ -375,10 +377,9 @@ function AssignStartingPlots.Create()
 		dye_ID, spices_ID, sugar_ID, cotton_ID, wine_ID, incense_ID,
 		-- Added by CCTP. 
 		gold_ID, silver_ID, gems_ID, marble_ID, poppy_ID, crab_ID,
-		--[[
-		aloe_vera_ID, jade_ID, manganese_ID, oak_ID, squid_ID,
-		coffee_ID, copper_ID, titanium_ID,
-		]]
+		aloe_vera_ID, amber_ID, jade_ID, manganese_ID, oak_ID, squid_ID,
+		coffee_ID, copper_ID, titanium_ID, 
+		
 		
 	}
 	
@@ -471,7 +472,6 @@ function AssignStartingPlots:__Init()
 			self.titanium_ID = resourceID;
 		elseif resourceType == "RESOURCE_CRAB" then
 			self.crab_ID = resourceID;
-	--[[
 		elseif resourceType == "RESOURCE_ALOE_VERA" then
 			self.aloe_vera_ID = resourceID;
 		elseif resourceType == "RESOURCE_JADE" then
@@ -482,7 +482,8 @@ function AssignStartingPlots:__Init()
 			self.oak_ID = resourceID;
 		elseif resourceType == "RESOURCE_SQUID" then
 			self.squid_ID = resourceID;
-			]]
+		elseif resourceType == "RESOURCE_AMBER" then
+			self.amber_ID = resourceID;
 		end
 	end
 end
@@ -3333,9 +3334,9 @@ function AssignStartingPlots:AttemptToPlaceBonusResourceAtPlot(x, y, bAllowOasis
 			-- START CCTP
 				local choice = self.fish_ID;
 				local diceroll = Map.Rand(3,"Selection of Strategic Resource type - Start Normalization LUA");
-				if diceroll <= 2 then
+				if diceroll == 1 then
 					choice = self.fish_ID;
-				elseif diceroll == 3 then
+				elseif diceroll == 2 then
 					choice = self.crab_ID;
 				end
 				plot:SetResourceType(choice, 1);  -- Changed 1 too bamt by CCTP
@@ -9073,11 +9074,13 @@ function AssignStartingPlots:PlaceFish(frequency, plot_list)
 						end
 						-- START CCTP
 						local choice = self.fish_ID;
-						local diceroll = Map.Rand(4,"Fish/Crab Choice - Place Fish LUA");
-						if diceroll <= 2 then
+						local diceroll = Map.Rand(3,"Fish/Crab/Squid Choice - Place Fish LUA");
+						if diceroll == 1 then
 							choice = self.fish_ID;
-						elseif diceroll >= 3 then
+						elseif diceroll == 2 then
 							choice = self.crab_ID;
+						elseif diceroll == 3 then
+							choice = self.squid_ID;
 						end
 						--[[local fcamt = 1 --CCTP Stuff
 						local diceroll = Map.Rand(3, "Fish/Crab Resource quantity selection 1- - LUA");
@@ -9764,7 +9767,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	
 	-- Place Bonus Resources
 	print("Map Generation - Placing Bonuses");
-	self:PlaceFish(7 * bonus_multiplier, self.coast_list); --was 10
+	self:PlaceFish(5 * bonus_multiplier, self.coast_list); --was 10
 	self:PlaceSexyBonusAtCivStarts()
 	self:AddExtraBonusesToHillsRegions()
 	--[[ CTTP Changes
@@ -9858,7 +9861,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	local resources_to_place = {
 	{self.titanium_ID, 1, 100, 1, 1} }; -- Changed 1 too bsamt by CCTP.
 	self:ProcessResourceList(10 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
-	--[[
+	
 	local resources_to_place = {
 	{self.aloe_vera_ID, 1, 100, 1, 1} }; -- Changed 1 too bsamt by CCTP.
 	self:ProcessResourceList(10 * bonus_multiplier, 3, self.desert_flat_no_feature, resources_to_place)
@@ -9877,7 +9880,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	
 	local resources_to_place = {
 	{self.manganese_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
-	self:ProcessResourceList(9 * bonus_multiplier, 3, self.ocean_list, resources_to_place)
+	self:ProcessResourceList(12 * bonus_multiplier, 3, self.coast_list, resources_to_place)
 	
 	local resources_to_place = {
 	{self.manganese_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
@@ -9885,16 +9888,15 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	
 	local resources_to_place = {
 	{self.oak_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
-	self:ProcessResourceList(9 * bonus_multiplier, 3, self.forest_list, resources_to_place)
+	self:ProcessResourceList(9 * bonus_multiplier, 3, self.forest_flat_that_are_not_tundra, resources_to_place)
+	
+	local resources_to_place = {
+	{self.amber_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
+	self:ProcessResourceList(10 * bonus_multiplier, 3, self.amber_list, resources_to_place)
 	
 	local resources_to_place = {
 	{self.squid_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
-	self:ProcessResourceList(5 * bonus_multiplier, 3, self.ocean_list, resources_to_place)
-	
-	local resources_to_place = {
-	{self.squid_ID, 1, 100, 3, 4} }; -- Changed 1 too bsamt by CCTP.
-	self:ProcessResourceList(11 * bonus_multiplier, 3, self.coast_list, resources_to_place)
-	]]
+	self:ProcessResourceList(8 * bonus_multiplier, 3, self.coast_list, resources_to_place)
 	
 	if self.amounts_of_resources_placed[self.fish_ID + 1] < 4 * self.iNumCivs then
 		--print("Map has very low fish, adding another.");
@@ -9961,7 +9963,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 		local resources_to_place = { {self.titanium_ID, titanium_amt, 100, 0, 0} };
 		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
 	end
---[[
+	
 	if self.amounts_of_resources_placed[self.aloe_vera_ID + 1] < 4 * self.iNumCivs then
 		--print("Map has very low aloe vera, adding another.");
 		local resources_to_place = { {self.aloe_vera_ID, aloe_vera_amt, 100, 0, 0} };
@@ -9977,7 +9979,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	if self.amounts_of_resources_placed[self.manganese_ID + 1] < 4 * self.iNumCivs then
 		--print("Map has very low manganese, adding another.");
 		local resources_to_place = { {self.manganese_ID, manganese_amt, 100, 0, 0} };
-		self:ProcessResourceList(99999, 1, self.ocean_list, resources_to_place)
+		self:ProcessResourceList(99999, 1, self.coast_list, resources_to_place)
 	end
 	
 	if self.amounts_of_resources_placed[self.oak_ID + 1] < 4 * self.iNumCivs then
@@ -9991,7 +9993,12 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 		local resources_to_place = { {self.squid_ID, squid_amt, 100, 0, 0} };
 		self:ProcessResourceList(99999, 1, self.coast_list, resources_to_place)
 	end
-	]]
+	
+	if self.amounts_of_resources_placed[self.amber_ID + 1] < 4 * self.iNumCivs then
+		--print("Map has very low amber, adding another.");
+		local resources_to_place = { {self.amber_ID, amber_amt, 100, 0, 0} };
+		self:ProcessResourceList(99999, 1, self.land_list, resources_to_place)
+	end
 	-- CTTP Changes End
 	
 end
