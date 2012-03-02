@@ -14,8 +14,8 @@
 			<Where Type="RESOURCE_COPPER" />
 		</Update>
 		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="3" IconString="[ICON_RES_CORN]"/>
-			<Where Type="RESOURCE_CORN" />
+			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="3" IconString="[ICON_RES_SQUID]"/>
+			<Where Type="RESOURCE_SQUID" />
 		</Update>
 		<Update>
 			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="4" IconString="[ICON_RES_CRAB]"/>
@@ -30,28 +30,28 @@
 			<Where Type="RESOURCE_POPPY" />
 		</Update>
 		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="7" IconString="[ICON_RES_RARE_EARTHS]"/>
-			<Where Type="RESOURCE_RARE_EARTHS" />
+			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="7" IconString="[ICON_RES_OAK]"/>
+			<Where Type="RESOURCE_OAK" />
 		</Update>
 		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="8" IconString="[ICON_RES_RICE]"/>
-			<Where Type="RESOURCE_RICE" />
+			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="8" IconString="[ICON_RES_ALOE_VERA]"/>
+			<Where Type="RESOURCE_ALOE_VERA" />
 		</Update>
 		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="9" IconString="[ICON_RES_SOYBEANS]"/>
-			<Where Type="RESOURCE_SOYBEANS" />
+			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="9" IconString="[ICON_RES_AMBER]"/>
+			<Where Type="RESOURCE_AMBER" />
 		</Update>
 		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="10" IconString="[ICON_RES_TEA]"/>
-			<Where Type="RESOURCE_TEA" />
+			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="10" IconString="[ICON_RES_JADE]"/>
+			<Where Type="RESOURCE_JADE" />
 		</Update>
 		<Update>
 			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="11" IconString="[ICON_RES_TITANIUM]"/>
 			<Where Type="RESOURCE_TITANIUM" />
 		</Update>
 		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="12" IconString="[ICON_RES_TOBACCO]"/>
-			<Where Type="RESOURCE_TOBACCO" />
+			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="12" IconString="[ICON_RES_MANGANESE]"/>
+			<Where Type="RESOURCE_MANGANESE" />
 		</Update>
 		<Update>
 			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="13" IconString="[ICON_RES_HELIUM_3]"/>
