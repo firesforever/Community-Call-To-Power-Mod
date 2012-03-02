@@ -81,6 +81,11 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
 			<FeatureType>FEATURE_MARSH</FeatureType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>-1</Yield>
