@@ -347,7 +347,7 @@
 		</Update>
 		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="58"/>
-			<Where Type="BUILDING_TELECOMMUNICATIONS_NETWORK"/>
+			<Where Type="BUILDING_PUBLIC_BATHS"/>
 		</Update>
 		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="59"/>

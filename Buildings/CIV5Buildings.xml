@@ -538,16 +538,6 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>100</Yield>
 		</Row>
-		<!--<Row>
-			<BuildingType>BUILDING_TELECOMMUNICATIONS_NETWORK</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>100</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TELECOMMUNICATIONS_NETWORK</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>3</Yield>
-		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_WEALTH_OF_NATIONS</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -1060,6 +1050,23 @@
 			<Set Cost="300" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1"/>
 			<Where Type="BUILDING_PAPER_MAKER"/>
 		</Update>
+		<Row>
+			<Type>BUILDING_PUBLIC_BATHS</Type>
+			<Description>TXT_KEY_BUILDING_PUBLIC_BATHS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PUBLIC_BATHS_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_PUBLIC_BATHS_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_PUBLIC_BATHS_STRATEGY</Strategy>
+			<Cost>300</Cost>
+			<Happiness>2</Happiness>
+			<FreshWater>true</FreshWater>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>60</ConquestProb>
+			<BuildingClass>BUILDINGCLASS_PUBLIC_BATHS</BuildingClass>
+			<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+		</Row>
 		<Update>
 			<Set GoldMaintenance="2" Cost="300" />
 			<Where Type="BUILDING_STABLE"/>
@@ -1586,20 +1593,7 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>0</SpecialistCount>
 		</Row>
-		<!--<Row> TAKING THEM OUT
-			<Type>BUILDING_TELECOMMUNICATIONS_NETWORK</Type>
-			<Description>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK</Description>
-			<Civilopedia>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK_DESC</Civilopedia>
-			<Cost>2730</Cost>
-			<HurryCostModifier>25</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<BuildingClass>BUILDINGCLASS_TELECOMMUNICATIONS_NETWORK</BuildingClass>
-			<FreeStartEra>ERA_FUTURE</FreeStartEra>
-			<PrereqTech>TECH_TELEPHONE</PrereqTech>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
-		</Row>
+		<!--
 		<Row>
 			<Type>BUILDING_TELEVISION</Type>
 			<Description>TXT_KEY_BUILDING_TELEVISION</Description>
@@ -4027,6 +4021,21 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_PUBLIC_BATHS</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>55</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PUBLIC_BATHS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PUBLIC_BATHS</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
 		<!--Keep stable at 6 mobile-->
 		<Delete BuildingType="BUILDING_STABLE" FlavorType="FLAVOR_MILITARY_TRAINING" />
 		<Update>
@@ -4791,21 +4800,6 @@
 			<Flavor>2</Flavor>
 		</Row>
 		<!--<Row>
-			<BuildingType>BUILDING_TELECOMMUNICATIONS_NETWORK</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TELECOMMUNICATIONS_NETWORK</BuildingType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>15</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TELECOMMUNICATIONS_NETWORK</BuildingType>
-			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_TELEVISION</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>60</Flavor>

@@ -380,9 +380,9 @@
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_TELECOMMUNICATIONS_NETWORK</Type>
-			<Description>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK</Description>
-			<DefaultBuilding>BUILDING_TELECOMMUNICATIONS_NETWORK</DefaultBuilding>
+			<Type>BUILDINGCLASS_PUBLIC_BATHS</Type>
+			<Description>TXT_KEY_BUILDING_PUBLIC_BATHS</Description>
+			<DefaultBuilding>BUILDING_PUBLIC_BATHS</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_AIRCRAFT_PLANT</Type>
