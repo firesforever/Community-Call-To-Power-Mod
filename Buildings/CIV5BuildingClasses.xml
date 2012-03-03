@@ -342,6 +342,11 @@
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
+			<Type>BUILDINGCLASS_AQUARIUM</Type>
+			<Description>TXT_KEY_BUILDING_AQUARIUM</Description>
+			<DefaultBuilding>BUILDING_AQUARIUM</DefaultBuilding>
+		</Row>
+		<Row>
 			<Type>BUILDINGCLASS_AUTO_PLANT</Type>
 			<Description>TXT_KEY_BUILDING_AUTO_PLANT</Description>
 			<DefaultBuilding>BUILDING_AUTO_PLANT</DefaultBuilding>

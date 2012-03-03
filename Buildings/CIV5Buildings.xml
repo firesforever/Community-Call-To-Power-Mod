@@ -9,6 +9,11 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
@@ -1313,6 +1318,24 @@
 		</Update>
 		
 		<!--INDUSTRIAL ERA-->
+		<Row>
+			<Type>BUILDING_AQUARIUM</Type>
+			<Description>TXT_KEY_BUILDING_AQUARIUM</Description>
+			<Civilopedia>TXT_KEY_BUILDING_AQUARIUM_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_AQUARIUM_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_AQUARIUM_STRATEGY</Strategy>
+			<Cost>1050</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<GoldMaintenance>10</GoldMaintenance>
+			<Water>true</Water>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>65</ConquestProb>
+			<Happiness>2</Happiness>
+			<SpecialistType>SPECIALIST_SCIENCTIST</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<BuildingClass>BUILDINGCLASS_AQUARIUM</BuildingClass>
+			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+		</Row>
 		<Row>
 			<Type>BUILDING_AIRBASE</Type>
 			<Description>TXT_KEY_BUILDING_AIRBASE</Description>
@@ -4450,6 +4473,21 @@
 		
 		<!--INDUSTRIAL ERA-->
 		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>65</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_AIRBASE</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>65</Flavor>
@@ -6500,13 +6538,13 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SEAPORT</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Building_SeaResourceYieldChanges>
@@ -7172,6 +7210,26 @@
 		<Row>
 			<BuildingType>BUILDING_ABBEY</BuildingType>
 			<ResourceType>RESOURCE_DYE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUARIUM</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CHEMICAL_PLANT</BuildingType>

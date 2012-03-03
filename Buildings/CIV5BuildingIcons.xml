@@ -34,6 +34,10 @@
 			<Where Type="BUILDING_KONG_MIAO"/>
 		</Update>
 		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="12"/>
+			<Where Type="BUILDING_AQUARIUM"/>
+		</Update>
+		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="7"/>
 			<Where Type="BUILDING_SPHINX"/>
 		</Update>

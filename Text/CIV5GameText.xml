@@ -932,6 +932,22 @@
 			<Text>+15 XP for all Sea units built in this City.[NEWLINE][NEWLINE]Requires a Seaport in this City.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_AQUARIUM</Tag>
+			<Text>Aquarium</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AQUARIUM_PEDIA</Tag>
+			<Text>An aquarium is a vivarium consisting of at least one transparent side in which water-dwelling plants or animals are kept. Fishkeepers use aquaria to keep fish, invertebrates, amphibians, marine mammals, turtles, and aquatic plants.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AQUARIUM_STRATEGY</Tag>
+			<Text>The Aquarium increases the science output of an improved sea resource. It also increases a civilization's [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AQUARIUM_HELP</Tag>
+			<Text>+1 [ICON_RESEARCH] Science from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have at least one of Sea Resource improved nearby.[NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_SUPERMARKET</Tag>
 			<Text>Supermarket</Text>
 		</Row>
@@ -4795,7 +4811,7 @@
 			<Where Tag="TXT_KEY_BUILDING_LIGHTHOUSE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]+15 XP for Naval Units produced in this City.[NEWLINE]Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land).[NEWLINE][NEWLINE]City must be built on the coast." />
+			<Set Text="+15 XP for Naval Units produced in this City. Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land).[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_BUILDING_HARBOR_HELP" />
 		</Update>
 		<Update>
