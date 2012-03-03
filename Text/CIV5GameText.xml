@@ -41,7 +41,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BREWERY_HELP</Tag>
-			<Text>Each source of [ICON_RES_WHEAT] Wheat, [ICON_RES_SUGAR] Sugar, and [ICON_RES_SPICES] Spices worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_SUGAR] Sugar and [ICON_RES_SPICES] Spices worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_WHEAT] Wheat, [ICON_RES_SUGAR] Sugar, or [ICON_RES_SPICES] Spices nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BREWERY_STRATEGY</Tag>
@@ -64,11 +64,11 @@
 			<Where Tag="TXT_KEY_BUILDING_CIRCUS_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_DEER] Deer and [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]+10% [ICON_FOOD] Food carried over after a [ICON_CITIZEN] Citizen is born."/>
+			<Set Text="+10% [ICON_FOOD] Food carried over after a [ICON_CITIZEN] Citizen is born."/>
 			<Where Tag="TXT_KEY_BUILDING_GRANARY_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.[NEWLINE][NEWLINE]City must not be in Plains."/>
+			<Set Text="Each source of [ICON_RES_MARBLE] Marble worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_MARBLE] Marble, [ICON_RES_STONE] Stone, or [ICON_RES_JADE] Jade nearby.[NEWLINE][NEWLINE]City must not be in Plains."/>
 			<Where Tag="TXT_KEY_BUILDING_STONE_WORKS_HELP" />
 		</Update>
 		
@@ -83,7 +83,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ABBEY_HELP</Tag>
-			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces 1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_SILK] Silk worked by this City produces 1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces 1 [ICON_GOLD] Gold. Each source of [ICON_RES_SILK] Silk worked by this City produces 1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ABBEY_STRATEGY</Tag>
@@ -122,7 +122,7 @@
 			<Where Tag="TXT_KEY_BUILDING_PAPER_MAKER_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each sorce of [ICON_RES_COW] Cow, [ICON_RES_SHEEP] Sheep, and [ICON_RES_HORSE] Horse worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]Requires improved source of [ICON_RES_COW] Cow, [ICON_RES_HORSE] Horse, or [ICON_RES_SHEEP] Sheep nearby."/>
+			<Set Text="Each sorce of [ICON_RES_HORSE] Horse worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_HORSE] Horse, [ICON_RES_COW] Cow, or [ICON_RES_SHEEP] Sheep nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_STABLE_HELP" />
 		</Update>
 		<!--<Update>
@@ -141,9 +141,12 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_CLOCK_STRATEGY</Tag>
-			<Text>The City Clock increases the city's output of gold. </Text>
+			<Text>The City Clock provides a one-time boost to gold. Use it to boost your economy.</Text>
 		</Row>
-		
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CITY_CLOCK_HELP</Tag>
+			<Text>Provides a one-time instance of +360 [ICON_GOLD] Gold.</Text>
+		</Row>
 		
 		
 		
@@ -477,7 +480,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TOWN_HALL_STRATEGY</Tag>
-			<Text>+1 [ICON_GOLD] God for every 2 [ICON_CITIZEN] Citizens in this City</Text>
+			<Text>+1 [ICON_GOLD] Gold for every 2 [ICON_CITIZEN] Citizens in this City</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUN_TZU_ART_OF_WAR</Tag>
@@ -769,7 +772,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_RANCH_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_HORSE] Horses, [ICON_RES_COW] Cattle, and [ICON_RES_SHEEP] Sheep worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of at least one of these resources nearby.</Text>
+			<Text>Each source of [ICON_RES_HORSE] Horse worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_HORSE] Horse, [ICON_RES_COW] Cow, or [ICON_RES_SHEEP] Sheep nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DECLARATION_OF_INDEPENDENCE</Tag>
@@ -945,19 +948,23 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AQUARIUM_HELP</Tag>
-			<Text>+1 [ICON_RESEARCH] Science from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have at least one of Sea Resource improved nearby.[NEWLINE]City must be built on the coast.</Text>
+			<Text>+1 [ICON_RESEARCH] Science from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have at least one Sea Resource improved nearby.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUPERMARKET</Tag>
 			<Text>Supermarket</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SUPERMARKET_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_SUPERMARKET_PEDIA</Tag>
 			<Text>A supermarket, a form of grocery store, is a self-service store offering a wide variety of food and household merchandise, organized into departments. It is larger in size and has a wider selection than a traditional grocery store and it is smaller than a hypermarket or superstore.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_SUPERMARKET_HELP</Tag>
+			<Text>City must have a Granary.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_SUPERMARKET_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_SUGAR] Sugar and [ICON_RES_COFFEE] Coffee worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>The supermarket greatly increases the food intake of a city.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD</Tag>
@@ -1081,7 +1088,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS_STRATEGY</Tag>
-			<Text>The Public Baths increases a civilization's happiness. It can only be constructed in a city next to a river or lake.</Text>
+			<Text>The Public Baths increases a civilization's [ICON_HAPPINESS_1] Happiness. It can only be constructed in a city next to a river or lake.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRBASE</Tag>
@@ -1117,7 +1124,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CHEMICAL_PLANT_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_DYE] Dye worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Each source of [ICON_RES_INCENSE] Incense or [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_DYE] Dye worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science. Each source of [ICON_RES_INCENSE] Incense worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEXTILE_MILL</Tag>
@@ -1129,7 +1136,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEXTILE_MILL_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_COTTON] Cotton, [ICON_RES_FUR] Fur, and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby."</Text>
+			<Text>Each source of [ICON_RES_COTTON] Cotton, [ICON_RES_FUR] Fur, and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOOD_PROCESSING_PLANT</Tag>
@@ -1141,7 +1148,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOOD_PROCESSING_PLANT_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_SPICES] Spices worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_WINE] Wine and [ICON_RES_DEER] Deer worked by this City produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_SPICES] Spices worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold. Each source of [ICON_RES_WINE] Wine worked by this City produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_SPICES] Spices, [ICON_RES_WINE] Wine, or [ICON_RES_DEER] Deer nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE</Tag>
@@ -1153,7 +1160,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_WHEAT] Wheat and [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_WHEAT] Wheat or [ICON_RES_BANANA] Banana nearby.</Text>
+			<Text>Each source of [ICON_RES_SUGAR] Sugar worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_WHEAT] Wheat, [ICON_RES_BANANA] Banana, or [ICON_RES_SUGAR] Sugar nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INTERNATIONAL_AID_ORGANIZATION</Tag>
@@ -1369,7 +1376,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_ROBOTICS_HELP</Tag>
-			<Text>Each source of [ICON_RES_ALUMINUM] Aluminum and [ICON_RES_TITANIUM] Titanium worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold. Each source of [ICON_RES_COAL] Coal worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Factory.</Text>
+			<Text>Each source of [ICON_RES_ALUMINUM] Aluminum worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold. Each source of [ICON_RES_COAL] Coal worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Factory.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_NATIONAL_LABORATORY</Tag>
@@ -4735,7 +4742,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BANK_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_IRON] Iron or [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Military Academy."/>
+			<Set Text="Each source of [ICON_RES_IRON] Iron worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Military Academy."/>
 			<Where Tag="TXT_KEY_BUILDING_ARSENAL_HELP" />
 		</Update>
 		<Update>
@@ -4747,7 +4754,7 @@
 			<Where Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_IRON] Iron and [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper nearby."/>
+			<Set Text="Each source of [ICON_RES_IRON] Iron worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_FORGE_HELP" />
 		</Update>
 		<Update>
@@ -4835,7 +4842,7 @@
 			<Where Tag="TXT_KEY_BUILDING_HOSPITAL_STRATEGY" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_URANIUM] Uranium and [ICON_RES_POPPY] Poppy worked by this City produces +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have a Hospital." />
+			<Set Text="Each source of [ICON_RES_URANIUM] Uranium worked by this City produces +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have a Hospital." />
 			<Where Tag="TXT_KEY_BUILDING_MEDICAL_LAB_HELP" />
 		</Update>
 		<Update>
