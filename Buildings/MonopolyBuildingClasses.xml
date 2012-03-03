@@ -51,7 +51,10 @@
 			<Description>TXT_KEY_BUILDING_SMALL_STONE_CUTTER</Description>
 			<DefaultBuilding>BUILDING_SMALL_STONE_CUTTER</DefaultBuilding>
 		</Row>
-<!--
+
+		
+		<!--CLASSICAL ERA-->
+		
 		<Row>
 			<Type>BUILDINGCLASS_MEDIUM_FISH_MARKET</Type>
 			<Description>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET</Description>
@@ -92,7 +95,39 @@
 			<Description>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER</Description>
 			<DefaultBuilding>BUILDING_MEDIUM_DEER_BUTCHER</DefaultBuilding>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MEDIUM_STONE_CUTTER</Type>
+			<Description>TXT_KEY_BUILDING_MEDIUM_STONE_CUTTER</Description>
+			<DefaultBuilding>BUILDING_MEDIUM_STONE_CUTTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MEDIUM_JADE_CUTTER</Type>
+			<Description>TXT_KEY_BUILDING_MEDIUM_JADE_CUTTER</Description>
+			<DefaultBuilding>BUILDING_MEDIUM_JADE_CUTTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MEDIUM_OAK_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_MEDIUM_OAK_CENTER</Description>
+			<DefaultBuilding>BUILDING_MEDIUM_OAK_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MEDIUM_ALOE_VERA_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_MEDIUM_ALOE_VERA_CENTER</Description>
+			<DefaultBuilding>BUILDING_MEDIUM_ALOE_VERA_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MEDIUM_AMBER_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_MEDIUM_AMBER_CENTER</Description>
+			<DefaultBuilding>BUILDING_MEDIUM_AMBER_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MEDIUM_POPPY_REFINERY</Type>
+			<Description>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY</Description>
+			<DefaultBuilding>BUILDING_MEDIUM_POPPY_REFINERY</DefaultBuilding>
+		</Row>
 
+
+		<!--MEDIEVAL ERA-->
 		<Row>
 			<Type>BUILDINGCLASS_LARGE_FISH_MARKET</Type>
 			<Description>TXT_KEY_BUILDING_LARGE_FISH_MARKET</Description>
@@ -133,7 +168,59 @@
 			<Description>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER</Description>
 			<DefaultBuilding>BUILDING_LARGE_DEER_BUTCHER</DefaultBuilding>
 		</Row>
-
+		<Row>
+			<Type>BUILDINGCLASS_LARGE_STONE_CUTTER</Type>
+			<Description>TXT_KEY_BUILDING_LARGE_STONE_CUTTER</Description>
+			<DefaultBuilding>BUILDING_LARGE_STONE_CUTTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_LARGE_JADE_CUTTER</Type>
+			<Description>TXT_KEY_BUILDING_LARGE_JADE_CUTTER</Description>
+			<DefaultBuilding>BUILDING_LARGE_JADE_CUTTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_LARGE_OAK_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_LARGE_OAK_CENTER</Description>
+			<DefaultBuilding>BUILDING_LARGE_OAK_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_LARGE_ALOE_VERA_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_LARGE_ALOE_VERA_CENTER</Description>
+			<DefaultBuilding>BUILDING_LARGE_ALOE_VERA_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_LARGE_AMBER_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_LARGE_AMBER_CENTER</Description>
+			<DefaultBuilding>BUILDING_LARGE_AMBER_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_LARGE_SQUID_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_LARGE_SQUID_CENTER</Description>
+			<DefaultBuilding>BUILDING_LARGE_SQUID_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_LARGE_MANGANESE_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_LARGE_MANGANESE_CENTER</Description>
+			<DefaultBuilding>BUILDING_LARGE_MANGANESE_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_LARGE_POPPY_REFINERY</Type>
+			<Description>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY</Description>
+			<DefaultBuilding>BUILDING_LARGE_POPPY_REFINERY</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_LARGE_COFFEE_MILL</Type>
+			<Description>TXT_KEY_BUILDING_LARGE_COFFEE_MILL</Description>
+			<DefaultBuilding>BUILDING_LARGE_COFFEE_MILL</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_LARGE_TITANIUM_SMELTER</Type>
+			<Description>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER</Description>
+			<DefaultBuilding>BUILDING_LARGE_TITANIUM_SMELTER</DefaultBuilding>
+		</Row>
+		
+		
+		<!--RENAISSANCE ERA-->
 		<Row>
 			<Type>BUILDINGCLASS_HUGE_FISH_MARKET</Type>
 			<Description>TXT_KEY_BUILDING_HUGE_FISH_MARKET</Description>
@@ -174,7 +261,57 @@
 			<Description>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER</Description>
 			<DefaultBuilding>BUILDING_HUGE_DEER_BUTCHER</DefaultBuilding>
 		</Row>
--->
+		<Row>
+			<Type>BUILDINGCLASS_HUGE_STONE_CUTTER</Type>
+			<Description>TXT_KEY_BUILDING_HUGE_STONE_CUTTER</Description>
+			<DefaultBuilding>BUILDING_HUGE_STONE_CUTTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HUGE_JADE_CUTTER</Type>
+			<Description>TXT_KEY_BUILDING_HUGE_JADE_CUTTER</Description>
+			<DefaultBuilding>BUILDING_HUGE_JADE_CUTTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HUGE_OAK_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_HUGE_OAK_CENTER</Description>
+			<DefaultBuilding>BUILDING_HUGE_OAK_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HUGE_ALOE_VERA_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_HUGE_ALOE_VERA_CENTER</Description>
+			<DefaultBuilding>BUILDING_HUGE_ALOE_VERA_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HUGE_AMBER_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_HUGE_AMBER_CENTER</Description>
+			<DefaultBuilding>BUILDING_HUGE_AMBER_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HUGE_SQUID_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_HUGE_SQUID_CENTER</Description>
+			<DefaultBuilding>BUILDING_HUGE_SQUID_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HUGE_MANGANESE_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_HUGE_MANGANESE_CENTER</Description>
+			<DefaultBuilding>BUILDING_HUGE_MANGANESE_CENTER</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HUGE_POPPY_REFINERY</Type>
+			<Description>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY</Description>
+			<DefaultBuilding>BUILDING_HUGE_POPPY_REFINERY</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HUGE_COFFEE_MILL</Type>
+			<Description>TXT_KEY_BUILDING_HUGE_COFFEE_MILL</Description>
+			<DefaultBuilding>BUILDING_HUGE_COFFEE_MILL</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HUGE_TITANIUM_SMELTER</Type>
+			<Description>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER</Description>
+			<DefaultBuilding>BUILDING_HUGE_TITANIUM_SMELTER</DefaultBuilding>
+		</Row>
+		
 		<!-- Monopoly -->
 		<Row>
 			<Type>BUILDINGCLASS_FISH_MONOPOLY</Type>
@@ -230,109 +367,60 @@
 			<DefaultBuilding>BUILDING_STONE_MONOPOLY</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
-		<!--Classical-->
-
 		<Row>
-			<Type>BUILDINGCLASS_SMALL_POPPY_REFINERY</Type>
-			<Description>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY</Description>
-			<DefaultBuilding>BUILDING_SMALL_POPPY_REFINERY</DefaultBuilding>
-		</Row>
-		<!--
-		<Row>
-			<Type>BUILDINGCLASS_MEDIUM_POPPY_REFINERY</Type>
-			<Description>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY</Description>
-			<DefaultBuilding>BUILDING_MEDIUM_POPPY_REFINERY</DefaultBuilding>
+			<Type>BUILDINGCLASS_JADE_MONOPOLY</Type>
+			<Description>TXT_KEY_BUILDING_JADE_MONOPOLY</Description>
+			<DefaultBuilding>BUILDING_JADE_MONOPOLY</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_LARGE_POPPY_REFINERY</Type>
-			<Description>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY</Description>
-			<DefaultBuilding>BUILDING_LARGE_POPPY_REFINERY</DefaultBuilding>
+			<Type>BUILDINGCLASS_OAK_MONOPOLY</Type>
+			<Description>TXT_KEY_BUILDING_OAK_MONOPOLY</Description>
+			<DefaultBuilding>BUILDING_OAK_MONOPOLY</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_HUGE_POPPY_REFINERY</Type>
-			<Description>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY</Description>
-			<DefaultBuilding>BUILDING_HUGE_POPPY_REFINERY</DefaultBuilding>
+			<Type>BUILDINGCLASS_SQUID_MONOPOLY</Type>
+			<Description>TXT_KEY_BUILDING_SQUID_MONOPOLY</Description>
+			<DefaultBuilding>BUILDING_SQUID_MONOPOLY</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
--->
+		<Row>
+			<Type>BUILDINGCLASS_AMBER_MONOPOLY</Type>
+			<Description>TXT_KEY_BUILDING_AMBER_MONOPOLY</Description>
+			<DefaultBuilding>BUILDING_AMBER_MONOPOLY</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_ALOE_VERA_MONOPOLY</Type>
+			<Description>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY</Description>
+			<DefaultBuilding>BUILDING_ALOE_VERA_MONOPOLY</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MANGANESE_MONOPOLY</Type>
+			<Description>TXT_KEY_BUILDING_MANGANESE_MONOPOLY</Description>
+			<DefaultBuilding>BUILDING_MANGANESE_MONOPOLY</DefaultBuilding>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_POPPY_MONOPOLY</Type>
 			<Description>TXT_KEY_BUILDING_POPPY_MONOPOLY</Description>
 			<DefaultBuilding>BUILDING_POPPY_MONOPOLY</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
-
-
-		<!-- Medieval Era -->
-
-
-		<Row>
-			<Type>BUILDINGCLASS_SMALL_COFFEE_MILL</Type>
-			<Description>TXT_KEY_BUILDING_SMALL_COFFEE_MILL</Description>
-			<DefaultBuilding>BUILDING_SMALL_COFFEE_MILL</DefaultBuilding>
-		</Row>
-		<!--
-		<Row>
-			<Type>BUILDINGCLASS_MEDIUM_COFFEE_MILL</Type>
-			<Description>TXT_KEY_BUILDING_MEDIUM_COFFEE_MILL</Description>
-			<DefaultBuilding>BUILDING_MEDIUM_COFFEE_MILL</DefaultBuilding>
-		</Row>
-		<Row>
-			<Type>BUILDINGCLASS_LARGE_COFFEE_MILL</Type>
-			<Description>TXT_KEY_BUILDING_LARGE_COFFEE_MILL</Description>
-			<DefaultBuilding>BUILDING_LARGE_COFFEE_MILL</DefaultBuilding>
-		</Row>
-		<Row>
-			<Type>BUILDINGCLASS_HUGE_COFFEE_MILL</Type>
-			<Description>TXT_KEY_BUILDING_HUGE_COFFEE_MILL</Description>
-			<DefaultBuilding>BUILDING_HUGE_COFFEE_MILL</DefaultBuilding>
-		</Row>
--->
 		<Row>
 			<Type>BUILDINGCLASS_COFFEE_MONOPOLY</Type>
 			<Description>TXT_KEY_BUILDING_COFFEE_MONOPOLY</Description>
 			<DefaultBuilding>BUILDING_COFFEE_MONOPOLY</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
-
-		
-
-		<!-- Industrial Era -->
-
-		<!-- Modern Era -->
-
-		
-		<Row>
-			<Type>BUILDINGCLASS_SMALL_TITANIUM_SMELTER</Type>
-			<Description>TXT_KEY_BUILDING_SMALL_TITANIUM_SMELTER</Description>
-			<DefaultBuilding>BUILDING_SMALL_TITANIUM_SMELTER</DefaultBuilding>
-		</Row>
-		<!--
-		<Row>
-			<Type>BUILDINGCLASS_MEDIUM_TITANIUM_SMELTER</Type>
-			<Description>TXT_KEY_BUILDING_MEDIUM_TITANIUM_SMELTER</Description>
-			<DefaultBuilding>BUILDING_MEDIUM_TITANIUM_SMELTER</DefaultBuilding>
-		</Row>
-		<Row>
-			<Type>BUILDINGCLASS_LARGE_TITANIUM_SMELTER</Type>
-			<Description>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER</Description>
-			<DefaultBuilding>BUILDING_LARGE_TITANIUM_SMELTER</DefaultBuilding>
-		</Row>
-		<Row>
-			<Type>BUILDINGCLASS_HUGE_TITANIUM_SMELTER</Type>
-			<Description>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER</Description>
-			<DefaultBuilding>BUILDING_HUGE_TITANIUM_SMELTER</DefaultBuilding>
-		</Row>
--->
-		<!-- Monopoly -->
 		<Row>
 			<Type>BUILDINGCLASS_TITANIUM_MONOPOLY</Type>
 			<Description>TXT_KEY_BUILDING_TITANIUM_MONOPOLY</Description>
 			<DefaultBuilding>BUILDING_TITANIUM_MONOPOLY</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
-		
-		
-		
 	</BuildingClasses>
 
 

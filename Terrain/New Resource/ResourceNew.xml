@@ -105,8 +105,8 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_TITANIUM</Type>
-			<TechReveal>TECH_ADVANCED_FLIGHT</TechReveal>
-			<TechCityTrade>TECH_ADVANCED_FLIGHT</TechCityTrade>
+			<TechReveal>TECH_METALLURGY</TechReveal>
+			<TechCityTrade>TECH_METALLURGY</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_TITANIUM</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_TITANIUM_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_TITANIUM_HELP</Help>
@@ -134,7 +134,6 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_ALOE_VERA</Type>
-			<TechReveal>TECH_CALENDAR</TechReveal>
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_ALOE_VERA</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_ALOE_VERA_TEXT</Civilopedia>
@@ -177,8 +176,8 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_MANGANESE</Type>
-			<TechReveal>TECH_METALLURGY</TechReveal>
-			<TechCityTrade>TECH_METALLURGY</TechCityTrade>
+			<TechReveal>TECH_CHEMISTRY</TechReveal>
+			<TechCityTrade>TECH_CHEMISTRY</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_MANGANESE</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MANGANESE_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_MANGANESE_HELP</Help>
@@ -257,7 +256,7 @@
 			<RandApp1>20</RandApp1>
 			<RandApp2>20</RandApp2>
 			<IconString>[ICON_RES_AMBER]</IconString>
-			<PortraitIndex>3</PortraitIndex>
+			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 	</Resources>

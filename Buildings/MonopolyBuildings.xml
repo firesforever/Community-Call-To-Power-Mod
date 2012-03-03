@@ -4,17 +4,15 @@
 	
 	<Buildings>
 
-		<!-- Ancient Era -->
-
-
+		<!-- ANCIENT ERA (SMALL)-->
 		<Row>
 			<Type>BUILDING_SMALL_FISH_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_FISH_MARKET</BuildingClass>
-			<Cost>-1</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_FISH_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_FISH_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_FISH_MARKET_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_SMALL_FISH_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMALL_FISH_MARKET_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -25,11 +23,11 @@
 		<Row>
 			<Type>BUILDING_SMALL_CRAB_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_CRAB_MARKET</BuildingClass>
-			<Cost>-1</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_CRAB_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_CRAB_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_CRAB_MARKET_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_SMALL_CRAB_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMALL_CRAB_MARKET_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -40,11 +38,11 @@
 		<Row>
 			<Type>BUILDING_SMALL_WHEAT_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_WHEAT_MILL</BuildingClass>
-			<Cost>-1</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_WHEAT_MILL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_WHEAT_MILL_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_WHEAT_MILL_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_SMALL_WHEAT_MILL_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMALL_WHEAT_MILL_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -55,11 +53,11 @@
 		<Row>
 			<Type>BUILDING_SMALL_BANANA_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_BANANA_MARKET</BuildingClass>
-			<Cost>-1</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_BANANA_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_BANANA_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_BANANA_MARKET_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_SMALL_BANANA_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMALL_BANANA_MARKET_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -70,11 +68,11 @@
 		<Row>
 			<Type>BUILDING_SMALL_COPPER_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_COPPER_SMELTER</BuildingClass>
-			<Cost>-1</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -85,11 +83,11 @@
 		<Row>
 			<Type>BUILDING_SMALL_CATTLE_YARD</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_CATTLE_YARD</BuildingClass>
-			<Cost>-1</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_CATTLE_YARD</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_CATTLE_YARD_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_CATTLE_YARD_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_SMALL_CATTLE_YARD_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMALL_CATTLE_YARD_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -100,11 +98,11 @@
 		<Row>
 			<Type>BUILDING_SMALL_SHEEP_BUTCHER</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_SHEEP_BUTCHER</BuildingClass>
-			<Cost>-1</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -115,11 +113,11 @@
 		<Row>
 			<Type>BUILDING_SMALL_DEER_BUTCHER</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_DEER_BUTCHER</BuildingClass>
-			<Cost>-1</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_TANNING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -130,11 +128,12 @@
 		<Row>
 			<Type>BUILDING_SMALL_STONE_CUTTER</Type>
 			<BuildingClass>BUILDINGCLASS_SMALL_STONE_CUTTER</BuildingClass>
-			<Cost>-1</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMALL_STONE_CUTTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_STRATEGY</Strategy>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -142,32 +141,31 @@
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
 		</Row>
-
-<!--	
-
+				
+		<!--CLASSICAL ERA (MEDIUM)-->
 		<Row>
 			<Type>BUILDING_MEDIUM_FISH_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_FISH_MARKET</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>250</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb
+			<ConquestProb>100</ConquestProb>
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
 			<Type>BUILDING_MEDIUM_CRAB_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_CRAB_MARKET</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>250</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MEDIUM_CRAB_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_CRAB_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MEDIUM_CRAB_MARKET_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_CRAB_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_CRAB_MARKET_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -178,11 +176,11 @@
 		<Row>
 			<Type>BUILDING_MEDIUM_WHEAT_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_WHEAT_MILL</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>250</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MEDIUM_WHEAT_MILL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_WHEAT_MILL_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MEDIUM_WHEAT_MILL_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_WHEAT_MILL_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_WHEAT_MILL_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -193,11 +191,11 @@
 		<Row>
 			<Type>BUILDING_MEDIUM_BANANA_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_BANANA_MARKET</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>250</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MEDIUM_BANANA_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_BANANA_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MEDIUM_BANANA_MARKET_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_BANANA_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_BANANA_MARKET_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -208,11 +206,11 @@
 		<Row>
 			<Type>BUILDING_MEDIUM_COPPER_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_COPPER_SMELTER</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>250</Cost>
 			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MEDIUM_COPPER_SMELTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_COPPER_SMELTER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MEDIUM_COPPER_SMELTER_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_COPPER_SMELTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_COPPER_SMELTER_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -223,11 +221,11 @@
 		<Row>
 			<Type>BUILDING_MEDIUM_CATTLE_YARD</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_CATTLE_YARD</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>250</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MEDIUM_CATTLE_YARD</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_CATTLE_YARD_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MEDIUM_CATTLE_YARD_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_CATTLE_YARD_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_CATTLE_YARD_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -238,11 +236,11 @@
 		<Row>
 			<Type>BUILDING_MEDIUM_SHEEP_BUTCHER</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_SHEEP_BUTCHER</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>250</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MEDIUM_SHEEP_BUTCHER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_SHEEP_BUTCHER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MEDIUM_SHEEP_BUTCHER_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_SHEEP_BUTCHER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_SHEEP_BUTCHER_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -253,11 +251,11 @@
 		<Row>
 			<Type>BUILDING_MEDIUM_DEER_BUTCHER</Type>
 			<BuildingClass>BUILDINGCLASS_MEDIUM_DEER_BUTCHER</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>250</Cost>
 			<PrereqTech>TECH_TANNING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -265,18 +263,111 @@
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
-
+		<Row>
+			<Type>BUILDING_MEDIUM_STONE_CUTTER</Type>
+			<BuildingClass>BUILDINGCLASS_MEDIUM_STONE_CUTTER</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MEDIUM_STONE_CUTTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_STONE_CUTTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_STONE_CUTTER_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_MEDIUM_STONE_CUTTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_MEDIUM_JADE_CUTTER</Type>
+			<BuildingClass>BUILDINGCLASS_MEDIUM_JADE_CUTTER</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MEDIUM_JADE_CUTTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_JADE_CUTTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_JADE_CUTTER_HELP</Help>
+			<Strategy>TXT_KEY_MEDIUM_JADE_CUTTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_MEDIUM_ALOE_VERA_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_MEDIUM_ALOE_VERA_CENTER</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MEDIUM_ALOE_VERA_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_ALOE_VERA_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_ALOE_VERA_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_MEDIUM_ALOE_VERA_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_MEDIUM_OAK_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_MEDIUM_OAK_CENTER</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MEDIUM_OAK_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_OAK_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_OAK_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_MEDIUM_OAK_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_MEDIUM_AMBER_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_MEDIUM_AMBER_CENTER</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_IRON_TRADE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MEDIUM_AMBER_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_AMBER_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_AMBER_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_MEDIUM_AMBER_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_MEDIUM_POPPY_REFINERY</Type>
+			<BuildingClass>BUILDINGCLASS_MEDIUM_POPPY_REFINERY</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
 		
-		
-
+		<!--MEDIEVAL ERA (LARGE)-->
 		<Row>
 			<Type>BUILDING_LARGE_FISH_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_LARGE_FISH_MARKET</BuildingClass>
-			<Cost>380</Cost>
+			<Cost>450</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_LARGE_FISH_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_LARGE_FISH_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_LARGE_FISH_MARKET_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_FISH_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_FISH_MARKET_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -287,11 +378,11 @@
 		<Row>
 			<Type>BUILDING_LARGE_CRAB_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_LARGE_CRAB_MARKET</BuildingClass>
-			<Cost>380</Cost>
+			<Cost>450</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_LARGE_CRAB_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_LARGE_CRAB_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_LARGE_CRAB_MARKET_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_CRAB_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_CRAB_MARKET_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -302,11 +393,11 @@
 		<Row>
 			<Type>BUILDING_LARGE_WHEAT_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_LARGE_WHEAT_MILL</BuildingClass>
-			<Cost>380</Cost>
+			<Cost>450</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_LARGE_WHEAT_MILL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_LARGE_WHEAT_MILL_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_LARGE_WHEAT_MILL_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_WHEAT_MILL_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_WHEAT_MILL_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -317,11 +408,11 @@
 		<Row>
 			<Type>BUILDING_LARGE_BANANA_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_LARGE_BANANA_MARKET</BuildingClass>
-			<Cost>380</Cost>
+			<Cost>450</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_LARGE_BANANA_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_LARGE_BANANA_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_LARGE_BANANA_MARKET_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_BANANA_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_BANANA_MARKET_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -332,11 +423,11 @@
 		<Row>
 			<Type>BUILDING_LARGE_COPPER_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_LARGE_COPPER_SMELTER</BuildingClass>
-			<Cost>380</Cost>
+			<Cost>450</Cost>
 			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_LARGE_COPPER_SMELTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_LARGE_COPPER_SMELTER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_LARGE_COPPER_SMELTER_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_COPPER_SMELTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_COPPER_SMELTER_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -347,11 +438,11 @@
 		<Row>
 			<Type>BUILDING_LARGE_CATTLE_YARD</Type>
 			<BuildingClass>BUILDINGCLASS_LARGE_CATTLE_YARD</BuildingClass>
-			<Cost>380</Cost>
+			<Cost>450</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_LARGE_CATTLE_YARD</Description>
-			<Civilopedia>TXT_KEY_BUILDING_LARGE_CATTLE_YARD_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_LARGE_CATTLE_YARD_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_CATTLE_YARD_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_CATTLE_YARD_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -362,11 +453,11 @@
 		<Row>
 			<Type>BUILDING_LARGE_SHEEP_BUTCHER</Type>
 			<BuildingClass>BUILDINGCLASS_LARGE_SHEEP_BUTCHER</BuildingClass>
-			<Cost>380</Cost>
+			<Cost>450</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_LARGE_SHEEP_BUTCHER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_LARGE_SHEEP_BUTCHER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_LARGE_SHEEP_BUTCHER_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_SHEEP_BUTCHER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_SHEEP_BUTCHER_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -377,11 +468,11 @@
 		<Row>
 			<Type>BUILDING_LARGE_DEER_BUTCHER</Type>
 			<BuildingClass>BUILDINGCLASS_LARGE_DEER_BUTCHER</BuildingClass>
-			<Cost>380</Cost>
+			<Cost>450</Cost>
 			<PrereqTech>TECH_TANNING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -389,18 +480,173 @@
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
-
-
-
-
+		<Row>
+			<Type>BUILDING_LARGE_STONE_CUTTER</Type>
+			<BuildingClass>BUILDINGCLASS_LARGE_STONE_CUTTER</BuildingClass>
+			<Cost>450</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LARGE_STONE_CUTTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_STONE_CUTTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_STONE_CUTTER_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_LARGE_STONE_CUTTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_LARGE_JADE_CUTTER</Type>
+			<BuildingClass>BUILDINGCLASS_LARGE_JADE_CUTTER</BuildingClass>
+			<Cost>450</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LARGE_JADE_CUTTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_JADE_CUTTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_JADE_CUTTER_HELP</Help>
+			<Strategy>TXT_KEY_LARGE_JADE_CUTTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_LARGE_ALOE_VERA_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_LARGE_ALOE_VERA_CENTER</BuildingClass>
+			<Cost>450</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LARGE_ALOE_VERA_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_ALOE_VERA_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_ALOE_VERA_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_LARGE_ALOE_VERA_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_LARGE_OAK_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_LARGE_OAK_CENTER</BuildingClass>
+			<Cost>450</Cost>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LARGE_OAK_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_OAK_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_OAK_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_LARGE_OAK_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_LARGE_AMBER_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_LARGE_AMBER_CENTER</BuildingClass>
+			<Cost>450</Cost>
+			<PrereqTech>TECH_IRON_TRADE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LARGE_AMBER_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_AMBER_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_AMBER_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_LARGE_AMBER_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_LARGE_SQUID_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_LARGE_SQUID_CENTER</BuildingClass>
+			<Cost>450</Cost>
+			<PrereqTech>TECH_BONDS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LARGE_SQUID_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_SQUID_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_SQUID_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_LARGE_SQUID_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_LARGE_MANGANESE_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_LARGE_MANGANESE_CENTER</BuildingClass>
+			<Cost>450</Cost>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LARGE_MANGANESE_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_MANGANESE_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_MANGANESE_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_LARGE_MANGANESE_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_LARGE_POPPY_REFINERY</Type>
+			<BuildingClass>BUILDINGCLASS_LARGE_POPPY_REFINERY</BuildingClass>
+			<Cost>450</Cost>
+			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_LARGE_COFFEE_MILL</Type>
+			<BuildingClass>BUILDINGCLASS_LARGE_COFFEE_MILL</BuildingClass>
+			<Cost>450</Cost>
+			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LARGE_COFFEE_MILL</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_COFFEE_MILL_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_COFFEE_MILL_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_LARGE_TITANIUM_SMELTER</Type>
+			<BuildingClass>BUILDINGCLASS_LARGE_TITANIUM_SMELTER</BuildingClass>
+			<Cost>450</Cost>
+			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		
+		<!--RENAISSANCE ERA (HUGE)-->
 		<Row>
 			<Type>BUILDING_HUGE_FISH_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_HUGE_FISH_MARKET</BuildingClass>
-			<Cost>540</Cost>
+			<Cost>675</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HUGE_FISH_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HUGE_FISH_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_HUGE_FISH_MARKET_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_FISH_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_FISH_MARKET_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -411,11 +657,11 @@
 		<Row>
 			<Type>BUILDING_HUGE_CRAB_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_HUGE_CRAB_MARKET</BuildingClass>
-			<Cost>540</Cost>
+			<Cost>675</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HUGE_CRAB_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HUGE_CRAB_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_HUGE_CRAB_MARKET_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_CRAB_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_CRAB_MARKET_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -426,11 +672,11 @@
 		<Row>
 			<Type>BUILDING_HUGE_WHEAT_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_HUGE_WHEAT_MILL</BuildingClass>
-			<Cost>540</Cost>
+			<Cost>675</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HUGE_WHEAT_MILL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HUGE_WHEAT_MILL_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_HUGE_WHEAT_MILL_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_WHEAT_MILL_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_WHEAT_MILL_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -441,11 +687,11 @@
 		<Row>
 			<Type>BUILDING_HUGE_BANANA_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_HUGE_BANANA_MARKET</BuildingClass>
-			<Cost>540</Cost>
+			<Cost>675</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HUGE_BANANA_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HUGE_BANANA_MARKET_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_HUGE_BANANA_MARKET_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_BANANA_MARKET_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_BANANA_MARKET_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -456,11 +702,11 @@
 		<Row>
 			<Type>BUILDING_HUGE_COPPER_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_HUGE_COPPER_SMELTER</BuildingClass>
-			<Cost>540</Cost>
+			<Cost>675</Cost>
 			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HUGE_COPPER_SMELTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HUGE_COPPER_SMELTER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_HUGE_COPPER_SMELTER_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_COPPER_SMELTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_COPPER_SMELTER_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -471,11 +717,11 @@
 		<Row>
 			<Type>BUILDING_HUGE_CATTLE_YARD</Type>
 			<BuildingClass>BUILDINGCLASS_HUGE_CATTLE_YARD</BuildingClass>
-			<Cost>540</Cost>
+			<Cost>675</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HUGE_CATTLE_YARD</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HUGE_CATTLE_YARD_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_HUGE_CATTLE_YARD_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_CATTLE_YARD_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_CATTLE_YARD_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -486,11 +732,11 @@
 		<Row>
 			<Type>BUILDING_HUGE_SHEEP_BUTCHER</Type>
 			<BuildingClass>BUILDINGCLASS_HUGE_SHEEP_BUTCHER</BuildingClass>
-			<Cost>540</Cost>
+			<Cost>675</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HUGE_SHEEP_BUTCHER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HUGE_SHEEP_BUTCHER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_HUGE_SHEEP_BUTCHER_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_SHEEP_BUTCHER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_SHEEP_BUTCHER_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -501,11 +747,11 @@
 		<Row>
 			<Type>BUILDING_HUGE_DEER_BUTCHER</Type>
 			<BuildingClass>BUILDINGCLASS_HUGE_DEER_BUTCHER</BuildingClass>
-			<Cost>540</Cost>
+			<Cost>675</Cost>
 			<PrereqTech>TECH_TANNING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -513,22 +759,175 @@
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
+		<Row>
+			<Type>BUILDING_HUGE_STONE_CUTTER</Type>
+			<BuildingClass>BUILDINGCLASS_HUGE_STONE_CUTTER</BuildingClass>
+			<Cost>675</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HUGE_STONE_CUTTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_STONE_CUTTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_STONE_CUTTER_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_HUGE_STONE_CUTTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_HUGE_JADE_CUTTER</Type>
+			<BuildingClass>BUILDINGCLASS_HUGE_JADE_CUTTER</BuildingClass>
+			<Cost>675</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HUGE_JADE_CUTTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_JADE_CUTTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_JADE_CUTTER_HELP</Help>
+			<Strategy>TXT_KEY_HUGE_JADE_CUTTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_HUGE_ALOE_VERA_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_HUGE_ALOE_VERA_CENTER</BuildingClass>
+			<Cost>675</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HUGE_ALOE_VERA_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_ALOE_VERA_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_ALOE_VERA_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_HUGE_ALOE_VERA_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_HUGE_OAK_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_HUGE_OAK_CENTER</BuildingClass>
+			<Cost>675</Cost>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HUGE_OAK_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_OAK_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_OAK_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_HUGE_OAK_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_HUGE_AMBER_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_HUGE_AMBER_CENTER</BuildingClass>
+			<Cost>675</Cost>
+			<PrereqTech>TECH_IRON_TRADE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HUGE_AMBER_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_AMBER_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_AMBER_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_HUGE_AMBER_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_HUGE_SQUID_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_HUGE_SQUID_CENTER</BuildingClass>
+			<Cost>675</Cost>
+			<PrereqTech>TECH_BONDS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HUGE_SQUID_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_SQUID_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_SQUID_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_HUGE_SQUID_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_HUGE_MANGANESE_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_HUGE_MANGANESE_CENTER</BuildingClass>
+			<Cost>675</Cost>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HUGE_MANGANESE_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_MANGANESE_CENTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_MANGANESE_CENTER_HELP</Help>
+			<Strategy>TXT_KEY_HUGE_MANGANESE_CENTER_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_HUGE_POPPY_REFINERY</Type>
+			<BuildingClass>BUILDINGCLASS_HUGE_POPPY_REFINERY</BuildingClass>
+			<Cost>675</Cost>
+			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_HUGE_COFFEE_MILL</Type>
+			<BuildingClass>BUILDINGCLASS_HUGE_COFFEE_MILL</BuildingClass>
+			<Cost>675</Cost>
+			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HUGE_COFFEE_MILL</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_COFFEE_MILL_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_COFFEE_MILL_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_HUGE_TITANIUM_SMELTER</Type>
+			<BuildingClass>BUILDINGCLASS_HUGE_TITANIUM_SMELTER</BuildingClass>
+			<Cost>675</Cost>
+			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
 		
-
--->
 		<!-- Monopoly -->
 		<Row>
 			<Type>BUILDING_FISH_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_FISH_MARKET</FreeBuilding>
+			<Cost>1600</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FISH_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_FISH_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_FISH_MONOPOLY_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_FISH_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_FISH_MONOPOLY_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -538,15 +937,13 @@
 		<Row>
 			<Type>BUILDING_CRAB_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_CRAB_MARKET</FreeBuilding>
+			<Cost>1600</Cost>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CRAB_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CRAB_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_CRAB_MONOPOLY_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_CRAB_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_CRAB_MONOPOLY_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -556,15 +953,13 @@
 		<Row>
 			<Type>BUILDING_WHEAT_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_WHEAT_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_WHEAT_MILL</FreeBuilding>
+			<Cost>1600</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WHEAT_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_WHEAT_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_WHEAT_MONOPOLY_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_WHEAT_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_WHEAT_MONOPOLY_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -574,15 +969,13 @@
 		<Row>
 			<Type>BUILDING_BANANA_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_BANANA_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_BANANA_MARKET</FreeBuilding>
+			<Cost>1600</Cost>
 			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BANANA_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_BANANA_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_BANANA_MONOPOLY_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_BANANA_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_BANANA_MONOPOLY_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -592,15 +985,13 @@
 		<Row>
 			<Type>BUILDING_COPPER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_COPPER_SMELTER</FreeBuilding>
+			<Cost>1600</Cost>
 			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COPPER_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_COPPER_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_COPPER_MONOPOLY_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_COPPER_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_COPPER_MONOPOLY_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -610,15 +1001,13 @@
 		<Row>
 			<Type>BUILDING_CATTLE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_CATTLE_YARD</FreeBuilding>
+			<Cost>1600</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CATTLE_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_CATTLE_MONOPOLY_STRATEGY</Help>		
+			<Civilopedia>TXT_KEY_BUILDING_CATTLE_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_CATTLE_MONOPOLY_HELP</Help>		
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -628,15 +1017,13 @@
 		<Row>
 			<Type>BUILDING_SHEEP_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_SHEEP_BUTCHER</FreeBuilding>
+			<Cost>1600</Cost>
 			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SHEEP_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SHEEP_MONOPOLY_STRATEGY</Help>		
+			<Civilopedia>TXT_KEY_BUILDING_SHEEP_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SHEEP_MONOPOLY_HELP</Help>		
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -646,15 +1033,13 @@
 		<Row>
 			<Type>BUILDING_DEER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_DEER_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_DEER_BUTCHER</FreeBuilding>
+			<Cost>1600</Cost>
 			<PrereqTech>TECH_TANNING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_DEER_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_DEER_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_DEER_MONOPOLY_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_DEER_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_DEER_MONOPOLY_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -664,444 +1049,732 @@
 		<Row>
 			<Type>BUILDING_STONE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_STONE_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_STONE_CUTTER</FreeBuilding>
+			<Cost>1600</Cost>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STONE_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_STONE_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_STONE_MONOPOLY_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_STONE_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_STONE_MONOPOLY_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
 		</Row>
-
-
-
-		<!-- Classical Era -->
-
 		<Row>
-			<Type>BUILDING_SMALL_POPPY_REFINERY</Type>
-			<BuildingClass>BUILDINGCLASS_SMALL_POPPY_REFINERY</BuildingClass>
-			<Cost>-1</Cost>
-			<PrereqTech>TECH_DRUGS</PrereqTech>
-			<Description>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY_STRATEGY</Help>
+			<Type>BUILDING_JADE_MONOPOLY</Type>
+			<BuildingClass>BUILDINGCLASS_JADE_MONOPOLY</BuildingClass>
+			<Cost>1600</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_JADE_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_JADE_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_JADE_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_JADE_MONOPOLY_STRATEGY</Strategy>
 			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>6</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-		</Row>
-<!--
-		<Row>
-			<Type>BUILDING_MEDIUM_POPPY_REFINERY</Type>
-			<BuildingClass>BUILDINGCLASS_MEDIUM_POPPY_REFINERY</BuildingClass>
-			<Cost>1800</Cost>
-			<PrereqTech>TECH_DRUGS</PrereqTech>
-			<Description>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY_STRATEGY</Help>			
-			<NukeImmune>true</NukeImmune>
-			<Happiness>2</Happiness>
-			<HurryCostModifier>50</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>6</PortraitIndex>
+			<PortraitIndex>10</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_LARGE_POPPY_REFINERY</Type>
-			<BuildingClass>BUILDINGCLASS_LARGE_POPPY_REFINERY</BuildingClass>
-			<Cost>1400</Cost>
-			<PrereqTech>TECH_DRUGS</PrereqTech>
-			<Description>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY_STRATEGY</Help>			
+			<Type>BUILDING_ALOE_VERA_MONOPOLY</Type>
+			<BuildingClass>BUILDINGCLASS_ALOE_VERA_MONOPOLY</BuildingClass>
+			<Cost>1600</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_ALOE_VERA_MONOPOLY_STRATEGY</Strategy>
 			<NukeImmune>true</NukeImmune>
-			<Happiness>2</Happiness>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>6</PortraitIndex>
+			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_HUGE_POPPY_REFINERY</Type>
-			<BuildingClass>BUILDINGCLASS_HUGE_POPPY_REFINERY</BuildingClass>
-			<Cost>1900</Cost>
-			<PrereqTech>TECH_DRUGS</PrereqTech>
-			<Description>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY_STRATEGY</Help>			
+			<Type>BUILDING_OAK_MONOPOLY</Type>
+			<BuildingClass>BUILDINGCLASS_OAK_MONOPOLY</BuildingClass>
+			<Cost>1600</Cost>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_OAK_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_OAK_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_OAK_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_OAK_MONOPOLY_STRATEGY</Strategy>
 			<NukeImmune>true</NukeImmune>
-			<Happiness>2</Happiness>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>6</PortraitIndex>
+			<PortraitIndex>7</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
--->
+		<Row>
+			<Type>BUILDING_AMBER_MONOPOLY</Type>
+			<BuildingClass>BUILDINGCLASS_AMBER_MONOPOLY</BuildingClass>
+			<Cost>1600</Cost>
+			<PrereqTech>TECH_IRON_TRADE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_AMBER_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_AMBER_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_AMBER_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_AMBER_MONOPOLY_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_SQUID_MONOPOLY</Type>
+			<BuildingClass>BUILDINGCLASS_SQUID_MONOPOLY</BuildingClass>
+			<Cost>1600</Cost>
+			<PrereqTech>TECH_BONDS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SQUID_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SQUID_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SQUID_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_SQUID_MONOPOLY_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_MANGANESE_MONOPOLY</Type>
+			<BuildingClass>BUILDINGCLASS_MANGANESE_MONOPOLY</BuildingClass>
+			<Cost>1600</Cost>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MANGANESE_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MANGANESE_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MANGANESE_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_MANGANESE_MONOPOLY_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
 		<Row>
 			<Type>BUILDING_POPPY_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_POPPY_REFINERY</FreeBuilding>
+			<Cost>1600</Cost>
 			<PrereqTech>TECH_DRUGS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_POPPY_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_POPPY_MONOPOLY_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_POPPY_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_POPPY_MONOPOLY_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
-
-		<!-- Medieval Era -->
-
-
-
-		<Row>
-			<Type>BUILDING_SMALL_COFFEE_MILL</Type>
-			<BuildingClass>BUILDINGCLASS_SMALL_COFFEE_MILL</BuildingClass>
-			<Cost>-1</Cost>
-			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
-			<Description>TXT_KEY_BUILDING_SMALL_COFFEE_MILL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_COFFEE_MILL_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_COFFEE_MILL_STRATEGY</Help>			
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>50</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>1</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-		</Row>
-<!--
-		<Row>
-			<Type>BUILDING_MEDIUM_COFFEE_MILL</Type>
-			<BuildingClass>BUILDINGCLASS_MEDIUM_COFFEE_MILL</BuildingClass>
-			<Cost>240</Cost>
-			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
-			<Description>TXT_KEY_BUILDING_MEDIUM_COFFEE_MILL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_COFFEE_MILL_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MEDIUM_COFFEE_MILL_STRATEGY</Help>			
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>50</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>1</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-		</Row>
-
-		<Row>
-			<Type>BUILDING_LARGE_COFFEE_MILL</Type>
-			<BuildingClass>BUILDINGCLASS_LARGE_COFFEE_MILL</BuildingClass>
-			<Cost>360</Cost>
-			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
-			<Description>TXT_KEY_BUILDING_LARGE_COFFEE_MILL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_LARGE_COFFEE_MILL_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_LARGE_COFFEE_MILL_STRATEGY</Help>			
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>50</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>1</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-		</Row>
-
-		<Row>
-			<Type>BUILDING_HUGE_COFFEE_MILL</Type>
-			<BuildingClass>BUILDINGCLASS_HUGE_COFFEE_MILL</BuildingClass>
-			<Cost>520</Cost>
-			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
-			<Description>TXT_KEY_BUILDING_HUGE_COFFEE_MILL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HUGE_COFFEE_MILL_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_HUGE_COFFEE_MILL_STRATEGY</Help>			
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>50</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>1</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-		</Row>
--->
-		<!-- Monopoly -->
 		<Row>
 			<Type>BUILDING_COFFEE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_COFFEE_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_COFFEE_MILL</FreeBuilding>
+			<Cost>1600</Cost>>
 			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COFFEE_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_COFFEE_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_COFFEE_MONOPOLY_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_COFFEE_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_COFFEE_MONOPOLY_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
-
-
-
-		<!-- Industrial Era -->
-
-		
-
-
-		<!-- Modern Era -->
-
-
-		<Row>
-			<Type>BUILDING_SMALL_TITANIUM_SMELTER</Type>
-			<BuildingClass>BUILDINGCLASS_SMALL_TITANIUM_SMELTER</BuildingClass>
-			<Cost>-1</Cost>
-			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
-			<Description>TXT_KEY_BUILDING_SMALL_TITANIUM_SMELTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SMALL_TITANIUM_SMELTER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SMALL_TITANIUM_SMELTER_STRATEGY</Help>			
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>50</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>11</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-		</Row>
-<!--
-		<Row>
-			<Type>BUILDING_MEDIUM_TITANIUM_SMELTER</Type>
-			<BuildingClass>BUILDINGCLASS_MEDIUM_TITANIUM_SMELTER</BuildingClass>
-			<Cost>1600</Cost>
-			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
-			<Description>TXT_KEY_BUILDING_MEDIUM_TITANIUM_SMELTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MEDIUM_TITANIUM_SMELTER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MEDIUM_TITANIUM_SMELTER_STRATEGY</Help>			
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>50</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>11</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-		</Row>
-
-		<Row>
-			<Type>BUILDING_LARGE_TITANIUM_SMELTER</Type>
-			<BuildingClass>BUILDINGCLASS_LARGE_TITANIUM_SMELTER</BuildingClass>
-			<Cost>1700</Cost>
-			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
-			<Description>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER_STRATEGY</Help>			
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>50</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>11</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-		</Row>
-
-		<Row>
-			<Type>BUILDING_HUGE_TITANIUM_SMELTER</Type>
-			<BuildingClass>BUILDINGCLASS_HUGE_TITANIUM_SMELTER</BuildingClass>
-			<Cost>2400</Cost>
-			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
-			<Description>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER_STRATEGY</Help>			
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>50</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>11</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-		</Row>
--->
-		<!-- Monopoly -->
 		<Row>
 			<Type>BUILDING_TITANIUM_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_TITANIUM_MONOPOLY</BuildingClass>
-			<Cost>1350</Cost>
-			<FreeBuilding>BUILDINGCLASS_SMALL_TITANIUM_SMELTER</FreeBuilding>
+			<Cost>1600</Cost>
 			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TITANIUM_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_STRATEGY</Help>			
+			<Civilopedia>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
-			<GoldenAge>true</GoldenAge>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
-		
 	</Buildings>
+	
 	<Building_ResourceYieldChanges>
-		<Row>
-			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
-			<ResourceType>RESOURCE_FISH</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
-			<ResourceType>RESOURCE_FISH</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_CRAB_MARKET</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_CRAB_MARKET</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_WHEAT_MILL</BuildingType>
-			<ResourceType>RESOURCE_WHEAT</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_WHEAT_MILL</BuildingType>
-			<ResourceType>RESOURCE_WHEAT</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_BANANA_MARKET</BuildingType>
-			<ResourceType>RESOURCE_BANANA</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_BANANA_MARKET</BuildingType>
-			<ResourceType>RESOURCE_BANANA</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_COPPER_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_COPPER_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
+		
+	<!--ANCIENT ERA-->
 		<Row>
 			<BuildingType>BUILDING_SMALL_CATTLE_YARD</BuildingType>
 			<ResourceType>RESOURCE_COW</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_CATTLE_YARD</BuildingType>
-			<ResourceType>RESOURCE_COW</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SMALL_SHEEP_BUTCHER</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+	<!--CLASSICAL ERA-->
+
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_WHEAT_MILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SMALL_SHEEP_BUTCHER</BuildingType>
+			<BuildingType>BUILDING_MEDIUM_OAK_CENTER</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_CATTLE_YARD</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_SHEEP_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_JADE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_JADE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_DEER_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_DEER_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_BANANA_MARKET</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_BANANA_MARKET</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_COPPER_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_COPPER_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_ALOE_VERA_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+		<!--MEDIEVAL ERA-->
+		<Row>
+			<BuildingType>BUILDING_LARGE_WHEAT_MILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_WHEAT_MILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_OAK_CENTER</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_OAK_CENTER</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_CRAB_MARKET</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_COFFEE_MILL</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_COFFEE_MILL</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_CATTLE_YARD</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_CATTLE_YARD</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SHEEP_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SHEEP_BUTCHER</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
-			<ResourceType>RESOURCE_DEER</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
-			<ResourceType>RESOURCE_DEER</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_STONE_CUTTER</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
+			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SMALL_STONE_CUTTER</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
+			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
+			<BuildingType>BUILDING_LARGE_JADE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_DEER_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_DEER_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_BANANA_MARKET</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_BANANA_MARKET</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SQUID_CENTER</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SQUID_CENTER</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_POPPY</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
+			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_POPPY</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
+			<BuildingType>BUILDING_LARGE_MANGANESE_CENTER</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_MANGANESE_CENTER</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_COPPER_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_COPPER_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_ALOE_VERA_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+		<!--RENAISSANCE ERA-->
+		<Row>
+			<BuildingType>BUILDING_HUGE_WHEAT_MILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_WHEAT_MILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_OAK_CENTER</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_OAK_CENTER</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_CRAB_MARKET</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_CRAB_MARKET</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_COFFEE_MILL</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
+			<BuildingType>BUILDING_HUGE_COFFEE_MILL</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<BuildingType>BUILDING_HUGE_CATTLE_YARD</BuildingType>
+			<ResourceType>RESOURCE_CATTLE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_CATTLE_YARD</BuildingType>
+			<ResourceType>RESOURCE_CATTLE</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
+			<BuildingType>BUILDING_HUGE_SHEEP_YARD</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SHEEP_YARD</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_JADE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_JADE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_BANANA_MARKET</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_BANANA_MARKET</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_MANGANESE_CENTER</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_MANGANESE_CENTER</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_COPPER_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_COPPER_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
 	</Building_ResourceYieldChanges>
+	
 	<Building_LocalResourceAnds>
 
 		<!-- Ancient Era -->
-
-<!--
 		<Row>
 			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -1134,8 +1807,12 @@
 			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
 
-
+		<!--CLASSICAL ERA-->
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -1168,9 +1845,32 @@
 			<BuildingType>BUILDING_MEDIUM_DEER_BUTCHER</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_JADE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_OAK_CENTER</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_ALOE_VERA_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+		</Row>
 
-
-
+		<!--MEDIEAVAL ERA-->
 		<Row>
 			<BuildingType>BUILDING_LARGE_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -1203,8 +1903,48 @@
 			<BuildingType>BUILDING_LARGE_DEER_BUTCHER</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_JADE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_OAK_CENTER</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_ALOE_VERA_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SQUID_CENTER</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_MANGANESE_CENTER</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_COFFEE_MILL</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+		</Row>
 
-
+		<!--RENNAISANCE ERA-->
 		<Row>
 			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -1237,8 +1977,48 @@
 			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 		</Row>
--->
-		<!-- Monopoly -->
+		<Row>
+			<BuildingType>BUILDING_HUGE_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_JADE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_OAK_CENTER</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_MANGANESE_CENTER</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_COFFEE_MILL</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+		</Row>
+		
+		<!-- MODERN ERA -->
 		<Row>
 			<BuildingType>BUILDING_FISH_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -1275,180 +2055,51 @@
 			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
 		</Row>
-
-		<!-- Classical Era -->
 		<Row>
-			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<BuildingType>BUILDING_JADE_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<BuildingType>BUILDING_OAK_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<BuildingType>BUILDING_ALOE_VERA_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MANGANESE_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_POPPY</ResourceType>
 		</Row>
-
-		<!-- Medieval Era -->
-
-		<Row>
-			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_COFFEE_MILL</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_LARGE_COFFEE_MILL</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_COFFEE_MILL</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 		</Row>
-
-		
-		
-		<!-- Industrial Era -->
-
-		
-
-
-		<!-- Industrial Era -->
-
-		<!-- Small -->
-		<Row>
-			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-		</Row>
-		<!-- Medium -->
-
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_TITANIUM_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-		</Row>
-		<!-- Large -->
-		<Row>
-			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-		</Row>
-		<!-- Huge -->
-		<Row>
-			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-		</Row>
-		<!-- Monopoly -->
 		<Row>
 			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 		</Row>
-		
 	</Building_LocalResourceAnds>
 
 	<Building_ResourceQuantityRequirements>
 
-		<!-- Ancient Era -->
-
-<!-- 		
-		<Row>
-			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
-			<ResourceType>RESOURCE_FISH</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_CRAB_MARKET</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_WHEAT_MILL</BuildingType>
-			<ResourceType>RESOURCE_WHEAT</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_BANANA_MARKET</BuildingType>
-			<ResourceType>RESOURCE_BANANA</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_COPPER_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_CATTLE_YARD</BuildingType>
-			<ResourceType>RESOURCE_COW</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_SHEEP_BUTCHER</BuildingType>
-			<ResourceType>RESOURCE_SHEEP</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
-			<ResourceType>RESOURCE_DEER</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-
-
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
-			<ResourceType>RESOURCE_FISH</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_CRAB_MARKET</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_WHEAT_MILL</BuildingType>
-			<ResourceType>RESOURCE_WHEAT</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_BANANA_MARKET</BuildingType>
-			<ResourceType>RESOURCE_BANANA</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_COPPER_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_CATTLE_YARD</BuildingType>
-			<ResourceType>RESOURCE_COW</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_SHEEP_BUTCHER</BuildingType>
-			<ResourceType>RESOURCE_SHEEP</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_DEER_BUTCHER</BuildingType>
-			<ResourceType>RESOURCE_DEER</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-
-
-
+		<!-- MEDIEVAL ERA -->
 		<Row>
 			<BuildingType>BUILDING_LARGE_FISH_MARKET</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -1489,110 +2140,39 @@
 			<ResourceType>RESOURCE_DEER</ResourceType>
 			<Cost>1</Cost>
 		</Row>
-
-
-
 		<Row>
-			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
-			<ResourceType>RESOURCE_FISH</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_CRAB_MARKET</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_WHEAT_MILL</BuildingType>
-			<ResourceType>RESOURCE_WHEAT</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_BANANA_MARKET</BuildingType>
-			<ResourceType>RESOURCE_BANANA</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_COPPER_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_CATTLE_YARD</BuildingType>
-			<ResourceType>RESOURCE_COW</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_SHEEP_BUTCHER</BuildingType>
-			<ResourceType>RESOURCE_SHEEP</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
-			<ResourceType>RESOURCE_DEER</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-
-
--->
-		<!-- Monopoly -->
-		<Row>
-			<BuildingType>BUILDING_FISH_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_FISH</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_WHEAT_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_WHEAT</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BANANA_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_BANANA</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CATTLE_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_COW</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SHEEP_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_SHEEP</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_DEER_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_DEER</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
+			<BuildingType>BUILDING_LARGE_STONE_CUTTER</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-
-		<!-- Classical Era -->
-
-<!--
-		<Row>
-			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<BuildingType>BUILDING_LARGE_JADE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_OAK_CENTER</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_ALOE_VERA_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SQUID_CENTER</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_MANGANESE_CENTER</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 		<Row>
@@ -1601,92 +2181,110 @@
 			<Cost>1</Cost>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
-			<Cost>1</Cost>
-		</Row>
--->
-		<Row>
-			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_POPPY</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-
-		<!-- Medieval Era -->
-<!--
-		<Row>
-			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_COFFEE_MILL</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_LARGE_COFFEE_MILL</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<Cost>1</Cost>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_COFFEE_MILL</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<Cost>1</Cost>
-		</Row>
--->
-		<Row>
-			<BuildingType>BUILDING_COFFEE_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-
-
-
-		<!-- Industrial Era -->
-
-
-		<!-- Modern Era -->
-
-<!--
-		<Row>
-			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_TITANIUM_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-
 		<Row>
 			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 
+		<!--RENAISSANCE ERA-->
+		<Row>
+			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_CRAB_MARKET</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_WHEAT_MILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_BANANA_MARKET</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_COPPER_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_CATTLE_YARD</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SHEEP_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_JADE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_OAK_CENTER</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_MANGANESE_CENTER</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_COFFEE_MILL</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<Cost>3</Cost>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-			<Cost>1</Cost>
+			<Cost>3</Cost>
 		</Row>
--->
-		
-		<Row>
-			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
-			<Cost>12</Cost>
-		</Row>
-		
 	</Building_ResourceQuantityRequirements>
 
-	<!--Building Classes Needing In City-->
-	<!--
 	<Building_ClassesNeededInCity>
-		
-		
-
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SMALL_FISH_MARKET</BuildingClassType>
@@ -1703,6 +2301,7 @@
 			<BuildingType>BUILDING_FISH_MONOPOLY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HUGE_FISH_MARKET</BuildingClassType>
 		</Row>
+		
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_CRAB_MARKET</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SMALL_CRAB_MARKET</BuildingClassType>
@@ -1719,7 +2318,7 @@
 			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HUGE_CRAB_MARKET</BuildingClassType>
 		</Row>
-
+		
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_WHEAT_MILL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SMALL_WHEAT_MILL</BuildingClassType>
@@ -1736,7 +2335,7 @@
 			<BuildingType>BUILDING_WHEAT_MONOPOLY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HUGE_WHEAT_MILL</BuildingClassType>
 		</Row>
-
+		
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_BANANA_MARKET</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SMALL_BANANA_MARKET</BuildingClassType>
@@ -1753,7 +2352,7 @@
 			<BuildingType>BUILDING_BANANA_MONOPOLY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HUGE_BANANA_MARKET</BuildingClassType>
 		</Row>
-
+		
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_COPPER_SMELTER</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SMALL_COPPER_SMELTER</BuildingClassType>
@@ -1805,7 +2404,6 @@
 			<BuildingClassType>BUILDINGCLASS_HUGE_SHEEP_BUTCHER</BuildingClassType>
 		</Row>
 
-
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_DEER_BUTCHER</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SMALL_DEER_BUTCHER</BuildingClassType>
@@ -1823,12 +2421,93 @@
 			<BuildingClassType>BUILDINGCLASS_HUGE_DEER_BUTCHER</BuildingClassType>
 		</Row>
 
-		
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_STONE_CUTTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SMALL_STONE_CUTTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_STONE_CUTTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MEDIUM_STONE_CUTTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_STONE_CUTTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LARGE_STONE_CUTTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_STONE_CUTTER</BuildingClassType>
+		</Row>
 
 		<Row>
-			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_SMALL_POPPY_REFINERY</BuildingClassType>
+			<BuildingType>BUILDING_LARGE_JADE_CUTTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MEDIUM_JADE_CUTTER</BuildingClassType>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_JADE_CUTTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LARGE_JADE_CUTTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_JADEE_CUTTER</BuildingClassType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_LARGE_OAK_CENTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MEDIUM_OAK_CENTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_OAK_CENTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LARGE_OAK_CENTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OAK_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_OAK_CENTER</BuildingClassType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LARGE_SQUID_CENTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_SQUID_CENTER</BuildingClassType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HUGE_MANGANESE_CENTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LARGE_MANGANESE_CENTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MANGANESE_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_MANGANESE_CENTER</BuildingClassType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_LARGE_ALOE_VERA_CENTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MEDIUM_ALOE_VERA_CENTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LARGE_ALOE_VERA_CENTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_ALOE_VERA_CENTER</BuildingClassType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MEDIUM_AMBER_CENTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LARGE_AMBER_CENTER</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_AMBER_CENTER</BuildingClassType>
+		</Row>
+		
 		<Row>
 			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MEDIUM_POPPY_REFINERY</BuildingClassType>
@@ -1841,18 +2520,7 @@
 			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HUGE_POPPY_REFINERY</BuildingClassType>
 		</Row>
-		
-		
 
-
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_COFFEE_MILL</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_SMALL_COFFEE_MILL</BuildingClassType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_LARGE_COFFEE_MILL</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_MEDIUM_COFFEE_MILL</BuildingClassType>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_HUGE_COFFEE_MILL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_LARGE_COFFEE_MILL</BuildingClassType>
@@ -1862,21 +2530,6 @@
 			<BuildingClassType>BUILDINGCLASS_HUGE_COFFEE_MILL</BuildingClassType>
 		</Row>
 
-
-
-
-
-
-
-
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_TITANIUM_SMELTER</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_SMALL_TITANIUM_SMELTER</BuildingClassType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_MEDIUM_TITANIUM_SMELTER</BuildingClassType>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_LARGE_TITANIUM_SMELTER</BuildingClassType>
@@ -1885,8 +2538,6 @@
 			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HUGE_TITANIUM_SMELTER</BuildingClassType>
 		</Row>
-
-
 	</Building_ClassesNeededInCity>
 
 	<Building_PrereqBuildingClasses>
@@ -1931,6 +2582,41 @@
 			<NumBuildingNeeded>2</NumBuildingNeeded>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_STONE_CUTTER</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_JADE_CUTTER</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OAK_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_OAK_CENTER</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_SQUID_CENTER</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MANGANESE_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_MANGANESE_CENTER</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_ALOE_VERA_CENTER</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_AMBER_CENTER</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_COFFEE_MONOPOLY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HUGE_COFFEE_MILL</BuildingClassType>
 			<NumBuildingNeeded>2</NumBuildingNeeded>
@@ -1947,58 +2633,38 @@
 		</Row>
 	</Building_PrereqBuildingClasses>
 	
--->
-
-	<!--Building Yield Changes-->
-	<!--
 	<Building_YieldChanges>
 		
-
+		<!--ANCIENT ERA-->
 		<Row>
 			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>		
-		<Row>
-			<BuildingType>BUILDING_SMALL_CRAB_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
-		</Row>
+		</Row>	
 		<Row>
 			<BuildingType>BUILDING_SMALL_CRAB_MARKET</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<BuildingType>BUILDING_SMALL_WHEAT_MILL</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SMALL_BANANA_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		
-		<Row>
-			<BuildingType>BUILDING_SMALL_BANANA_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SMALL_COPPER_SMELTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SMALL_CATTLE_YARD</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SMALL_CATTLE_YARD</BuildingType>
@@ -2008,314 +2674,737 @@
 		<Row>
 			<BuildingType>BUILDING_SMALL_SHEEP_BUTCHER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SMALL_SHEEP_BUTCHER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_STONE_CUTTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
-		</Row>	
+		</Row>
 
+		<!--CLASSICAL ERA-->
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>6</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MEDIUM_CRAB_MARKET</BuildingType>
+			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
-		</Row>		
+			<Yield>1</Yield>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_CRAB_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_CRAB_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_WHEAT_MILL</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>6</Yield>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_WHEAT_MILL</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_BANANA_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_BANANA_MARKET</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_COPPER_SMELTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>6</Yield>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_COPPER_SMELTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_CATTLE_YARD</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>6</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_CATTLE_YARD</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>		
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_SHEEP_BUTCHER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_SHEEP_BUTCHER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_DEER_BUTCHER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_DEER_BUTCHER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_STONE_CUTTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_JADE_CUTTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_JADE_CUTTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>3</Yield>
 		</Row>
-
-
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_OAK_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_OAK_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_ALOE_VERA_CENTER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_ALOE_VERA_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_ALOE_VERA_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_AMBER_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_AMBER_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		
+		<!--MEDIEVAL ERA-->
 		<Row>
 			<BuildingType>BUILDING_LARGE_FISH_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>8</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_LARGE_FISH_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
-		</Row>	
-		<Row>
-			<BuildingType>BUILDING_LARGE_CRAB_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_CRAB_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_CRAB_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>3</Yield>
-		</Row>		
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_WHEAT_MILL</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>8</Yield>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_WHEAT_MILL</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_BANANA_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>4</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_BANANA_MARKET</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<BuildingType>BUILDING_LARGE_COPPER_SMELTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>8</Yield>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_COPPER_SMELTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_CATTLE_YARD</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>8</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_CATTLE_YARD</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>3</Yield>
 		</Row>		
 		<Row>
 			<BuildingType>BUILDING_LARGE_SHEEP_BUTCHER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>4</Yield>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SHEEP_BUTCHER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_SHEEP_BUTCHER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_DEER_BUTCHER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_DEER_BUTCHER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>10</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_CRAB_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_CRAB_MARKET</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>4</Yield>
-		</Row>		
-		<Row>
-			<BuildingType>BUILDING_HUGE_WHEAT_MILL</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>10</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_BANANA_MARKET</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_BANANA_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
-		</Row>		
-		<Row>
-			<BuildingType>BUILDING_HUGE_COPPER_SMELTER</BuildingType>
+			<BuildingType>BUILDING_LARGE_STONE_CUTTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>10</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HUGE_CATTLE_YARD</BuildingType>
+			<BuildingType>BUILDING_LARGE_STONE_CUTTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_JADE_CUTTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_JADE_CUTTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_OAK_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_OAK_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_ALOE_VERA_CENTER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>10</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HUGE_CATTLE_YARD</BuildingType>
+			<BuildingType>BUILDING_LARGE_ALOE_VERA_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_ALOE_VERA_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SQUID_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SQUID_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SQUID_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_MANGANESE_CENTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>4</Yield>
-		</Row>		
-		<Row>
-			<BuildingType>BUILDING_HUGE_SHEEP_BUTCHER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HUGE_SHEEP_BUTCHER</BuildingType>
+			<BuildingType>BUILDING_LARGE_MANGANESE_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>15</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>15</Yield>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>15</Yield>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>15</Yield>
-		</Row>
-
-
-
-		<Row>
-			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
+			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>4</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MEDIUM_COFFEE_MILL</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>6</Yield>
+			<BuildingType>BUILDING_LARGE_COFFEE_MILL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_COFFEE_MILL</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<!--RENAISSANCE ERA-->
+		<Row>
+			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_CRAB_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>	
+		<Row>
+			<BuildingType>BUILDING_HUGE_WHEAT_MILL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_BANANA_MARKET</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_BANANA_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>		
+		<Row>
+			<BuildingType>BUILDING_HUGE_COPPER_SMELTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_COPPER_SMELTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_CATTLE_YARD</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_CATTLE_YARD</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_CATTLE_YARD</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SHEEP_BUTCHER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SHEEP_BUTCHER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SHEEP_BUTCHER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_STONE_CUTTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_STONE_CUTTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_JADE_CUTTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_JADE_CUTTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_OAK_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_MANGANESE_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_MANGANESE_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HUGE_COFFEE_MILL</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>10</Yield>
 		</Row>
-
-
-
-
-
-
-		<Row>
-			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>20</Yield>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_TITANIUM_SMELTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>24</Yield>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>28</Yield>
-		</Row>
-
 		<Row>
 			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>32</Yield>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
 		</Row>
 		
-		
+		<!--MODERN ERA-->
+		<Row>
+			<BuildingType>BUILDING_FISH_MONOPOLY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WHEAT_MONOPOLY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WHEAT_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANANA_MONOPOLY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANANA_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATTLE_MONOPOLY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATTLE_MONOPOLY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_MONOPOLY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_MONOPOLY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEER_MONOPOLY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEER_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_MONOPOLY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OAK_MONOPOLY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OAK_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_MONOPOLY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_MONOPOLY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_MONOPOLY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MANGANESE_MONOPOLY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MANGANESE_MONOPOLY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_MONOPOLY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COFFEE_MONOPOLY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COFFEE_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
 	</Building_YieldChanges>
--->
 	
 	<!--Global Yield Mod-->
 	<!--
@@ -2405,155 +3494,162 @@
 		
 	</Building_GlobalYieldModifiers>
 -->
+	
 	<!-- Building Flavors for the Monopoly System.-->
 	<Building_Flavors>
-		<!-- 1 FISH MARKET -->
-		<!-- 
+		
 		<Row>
 			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_FISH_MARKET</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>60</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_FISH_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_LARGE_FISH_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>85</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_FISH_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>100</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HUGE_FISH_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
- -->
+		
 		<Row>
 			<BuildingType>BUILDING_FISH_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>90</Flavor>
+			<Flavor>150</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FISH_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>90</Flavor>
+			<Flavor>30</Flavor>
 		</Row>
 
-		<!-- 4 WHEAT MILL -->
-<!-- 
+
+
 		<Row>
 			<BuildingType>BUILDING_SMALL_WHEAT_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
-
-
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_WHEAT_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>70</Flavor>
+			<Flavor>65</Flavor>
 		</Row>
-
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_WHEAT_MILL</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_WHEAT_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>100</Flavor>
+			<Flavor>90</Flavor>
 		</Row>
-
+		<Row>
+			<BuildingType>BUILDING_LARGE_WHEAT_MILL</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_HUGE_WHEAT_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>120</Flavor>
+			<Flavor>115</Flavor>
 		</Row>
- -->
+		<Row>
+			<BuildingType>BUILDING_HUGE_WHEAT_MILL</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_WHEAT_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>180</Flavor>
+			<Flavor>160</Flavor>
 		</Row>
-		<!-- 5 CRAB MARKET -->
-		<!--
+		<Row>
+			<BuildingType>BUILDING_WHEAT_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		
+		
+		
 		<Row>
 			<BuildingType>BUILDING_SMALL_CRAB_MARKET</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_CRAB_MARKET</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_CRAB_MARKET</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>35</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_CRAB_MARKET</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>35</Flavor>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_LARGE_CRAB_MARKET</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_LARGE_CRAB_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
 
 		<Row>
+			<BuildingType>BUILDING_MEDIUM_CRAB_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_CRAB_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>65</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_LARGE_CRAB_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_CRAB_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+
+		<Row>
 			<BuildingType>BUILDING_HUGE_CRAB_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HUGE_CRAB_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>115</Flavor>
 		</Row>
--->
+		
 		<Row>
 			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>90</Flavor>
+			<Flavor>160</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>90</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
-		<!-- 9 BANANA MARKET -->
-		<!--
+		
+
+		
 		<Row>
 			<BuildingType>BUILDING_SMALL_BANANA_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2563,72 +3659,103 @@
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_BANANA_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>70</Flavor>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_BANANA_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_LARGE_BANANA_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>100</Flavor>
+			<Flavor>45</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_BANANA_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>55</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_HUGE_BANANA_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>120</Flavor>
+			<Flavor>80</Flavor>
 		</Row>
--->
+		<Row>
+			<BuildingType>BUILDING_HUGE_BANANA_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		
 		<Row>
 			<BuildingType>BUILDING_BANANA_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>180</Flavor>
+			<Flavor>90</Flavor>
 		</Row>
-		<!-- 18 COPPER SMELTER -->
-<!--
+		<Row>
+			<BuildingType>BUILDING_BANANA_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+		
+		
+		
 		<Row>
 			<BuildingType>BUILDING_SMALL_COPPER_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_COPPER_SMELTER</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_COPPER_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>60</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_COPPER_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
-
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_COPPER_SMELTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		
 		<Row>
 			<BuildingType>BUILDING_LARGE_COPPER_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>40</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_COPPER_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_COPPER_SMELTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_HUGE_COPPER_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>40</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HUGE_COPPER_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>40</Flavor>
 		</Row>
--->
+		<Row>
+			<BuildingType>BUILDING_HUGE_COPPER_SMELTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -2636,229 +3763,259 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>90</Flavor>
 		</Row>
-		<!-- 24 POPPY_REFINERY -->
-<!--
-		<Row>
-			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMALL_POPPY_REFINERY</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
+		
+		
 
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>35</Flavor>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_POPPY_REFINERY</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>35</Flavor>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>45</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>50</Flavor>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_POPPY_REFINERY</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>80</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>60</Flavor>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>45</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HUGE_POPPY_REFINERY</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>60</Flavor>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>75</Flavor>
 		</Row>
--->
+
 		<Row>
 			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>90</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_POPPY_MONOPOLY</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>90</Flavor>
 		</Row>
-<!--
 
-		<Row>
-			<BuildingType>BUILDING_SMALL_TITANIUM_SMELTER</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_TITANIUM_SMELTER</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>70</Flavor>
-		</Row>
+		
 
 		<Row>
 			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>100</Flavor>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_TITANIUM_SMELTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>120</Flavor>
+			<Flavor>100</Flavor>
 		</Row>
--->
+		<Row>
+			<BuildingType>BUILDING_HUGE_TITANIUM_SMELTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>180</Flavor>
+			<Flavor>90</Flavor>
 		</Row>
-		<!-- 35 DEER BUTCHER -->
-<!--
+		<Row>
+			<BuildingType>BUILDING_TITANIUM_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+
+		
+		
 		<Row>
 			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_DEER_BUTCHER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_DEER_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>70</Flavor>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_DEER_BUTCHER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_DEER_BUTCHER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_LARGE_DEER_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>100</Flavor>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_DEER_BUTCHER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_DEER_BUTCHER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>55</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>120</Flavor>
+			<Flavor>90</Flavor>
 		</Row>
--->
+		<Row>
+			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_DEER_BUTCHER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_DEER_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>180</Flavor>
-		</Row>
-		<!-- 39 COFFEE MILL -->
-<!--
-		<Row>
-			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>90</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_SMALL_COFFEE_MILL</BuildingType>
+			<BuildingType>BUILDING_DEER_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>90</Flavor>
 		</Row>
 
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_COFFEE_MILL</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>35</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MEDIUM_COFFEE_MILL</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>35</Flavor>
-		</Row>
-
+		
+		
 		<Row>
 			<BuildingType>BUILDING_LARGE_COFFEE_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_COFFEE_MILL</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>85</Flavor>
 		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_HUGE_COFFEE_MILL</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HUGE_COFFEE_MILL</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>115</Flavor>
 		</Row>
--->
+
 		<Row>
 			<BuildingType>BUILDING_COFFEE_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>90</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>90</Flavor>
+			<Flavor>160</Flavor>
 		</Row>
-		<!-- 40 SHEEP BUTCHER -->
-<!--
+
+		
+		
 		<Row>
 			<BuildingType>BUILDING_SMALL_SHEEP_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMALL_SHEEP_BUTCHER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SMALL_SHEEP_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_SHEEP_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>55</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MEDIUM_SHEEP_BUTCHER</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_LARGE_SHEEP_BUTCHER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
-
 		<Row>
 			<BuildingType>BUILDING_LARGE_SHEEP_BUTCHER</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>50</Flavor>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>60</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_SHEEP_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_HUGE_SHEEP_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>85</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SHEEP_BUTCHER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HUGE_SHEEP_BUTCHER</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
--->
+		
 		<Row>
 			<BuildingType>BUILDING_SHEEP_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2866,7 +4023,262 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SHEEP_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+
+		
+		
+		<Row>
+			<BuildingType>BUILDING_SMALL_STONE_CUTTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_STONE_CUTTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>70</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_STONE_CUTTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>85</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_STONE_CUTTER</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_STONE_CUTTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>110</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_STONE_CUTTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>160</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+
+
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_JADE_CUTTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_JADE_CUTTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>55</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_JADE_CUTTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_JADE_CUTTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_JADE_CUTTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_JADE_CUTTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>95</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+
+
+
+		<Row>
+			<BuildingType>BUILDING_LARGE_SQUID_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SQUID_CENTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SQUID_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_SQUID_CENTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>70</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_SQUID_CENTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+
+
+
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_ALOE_VERA_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_ALOE_VERA_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_ALOE_VERA_CENTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_ALOE_VERA_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_ALOE_VERA_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_ALOE_VERA_CENTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_ALOE_VERA_CENTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+
+
+
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_AMBER_CENTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_AMBER_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MEDIUM_AMBER_CENTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LARGE_AMBER_CENTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUGE_AMBER_CENTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>65</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_MONOPOLY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>90</Flavor>
 		</Row>
 	</Building_Flavors>
