@@ -1099,7 +1099,8 @@
 			<Type>BUILDING_CITY_CLOCK</Type>
 			<Description>TXT_KEY_BUILDING_CITY_CLOCK</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CITY_CLOCK_PEDIA</Civilopedia>
-			<Help>BUILDING_CITY_CLOCK_HELP</Help>
+			<Help>TXT_KEY_BUILDING_CITY_CLOCK_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_CITY_CLOCK_STRATEGY</Strategy>
 			<Cost>540</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<Gold>360</Gold>
