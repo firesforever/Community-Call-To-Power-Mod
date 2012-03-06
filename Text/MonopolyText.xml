@@ -24,719 +24,719 @@
 
 		<!-- Ancient Era -->
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_FISH_MARKET</Tag>
-			<Text>Small Fish Market</Text>
+			<Tag>TXT_KEY_BUILDING_FISH_HERDER</Tag>
+			<Text>Fish Herder</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_FISH_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_FISH_HERDER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Fish.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_FISH_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_FISH_HERDER_HELP</Tag>
 			<Text>City must have an improved source of Fish nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CRAB_MARKET</Tag>
-			<Text>Small Crab Market</Text>
+			<Tag>TXT_KEY_BUILDING_CRAB_HERDER</Tag>
+			<Text>Crab Herder</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CRAB_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_CRAB_HERDER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Crab.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CRAB_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_CRAB_HERDER_HELP</Tag>
 			<Text>City must have an improved source of Crab nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WHEAT_MILL</Tag>
-			<Text>Small Wheat Mill</Text>
+			<Tag>TXT_KEY_BUILDING_WHEAT_FARM</Tag>
+			<Text>Wheat Farm</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WHEAT_MILL_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_WHEAT_FARM_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WHEAT_MILL_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_WHEAT_FARM_HELP</Tag>
 			<Text>City must have an improved source of Wheat nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_BANANA_MARKET</Tag>
-			<Text>Small Banana Market</Text>
+			<Tag>TXT_KEY_BUILDING_BANANA_FARM</Tag>
+			<Text>Banana Farm</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_BANANA_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_BANANA_FARM_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_BANANA_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_BANANA_FARM_HELP</Tag>
 			<Text>City must have an improved source of Banana nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER</Tag>
-			<Text>Small Copper Smelter</Text>
+			<Tag>TXT_KEY_BUILDING_COPPER_SMELTER</Tag>
+			<Text>Copper Smelter</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_COPPER_SMELTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Copper.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_COPPER_SMELTER_HELP</Tag>
 			<Text>City must have an improved source of Copper nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CATTLE_YARD</Tag>
-			<Text>Small Cattle Yard</Text>
+			<Tag>TXT_KEY_BUILDING_CATTLE_RANCH</Tag>
+			<Text>Cattle Ranch</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CATTLE_YARD_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_CATTLE_RANCH_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CATTLE_YARD_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_CATTLE_RANCH_HELP</Tag>
 			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of Cow nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER</Tag>
-			<Text>Small Sheep Butcher</Text>
+			<Tag>TXT_KEY_BUILDING_SHEEP_RANCH</Tag>
+			<Text>Sheep Ranch</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_SHEEP_RANCH_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_SHEEP_RANCH_HELP</Tag>
 			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of Sheep nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER</Tag>
-			<Text>Small Deer Butcher</Text>
+			<Tag>TXT_KEY_BUILDING_DEER_HERDER</Tag>
+			<Text>Deer Herder</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_DEER_HERDER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Deer.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_DEER_HERDER_HELP</Tag>
 			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of Deer nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_STONE_CUTTER</Tag>
-			<Text>Small Stone Cutter</Text>
+			<Tag>TXT_KEY_BUILDING_STONE_CUTTER</Tag>
+			<Text>Stone Cutter</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_STONE_CUTTER_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Stone.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_STONE_CUTTER_HELP</Tag>
 			<Text>City must have an improved source of Stone nearby.</Text>
 		</Row>
 		
 
 		<!-- CLASSICAL ERA -->
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET</Tag>
-			<Text>Medium Fish Market</Text>
+			<Tag>TXT_KEY_BUILDING_FISH_MARKET</Tag>
+			<Text>Fish Market</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_FISH_MARKET_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Fish.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_FISH_MARKET_HELP</Tag>
 			<Text>City must have a Small Fish Market.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CRAB_MARKET</Tag>
-			<Text>Medium Crab Market</Text>
+			<Tag>TXT_KEY_BUILDING_CRAB_MARKET</Tag>
+			<Text>Crab Market</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CRAB_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_CRAB_MARKET_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Crab.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CRAB_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_CRAB_MARKET_HELP</Tag>
 			<Text>City must have a Small Crab Market.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WHEAT_MILL</Tag>
-			<Text>Medium Wheat Mill</Text>
+			<Tag>TXT_KEY_BUILDING_WHEAT_MARKET</Tag>
+			<Text>Wheat Market</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WHEAT_MILL_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_WHEAT_MARKET_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WHEAT_MILL_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_WHEAT_MARKET_HELP</Tag>
 			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Small Wheat Mill.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_BANANA_MARKET</Tag>
-			<Text>Medium Banana Market</Text>
+			<Tag>TXT_KEY_BUILDING_BANANA_TRADER</Tag>
+			<Text>Banana Trader</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_BANANA_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_BANANA_TRADER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_BANANA_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_BANANA_TRADER_HELP</Tag>
 			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Small Banana Market.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COPPER_SMELTER</Tag>
-			<Text>Medium Copper Smelter</Text>
+			<Tag>TXT_KEY_BUILDING_COPPER_DEPOT</Tag>
+			<Text>Copper Depot</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COPPER_SMELTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_COPPER_DEPOT_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Copper.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COPPER_SMELTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_COPPER_DEPOT_HELP</Tag>
 			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Small Copper Smelter.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CATTLE_YARD</Tag>
-			<Text>Medium Cattle Yard</Text>
+			<Tag>TXT_KEY_BUILDING_CATTLE_TRADER</Tag>
+			<Text>Cattle Trader</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CATTLE_YARD_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_CATTLE_TRADER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CATTLE_YARD_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_CATTLE_TRADER_HELP</Tag>
 			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +1 [ICON_Production] Production.[NEWLINE][NEWLINE]City must have a Small Cattle Yard.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SHEEP_BUTCHER</Tag>
-			<Text>Medium Sheep Butcher</Text>
+			<Tag>TXT_KEY_BUILDING_SHEEP_TRADER</Tag>
+			<Text>Sheep Trader</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SHEEP_BUTCHER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_SHEEP_TRADER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SHEEP_BUTCHER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_SHEEP_TRADER_HELP</Tag>
 			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Small Sheep Butcher.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER</Tag>
-			<Text>Medium Deer Butcher</Text>
+			<Tag>TXT_KEY_BUILDING_DEER_MARKET</Tag>
+			<Text>Deer Market</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_DEER_MARKET_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Deer.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_DEER_MARKET_HELP</Tag>
 			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Small Deer Butcher.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_STONE_CUTTER</Tag>
-			<Text>Medium Stone Cutter</Text>
+			<Tag>TXT_KEY_BUILDING_STONE_DEPOT</Tag>
+			<Text>Stone Depot</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_STONE_CUTTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_STONE_DEPOT_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Stone.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_STONE_CUTTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_STONE_DEPOT_HELP</Tag>
 			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Small Stone Cutter.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_JADE_CUTTER</Tag>
-			<Text>Medium Jade Cutter</Text>
+			<Tag>TXT_KEY_BUILDING_JADE_MARKET</Tag>
+			<Text>Jade Market</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_JADE_CUTTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_JADE_MARKET_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Jade.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_JADE_CUTTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_JADE_MARKET_HELP</Tag>
 			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Jade nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_OAK_CENTER</Tag>
-			<Text>Medium Oak Center</Text>
+			<Tag>TXT_KEY_BUILDING_OAK_DEPOT</Tag>
+			<Text>Oak Depot</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_OAK_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_OAK_DEPOT_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Oak.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_OAK_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_OAK_DEPOT_HELP</Tag>
 			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of Oak nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_ALOE_VERA_CENTER</Tag>
-			<Text>Medium Aloe Vera Center</Text>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY</Tag>
+			<Text>Aloe Vera Distillery</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_ALOE_VERA_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Aloe Vera.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_ALOE_VERA_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY_HELP</Tag>
 			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of Aloe Vera nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_AMBER_CENTER</Tag>
-			<Text>Medium Amber Center</Text>
+			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER</Tag>
+			<Text>Amber Purifier</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_AMBER_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Amber.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_AMBER_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER_HELP</Tag>
 			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of Amber nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY</Tag>
-			<Text>Medium Poppy Refinery</Text>
+			<Tag>TXT_KEY_BUILDING_POPPY_REFINERY</Tag>
+			<Text>Poppy Refinery</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_POPPY_REFINERY_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Poppy.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_POPPY_REFINERY_HELP</Tag>
 			<Text>Each source of [ICON_RES_POPPY] Poppy worked by this City produces +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of Poppy nearby.</Text>
 		</Row>
 		
 		<!-- MEDIEVAL ERA -->
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_FISH_MARKET</Tag>
-			<Text>Large Fish Market</Text>
+			<Tag>TXT_KEY_BUILDING_FISH_DISTRIBUTION_CENTER</Tag>
+			<Text>Fish Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_FISH_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_FISH_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Fish.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_FISH_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_FISH_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Requires 1 Fish Resource and City must have a Medium Fish Market.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CRAB_MARKET</Tag>
-			<Text>Large Crab Market</Text>
+			<Tag>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER</Tag>
+			<Text>Crab Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CRAB_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Crab.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CRAB_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Requires 1 Crab Resource and City must have a Medium Crab Market.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WHEAT_MILL</Tag>
-			<Text>Large Wheat Mill</Text>
+			<Tag>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER</Tag>
+			<Text>Wheat Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WHEAT_MILL_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WHEAT_MILL_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Wheat Resource and City must have a Medium Wheat Mill.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_BANANA_MARKET</Tag>
-			<Text>Large Banana Market</Text>
+			<Tag>TXT_KEY_BUILDING_BANANA_DISTRIBUTION_CENTER</Tag>
+			<Text>Banana Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_BANANA_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_BANANA_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_BANANA_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_BANANA_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Banana Resource and City must have a Medium Banana Market.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COPPER_SMELTER</Tag>
-			<Text>Large Copper Smelter</Text>
+			<Tag>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER</Tag>
+			<Text>Copper Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COPPER_SMELTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Copper.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COPPER_SMELTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Copper Resource and City must have a Medium Copper Smelter.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CATTLE_YARD</Tag>
-			<Text>Large Cattle Yard</Text>
+			<Tag>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER</Tag>
+			<Text>Cattle Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CATTLE_YARD_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CATTLE_YARD_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Cow Resource and City must have a Medium Cattle Yard.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SHEEP_BUTCHER</Tag>
-			<Text>Large Sheep Butcher</Text>
+			<Tag>TXT_KEY_BUILDING_SHEEP_DISTRIBUTION_CENTER</Tag>
+			<Text>Sheep Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SHEEP_BUTCHER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_SHEEP_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SHEEP_BUTCHER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_SHEEP_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Sheep Resource and City must have a Medium Sheep Butcher.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER</Tag>
-			<Text>Large Deer Butcher</Text>
+			<Tag>TXT_KEY_BUILDING_DEER_DISTRIBUTION_CENTER</Tag>
+			<Text>Deer Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_DEER_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Deer.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_DEER_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Deer Resource and City must have a Medium Deer Butcher.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_STONE_CUTTER</Tag>
-			<Text>Large Stone Cutter</Text>
+			<Tag>TXT_KEY_BUILDING_STONE_DISTRIBUTION_CENTER</Tag>
+			<Text>Stone Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_STONE_CUTTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_STONE_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Stone.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_STONE_CUTTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_STONE_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Stone Resource and City must have a Medium Stone Cutter.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_JADE_CUTTER</Tag>
-			<Text>Large Jade Cutter</Text>
+			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER</Tag>
+			<Text>Jade Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_JADE_CUTTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Jade.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_JADE_CUTTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Jade Resource and City must have a Medium Jade Cutter.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_OAK_CENTER</Tag>
-			<Text>Large Oak Center</Text>
+			<Tag>TXT_KEY_BUILDING_OAK_DISTRIBUTION_CENTER</Tag>
+			<Text>Oak Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_OAK_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_OAK_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Oak.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_OAK_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_OAK_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Oak Resource and City must have a Medium Oak Center.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_ALOE_VERA_CENTER</Tag>
-			<Text>Large Aloe Vera Center</Text>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER</Tag>
+			<Text>Aloe Vera Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_ALOE_VERA_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Aloe Vera.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_ALOE_VERA_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Aloe Vera Resource and City must have a Medium Aloe Vera Center.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_AMBER_CENTER</Tag>
-			<Text>Large Amber Center</Text>
+			<Tag>TXT_KEY_BUILDING_AMBER_DISTRIBUTION_CENTER</Tag>
+			<Text>Amber Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_AMBER_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_AMBER_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Amber.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_AMBER_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_AMBER_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +1 [ICON_PRODUCTION] Production, +1 [ICON_GOLD] Gold, and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Amber Resource and City must have a Medium Amber Center.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SQUID_CENTER</Tag>
-			<Text>Large Squid Center</Text>
+			<Tag>TXT_KEY_BUILDING_SQUID_DISTRIBUTION_CENTER</Tag>
+			<Text>Squid Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SQUID_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_SQUID_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Squid.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SQUID_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_SQUID_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_SQUID] Squid worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Squid Resource.[NEWLINE]City must have an improved source of Squid nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_MANGANESE_CENTER</Tag>
-			<Text>Large Manganese Center</Text>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_DISTRIBUTION_CENTER</Tag>
+			<Text>Manganese Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_MANGANESE_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Manganese.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_MANGANESE_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_MANGANESE] Manganese worked by this City produces +1 [ICON_PRODUCTION] Production and +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Manganese Resource.[NEWLINE]City must have an improved source of Manganese nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY</Tag>
-			<Text>Large Poppy Refinery</Text>
+			<Tag>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER</Tag>
+			<Text>Poppy Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Poppy.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_POPPY] Poppy worked by this City produces +1 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Poppy Resource and City must have a Medium Poppy Refinery.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COFFEE_MILL</Tag>
-			<Text>Large Coffee Mill</Text>
+			<Tag>TXT_KEY_BUILDING_COFFEE_DISTRIBUTION_CENTER</Tag>
+			<Text>Coffee Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COFFEE_MILL_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_COFFEE_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Coffee.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COFFEE_MILL_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_COFFEE_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_COFFEE] Coffee worked by this City produces +1 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Coffee Resource.[NEWLINE]City must have an improved source of Coffee nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER</Tag>
-			<Text>Large Titanium Smelter</Text>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_DISTRIBUTION_CENTER</Tag>
+			<Text>Titanium Distribution Center</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_DISTRIBUTION_CENTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Titanium.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_TITANIUM] Titanium worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Titanium Resource.[NEWLINE]City must have an improved source of Titanium nearby.</Text>
 		</Row>
 
 
 		<!-- RENAISSANCE ERA -->
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_FISH_MARKET</Tag>
-			<Text>Huge Fish Market</Text>
+			<Tag>TXT_KEY_BUILDING_FISH_CONGLOMERATE</Tag>
+			<Text>Fish Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_FISH_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_FISH_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Fish.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_FISH_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_FISH_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Fish.[NEWLINE]City must have a Large Fish Market.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CRAB_MARKET</Tag>
-			<Text>Huge Crab Market</Text>
+			<Tag>TXT_KEY_BUILDING_CRAB_CONGLOMERATE</Tag>
+			<Text>Crab Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CRAB_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Crab.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CRAB_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_CRAB] Crab worked by this City produces +1 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Crab.[NEWLINE]City must have a Large Crab Market.Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Crab Resource.[NEWLINE][NEWLINE]Requires Large Crab Market Building.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WHEAT_MILL</Tag>
-			<Text>Huge Wheat Mill</Text>
+			<Tag>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE</Tag>
+			<Text>Wheat Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WHEAT_MILL_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WHEAT_MILL_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Wheat.[NEWLINE]City must have a Large Wheat Mill.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_BANANA_MARKET</Tag>
-			<Text>Huge Banana Market</Text>
+			<Tag>TXT_KEY_BUILDING_BANANA_CONGLOMERATE</Tag>
+			<Text>Banana Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_BANANA_MARKET_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_BANANA_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_BANANA_MARKET_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_BANANA_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Banana.[NEWLINE]City must have a Large Banana Market.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COPPER_SMELTER</Tag>
-			<Text>Huge Copper Smelter</Text>
+			<Tag>TXT_KEY_BUILDING_COPPER_CONGLOMERATE</Tag>
+			<Text>Copper Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COPPER_SMELTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_COPPER_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Copper.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COPPER_SMELTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_COPPER_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Copper.[NEWLINE]City must have a Large Copper Smelter.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CATTLE_YARD</Tag>
-			<Text>Huge Cattle Yard</Text>
+			<Tag>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE</Tag>
+			<Text>Cattle Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CATTLE_YARD_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CATTLE_YARD_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 3 Cow.[NEWLINE]City must have a Large Cattle Yard.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SHEEP_BUTCHER</Tag>
-			<Text>Huge Sheep Butcher</Text>
+			<Tag>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE</Tag>
+			<Text>Sheep Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SHEEP_BUTCHER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SHEEP_BUTCHER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 3 Sheep.[NEWLINE]City must have a Large Sheep Butcher.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER</Tag>
-			<Text>Huge Deer Butcher</Text>
+			<Tag>TXT_KEY_BUILDING_DEER_CONGLOMERATE</Tag>
+			<Text>Deer Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_DEER_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Deer.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_DEER_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Deer.[NEWLINE]City must have a Large Deer Butcher.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_STONE_CUTTER</Tag>
-			<Text>Huge Stone Cutter</Text>
+			<Tag>TXT_KEY_BUILDING_STONE_CONGLOMERATE</Tag>
+			<Text>Stone Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_STONE_CUTTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_STONE_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Stone.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_STONE_CUTTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_STONE_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Stone.[NEWLINE]City must have a Large Stone Cutter.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_JADE_CUTTER</Tag>
-			<Text>Huge Jade Cutter</Text>
+			<Tag>TXT_KEY_BUILDING_JADE_CONGLOMERATE</Tag>
+			<Text>Jade Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_JADE_CUTTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_JADE_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Jade.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_JADE_CUTTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_JADE_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +2 [ICON_PRODUCTION] Production and +4 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Jade.[NEWLINE]City must have a Large Jade Cutter.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_OAK_CENTER</Tag>
-			<Text>Huge Oak Center</Text>
+			<Tag>TXT_KEY_BUILDING_OAK_CONGLOMERATE</Tag>
+			<Text>Oak Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_OAK_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_OAK_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Oak.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_OAK_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_OAK_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Oak.[NEWLINE]City must have a Large Oak Center.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_ALOE_VERA_CENTER</Tag>
-			<Text>Huge Aloe Vera Center</Text>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE</Tag>
+			<Text>Aloe Vera Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_ALOE_VERA_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Aloe Vera.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_ALOE_VERA_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +1 [ICON_FOOD] Food, +1 [ICON_GOLD] Gold, and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Aloe Vera.[NEWLINE]City must have a Large Aloe Vera Center.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_AMBER_CENTER</Tag>
-			<Text>Huge Amber Center</Text>
+			<Tag>TXT_KEY_BUILDING_AMBER_CONGLOMERATE</Tag>
+			<Text>Amber Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_AMBER_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_AMBER_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Amber.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_AMBER_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_AMBER_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +1 [ICON_PRODUCTION] Production, +2 [ICON_GOLD] Gold, and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Amber.[NEWLINE]City must have a Large Amber Center.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SQUID_CENTER</Tag>
-			<Text>Huge Squid Center</Text>
+			<Tag>TXT_KEY_BUILDING_SQUID_CONGLOMERATE</Tag>
+			<Text>Squid Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SQUID_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_SQUID_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Squid.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SQUID_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_SQUID_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_SQUID] Squid worked by this City produces +2 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Squid.[NEWLINE]City must have a Large Squid Center.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_MANGANESE_CENTER</Tag>
-			<Text>Huge Manganese Center</Text>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE</Tag>
+			<Text>Manganese Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_MANGANESE_CENTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Manganese.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_MANGANESE_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_MANGANESE] Manganese worked by this City produces +1 [ICON_PRODUCTION] Production and +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Manganese.[NEWLINE]City must have a Large Manganese Cutter.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY</Tag>
-			<Text>Huge Poppy Refinery</Text>
+			<Tag>TXT_KEY_BUILDING_POPPY_CONGLOMERATE</Tag>
+			<Text>Poppy Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_POPPY_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Poppy.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_POPPY_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_POPPY] Poppy worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Poppy.[NEWLINE]City must have a Large Poppy Refinery.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COFFEE_MILL</Tag>
-			<Text>Huge Coffee Mill</Text>
+			<Tag>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE</Tag>
+			<Text>Coffee Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COFFEE_MILL_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Coffee.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COFFEE_MILL_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_COFFEE] Coffee worked by this City produces +1 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Coffee.[NEWLINE]City must have a Large Coffee Mill.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER</Tag>
-			<Text>Huge Titanium Smelter</Text>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE</Tag>
+			<Text>Titanium Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Titanium.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_TITANIUM] Titanium worked by this City produces +3 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Titanium.[NEWLINE]City must have a Large Titanium Smelter.</Text>
 		</Row>
 		
