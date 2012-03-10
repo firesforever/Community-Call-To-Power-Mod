@@ -3,11 +3,11 @@
 <GameData>
 	<Routes>
 		<Update>
-			<Set GoldMaintenance="5" />
+			<Set GoldMaintenance="1" />
 			<Where Type="ROUTE_ROAD" />
 		</Update>
 		<Update>
-			<Set GoldMaintenance="10" />
+			<Set GoldMaintenance="3" />
 			<Where Type="ROUTE_RAILROAD" />
 		</Update>
 		
