@@ -306,10 +306,6 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		<Update>
-			<Set TechCat="TECHTREE_ECONOMICS" Description="TXT_KEY_TECH_FERTILIZER_TITLE" Civilopedia="TXT_KEY_TECH_FERTILIZER_CIV" Cost="372" Era="ERA_RENAISSANCE" GridX="14" GridY="7" />
-			<Where Type="TECH_FERTILIZER" />
-		</Update>
 		<!-- Industrial Era -->
 		<Update>
 			<Set TechCat="TECHTREE_ECONOMICS" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="6" />
@@ -331,10 +327,6 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		<Update>
-			<Set TechCat="TECHTREE_ECONOMICS" Cost="984" Era="ERA_INDUSTRIAL" GridX="17" GridY="7" />
-			<Where Type="TECH_REFRIGERATION" />
-		</Update>
 		<Row>
 			<Type>TECH_INDUSTRIAL_PROCESSES</Type>
 			<TechCat>TECHTREE_ECONOMICS</TechCat>

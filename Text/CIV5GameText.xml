@@ -5080,7 +5080,7 @@
 			<Where Tag="TXT_KEY_TECH_MILITARY_SCIENCE_TITLE" />
 		</Update>
 		<Update>
-			<Set Text="Fertilizer ([ICON_GOLD])  " />
+			<Set Text="Fertilizer ([ICON_RESEARCH])  " />
 			<Where Tag="TXT_KEY_TECH_FERTILIZER_TITLE" />
 		</Update>
 		<Update>
@@ -5112,7 +5112,7 @@
 			<Where Tag="TXT_KEY_TECH_DYNAMITE_TITLE" />
 		</Update>
 		<Update>
-			<Set Text="Refrigeration ([ICON_GOLD])  " />
+			<Set Text="Refrigeration ([ICON_RESEARCH])  " />
 			<Where Tag="TXT_KEY_TECH_REFRIGERATION_TITLE" />
 		</Update>
 		<Update>

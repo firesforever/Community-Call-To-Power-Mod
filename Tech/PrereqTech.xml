@@ -744,6 +744,10 @@
 			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_ECONOMICS</TechType>
+			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_GUILDS</TechType>
 			<PrereqTech>TECH_BANKING</PrereqTech>
 		</Row>
@@ -1694,6 +1698,10 @@
 		<Row>
 			<TechType>TECH_ENGINEERING</TechType>
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ENGINEERING</TechType>
+			<PrereqTech>TECH_STONE_MASONS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_MACHINERY</TechType>

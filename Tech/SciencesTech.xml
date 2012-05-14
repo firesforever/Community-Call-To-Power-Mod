@@ -82,6 +82,10 @@
 			<Set TechCat="TECHTREE_SCIENCES" Cost="372" Era="ERA_RENAISSANCE" GridX="14" GridY="4" />
 			<Where Type="TECH_SCIENTIFIC_THEORY" />
 		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Description="TXT_KEY_TECH_FERTILIZER_TITLE" Civilopedia="TXT_KEY_TECH_FERTILIZER_CIV" Cost="428" Era="ERA_RENAISSANCE" GridX="15" GridY="4" />
+			<Where Type="TECH_FERTILIZER" />
+		</Update>
 		<!-- Industrial Era -->
 		<Update>
 			<Set TechCat="TECHTREE_SCIENCES" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="6" />
@@ -114,6 +118,10 @@
 		<Update>
 			<Set TechCat="TECHTREE_SCIENCES" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="5" />
 			<Where Type="TECH_TELEGRAPH" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="7" />
+			<Where Type="TECH_REFRIGERATION" />
 		</Update>
 		<Row>
 			<Type>TECH_REFINING</Type>
