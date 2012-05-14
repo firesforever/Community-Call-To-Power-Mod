@@ -105,7 +105,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_TITANIUM</Type>
-			<TechReveal>TECH_METALLURGY</TechReveal>
+			<TechReveal>TECH_METAL_CASTING</TechReveal>
 			<TechCityTrade>TECH_MINING</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_TITANIUM</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_TITANIUM_TEXT</Civilopedia>
@@ -177,7 +177,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_MANGANESE</Type>
-			<TechReveal>TECH_CHEMISTRY</TechReveal>
+			<TechReveal>TECH_METAL_CASTING</TechReveal>
 			<TechCityTrade>TECH_MINING</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_MANGANESE</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MANGANESE_TEXT</Civilopedia>

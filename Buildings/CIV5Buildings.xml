@@ -3191,7 +3191,7 @@
 			<PortraitIndex>6</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="900" PrereqTech="TECH_METALLURGY" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2" Culture="0"/>
+			<Set Cost="900" PrereqTech="TECH_METAL_CASTING" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2" Culture="0"/>
 			<Where Type="BUILDING_IRONWORKS"/>
 		</Update>
 		<Row>
