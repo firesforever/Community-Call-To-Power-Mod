@@ -2815,7 +2815,7 @@
 			<PolicyType>POLICY_BIG_BROTHER</PolicyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>20</Flavor>
-		</Row
+		</Row>
 	</Policy_Flavors>
 	
 </GameData>
