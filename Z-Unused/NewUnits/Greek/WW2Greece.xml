@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 19/11/2010 00:14:54 -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+<Units>
+	
+	<!-- ************************************GREECE******************************* -->
+
+	
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<Class>UNITCLASS_BOMBER</Class>
+		<Type>UNIT_BRISTOL_BLENHEIM</Type>
+		<Description>TXT_KEY_UNIT_BRISTOL_BLENHEIM</Description>
+		<Help>TXT_KEY_UNIT_HELP_BRISTOL_BLENHEIM</Help>
+		<UnitArtInfo>ART_DEF_UNIT_BRISTOL_BLENHEIM</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_BRISTOL_BLENHEIM_TEXT</Civilopedia>
+		<PrereqTech>TECH_FLIGHT</PrereqTech>
+		<ObsoleteTech>TECH_HYBRID_SCRAMJETS</ObsoleteTech>
+		<RangedCombat>50</RangedCombat>
+		<Cost>1050</Cost>
+		<Moves>2</Moves>
+		<Immobile>true</Immobile>
+		<Range>10</Range>
+		<Special>SPECIALUNIT_FIGHTER</Special>
+		<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+		<Domain>DOMAIN_AIR</Domain>
+		<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_BOMBER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<AirUnitCap>1</AirUnitCap>
+		<RangedCombatLimit>100</RangedCombatLimit>
+		<CombatLimit>0</CombatLimit>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>2</XPValueDefense>
+		<UnitFlagIconOffset>64</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>18</PortraitIndex>
+		<MoveRate>AIR_REBASE</MoveRate>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<Class>UNITCLASS_CRUISER</Class>
+		<Type>UNIT_PISA_CLASS</Type>
+		<Description>TXT_KEY_UNIT_PISA_CLASS</Description>
+		<Help>TXT_KEY_UNIT_HELP_PISA_CLASS</Help>
+		<UnitArtInfo>ART_DEF_UNIT_PISA_CLASS</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_PISA_CLASS_TEXT</Civilopedia>
+		<PrereqTech>TECH_TORPEDOES</PrereqTech>
+		<ObsoleteTech>TECH_CRUISE_MISSILES</ObsoleteTech>
+		<Combat>50</Combat>
+		<RangedCombat>40</RangedCombat>
+		<Cost>1525</Cost>
+		<Moves>6</Moves>
+		<Range>3</Range>
+		<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+		<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>60</AdvancedStartCost>
+		<MinAreaSize>20</MinAreaSize>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>80</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>33</PortraitIndex>
+		<MoveRate>BOAT</MoveRate>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<Class>UNITCLASS_DESTROYER</Class>
+		<Type>UNIT_VASILEFS_GEORGIOS_CLASS</Type>
+		<Description>TXT_KEY_UNIT_VASILEFS_GEORGIOS_CLASS</Description>
+		<Help>TXT_KEY_UNIT_HELP_VASILEFS_GEORGIOS_CLASS</Help>
+		<UnitArtInfo>ART_DEF_UNIT_VASILEFS_GEORGIOS_CLASS</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_VASILEFS_GEORGIOS_CLASS_TEXT</Civilopedia>
+		<PrereqTech>TECH_TORPEDOES</PrereqTech>
+		<ObsoleteTech>TECH_ADVANCED_MAGNETICS</ObsoleteTech>
+		<Combat>40</Combat>
+		<RangedCombat>30</RangedCombat>
+		<Cost>850</Cost>
+		<Moves>8</Moves>
+		<Range>2</Range>
+		<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+		<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_DESTROYER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>60</AdvancedStartCost>
+		<MinAreaSize>20</MinAreaSize>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>67</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>20</PortraitIndex>
+		<MoveRate>BOAT</MoveRate>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<Class>UNITCLASS_EARLYFIGHTER</Class>
+		<Type>UNIT_PZL_P.24</Type>
+		<Description>TXT_KEY_UNIT_PZL_P.24</Description>
+		<Help>TXT_KEY_UNIT_HELP_PZL_P.24</Help>
+		<UnitArtInfo>ART_DEF_UNIT_PZL_P.24</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_PZL_P.24_TEXT</Civilopedia>
+		<PrereqTech>TECH_FLIGHT</PrereqTech>
+		<ObsoleteTech>TECH_ADVANCED_FLIGHT</ObsoleteTech>
+		<RangedCombat>28</RangedCombat>
+		<Cost>875</Cost>
+		<Moves>2</Moves>
+		<Immobile>true</Immobile>
+		<Range>5</Range>
+		<Special>SPECIALUNIT_FIGHTER</Special>
+		<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+		<Domain>DOMAIN_AIR</Domain>
+		<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_FIGHTER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<AirUnitCap>1</AirUnitCap>
+		<RangedCombatLimit>100</RangedCombatLimit>
+		<CombatLimit>0</CombatLimit>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>2</XPValueDefense>
+		<UnitFlagIconOffset>62</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>17</PortraitIndex>
+		<MoveRate>AIR_REBASE</MoveRate>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<Class>UNITCLASS_EARLYTANK</Class>
+		<Type>UNIT_RENAULT_FT-17</Type>
+		<Description>TXT_KEY_UNIT_RENAULT_FT-17</Description>
+		<Help>TXT_KEY_UNIT_HELP_RENAULT_FT-17</Help>
+		<UnitArtInfo>ART_DEF_UNIT_RENAULT_FT-17</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_RENAULT_FT-17_TEXT</Civilopedia>
+		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		<ObsoleteTech>TECH_COMPOSITE_ARMOR</ObsoleteTech>
+		<Combat>41</Combat>
+		<Cost>950</Cost>
+		<Moves>4</Moves>
+		<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_TANK_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_TANK</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>57</UnitFlagIconOffset>
+		<PortraitIndex>13</PortraitIndex>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<MoveRate>WHEELED</MoveRate>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<Class>UNITCLASS_FIGHTER</Class>
+		<Type>UNIT_SUPERMARINE_SPITFIRE</Type>
+		<Description>TXT_KEY_UNIT_SUPERMARINE_SPITFIRE</Description>
+		<Help>TXT_KEY_UNIT_HELP_SUPERMARINE_SPITFIRE</Help>
+		<UnitArtInfo>ART_DEF_UNIT_SUPERMARINE_SPITFIRE_GREECE</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_SUPERMARINE_SPITFIRE_TEXT</Civilopedia>
+		<PrereqTech>TECH_FLIGHT</PrereqTech>
+		<ObsoleteTech>TECH_ADVANCED_FLIGHT</ObsoleteTech>
+		<RangedCombat>40</RangedCombat>
+		<Cost>930</Cost>
+		<Moves>2</Moves>
+		<Immobile>true</Immobile>
+		<Range>8</Range>
+		<Special>SPECIALUNIT_FIGHTER</Special>
+		<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+		<Domain>DOMAIN_AIR</Domain>
+		<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_FIGHTER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<AirUnitCap>1</AirUnitCap>
+		<RangedCombatLimit>100</RangedCombatLimit>
+		<CombatLimit>0</CombatLimit>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>2</XPValueDefense>
+		<UnitFlagIconOffset>62</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>17</PortraitIndex>
+		<MoveRate>AIR_REBASE</MoveRate>
+	</Row>
+
+	<!-- Infantry****************************************************** -->
+	<Row>
+		<Class>UNITCLASS_INFANTRY</Class>
+		<Type>UNIT_GREECE_WW2INFANTRY</Type>
+		<Description>TXT_KEY_UNIT_WW2INFANTRY_GREECE</Description>
+		<Help>TXT_KEY_UNIT_HELP_GREECE_WW2INFANTRY</Help>
+		<UnitArtInfo>ART_DEF_UNIT_INFANTRY_GREECE</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_GREEK_WW2INFANTRY_TEXT</Civilopedia>
+		<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+		<ObsoleteTech>TECH_EXOSKELETONS</ObsoleteTech>
+		<Combat>36</Combat>
+		<Cost>850</Cost>
+		<Moves>2</Moves>
+		<CombatClass>UNITCOMBAT_GUN</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_INFANTRY_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_MECHANIZED_INFANTRY</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>35</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<Conscription>6</Conscription>
+		<UnitFlagIconOffset>54</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>11</PortraitIndex>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<Class>UNITCLASS_PARATROOPER</Class>
+		<Type>UNIT_GREECE_WW2PARATROOPER</Type>
+		<Description>TXT_KEY_UNIT_GREECE_WW2PARATROOPER</Description>
+		<Help>TXT_KEY_UNIT_HELP_GREECE_WW2PARATROOPER</Help>
+		<UnitArtInfo>ART_DEF_UNIT_PARATROOPER_GREECE</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_GREEK_WW2PARATROOPER_TEXT</Civilopedia>
+		<PrereqTech>TECH_FLIGHT</PrereqTech>
+		<ObsoleteTech>TECH_EXOSKELETONS</ObsoleteTech>
+		<Combat>40</Combat>
+		<Cost>920</Cost>
+		<Moves>2</Moves>
+		<CombatClass>UNITCOMBAT_GUN</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_PARADROP</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_PARATROOPER_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<AdvancedStartCost>40</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<Conscription>1</Conscription>
+		<UnitFlagIconOffset>59</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>14</PortraitIndex>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<Class>UNITCLASS_SUBMARINE</Class>
+		<Type>UNIT_KATSONIS_CLASS</Type>
+		<Description>TXT_KEY_UNIT_KATSONIS_CLASS</Description>
+		<Help>TXT_KEY_UNIT_HELP_KATSONIS_CLASS</Help>
+		<UnitArtInfo>ART_DEF_UNIT_KATSONIS_CLASS</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_KATSONIS_CLASS_TEXT</Civilopedia>
+		<PrereqTech>TECH_SUBMERSIBLES</PrereqTech>
+		<ObsoleteTech>TECH_METAMATERIALS</ObsoleteTech>
+		<Combat>30</Combat>
+		<RangedCombat>70</RangedCombat>
+		<Cost>930</Cost>
+		<Moves>5</Moves>
+		<Range>3</Range>
+		<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+		<Domain>DOMAIN_SEA</Domain>
+		<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_SUBMARINE_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<AdvancedStartCost>60</AdvancedStartCost>
+		<MinAreaSize>20</MinAreaSize>
+		<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>69</UnitFlagIconOffset>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<PortraitIndex>22</PortraitIndex>
+		<MoveRate>SUB</MoveRate>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row>
+		<Class>UNITCLASS_TANK</Class>
+		<Type>UNIT_VICKERS_MK_II</Type>
+		<Description>TXT_KEY_UNIT_VICKERS_MK_II</Description>
+		<Help>TXT_KEY_UNIT_HELP_VICKERS_MK_II</Help>
+		<UnitArtInfo>ART_DEF_UNIT_VICKERS_MK_II</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_VICKERS_MK_II_TEXT</Civilopedia>
+		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		<ObsoleteTech>TECH_COMPOSITE_ARMOR</ObsoleteTech>
+		<Combat>50</Combat>
+		<Cost>1050</Cost>
+		<Moves>5</Moves>
+		<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_TANK_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_ARMOR</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>57</UnitFlagIconOffset>
+		<PortraitIndex>13</PortraitIndex>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<MoveRate>WHEELED</MoveRate>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row>
+		<Class>UNITCLASS_LIGHTTANK</Class>			
+		<Type>UNIT_VICKERS_MK_E</Type>
+		<Description>TXT_KEY_UNIT_VICKERS_MK_E</Description>
+		<Help>TXT_KEY_UNIT_HELP_VICKERS_MK_E</Help>
+		<UnitArtInfo>ART_DEF_UNIT_VICKERS_MK_E</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_VICKERS_MK_E_TEXT</Civilopedia>			
+		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		<ObsoleteTech>TECH_COMPOSITE_ARMOR</ObsoleteTech>
+		<Combat>45</Combat>
+		<Cost>16360</Cost>
+		<Moves>5</Moves>
+		<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_TANK_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_ARMOR</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>57</UnitFlagIconOffset>
+		<PortraitIndex>13</PortraitIndex>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<MoveRate>WHEELED</MoveRate>
+	</Row>-->
+
+	<!-- Medium Tanks********************************************************* -->
+	<!--<Row>
+		<Class>UNITCLASS_MEDIUMTANK</Class>		
+		<Type>UNIT_VICKERS_MK_II</Type>
+		<Description>TXT_KEY_UNIT_VICKERS_MK_II</Description>
+		<Help>TXT_KEY_UNIT_HELP_VICKERS_MK_II</Help>
+		<UnitArtInfo>ART_DEF_UNIT_VICKERS_MK_II</UnitArtInfo>
+		<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_VICKERS_MK_II_TEXT</Civilopedia>		
+		<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		<ObsoleteTech>TECH_COMPOSITE_ARMOR</ObsoleteTech>
+		<Combat>50</Combat>
+		<Cost>17360</Cost>
+		<Moves>5</Moves>
+		<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+		<Domain>DOMAIN_LAND</Domain>
+		<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+		<Strategy>TXT_KEY_UNIT_TANK_STRATEGY</Strategy>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		<Pillage>true</Pillage>
+		<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		<Mechanized>true</Mechanized>
+		<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_ARMOR</GoodyHutUpgradeUnitClass>
+		<AdvancedStartCost>50</AdvancedStartCost>
+		<XPValueAttack>3</XPValueAttack>
+		<XPValueDefense>3</XPValueDefense>
+		<UnitFlagIconOffset>57</UnitFlagIconOffset>
+		<PortraitIndex>13</PortraitIndex>
+		<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+		<MoveRate>WHEELED</MoveRate>
+	</Row>-->
+	
+</Units>
+
+<Civilization_UnitClassOverrides>
+
+	
+	<!-- ************************************GREECE******************************* -->
+
+	
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_BOMBER</UnitClassType>
+		<UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_CRUISER</UnitClassType>
+		<UnitType>UNIT_PISA_CLASS</UnitType>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_EARLYFIGHTER</UnitClassType>
+		<UnitType>UNIT_PZL_P.24</UnitType>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_EARLYTANK</UnitClassType>
+		<UnitType>UNIT_RENAULT_FT-17</UnitType>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+		<UnitType>UNIT_GREECE_WW2INFANTRY</UnitType>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_PARATROOPER</UnitClassType>
+		<UnitType>UNIT_GREECE_WW2PARATROOPER</UnitType>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_SUBMARINE</UnitClassType>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+	</Row>
+
+	<!-- Tanks************************************************** -->
+	<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_TANK</UnitClassType>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_LIGHTTANK</UnitClassType>
+		<UnitType>UNIT_VICKERS_MK_E</UnitType>
+	</Row>-->
+
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row>
+		<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+		<UnitClassType>UNITCLASS_MEDIUMTANK</UnitClassType>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+	</Row>-->
+
+</Civilization_UnitClassOverrides>
+
+<Unit_AITypes>
+
+	
+	<!-- ************************************GREECE******************************* -->
+
+	
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
+		<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_PISA_CLASS</UnitType>
+		<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PISA_CLASS</UnitType>
+		<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<UnitType>UNIT_PZL_P.24</UnitType>
+		<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PZL_P.24</UnitType>
+		<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<UnitType>UNIT_RENAULT_FT-17</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RENAULT_FT-17</UnitType>
+		<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
+	</Row>
+
+	<!-- Infantry****************************************************** -->
+	<Row>
+		<UnitType>UNIT_GREECE_WW2INFANTRY</UnitType>
+		<UnitAIType>UNITAI_ATTACK</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GREECE_WW2INFANTRY</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GREECE_WW2INFANTRY</UnitType>
+		<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<UnitType>UNIT_GREECE_WW2PARATROOPER</UnitType>
+		<UnitAIType>UNITAI_PARADROP</UnitAIType>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row>
+		<UnitType>UNIT_VICKERS_MK_E</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_E</UnitType>
+		<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+	</Row>-->
+
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+	</Row>-->
+
+</Unit_AITypes>
+
+<Unit_Flavors>
+
+	<!-- ************************************GREECE******************************* -->
+
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>6</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
+		<FlavorType>FLAVOR_AIR</FlavorType>
+		<Flavor>15</Flavor>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_PISA_CLASS</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>6</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PISA_CLASS</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PISA_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PISA_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+		<Flavor>7</Flavor>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>6</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>6</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL</FlavorType>
+		<Flavor>7</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+		<Flavor>4</Flavor>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<UnitType>UNIT_PZL_P.24</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PZL_P.24</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PZL_P.24</UnitType>
+		<FlavorType>FLAVOR_AIR</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PZL_P.24</UnitType>
+		<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+		<Flavor>15</Flavor>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<UnitType>UNIT_RENAULT_FT-17</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RENAULT_FT-17</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RENAULT_FT-17</UnitType>
+		<FlavorType>FLAVOR_MOBILE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<FlavorType>FLAVOR_AIR</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+		<Flavor>15</Flavor>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row>
+		<UnitType>UNIT_GREECE_WW2INFANTRY</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GREECE_WW2INFANTRY</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<UnitType>UNIT_GREECE_WW2PARATROOPER</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GREECE_WW2PARATROOPER</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GREECE_WW2PARATROOPER</UnitType>
+		<FlavorType>FLAVOR_AIR</FlavorType>
+		<Flavor>3</Flavor>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>6</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL</FlavorType>
+		<Flavor>8</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+		<Flavor>2</Flavor>
+	</Row>
+
+	<!-- Tanks************************************************** -->
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<FlavorType>FLAVOR_MOBILE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row>
+		<UnitType>UNIT_VICKERS_MK_E</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_E</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_E</UnitType>
+		<FlavorType>FLAVOR_MOBILE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>-->
+
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<FlavorType>FLAVOR_OFFENSE</FlavorType>
+		<Flavor>12</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<FlavorType>FLAVOR_DEFENSE</FlavorType>
+		<Flavor>9</Flavor>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<FlavorType>FLAVOR_MOBILE</FlavorType>
+		<Flavor>10</Flavor>
+	</Row>-->
+
+</Unit_Flavors>
+
+<Unit_ClassUpgrades>
+
+
+	<!-- ************************************GREECE******************************* -->
+
+	
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
+		<UnitClassType>UNITCLASS_UNMANNED_AIRCRAFT</UnitClassType>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_PISA_CLASS</UnitType>
+		<UnitClassType>UNITCLASS_MISSILE_CRUISER</UnitClassType>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<UnitClassType>UNITCLASS_DDX_DESTROYER</UnitClassType>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<UnitType>UNIT_PZL_P.24</UnitType>
+		<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<UnitType>UNIT_RENAULT_FT-17</UnitType>
+		<UnitClassType>UNITCLASS_TANK</UnitClassType>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<UnitClassType>UNITCLASS_JET_FIGHTER</UnitClassType>
+	</Row>
+
+	<!-- Infantry************************************************** -->
+	<Row>
+		<UnitType>UNIT_GREECE_WW2INFANTRY</UnitType>
+		<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<UnitType>UNIT_GREECE_WW2PARATROOPER</UnitType>
+		<UnitClassType>UNITCLASS_POWERED_INFANTRY</UnitClassType>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<UnitClassType>UNITCLASS_STEALTH_SUBMARINE</UnitClassType>
+	</Row>
+
+	<!-- Tanks************************************************** -->
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
+	</Row>
+
+	<!-- Light Tanks********************************************************* -->
+	<!--<Row>
+		<UnitType>UNIT_VICKERS_MK_E</UnitType>
+		<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
+	</Row>-->
+
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
+	</Row>-->
+
+</Unit_ClassUpgrades>
+
+
+<Unit_ResourceQuantityRequirements>
+		
+		
+</Unit_ResourceQuantityRequirements>
+
+<Unit_FreePromotions>
+
+	<!-- ************************************GREECE******************************* -->
+
+	
+	<!-- Bombers******************************************************* -->
+	<Row>
+		<UnitType>UNIT_BRISTOL_BLENHEIM</UnitType>
+		<PromotionType>PROMOTION_NAVAL_PENALTY</PromotionType>
+	</Row>
+<!--
+	<!-- Cruisers****************************************************** -->
+	<Row>
+		<UnitType>UNIT_PISA_CLASS</UnitType>
+		<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PISA_CLASS</UnitType>
+		<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PISA_CLASS</UnitType>
+		<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	</Row>
+-->
+	<!-- Destroyers**************************************************** -->
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VASILEFS_GEORGIOS_CLASS</UnitType>
+		<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	</Row>
+<!--
+	<!-- Early Fighters************************************************ -->
+	<Row>
+		<UnitType>UNIT_PZL_P.24</UnitType>
+		<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PZL_P.24</UnitType>
+		<PromotionType>PROMOTION_WEAK_RANGED</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PZL_P.24</UnitType>
+		<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+	</Row>
+
+	<!-- Early Tank**************************************************** -->
+	<Row>
+		<UnitType>UNIT_RENAULT_FT-17</UnitType>
+		<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RENAULT_FT-17</UnitType>
+		<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RENAULT_FT-17</UnitType>
+		<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+	</Row>
+-->
+	<!-- Fighters****************************************************** -->
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<PromotionType>PROMOTION_WEAK_RANGED</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SUPERMARINE_SPITFIRE</UnitType>
+		<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
+	</Row>
+
+	<!-- Paratroopers************************************************** -->
+	<Row>
+		<UnitType>UNIT_GREECE_WW2PARATROOPER</UnitType>
+		<PromotionType>PROMOTION_PARADROP</PromotionType>
+	</Row>
+
+	<!-- Submarines**************************************************** -->
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<PromotionType>PROMOTION_INVISIBLE_SUBMARINE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KATSONIS_CLASS</UnitType>
+		<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	</Row>
+
+	<!-- Tanks********************************************************* -->
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+	</Row>
+
+	<!-- Light Tanks*********************************************************-->
+	<!--<Row>
+		<UnitType>UNIT_VICKERS_MK_E</UnitType>
+		<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_E</UnitType>
+		<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_E</UnitType>
+		<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+	</Row>-->
+	
+	<!-- Medium Tanks******************************************************** -->
+	<!--<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_VICKERS_MK_II</UnitType>
+		<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+	</Row>-->
+		
+</Unit_FreePromotions>
+
+<Language_en_US>
+
+</Language_en_US>
+</GameData>
