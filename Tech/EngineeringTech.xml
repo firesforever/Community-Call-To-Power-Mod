@@ -7,15 +7,63 @@
 			<Set TechCat="TECHTREE_ENGINEERING" Cost="11" Era="ERA_ANCIENT" GridX="1" GridY="5" />
 			<Where Type="TECH_MINING" />
 		</Update>
+		<Row>
+			<Type>TECH_RAW_MATERIALS</Type>
+			<TechCat>TECHTREE_ENGINEERING</TechCat>
+			<Description>TXT_KEY_TECH_RAW_MATERIALS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_RAW_MATERIALS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_RAW_MATERIALS_HELP</Help>
+			<Cost>13</Cost>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>2</GridX>
+			<GridY>2</GridY>
+			<Quote>TXT_KEY_RAW_MATERIALS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<Update>
-			<Set TechCat="TECHTREE_ENGINEERING" Cost="15" Era="ERA_ANCIENT" GridX="3" GridY="4" />
+			<Set TechCat="TECHTREE_ENGINEERING" Cost="13" Era="ERA_ANCIENT" GridX="2" GridY="4" />
 			<Where Type="TECH_MASONRY" />
 		</Update>
+		<Row>
+			<Type>TECH_GREAT_WORKS</Type>
+			<TechCat>TECHTREE_ENGINEERING</TechCat>
+			<Description>TXT_KEY_TECH_GREAT_WORKS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_GREAT_WORKS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_GREAT_WORKS_HELP</Help>
+			<Cost>15</Cost>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>3</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_GREAT_WORKS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<!-- Classical Era -->
 		<Update>
-			<Set TechCat="TECHTREE_ENGINEERING" Cost="35" Era="ERA_CLASSICAL" GridX="5" GridY="4" />
+			<Set TechCat="TECHTREE_ENGINEERING" Cost="35" Era="ERA_CLASSICAL" GridX="5" GridY="5" />
 			<Where Type="TECH_CONSTRUCTION" />
 		</Update>
+		<Row>
+			<Type>TECH_STONE_MASONS</Type>
+			<TechCat>TECHTREE_ENGINEERING</TechCat>
+			<Description>TXT_KEY_TECH_STONE_MASONS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_STONE_MASONS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_STONE_MASONS_HELP</Help>
+			<Cost>35</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>5</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_STONE_MASONS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<!-- Medieval Era -->
 		<Update>
 			<Set TechCat="TECHTREE_ENGINEERING" Cost="92" Era="ERA_MEDIEVAL" GridX="8" GridY="5" />
@@ -263,6 +311,16 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
+		<Row>
+			<TechType>TECH_RAW_MATERIALS</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_GREAT_WORKS</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
 		<Delete TechType="TECH_MASONRY" FlavorType="FLAVOR_HAPPINESS" />
 		<Update>
 			<Where TechType="TECH_MASONRY" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
@@ -294,6 +352,21 @@
 			<Where TechType="TECH_CONSTRUCTION" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
 			<Set Flavor="6" />
 		</Update>
+		<Row>
+			<TechType>TECH_STONE_MASONS</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_STONE_MASONS</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_STONE_MASONS</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
 		<!--MEDIEVAL-->
 		<Delete TechType="TECH_ENGINEERING" FlavorType="FLAVOR_DEFENSE" />
 		<Update>

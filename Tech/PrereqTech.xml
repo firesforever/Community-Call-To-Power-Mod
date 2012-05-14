@@ -4,6 +4,58 @@
 	<Technology_PrereqTechs>
 		<Delete/>
 		<Row>
+			<TechType>TECH_HERDING</TechType>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HERDING</TechType>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RAW_MATERIALS</TechType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_GREAT_WORKS</TechType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CONSTRUCTION</TechType>
+			<PrereqTech>TECH_GREAT_WORKS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FISH_MARKETS</TechType>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HERBAL_SCIENCE</TechType>
+			<PrereqTech>TECH_TRADING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HERBAL_SCIENCE</TechType>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HERBAL_SCIENCE</TechType>
+			<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_APOTHECARY</TechType>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_APOTHECARY</TechType>
+			<PrereqTech>TECH_HERBAL_SCIENCE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_MARKETS</TechType>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_MARKETS</TechType>
+			<PrereqTech>TECH_HERDING</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
 			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 		</Row>
@@ -76,10 +128,6 @@
 			<PrereqTech>TECH_SAILING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_FISH_MARKETS</TechType>
-			<PrereqTech>TECH_SAILING</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_WRITING</TechType>
 			<PrereqTech>TECH_POTTERY</PrereqTech>
 		</Row>
@@ -132,72 +180,36 @@
 			<PrereqTech>TECH_TRADING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
+			<TechType>TECH_FARMERS_MARKETS</TechType>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FARMERS_MARKETS</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
+			<PrereqTech>TECH_FERMENTATION</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FOOD_FLAVORING</TechType>
 			<PrereqTech>TECH_TRADING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_FOOD_FLAVORING</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_DRINK_FLAVORING</TechType>
 			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_DRINK_FLAVORING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_TEXTILE_TRADE</TechType>
 			<PrereqTech>TECH_TRADING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_TEXTILE_TRADE</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_METALS_TRADE</TechType>
 			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_AROMATICS</TechType>
 			<PrereqTech>TECH_TRADING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_AROMATICS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_LIVESTOCK_AUCTIONS</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_CARVING</TechType>
 			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_CARVING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_TANNING</TechType>
@@ -205,15 +217,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_TANNING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_DRUGS</TechType>
-			<PrereqTech>TECH_AROMATICS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_DRUGS</TechType>
-			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<PrereqTech>TECH_TRADING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_SHIPBUILDING</TechType>
@@ -285,7 +289,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_POETRY</TechType>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_HERBAL_SCIENCE</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_POETRY</TechType>
@@ -312,10 +316,6 @@
 			<PrereqTech>TECH_CARRIAGES</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_CONSTRUCTION</TechType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_IRON_WORKING</TechType>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 		</Row>
@@ -340,12 +340,12 @@
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_IRON_TRADE</TechType>
+			<TechType>TECH_DIVISION_OF_LABOR</TechType>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_DIVISION_OF_LABOR</TechType>
-			<PrereqTech>TECH_IRON_TRADE</PrereqTech>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_TRADE_FAIRS</TechType>
@@ -357,11 +357,15 @@
 		</Row>
 		<Row>
 			<TechType>TECH_COFFEE_TRADE</TechType>
-			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<PrereqTech>TECH_APOTHECARY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
 			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
+			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_TRADE_FAIRS</TechType>
@@ -392,8 +396,8 @@
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_DIVISION_OF_LABOR</TechType>
-			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<TechType>TECH_ENGINEERING</TechType>
+			<PrereqTech>TECH_DIVISION_OF_LABOR</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_CHIVALRY</TechType>

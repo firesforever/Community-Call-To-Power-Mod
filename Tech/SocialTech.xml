@@ -119,7 +119,7 @@
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>4</GridX>
-			<GridY>4</GridY>theo
+			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_PRIESTHOOD_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
@@ -137,6 +137,22 @@
 			<GridX>4</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_CODE_OF_LAWS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_HERBAL_SCIENCE</Type>
+			<TechCat>TECHTREE_SOCIAL</TechCat>
+			<Description>TXT_KEY_TECH_HERBAL_SCIENCE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_HERBAL_SCIENCE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_HERBAL_SCIENCE_HELP</Help>
+			<Cost>35</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>5</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_HERBAL_SCIENCE_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -633,6 +649,16 @@
 			<TechType>TECH_PRIESTHOOD</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_HERBAL_SCIENCE</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_HERBAL_SCIENCE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Update>
 			<Where TechType="TECH_PHILOSOPHY" FlavorType="FLAVOR_WONDER"/>

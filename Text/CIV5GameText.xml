@@ -83,7 +83,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ABBEY_HELP</Tag>
-			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces 1 [ICON_GOLD] Gold. Each source of [ICON_RES_SILK] Silk worked by this City produces 1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces +1 [ICON_GOLD] Gold. Each source of [ICON_RES_SILK] Silk worked by this City produces +1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ABBEY_STRATEGY</Tag>
@@ -2095,22 +2095,6 @@
 			<Text>“The merchant has no country” (Thomas Jefferson)</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_FISH_MARKETS_TITLE</Tag>
-			<Text>Fish Markets ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FISH_MARKETS_DESC</Tag>
-			<Text>A fish market is a marketplace used for marketing fish products. It can be dedicated to wholesale trade between fishermen and fish merchants, or to the sale of seafood to individual consumers, or to both. Retail fish markets, a type of wet market, often sell street food as well.[NEWLINE][NEWLINE]Because seafood is quick to spoil, fish markets are historically most often found in seaside towns. Once ice or other simple cooling methods became available, some were also established in large inland cities that had good trade routes to the coast.[NEWLINE][NEWLINE]Since refrigeration and rapid transport became available in the 19th and 20th century, fish markets can technically be established at any place. However, because modern trade logistics in general has shifted away from marketplaces and towards retail outlets, such as supermarkets, most seafood worldwide is now sold to consumers through these venues, like most other foodstuffs.[NEWLINE][NEWLINE]Consequently, most major fish markets now mainly deal with wholesale trade, and the existing major fish retail markets continue to operate as much for traditional reasons as for commercial ones. Both types of fish markets are often tourist attractions as well.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FISH_MARKETS_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Fish Market[ENDCOLOR], [COLOR_POSITIVE_TEXT]Whale Market[ENDCOLOR], [COLOR_POSITIVE_TEXT]Pearl Market[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Crab Market[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FISH_MARKETS_QUOTE</Tag>
-			<Text>“Fish and visitors smell in three days.” (Benjamin Franklin)</Text>
-		</Row>
-		<Row>
 			<Tag>TXT_KEY_TECH_FARMERS_MARKETS_TITLE</Tag>
 			<Text>Farmer's Markets ([ICON_GOLD])  </Text>
 		</Row>
@@ -2207,19 +2191,19 @@
 			<Text>“Nothing is more memorable than a smell. One scent can be unexpected, momentary and fleeting, yet conjure up a childhood summer beside a lake in the mountains...” (Diane Ackerman)</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_TITLE</Tag>
-			<Text>Livestock Auctions ([ICON_GOLD])  </Text>
+			<Tag>TXT_KEY_TECH_ANIMAL_MARKETS_TITLE</Tag>
+			<Text>Animal Markets ([ICON_GOLD])  </Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_DESC</Tag>
+			<Tag>TXT_KEY_TECH_ANIMAL_MARKETS_DESC</Tag>
 			<Text>An auction is a process of buying and selling goods or services by offering them up for bid, taking bids, and then selling the item to the highest bidder. In economic theory, an auction may refer to any mechanism or set of trading rules for exchange.[NEWLINE][NEWLINE]It is generally accepted that auctions were recorded as early as 500 B.C. They were Babylonian wedding auctions, held annually, where women were sold for the purpose of marriage. These auctions were of the "descending type" where the offers for the beautiful maidens started high and went down until the bidder accepted the maiden. The "true value" in many cases, related to beauty and the less comely maidens sometimes had to pay a dowry to be accepted. Thus the price could actually be negative figure for the buyer.[NEWLINE][NEWLINE]Auctions were also used extensively during the Roman Empire. The refinement of the auction process grew to be much more organized and defined. In today's language, the key players became the consignor (the person on whose behalf the property was sold), the organizer (regulator, financial backer), the promoter (advertiser, auctioneer), and the buyer (highest and final bidder). Auctions were held at the "Atrium" for the purpose of selling the "spoils of war" at public auction for the soldiers after a military victory. Business agents were said to have accompanied the warriors into battle in order to facilitate and promote expected sales. (The Latin word for auction is auctus, which means to increase).[NEWLINE][NEWLINE]The Romans also used the auction to liquidate personal property. Marcus Aurelius is said to have auctioned off prized heirlooms and furniture. It's claimed that that auction lasted over two months.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Horse Stable[ENDCOLOR], [COLOR_POSITIVE_TEXT]Cattle Yard[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Sheep Butcher[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
+			<Tag>TXT_KEY_TECH_ANIMAL_MARKETS_HELP</Tag>
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Cattle Trader[ENDCOLOR], [COLOR_POSITIVE_TEXT]Sheep Trader[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Deer Market[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_QUOTE</Tag>
+			<Tag>TXT_KEY_TECH_ANIMAL_MARKETS_QUOTE</Tag>
 			<Text>“In order to be an immaculate member of a flock of sheep, one must above all be a sheep oneself.” (Albert Einstein)</Text>
 		</Row>
 		<Row>
@@ -2271,19 +2255,19 @@
 			<Text>“Monopoly is business at the end of its journey.” (Henry DeMarest Lloyd)</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_DRUGS_TITLE</Tag>
-			<Text>Drugs ([ICON_GOLD])  </Text>
+			<Tag>TXT_KEY_TECH_APOTHECARY_TITLE</Tag>
+			<Text>Apothecary ([ICON_GOLD])  </Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_DRUGS_DESC</Tag>
-			<Text>Drug use and abuse is as old as mankind itself. Human beings have always had a desire to eat or drink substances that make them feel relaxed, stimulated, or euphoric. Humans have used drugs of one sort or another for thousands of years. Wine was used at least from the time of the early Egyptians; narcotics from 4000 B.C.; and medicinal use of marijuana has been dated to 2737 BC in China.[NEWLINE][NEWLINE]As time went by, "home remedies" were discovered and used to alleviate aches, pains and other ailments. Most of these preparations were herbs, roots, mushrooms or fungi. They had to be eaten, drunk, rubbed on the skin, or inhaled to achieve the desired effect.[NEWLINE][NEWLINE]Pre-Columbian Mexicans used many substances, from tobacco to mind-expanding (hallucinogenic) plants, in their medicinal collections. The most fascinating of these substances are sacred mushrooms, used in religious ceremonies to induce altered states of mind, not just drunkenness.</Text>
+			<Tag>TXT_KEY_TECH_APOTHECARY_DESC</Tag>
+			<Text>Drug use and abuse is as old as mankind itself. Human beings have always had a desire to eat or drink substances that make them feel relaxed, stimulated, or euphoric. Humans have used APOTHECARY of one sort or another for thousands of years. Wine was used at least from the time of the early Egyptians; narcotics from 4000 B.C.; and medicinal use of marijuana has been dated to 2737 BC in China.[NEWLINE][NEWLINE]As time went by, "home remedies" were discovered and used to alleviate aches, pains and other ailments. Most of these preparations were herbs, roots, mushrooms or fungi. They had to be eaten, drunk, rubbed on the skin, or inhaled to achieve the desired effect.[NEWLINE][NEWLINE]Pre-Columbian Mexicans used many substances, from tobacco to mind-expanding (hallucinogenic) plants, in their medicinal collections. The most fascinating of these substances are sacred mushrooms, used in religious ceremonies to induce altered states of mind, not just drunkenness.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_DRUGS_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Poppy Refinery[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Tobacco Barn[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
+			<Tag>TXT_KEY_TECH_APOTHECARY_HELP</Tag>
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Poppy Refinery[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aloe Vera Distillery[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_DRUGS_QUOTE</Tag>
+			<Tag>TXT_KEY_TECH_APOTHECARY_QUOTE</Tag>
 			<Text>“I used to have a drug problem, now I make enough money.” (David Lee Roth)</Text>
 		</Row>
 		<Row>
@@ -3232,7 +3216,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SOLAR_POWER_DESC</Tag>
-			<Text>Solar power is by far the Earth's most available energy source, easily capable of providing many times the total current energy demand. The largest solar power plants, like the 354 MW SEGS, are concentrating solar thermal plants, but recently multi-megawatt photovoltaic plants have been built. Completed in 2008, the 46 MW Moura photovoltaic power station in Portugal and the 40 MW Waldpolenz Solar Park in Germany are characteristic of the trend toward larger photovoltaic power stations. Much larger ones are proposed, such as the 550 MW Topaz Solar Farm, and the 600 MW Rancho Cielo Solar Farm. Covering 4% of the world's desert area with photovoltaics could supply all of the world's electriCity. The Gobi Desert alone could supply almost all of the world's total energy demand.</Text>
+			<Text>Solar power is by far the Earth's most available energy source, easily capable of providing many times the total current energy demand. The largest solar power plants, like the 354 MW SEGS, are concentrating solar thermal plants, but recently multi-megawatt photovoltaic plants have been built. Completed in 2008, the 46 MW Moura photovoltaic power station in Portugal and the 40 MW Waldpolenz Solar Park in Germany are characteristic of the trend toward larger photovoltaic power stations. Much larger ones are proposed, such as the 550 MW Topaz Solar Farm, and the 600 MW Rancho Cielo Solar Farm. Covering 4% of the world's desert area with photovoltaics could supply all of the world's electricity. The Gobi Desert alone could supply almost all of the world's total energy demand.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SOLAR_POWER_HELP</Tag>
@@ -3520,7 +3504,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_OPTICAL_COMPUTING_DESC</Tag>
-			<Text>An optical computer (also called a photonic computer) is a device that uses the photons of visible light or infrared (IR) beams, rather than electrons in the electric current, to perform digital computations. An electric current creates heat in computer systems. As the processing speed increases, so does the amount of electriCity required; this extra heat is extremely damaging to the hardware. Light, however, creates insignificant amounts of heat[dubious – discuss], regardless of how much is used. Thus, the development of more powerful processing systems becomes possible. By applying some of the advantages of visible and/or IR networks at the device and component scale, a computer might someday be developed that can perform operations significantly faster than a conventional electronic computer.</Text>
+			<Text>An optical computer (also called a photonic computer) is a device that uses the photons of visible light or infrared (IR) beams, rather than electrons in the electric current, to perform digital computations. An electric current creates heat in computer systems. As the processing speed increases, so does the amount of electricity required; this extra heat is extremely damaging to the hardware. Light, however, creates insignificant amounts of heat[dubious – discuss], regardless of how much is used. Thus, the development of more powerful processing systems becomes possible. By applying some of the advantages of visible and/or IR networks at the device and component scale, a computer might someday be developed that can perform operations significantly faster than a conventional electronic computer.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_OPTICAL_COMPUTING_HELP</Tag>
@@ -4697,6 +4681,104 @@
 			<Tag>TXT_KEY_PROJECT_WORMHOLE_DETECTION_ARRAY_PEDIA</Tag>
 			<Text>The Wormhole Detection Array is a feat of human engineering that places many detection stations around the solar system, all of which coordinate to pinpoint possible wormhole entrances.  Any such wormhole entrances could potentially open up the stars to human colonization, or perhaps even alien contact.</Text>
 		</Row>
+		
+		<Row>
+			<Tag>TXT_KEY_TECH_HERDING_TITLE</Tag>
+			<Text>Herding ([ICON_GOLD])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERDING_DESC</Tag>
+			<Text>Markets for trading various livestock.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERDING_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Cattle Ranch[ENDCOLOR],[COLOR_POSSITIVE_TEXT] Sheep Ranch[ENDCOLOR], and[COLOR_POSSITIVE_TEXT] Deer Herder[ENDCOLOR], the first buildings in their respective Monopoly trees.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERDING_QUOTE</Tag>
+			<Text>"“In order to be an immaculate member of a flock of sheep, one must above all be a sheep oneself.” (Albert Einstein)</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_RAW_MATERIALS_TITLE</Tag>
+			<Text>Raw Materials ([ICON_PRODUCTION])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_RAW_MATERIALS_DESC</Tag>
+			<Text>Markets for trading various raw materials.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_RAW_MATERIALS_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Stone Cutter[ENDCOLOR] and[COLOR_POSSITIVE_TEXT] Copper Smelter[ENDCOLOR], the first buildings in their respective Monopoly trees.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_RAW_MATERIALS_QUOTE</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_GREAT_WORKS_TITLE</Tag>
+			<Text>Great Works ([ICON_PRODUCTION])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_GREAT_WORKS_DESC</Tag>
+			<Text>Various Wonders dedicated to notable figures.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_GREAT_WORKS_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Mausoleum of Halicarnassus[ENDCOLOR], [COLOR_POSSITIVE_TEXT] The Labyrnth[ENDCOLOR], and[COLOR_POSSITIVE_TEXT] Sphinx[ENDCOLOR] Wonders.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_GREAT_WORKS_QUOTE</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_FISH_MARKETS_TITLE</Tag>
+			<Text>Fish Markets ([ICON_GOLD])  </Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_FISH_MARKETS_DESC</Tag>
+			<Text>A fish market is a marketplace used for marketing fish products. It can be dedicated to wholesale trade between fishermen and fish merchants, or to the sale of seafood to individual consumers, or to both. Retail fish markets, a type of wet market, often sell street food as well.[NEWLINE][NEWLINE]Because seafood is quick to spoil, fish markets are historically most often found in seaside towns. Once ice or other simple cooling methods became available, some were also established in large inland cities that had good trade routes to the coast.[NEWLINE][NEWLINE]Since refrigeration and rapid transport became available in the 19th and 20th century, fish markets can technically be established at any place. However, because modern trade logistics in general has shifted away from marketplaces and towards retail outlets, such as supermarkets, most seafood worldwide is now sold to consumers through these venues, like most other foodstuffs.[NEWLINE][NEWLINE]Consequently, most major fish markets now mainly deal with wholesale trade, and the existing major fish retail markets continue to operate as much for traditional reasons as for commercial ones. Both types of fish markets are often tourist attractions as well.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_FISH_MARKETS_HELP</Tag>
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Fish Herder[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Crab Herder [ENDCOLOR], the first buildings in their respective Monopoly trees.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_FISH_MARKETS_QUOTE</Tag>
+			<Text>“Fish and visitors smell in three days.” (Benjamin Franklin)</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERBAL_SCIENCE_TITLE</Tag>
+			<Text>Herbal Science ([ICON_CULTURE]/[ICON_HAPPINESS_1])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERBAL_SCIENCE_DESC</Tag>
+			<Text>Field of science dedicated to finding natural cures.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERBAL_SCIENCE_HELP</Tag>
+			<Text>Reveals Aloe Vera, Amber, and Poppy, which are used in the construction of Monopoly buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERBAL_SCIENCE_QUOTE</Tag>
+			<Text>N/A</Text>
+		</Row>
+
+		<Row>
+			<Tag>TXT_KEY_TECH_STONE_MASONS_TITLE</Tag>
+			<Text>Stone Masons ([ICON_PRODUCTION])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_STONE_MASONS_DESC</Tag>
+			<Text>Group of people dedicated to finding, using, and profiting from geological resources.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_STONE_MASONS_HELP</Tag>
+			<Text>Allows you to build the [COLOR_POSITIVE]Copper Depot[ENDCOLOR], [COLOR_POSITIVE]Stone Depot[ENDCOLOR], and[COLOR_POSITIVE] Jade Market[ENDCOLOR] Monopoly buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_STONE_MASONS_QUOTE</Tag>
+			<Text>N/A</Text>
+		</Row>
 		<Update>
 			<Set Text="Greatly increases [ICON_HAPPINESS_1] Happiness in the empire."/>
 			<Where Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP" />
@@ -4957,6 +5039,7 @@
 			<Set Text="Animal Husbandry ([ICON_GOLD])  " />
 			<Where Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_TITLE" />
 		</Update>
+		
 		<Update>
 			<Set Text="Archery ([ICON_STRENGTH])  " />
 			<Where Tag="TXT_KEY_TECH_ARCHERY_TITLE" />
@@ -5126,8 +5209,8 @@
 			<Where Tag="TXT_KEY_TECH_STEAM_POWER_TITLE" />
 		</Update>
 		<Update>
-			<Set Text="ElectriCity ([ICON_RESEARCH])  " />
-			<Where Tag="TXT_KEY_TECH_ELECTRICity_TITLE" />
+			<Set Text="Electricity ([ICON_RESEARCH])  " />
+			<Where Tag="TXT_KEY_TECH_ELECTRICITY_TITLE" />
 		</Update>
 		<Update>
 			<Set Text="Replaceable Parts ([ICON_PRODUCTION])  " />
@@ -5163,7 +5246,7 @@
 		</Update>
 		<Update>
 			<Set Text="Plastic ([ICON_RESEARCH])  " />
-			<Where Tag="TXT_KEY_TECH_PLASTIC_TITLE" />
+			<Where Tag="TXT_KEY_TECH_PLASTICS_TITLE" />
 		</Update>
 		<Update>
 			<Set Text="Penicilin ([ICON_RESEARCH])  " />

@@ -39,7 +39,7 @@
 			<Type>BUILDING_WHEAT_FARM</Type>
 			<BuildingClass>BUILDINGCLASS_WHEAT_FARM</BuildingClass>
 			<Cost>100</Cost>
-			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
+			<PrereqTech>TECH_ECONOMY_OF_SCALE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WHEAT_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WHEAT_FARM_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_WHEAT_FARM_HELP</Help>
@@ -54,7 +54,7 @@
 			<Type>BUILDING_BANANA_FARM</Type>
 			<BuildingClass>BUILDINGCLASS_BANANA_FARM</BuildingClass>
 			<Cost>100</Cost>
-			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
+			<PrereqTech>TECH_ECONOMY_OF_SCALE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BANANA_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BANANA_FARM_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_BANANA_FARM_HELP</Help>
@@ -69,7 +69,7 @@
 			<Type>BUILDING_COPPER_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_SMELTER</BuildingClass>
 			<Cost>100</Cost>
-			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
+			<PrereqTech>TECH_RAW_MATERIALS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COPPER_SMELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COPPER_SMELTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_COPPER_SMELTER_HELP</Help>
@@ -84,7 +84,7 @@
 			<Type>BUILDING_CATTLE_RANCH</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_RANCH</BuildingClass>
 			<Cost>100</Cost>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
+			<PrereqTech>TECH_HERDING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_RANCH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_RANCH_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CATTLE_RANCH_HELP</Help>
@@ -99,7 +99,7 @@
 			<Type>BUILDING_SHEEP_RANCH</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_RANCH</BuildingClass>
 			<Cost>100</Cost>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
+			<PrereqTech>TECH_HERDING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_RANCH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_RANCH_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SHEEP_RANCH_HELP</Help>
@@ -114,7 +114,7 @@
 			<Type>BUILDING_DEER_HERDER</Type>
 			<BuildingClass>BUILDINGCLASS_DEER_HERDER</BuildingClass>
 			<Cost>100</Cost>
-			<PrereqTech>TECH_TANNING</PrereqTech>
+			<PrereqTech>TECH_HERDING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_DEER_HERDER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DEER_HERDER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_DEER_HERDER_HELP</Help>
@@ -129,7 +129,7 @@
 			<Type>BUILDING_STONE_CUTTER</Type>
 			<BuildingClass>BUILDINGCLASS_STONE_CUTTER</BuildingClass>
 			<Cost>100</Cost>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_RAW_MATERIALS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STONE_CUTTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STONE_CUTTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_STONE_CUTTER_HELP</Help>
@@ -207,7 +207,7 @@
 			<Type>BUILDING_COPPER_DEPOT</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_DEPOT</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
+			<PrereqTech>TECH_STONE_MASONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COPPER_DEPOT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COPPER_DEPOT_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_COPPER_DEPOT_HELP</Help>
@@ -222,7 +222,7 @@
 			<Type>BUILDING_CATTLE_TRADER</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_TRADER</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_TRADER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_TRADER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CATTLE_TRADER_HELP</Help>
@@ -237,7 +237,7 @@
 			<Type>BUILDING_SHEEP_TRADER</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_TRADER</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_TRADER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_TRADER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SHEEP_TRADER_HELP</Help>
@@ -252,7 +252,7 @@
 			<Type>BUILDING_DEER_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_DEER_MARKET</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_TANNING</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_MARKETS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_DEER_MARKET</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DEER_MARKET_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_DEER_MARKET_HELP</Help>
@@ -267,7 +267,7 @@
 			<Type>BUILDING_STONE_DEPOT</Type>
 			<BuildingClass>BUILDINGCLASS_STONE_DEPOT</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_STONE_MASONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STONE_DEPOT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STONE_DEPOT_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_STONE_DEPOT_HELP</Help>
@@ -283,7 +283,7 @@
 			<Type>BUILDING_JADE_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_JADE_MARKET</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_STONE_MASONS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_JADE_MARKET</Description>
 			<Civilopedia>TXT_KEY_BUILDING_JADE_MARKET_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_JADE_MARKET_HELP</Help>
@@ -299,7 +299,7 @@
 			<Type>BUILDING_ALOE_VERA_DISTILLERY</Type>
 			<BuildingClass>BUILDINGCLASS_ALOE_VERA_DISTILLERY</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_APOTHECARY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY_HELP</Help>
@@ -315,7 +315,7 @@
 			<Type>BUILDING_OAK_DEPOT</Type>
 			<BuildingClass>BUILDINGCLASS_OAK_DEPOT</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_STEEL</PrereqTech>
+			<PrereqTech>TECH_DIVISION_OF_LABOR</PrereqTech>
 			<Description>TXT_KEY_BUILDING_OAK_DEPOT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_OAK_DEPOT_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_OAK_DEPOT_HELP</Help>
@@ -331,7 +331,7 @@
 			<Type>BUILDING_AMBER_PURIFIER</Type>
 			<BuildingClass>BUILDINGCLASS_AMBER_PURIFIER</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_IRON_TRADE</PrereqTech>
+			<PrereqTech>TECH_DIVISION_OF_LABOR</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AMBER_PURIFIER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AMBER_PURIFIER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_AMBER_PURIFIER_HELP</Help>
@@ -347,7 +347,7 @@
 			<Type>BUILDING_POPPY_REFINERY</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_REFINERY</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<PrereqTech>TECH_APOTHECARY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_REFINERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_REFINERY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_POPPY_REFINERY_HELP</Help>
@@ -364,7 +364,7 @@
 			<Type>BUILDING_FISH_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FISH_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FISH_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_FISH_DISTRIBUTION_CENTER_HELP</Help>
@@ -379,7 +379,7 @@
 			<Type>BUILDING_CRAB_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER_HELP</Help>
@@ -394,7 +394,7 @@
 			<Type>BUILDING_WHEAT_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_WHEAT_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
+			<PrereqTech>TECH_AGRICULTURAL_REVOLUTION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER_HELP</Help>			
@@ -409,7 +409,7 @@
 			<Type>BUILDING_BANANA_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_BANANA_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
+			<PrereqTech>TECH_AGRICULTURAL_REVOLUTION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BANANA_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BANANA_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_BANANA_DISTRIBUTION_CENTER_HELP</Help>			
@@ -439,7 +439,7 @@
 			<Type>BUILDING_CATTLE_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_MARKETSS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER_HELP</Help>			
@@ -454,7 +454,7 @@
 			<Type>BUILDING_SHEEP_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_MARKETSS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SHEEP_DISTRIBUTION_CENTER_HELP</Help>			
@@ -548,7 +548,7 @@
 			<Type>BUILDING_AMBER_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_AMBER_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_IRON_TRADE</PrereqTech>
+			<PrereqTech>TECH_STEEL</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AMBER_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AMBER_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_AMBER_DISTRIBUTION_CENTER_HELP</Help>
@@ -557,14 +557,14 @@
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>8</PortraitIndex>
+			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
 			<Type>BUILDING_SQUID_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_SQUID_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_BONDS</PrereqTech>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SQUID_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SQUID_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SQUID_DISTRIBUTION_CENTER_HELP</Help>
@@ -596,7 +596,7 @@
 			<Type>BUILDING_POPPY_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<PrereqTech>TECH_APOTHECARY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER_HELP</Help>
@@ -718,7 +718,7 @@
 			<Type>BUILDING_CATTLE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_MARKETSS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE_HELP</Help>			
@@ -733,7 +733,7 @@
 			<Type>BUILDING_SHEEP_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_MARKETSS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE_HELP</Help>			
@@ -827,7 +827,7 @@
 			<Type>BUILDING_AMBER_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_AMBER_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_IRON_TRADE</PrereqTech>
+			<PrereqTech>TECH_STEEL</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AMBER_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AMBER_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_AMBER_CONGLOMERATE_HELP</Help>
@@ -836,7 +836,7 @@
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>8</PortraitIndex>
+			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
@@ -875,7 +875,7 @@
 			<Type>BUILDING_POPPY_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<PrereqTech>TECH_APOTHECARY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_POPPY_CONGLOMERATE_HELP</Help>
@@ -1002,7 +1002,7 @@
 			<Type>BUILDING_CATTLE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_MARKETSS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CATTLE_MONOPOLY_HELP</Help>		
@@ -1018,7 +1018,7 @@
 			<Type>BUILDING_SHEEP_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
+			<PrereqTech>TECH_ANIMAL_MARKETSS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SHEEP_MONOPOLY_HELP</Help>		
@@ -1117,7 +1117,7 @@
 			<Type>BUILDING_AMBER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_AMBER_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_IRON_TRADE</PrereqTech>
+			<PrereqTech>TECH_STEEL</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AMBER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AMBER_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_AMBER_MONOPOLY_HELP</Help>
@@ -1127,7 +1127,7 @@
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<PortraitIndex>8</PortraitIndex>
+			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
@@ -1168,7 +1168,7 @@
 			<Type>BUILDING_POPPY_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<PrereqTech>TECH_APOTHECARY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_POPPY_MONOPOLY_HELP</Help>
