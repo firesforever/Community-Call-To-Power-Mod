@@ -925,6 +925,8 @@
 			<Happiness>2</Happiness>
 			<BuildingClass>BUILDINGCLASS_BREWERY</BuildingClass>
 			<PrereqTech>TECH_FERMENTATION</PrereqTech>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>62</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_BURIAL_MOUND</Type>
@@ -939,8 +941,8 @@
 			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_BURIAL_MOUND</BuildingClass>
 			<PrereqTech>TECH_CEREMONIAL_BURIAL</PrereqTech>
-			<PortraitIndex>11</PortraitIndex>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
 		</Row>
 		<Update>
 			<Set Cost="160" Culture="2" Happiness="2" SpecialistCount="1" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_ARTIST" PrereqTech="TECH_MYSTICISM" />
@@ -1006,6 +1008,8 @@
 			<BuildingClass>BUILDINGCLASS_ABBEY</BuildingClass>
 			<ArtDefineTag>ART_DEF_BUILDING_LIBRARY</ArtDefineTag>
 			<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_ARTILLERY_RANGE</Type>
@@ -1021,6 +1025,8 @@
 			<BuildingClass>BUILDINGCLASS_ARTILLERY_RANGE</BuildingClass>
 			<ArtDefineTag>ART_DEF_BUILDING_ARTILLERY_RANGE</ArtDefineTag>
 			<PrereqTech>TECH_BALLISTICS</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="4" Cost="380" Happiness="3"/>
@@ -1066,6 +1072,8 @@
 			<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>58</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="2" Cost="300" />
@@ -1109,6 +1117,8 @@
 			<BuildingClass>BUILDINGCLASS_CITY_CLOCK</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="3" Cost="630" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="1" />
@@ -1159,6 +1169,8 @@
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>20</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="6" Cost="610" PrereqTech="TECH_DRAMA" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="0" GreatPeopleRateChange="0" Happiness="4"/>
@@ -1176,8 +1188,8 @@
 			<BuildingClass>BUILDINGCLASS_TOWN_HALL</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<PrereqTech>TECH_BUREAUCRACY</PrereqTech>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>28</PortraitIndex>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="5" Cost="570" PrereqTech="TECH_AGRICULTURAL_REVOLUTION" BuildingProductionModifier="0" GreatPeopleRateChange="0" SpecialistCount="1"/>
@@ -1211,6 +1223,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>32</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_GUILD_HALL</Type>
@@ -1226,6 +1240,8 @@
 			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>27</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="8" Cost="800" PrereqTech="TECH_MILITARY_TRADITION"/>
@@ -1245,6 +1261,8 @@
 			<Happiness>2</Happiness>
 			<BuildingClass>BUILDINGCLASS_MISSIONARY_CHURCH</BuildingClass>
 			<PrereqTech>TECH_EVANGELISM</PrereqTech>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="6" Cost="720" NearbyMountainRequired="true" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1" />
@@ -1264,6 +1282,8 @@
 			<BuildingClass>BUILDINGCLASS_PRISON</BuildingClass>
 			<FreeStartEra>ERA_MODERN</FreeStartEra>
 			<PrereqTech>TECH_CONSTITUTION</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="8" Cost="840" Culture="0" GreatPeopleRateChange="0" SpecialistCount="0"/>
@@ -1285,6 +1305,8 @@
 			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>30</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_RANCH</Type>
@@ -1298,6 +1320,8 @@
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_RANCH</BuildingClass>
 			<PrereqTech>TECH_NATIONALISM</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>37</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="0" Cost="720" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="1"/>
@@ -1330,6 +1354,8 @@
 			<SpecialistCount>2</SpecialistCount>
 			<BuildingClass>BUILDINGCLASS_AQUARIUM</BuildingClass>
 			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_AIRBASE</Type>
@@ -1345,6 +1371,8 @@
 			<Defense>400</Defense>
 			<BuildingClass>BUILDINGCLASS_AIRBASE</BuildingClass>
 			<PrereqTech>TECH_FLIGHT</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>60</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_AIRCRAFT_PLANT</Type>
@@ -1362,6 +1390,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="0" Cost="1050" PrereqTech="TECH_REPLACEABLE_PARTS" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="1"/>
@@ -1383,6 +1413,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="15" Culture="4" Cost="1175" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="2" GreatPeopleRateChange="0"/>
@@ -1403,6 +1435,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>61</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_DRUG_STORE</Type>
@@ -1418,6 +1452,8 @@
 			<BuildingClass>BUILDINGCLASS_DRUG_STORE</BuildingClass>
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
 			<PrereqTech>TECH_PHARMACEUTICALS</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>56</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="15" Cost="1050" GreatPeopleRateChange="0"/>
@@ -1436,6 +1472,8 @@
 			<BuildingClass>BUILDINGCLASS_FOOD_PROCESSING_PLANT</BuildingClass>
 			<PrereqTech>TECH_INDUSTRIAL_PROCESSES</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>63</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="15" Cost="1100" Happiness="3" FoodKept="10" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1" />
@@ -1462,6 +1500,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>51</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_INDUSTRIAL_WAREHOUSE</Type>
@@ -1477,6 +1517,8 @@
 			<PrereqTech>TECH_INDUSTRIAL_PROCESSES</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_JEWELRY_STORE</Type>
@@ -1493,6 +1535,8 @@
 			<PrereqTech>TECH_CORPORATIONS</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_MASS_TRANSIT</Type>
@@ -1510,6 +1554,8 @@
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>55</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="20" Cost="1175" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="1" GreatPeopleRateChange="0" FoodKept="0"/>
@@ -1534,6 +1580,8 @@
 			<Defense>400</Defense>
 			<BuildingClass>BUILDINGCLASS_NAVAL_BASE</BuildingClass>
 			<PrereqTech>TECH_REFINING</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>49</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_OIL_REFINERY</Type>
@@ -1550,6 +1598,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>48</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_POLICE_STATION</Type>
@@ -1564,6 +1614,8 @@
 			<BuildingClass>BUILDINGCLASS_POLICE_STATION</BuildingClass>
 			<FreeStartEra>ERA_MODERN</FreeStartEra>
 			<PrereqTech>TECH_SOCIALISM</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>47</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_RECYCLING_PLANT</Type>
@@ -1582,6 +1634,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>54</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="20" Cost="1275" SpecialistCount="2" GreatPeopleRateChange="0"/>
@@ -1611,6 +1665,8 @@
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>0</SpecialistCount>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>50</PortraitIndex>
 		</Row>
 		<!--
 		<Row>
@@ -1642,6 +1698,8 @@
 			<PrereqTech>TECH_INDUSTRIAL_PROCESSES</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>62</PortraitIndex>
 		</Row>
 		
 		<!--MODERN ERA-->
@@ -1659,6 +1717,8 @@
 			<PrereqTech>TECH_SATELLITES</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_AIRPORT</Type>
@@ -1675,6 +1735,8 @@
 			<PrereqTech>TECH_ADVANCED_FLIGHT</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_CELL_TOWERS</Type>
@@ -1692,6 +1754,8 @@
 			<PrereqTech>TECH_MOBILE_PHONES</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_INDUSTRIAL_ROBOTICS</Type>
@@ -1708,6 +1772,8 @@
 			<PrereqTech>TECH_ROBOTICS</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_MEGACHURCH</Type>
@@ -1724,6 +1790,8 @@
 			<PrereqTech>TECH_TELEVANGELISM</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="50" Cost="1925" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2"/>
@@ -1744,6 +1812,8 @@
 			<PrereqTech>TECH_INTERNET</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_SHOPPING_MALL</Type>
@@ -1761,6 +1831,8 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
 		</Row>
 		<Update>
 			<Set GoldMaintenance="0" Cost="1800" PrereqTech="TECH_SOLAR_POWER" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2"/>
@@ -1803,6 +1875,8 @@
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<WonderSplashImage>SplashAlJabr.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="900" GreatPeopleRateChange="0" Culture="4"/>
@@ -1825,6 +1899,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>8</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="1425" PrereqTech="TECH_MACHINERY" Culture="0" GreatPeopleRateChange="3" SpecialistCount="1"/>
@@ -1857,6 +1933,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
 			<WonderSplashImage>SplashCommunistManifesto.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>43</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_COPERNICUS_OBSERVATORY</Type>
@@ -1877,6 +1955,8 @@
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<WonderSplashImage>SplashCopernicus.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>29</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="1825" Culture="4" SpecialistCount="1" GreatPeopleRateChange="3"/>
@@ -1902,6 +1982,8 @@
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>3</SpecialistCount>
 			<GreatPeopleRateChange>15</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
 		</Row>
 		<!--CURE FOR CANCER-->
 		<Row>
@@ -1923,6 +2005,8 @@
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
 			<WonderSplashImage>SplashCureForCancer.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
 		</Row>
 		<!--DINOSAUR PARK-->
 		<Row>
@@ -1943,6 +2027,8 @@
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
 			<WonderSplashImage>SplashDinosaurPark.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>29</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_EDISON_LAB</Type>
@@ -1962,6 +2048,8 @@
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
 			<WonderSplashImage>SplashEdisonLab.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>46</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="1900" UnmoddedHappiness="6" Culture="2" GreatPeopleRateChange="0"/>
@@ -1986,6 +2074,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>3</SpecialistCount>
 			<GreatPeopleRateChange>10</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_GALILEO_TELESCOPE</Type>
@@ -2006,6 +2096,8 @@
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<WonderSplashImage>SplashGalileoTelescope.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_GUTENBERG_BIBLE</Type>
@@ -2026,6 +2118,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
 			<WonderSplashImage>SplashGutenberg_bible.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>31</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="970" />
@@ -2051,6 +2145,8 @@
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<WonderSplashImage>SplashHollywood.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
 		</Row>
 		<!--HUMAN BRAIN MAP-->
 		<Row>
@@ -2071,6 +2167,8 @@
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
 			<WonderSplashImage>SplashBrainMap.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
 		</Row>
 		<!--HUMAN GENOME PROJECT-->
 		<Row>
@@ -2091,6 +2189,8 @@
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
 			<WonderSplashImage>SplashHumanGenomeProject.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
 		</Row>
 		<!--IMAGINARIUM-->
 		<Row>
@@ -2111,6 +2211,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>8</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>40</PortraitIndex>
 		</Row>
 		<!--INTERNET-->
 		<Row>
@@ -2132,6 +2234,8 @@
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>8</GreatPeopleRateChange>
 			<WonderSplashImage>SplashInternet.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_BACH_CATHEDRAL</Type>
@@ -2152,6 +2256,8 @@
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<WonderSplashImage>SplashBachCathedral.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_KONG_MIAO</Type>
@@ -2172,6 +2278,8 @@
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<WonderSplashImage>SplashKongMiao.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
 		</Row>
 		<!--LARGE HADRON COLLIDER-->
 		<Row>
@@ -2191,6 +2299,8 @@
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>10</GreatPeopleRateChange>
 			<WonderSplashImage>SplashLHC.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_LEONARDO_WORKSHOP</Type>
@@ -2210,6 +2320,8 @@
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<WonderSplashImage>SplashLeonardoWorkshop.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>22</PortraitIndex>
 		</Row>
 		<!--M THEORY-->
 		<Row>
@@ -2230,6 +2342,8 @@
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>12</GreatPeopleRateChange>
 			<WonderSplashImage>SplashMTheory.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>37</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="540" TradeRouteModifier="0" Culture="2" GreatPeopleRateChange="1" SpecialistCount="1"/>
@@ -2256,6 +2370,8 @@
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<WonderSplashImage>SplashMagellanVoyage.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>36</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_MAHABODHI_TEMPLE</Type>
@@ -2274,27 +2390,15 @@
 			<ArtDefineTag>ANGKOR WAT</ArtDefineTag>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<PrereqTech>TECH_MYSTICISM</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 			<WonderSplashImage>SplashMahabodhi.dds</WonderSplashImage>
+			
 		</Row>
-		<!--<Row>
-			<Type>BUILDING_MAUSOLEUM_OF_MAUSOLUS</Type>
-			<Description>TXT_KEY_BUILDING_MAUSOLEUM_OF_MAUSOLUS</Description>
-			<Civilopedia>TXT_KEY_WONDER_MAUSOLEUM_OF_MAUSOLUS_DESC</Civilopedia>
-			<Help>TXT_KEY_WONDER_MAUSOLEUM_OF_MAUSOLUS_HELP</Help>
-			<Quote>TXT_KEY_WONDER_MAUSOLEUM_OF_MAUSOLUS_QUOTE</Quote>
-			<NearbyMountainRequired>true</NearbyMountainRequired>
-			<NukeImmune>true</NukeImmune>
-			<Cost>750</Cost>
-			<HurryCostModifier>-1</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<Culture>8</Culture>
-			<BuildingClass>BUILDINGCLASS_MAUSOLEUM_OF_MAUSOLUS</BuildingClass>
-			<ArtDefineTag>THE ORACLE</ArtDefineTag>
-			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
-			<WonderSplashImage>SplashMausoleum.dds</WonderSplashImage>
-		</Row>-->
+		<Update>
+			<Set Cost="400" PrereqTech="TECH_GREAT_WORKS"/>
+			<Where Type="BUILDING_MAUSOLEUM_HALICARNASSUS" />
+		</Update>
 		<Row>
 			<Type>BUILDING_NAZCA_LINES</Type>
 			<Description>TXT_KEY_BUILDING_NAZCA_LINES</Description>
@@ -2314,6 +2418,8 @@
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<WonderSplashImage>SplashNazcaLines.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="970" UnmoddedHappiness="8" Culture="2" PrereqTech="TECH_THEOLOGY" SpecialistType="SPECIALIST_ARTIST" GreatPeopleRateChange="3" SpecialistCount="1"/>
@@ -2339,6 +2445,8 @@
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<WonderSplashImage>SplashParthenon.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="1900" PrereqTech="TECH_TELEPHONE" Culture="0" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="3" SpecialistCount="1"/>
@@ -2363,6 +2471,8 @@
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<PrereqTech>TECH_MINING</PrereqTech>
 			<WonderSplashImage>SplashPetra.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_PRINCIPIA_MATHEMATICA</Type>
@@ -2382,6 +2492,8 @@
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<SpecialistCount>2</SpecialistCount>
 			<WonderSplashImage>SplashPrincipaMathematica.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_SHAKESPEARE_THEATER</Type>
@@ -2402,6 +2514,8 @@
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<WonderSplashImage>SplashShakespearTheater.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="970" Culture="12" GlobalCultureRateModifier="0" GreatPeopleRateChange="0"/>
@@ -2420,10 +2534,12 @@
 			<Culture>6</Culture>
 			<BuildingClass>BUILDINGCLASS_SPHINX</BuildingClass>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_GREAT_WORKS</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
 			<WonderSplashImage>SplashSphinx.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="1900" Culture="4" SpecialistCount="2" GreatPeopleRateChange="4"/>
@@ -2466,6 +2582,8 @@
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
 			<WonderSplashImage>SplashSunTzuArtofWar.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
 		</Row>
 		<!--SYDNEY OPERA HOUSE-->
 		<Update>
@@ -2497,6 +2615,8 @@
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<WonderSplashImage>SplashTemple_of_heaven.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_TEMPLE_OF_SOLOMON</Type>
@@ -2521,6 +2641,8 @@
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<WonderSplashImage>SplashTemple_of_sollomon.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_TERRACOTTA_ARMY</Type>
@@ -2540,6 +2662,8 @@
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
 			<WonderSplashImage>SplashTerracottaArmy.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="395" ObsoleteTech="NULL" Culture="1" SpecialistCount="0" GreatPeopleRateChange="0"/>
@@ -2567,6 +2691,8 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<WonderSplashImage>SplashGreatMosque.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>23</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="540" Culture="2" SpecialistCount="1" GreatPeopleRateChange="0"/>
@@ -2606,10 +2732,12 @@
 			<BuildingClass>BUILDINGCLASS_THE_LABYRNTH</BuildingClass>
 			<ArtDefineTag>STONEHENGE</ArtDefineTag>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_GREAT_WORKS</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
 			<WonderSplashImage>SplashLabyrinth.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="970" Culture="12" SpecialistType="SPECIALIST_ENGINEER"/>
@@ -2645,6 +2773,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
 			<WonderSplashImage>SplashTheoryOfEvolution.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>40</PortraitIndex>
 		</Row>
 		<!--UNITED NATIONS-->
 		<Update>
@@ -2671,6 +2801,8 @@
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>10</GreatPeopleRateChange>
 			<WonderSplashImage>SplashVirtualSecuritiesExchange.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>41</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_WEALTH_OF_NATIONS</Type>
@@ -2689,6 +2821,8 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<WonderSplashImage>SplashWealthOfNations.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>42</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_ZIGGURAT_OF_MARDUK</Type>
@@ -2709,6 +2843,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<WonderSplashImage>SplashZiggurat.dds</WonderSplashImage>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
 		</Row>
 		
 
@@ -2732,6 +2868,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>36</PortraitIndex>
 		</Row>
 		<!--AI CORE-->
 		<Row>
@@ -2751,6 +2889,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
 		</Row>
 		<!--BIOTECH INDUSTRIAL PARK-->
 		<Row>
@@ -2769,6 +2909,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_BOND_MARKET</Type>
@@ -2786,8 +2928,8 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>28</PortraitIndex>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="350" Culture="2" PrereqTech="TECH_CARRIAGES" UnmoddedHappiness="8"/>
@@ -2810,6 +2952,8 @@
 			<PrereqTech>TECH_CONSTITUTION</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>34</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_CONTRACEPTION</Type>
@@ -2828,6 +2972,8 @@
 			<PrereqTech>TECH_PHARMACEUTICALS</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>57</PortraitIndex>
 		</Row>
 		<!--CYBER COMMAND-->
 		<Row>
@@ -2848,6 +2994,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>31</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_DECLARATION_OF_INDEPENDENCE</Type>
@@ -2866,6 +3014,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>38</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_EAST_INDIA_COMPANY</Type>
@@ -2882,6 +3032,8 @@
 			<BuildingClass>BUILDINGCLASS_EAST_INDIA_COMPANY</BuildingClass>
 			<MaxStartEra>ERA_MODERN</MaxStartEra>
 			<PrereqTech>TECH_BANKING</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>28</PortraitIndex>
 		</Row>
 		<!--EMPHATIC NETWORK-->
 		<Row>
@@ -2901,6 +3053,8 @@
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>12</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>57</PortraitIndex>
 		</Row>
 		<!--FUSION POWER PLANT-->
 		<Row>
@@ -2919,6 +3073,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
 		</Row>
 		<!--GIGA TOWER-->
 		<Row>
@@ -2939,6 +3095,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>44</PortraitIndex>
 		</Row>
 		<!--GPS SATELLITES-->
 		<Row>
@@ -2960,6 +3118,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="900" />
@@ -2986,6 +3146,8 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>39</PortraitIndex>
 		</Row>
 		<!--INTERNATIONAL AID ORGANIZATION-->
 		<Row>
@@ -3006,6 +3168,8 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>3</SpecialistCount>
 			<GreatPeopleRateChange>5</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
 		</Row>
 		<!--INTERSTATE HIGHWAY-->
 		<Row>
@@ -3023,6 +3187,8 @@
 			<PrereqTech>TECH_MEGA_ENGINEERING</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<GreatPeopleRateChange>15</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="900" PrereqTech="TECH_METALLURGY" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2" Culture="0"/>
@@ -3045,6 +3211,8 @@
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_MEGA_DAM</Type>
@@ -3063,6 +3231,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>45</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_NATIONAL_ACADEMY</Type>
@@ -3079,8 +3249,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>20</GreatPeopleRateChange>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>46</PortraitIndex>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="480" GreatPeopleRateChange="2" SpecialistCount="2" SpecialistType="SPECIALIST_SCIENTIST"/>
@@ -3107,6 +3277,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
 		</Row>
 		<!--NATIONAL PARK-->
 		<Row>
@@ -3125,6 +3297,8 @@
 			<BuildingClass>BUILDINGCLASS_NATIONAL_PARK_SERVICE</BuildingClass>
 			<MaxStartEra>ERA_DIAMOND</MaxStartEra>
 			<PrereqTech>TECH_CONSERVATIONISM</PrereqTech>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="500" Culture="0" SpecialistCount="2" SpecialistType="SPECIALIST_MERCHANT"/>
@@ -3149,6 +3323,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>16</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>60</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_OLYMPICS</Type>
@@ -3166,6 +3342,8 @@
 			<BuildingClass>BUILDINGCLASS_OLYMPICS</BuildingClass>
 			<MaxStartEra>ERA_DIAMOND</MaxStartEra>
 			<PrereqTech>TECH_SPORTS</PrereqTech>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>63</PortraitIndex>
 		</Row>
 		<Update>
 			<Set Cost="1325" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="2" GreatPeopleRateChange="4" Culture="0"/>
@@ -3189,6 +3367,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>8</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>30</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_REGIONAL_FAIR</Type>
@@ -3206,8 +3386,8 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>28</PortraitIndex>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
 		</Row>
 		<!--ROBOT EGALITARIAN-->
 		<Row>
@@ -3228,6 +3408,8 @@
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
 		</Row>
 		<!--SEMICONDUTOR PLANT-->
 		<Row>
@@ -3246,6 +3428,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
 		</Row>
 		<!--SMALLPOX ERADICATION-->
 		<Row>
@@ -3266,6 +3450,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
 		</Row>
 		<!--SPACE ELEVATOR-->
 		<Row>
@@ -3286,6 +3472,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>14</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>53</PortraitIndex>
 		</Row>
 		<!--SPACE MANIPULATION TESTING STATION-->
 		<Row>
@@ -3305,6 +3493,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>30</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>56</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_TRANSCONTINENTAL_RAILROAD</Type>
@@ -3322,6 +3512,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>52</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_WALL_STREET</Type>
@@ -3340,6 +3532,8 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>41</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_WAR_COLLEGE</Type>
@@ -3354,6 +3548,8 @@
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_WAR_COLLEGE</BuildingClass>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>44</PortraitIndex>
 		</Row>
 		<!--X GAMES-->
 		<Row>
@@ -3374,6 +3570,8 @@
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>3</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_5</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
 		</Row>
 
 
@@ -3396,6 +3594,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
 		</Row>
 
 		<Row>
@@ -3413,6 +3613,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>20</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_LASER_PERIMETER_DEFENSE</Type>
@@ -3428,6 +3630,8 @@
 			<BuildingClass>BUILDINGCLASS_LASER_PERIMETER_DEFENSE</BuildingClass>
 			<FreeStartEra>ERA_FUTURE</FreeStartEra>
 			<PrereqTech>TECH_ADVANCED_LASERS</PrereqTech>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_ADVANCED_SHIPYARD</Type>
@@ -3445,6 +3649,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>22</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_BODY_EXCHANGE</Type>
@@ -3464,6 +3670,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>23</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_OPTICAL_INTERCONNECTS</Type>
@@ -3479,6 +3687,8 @@
 			<PrereqTech>TECH_OPTICAL_COMPUTING</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_GRID_ENERGY_STORAGE</Type>
@@ -3494,6 +3704,8 @@
 			<PrereqTech>TECH_SUPER_BATTERIES</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_ADVANCED_AUTO_PLANT</Type>
@@ -3510,6 +3722,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>27</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_ROBOTIC_OPERATING_ROOM</Type>
@@ -3529,6 +3743,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>28</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_BIO_MEMORY_IMPLANT</Type>
@@ -3546,6 +3762,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>32</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_LASER_MANUFACTURING_MODULE</Type>
@@ -3561,6 +3779,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_MECHA_PLANT</Type>
@@ -3576,6 +3796,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>34</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_IMMUNITY_CHIP</Type>
@@ -3595,6 +3817,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>38</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_VR_INTERFACE</Type>
@@ -3612,6 +3836,8 @@
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>39</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_AI_SECURITY_CENTER</Type>
@@ -3625,6 +3851,8 @@
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_AI_SECURITY_CENTER</BuildingClass>
 			<PrereqTech>TECH_AI_SURVEILLANCE</PrereqTech>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>42</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_NANO_FORGE</Type>
@@ -3640,6 +3868,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>43</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FORCE_FIELD</Type>
@@ -3656,6 +3886,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>45</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_BEEF_VAT</Type>
@@ -3671,6 +3903,8 @@
 			<PrereqTech>TECH_BIOLOGICAL_SYNTHESIS</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>46</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_IMPLANT_STATION</Type>
@@ -3687,6 +3921,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>47</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_BEHAVIORAL_MOD_CHIP</Type>
@@ -3700,6 +3936,8 @@
 			<Happiness>6</Happiness>
 			<BuildingClass>BUILDINGCLASS_BEHAVIORAL_MOD_CHIP</BuildingClass>
 			<PrereqTech>TECH_NEURAL_REPROGRAMMING</PrereqTech>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>48</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_AI_COURT</Type>
@@ -3714,6 +3952,8 @@
 			<BuildingClass>BUILDINGCLASS_AI_COURT</BuildingClass>
 			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
 			<PrereqTech>TECH_AI_EVOLUTION</PrereqTech>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>49</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_MOLECULAR_FABRICATION_PLANT</Type>
@@ -3729,6 +3969,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>50</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_BEAM_FOUNDRY</Type>
@@ -3744,6 +3986,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>51</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_MIND_CONTROL_NETWORK</Type>
@@ -3761,6 +4005,8 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>52</PortraitIndex>r
 		</Row>
 		<Row>
 			<Type>BUILDING_ARCOLOGY</Type>
@@ -3777,6 +4023,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>8</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>54</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_VACUUM_DRYDOCK</Type>
@@ -3793,6 +4041,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>4</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>55</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_ROBOT_DISTRICT</Type>
@@ -3809,6 +4059,8 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>6</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>58</PortraitIndex>
 		</Row>
 
 	</Buildings>
@@ -5011,7 +5263,7 @@
 		</Row>
 		<!--CRISTAL CATHEDRAL-->
 		<!--CURE FOR CANCER-->
-		<!--DINOSUAR PARK-->
+		<!--DINOSAUR PARK-->
 		<Row>
 			<BuildingType>BUILDING_EDISON_LAB</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
