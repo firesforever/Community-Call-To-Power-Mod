@@ -969,9 +969,10 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_CARAVEL</UnitArtInfo>
-			<UnitFlagIconOffset>42</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>43</PortraitIndex>
+			<UnitFlagIconOffset>34</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
 		</Row>
 		<Update>
@@ -1058,9 +1059,10 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_FRIGATE</UnitArtInfo>
-			<UnitFlagIconOffset>51</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
-			<PortraitIndex>9</PortraitIndex>
+			<UnitFlagIconOffset>35</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
+			<PortraitIndex>36</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
 		</Row>
 		<Row>
@@ -1087,9 +1089,10 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_INFANTRY</UnitArtInfo>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Update>
 			<Set Cost="400" />
@@ -1168,8 +1171,9 @@
 			<UnitArtInfo>ART_DEF_UNIT_ENGINEER</UnitArtInfo>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>1</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Update>
 			<Set Combat="40" RangedCombat="30" Cost="850" PrereqTech="TECH_TORPEDOES" ObsoleteTech="TECH_ADVANCED_MAGNETICS" />
@@ -1219,9 +1223,10 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_INFANTRY</UnitArtInfo>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Update>
 			<Set Cost="1050" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
@@ -1269,9 +1274,10 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER</UnitArtInfo>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagIconOffset>4</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Update>
 			<Set Cost="1325" PrereqTech="TECH_CRUISE_MISSILES" ObsoleteTech="TECH_SCRAMJET_ENGINES" HurryCostModifier="50" />
@@ -1346,9 +1352,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_JET_FIGHTER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<PortraitIndex>31</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_SUPERCARRIER</Type>
@@ -1377,9 +1384,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_CARRIER</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>70</UnitFlagIconOffset>
-			<PortraitIndex>23</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_UNMANNED_AIRCRAFT</Type>
@@ -1410,9 +1418,10 @@
 			<XPValueDefense>2</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_JET_FIGHTER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>37</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>6</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 
 		<!--DIGITAL ERA-->
@@ -1445,9 +1454,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_DESTROYER</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>67</UnitFlagIconOffset>
-			<PortraitIndex>20</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>7</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_CGX_CRUISER</Type>
@@ -1477,9 +1487,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_MISSILE_CRUISER</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>80</UnitFlagIconOffset>
-			<PortraitIndex>33</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>8</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_STEALTH_GUNSHIP</Type>
@@ -1503,9 +1514,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_HELICOPTER_GUNSHIP</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>75</UnitFlagIconOffset>
-			<PortraitIndex>28</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>9</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_STEALTH_SUBMARINE</Type>
@@ -1536,9 +1548,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_SUBMARINE</UnitArtInfo>
 			<MoveRate>SUB</MoveRate>
-			<UnitFlagIconOffset>81</UnitFlagIconOffset>
-			<PortraitIndex>34</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>10</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_HYPERSONIC_CRUISE_MISSILE</Type>
@@ -1568,9 +1581,10 @@
 			<NoMaintenance>true</NoMaintenance>
 			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>77</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_GAUSS_TANK</Type>
@@ -1595,9 +1609,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_MODERN_ARMOR</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>74</UnitFlagIconOffset>
-			<PortraitIndex>27</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>12</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_MASS_DRIVER_ARTILLERY</Type>
@@ -1624,9 +1639,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_ROCKET_ARTILLERY</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>72</UnitFlagIconOffset>
-			<PortraitIndex>25</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>13</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>14</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_POWERED_INFANTRY</Type>
@@ -1651,9 +1667,10 @@
 			<Conscription>7</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>59</UnitFlagIconOffset>
-			<PortraitIndex>14</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>14</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>15</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_FUSION_SUPERCARRIER</Type>
@@ -1681,9 +1698,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_CARRIER</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>70</UnitFlagIconOffset>
-			<PortraitIndex>23</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>15</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>16</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_HYPERSONIC_BOMBER</Type>
@@ -1713,9 +1731,10 @@
 			<XPValueDefense>2</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_STEALTH_BOMBER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>79</UnitFlagIconOffset>
-			<PortraitIndex>37</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>16</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_HYPERSONIC_INTERCEPTOR</Type>
@@ -1745,9 +1764,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_JET_FIGHTER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<PortraitIndex>31</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>17</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>18</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_MICRO_UAV_TEAM</Type>
@@ -1772,9 +1792,10 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER</UnitArtInfo>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagIconOffset>18</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_TACTICAL_LASER_AIR_DEFENSE</Type>
@@ -1801,9 +1822,10 @@
 			<Conscription>1</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_MOBILE_SAM</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>76</UnitFlagIconOffset>
-			<PortraitIndex>29</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>19</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>20</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_ORBITAL_STRIKE_MISSILE</Type>
@@ -1833,9 +1855,10 @@
 			<NoMaintenance>true</NoMaintenance>
 			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>77</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>20</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_SPACE_BOMBER</Type>
@@ -1865,9 +1888,10 @@
 			<XPValueDefense>2</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_STEALTH_BOMBER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>79</UnitFlagIconOffset>
-			<PortraitIndex>37</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>21</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_SPACE_FIGHTER</Type>
@@ -1897,9 +1921,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_JET_FIGHTER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<PortraitIndex>31</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>22</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>23</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_HUNTER_KILLER</Type>
@@ -1923,9 +1948,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_HELICOPTER_GUNSHIP</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>75</UnitFlagIconOffset>
-			<PortraitIndex>28</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>23</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_FUSION_TANK</Type>
@@ -1950,9 +1976,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_MODERN_ARMOR</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>74</UnitFlagIconOffset>
-			<PortraitIndex>27</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>24</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>25</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_HEAVY_ISOTOPE_PROJECTOR</Type>
@@ -1979,9 +2006,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_ROCKET_ARTILLERY</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>72</UnitFlagIconOffset>
-			<PortraitIndex>25</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>25</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>26</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_BEAM_JUMPER</Class>
@@ -2005,9 +2033,10 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_MECH</UnitArtInfo>
-			<UnitFlagIconOffset>83</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
-			<PortraitIndex>36</PortraitIndex>
+			<UnitFlagIconOffset>26</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
+			<PortraitIndex>27</PortraitIndex>
 			<MoveRate>ROBOT</MoveRate>
 		</Row>
 		<Row>
@@ -2036,9 +2065,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_DESTROYER</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>67</UnitFlagIconOffset>
-			<PortraitIndex>20</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>27</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>28</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_FUSION_DREADNOUGHT</Type>
@@ -2068,9 +2098,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_BATTLESHIP</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>80</UnitFlagIconOffset>
-			<PortraitIndex>33</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>28</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>29</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_SUPERCAVITATING_SUBMARINE</Type>
@@ -2101,9 +2132,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_SUBMARINE</UnitArtInfo>
 			<MoveRate>SUB</MoveRate>
-			<UnitFlagIconOffset>81</UnitFlagIconOffset>
-			<PortraitIndex>34</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>29</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>30</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_SUBMERSIBLE_CARRIER</Type>
@@ -2133,9 +2165,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_SUBMARINE</UnitArtInfo>
 			<MoveRate>SUB</MoveRate>
-			<UnitFlagIconOffset>70</UnitFlagIconOffset>
-			<PortraitIndex>23</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>30</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>31</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_PARTICLE_GRID_AIR_DEFENSE</Type>
@@ -2161,9 +2194,10 @@
 			<Conscription>1</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_MOBILE_SAM</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>76</UnitFlagIconOffset>
-			<PortraitIndex>29</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>31</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_CYBERNETIC_MARAUDER</Type>
@@ -2186,9 +2220,11 @@
 			<AdvancedStartCost>110</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
+			<UnitFlagIconOffset>32</UnitFlagIconOffset>
 			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER</UnitArtInfo>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_LEAP_INFANTRY</Type>
@@ -2213,9 +2249,10 @@
 			<Conscription>7</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>59</UnitFlagIconOffset>
-			<PortraitIndex>14</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>33</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 
 
