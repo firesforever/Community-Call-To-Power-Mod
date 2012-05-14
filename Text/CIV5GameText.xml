@@ -2127,22 +2127,6 @@
 			<Text>“In order to be an immaculate member of a flock of sheep, one must above all be a sheep oneself.” (Albert Einstein)</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_IRON_TRADE_TITLE</Tag>
-			<Text>Iron Trade ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_IRON_TRADE_DESC</Tag>
-			<Text>At the beginning of the Iron Age, Iron was an extremely valuable metal, fetching up to 5 time's the price of Gold.  While the Iron Age came about largely due to the collapse of the Bronze Age, the trade conducted as a result of Iron's many uses also played a large part.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_IRON_TRADE_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Iron Smelter[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_IRON_TRADE_QUOTE</Tag>
-			<Text>“Monopoly is business at the end of its journey.” (Henry DeMarest Lloyd)</Text>
-		</Row>
-		<Row>
 			<Tag>TXT_KEY_TECH_APOTHECARY_TITLE</Tag>
 			<Text>Apothecary ([ICON_GOLD])  </Text>
 		</Row>

@@ -131,7 +131,10 @@
 			<Tag>TXT_KEY_BUILDING_STONE_CUTTER_HELP</Tag>
 			<Text>City must have an improved source of Stone nearby.</Text>
 		</Row>
-		
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_CUTTER_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
 
 		<!-- CLASSICAL ERA -->
 		<Row>
@@ -243,6 +246,10 @@
 			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Small Stone Cutter.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_DEPOT_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_MARKET</Tag>
 			<Text>Jade Market</Text>
 		</Row>
@@ -253,6 +260,10 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_MARKET_HELP</Tag>
 			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Jade nearby.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_MARKET_STRATEGY</Tag>
+			<Text>N/A</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OAK_DEPOT</Tag>
@@ -267,6 +278,10 @@
 			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of Oak nearby.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY</Tag>
 			<Text>Aloe Vera Distillery</Text>
 		</Row>
@@ -279,6 +294,10 @@
 			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of Aloe Vera nearby.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER</Tag>
 			<Text>Amber Purifier</Text>
 		</Row>
@@ -289,6 +308,10 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER_HELP</Tag>
 			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of Amber nearby.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER_STRATEGY</Tag>
+			<Text>N/A</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POPPY_REFINERY</Tag>
@@ -413,6 +436,10 @@
 			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Stone Resource and City must have a Medium Stone Cutter.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_DISTRIBUTION_CENTER_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER</Tag>
 			<Text>Jade Distribution Center</Text>
 		</Row>
@@ -423,6 +450,10 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Jade Resource and City must have a Medium Jade Cutter.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER_STRATEGY</Tag>
+			<Text>N/A</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OAK_DISTRIBUTION_CENTER</Tag>
@@ -437,6 +468,10 @@
 			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Oak Resource and City must have a Medium Oak Center.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_DISTRIBUTION_CENTER_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER</Tag>
 			<Text>Aloe Vera Distribution Center</Text>
 		</Row>
@@ -447,6 +482,10 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER_HELP</Tag>
 			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Aloe Vera Resource and City must have a Medium Aloe Vera Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER_STRATEGY</Tag>
+			<Text>N/A</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AMBER_DISTRIBUTION_CENTER</Tag>

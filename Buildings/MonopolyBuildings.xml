@@ -1604,24 +1604,24 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CATTLE_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_CATTLE</ResourceType>
+			<ResourceType>RESOURCE_COW</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CATTLE_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_CATTLE</ResourceType>
+			<ResourceType>RESOURCE_COW</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HUGE_SHEEP_YARD</BuildingType>
+			<BuildingType>BUILDING_SHEEP_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_HUGE_SHEEP_YARD</BuildingType>
+			<BuildingType>BUILDING_SHEEP_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
@@ -2448,7 +2448,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_JADE_MONOPOLY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_HUGE_JADEE_CUTTER</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_HUGE_JADE_CUTTER</BuildingClassType>
 		</Row>
 
 		<Row>
