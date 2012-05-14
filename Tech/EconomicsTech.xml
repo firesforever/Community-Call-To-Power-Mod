@@ -12,22 +12,6 @@
 			<Where Type="TECH_SAILING" />
 		</Update>
 		<Row>
-			<Type>TECH_FISH_MARKETS</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_FISH_MARKETS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_FISH_MARKETS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_FISH_MARKETS_HELP</Help>
-			<Cost>13</Cost>
-			<Era>ERA_ANCIENT</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>2</GridX>
-			<GridY>2</GridY>
-			<Quote>TXT_KEY_TECH_FISH_MARKETS_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
 			<Type>TECH_FERMENTATION</Type>
 			<TechCat>TECHTREE_ECONOMICS</TechCat>
 			<Description>TXT_KEY_TECH_FERMENTATION_TITLE</Description>
@@ -249,6 +233,22 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 		<Row>
+			<Type>TECH_FISH_MARKETS</Type>
+			<TechCat>TECHTREE_ECONOMICS</TechCat>
+			<Description>TXT_KEY_TECH_FISH_MARKETS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_FISH_MARKETS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_FISH_MARKETS_HELP</Help>
+			<Cost>35</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>5</GridX>
+			<GridY>2</GridY>
+			<Quote>TXT_KEY_TECH_FISH_MARKETS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
 			<Type>TECH_ANIMAL_MARKETS</Type>
 			<TechCat>TECHTREE_ECONOMICS</TechCat>
 			<Description>TXT_KEY_TECH_ANIMAL_MARKETS_TITLE</Description>
@@ -397,13 +397,29 @@
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>13</GridX>
-			<GridY>3</GridY>
+			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_OCEAN_PIONEERING_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
+		<Row>
+			<Type>TECH_INTERNATIONAL_TRADE</Type>
+			<TechCat>TECHTREE_ECONOMICS</TechCat>
+			<Description>TXT_KEY_TECH_INTERNATIONAL_TRADE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_INTERNATIONAL_TRADE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_INTERNATIONAL_TRADE_HELP</Help>
+			<Cost>372</Cost>
+			<Era>ERA_RENAISSANCE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>14</GridX>
+			<GridY>2</GridY>
+			<Quote>TXT_KEY_TECH_INTERNATIONAL_TRADE_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<Update>
-			<Set TechCat="TECHTREE_ECONOMICS" Description="TXT_KEY_TECH_FERTILIZER_TITLE" Civilopedia="TXT_KEY_TECH_FERTILIZER_CIV" Cost="428" Era="ERA_RENAISSANCE" GridX="15" GridY="7" />
+			<Set TechCat="TECHTREE_ECONOMICS" Description="TXT_KEY_TECH_FERTILIZER_TITLE" Civilopedia="TXT_KEY_TECH_FERTILIZER_CIV" Cost="372" Era="ERA_RENAISSANCE" GridX="14" GridY="7" />
 			<Where Type="TECH_FERTILIZER" />
 		</Update>
 		<!-- Industrial Era -->
@@ -755,6 +771,26 @@
 			<TechType>TECH_STEEL</TechType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
 			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Delete TechType="TECH_FERTILIZER" FlavorType="FLAVOR_SCIENCE" />
 		<Delete TechType="TECH_FERTILIZER" FlavorType="FLAVOR_GROWTH" />

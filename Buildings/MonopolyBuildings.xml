@@ -9,7 +9,7 @@
 			<Type>BUILDING_FISH_HERDER</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_HERDER</BuildingClass>
 			<Cost>100</Cost>
-			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
+			<PrereqTech>TECH_HERDING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FISH_HERDER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FISH_HERDER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_FISH_HERDER_HELP</Help>
@@ -24,7 +24,7 @@
 			<Type>BUILDING_CRAB_HERDER</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_HERDER</BuildingClass>
 			<Cost>100</Cost>
-			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
+			<PrereqTech>TECH_HERDING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CRAB_HERDER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CRAB_HERDER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CRAB_HERDER_HELP</Help>
@@ -658,7 +658,7 @@
 			<Type>BUILDING_CRAB_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_FISH_OCEAN_PIONEERING</PrereqTech>
+			<PrereqTech>TECH_OCEAN_PIONEERING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CRAB_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_HELP</Help>			
@@ -688,7 +688,7 @@
 			<Type>BUILDING_BANANA_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_BANANA_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
+			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BANANA_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BANANA_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_BANANA_CONGLOMERATE_HELP</Help>			
@@ -718,7 +718,7 @@
 			<Type>BUILDING_CATTLE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_ANIMAL_MARKETSS</PrereqTech>
+			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE_HELP</Help>			
@@ -733,7 +733,7 @@
 			<Type>BUILDING_SHEEP_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_ANIMAL_MARKETSS</PrereqTech>
+			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE_HELP</Help>			
@@ -748,7 +748,7 @@
 			<Type>BUILDING_DEER_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_DEER_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_TANNING</PrereqTech>
+			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_DEER_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DEER_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_DEER_CONGLOMERATE_HELP</Help>			
@@ -795,7 +795,7 @@
 			<Type>BUILDING_ALOE_VERA_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_ALOE_VERA_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_FERTILIZER</PrereqTech>
 			<Description>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE_HELP</Help>
@@ -890,7 +890,7 @@
 			<Type>BUILDING_COFFEE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_COFFEE_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
+			<PrereqTech>TECH_INTERANATIONAL_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE_HELP</Help>

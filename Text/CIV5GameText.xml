@@ -4804,7 +4804,23 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_HELP</Tag>
-			<Text>Allows construbtion of the [COLOR_POSSITIVE]Seaport[ENDCOLOR] and the [COLOR_POSSITIVE]Fish Conglomerate[ENDCOLOR] and [COLOR_POSSITIVE]Crab Conglomerate[ENDCOLOR] Monopoly buildings.</Text>
+			<Text>Allows construction of the [COLOR_POSSITIVE]Seaport[ENDCOLOR] and the [COLOR_POSSITIVE]Fish Conglomerate[ENDCOLOR] and [COLOR_POSSITIVE]Crab Conglomerate[ENDCOLOR] Monopoly buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_QUOTE</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_INTERNATIONAL_TRADE_TITLE</Tag>
+			<Text>International Trade ([ICON_GOLD])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_INTERNATIONAL_TRADE_DESC</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_INTERNATIONAL_TRADE_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSSITIVE]Deer Conglomerate[ENDCOLOR], [COLOR_POSSITIVE]Cattle Conglomerate[ENDCOLOR],[COLOR_POSSITIVE] Coffee Conglomerate, [COLOR_POSSITIVE]Banana Conglomerate[ENDCOLOR], and [COLOR_POSSITIVE]Sheep Conglomerate[ENDCOLOR] Monopoly buildings.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_QUOTE</Tag>

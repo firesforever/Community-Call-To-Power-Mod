@@ -92,6 +92,14 @@
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<PrereqTech>TECH_OCEAN_PIONEERING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<PrereqTech>TECH_LIVESTOCK_DISTRIBUTION</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
 			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 		</Row>
@@ -213,7 +221,11 @@
 		</Row>
 		<Row>
 			<TechType>TECH_FISH_MARKETS</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FISH_MARKETS</TechType>
+			<PrereqTech>TECH_SAILING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FARMERS_MARKETS</TechType>
@@ -413,6 +425,10 @@
 		</Row>
 		<Row>
 			<TechType>TECH_OPTICS</TechType>
+			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_OPTICS</TechType>
 			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 		</Row>
 		<Row>
@@ -458,6 +474,10 @@
 		<Row>
 			<TechType>TECH_COMPASS</TechType>
 			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMPASS</TechType>
+			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ARCHAEOLOGY</TechType>
@@ -745,7 +765,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_FERTILIZER</TechType>
-			<PrereqTech>TECH_STEEL</PrereqTech>
+			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FERTILIZER</TechType>
