@@ -2111,86 +2111,6 @@
 			<Text>“A farmer is always going to be rich next year.” (Philemon)</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_FOOD_FLAVORING_TITLE</Tag>
-			<Text>Food Flavoring ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FOOD_FLAVORING_DESC</Tag>
-			<Text>Food flavoring has been practiced since the first humans discovered that adding Spices to food could improve taste and health.  The spice trade developed throughout the Middle East in around 2000 BC with cinnamon and pepper, and in East Asia (Korea, China) with herbs and pepper. The Egyptians used herbs for embalming and their need for exotic herbs helped stimulate world trade. In fact, the word spice comes from the same root as species, meaning kinds of goods. By 1000 BC, China, Korea and India had a medical system based upon herbs. Early uses were connected with magic, medicine, religion, tradition, and preservation.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FOOD_FLAVORING_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Spice Market[ENDCOLOR], [COLOR_POSITIVE_TEXT]Sugar Mill[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Cocoa Mill[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FOOD_FLAVORING_QUOTE</Tag>
-			<Text>“Americans can eat garbage, provided you sprinkle it liberally with ketchup, mustard, chili sauce, Tabasco sauce, cayenne pepper, or any other condiment which destroys the original flavor of the dish” (Henry Miller)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRINK_FLAVORING_TITLE</Tag>
-			<Text>Drink Flavoring ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRINK_FLAVORING_DESC</Tag>
-			<Text>The history of drink flavoring is thought to have begun with Wine.  The history of wine spans thousands of years and is closely intertwined with the history of agriculture, cuisine, civilization and humanity itself. Archaeological evidence suggests that the earliest wine production came from sites in Armenia, Georgia, and Iran, dating from 8000 to 5000 BC.[1][2][3] The archaeological evidence becomes clearer and points to domestication of grapevine in Early Bronze Age sites of the Near East, Sumer and Egypt from around the third millennium BC.  The next major advancement of Drink Flavoring comes from a story of the second emperor of China, Shen Nung, who discovered tea when tea leaves blew into his cup of hot water, or so the story goes.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRINK_FLAVORING_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Winery[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Tea House[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRINK_FLAVORING_QUOTE</Tag>
-			<Text>“Bread and water can so easily be toast and tea.”</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TEXTILE_TRADE_TITLE</Tag>
-			<Text>Textile Trade ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TEXTILE_TRADE_DESC</Tag>
-			<Text>Clothing and textiles have been enormously important throughout human history—so have their materials, production tools and techniques, cultural influences, and social significance.[NEWLINE][NEWLINE]Textiles, defined as felt or spun fibers made into yarn and subsequently netted, looped, knit or woven to make fabrics, appeared in the Middle East during the late stone age.  From ancient times to the present day, methods of textile production have continually evolved, and the choices of textiles available have influenced how people carried their possessions, clothed themselves, and decorated their surroundings.[NEWLINE][NEWLINE]Sources available for the study of the history of clothing and textiles include material remains discovered via archaeology; representation of textiles and their manufacture in art; and documents concerning the manufacture, acquisition, use, and trade of fabrics, tools, and finished garments. Scholarship of textile history, especially its earlier stages, is part of material culture studies.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TEXTILE_TRADE_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Cotton Loom[ENDCOLOR], [COLOR_POSITIVE_TEXT]Silk Loom[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Dyeworks[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TEXTILE_TRADE_QUOTE</Tag>
-			<Text>“Clothes and manners do not make the man; but, when he is made, they greatly improve his appearance.” (Henry Ward Beecher)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METALS_TRADE_TITLE</Tag>
-			<Text>Metals Trade ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METALS_TRADE_DESC</Tag>
-			<Text>Metals Trading began long before the first gold coin was cast.  Originally, valuable metals were formed into jewelry worn by prominant citizens, forged into weapons, or used in mystical ceremonies.  Whatever the intended use, metal's rare, and extremely useful nature led it to be at the center of the trading world.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METALS_TRADE_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Copper Smelter[ENDCOLOR], [COLOR_POSITIVE_TEXT]Silver Smelter[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Gold Smelter[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METALS_TRADE_QUOTE</Tag>
-			<Text>“Make new friends but keep the old ones; one is silver and the other's gold” (Proverb)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_AROMATICS_TITLE</Tag>
-			<Text>Aromatics ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_AROMATICS_DESC</Tag>
-			<Text>Aromatic compounds derive their names from the fact that many of these compounds in the early days of discovery were grouped because they were oils with fragrant odors, hence the name aromatic.[NEWLINE][NEWLINE]The current definition of aromatic compounds includes only those with a benzene ring, which is a special six carbon ring compound with three alternating double bonds. This structure imparts unique properties to benzene which are different from other ring compounds.  Because many fragrant oils contain a benzene ring, these compounds became known as AROMATIC. </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_AROMATICS_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Incense Market[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_AROMATICS_QUOTE</Tag>
-			<Text>“Nothing is more memorable than a smell. One scent can be unexpected, momentary and fleeting, yet conjure up a childhood summer beside a lake in the mountains...” (Diane Ackerman)</Text>
-		</Row>
-		<Row>
 			<Tag>TXT_KEY_TECH_ANIMAL_MARKETS_TITLE</Tag>
 			<Text>Animal Markets ([ICON_GOLD])  </Text>
 		</Row>
@@ -2205,38 +2125,6 @@
 		<Row>
 			<Tag>TXT_KEY_TECH_ANIMAL_MARKETS_QUOTE</Tag>
 			<Text>“In order to be an immaculate member of a flock of sheep, one must above all be a sheep oneself.” (Albert Einstein)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CARVING_TITLE</Tag>
-			<Text>Carving ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CARVING_DESC</Tag>
-			<Text>Carving is also generally known as sculpture, though more broad in scope.  The history of the sculpture is varied and is illustrative of how sculpture has changed extensively over the ages. The art of sculpture continues as a vital artform worldwide. From pre-historic and ancient civilizations to the contemporary, from the utilitarian and religious to Modernist abstraction, and conceptual manifestations of both form and content, a continuous stream of creativity and an extremely modest show of compassion.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CARVING_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Gem Market[ENDCOLOR], [COLOR_POSITIVE_TEXT]Ivory Market[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Marbleworks[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CARVING_QUOTE</Tag>
-			<Text>“In every block of marble I see a statue as plain as though it stood before me, shaped and perfect in attitude and action. I have only to hew away the rough walls that imprison the lovely apparition to reveal it to the other eyes as mine see it.” (Michelangelo)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TANNING_TITLE</Tag>
-			<Text>Tanning ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TANNING_DESC</Tag>
-			<Text>Tanning is the process of making leather, which does not easily decompose, from the skins of animals, which do. Often this uses tannin, an acidic chemical compound. Coloring may occur during tanning. A tannery is the term for a place where these skins are processed.[NEWLINE][NEWLINE]Tanning leather involves a process which permanently alters the protein structure of skin so that it cannot ever return to rawhide. Making rawhide does not require the use of tannin and is made simply by removing the flesh and fat and then the hair by way of soaking in an aqueous solution (often called liming when using lime and water or bucking when using wood ash (lye) and water), then scraping over a beam with a somewhat dull knife, and then leaving to dry, usually stretched on a frame so that it dries flat. The two aforementioned solutions for removing the hair also act to clean the fiber network of the skin and therefore allow penetration and action of the tanning agent.[NEWLINE][NEWLINE]The English word for tanning is from medieval Latin tannāre, deriv. of tannum (oak bark), related to Old High German tanna meaning oak or fir (related to modern Tannenbaum). This refers to use of the bark of oaks (the original source of tannin) in some kinds of hide preservation.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TANNING_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Fur Tannery[ENDCOLOR], [COLOR_POSITIVE_TEXT]Deer Butcher[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Aligator Butcher[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TANNING_QUOTE</Tag>
-			<Text>“People are more violently opposed to fur than leather because it's safer to harass rich women than motorcycle gangs.”</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_IRON_TRADE_TITLE</Tag>
@@ -4776,7 +4664,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_STONE_MASONS_QUOTE</Tag>
-			<Text>N/A</Text>
+			<Text>“In every block of marble I see a statue as plain as though it stood before me, shaped and perfect in attitude and action. I have only to hew away the rough walls that imprison the lovely apparition to reveal it to the other eyes as mine see it.” (Michelangelo)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_TITLE</Tag>
@@ -4823,7 +4711,7 @@
 			<Text>Allows construction of the [COLOR_POSSITIVE]Deer Conglomerate[ENDCOLOR], [COLOR_POSSITIVE]Cattle Conglomerate[ENDCOLOR],[COLOR_POSSITIVE] Coffee Conglomerate, [COLOR_POSSITIVE]Banana Conglomerate[ENDCOLOR], and [COLOR_POSSITIVE]Sheep Conglomerate[ENDCOLOR] Monopoly buildings.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_QUOTE</Tag>
+			<Tag>TXT_KEY_TECH_INTERNATIONAL_TRADE_QUOTE</Tag>
 			<Text>N/A</Text>
 		</Row>
 		<Update>

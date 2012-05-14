@@ -152,10 +152,6 @@
 			<PrereqTech>TECH_FERMENTATION</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_DRINK_FLAVORING</TechType>
-			<PrereqTech>TECH_FERMENTATION</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_CODE_OF_LAWS</TechType>
 			<PrereqTech>TECH_SPORTS</PrereqTech>
 		</Row>
@@ -208,14 +204,6 @@
 			<PrereqTech>TECH_TRAPPING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_CARVING</TechType>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TANNING</TechType>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_SHIPBUILDING</TechType>
 			<PrereqTech>TECH_SAILING</PrereqTech>
 		</Row>
@@ -236,34 +224,6 @@
 			<PrereqTech>TECH_FERMENTATION</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_FOOD_FLAVORING</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_DRINK_FLAVORING</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TEXTILE_TRADE</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_METALS_TRADE</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_AROMATICS</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CARVING</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TANNING</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_CURRENCY</TechType>
 			<PrereqTech>TECH_TRADING</PrereqTech>
 		</Row>
@@ -278,10 +238,6 @@
 		<Row>
 			<TechType>TECH_MONOTHEISM</TechType>
 			<PrereqTech>TECH_MEDITATION</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_PRIESTHOOD</TechType>
-			<PrereqTech>TECH_AROMATICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_PRIESTHOOD</TechType>
