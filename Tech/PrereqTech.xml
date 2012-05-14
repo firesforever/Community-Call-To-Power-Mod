@@ -68,6 +68,18 @@
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<PrereqTech>TECH_TRADE_FAIRS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<PrereqTech>TECH_AGRICULTURAL_REVOLUTION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<PrereqTech>TECH_ANIMAL_MARKETS</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
 			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 		</Row>

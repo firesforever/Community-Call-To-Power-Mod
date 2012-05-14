@@ -4762,7 +4762,6 @@
 			<Tag>TXT_KEY_TECH_HERBAL_SCIENCE_QUOTE</Tag>
 			<Text>N/A</Text>
 		</Row>
-
 		<Row>
 			<Tag>TXT_KEY_TECH_STONE_MASONS_TITLE</Tag>
 			<Text>Stone Masons ([ICON_PRODUCTION])</Text>
@@ -4777,6 +4776,22 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_STONE_MASONS_QUOTE</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_TITLE</Tag>
+			<Text>Livestock Distribution ([ICON_GOLD])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_DESC</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_HELP</Tag>
+			<Text>Allows construbtion of [COLOR_POSSITIVE]Cattle Distribution Center[ENDCOLOR], [COLOR_POSSITIVE]Sheep Distribution Center[ENDCOLOR], and [COLOR_POSSITIVE]Deer Distribution Center[ENDCOLOR] Monopoly buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_QUOTE</Tag>
 			<Text>N/A</Text>
 		</Row>
 		<Update>

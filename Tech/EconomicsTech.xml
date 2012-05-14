@@ -330,6 +330,22 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 		<Row>
+			<Type>TECH_LIVESTOCK_DISTRIBUTION</Type>
+			<TechCat>TECHTREE_ECONOMICS</TechCat>
+			<Description>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_HELP</Help>
+			<Cost>122</Cost>
+			<Era>ERA_MEDIEVAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>10</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
 			<Type>TECH_BONDS</Type>
 			<TechCat>TECHTREE_ECONOMICS</TechCat>
 			<Description>TXT_KEY_TECH_BONDS_TITLE</Description>
@@ -645,6 +661,21 @@
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_BONDS</TechType>
