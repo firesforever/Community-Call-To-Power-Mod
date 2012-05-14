@@ -373,6 +373,21 @@
 			<Set Flavor="3" />
 		</Update>
 		<Row>
+			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<TechType>TECH_FERMENTATION</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>3</Flavor>
@@ -462,6 +477,31 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
+		<Row>
+			<TechType>TECH_FISH_MARKETS</TechType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FISH_MARKETS</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FISH_MARKETS</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FARMERS_MARKETS</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FARMERS_MARKETS</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
 <!--MEDIEVAL-->
 		<Row>
 			<TechType>TECH_TRADE_FAIRS</TechType>
@@ -472,6 +512,16 @@
 			<TechType>TECH_TRADE_FAIRS</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_COFFEE_TRADE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_COFFEE_TRADE</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
@@ -659,52 +709,6 @@
 		
 <!--MODERN-->
 		
-		
-		<!--MONOPOLY TECH FLAVORS-->
-		<Row>
-			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>70</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>80</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>70</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FISH_MARKETS</TechType>
-			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>60</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FISH_MARKETS</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>80</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FISH_MARKETS</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FARMERS_MARKETS</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_APOTHECARY</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>170</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_COFFEE_TRADE</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>180</Flavor>
-		</Row>
+
 	</Technology_Flavors>
 </GameData>
