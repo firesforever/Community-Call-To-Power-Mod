@@ -518,7 +518,7 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
-			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
+			<TechType>TECH_COFFEE_TRADE</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
