@@ -410,7 +410,7 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
-			<TechType>TECH_CONTROLLED_MATERIALS</TechType>
+			<TechType>TECH_MEGA_ENGINEERING</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -596,7 +596,7 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
-			<TechType>TECH_CORPORATIONS</TechType>
+			<TechType>TECH_ECONOMICS</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>

@@ -890,7 +890,7 @@
 			<Type>BUILDING_COFFEE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_COFFEE_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_INTERANATIONAL_TRADE</PrereqTech>
+			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE_HELP</Help>
@@ -922,7 +922,7 @@
 			<Type>BUILDING_FISH_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FISH_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FISH_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_FISH_MONOPOLY_HELP</Help>			
@@ -938,7 +938,7 @@
 			<Type>BUILDING_CRAB_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CRAB_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CRAB_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CRAB_MONOPOLY_HELP</Help>
@@ -954,7 +954,7 @@
 			<Type>BUILDING_WHEAT_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_WHEAT_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
+			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WHEAT_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WHEAT_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_WHEAT_MONOPOLY_HELP</Help>
@@ -970,7 +970,7 @@
 			<Type>BUILDING_BANANA_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_BANANA_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
+			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BANANA_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BANANA_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_BANANA_MONOPOLY_HELP</Help>
@@ -986,7 +986,7 @@
 			<Type>BUILDING_COPPER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
+			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COPPER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COPPER_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_COPPER_MONOPOLY_HELP</Help>			
@@ -1002,7 +1002,7 @@
 			<Type>BUILDING_CATTLE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_ANIMAL_MARKETSS</PrereqTech>
+			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CATTLE_MONOPOLY_HELP</Help>		
@@ -1018,7 +1018,7 @@
 			<Type>BUILDING_SHEEP_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_ANIMAL_MARKETSS</PrereqTech>
+			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SHEEP_MONOPOLY_HELP</Help>		
@@ -1034,7 +1034,7 @@
 			<Type>BUILDING_DEER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_DEER_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_TANNING</PrereqTech>
+			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_DEER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DEER_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_DEER_MONOPOLY_HELP</Help>			
@@ -1050,7 +1050,7 @@
 			<Type>BUILDING_STONE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_STONE_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_DYNAMITE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STONE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STONE_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_STONE_MONOPOLY_HELP</Help>
@@ -1066,7 +1066,7 @@
 			<Type>BUILDING_JADE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_JADE_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_JADE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_JADE_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_JADE_MONOPOLY_HELP</Help>
@@ -1083,7 +1083,7 @@
 			<Type>BUILDING_ALOE_VERA_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_ALOE_VERA_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
 			<Description>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY_HELP</Help>
@@ -1100,7 +1100,7 @@
 			<Type>BUILDING_OAK_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_OAK_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_STEEL</PrereqTech>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_OAK_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_OAK_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_OAK_MONOPOLY_HELP</Help>
@@ -1117,7 +1117,7 @@
 			<Type>BUILDING_AMBER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_AMBER_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_STEEL</PrereqTech>
+			<PrereqTech>TECH_PLASTIC</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AMBER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AMBER_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_AMBER_MONOPOLY_HELP</Help>
@@ -1134,7 +1134,7 @@
 			<Type>BUILDING_SQUID_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_SQUID_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_BONDS</PrereqTech>
+			<PrereqTech>TECH_SUBMERSIBLES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SQUID_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SQUID_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SQUID_MONOPOLY_HELP</Help>
@@ -1151,7 +1151,7 @@
 			<Type>BUILDING_MANGANESE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_MANGANESE_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_STEEL</PrereqTech>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MANGANESE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MANGANESE_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_MANGANESE_MONOPOLY_HELP</Help>
@@ -1168,7 +1168,7 @@
 			<Type>BUILDING_POPPY_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_APOTHECARY</PrereqTech>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_POPPY_MONOPOLY_HELP</Help>
@@ -1184,7 +1184,7 @@
 			<Type>BUILDING_COFFEE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_COFFEE_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>>
-			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
+			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COFFEE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COFFEE_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_COFFEE_MONOPOLY_HELP</Help>
@@ -1200,7 +1200,7 @@
 			<Type>BUILDING_TITANIUM_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_TITANIUM_MONOPOLY</BuildingClass>
 			<Cost>1600</Cost>
-			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TITANIUM_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_HELP</Help>			

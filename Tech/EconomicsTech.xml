@@ -331,24 +331,8 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		<Row>
-			<Type>TECH_ENERGY_COMMODITIES</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_ENERGY_COMMODITIES_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_ENERGY_COMMODITIES_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_ENERGY_COMMODITIES_HELP</Help>
-			<Cost>984</Cost>
-			<Era>ERA_INDUSTRIAL</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>17</GridX>
-			<GridY>7</GridY>
-			<Quote>TXT_KEY_TECH_ENERGY_COMMODITIES_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
 		<Update>
-			<Set TechCat="TECHTREE_ECONOMICS" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="7" />
+			<Set TechCat="TECHTREE_ECONOMICS" Cost="984" Era="ERA_INDUSTRIAL" GridX="17" GridY="7" />
 			<Where Type="TECH_REFRIGERATION" />
 		</Update>
 		<Row>
@@ -368,71 +352,6 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 		<!-- Modern Era -->
-		
-		<Row>
-			<Type>TECH_CONTROLLED_MATERIALS</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_CONTROLLED_MATERIALS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_CONTROLLED_MATERIALS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_CONTROLLED_MATERIALS_HELP</Help>
-			<Cost>2603</Cost>
-			<Era>ERA_MODERN</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>20</GridX>
-			<GridY>5</GridY>
-			<Quote>TXT_KEY_TECH_CONTROLLED_MATERIALS_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_METAL_COMMODITIES</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_METAL_COMMODITIES_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_METAL_COMMODITIES_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_METAL_COMMODITIES_HELP</Help>
-			<Cost>2603</Cost>
-			<Era>ERA_MODERN</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>20</GridX>
-			<GridY>7</GridY>
-			<Quote>TXT_KEY_TECH_METAL_COMMODITIES_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_RARE_EARTH_COMMODITIES</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_HELP</Help>
-			<Cost>3443</Cost>
-			<Era>ERA_MODERN</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>22</GridX>
-			<GridY>6</GridY>
-			<Quote>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_BIOTECH_INDUSTRY</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_BIOTECH_INDUSTRY</Description>
-			<Civilopedia>TXT_KEY_TECH_BIOTECH_INDUSTRY_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_BIOTECH_INDUSTRY_HELP</Help>
-			<Cost>3443</Cost>
-			<Era>ERA_MODERN</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>22</GridX>
-			<GridY>8</GridY>
-			<Quote>TXT_KEY_TECH_BIOTECH_INDUSTRY_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
 
 		<!-- Digital Era -->
 
@@ -710,16 +629,6 @@
 			<TechType>TECH_CORPORATIONS</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ENERGY_COMMODITIES</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ENERGY_COMMODITIES</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>10</Flavor>
 		</Row>
 		<Delete TechType="TECH_REFRIGERATION" FlavorType="FLAVOR_NAVAL" />
 		<Delete TechType="TECH_REFRIGERATION" FlavorType="FLAVOR_PRODUCTION" />

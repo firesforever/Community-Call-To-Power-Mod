@@ -100,6 +100,10 @@
 			<PrereqTech>TECH_LIVESTOCK_DISTRIBUTION</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_AGRICULTURAL_SCIENCES</TechType>
+			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
 			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 		</Row>
@@ -801,7 +805,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_REFRIGERATION</TechType>
-			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_CORPORATIONS</TechType>
@@ -876,20 +880,8 @@
 			<PrereqTech>TECH_CORPORATIONS</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_ENERGY_COMMODITIES</TechType>
-			<PrereqTech>TECH_FERTILIZER</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_ENERGY_COMMODITIES</TechType>
-			<PrereqTech>TECH_ECONOMICS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_ENERGY_COMMODITIES</TechType>
-			<PrereqTech>TECH_BIOLOGY</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_REFRIGERATION</TechType>
-			<PrereqTech>TECH_ENERGY_COMMODITIES</PrereqTech>
+			<TechType>TECH_INDUSTRIAL_PROCESSES</TechType>
+			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_REFRIGERATION</TechType>
@@ -930,6 +922,10 @@
 		<Row>
 			<TechType>TECH_ECOLOGY</TechType>
 			<PrereqTech>TECH_SOCIALISM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ECOLOGY</TechType>
+			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ECOLOGY</TechType>
@@ -1018,34 +1014,6 @@
 		<Row>
 			<TechType>TECH_ATOMIC_THEORY</TechType>
 			<PrereqTech>TECH_INDUSTRIAL_PROCESSES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CONTROLLED_MATERIALS</TechType>
-			<PrereqTech>TECH_INDUSTRIAL_PROCESSES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_METAL_COMMODITIES</TechType>
-			<PrereqTech>TECH_INDUSTRIAL_PROCESSES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_RARE_EARTH_COMMODITIES</TechType>
-			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_BIOTECH_INDUSTRY</TechType>
-			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CONTROLLED_MATERIALS</TechType>
-			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_METAL_COMMODITIES</TechType>
-			<PrereqTech>TECH_ADVANCED_FLIGHT</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_RARE_EARTH_COMMODITIES</TechType>
-			<PrereqTech>TECH_COMPUTERS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ATOMIC_THEORY</TechType>

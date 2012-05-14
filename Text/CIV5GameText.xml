@@ -2175,70 +2175,6 @@
 			<Text>"No one can understand the truth until he drinks of coffee's frothy goodness." (Sheik Abd-al-Kadir)</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_ENERGY_COMMODITIES_TITLE</Tag>
-			<Text>Energy Commodities ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_ENERGY_COMMODITIES_DESC</Tag>
-			<Text>A commodity is a good for which there is demand, but which is supplied without qualitative differentiation across a market.  A commodity has full or partial fungibility; that is, the market treats it as equivalent or nearly so no matter who produces it. Examples are petroleum and copper.  The price of copper is universal, and fluctuates daily based on global supply and demand. Stereo systems, on the other hand, have many aspects of product differentiation, such as the brand, the user interface, the perceived quality etc. And, the more valuable a stereo is perceived to be, the more it will cost. [NEWLINE][NEWLINE]In contrast, one of the characteristics of a commodity good is that its price is determined as a function of its market as a whole. Well-established physical commodities have actively traded spot and derivative markets. Generally, these are basic resources and agricultural products such as iron ore, crude oil, coal, salt, sugar, coffee beans, soybeans, aluminium, copper, rice, wheat, gold, silver, palladium, and platinum. Soft commodities are goods that are grown, while hard commodities are the ones that are extracted through mining. [NEWLINE][NEWLINE]There is another important class of energy commodities which includes electriCity, gas, coal and oil. ElectriCity has the particular characteristic that it is either impossible or uneconomical to store, hence, electriCity must be consumed as soon as it is produced.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_ENERGY_COMMODITIES_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Coal Plant[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Oil Refinery[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_ENERGY_COMMODITIES_QUOTE</Tag>
-			<Text>“The use of solar energy has not been opened up because the oil industry does not own the sun.” (Ralph Nader)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CONTROLLED_MATERIALS_TITLE</Tag>
-			<Text>Controlled Materials ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CONTROLLED_MATERIALS_DESC</Tag>
-			<Text>Enriched uranium is a kind of uranium in which the percent composition of uranium-235 has been increased through the process of isotope separation. Natural uranium is 99.284% 238U isotope, with 235U only constituting about 0.711% of its weight. 235U is the only isotope existing in nature (in any appreciable amount) that is fissile with thermal neutrons.[NEWLINE][NEWLINE]Enriched uranium is a critical component for both civil nuclear power generation and military nuclear weapons. The International Atomic Energy Agency attempts to monitor and control enriched uranium supplies and processes in its efforts to ensure nuclear power generation safety and curb nuclear weapons proliferation.[NEWLINE][NEWLINE]During the Manhattan Project enriched uranium was given the codename oralloy, a shortened version of Oak Ridge alloy, after the location of the plants where the uranium was enriched. The term oralloy is still occasionally used to refer to enriched uranium. There are about 2,000 tonnes (t, Mg) of highly enriched uranium in the world, produced mostly for nuclear weapons, naval propulsion, and smaller quantities for research reactors.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CONTROLLED_MATERIALS_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Uranium Centrifuge[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CONTROLLED_MATERIALS_QUOTE</Tag>
-			<Text>“One pound of uranium is worth about 3 million pounds worth of coal or oil.” (James Lovelock)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METAL_COMMODITIES_TITLE</Tag>
-			<Text>Metal Commodities ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METAL_COMMODITIES_DESC</Tag>
-			<Text>A commodity is a good for which there is demand, but which is supplied without qualitative differentiation across a market.  A commodity has full or partial fungibility; that is, the market treats it as equivalent or nearly so no matter who produces it. Examples are petroleum and copper.  The price of copper is universal, and fluctuates daily based on global supply and demand. Stereo systems, on the other hand, have many aspects of product differentiation, such as the brand, the user interface, the perceived quality etc. And, the more valuable a stereo is perceived to be, the more it will cost. [NEWLINE][NEWLINE]In contrast, one of the characteristics of a commodity good is that its price is determined as a function of its market as a whole. Well-established physical commodities have actively traded spot and derivative markets. Generally, these are basic resources and agricultural products such as iron ore, crude oil, coal, salt, sugar, coffee beans, soybeans, aluminium, copper, rice, wheat, gold, silver, palladium, and platinum. Soft commodities are goods that are grown, while hard commodities are the ones that are extracted through mining. [NEWLINE][NEWLINE]There is another important class of energy commodities which includes electriCity, gas, coal and oil. ElectriCity has the particular characteristic that it is either impossible or uneconomical to store, hence, electriCity must be consumed as soon as it is produced.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METAL_COMMODITIES_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Aluminum Mill[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Titanium Smelter[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METAL_COMMODITIES_QUOTE</Tag>
-			<Text>“Advice is the only commodity on the market where the supply always exceeds the demand”</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_TITLE</Tag>
-			<Text>Rare Earth Commodities ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_DESC</Tag>
-			<Text>A commodity is a good for which there is demand, but which is supplied without qualitative differentiation across a market.  A commodity has full or partial fungibility; that is, the market treats it as equivalent or nearly so no matter who produces it. Examples are petroleum and copper.  The price of copper is universal, and fluctuates daily based on global supply and demand. Stereo systems, on the other hand, have many aspects of product differentiation, such as the brand, the user interface, the perceived quality etc. And, the more valuable a stereo is perceived to be, the more it will cost. [NEWLINE][NEWLINE]In contrast, one of the characteristics of a commodity good is that its price is determined as a function of its market as a whole. Well-established physical commodities have actively traded spot and derivative markets. Generally, these are basic resources and agricultural products such as iron ore, crude oil, coal, salt, sugar, coffee beans, soybeans, aluminium, copper, rice, wheat, gold, silver, palladium, and platinum. Soft commodities are goods that are grown, while hard commodities are the ones that are extracted through mining. [NEWLINE][NEWLINE]There is another important class of energy commodities which includes electriCity, gas, coal and oil. ElectriCity has the particular characteristic that it is either impossible or uneconomical to store, hence, electriCity must be consumed as soon as it is produced.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Rare Earth Refinery[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_QUOTE</Tag>
-			<Text>“We have for the first time an economy based on a key resource [Information] that is not only renewable, but self-generating. Running out of it is not a problem, but drowning in it is.” (John Naisbitt)</Text>
-		</Row>
-		<Row>
 			<Tag>TXT_KEY_TECH_MYSTICISM_TITLE</Tag>
 			<Text>Mysticism ([ICON_CULTURE]/[ICON_HAPPINESS_1])  </Text>
 		</Row>
@@ -3148,7 +3084,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIOTECH_INDUSTRY</Tag>
-			<Text>BioTech Industry ([ICON_GOLD])  </Text>
+			<Text>BioTech Industry ([ICON_RESEARCH])  </Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIOTECH_INDUSTRY_DESC</Tag>
@@ -4712,6 +4648,22 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_INTERNATIONAL_TRADE_QUOTE</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_TITLE</Tag>
+			<Text>Agricultural Sciences ([ICON_RESEARCH])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_DESC</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSSITIVE]Wheat Monopoly[ENDCOLOR], [COLOR_POSSITIVE]Cattle Monopoly[ENDCOLOR],[COLOR_POSSITIVE] Sheep Monopoly, and [COLOR_POSSITIVE]Banana Monopoly[ENDCOLOR] buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_QUOTE</Tag>
 			<Text>N/A</Text>
 		</Row>
 		<Update>

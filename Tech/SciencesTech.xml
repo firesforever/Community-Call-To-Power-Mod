@@ -95,6 +95,22 @@
 			<Set TechCat="TECHTREE_SCIENCES" Cost="984" Era="ERA_INDUSTRIAL" GridX="17" GridY="7" />
 			<Where Type="TECH_PENICILIN" />
 		</Update>
+		<Row>
+			<Type>TECH_AGRICULTURAL_SCIENCES</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_HELP</Help>
+			<Cost>984</Cost>
+			<Era>ERA_INDUSTRIAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>17</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<Update>
 			<Set TechCat="TECHTREE_SCIENCES" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="5" />
 			<Where Type="TECH_TELEGRAPH" />
@@ -209,6 +225,22 @@
 			<GridX>21</GridX>
 			<GridY>9</GridY>
 			<Quote>TXT_KEY_TECH_GENETICS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_BIOTECH_INDUSTRY</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_BIOTECH_INDUSTRY</Description>
+			<Civilopedia>TXT_KEY_TECH_BIOTECH_INDUSTRY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_BIOTECH_INDUSTRY_HELP</Help>
+			<Cost>3443</Cost>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>22</GridX>
+			<GridY>8</GridY>
+			<Quote>TXT_KEY_TECH_BIOTECH_INDUSTRY_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -810,6 +842,21 @@
 			<TechType>TECH_BIOLOGY</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_AGRICULTURAL_SCIENCES</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_AGRICULTURAL_SCIENCES</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_AGRICULTURAL_SCIENCES</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Delete TechType="TECH_ELECTRICITY" FlavorType="FLAVOR_GOLD" />
 		<Delete TechType="TECH_ELECTRICITY" FlavorType="FLAVOR_NAVAL" />

@@ -1149,7 +1149,7 @@
 			<Where Type="UNIT_BATTLESHIP" />
 		</Update>
 		<Update>
-			<Set Combat="40" Cost="1175" ObsoleteTech="TECH_REACTOR_MINIATURIZATION"/>
+			<Set Combat="40" Cost="1175" ObsoleteTech="TECH_REACTOR_MINIATURIZATION" PrereqTech="BIG_GUNS_DOCTORINE"/>
 			<Where Type="UNIT_CARRIER" />
 		</Update>
 		<Row>
