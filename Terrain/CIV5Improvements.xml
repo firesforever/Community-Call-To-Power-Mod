@@ -422,7 +422,7 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
-			<TechType>TECH_GUILDS</TechType>
+			<TechType>TECH_STEEL</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -506,7 +506,7 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
-			<TechType>TECH_ASTRONOMY</TechType>
+			<TechType>TECH_OCEAN_PIONEERING</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>

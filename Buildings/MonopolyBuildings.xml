@@ -500,7 +500,7 @@
 			<Type>BUILDING_JADE_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_JADE_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_TRADE_FAIRS</PrereqTech>
+			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER_HELP</Help>
@@ -596,7 +596,7 @@
 			<Type>BUILDING_POPPY_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_APOTHECARY</PrereqTech>
+			<PrereqTech>TECH_TRADE_FAIRS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER_HELP</Help>
@@ -611,7 +611,7 @@
 			<Type>BUILDING_COFFEE_DISTRIBUTION_CENTER</Type>
 			<BuildingClass>BUILDINGCLASS_COFFEE_DISTRIBUTION_CENTER</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_TRADE_FAIRS</PrereqTech>
+			<PrereqTech>TECH_AGRICULTURAL_REVOLUTION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COFFEE_DISTRIBUTION_CENTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COFFEE_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_COFFEE_DISTRIBUTION_CENTER_HELP</Help>
@@ -643,7 +643,7 @@
 			<Type>BUILDING_FISH_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
+			<PrereqTech>TECH_OCEAN_PIONEERING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FISH_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FISH_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_FISH_CONGLOMERATE_HELP</Help>			
@@ -658,7 +658,7 @@
 			<Type>BUILDING_CRAB_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
+			<PrereqTech>TECH_FISH_OCEAN_PIONEERING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CRAB_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_HELP</Help>			
@@ -673,7 +673,7 @@
 			<Type>BUILDING_WHEAT_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_WHEAT_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
+			<PrereqTech>TECH_FERTILIZER</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE_HELP</Help>			
@@ -703,7 +703,7 @@
 			<Type>BUILDING_COPPER_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
+			<PrereqTech>TECH_BLAST_FURNACE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COPPER_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COPPER_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_COPPER_CONGLOMERATE_HELP</Help>			
@@ -763,7 +763,7 @@
 			<Type>BUILDING_STONE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_STONE_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STONE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STONE_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_STONE_CONGLOMERATE_HELP</Help>
@@ -779,7 +779,7 @@
 			<Type>BUILDING_JADE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_JADE_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_JADE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_JADE_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_JADE_CONGLOMERATE_HELP</Help>
@@ -827,7 +827,7 @@
 			<Type>BUILDING_AMBER_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_AMBER_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_STEEL</PrereqTech>
+			<PrereqTech>TECH_BLAST_FURNACE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AMBER_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AMBER_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_AMBER_CONGLOMERATE_HELP</Help>
@@ -843,7 +843,7 @@
 			<Type>BUILDING_SQUID_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_SQUID_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_BONDS</PrereqTech>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SQUID_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SQUID_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SQUID_CONGLOMERATE_HELP</Help>
@@ -859,7 +859,7 @@
 			<Type>BUILDING_MANGANESE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_MANGANESE_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_STEEL</PrereqTech>
+			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE_HELP</Help>
@@ -875,7 +875,7 @@
 			<Type>BUILDING_POPPY_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_APOTHECARY</PrereqTech>
+			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_POPPY_CONGLOMERATE_HELP</Help>
@@ -905,7 +905,7 @@
 			<Type>BUILDING_TITANIUM_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_TITANIUM_CONGLOMERATE</BuildingClass>
 			<Cost>675</Cost>
-			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
+			<PrereqTech>TECH_STEEL</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE_HELP</Help>

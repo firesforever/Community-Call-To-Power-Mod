@@ -4794,6 +4794,22 @@
 			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_QUOTE</Tag>
 			<Text>N/A</Text>
 		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_TITLE</Tag>
+			<Text>Ocean Pioneering ([ICON_GOLD])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_DESC</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_HELP</Tag>
+			<Text>Allows construbtion of the [COLOR_POSSITIVE]Seaport[ENDCOLOR] and the [COLOR_POSSITIVE]Fish Conglomerate[ENDCOLOR] and [COLOR_POSSITIVE]Crab Conglomerate[ENDCOLOR] Monopoly buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_QUOTE</Tag>
+			<Text>N/A</Text>
+		</Row>
 		<Update>
 			<Set Text="Greatly increases [ICON_HAPPINESS_1] Happiness in the empire."/>
 			<Where Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP" />

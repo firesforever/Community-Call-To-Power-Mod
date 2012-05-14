@@ -386,6 +386,22 @@
 			<Set TechCat="TECHTREE_ECONOMICS" Cost="323" Era="ERA_RENAISSANCE" GridX="13" GridY="7" />
 			<Where Type="TECH_STEEL" />
 		</Update>
+		<Row>
+			<Type>TECH_OCEAN_PIONEERING</Type>
+			<TechCat>TECHTREE_ECONOMICS</TechCat>
+			<Description>TXT_KEY_TECH_OCEAN_PIONEERING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_OCEAN_PIONEERING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_OCEAN_PIONEERING_HELP</Help>
+			<Cost>323</Cost>
+			<Era>ERA_RENAISSANCE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>13</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_OCEAN_PIONEERING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<Update>
 			<Set TechCat="TECHTREE_ECONOMICS" Description="TXT_KEY_TECH_FERTILIZER_TITLE" Civilopedia="TXT_KEY_TECH_FERTILIZER_CIV" Cost="428" Era="ERA_RENAISSANCE" GridX="15" GridY="7" />
 			<Where Type="TECH_FERTILIZER" />
@@ -718,6 +734,21 @@
 			<TechType>TECH_GUILDS</TechType>
 			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
 			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_OCEAN_PIONEERING</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_OCEAN_PIONEERING</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_OCEAN_PIONEERING</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
 		</Row>
 		<Delete TechType="TECH_STEEL" FlavorType="FLAVOR_OFFENSE" />
 		<Row>

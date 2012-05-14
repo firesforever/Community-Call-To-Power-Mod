@@ -1324,7 +1324,7 @@
 			<PortraitIndex>37</PortraitIndex>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="0" Cost="720" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="1"/>
+			<Set GoldMaintenance="0" Cost="720" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="1" PrereqTech="TECH_OCEAN_PIONEERING"/>
 			<Where Type="BUILDING_SEAPORT"/>
 		</Update>
 		<Update>
