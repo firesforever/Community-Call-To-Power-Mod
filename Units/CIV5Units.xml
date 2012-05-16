@@ -738,6 +738,7 @@
 		<Delete UnitType="UNIT_JET_FIGHTER" ResourceType="RESOURCE_ALUMINUM" Cost="1" />
 		<Delete UnitType="UNIT_MECH" ResourceType="RESOURCE_URANIUM" Cost="1" />
 		<Delete UnitType="UNIT_CARRIER" ResourceType="RESOURCE_OIL" Cost="1" />
+		<Delete UnitType="UNIT_BATTLESHIP" ResourceType="RESOURCE_OIL" Cost="1" />
 		<Delete UnitType="UNIT_NUCLEAR_SUBMARINE" ResourceType="RESOURCE_ALUMINUM" Cost="1" />
 		<Delete UnitType="UNIT_MISSILE_CRUISER" ResourceType="RESOURCE_ALUMINUM" Cost="1" />
 		<Row>
@@ -1149,7 +1150,7 @@
 			<Where Type="UNIT_BATTLESHIP" />
 		</Update>
 		<Update>
-			<Set Combat="40" Cost="1175" ObsoleteTech="TECH_REACTOR_MINIATURIZATION" PrereqTech="BIG_GUNS_DOCTORINE"/>
+			<Set Combat="40" Cost="1175" ObsoleteTech="TECH_REACTOR_MINIATURIZATION" PrereqTech="TECH_BIG_GUNS_DOCTRINE"/>
 			<Where Type="UNIT_CARRIER" />
 		</Update>
 		<Row>
