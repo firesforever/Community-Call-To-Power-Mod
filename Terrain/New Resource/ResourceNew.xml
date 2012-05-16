@@ -156,6 +156,7 @@
 		</Row> 
 		<Row>
 			<Type>RESOURCE_JADE</Type>
+			<TechReveal>TECH_HERBAL_SCIENCE</TechReveal>
 			<TechCityTrade>TECH_MASONRY</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_JADE</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_JADE_TEXT</Civilopedia>
