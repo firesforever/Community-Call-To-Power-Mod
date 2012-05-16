@@ -314,7 +314,7 @@
 		<Row>
 			<TechType>TECH_RAW_MATERIALS</TechType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>12</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_GREAT_WORKS</TechType>

@@ -480,7 +480,7 @@
 		<Row>
 			<TechType>TECH_FISH_MARKETS</TechType>
 			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_FISH_MARKETS</TechType>
@@ -521,7 +521,7 @@
 		<Row>
 			<TechType>TECH_COFFEE_TRADE</TechType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor></Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>

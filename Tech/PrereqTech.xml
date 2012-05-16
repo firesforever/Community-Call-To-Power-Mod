@@ -216,10 +216,6 @@
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_FISH_MARKETS</TechType>
-			<PrereqTech>TECH_SAILING</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_FARMERS_MARKETS</TechType>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
