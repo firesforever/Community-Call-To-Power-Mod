@@ -4532,7 +4532,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_GREAT_WORKS_HELP</Tag>
-			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Mausoleum of Halicarnassus[ENDCOLOR], [COLOR_POSSITIVE_TEXT] The Labyrnth[ENDCOLOR], and[COLOR_POSSITIVE_TEXT] Sphinx[ENDCOLOR] Wonders.</Text>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Mausoleum of Halicarnassus[ENDCOLOR], [COLOR_POSSITIVE_TEXT]The Labyrnth[ENDCOLOR], and [COLOR_POSSITIVE_TEXT]Sphinx[ENDCOLOR] Wonders.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_GREAT_WORKS_QUOTE</Tag>

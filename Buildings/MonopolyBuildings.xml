@@ -8,7 +8,7 @@
 		<Row>
 			<Type>BUILDING_FISH_HERDER</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_HERDER</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>150</Cost>
 			<PrereqTech>TECH_HERDING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FISH_HERDER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FISH_HERDER_PEDIA</Civilopedia>
@@ -23,7 +23,7 @@
 		<Row>
 			<Type>BUILDING_CRAB_HERDER</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_HERDER</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>150</Cost>
 			<PrereqTech>TECH_HERDING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CRAB_HERDER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CRAB_HERDER_PEDIA</Civilopedia>
@@ -38,7 +38,7 @@
 		<Row>
 			<Type>BUILDING_WHEAT_FARM</Type>
 			<BuildingClass>BUILDINGCLASS_WHEAT_FARM</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>150</Cost>
 			<PrereqTech>TECH_ECONOMY_OF_SCALE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WHEAT_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WHEAT_FARM_PEDIA</Civilopedia>
@@ -53,7 +53,7 @@
 		<Row>
 			<Type>BUILDING_BANANA_FARM</Type>
 			<BuildingClass>BUILDINGCLASS_BANANA_FARM</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>150</Cost>
 			<PrereqTech>TECH_ECONOMY_OF_SCALE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BANANA_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BANANA_FARM_PEDIA</Civilopedia>
@@ -68,7 +68,7 @@
 		<Row>
 			<Type>BUILDING_COPPER_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_SMELTER</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>150</Cost>
 			<PrereqTech>TECH_RAW_MATERIALS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COPPER_SMELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COPPER_SMELTER_PEDIA</Civilopedia>
@@ -83,7 +83,7 @@
 		<Row>
 			<Type>BUILDING_CATTLE_RANCH</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_RANCH</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>150</Cost>
 			<PrereqTech>TECH_HERDING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_RANCH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_RANCH_PEDIA</Civilopedia>
@@ -98,7 +98,7 @@
 		<Row>
 			<Type>BUILDING_SHEEP_RANCH</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_RANCH</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>150</Cost>
 			<PrereqTech>TECH_HERDING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_RANCH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_RANCH_PEDIA</Civilopedia>
@@ -113,7 +113,7 @@
 		<Row>
 			<Type>BUILDING_DEER_HERDER</Type>
 			<BuildingClass>BUILDINGCLASS_DEER_HERDER</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>150</Cost>
 			<PrereqTech>TECH_HERDING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_DEER_HERDER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DEER_HERDER_PEDIA</Civilopedia>
@@ -128,7 +128,7 @@
 		<Row>
 			<Type>BUILDING_STONE_CUTTER</Type>
 			<BuildingClass>BUILDINGCLASS_STONE_CUTTER</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>150</Cost>
 			<PrereqTech>TECH_RAW_MATERIALS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STONE_CUTTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STONE_CUTTER_PEDIA</Civilopedia>
@@ -642,7 +642,7 @@
 		<Row>
 			<Type>BUILDING_FISH_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_OCEAN_PIONEERING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FISH_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FISH_CONGLOMERATE_PEDIA</Civilopedia>
@@ -657,7 +657,7 @@
 		<Row>
 			<Type>BUILDING_CRAB_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_OCEAN_PIONEERING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CRAB_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_PEDIA</Civilopedia>
@@ -672,7 +672,7 @@
 		<Row>
 			<Type>BUILDING_WHEAT_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_WHEAT_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_FERTILIZER</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE_PEDIA</Civilopedia>
@@ -687,7 +687,7 @@
 		<Row>
 			<Type>BUILDING_BANANA_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_BANANA_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BANANA_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BANANA_CONGLOMERATE_PEDIA</Civilopedia>
@@ -702,7 +702,7 @@
 		<Row>
 			<Type>BUILDING_COPPER_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_BLAST_FURNACE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COPPER_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COPPER_CONGLOMERATE_PEDIA</Civilopedia>
@@ -717,7 +717,7 @@
 		<Row>
 			<Type>BUILDING_CATTLE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE_PEDIA</Civilopedia>
@@ -732,7 +732,7 @@
 		<Row>
 			<Type>BUILDING_SHEEP_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE_PEDIA</Civilopedia>
@@ -747,7 +747,7 @@
 		<Row>
 			<Type>BUILDING_DEER_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_DEER_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_DEER_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DEER_CONGLOMERATE_PEDIA</Civilopedia>
@@ -762,7 +762,7 @@
 		<Row>
 			<Type>BUILDING_STONE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_STONE_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STONE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STONE_CONGLOMERATE_PEDIA</Civilopedia>
@@ -778,7 +778,7 @@
 		<Row>
 			<Type>BUILDING_JADE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_JADE_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_JADE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_JADE_CONGLOMERATE_PEDIA</Civilopedia>
@@ -794,7 +794,7 @@
 		<Row>
 			<Type>BUILDING_ALOE_VERA_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_ALOE_VERA_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_FERTILIZER</PrereqTech>
 			<Description>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE_PEDIA</Civilopedia>
@@ -810,7 +810,7 @@
 		<Row>
 			<Type>BUILDING_OAK_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_OAK_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_STEEL</PrereqTech>
 			<Description>TXT_KEY_BUILDING_OAK_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_OAK_CONGLOMERATE_PEDIA</Civilopedia>
@@ -826,7 +826,7 @@
 		<Row>
 			<Type>BUILDING_AMBER_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_AMBER_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_BLAST_FURNACE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AMBER_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AMBER_CONGLOMERATE_PEDIA</Civilopedia>
@@ -842,7 +842,7 @@
 		<Row>
 			<Type>BUILDING_SQUID_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_SQUID_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SQUID_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SQUID_CONGLOMERATE_PEDIA</Civilopedia>
@@ -858,7 +858,7 @@
 		<Row>
 			<Type>BUILDING_MANGANESE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_MANGANESE_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE_PEDIA</Civilopedia>
@@ -874,7 +874,7 @@
 		<Row>
 			<Type>BUILDING_POPPY_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_CONGLOMERATE_PEDIA</Civilopedia>
@@ -889,7 +889,7 @@
 		<Row>
 			<Type>BUILDING_COFFEE_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_COFFEE_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE_PEDIA</Civilopedia>
@@ -904,7 +904,7 @@
 		<Row>
 			<Type>BUILDING_TITANIUM_CONGLOMERATE</Type>
 			<BuildingClass>BUILDINGCLASS_TITANIUM_CONGLOMERATE</BuildingClass>
-			<Cost>675</Cost>
+			<Cost>720</Cost>
 			<PrereqTech>TECH_STEEL</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE_PEDIA</Civilopedia>
@@ -921,7 +921,7 @@
 		<Row>
 			<Type>BUILDING_FISH_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FISH_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FISH_MONOPOLY_PEDIA</Civilopedia>
@@ -937,7 +937,7 @@
 		<Row>
 			<Type>BUILDING_CRAB_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CRAB_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CRAB_MONOPOLY_PEDIA</Civilopedia>
@@ -953,7 +953,7 @@
 		<Row>
 			<Type>BUILDING_WHEAT_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_WHEAT_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WHEAT_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WHEAT_MONOPOLY_PEDIA</Civilopedia>
@@ -969,7 +969,7 @@
 		<Row>
 			<Type>BUILDING_BANANA_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_BANANA_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BANANA_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BANANA_MONOPOLY_PEDIA</Civilopedia>
@@ -985,7 +985,7 @@
 		<Row>
 			<Type>BUILDING_COPPER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COPPER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COPPER_MONOPOLY_PEDIA</Civilopedia>
@@ -1001,7 +1001,7 @@
 		<Row>
 			<Type>BUILDING_CATTLE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_MONOPOLY_PEDIA</Civilopedia>
@@ -1017,7 +1017,7 @@
 		<Row>
 			<Type>BUILDING_SHEEP_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_MONOPOLY_PEDIA</Civilopedia>
@@ -1033,7 +1033,7 @@
 		<Row>
 			<Type>BUILDING_DEER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_DEER_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_DEER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DEER_MONOPOLY_PEDIA</Civilopedia>
@@ -1049,7 +1049,7 @@
 		<Row>
 			<Type>BUILDING_STONE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_STONE_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STONE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STONE_MONOPOLY_PEDIA</Civilopedia>
@@ -1065,7 +1065,7 @@
 		<Row>
 			<Type>BUILDING_JADE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_JADE_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_JADE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_JADE_MONOPOLY_PEDIA</Civilopedia>
@@ -1082,7 +1082,7 @@
 		<Row>
 			<Type>BUILDING_ALOE_VERA_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_ALOE_VERA_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_PENICILIN</PrereqTech>
 			<Description>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY_PEDIA</Civilopedia>
@@ -1099,7 +1099,7 @@
 		<Row>
 			<Type>BUILDING_OAK_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_OAK_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_OAK_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_OAK_MONOPOLY_PEDIA</Civilopedia>
@@ -1116,7 +1116,7 @@
 		<Row>
 			<Type>BUILDING_AMBER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_AMBER_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AMBER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AMBER_MONOPOLY_PEDIA</Civilopedia>
@@ -1133,7 +1133,7 @@
 		<Row>
 			<Type>BUILDING_SQUID_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_SQUID_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_SUBMERSIBLES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SQUID_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SQUID_MONOPOLY_PEDIA</Civilopedia>
@@ -1150,7 +1150,7 @@
 		<Row>
 			<Type>BUILDING_MANGANESE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_MANGANESE_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MANGANESE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MANGANESE_MONOPOLY_PEDIA</Civilopedia>
@@ -1167,7 +1167,7 @@
 		<Row>
 			<Type>BUILDING_POPPY_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_PENICILIN</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_MONOPOLY_PEDIA</Civilopedia>
@@ -1183,7 +1183,7 @@
 		<Row>
 			<Type>BUILDING_COFFEE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_COFFEE_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>>
+			<Cost>1650</Cost>>
 			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COFFEE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COFFEE_MONOPOLY_PEDIA</Civilopedia>
@@ -1199,7 +1199,7 @@
 		<Row>
 			<Type>BUILDING_TITANIUM_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_TITANIUM_MONOPOLY</BuildingClass>
-			<Cost>1600</Cost>
+			<Cost>1650</Cost>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TITANIUM_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_PEDIA</Civilopedia>
@@ -1218,6 +1218,30 @@
 		
 	<!--ANCIENT ERA-->
 		<Row>
+			<BuildingType>BUILDING_WHEAT_FARM</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_HERDER</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_CUTTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRAB_HERDER</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_CATTLE_RANCH</BuildingType>
 			<ResourceType>RESOURCE_COW</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -1230,13 +1254,25 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_COPPER_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_DEER_HERDER</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-
-	<!--CLASSICAL ERA-->
+		<Row>
+			<BuildingType>BUILDING_BANANA_FARM</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	
+		<!--CLASSICAL ERA-->
 
 		<Row>
 			<BuildingType>BUILDING_WHEAT_MARKET</BuildingType>
@@ -1245,15 +1281,27 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_FISH_MARKET</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_STONE_DEPOT</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OAK_DEPOT</BuildingType>
 			<ResourceType>RESOURCE_OAK</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -1265,12 +1313,12 @@
 		<Row>
 			<BuildingType>BUILDING_SHEEP_TRADER</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_JADE_MARKET</BuildingType>
-			<ResourceType>RESOURCE_JADE</ResourceType>
+			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1283,12 +1331,6 @@
 		<Row>
 			<BuildingType>BUILDING_DEER_MARKET</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_DEER_MARKET</BuildingType>
-			<ResourceType>RESOURCE_DEER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1296,12 +1338,6 @@
 			<BuildingType>BUILDING_BANANA_TRADER</BuildingType>
 			<ResourceType>RESOURCE_BANANA</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BANANA_TRADER</BuildingType>
-			<ResourceType>RESOURCE_BANANA</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -1311,33 +1347,15 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_ALOE_VERA_DISTILLERY</BuildingType>
 			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AMBER_PURIFIER</BuildingType>
-			<ResourceType>RESOURCE_AMBER</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AMBER_PURIFIER</BuildingType>
-			<ResourceType>RESOURCE_AMBER</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_PURIFIER</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		
@@ -1346,7 +1364,7 @@
 			<BuildingType>BUILDING_WHEAT_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WHEAT_DISTRIBUTION_CENTER</BuildingType>
@@ -1355,21 +1373,45 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_FISH_DISTRIBUTION_CENTER</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_DISTRIBUTION_CENTER</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_STONE_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_DISTRIBUTION_CENTER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OAK_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_OAK</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OAK_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_OAK</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -1381,14 +1423,8 @@
 		<Row>
 			<BuildingType>BUILDING_COFFEE_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COFFEE_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CATTLE_DISTRIBUTION_CENTER</BuildingType>
@@ -1412,25 +1448,31 @@
 			<BuildingType>BUILDING_SHEEP_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_TITANIUM_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_TITANIUM_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_JADE_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_DISTRIBUTION_CENTER</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DEER_DISTRIBUTION_CENTER</BuildingType>
@@ -1441,14 +1483,14 @@
 		<Row>
 			<BuildingType>BUILDING_DEER_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BANANA_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_BANANA</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BANANA_DISTRIBUTION_CENTER</BuildingType>
@@ -1459,7 +1501,7 @@
 		<Row>
 			<BuildingType>BUILDING_SQUID_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_SQUID</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -1472,13 +1514,13 @@
 			<BuildingType>BUILDING_POPPY_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_POPPY</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_POPPY_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_POPPY</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MANGANESE_DISTRIBUTION_CENTER</BuildingType>
@@ -1490,30 +1532,24 @@
 			<BuildingType>BUILDING_MANGANESE_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_MANGANESE</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>3</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TITANIUM_DISTRIBUTION_CENTER</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_SCIENCE</YieldType>
+			<BuildingType>BUILDING_ALOE_VERA_DISTRIBUTION_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ALOE_VERA_DISTRIBUTION_CENTER</BuildingType>
 			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AMBER_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_AMBER</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -1546,13 +1582,13 @@
 			<BuildingType>BUILDING_FISH_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FISH_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONE_CONGLOMERATE</BuildingType>
@@ -1582,25 +1618,25 @@
 			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CATTLE_CONGLOMERATE</BuildingType>
@@ -1618,7 +1654,7 @@
 			<BuildingType>BUILDING_SHEEP_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SHEEP_CONGLOMERATE</BuildingType>
@@ -1627,14 +1663,14 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_TITANIUM_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_TITANIUM_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
@@ -1648,19 +1684,13 @@
 			<BuildingType>BUILDING_JADE_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_JADE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DEER_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_DEER_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_DEER</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DEER_CONGLOMERATE</BuildingType>
@@ -1678,7 +1708,7 @@
 			<BuildingType>BUILDING_BANANA_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_BANANA</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SQUID_CONGLOMERATE</BuildingType>
@@ -1689,74 +1719,56 @@
 		<Row>
 			<BuildingType>BUILDING_SQUID_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_SQUID</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SQUID_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_SQUID</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_POPPY_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_POPPY</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_POPPY_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_POPPY</ResourceType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MANGANESE_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_MANGANESE</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MANGANESE_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_MANGANESE</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_MANGANESE_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_MANGANESE_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ALOE_VERA_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<BuildingType>BUILDING_TITANIUM_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TITANIUM_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ALOE_VERA_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ALOE_VERA_CONGLOMERATE</BuildingType>
 			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AMBER_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_AMBER</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AMBER_CONGLOMERATE</BuildingType>
@@ -2637,500 +2649,376 @@
 		
 		<!--ANCIENT ERA-->
 		<Row>
-			<BuildingType>BUILDING_FISH_HERDER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>	
-		<Row>
-			<BuildingType>BUILDING_CRAB_HERDER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>		
-		<Row>
 			<BuildingType>BUILDING_WHEAT_FARM</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BANANA_FARM</BuildingType>
+			<BuildingType>BUILDING_FISH_HERDER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COPPER_SMELTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CATTLE_RANCH</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CATTLE_RANCH</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>		
-		<Row>
-			<BuildingType>BUILDING_SHEEP_RANCH</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SHEEP_RANCH</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_DEER_HERDER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_DEER_HERDER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONE_CUTTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRAB_HERDER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATTLE_RANCH</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_RANCH</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COPPER_SMELTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEER_HERDER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANANA_FARM</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 
 		<!--CLASSICAL ERA-->
 		<Row>
+			<BuildingType>BUILDING_WHEAT_MARKET</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_FISH_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FISH_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>		
-		<Row>
-			<BuildingType>BUILDING_WHEAT_MARKET</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_WHEAT_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BANANA_TRADER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BANANA_TRADER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CATTLE_TRADER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CATTLE_TRADER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>		
-		<Row>
-			<BuildingType>BUILDING_SHEEP_TRADER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SHEEP_TRADER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_DEER_MARKET</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_DEER_MARKET</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONE_DEPOT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_JADE_MARKET</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_JADE_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OAK_DEPOT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_OAK_DEPOT</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ALOE_VERA_DISTILLERY</BuildingType>
+			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ALOE_VERA_DISTILLERY</BuildingType>
+			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATTLE_TRADER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATTLE_TRADER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_TRADER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_TRADER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_TRADER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ALOE_VERA_DISTILLERY</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
+			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_AMBER_PURIFIER</BuildingType>
+			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_AMBER_PURIFIER</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
+			<BuildingType>BUILDING_JADE_MARKET</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEER_MARKET</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEER_MARKET</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANANA_TRADER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANANA_TRADER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POPPY_REFINERY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_POPPY_REFINERY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_DISTILLERY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_DISTILLERY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_PURIFIER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_PURIFIER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 		
 		<!--MEDIEVAL ERA-->
+		<Row>
+			<BuildingType>BUILDING_WHEAT_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>6</Yield>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_FISH_DISTRIBUTION_CENTER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>4</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_WHEAT_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_WHEAT_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BANANA_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BANANA_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>		
-		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CATTLE_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CATTLE_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
-		</Row>		
-		<Row>
-			<BuildingType>BUILDING_SHEEP_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SHEEP_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SHEEP_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_DEER_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_DEER_DISTRIBUTION_CENTER</BuildingType>
+			<BuildingType>BUILDING_FISH_DISTRIBUTION_CENTER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONE_DISTRIBUTION_CENTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STONE_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_JADE_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_JADE_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_OAK_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_OAK_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ALOE_VERA_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ALOE_VERA_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ALOE_VERA_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SQUID_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SQUID_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SQUID_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MANGANESE_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MANGANESE_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AMBER_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AMBER_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AMBER_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_POPPY_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_POPPY_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COFFEE_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COFFEE_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TITANIUM_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TITANIUM_DISTRIBUTION_CENTER</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-
-		<!--RENAISSANCE ERA-->
-		<Row>
-			<BuildingType>BUILDING_FISH_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_FISH_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
-		</Row>	
-		<Row>
-			<BuildingType>BUILDING_WHEAT_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>6</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BANANA_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_OAK_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OAK_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COFFEE_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATTLE_DISTRIBUTION_CENTER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BANANA_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>		
-		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_CATTLE_DISTRIBUTION_CENTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_SHEEP_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEER_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEER_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANANA_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANANA_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_DISTRIBUTION_CENTER</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CATTLE_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_POPPY_DISTRIBUTION_CENTER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CATTLE_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CATTLE_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SHEEP_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SHEEP_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SHEEP_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_DEER_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
+			<BuildingType>BUILDING_POPPY_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>4</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_DEER_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_MANGANESE_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MANGANESE_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TITANIUM_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TITANIUM_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_DISTRIBUTION_CENTER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_DISTRIBUTION_CENTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>	
+
+		<!--RENAISSANCE ERA-->
+		<Row>
+			<BuildingType>BUILDING_WHEAT_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONE_CONGLOMERATE</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STONE_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_JADE_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_JADE_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OAK_CONGLOMERATE</BuildingType>
@@ -3138,39 +3026,109 @@
 			<Yield>8</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ALOE_VERA_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ALOE_VERA_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ALOE_VERA_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SQUID_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SQUID_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SQUID_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_OAK_CONGLOMERATE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COFFEE_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATTLE_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATTLE_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEER_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEER_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANANA_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANANA_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_SQUID_CONGLOMERATE</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>3</Yield>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POPPY_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POPPY_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>8</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MANGANESE_CONGLOMERATE</BuildingType>
@@ -3180,37 +3138,7 @@
 		<Row>
 			<BuildingType>BUILDING_MANGANESE_CONGLOMERATE</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AMBER_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AMBER_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AMBER_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_POPPY_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_POPPY_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COFFEE_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>10</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TITANIUM_CONGLOMERATE</BuildingType>
@@ -3219,9 +3147,32 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TITANIUM_CONGLOMERATE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_CONGLOMERATE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		
+		
+	
 		
 		<!--MODERN ERA-->
 		<Row>

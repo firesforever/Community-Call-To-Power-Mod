@@ -33,7 +33,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FISH_HERDER_HELP</Tag>
-			<Text>City must have an improved source of Fish nearby.</Text>
+			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of Fish nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_HERDER</Tag>
@@ -45,7 +45,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_HERDER_HELP</Tag>
-			<Text>City must have an improved source of Crab nearby.</Text>
+			<Text>Each source of [ICON_RES_CRAB] Crab worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Crab nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_FARM</Tag>
@@ -57,7 +57,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_FARM_HELP</Tag>
-			<Text>City must have an improved source of Wheat nearby.</Text>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of Wheat nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_FARM</Tag>
@@ -69,7 +69,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_FARM_HELP</Tag>
-			<Text>City must have an improved source of Banana nearby.</Text>
+			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Banana nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_SMELTER</Tag>
@@ -81,7 +81,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_SMELTER_HELP</Tag>
-			<Text>City must have an improved source of Copper nearby.</Text>
+			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of Copper nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_RANCH</Tag>
@@ -129,7 +129,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_CUTTER_HELP</Tag>
-			<Text>City must have an improved source of Stone nearby.</Text>
+			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of Stone nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_CUTTER_STRATEGY</Tag>
@@ -147,7 +147,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FISH_MARKET_HELP</Tag>
-			<Text>City must have a Small Fish Market.</Text>
+			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Fish Herder.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_MARKET</Tag>
@@ -159,7 +159,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_MARKET_HELP</Tag>
-			<Text>City must have a Small Crab Market.</Text>
+			<Text>Each source of [ICON_RES_CRAB] Crab worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Crab Herder.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_MARKET</Tag>
@@ -171,7 +171,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_MARKET_HELP</Tag>
-			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Small Wheat Mill.</Text>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Wheat Farm.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_TRADER</Tag>
@@ -183,7 +183,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_TRADER_HELP</Tag>
-			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Small Banana Market.</Text>
+			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Banana Farm.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_DEPOT</Tag>
@@ -195,7 +195,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_DEPOT_HELP</Tag>
-			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Small Copper Smelter.</Text>
+			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Copper Smelter.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_TRADER</Tag>
@@ -207,7 +207,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_TRADER_HELP</Tag>
-			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +1 [ICON_Production] Production.[NEWLINE][NEWLINE]City must have a Small Cattle Yard.</Text>
+			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Cattle Ranch.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHEEP_TRADER</Tag>
@@ -219,7 +219,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHEEP_TRADER_HELP</Tag>
-			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Small Sheep Butcher.</Text>
+			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Sheep Ranch.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DEER_MARKET</Tag>
@@ -231,7 +231,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DEER_MARKET_HELP</Tag>
-			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Small Deer Butcher.</Text>
+			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Deer Herder.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_DEPOT</Tag>
@@ -243,7 +243,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_DEPOT_HELP</Tag>
-			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Small Stone Cutter.</Text>
+			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Stone Cutter.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_DEPOT_STRATEGY</Tag>
@@ -259,7 +259,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_MARKET_HELP</Tag>
-			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Jade nearby.</Text>
+			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Jade nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_MARKET_STRATEGY</Tag>
@@ -291,7 +291,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY_HELP</Tag>
-			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of Aloe Vera nearby.</Text>
+			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of Aloe Vera nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY_STRATEGY</Tag>
@@ -307,7 +307,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER_HELP</Tag>
-			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of Amber nearby.</Text>
+			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Amber nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER_STRATEGY</Tag>
@@ -337,7 +337,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FISH_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Requires 1 Fish Resource and City must have a Medium Fish Market.</Text>
+			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Fish Resource and City must have a Fish Market.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER</Tag>
@@ -349,7 +349,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Requires 1 Crab Resource and City must have a Medium Crab Market.</Text>
+			<Text>Each source of [ICON_RES_CRAB] Crab worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Crab Resource and City must have a Crab Market.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER</Tag>
@@ -361,7 +361,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Wheat Resource and City must have a Medium Wheat Mill.</Text>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Wheat Resource and City must have a Wheat Market.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_DISTRIBUTION_CENTER</Tag>
@@ -373,7 +373,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Banana Resource and City must have a Medium Banana Market.</Text>
+			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Banana Resource and City must have a Banana Trader.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER</Tag>
@@ -385,7 +385,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Copper Resource and City must have a Medium Copper Smelter.</Text>
+			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Copper Resource and City must have a Copper Depot.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER</Tag>
@@ -397,7 +397,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Cow Resource and City must have a Medium Cattle Yard.</Text>
+			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Cow Resource and City must have a Cattle Trader.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHEEP_DISTRIBUTION_CENTER</Tag>
@@ -409,7 +409,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHEEP_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Sheep Resource and City must have a Medium Sheep Butcher.</Text>
+			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Sheep Resource and City must have a Sheep Trader.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DEER_DISTRIBUTION_CENTER</Tag>
@@ -421,7 +421,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DEER_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Deer Resource and City must have a Medium Deer Butcher.</Text>
+			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Deer Resource and City must have a Deer Market.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_DISTRIBUTION_CENTER</Tag>
@@ -433,7 +433,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Stone Resource and City must have a Medium Stone Cutter.</Text>
+			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Stone Resource and City must have a Stone Depot.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_DISTRIBUTION_CENTER_STRATEGY</Tag>
@@ -449,7 +449,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Jade Resource and City must have a Medium Jade Cutter.</Text>
+			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Jade Resource and City must have a Jade Market.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER_STRATEGY</Tag>
@@ -465,7 +465,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OAK_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Oak Resource and City must have a Medium Oak Center.</Text>
+			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Oak Resource and City must have a Oak Depot.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OAK_DISTRIBUTION_CENTER_STRATEGY</Tag>
@@ -481,7 +481,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Aloe Vera Resource and City must have a Medium Aloe Vera Center.</Text>
+			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Aloe Vera Resource and City must have a Aloe Vera Distillery.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER_STRATEGY</Tag>
@@ -497,7 +497,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AMBER_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +1 [ICON_PRODUCTION] Production, +1 [ICON_GOLD] Gold, and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Amber Resource and City must have a Medium Amber Center.</Text>
+			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Amber Resource and City must have a Aloe Vera Purifier.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SQUID_DISTRIBUTION_CENTER</Tag>
@@ -509,7 +509,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SQUID_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_SQUID] Squid worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Squid Resource.[NEWLINE]City must have an improved source of Squid nearby.</Text>
+			<Text>Each source of [ICON_RES_SQUID] Squid worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Squid Resource.[NEWLINE]City must have an improved source of Squid nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MANGANESE_DISTRIBUTION_CENTER</Tag>
@@ -521,7 +521,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MANGANESE_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_MANGANESE] Manganese worked by this City produces +1 [ICON_PRODUCTION] Production and +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Manganese Resource.[NEWLINE]City must have an improved source of Manganese nearby.</Text>
+			<Text>Each source of [ICON_RES_MANGANESE] Manganese worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Manganese Resource.[NEWLINE]City must have an improved source of Manganese nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER</Tag>
@@ -533,7 +533,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_POPPY] Poppy worked by this City produces +1 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Poppy Resource and City must have a Medium Poppy Refinery.</Text>
+			<Text>Each source of [ICON_RES_POPPY] Poppy worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Poppy Resource and City must have a Poppy Refinery.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COFFEE_DISTRIBUTION_CENTER</Tag>
@@ -545,7 +545,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COFFEE_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_COFFEE] Coffee worked by this City produces +1 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Coffee Resource.[NEWLINE]City must have an improved source of Coffee nearby.</Text>
+			<Text>Each source of [ICON_RES_COFFEE] Coffee worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Coffee Resource.[NEWLINE]City must have an improved source of Coffee nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TITANIUM_DISTRIBUTION_CENTER</Tag>
@@ -557,7 +557,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TITANIUM_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_TITANIUM] Titanium worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Titanium Resource.[NEWLINE]City must have an improved source of Titanium nearby.</Text>
+			<Text>Each source of [ICON_RES_TITANIUM] Titanium worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Titanium Resource.[NEWLINE]City must have an improved source of Titanium nearby.</Text>
 		</Row>
 
 
@@ -572,7 +572,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FISH_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Fish.[NEWLINE]City must have a Large Fish Market.</Text>
+			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Fish.[NEWLINE]City must have a Fish Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_CONGLOMERATE</Tag>
@@ -584,7 +584,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_CRAB] Crab worked by this City produces +1 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Crab.[NEWLINE]City must have a Large Crab Market.Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Crab Resource.[NEWLINE][NEWLINE]Requires Large Crab Market Building.</Text>
+			<Text>Each source of [ICON_RES_CRAB] Crab worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Crab.[NEWLINE]City must have a Crab Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE</Tag>
@@ -596,7 +596,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Wheat.[NEWLINE]City must have a Large Wheat Mill.</Text>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Wheat.[NEWLINE]City must have a Wheat Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_CONGLOMERATE</Tag>
@@ -608,7 +608,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Banana.[NEWLINE]City must have a Large Banana Market.</Text>
+			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Banana.[NEWLINE]City must have a Banana Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_CONGLOMERATE</Tag>
@@ -620,7 +620,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Copper.[NEWLINE]City must have a Large Copper Smelter.</Text>
+			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Copper.[NEWLINE]City must have a Copper Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE</Tag>
@@ -632,7 +632,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 3 Cow.[NEWLINE]City must have a Large Cattle Yard.</Text>
+			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 3 Cow.[NEWLINE]City must have a Cattle Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE</Tag>
@@ -644,7 +644,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 3 Sheep.[NEWLINE]City must have a Large Sheep Butcher.</Text>
+			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 3 Sheep.[NEWLINE]City must have a Sheep Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DEER_CONGLOMERATE</Tag>
@@ -656,7 +656,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DEER_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Deer.[NEWLINE]City must have a Large Deer Butcher.</Text>
+			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Deer.[NEWLINE]City must have a Deer Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_CONGLOMERATE</Tag>
@@ -668,7 +668,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Stone.[NEWLINE]City must have a Large Stone Cutter.</Text>
+			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Stone.[NEWLINE]City must have a Stone Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_CONGLOMERATE</Tag>
@@ -680,7 +680,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +2 [ICON_PRODUCTION] Production and +4 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Jade.[NEWLINE]City must have a Large Jade Cutter.</Text>
+			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Jade.[NEWLINE]City must have a Jade Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OAK_CONGLOMERATE</Tag>
@@ -692,7 +692,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OAK_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Oak.[NEWLINE]City must have a Large Oak Center.</Text>
+			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Oak.[NEWLINE]City must have a Oak Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE</Tag>
@@ -704,7 +704,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +1 [ICON_FOOD] Food, +1 [ICON_GOLD] Gold, and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Aloe Vera.[NEWLINE]City must have a Large Aloe Vera Center.</Text>
+			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +2 [ICON_GOLD] Gold and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Aloe Vera.[NEWLINE]City must have a Aloe Vera Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AMBER_CONGLOMERATE</Tag>
@@ -716,7 +716,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AMBER_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +1 [ICON_PRODUCTION] Production, +2 [ICON_GOLD] Gold, and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Amber.[NEWLINE]City must have a Large Amber Center.</Text>
+			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +2 [ICON_GOLD] Gold and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Amber.[NEWLINE]City must have a Aloe Vera Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SQUID_CONGLOMERATE</Tag>
@@ -728,7 +728,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SQUID_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_SQUID] Squid worked by this City produces +2 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Squid.[NEWLINE]City must have a Large Squid Center.</Text>
+			<Text>Each source of [ICON_RES_SQUID] Squid worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Squid.[NEWLINE]City must have a Squid Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE</Tag>
@@ -740,7 +740,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_MANGANESE] Manganese worked by this City produces +1 [ICON_PRODUCTION] Production and +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Manganese.[NEWLINE]City must have a Large Manganese Cutter.</Text>
+			<Text>Each source of [ICON_RES_MANGANESE] Manganese worked by this City produces +2 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Manganese.[NEWLINE]City must have a Manganese Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POPPY_CONGLOMERATE</Tag>
@@ -752,7 +752,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POPPY_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_POPPY] Poppy worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Poppy.[NEWLINE]City must have a Large Poppy Refinery.</Text>
+			<Text>Each source of [ICON_RES_POPPY] Poppy worked by this City produces +1 [ICON_FOOD] Food and +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Poppy.[NEWLINE]City must have a Poppy Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE</Tag>
@@ -764,7 +764,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_COFFEE] Coffee worked by this City produces +1 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Coffee.[NEWLINE]City must have a Large Coffee Mill.</Text>
+			<Text>Each source of [ICON_RES_COFFEE] Coffee worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Coffee.[NEWLINE]City must have a Coffee Distribution Center.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE</Tag>
@@ -776,7 +776,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_TITANIUM] Titanium worked by this City produces +3 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Titanium.[NEWLINE]City must have a Large Titanium Smelter.</Text>
+			<Text>Each source of [ICON_RES_TITANIUM] Titanium worked by this City produces +2 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Titanium.[NEWLINE]City must have a Titanium Distribution Center.</Text>
 		</Row>
 		
 		
@@ -791,7 +791,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FISH_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_FISH] Fish in the empire produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Must have built a Huge Fish Market in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_FISH] Fish in the empire produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Must have built a Fish Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_MONOPOLY</Tag>
@@ -803,7 +803,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRAB_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_CRAB] Crab in the empire produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Huge Crab Market in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_CRAB] Crab in the empire produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Crab Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_MONOPOLY</Tag>
@@ -815,7 +815,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_WHEAT] Wheat in the empire produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Must have built a Huge Wheat Mill in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat in the empire produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Must have built a Wheat Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_MONOPOLY</Tag>
@@ -827,7 +827,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_BANANA] Banana in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Huge Banana Market in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_BANANA] Banana in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Banana Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_MONOPOLY</Tag>
@@ -839,7 +839,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_COPPER] Copper in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Huge Copper Smelter in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_COPPER] Copper in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Copper Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_MONOPOLY</Tag>
@@ -851,7 +851,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_COW] Cow in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Huge Cattle Yard in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_COW] Cow in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Cattle Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHEEP_MONOPOLY</Tag>
@@ -863,7 +863,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHEEP_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_SHEEP] Sheep in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Huge Sheep Butcher in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_SHEEP] Sheep in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Sheep Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DEER_MONOPOLY</Tag>
@@ -875,7 +875,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DEER_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_DEER] Deer in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Huge Deer Butcher in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_DEER] Deer in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Deer Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_MONOPOLY</Tag>
@@ -887,7 +887,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_STONE] Stone in the empire produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Huge Stone Cutter in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_STONE] Stone in the empire produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Stone Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_MONOPOLY</Tag>
@@ -899,7 +899,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JADE_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_JADE] Jade in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Huge Jade Cutter in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_JADE] Jade in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Jade Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OAK_MONOPOLY</Tag>
@@ -911,7 +911,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OAK_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_OAK] Jade in the empire produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Huge Oak Center in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_OAK] Jade in the empire produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Oak Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY</Tag>
@@ -923,7 +923,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera in the empire produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Huge Aloe Vera Center in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera in the empire produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Aloe Vera Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AMBER_MONOPOLY</Tag>
@@ -935,7 +935,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AMBER_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_AMBER] Amber in the empire produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Huge Amber Center in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_AMBER] Amber in the empire produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Aloe Vera Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SQUID_MONOPOLY</Tag>
@@ -947,7 +947,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SQUID_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_SQUID] Squid in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Huge Squid Center in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_SQUID] Squid in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Squid Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MANGANESE_MONOPOLY</Tag>
@@ -959,7 +959,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MANGANESE_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_MANGANESE] Manganese in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Huge Manganese Center in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_MANGANESE] Manganese in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Manganese Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POPPY_MONOPOLY</Tag>
@@ -971,7 +971,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POPPY_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_POPPY] Poppy in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Huge Poppy Refinery in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_POPPY] Poppy in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Poppy Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COFFEE_MONOPOLY</Tag>
@@ -983,7 +983,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COFFEE_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_COFFEE] Coffee in the empire produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Huge Coffee Mill in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_COFFEE] Coffee in the empire produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Coffee Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TITANIUM_MONOPOLY</Tag>
@@ -995,7 +995,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_TITANIUM] Titanium in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Huge Titanium Smelter in at least 3 cities.</Text>
+			<Text>Each source of [ICON_RES_TITANIUM] Titanium in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Titanium Conglomerate in at least 3 cities.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
