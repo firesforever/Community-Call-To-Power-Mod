@@ -544,10 +544,6 @@
 			<PrereqTech>TECH_PHYSICS</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_METALLURGY</TechType>
-			<PrereqTech>TECH_STEEL</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_GUILDS</TechType>
 			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
 		</Row>
