@@ -924,7 +924,7 @@
 		<Row>
 			<PolicyType>POLICY_CENSUS</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>10</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PRIMARIES</PolicyType>
