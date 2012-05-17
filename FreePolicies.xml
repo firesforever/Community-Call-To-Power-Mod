@@ -5,6 +5,7 @@
 	<Policies>
 		<!-- The Free Policies (One for each policy Branch, do not change the ID number of these)-->
 		<!-- Governement Page Free Policies-->
+		<Delete/>
 		<Row>
 			<ID>0</ID>
 			<Type>POLICY_MONARCHY</Type>
@@ -118,9 +119,9 @@
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
-		
-		
-				<!-- Governement Ideologies Free Policies-->
+
+
+		<!-- Governement Ideologies Free Policies-->
 		<Row>
 			<ID>10</ID>
 			<Type>POLICY_PACIFISM</Type>
@@ -226,7 +227,7 @@
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
-		
+
 		<!-- Government Systems Free Policies-->
 
 		<Row>
@@ -333,7 +334,7 @@
 			<PortraitIndex>54</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
-		</Row>	
+		</Row>
 	</Policies>	
 
 	<Policy_Flavors>
