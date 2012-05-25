@@ -922,6 +922,7 @@
 			<Type>BUILDING_FISH_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_FISH_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_FISH_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FISH_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FISH_MONOPOLY_PEDIA</Civilopedia>
@@ -935,9 +936,24 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_FISH_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_FISH_DUMMYY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_FISH_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_FISH_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_FISH_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_CRAB_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_CRAB_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CRAB_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CRAB_MONOPOLY_PEDIA</Civilopedia>
@@ -951,9 +967,24 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_CRAB_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_CRAB_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_CRAB_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CRAB_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_CRAB_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_WHEAT_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_WHEAT_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_WHEAT_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WHEAT_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WHEAT_MONOPOLY_PEDIA</Civilopedia>
@@ -967,10 +998,25 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_WHEAT_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_WHEAT_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_WHEAT_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_WHEAT_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_WHEAT_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_BANANA_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_BANANA_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
+			<FreeBuilding>BUILDINGCLASS_BANANA_DUMMY</FreeBuilding>
 			<Description>TXT_KEY_BUILDING_BANANA_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BANANA_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_BANANA_MONOPOLY_HELP</Help>
@@ -983,9 +1029,24 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_BANANA_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_BANANA_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_BANANA_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BANANA_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_BANANA_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_COPPER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_COPPER_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COPPER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COPPER_MONOPOLY_PEDIA</Civilopedia>
@@ -999,9 +1060,24 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_COPPER_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_COPPER_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_COPPER_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_COPPER_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_COPPER_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_CATTLE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_CATTLE_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_CATTLE_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CATTLE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CATTLE_MONOPOLY_PEDIA</Civilopedia>
@@ -1015,9 +1091,24 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_CATTLE_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_CATTLE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_CATTLE_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CATTLE_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_CATTLE_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_SHEEP_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_SHEEP_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_SHEEP_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SHEEP_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_MONOPOLY_PEDIA</Civilopedia>
@@ -1031,9 +1122,24 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_SHEEP_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_SHEEP_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_SHEEP_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SHEEP_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SHEEP_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>26</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_DEER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_DEER_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_DEER_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_DEER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DEER_MONOPOLY_PEDIA</Civilopedia>
@@ -1047,9 +1153,24 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_DEER_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_DEER_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_DEER_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_DEER_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_DEER_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_STONE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_STONE_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_STONE_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STONE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STONE_MONOPOLY_PEDIA</Civilopedia>
@@ -1063,9 +1184,24 @@
 			<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_STONE_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_STONE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_STONE_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_STONE_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_STONE_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_JADE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_JADE_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_JADE_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_JADE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_JADE_MONOPOLY_PEDIA</Civilopedia>
@@ -1080,9 +1216,25 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_JADE_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_JADE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_JADE_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_JADE_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_JADE_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_JADE_MONOPOLY_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_ALOE_VERA_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_ALOE_VERA_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_ALOE_VERA_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_PENICILIN</PrereqTech>
 			<Description>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY_PEDIA</Civilopedia>
@@ -1097,9 +1249,25 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_ALOE_VERA_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_ALOE_VERA_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_ALOE_VERA_MONOPOLY_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_OAK_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_OAK_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_OAK_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_OAK_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_OAK_MONOPOLY_PEDIA</Civilopedia>
@@ -1114,9 +1282,25 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_OAK_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_OAK_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_OAK_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_OAK_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_OAK_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_OAK_MONOPOLY_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_AMBER_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_AMBER_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_AMBER_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AMBER_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AMBER_MONOPOLY_PEDIA</Civilopedia>
@@ -1131,9 +1315,25 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_AMBER_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_AMBER_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_AMBER_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_AMBER_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_AMBER_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_AMBER_MONOPOLY_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_SQUID_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_SQUID_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_SQUID_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_SUBMERSIBLES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SQUID_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SQUID_MONOPOLY_PEDIA</Civilopedia>
@@ -1148,9 +1348,25 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_SQUID_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_SQUID_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_SQUID_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SQUID_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SQUID_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_SQUID_MONOPOLY_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_MANGANESE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_MANGANESE_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_MANGANESE_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MANGANESE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MANGANESE_MONOPOLY_PEDIA</Civilopedia>
@@ -1165,9 +1381,25 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_MANGANESE_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_MANGANESE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_MANGANESE_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MANGANESE_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MANGANESE_MONOPOLY_HELP</Help>
+			<Strategy>TXT_KEY_MANGANESE_MONOPOLY_STRATEGY</Strategy>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_POPPY_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_POPPY_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_PENICILIN</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_MONOPOLY_PEDIA</Civilopedia>
@@ -1181,9 +1413,24 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_POPPY_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_POPPY_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_POPPY_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_POPPY_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_POPPY_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_COFFEE_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_COFFEE_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>>
+			<FreeBuilding>BUILDINGCLASS_COFFEE_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COFFEE_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COFFEE_MONOPOLY_PEDIA</Civilopedia>
@@ -1197,15 +1444,44 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
+			<Type>BUILDING_COFFEE_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_COFFEE_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_COFFEE_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_COFFEE_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_COFFEE_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
 			<Type>BUILDING_TITANIUM_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_TITANIUM_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
+			<FreeBuilding>BUILDINGCLASS_TITANIUM_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TITANIUM_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
+			<HurryCostModifier>50</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_TITANIUM_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_TITANIUM_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_TITANIUM_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_HELP</Help>
+			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
@@ -1268,7 +1544,7 @@
 		<Row>
 			<BuildingType>BUILDING_BANANA_FARM</BuildingType>
 			<ResourceType>RESOURCE_BANANA</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	
@@ -1781,6 +2057,186 @@
 			<ResourceType>RESOURCE_AMBER</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WHEAT_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FISH_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OAK_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_OAK</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRAB_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COFFEE_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATTLE_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATTLE_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHEEP_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COPPER_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COPPER_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JADE_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEER_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DEER_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANANA_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANANA_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SQUID_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_SQUID</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POPPY_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POPPY_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_POPPY</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MANGANESE_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MANGANESE_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_MANGANESE</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TITANIUM_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TITANIUM_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_TITANIUM</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALOE_VERA_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_ALOE_VERA</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_AMBER_VERA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMBER_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_AMBER_VERA</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
 		</Row>
 	</Building_ResourceYieldChanges>
 	
