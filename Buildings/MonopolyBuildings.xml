@@ -937,7 +937,7 @@
 		</Row>
 		<Row>
 			<Type>BUILDING_FISH_DUMMY</Type>
-			<BuildingClass>BUILDINGCLASS_FISH_DUMMYY</BuildingClass>
+			<BuildingClass>BUILDINGCLASS_FISH_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_FISH_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FISH_MONOPOLY_PEDIA</Civilopedia>
@@ -2228,13 +2228,13 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AMBER_DUMMY</BuildingType>
-			<ResourceType>RESOURCE_AMBER_VERA</ResourceType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AMBER_DUMMY</BuildingType>
-			<ResourceType>RESOURCE_AMBER_VERA</ResourceType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -2916,7 +2916,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_JADE_MONOPOLY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_HUGE_JADE_CUTTER</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_JADE_CONGLOMERATE</BuildingClassType>
 		</Row>
 
 		<Row>
