@@ -582,6 +582,7 @@
 	<Building_DomainProductionModifiers>
 		<Delete BuildingType="BUILDING_FORGE" DomainType="DOMAIN_LAND"/>
 		<Delete BuildingType="BUILDING_ARSENAL" DomainType="DOMAIN_LAND"/>
+		<Delete BuildingType="BUILDING_SEAPORT" DomainType="DOMAIN_SEA"/>
 	</Building_DomainProductionModifiers>
 	<Building_YieldModifiers>
 		<Delete BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD"/>
@@ -1121,7 +1122,7 @@
 			<PortraitIndex>26</PortraitIndex>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="3" Cost="630" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="1" />
+			<Set GoldMaintenance="3" Cost="575" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="1" />
 			<Where Type="BUILDING_FORGE"/>
 		</Update>
 		<Update>
@@ -1192,7 +1193,7 @@
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="5" Cost="570" PrereqTech="TECH_AGRICULTURAL_REVOLUTION" BuildingProductionModifier="0" GreatPeopleRateChange="0" SpecialistCount="1"/>
+			<Set GoldMaintenance="5" Cost="575" PrereqTech="TECH_AGRICULTURAL_REVOLUTION" BuildingProductionModifier="0" GreatPeopleRateChange="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_WINDMILL"/>
 		</Update>
 
@@ -1214,7 +1215,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_FOUNDRY_DESC</Civilopedia>
 			<Help>TXT_KEY_BUILDING_FOUNDRY_HELP</Help>
 			<GoldMaintenance>6</GoldMaintenance>
-			<Cost>880</Cost>
+			<Cost>720</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -6709,7 +6710,6 @@
 		</Row>
 	</Building_Flavors>
 	<Building_LocalResourceAnds>
-		<Delete BuildingType="BUILDING_FORGE" ResourceType="RESOURCE_IRON" />
 		<!--<Row>
 			<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
 			<ResourceType>RESOURCE_IVORY</ResourceType>
@@ -7444,14 +7444,6 @@
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_CIRCUS</BuildingType>
 			<ResourceType>RESOURCE_FUR</ResourceType>
 		</Row>
@@ -7816,7 +7808,7 @@
 	</Building_ResourceYieldChanges>
 	<Building_TechEnhancedYieldChanges>
 		<Update>
-			<Set Yield="9" />
+			<Set Yield="4" />
 			<Where BuildingType="BUILDING_MUGHAL_FORT" YieldType="YIELD_GOLD"/>
 		</Update>
 	</Building_TechEnhancedYieldChanges>

@@ -512,7 +512,7 @@
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="61"/>
-			<Where Type="TECH_HERBAL_SCIENCES" />
+			<Where Type="TECH_HERBAL_SCIENCE" />
 		</Update>
 
 		<Update>
