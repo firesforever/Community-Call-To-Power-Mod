@@ -7332,10 +7332,6 @@
 			<BuildingClassType>BUILDINGCLASS_MISSIONARY_CHURCH</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_SERVER_FARM</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
 		</Row>
