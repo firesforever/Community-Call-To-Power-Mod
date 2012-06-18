@@ -31,6 +31,10 @@
 			<Set Text="+2 [ICON_FOOD] Food from every Oasis."/>
 			<Where Tag="TXT_KEY_BUILDING_BAZAAR_HELP" />
 		</Update>
+		<Update>
+			<Set Text="+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library."/>
+			<Where Tag="TXT_KEY_BUILDING_WAT_HELP" />
+		</Update>		
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BREWERY</Tag>
 			<Text>Brewery</Text>
@@ -757,10 +761,6 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MISSIONARY_CHURCH_HELP</Tag>
 			<Text>City must have an Abbey.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_WAT_HELP</Tag>
-			<Text>+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_RANCH</Tag>
@@ -5192,6 +5192,10 @@
 			<Where Tag="TXT_KEY_TECH_NANOTECHNOLOGY_TITLE" />
 		</Update>
 
+		<Update>
+			<Set Text="While in a [ICON_GOLDEN_AGE] Golden Age, every tile in your empire that produces at least 1 [ICON_PRODUCTION] Production, 1 [ICON_GOLD] Gold, or 1 [ICON_RESEARCH] Science produces 1 extra."/>
+			<Where Tag="TXT_KEY_TP_GOLDEN_AGE_EFFECT" />
+		</Update>
 		<Update>
 			<Set Text="Strategic Resources provide +1 [ICON_PRODUCTION] Production and Horse, Iron and Uranium Resources provide double quantity." />
 			<Where Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES" />
