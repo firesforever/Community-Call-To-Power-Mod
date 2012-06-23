@@ -219,22 +219,6 @@
 			<Text>[NEWLINE][TAB][TAB]“Indeed, what is there that does not appear marvelous when it comes to our knowledge for the first time? How many things, too, are looked upon as quite impossible until they have been actually effected?”[NEWLINE][TAB][TAB] - Pliny the Elder 25AD-79AD[NEWLINE][TAB][TAB]</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_PETRA</Tag>
-			<Text>Petra</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_WONDER_PETRA_DESC</Tag>
-			<Text>Petra  is a historic and archaeological City in the Jordanian governorate of Ma'an that has rock cut architecture and a water conduits system. Established sometime around the 6th century BC as the capital City of the Nabataeans, it is a symbol of Jordan as well as its most visited tourism attraction.  It lies on the slope of Mount Hor in a basin among the mountains which form the eastern flank of Arabah (Wadi Araba), the large valley running from the Dead Sea to the Gulf of Aqaba.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_WONDER_PETRA_HELP</Tag>
-			<Text>Increases [ICON_PRODUCTION] Production in this City.[NEWLINE][NEWLINE]City must be built within 2 tiles of a Mountain.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_WONDER_PETRA_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“The best plan is to profit by the folly of others.”[NEWLINE][TAB][TAB] - Pliny the Elder 25AD-79AD[NEWLINE][TAB]</Text>
-		</Row>
-		<Row>
 			<Tag>TXT_KEY_BUILDING_PARTHENON</Tag>
 			<Text>Parthenon</Text>
 		</Row>
@@ -790,7 +774,7 @@
 			<Tag>TXT_KEY_DECLARATION_OF_INDEPENDENCE_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]“Experience hath shown, that even under the best forms (of government) those entrusted with power have, in time, and by slow operations, perverted it into tyranny.”[NELWINE][TAB][TAB] - Thomas Jefferson[NEWLINE][TAB]</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_HORSE_DERBY</Tag>
 			<Text>Horse Derby</Text>
 		</Row>
@@ -805,7 +789,7 @@
 		<Row>
 			<Tag>TXT_KEY_WONDER_HORSE_DERBY_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]“When a jockey retires, he just becomes another little man.”[NEWLINE][TAB][TAB] - Eddie Arcaro[NEWLINE][TAB]</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_THEORY_OF_EVOLUTION</Tag>
 			<Text>Theory of Evolution</Text>
@@ -4661,10 +4645,6 @@
 		<Update>
 			<Set Text="A Great Artist appears in the City where this building was constructed."/>
 			<Where Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP" />
-		</Update>
-		<Update>
-			<Set Text="Massively increases [ICON_CULTURE] Culture in this City."/>
-			<Where Tag="TXT_KEY_WONDER_LOUVRE_HELP" />
 		</Update>
 		<Update>
 			<Set Text="+1 [ICON_PRODUCTION] Production from Artist Specialist in every City.[NEWLINE][NEWLINE]Must have built a Monument in all Cities. The cost goes up the more cities there are in the empire."/>

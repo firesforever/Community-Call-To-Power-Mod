@@ -8,8 +8,6 @@
 			<ArtPrefix>FUTURE</ArtPrefix>
 			<Strategy>TXT_KEY_ERA_NANOTECH_STRATEGY</Strategy>
 			<NoGoodies>true</NoGoodies>
-			<NoBarbUnits>true</NoBarbUnits>
-			<NoBarbCities>true</NoBarbCities>
 			<ResearchAgreementCost>40000</ResearchAgreementCost>
 			<StartingUnitMultiplier>4</StartingUnitMultiplier>
 			<StartingDefenseUnits>4</StartingDefenseUnits>
@@ -41,8 +39,6 @@
 			<ArtPrefix>FUTURE </ArtPrefix>
 			<Strategy>0</Strategy>
 			<NoGoodies>true</NoGoodies>
-			<NoBarbUnits>true</NoBarbUnits>
-			<NoBarbCities>true</NoBarbCities>
 			<ResearchAgreementCost>80000</ResearchAgreementCost>
 			<StartingUnitMultiplier>5</StartingUnitMultiplier>
 			<StartingDefenseUnits>5</StartingDefenseUnits>

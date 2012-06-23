@@ -23,12 +23,6 @@
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_PETRA</Type>
-			<Description>TXT_KEY_PETRA</Description>
-			<DefaultBuilding>BUILDING_PETRA</DefaultBuilding>
-			<MaxGlobalInstances>1</MaxGlobalInstances>
-		</Row>
-		<Row>
 			<Type>BUILDINGCLASS_THE_LABYRNTH</Type>
 			<Description>TXT_KEY_THE_LABYRNTH</Description>
 			<DefaultBuilding>BUILDING_THE_LABYRNTH</DefaultBuilding>
@@ -268,12 +262,12 @@
 			<DefaultBuilding>BUILDING_DECLARATION_OF_INDEPENDENCE</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_HORSE_DERBY</Type>
 			<Description>TXT_KEY_BUILDING_HORSE_DERBY</Description>
 			<DefaultBuilding>BUILDING_HORSE_DERBY</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDINGCLASS_THEORY_OF_EVOLUTION</Type>
 			<Description>TXT_KEY_BUILDING_THEORY_OF_EVOLUTION</Description>

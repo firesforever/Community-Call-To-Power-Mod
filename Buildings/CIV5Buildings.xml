@@ -4,6 +4,16 @@
 	<Building_YieldChanges>
 		<Delete/>
 		<Row>
+			<BuildingType>BUILDING_PUBLISHING_HOUSE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BURIAL_MOUND</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_HARBOR</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>4</Yield>
@@ -12,6 +22,26 @@
 			<BuildingType>BUILDING_ABBEY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MISSIONARY_CHURCH</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GARDEN</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OPERA_HOUSE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AQUARIUM</BuildingType>
@@ -34,9 +64,134 @@
 			<Yield>4</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_AL_JABR</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COMMUNIST_MANIFESTO</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GUTENBERG_BIBLE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOLLYWOOD</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BACHS_CATHEDRAL</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAGELLAN_VOYAGE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAHABODHI_TEMPLE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPHINX</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUILDING_SUN_TZU_ART_OF_WAR</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_OF_SOLOMON</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_THE_GRAND_MOSQUE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_THEORY_OF_EVOLUTION</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ZIGGURAT_OF_MARDUK</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CONSTITUTION</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTERNATIONAL_AID_ORGANIZATION</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LITERARY_EPIC</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_PARK_SERVICE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OLYMPICS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SISTINE_CHAPEL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SISTINE_CHAPEL</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>
@@ -124,14 +279,34 @@
 			<Yield>4</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_TEMPLE_OF_HEAVEN</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_KONG_MIAO</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>6</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_KONG_MIAO</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_NAZCA_LINES</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>5</Yield>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NAZCA_LINES</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NAZCA_LINES</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WINDMILL</BuildingType>
@@ -368,11 +543,11 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>10</Yield>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_HORSE_DERBY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_SATRAPS_COURT</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -512,11 +687,6 @@
 			<BuildingType>BUILDING_SPACE_ELEVATOR</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>600</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_PETRA</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_REGIONAL_FAIR</BuildingType>
@@ -786,12 +956,11 @@
 		</Row>
 	</Building_GlobalYieldModifiers>
 	<Building_FreeUnits>
-		<Delete BuildingType="BUILDING_LOUVRE" UnitType="UNIT_ARTIST" />
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
 			<UnitType>UNIT_GREAT_GENERAL</UnitType>
 			<NumUnits>1</NumUnits>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
 			<UnitType>UNIT_ARTIST</UnitType>
@@ -934,19 +1103,19 @@
 			<Description>TXT_KEY_BUILDING_BURIAL_MOUND</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BURIAL_MOUND_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_BURIAL_MOUND_STRATEGY</Strategy>
-			<Cost>80</Cost>
+			<Cost>100</Cost>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
+			<ConquestProb>25</ConquestProb>
 			<GoldMaintenance>1</GoldMaintenance>
-			<Culture>2</Culture>
+			<PlotCultureCostModifier>-10</PlotCultureCostModifier>
 			<BuildingClass>BUILDINGCLASS_BURIAL_MOUND</BuildingClass>
 			<PrereqTech>TECH_CEREMONIAL_BURIAL</PrereqTech>
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>BW_ATLAS_5</IconAtlas>
 		</Row>
 		<Update>
-			<Set Cost="160" Culture="2" Happiness="2" SpecialistCount="1" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_ARTIST" PrereqTech="TECH_MYSTICISM" />
+			<Set Cost="160" Happiness="2" SpecialistCount="1" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_ARTIST" PrereqTech="TECH_MYSTICISM" />
 			<Where Type="BUILDING_BURIAL_TOMB"/>
 		</Update>
 		<Update>
@@ -970,7 +1139,7 @@
 			<Where Type="BUILDING_MONUMENT"/>
 		</Update>
 		<Update>
-			<Set Cost="160" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" Culture="5" Happiness="0" SpecialistCount="1"/>
+			<Set Cost="160" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" Happiness="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_MUD_PYRAMID_MOSQUE"/>
 		</Update>
 		<Update>
@@ -1126,7 +1295,7 @@
 			<Where Type="BUILDING_FORGE"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="3" Cost="540" Culture="3" Happiness="1"/>
+			<Set GoldMaintenance="3" Cost="540" Happiness="1"/>
 			<Where Type="BUILDING_GARDEN"/>
 		</Update>
 		<Update>
@@ -1150,7 +1319,7 @@
 			<Where Type="BUILDING_MUSEUM"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="5" Cost="610" GreatPeopleRateChange="0" SpecialistCount="1" Happiness="2" Culture="5"/>
+			<Set GoldMaintenance="5" Cost="610" GreatPeopleRateChange="0" SpecialistCount="1" Happiness="2"/>
 			<Where Type="BUILDING_OPERA_HOUSE"/>
 		</Update>
 		<Row>
@@ -1258,7 +1427,6 @@
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<Happiness>2</Happiness>
 			<BuildingClass>BUILDINGCLASS_MISSIONARY_CHURCH</BuildingClass>
 			<PrereqTech>TECH_EVANGELISM</PrereqTech>
@@ -1287,7 +1455,7 @@
 			<PortraitIndex>33</PortraitIndex>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="8" Cost="840" Culture="0" GreatPeopleRateChange="0" SpecialistCount="0"/>
+			<Set GoldMaintenance="8" Cost="840" GreatPeopleRateChange="0" SpecialistCount="0"/>
 			<Where Type="BUILDING_PUBLIC_SCHOOL"/>
 		</Update>
 		<Row>
@@ -1300,7 +1468,6 @@
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_PUBLISHING_HOUSE</BuildingClass>
 			<FreeStartEra>ERA_MODERN</FreeStartEra>
 			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
@@ -1418,7 +1585,7 @@
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="15" Culture="4" Cost="1175" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="2" GreatPeopleRateChange="0"/>
+			<Set GoldMaintenance="15" Cost="1175" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="2" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_BROADCAST_TOWER"/>
 		</Update>
 		<Row>
@@ -1785,8 +1952,7 @@
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>4</Culture>
-			<Happiness>2</Happiness>
+			<Happiness>4</Happiness>
 			<BuildingClass>BUILDINGCLASS_MEGACHURCH</BuildingClass>
 			<PrereqTech>TECH_TELEVANGELISM</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
@@ -1868,7 +2034,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_AL_JABR</BuildingClass>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<PrereqTech>TECH_ALGEBRA</PrereqTech>
@@ -1880,7 +2045,7 @@
 			<PortraitIndex>25</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="900" GreatPeopleRateChange="0" Culture="4"/>
+			<Set Cost="900" GreatPeopleRateChange="0" />
 			<Where Type="BUILDING_ANGKOR_WAT" />
 		</Update>
 		<Row>
@@ -1904,15 +2069,15 @@
 			<PortraitIndex>1</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="1425" PrereqTech="TECH_MACHINERY" Culture="0" GreatPeopleRateChange="3" SpecialistCount="1"/>
+			<Set Cost="1425" PrereqTech="TECH_MACHINERY" GreatPeopleRateChange="3" SpecialistCount="1"/>
 			<Where Type="BUILDING_BIG_BEN"/>
 		</Update>
 		<Update>
-			<Set Cost="1425" Culture="2" SpecialistCount="1" GreatPeopleRateChange="3"/>
+			<Set Cost="1425" SpecialistCount="1" GreatPeopleRateChange="3"/>
 			<Where Type="BUILDING_BRANDENBURG_GATE"/>
 		</Update>
 		<Update>
-			<Set Cost="970" Culture="2" GreatPeopleRateChange="3" SpecialistCount="1" Happiness="2"/>
+			<Set Cost="970" GreatPeopleRateChange="3" SpecialistCount="1" Happiness="2"/>
 			<Where Type="BUILDING_CHICHEN_ITZA"/>
 		</Update>
 		<Row>
@@ -1926,7 +2091,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<PolicyCostModifier>-20</PolicyCostModifier>
 			<BuildingClass>BUILDINGCLASS_COMMUNIST_MANIFESTO</BuildingClass>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
@@ -1960,7 +2124,7 @@
 			<PortraitIndex>29</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="1825" Culture="4" SpecialistCount="1" GreatPeopleRateChange="3"/>
+			<Set Cost="1825" SpecialistCount="1" GreatPeopleRateChange="3"/>
 			<Where Type="BUILDING_CRISTO_REDENTOR"/>
 		</Update>
 		<!--CRYSTAL CATHEDRAL-->
@@ -1998,7 +2162,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<HappinessPerCity>5</HappinessPerCity>
 			<BuildingClass>BUILDINGCLASS_CURE_FOR_CANCER</BuildingClass>
 			<PrereqTech>TECH_GENETIC_ENGINEERING</PrereqTech>
@@ -2021,7 +2184,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>4</Culture>
 			<BuildingClass>BUILDINGCLASS_DINOSAUR_PARK</BuildingClass>
 			<PrereqTech>TECH_GENETIC_SYNTHESIS</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -2053,7 +2215,7 @@
 			<PortraitIndex>46</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="1900" UnmoddedHappiness="6" Culture="2" GreatPeopleRateChange="0"/>
+			<Set Cost="1900" UnmoddedHappiness="6" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_EIFFEL_TOWER"/>
 		</Update>
 		<!--FACEBOOK-->
@@ -2111,7 +2273,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<GlobalGreatPeopleRateModifier>33</GlobalGreatPeopleRateModifier>
 			<BuildingClass>BUILDINGCLASS_GUTENBERG_BIBLE</BuildingClass>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
@@ -2138,7 +2299,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>6</Culture>
 			<CityCountUnhappinessMod>-25</CityCountUnhappinessMod>
 			<BuildingClass>BUILDINGCLASS_HOLLYWOOD</BuildingClass>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
@@ -2161,7 +2321,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_HUMAN_BRAIN_MAP</BuildingClass>
 			<PrereqTech>TECH_FUNCTIONAL_MRI</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -2183,7 +2342,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_HUMAN_GENOME_PROJECT</BuildingClass>
 			<PrereqTech>TECH_GENETICS</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -2205,7 +2363,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>6</Culture>
 			<HappinessPerCity>15</HappinessPerCity>
 			<BuildingClass>BUILDINGCLASS_IMAGINARIUM</BuildingClass>
 			<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
@@ -2227,7 +2384,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<HappinessPerCity>1</HappinessPerCity>
 			<BuildingClass>BUILDINGCLASS_INTERNET</BuildingClass>
 			<PrereqTech>TECH_INTERNET</PrereqTech>
@@ -2249,8 +2405,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
-			<UnmoddedHappiness>6</UnmoddedHappiness>
+			<UnmoddedHappiness>2</UnmoddedHappiness>
 			<BuildingClass>BUILDINGCLASS_BACH_CATHEDRAL</BuildingClass>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
@@ -2270,7 +2425,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_KONG_MIAO</BuildingClass>
 			<ArtDefineTag>FORBIDDEN CITY</ArtDefineTag>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
@@ -2293,7 +2447,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_LARGE_HADRON_COLLIDER</BuildingClass>
 			<PrereqTech>TECH_SUPERCONDUCTORS</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -2336,7 +2489,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>6</Culture>
 			<BuildingClass>BUILDINGCLASS_M_THEORY</BuildingClass>
 			<PrereqTech>TECH_UNIFIED_FIELD_THEORY</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -2347,7 +2499,7 @@
 			<PortraitIndex>37</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="540" TradeRouteModifier="0" Culture="2" GreatPeopleRateChange="1" SpecialistCount="1"/>
+			<Set Cost="540" TradeRouteModifier="0" GreatPeopleRateChange="1" SpecialistCount="1"/>
 			<Where Type="BUILDING_MACHU_PICHU"/>
 		</Update>
 		<Row>
@@ -2362,7 +2514,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_MAGELLAN_VOYAGE</BuildingClass>
 			<MaxStartEra>ERA_MODERN</MaxStartEra>
 			<FreePromotion>PROMOTION_MAGELLAN_VOYAGE</FreePromotion>
@@ -2385,8 +2536,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
-			<UnmoddedHappiness>6</UnmoddedHappiness>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
 			<BuildingClass>BUILDINGCLASS_MAHABODHI_TEMPLE</BuildingClass>
 			<ArtDefineTag>ANGKOR WAT</ArtDefineTag>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
@@ -2411,7 +2561,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>4</Culture>
 			<BuildingClass>BUILDINGCLASS_NAZCA_LINES</BuildingClass>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
 			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
@@ -2423,7 +2572,7 @@
 			<PortraitIndex>14</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="970" UnmoddedHappiness="8" Culture="2" PrereqTech="TECH_THEOLOGY" SpecialistType="SPECIALIST_ARTIST" GreatPeopleRateChange="3" SpecialistCount="1"/>
+			<Set Cost="970" UnmoddedHappiness="8" PrereqTech="TECH_THEOLOGY" SpecialistType="SPECIALIST_ARTIST" GreatPeopleRateChange="3" SpecialistCount="1"/>
 			<Where Type="BUILDING_NOTRE_DAME"/>
 		</Update>
 		<Row>
@@ -2437,7 +2586,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>8</Culture>
 			<BuildingClass>BUILDINGCLASS_PARTHENON</BuildingClass>
 			<ArtDefineTag>THE_GREAT_LIBRARY</ArtDefineTag>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
@@ -2450,31 +2598,9 @@
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="1900" PrereqTech="TECH_TELEPHONE" Culture="0" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="3" SpecialistCount="1"/>
+			<Set Cost="1900" PrereqTech="TECH_TELEPHONE" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="3" SpecialistCount="1"/>
 			<Where Type="BUILDING_PENTAGON"/>
 		</Update>
-		<Row>
-			<Type>BUILDING_PETRA</Type>
-			<Description>TXT_KEY_BUILDING_PETRA</Description>
-			<Civilopedia>TXT_KEY_WONDER_PETRA_DESC</Civilopedia>
-			<Help>TXT_KEY_WONDER_PETRA_HELP</Help>
-			<Quote>TXT_KEY_WONDER_PETRA_QUOTE</Quote>
-			<NearbyMountainRequired>true</NearbyMountainRequired>
-			<NukeImmune>true</NukeImmune>
-			<Cost>350</Cost>
-			<HurryCostModifier>-1</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<Culture>1</Culture>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
-			<BuildingClass>BUILDINGCLASS_PETRA</BuildingClass>
-			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<PrereqTech>TECH_MINING</PrereqTech>
-			<WonderSplashImage>SplashPetra.dds</WonderSplashImage>
-			<IconAtlas>BW_ATLAS_3</IconAtlas>
-			<PortraitIndex>3</PortraitIndex>
-		</Row>
 		<Row>
 			<Type>BUILDING_PRINCIPIA_MATHEMATICA</Type>
 			<Description>TXT_KEY_BUILDING_PRINCIPIA_MATHEMATICA</Description>
@@ -2519,7 +2645,7 @@
 			<PortraitIndex>19</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="970" Culture="12" GlobalCultureRateModifier="0" GreatPeopleRateChange="0"/>
+			<Set Cost="970" GlobalCultureRateModifier="0" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_SISTINE_CHAPEL"/>
 		</Update>
 		<Row>
@@ -2532,7 +2658,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>6</Culture>
 			<BuildingClass>BUILDINGCLASS_SPHINX</BuildingClass>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<PrereqTech>TECH_GREAT_WORKS</PrereqTech>
@@ -2543,7 +2668,7 @@
 			<PortraitIndex>7</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="1900" Culture="4" SpecialistCount="2" GreatPeopleRateChange="4"/>
+			<Set Cost="1900" SpecialistCount="2" GreatPeopleRateChange="4"/>
 			<Where Type="BUILDING_STATUE_OF_LIBERTY"/>
 		</Update>
 	<!--	<Row>
@@ -2557,7 +2682,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>10</Culture>
 			<BuildingClass>BUILDINGCLASS_STATUE_OF_ZEUS</BuildingClass>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
@@ -2578,7 +2702,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_SUN_TZU_ART_OF_WAR</BuildingClass>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
@@ -2592,7 +2715,7 @@
 			<Where Type="BUILDING_SYDNEY_OPERA_HOUSE"/>
 		</Update>
 		<Update>
-			<Set Cost="970" PrereqTech="TECH_FUNDAMENTALISM" GreatPeopleRateChange="0" Culture="4"/>
+			<Set Cost="970" PrereqTech="TECH_FUNDAMENTALISM" GreatPeopleRateChange="0" />
 			<Where Type="BUILDING_TAJ_MAHAL"/>
 		</Update>
 		<Row>
@@ -2607,7 +2730,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_TEMPLE_OF_HEAVEN</BuildingClass>
 			<ArtDefineTag>FORBIDDEN CITY</ArtDefineTag>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
@@ -2631,7 +2753,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<Happiness>1</Happiness>
 			<FreePolicies>1</FreePolicies>
 			<BuildingClass>BUILDINGCLASS_TEMPLE_OF_SOLOMON</BuildingClass>
@@ -2645,7 +2766,7 @@
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>9</PortraitIndex>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDING_TERRACOTTA_ARMY</Type>
 			<Description>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Description>
 			<Civilopedia>TXT_KEY_WONDER_TERRACOTTA_ARMY_DESC</Civilopedia>
@@ -2656,7 +2777,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>4</Culture>
 			<BuildingClass>BUILDINGCLASS_TERRACOTTA_ARMY</BuildingClass>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
@@ -2665,13 +2785,13 @@
 			<WonderSplashImage>SplashTerracottaArmy.dds</WonderSplashImage>
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
-		</Row>
+		</Row>-->
 		<Update>
-			<Set Cost="395" ObsoleteTech="NULL" Culture="1" SpecialistCount="0" GreatPeopleRateChange="0"/>
+			<Set Cost="395" ObsoleteTech="NULL" SpecialistCount="0" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_COLOSSUS"/>
 		</Update>
 		<Update>
-			<Set Cost="1475" Culture="2" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="0" GreatPeopleRateChange="0" UnhappinessModifier="0" CityCountUnhappinessMod="0" UnmoddedHappiness="10"/>
+			<Set Cost="1475" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="0" GreatPeopleRateChange="0" UnhappinessModifier="0" CityCountUnhappinessMod="0" UnmoddedHappiness="10"/>
 			<Where Type="BUILDING_FORBIDDEN_PALACE"/>
 		</Update>
 		<Row>
@@ -2685,7 +2805,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_THE_GRAND_MOSQUE</BuildingClass>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<PrereqTech>TECH_FUNDAMENTALISM</PrereqTech>
@@ -2696,15 +2815,15 @@
 			<PortraitIndex>23</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="540" Culture="2" SpecialistCount="1" GreatPeopleRateChange="0"/>
+			<Set Cost="540" SpecialistCount="1" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_GREAT_LIBRARY"/>
 		</Update>
 		<Update>
-			<Set Cost="395" Culture="2" GreatPeopleRateChange="4" />
+			<Set Cost="395" GreatPeopleRateChange="4" />
 			<Where Type="BUILDING_GREAT_LIGHTHOUSE"/>
 		</Update>
 		<Update>
-			<Set Cost="570" SpecialistCount="1" GreatPeopleRateChange="3" Culture="0"/>
+			<Set Cost="570" SpecialistCount="1" GreatPeopleRateChange="3" />
 			<Where Type="BUILDING_GREAT_WALL"/>
 		</Update>
 		<Update>
@@ -2712,11 +2831,11 @@
 			<Where Type="BUILDING_HAGIA_SOPHIA"/>
 		</Update>
 		<Update>
-			<Set Cost="540" PrereqTech="TECH_CODE_OF_LAWS" UnmoddedHappiness="2" Culture="4" GreatPeopleRateChange="0"/>
+			<Set Cost="540" PrereqTech="TECH_CODE_OF_LAWS" UnmoddedHappiness="2" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_HANGING_GARDEN"/>
 		</Update>
 		<Update>
-			<Set Cost="935" PrereqTech="TECH_FEUDALISM" Culture="2" GreatPeopleRateChange="0"/>
+			<Set Cost="935" PrereqTech="TECH_FEUDALISM" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_KREMLIN"/>
 		</Update>
 		<Row>
@@ -2741,19 +2860,19 @@
 			<PortraitIndex>4</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="970" Culture="12" SpecialistType="SPECIALIST_ENGINEER"/>
+			<Set Cost="970" />
 			<Where Type="BUILDING_LOUVRE"/>
 		</Update>
 		<Update>
-			<Set Cost="540" Culture="2" GreatPeopleRateChange="0"/>
+			<Set Cost="540" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_ORACLE"/>
 		</Update>
 		<Update>
-			<Set Cost="1475" Culture="2" GreatPeopleRateChange="0" SpecialistCount="2"/>
+			<Set Cost="1475" GreatPeopleRateChange="0" SpecialistCount="2"/>
 			<Where Type="BUILDING_PORCELAIN_TOWER"/>
 		</Update>
 		<Update>
-			<Set Cost="420" Culture="2" GreatPeopleRateChange="0" SpecialistCount="1"/>
+			<Set Cost="420" GreatPeopleRateChange="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_PYRAMID"/>
 		</Update>
 		<Row>
@@ -2767,7 +2886,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_THEORY_OF_EVOLUTION</BuildingClass>
 			<MaxStartEra>ERA_MODERN</MaxStartEra>
 			<PrereqTech>TECH_BIOLOGY</PrereqTech>
@@ -2794,7 +2912,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>12</Culture>
 			<TradeRouteModifier>60</TradeRouteModifier>
 			<BuildingClass>BUILDINGCLASS_VIRTUAL_SECURITIES_EXCHANGE</BuildingClass>
 			<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
@@ -2836,7 +2953,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_ZIGGURAT_OF_MARDUK</BuildingClass>
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_EPIC</ArtDefineTag>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
@@ -2862,7 +2978,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<HappinessPerCity>5</HappinessPerCity>
 			<BuildingClass>BUILDINGCLASS_3_LAWS</BuildingClass>
 			<PrereqTech>TECH_ARTIFICIAL_INTELLIGENCE</PrereqTech>
@@ -2884,7 +2999,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_AI_CORE</BuildingClass>
 			<PrereqTech>TECH_ARTIFICIAL_INTELLIGENCE</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
@@ -2904,7 +3018,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_BIOTECH_INDUSTRIAL_PARK</BuildingClass>
 			<PrereqTech>TECH_BIOTECH_INDUSTRY</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -2933,7 +3046,7 @@
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="350" Culture="2" PrereqTech="TECH_CARRIAGES" UnmoddedHappiness="8"/>
+			<Set Cost="350" PrereqTech="TECH_CARRIAGES" UnmoddedHappiness="8"/>
 			<Where Type="BUILDING_CIRCUS_MAXIMUS"/>
 		</Update>
 		<Row>
@@ -2947,7 +3060,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<FreePolicies>1</FreePolicies>
 			<BuildingClass>BUILDINGCLASS_CONSTITUTION</BuildingClass>
 			<PrereqTech>TECH_CONSTITUTION</PrereqTech>
@@ -2988,7 +3100,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>4</Culture>
 			<GlobalDefenseMod>50</GlobalDefenseMod>
 			<BuildingClass>BUILDINGCLASS_CYBER_COMMAND</BuildingClass>
 			<PrereqTech>TECH_DIGITAL_DEFENSE_DOCTRINE</PrereqTech>
@@ -3048,7 +3159,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>10</Culture>
 			<BuildingClass>BUILDINGCLASS_EMPATHIC_NETWORK</BuildingClass>
 			<PrereqTech>TECH_MIND_MELDING</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
@@ -3068,7 +3178,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_FUSION_POWER_PLANT</BuildingClass>
 			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
@@ -3089,7 +3198,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>20</Culture>
 			<GlobalCultureRateModifier>25</GlobalCultureRateModifier>
 			<BuildingClass>BUILDINGCLASS_GIGA_TOWER</BuildingClass>
 			<PrereqTech>TECH_NANO_MASS_PRODUCTION</PrereqTech>
@@ -3111,7 +3219,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<TradeRouteModifier>20</TradeRouteModifier>
 			<GlobalDefenseMod>50</GlobalDefenseMod>
 			<BuildingClass>BUILDINGCLASS_GPS_SATELLITES</BuildingClass>
@@ -3130,7 +3237,7 @@
 			<Set Cost="480" PrereqTech="TECH_POETRY"/>
 			<Where Type="BUILDING_HEROIC_EPIC"/>
 		</Update>
-		<Row>
+		<!--<Row>
 			<Type>BUILDING_HORSE_DERBY</Type>
 			<Description>TXT_KEY_BUILDING_HORSE_DERBY</Description>
 			<Civilopedia>TXT_KEY_WONDER_HORSE_DERBY_DESC</Civilopedia>
@@ -3141,7 +3248,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_HORSE_DERBY</BuildingClass>
 			<PrereqTech>TECH_FERTILIZER</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
@@ -3149,7 +3255,7 @@
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>39</PortraitIndex>
-		</Row>
+		</Row>-->
 		<!--INTERNATIONAL AID ORGANIZATION-->
 		<Row>
 			<Type>BUILDING_INTERNATIONAL_AID_ORGANIZATION</Type>
@@ -3162,7 +3268,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>4</Culture>
 			<Happiness>8</Happiness>
 			<BuildingClass>BUILDINGCLASS_INTERNATIONAL_AID_ORGANIZATION</BuildingClass>
 			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
@@ -3192,7 +3297,7 @@
 			<PortraitIndex>6</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="900" PrereqTech="TECH_METAL_CASTING" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2" Culture="0"/>
+			<Set Cost="900" PrereqTech="TECH_METAL_CASTING" SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2" />
 			<Where Type="BUILDING_IRONWORKS"/>
 		</Update>
 		<Row>
@@ -3206,7 +3311,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>10</Culture>
 			<BuildingClass>BUILDINGCLASS_LITERARY_EPIC</BuildingClass>
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
@@ -3258,7 +3362,7 @@
 			<Where Type="BUILDING_NATIONAL_COLLEGE"/>
 		</Update>
 		<Update>
-			<Set Cost="480" Culture="6"/>
+			<Set Cost="480"/>
 			<Where Type="BUILDING_NATIONAL_EPIC"/>
 		</Update>
 		<!--NATIONAL LAB-->
@@ -3272,7 +3376,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_NATIONAL_LABORATORY</BuildingClass>
 			<PrereqTech>TECH_LASERS</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -3292,7 +3395,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>4</Culture>
 			<PolicyCostModifier>20</PolicyCostModifier>
 			<HappinessPerCity>1</HappinessPerCity>
 			<BuildingClass>BUILDINGCLASS_NATIONAL_PARK_SERVICE</BuildingClass>
@@ -3302,7 +3404,7 @@
 			<PortraitIndex>11</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="500" Culture="0" SpecialistCount="2" SpecialistType="SPECIALIST_MERCHANT"/>
+			<Set Cost="500" SpecialistCount="2" SpecialistType="SPECIALIST_MERCHANT"/>
 			<Where Type="BUILDING_NATIONAL_TREASURY"/>
 		</Update>
 		<!--OCEAN HABITAT-->
@@ -3318,7 +3420,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>20</Culture>
 			<BuildingClass>BUILDINGCLASS_OCEAN_HABITAT_PROTOTYPE</BuildingClass>
 			<PrereqTech>TECH_UNDERWATER_HABITATION</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
@@ -3338,7 +3439,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<UnmoddedHappiness>6</UnmoddedHappiness>
 			<BuildingClass>BUILDINGCLASS_OLYMPICS</BuildingClass>
 			<MaxStartEra>ERA_DIAMOND</MaxStartEra>
@@ -3347,7 +3447,7 @@
 			<PortraitIndex>63</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="1325" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="2" GreatPeopleRateChange="4" Culture="0"/>
+			<Set Cost="1325" SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="2" GreatPeopleRateChange="4" />
 			<Where Type="BUILDING_OXFORD_UNIVERSITY"/>
 		</Update>
 		<!--QUANTUM SUPERCOMPUTER-->
@@ -3362,7 +3462,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_QUANTUM_SUPERCOMPUTER</BuildingClass>
 			<PrereqTech>TECH_QUANTUM_COMPUTERS</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -3402,7 +3501,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>10</Culture>
 			<HappinessPerCity>5</HappinessPerCity>
 			<BuildingClass>BUILDINGCLASS_ROBOTIC_EGALITARIAN_ACT</BuildingClass>
 			<PrereqTech>TECH_SENTIENT_ROBOTS</PrereqTech>
@@ -3423,7 +3521,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_SEMICONDUCTOR_PLANT</BuildingClass>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
@@ -3444,8 +3541,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
-			<Happiness>3</Happiness>
+			<Happiness>4</Happiness>
 			<BuildingClass>BUILDINGCLASS_SMALLPOX_ERADICATION</BuildingClass>
 			<PrereqTech>TECH_VACCINES</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -3466,7 +3562,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>15</Culture>
 			<GlobalCultureRateModifier>30</GlobalCultureRateModifier>
 			<BuildingClass>BUILDINGCLASS_SPACE_ELEVATOR</BuildingClass>
 			<PrereqTech>TECH_EXTREME_ENGINEERING</PrereqTech>
@@ -3488,7 +3583,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>10</Culture>
 			<BuildingClass>BUILDINGCLASS_SPACE_MANIPULATION_TESTING_STATION</BuildingClass>
 			<PrereqTech>TECH_WARP_FIELD_THEORY</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -3563,7 +3657,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>15</Culture>
 			<HappinessPerCity>2</HappinessPerCity>
 			<BuildingClass>BUILDINGCLASS_X_GAMES</BuildingClass>
 			<MaxStartEra>ERA_DIAMOND</MaxStartEra>
@@ -3589,7 +3682,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>2</Culture>
 			<BuildingClass>BUILDINGCLASS_SUPERCOMPUTER</BuildingClass>
 			<PrereqTech>TECH_COMPUTERS</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -3830,7 +3922,6 @@
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>10</Culture>
 			<Happiness>8</Happiness>
 			<BuildingClass>BUILDINGCLASS_VR_INTERFACE</BuildingClass>
 			<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
@@ -5544,21 +5635,6 @@
 			<Flavor>35</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_PETRA</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>45</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_PETRA</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>30</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_PETRA</BuildingType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_PRINCIPIA_MATHEMATICA</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>65</Flavor>
@@ -6150,7 +6226,7 @@
 			<Where BuildingType="BUILDING_HEROIC_EPIC" FlavorType="FLAVOR_MILITARY_TRAINING"/>
 			<Set Flavor="35" />
 		</Update>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_HORSE_DERBY</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>12</Flavor>
@@ -6179,7 +6255,7 @@
 			<BuildingType>BUILDING_HORSE_DERBY</BuildingType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
 			<Flavor>15</Flavor>
-		</Row>
+		</Row>-->
 		<!--INTERNATIONAL AID-->
 		<!--INTERSTATE HIGHWAY-->
 		<!--keep ironworks wonder at 20-->
@@ -6718,10 +6794,10 @@
 			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_HORSE_DERBY</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-		</Row>
+		</Row>-->
 	</Building_LocalResourceAnds>
 	<Building_RiverPlotYieldChanges>
 		<Delete/>
@@ -7273,10 +7349,10 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MUSEUM</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
+			<BuildingType>BUILDING_BURIAL_MOUND</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
 		</Row>
 		<Row>
@@ -7346,11 +7422,11 @@
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<Cost>1</Cost>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_HORSE_DERBY</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<Cost>1</Cost>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_FOUNDRY</BuildingType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
@@ -7621,7 +7697,7 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_HORSE_DERBY</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -7632,7 +7708,7 @@
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>10</Yield>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
