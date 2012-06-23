@@ -87,12 +87,12 @@
 			<DefaultBuilding>BUILDING_NAZCA_LINES</DefaultBuilding>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_TERRACOTTA_ARMY</Type>
 			<Description>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Description>
 			<DefaultBuilding>BUILDING_TERRACOTTA_ARMY</DefaultBuilding>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDINGCLASS_ARTILLERY_RANGE</Type>
 			<Description>TXT_KEY_BUILDING_ARTILLERY_RANGE</Description>
@@ -304,11 +304,11 @@
 			<DefaultBuilding>BUILDING_EDISON_LAB</DefaultBuilding>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_POLICE_STATION</Type>
 			<Description>TXT_KEY_BUILDING_POLICE_STATION</Description>
 			<DefaultBuilding>BUILDING_POLICE_STATION</DefaultBuilding>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDINGCLASS_OIL_REFINERY</Type>
 			<Description>TXT_KEY_BUILDING_OIL_REFINERY</Description>

@@ -553,11 +553,11 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>10</Yield>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>4</Yield>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -1664,7 +1664,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_INDUSTRIAL_SHIPYARD</BuildingClass>
-			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
@@ -1769,7 +1769,7 @@
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>48</PortraitIndex>
 		</Row>
-		<Row>
+	<!--<Row>
 			<Type>BUILDING_POLICE_STATION</Type>
 			<Description>TXT_KEY_BUILDING_POLICE_STATION</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POLICE_STATION_DESC</Civilopedia>
@@ -1784,7 +1784,7 @@
 			<PrereqTech>TECH_SOCIALISM</PrereqTech>
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>47</PortraitIndex>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDING_RECYCLING_PLANT</Type>
 			<Description>TXT_KEY_BUILDING_RECYCLING_PLANT</Description>
@@ -5117,7 +5117,7 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>20</Flavor>
@@ -5126,7 +5126,7 @@
 			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>30</Flavor>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_RECYCLING_PLANT</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
@@ -5825,7 +5825,7 @@
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>26</Flavor>
@@ -5844,7 +5844,7 @@
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>25</Flavor>
-		</Row>
+		</Row>-->
 		<Update>
 			<Where BuildingType="BUILDING_COLOSSUS" FlavorType="FLAVOR_GOLD"/>
 			<Set Flavor="50" />
