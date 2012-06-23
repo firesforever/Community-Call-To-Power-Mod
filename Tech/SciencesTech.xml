@@ -115,10 +115,10 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		<Update>
+		<!--<Update>
 			<Set TechCat="TECHTREE_SCIENCES" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="5" />
 			<Where Type="TECH_TELEGRAPH" />
-		</Update>
+		</Update>-->
 		<Update>
 			<Set TechCat="TECHTREE_SCIENCES" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="7" />
 			<Where Type="TECH_REFRIGERATION" />
@@ -911,7 +911,7 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
-		<Update>
+		<!--<Update>
 			<Where TechType="TECH_TELEGRAPH" FlavorType="FLAVOR_CITY_DEFENSE"/>
 			<Set Flavor="5" />
 		</Update>
@@ -932,7 +932,7 @@
 			<TechType>TECH_TELEGRAPH</TechType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>3</Flavor>
-		</Row>
+		</Row>-->
 		<Row>
 			<TechType>TECH_REFINING</TechType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>

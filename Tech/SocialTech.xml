@@ -355,10 +355,10 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		<Update>
+		<!--<Update>
 			<Set TechCat="TECHTREE_SOCIAL" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="5" />
 			<Where Type="TECH_MASS_MEDIA" />
-		</Update>
+		</Update>-->
 		<Update>
 			<Set TechCat="TECHTREE_SOCIAL" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="8" />
 			<Where Type="TECH_ECOLOGY" />
@@ -923,7 +923,7 @@
 			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<Update>
+		<!--<Update>
 			<Where TechType="TECH_MASS_MEDIA" FlavorType="FLAVOR_HAPPINESS"/>
 			<Set Flavor="8" />
 		</Update>
@@ -946,7 +946,7 @@
 			<TechType>TECH_MASS_MEDIA</TechType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>1</Flavor>
-		</Row>
+		</Row>-->
 		<Update>
 			<Where TechType="TECH_ECOLOGY" FlavorType="FLAVOR_PRODUCTION"/>
 			<Set Flavor="8" />

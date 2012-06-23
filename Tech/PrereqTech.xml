@@ -859,10 +859,10 @@
 			<TechType>TECH_BIG_GUNS_DOCTRINE</TechType>
 			<PrereqTech>TECH_TORPEDOES</PrereqTech>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_BIG_GUNS_DOCTRINE</TechType>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-		</Row>
+		</Row>-->
 		<Row>
 			<TechType>TECH_INFANTRY_FIGHTING_VEHICLES</TechType>
 			<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
@@ -886,14 +886,6 @@
 		<Row>
 			<TechType>TECH_REFRIGERATION</TechType>
 			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TELEGRAPH</TechType>
-			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TELEGRAPH</TechType>
-			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_RAILROAD</TechType>
@@ -946,14 +938,11 @@
 		<Row>
 			<TechType>TECH_INDUSTRIAL_PROCESSES</TechType>
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_RADIO</TechType>
-			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-		</Row>
+		</Row>	
+<!--MIGHT NEED TO CHANGE BELOW FROM RADIO-->
 		<Row>
 			<TechType>TECH_TELEPHONE</TechType>
-			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
+			<PrereqTech>TECH_RADIO</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FLIGHT</TechType>
@@ -987,18 +976,10 @@
 			<TechType>TECH_VACCINES</TechType>
 			<PrereqTech>TECH_PHARMACEUTICALS</PrereqTech>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_MASS_MEDIA</TechType>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_MASS_MEDIA</TechType>
-			<PrereqTech>TECH_RADIO</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_MASS_MEDIA</TechType>
-			<PrereqTech>TECH_TELEPHONE</PrereqTech>
-		</Row>
+		</Row>-->
 		<Row>
 			<TechType>TECH_ELECTRONICS</TechType>
 			<PrereqTech>TECH_RADIO</PrereqTech>
@@ -1061,23 +1042,15 @@
 		</Row>
 		<Row>
 			<TechType>TECH_TELEVANGELISM</TechType>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_CONSUMERISM</TechType>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_COMPUTERS</TechType>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_COMPUTERS</TechType>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_RADAR</TechType>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_RADAR</TechType>
