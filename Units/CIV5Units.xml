@@ -13,14 +13,14 @@
 			<UnitType>UNIT_WORKER</UnitType>
 			<UnitClassType>UNITCLASS_CIVIL_ENGINEER</UnitClassType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<UnitClassType>UNITCLASS_COG</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_COG</UnitType>
 			<UnitClassType>UNITCLASS_FRIGATE</UnitClassType>
-		</Row>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_GALLEON</UnitType>
 			<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
@@ -193,10 +193,10 @@
 	<Unit_FreePromotions>
 		<Delete UnitType="UNIT_CARRIER" PromotionType="PROMOTION_CARGO_III" />
 		<Delete UnitType="UNIT_MODERN_ARMOR" PromotionType="PROMOTION_SIGHT_PENALTY" />
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_COG</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_GALLEON</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
@@ -944,7 +944,7 @@
 			<Set Cost="360" PrereqTech="TECH_METAL_CASTING" />
 			<Where Type="UNIT_ENGLISH_LONGBOWMAN" />
 		</Update>
-		<Row>
+		<!--<Row>
 			<Class>UNITCLASS_COG</Class>
 			<Type>UNIT_COG</Type>
 			<PrereqTech>TECH_RUDDER</PrereqTech>
@@ -975,7 +975,7 @@
 			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 			<PortraitIndex>35</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-		</Row>
+		</Row>-->
 		<Update>
 			<Set Combat="20" Cost="450" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
 			<Where Type="UNIT_LANCER" />
@@ -1044,7 +1044,7 @@
 			<Moves>4</Moves>
 			<HurryCostModifier>30</HurryCostModifier>
 			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_EXPLORE_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_GALLEON</Description>
@@ -1367,7 +1367,7 @@
 			<Cost>1800</Cost>
 			<Moves>8</Moves>
 			<Class>UNITCLASS_SUPERCARRIER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -1440,7 +1440,7 @@
 			<Moves>10</Moves>
 			<Range>3</Range>
 			<Class>UNITCLASS_DDX_DESTROYER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -1471,7 +1471,7 @@
 			<Moves>8</Moves>
 			<Range>4</Range>
 			<Class>UNITCLASS_CGX_CRUISER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -1531,7 +1531,7 @@
 			<Moves>8</Moves>
 			<Range>4</Range>
 			<Class>UNITCLASS_STEALTH_SUBMARINE</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -1682,7 +1682,7 @@
 			<Cost>37500</Cost>
 			<Moves>12</Moves>
 			<Class>UNITCLASS_FUSION_SUPERCARRIER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -2051,7 +2051,7 @@
 			<Moves>12</Moves>
 			<Range>4</Range>
 			<Class>UNITCLASS_PLASMA_DESTROYER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -2082,7 +2082,7 @@
 			<Moves>8</Moves>
 			<Range>5</Range>
 			<Class>UNITCLASS_FUSION_DREADNOUGHT</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -2115,7 +2115,7 @@
 			<Moves>12</Moves>
 			<Range>4</Range>
 			<Class>UNITCLASS_SUPERCAVITATING_SUBMARINE</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -2288,7 +2288,7 @@
 		
 	</Units>
 	<Unit_AITypes>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_COG</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
 		</Row>
@@ -2303,7 +2303,7 @@
 		<Row>
 			<UnitType>UNIT_COG</UnitType>
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
-		</Row>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_GALLEON</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -2773,7 +2773,7 @@
 		</Row>
 	</Unit_BuildingClassRequireds>
 	<Unit_Flavors>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_COG</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>8</Flavor>
@@ -2792,7 +2792,7 @@
 			<UnitType>UNIT_COG</UnitType>
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>4</Flavor>
-		</Row>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_GALLEON</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -3451,11 +3451,15 @@
 	<UnitPromotions_UnitCombats>
 		<Row>
 			<PromotionType>PROMOTION_MAGELLAN_VOYAGE</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FOR_THE_KING</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FOR_THE_KING</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FOR_THE_KING</PromotionType>
@@ -3491,7 +3495,11 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FEROCITY</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FEROCITY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FEROCITY</PromotionType>
@@ -3527,7 +3535,11 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_OATH</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_OATH</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_OATH</PromotionType>
@@ -3563,7 +3575,11 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_JINGOIST</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_JINGOIST</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_JINGOIST</PromotionType>
@@ -3599,7 +3615,11 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FATHERLAND</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FATHERLAND</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FATHERLAND</PromotionType>
@@ -3635,7 +3655,11 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_ECO_FANATIC</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ECO_FANATIC</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRNAGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_ECO_FANATIC</PromotionType>

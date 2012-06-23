@@ -3615,7 +3615,7 @@
 			<Text>This unit ignores terrain cost, and pillaging does not consume movement points.</Text>
 		</Row>
 
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_UNIT_COG</Tag>
 			<Text>Cog</Text>
 		</Row>
@@ -3626,7 +3626,7 @@
 		<Row>
 			<Tag>TXT_KEY_UNIT_HELP_COG</Tag>
 			<Text>A Medieval naval upgrade to the Trireme.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_UNIT_GALLEON</Tag>
 			<Text>Galleon</Text>

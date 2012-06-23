@@ -2,11 +2,11 @@
 <!-- Created by ModBuddy on 11/10/2010 1:58:41 PM -->
 <GameData>
 	<UnitClasses>
-		<Row>
+		<!--<Row>
 			<Type>UNITCLASS_COG</Type>
 			<Description>TXT_KEY_UNIT_COG</Description>
 			<DefaultUnit>UNIT_COG</DefaultUnit>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>UNITCLASS_GALLEON</Type>
 			<Description>TXT_KEY_UNIT_GALLEON</Description>
