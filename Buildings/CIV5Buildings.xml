@@ -84,7 +84,7 @@
 			<Yield>6</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BACHS_CATHEDRAL</BuildingType>
+			<BuildingType>BUILDING_BACH_CATHEDRAL</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>8</Yield>
 		</Row>
@@ -109,7 +109,7 @@
 			<Yield>6</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_BUILDING_SUN_TZU_ART_OF_WAR</BuildingType>
+			<BuildingType>BUILDING_SUN_TZU_ART_OF_WAR</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>

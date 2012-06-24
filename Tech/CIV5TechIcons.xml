@@ -30,10 +30,10 @@
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="6"/>
 			<Where Type="TECH_CARRIAGES" />
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="7"/>
 			<Where Type="TECH_BALLISTICS" />
-		</Update>
+		</Update>-->
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="8"/>
 			<Where Type="TECH_POETRY" />
@@ -42,10 +42,10 @@
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="9"/>
 			<Where Type="TECH_LITERATURE" />
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="10"/>
 			<Where Type="TECH_DRAMA" />
-		</Update>
+		</Update>-->
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="11"/>
 			<Where Type="TECH_FEUDALISM" />
@@ -58,9 +58,9 @@
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="13"/>
 			<Where Type="TECH_ALGEBRA" />
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="14"/>
-			<Where Type="TECH_GUILDS" />
+			<Where Type="TECH_GUILDS" />-->
 		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="15"/>

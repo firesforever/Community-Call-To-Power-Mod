@@ -17,11 +17,11 @@
 			<Description>TXT_KEY_UNIT_CIVIL_ENGINEER</Description>
 			<DefaultUnit>UNIT_CIVIL_ENGINEER</DefaultUnit>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>UNITCLASS_MACHINE_GUNNER</Type>
 			<Description>TXT_KEY_UNIT_MACHINE_GUNNER</Description>
 			<DefaultUnit>UNIT_MACHINE_GUNNER</DefaultUnit>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>UNITCLASS_MISSILE_SQUAD</Type>
 			<Description>TXT_KEY_UNIT_MISSILE_SQUAD</Description>

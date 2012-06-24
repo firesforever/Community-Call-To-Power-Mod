@@ -254,7 +254,7 @@
 			<Set TechCat="TECHTREE_ECONOMICS" Cost="281" Era="ERA_RENAISSANCE" GridX="12" GridY="5" />
 			<Where Type="TECH_BANKING" />
 		</Update>
-		<Row>
+		<!--<Row>
 			<Type>TECH_GUILDS</Type>
 			<TechCat>TECHTREE_ECONOMICS</TechCat>
 			<Description>TXT_KEY_TECH_GUILDS_TITLE</Description>
@@ -269,7 +269,7 @@
 			<Quote>TXT_KEY_TECH_GUILDS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
+		</Row>-->
 		<Update>
 			<Set TechCat="TECHTREE_ECONOMICS" Cost="323" Era="ERA_RENAISSANCE" GridX="13" GridY="7" />
 			<Where Type="TECH_STEEL" />
@@ -585,7 +585,7 @@
 			<Where TechType="TECH_BANKING" FlavorType="FLAVOR_EXPANSION" />
 			<Set Flavor="3" />
 		</Update>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_GUILDS</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>8</Flavor>
@@ -599,7 +599,7 @@
 			<TechType>TECH_GUILDS</TechType>
 			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
 			<Flavor>2</Flavor>
-		</Row>
+		</Row>-->
 		<Row>
 			<TechType>TECH_OCEAN_PIONEERING</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>

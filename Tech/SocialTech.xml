@@ -213,7 +213,7 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>TECH_DRAMA</Type>
 			<TechCat>TECHTREE_SOCIAL</TechCat>
 			<Description>TXT_KEY_TECH_DRAMA_TITLE</Description>
@@ -228,7 +228,7 @@
 			<Quote>TXT_KEY_TECH_DRAMA_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>TECH_FUNDAMENTALISM</Type>
 			<TechCat>TECHTREE_SOCIAL</TechCat>
@@ -751,7 +751,7 @@
 			<Where TechType="TECH_ARCHAEOLOGY" FlavorType="FLAVOR_WONDER"/>
 			<Set Flavor="6" />
 		</Update>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_DRAMA</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>18</Flavor>
@@ -760,7 +760,7 @@
 			<TechType>TECH_DRAMA</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>3</Flavor>
-		</Row>
+		</Row>-->
 		<Row>
 			<TechType>TECH_FUNDAMENTALISM</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>

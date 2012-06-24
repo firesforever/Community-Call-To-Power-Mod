@@ -52,7 +52,7 @@
 			<Set TechCat="TECHTREE_MILITARY" Cost="35" Era="ERA_CLASSICAL" GridX="5" GridY="7" />
 			<Where Type="TECH_IRON_WORKING" />
 		</Update>
-		<Row>
+		<!--<Row>
 			<Type>TECH_BALLISTICS</Type>
 			<TechCat>TECHTREE_MILITARY</TechCat>
 			<Description>TXT_KEY_TECH_BALLISTICS_1_TITLE</Description>
@@ -67,7 +67,7 @@
 			<Quote>TXT_KEY_TECH_BALLISTICS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
+		</Row>-->
 		<!-- Medieval Era -->
 		<Update>
 			<Set TechCat="TECHTREE_MILITARY" Cost="92" Era="ERA_MEDIEVAL" GridX="8" GridY="4" />
@@ -746,7 +746,7 @@
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_BALLISTICS</TechType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>4</Flavor>
@@ -765,7 +765,7 @@
 			<TechType>TECH_BALLISTICS</TechType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>1</Flavor>
-		</Row>
+		</Row>-->
 		<!--KEEP IRON WORKING AT 12 OFF, 3 MIL TRAINING-->
 		<Update>
 			<Where TechType="TECH_IRON_WORKING" FlavorType="FLAVOR_DEFENSE" />

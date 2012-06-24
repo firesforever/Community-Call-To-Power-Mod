@@ -354,7 +354,7 @@
 			<Tag>TXT_KEY_WONDER_NAZCA_LINES_QUOTE</Tag>
 			<Text>[NEWLINE][NEWLINE]We must spare our enemies or it will be our loss, since they and all that belongs to them must soon be ours."[NEWLINE][TAB][TAB] - Unknown[NEWLINE][TAB]</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Tag>
 			<Text>Terracotta Army</Text>
 		</Row>
@@ -369,7 +369,7 @@
 		<Row>
 			<Tag>TXT_KEY_WONDER_TERRACOTTA_ARMY_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]“To have a great peace, the state must be united. The king does what he must to fulfill his responsibilities as a king.”[NEWLINE][TAB][TAB] - Qin Shi Huang[NEWLINE][TAB]</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_LITERARY_EPIC</Tag>
 			<Text>Literary Epic</Text>
@@ -886,14 +886,14 @@
 			<Tag>TXT_KEY_WONDER_EDISON_LAB_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]“I haven't failed, I've found 10,000 ways that don't work.”[NEWLINE][TAB][TAB] (Thomas Alva Edison)</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_POLICE_STATION</Tag>
 			<Text>Police Station</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POLICE_STATION_DESC</Tag>
 			<Text>A police station or station house is a building which serves to accommodate police officers and other members of staff. These buildings often contain offices and accommodation for personnel and vehicles, along with locker rooms, temporary holding cells and interview/interrogation rooms.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OIL_REFINERY</Tag>
 			<Text>Oil Refinery</Text>
@@ -2346,7 +2346,7 @@
 			<Tag>TXT_KEY_TECH_LITERATURE_QUOTE</Tag>
 			<Text>"The decline of literature indicates the decline of a nation." (Johann Wolfgang von Goethe)</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_TECH_DRAMA_TITLE</Tag>
 			<Text>Drama ([ICON_CULTURE]/[ICON_HAPPINESS_1])  </Text>
 		</Row>
@@ -2361,7 +2361,7 @@
 		<Row>
 			<Tag>TXT_KEY_TECH_DRAMA_QUOTE</Tag>
 			<Text>"What is drama but life with the dull bits cut out." (Alfred Hitchcock)</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_TECH_RUDDER_TITLE</Tag>
 			<Text>Rudder ([ICON_STRENGTH])  </Text>
@@ -2522,7 +2522,7 @@
 			<Tag>TXT_KEY_TECH_BONDS_QUOTE</Tag>
 			<Text>“Solvency is maintained by means of a national debt, on the principle, ''If you will not lend me the money, how can I pay you?” (Ralph Waldo Emerson)</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_TECH_GUILDS_TITLE</Tag>
 			<Text>Guilds ([ICON_GOLD])  </Text>
 		</Row>
@@ -2537,7 +2537,7 @@
 		<Row>
 			<Tag>TXT_KEY_TECH_GUILDS_QUOTE</Tag>
 			<Text>The company makes the feast.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_TECH_BLAST_FURNACE_TITLE</Tag>
 			<Text>Blast Furnace ([ICON_PRODUCTION])  </Text>
@@ -3651,7 +3651,7 @@
 			<Tag>TXT_KEY_UNIT_CIVIL_ENGINEER_HELP</Tag>
 			<Text>Industrial upgrade to the ancient worker unit.  The Civil Engineer recieves none of the standard bonuses of the worker but is 150% more efficient.</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_UNIT_MACHINE_GUNNER</Tag>
 			<Text>Machine Gunner</Text>
 		</Row>
@@ -3662,7 +3662,7 @@
 		<Row>
 			<Tag>TXT_KEY_UNIT_HELP_MACHINE_GUNNER</Tag>
 			<Text>A late Renaissance upgrade to the Crossbowman, fulfilling the role of light man-portable ranged firepower.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_UNIT_MISSILE_SQUAD</Tag>
 			<Text>Missile Squad</Text>
