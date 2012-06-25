@@ -4,7 +4,7 @@
 	<Eras>
 		<Row>
 			<Type>ERA_NANOTECH</Type>
-			<Description>TXT_KEY_ERA_7</Description>
+			<Description>TXT_KEY_ERA_71</Description>
 			<ArtPrefix>FUTURE</ArtPrefix>
 			<Strategy>TXT_KEY_ERA_NANOTECH_STRATEGY</Strategy>
 			<NoGoodies>true</NoGoodies>

@@ -2302,7 +2302,7 @@
 			<CityCountUnhappinessMod>-25</CityCountUnhappinessMod>
 			<BuildingClass>BUILDINGCLASS_HOLLYWOOD</BuildingClass>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
+			<PrereqTech>TECH_TELEPHONE</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<WonderSplashImage>SplashHollywood.dds</WonderSplashImage>

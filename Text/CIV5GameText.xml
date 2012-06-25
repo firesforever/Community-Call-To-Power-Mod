@@ -2302,7 +2302,7 @@
 			<Tag>TXT_KEY_TECH_CARRIAGES_QUOTE</Tag>
 			<Text>“Because I could not stop for death, He kindly stopped for me; The carriage held but just ourselves and immortality.” (Emily Dickinson)</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_TECH_BALLISTICS_1_TITLE</Tag>
 			<Text>Ballistics ([ICON_STRENGTH])  </Text>
 		</Row>
@@ -2313,7 +2313,7 @@
 		<Row>
 			<Tag>TXT_KEY_TECH_BALLISTICS_QUOTE</Tag>
 			<Text>“It is imperative to contest all factions for complete victory, so the army is not garrisoned and the profit can be total. This is the law of strategic siege.” (Sun Tzu)</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_TECH_POETRY_TITLE</Tag>
 			<Text>Poetry ([ICON_CULTURE]/[ICON_HAPPINESS_1])  </Text>
@@ -4181,7 +4181,7 @@
 			<Text>"But while it will make every nation safe against any attack by a would-be invader, the death-beam by its nature could not be employed similarly as a weapon for offense. For this death-beam, could be generated only from large, stationary and immovable power plants, stationed in the manner of old-time forts at various strategic distances from each country's border.   An exception however, must be made in the case of battleships, which would be able to equip themselves with smaller plants for generating the death-beam, with enough power to destroy any airplane approaching for attack from the air." (Nikola Tesla, inventor of the first particle beam weapon; 1934)</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_ERA_7</Tag>
+			<Tag>TXT_KEY_ERA_71</Tag>
 			<Text>NanoTech Era</Text>
 		</Row>
 		<Row>
