@@ -2149,7 +2149,7 @@
 			<Moves>12</Moves>
 			<Range>4</Range>
 			<Class>UNITCLASS_SUBMERSIBLE_CARRIER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>

@@ -1936,7 +1936,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_INDUSTRIAL_ROBOTICS</BuildingClass>
-			<FreeStartEra>ERA_NANOTECH</FreeStartEra>
+			<FreeStartEra>ERA_POSTMODERN</FreeStartEra>
 			<PrereqTech>TECH_ROBOTICS</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
@@ -2142,7 +2142,7 @@
 			<GlobalCultureRateModifier>25</GlobalCultureRateModifier>
 			<HappinessPerCity>2</HappinessPerCity>
 			<BuildingClass>BUILDINGCLASS_CRYSTAL_CATHEDRAL</BuildingClass>
-			<MaxStartEra>ERA_DIAMOND</MaxStartEra>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<PrereqTech>TECH_TELEVANGELISM</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>3</SpecialistCount>
@@ -3037,7 +3037,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_BOND_MARKET</BuildingClass>
-			<MaxStartEra>ERA_DIAMOND</MaxStartEra>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<PrereqTech>TECH_BONDS</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
@@ -3349,7 +3349,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_NATIONAL_ACADEMY</BuildingClass>
-			<MaxStartEra>ERA_DIAMOND</MaxStartEra>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<PrereqTech>TECH_ENLIGHTENMENT</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
@@ -3398,7 +3398,7 @@
 			<PolicyCostModifier>20</PolicyCostModifier>
 			<HappinessPerCity>1</HappinessPerCity>
 			<BuildingClass>BUILDINGCLASS_NATIONAL_PARK_SERVICE</BuildingClass>
-			<MaxStartEra>ERA_DIAMOND</MaxStartEra>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<PrereqTech>TECH_CONSERVATIONISM</PrereqTech>
 			<IconAtlas>BW_ATLAS_5</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
@@ -3441,7 +3441,7 @@
 			<ConquestProb>100</ConquestProb>
 			<UnmoddedHappiness>6</UnmoddedHappiness>
 			<BuildingClass>BUILDINGCLASS_OLYMPICS</BuildingClass>
-			<MaxStartEra>ERA_DIAMOND</MaxStartEra>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<PrereqTech>TECH_SPORTS</PrereqTech>
 			<IconAtlas>BW_ATLAS_4</IconAtlas>
 			<PortraitIndex>63</PortraitIndex>
@@ -3481,7 +3481,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_REGIONAL_FAIR</BuildingClass>
-			<MaxStartEra>ERA_DIAMOND</MaxStartEra>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<PrereqTech>TECH_TRADE_FAIRS</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
@@ -3659,7 +3659,7 @@
 			<ConquestProb>100</ConquestProb>
 			<HappinessPerCity>2</HappinessPerCity>
 			<BuildingClass>BUILDINGCLASS_X_GAMES</BuildingClass>
-			<MaxStartEra>ERA_DIAMOND</MaxStartEra>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<PrereqTech>TECH_EXTREME_SPORTS</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>3</SpecialistCount>
@@ -3776,7 +3776,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_OPTICAL_INTERCONNECTS</BuildingClass>
-			<FreeStartEra>ERA_NANOTECH</FreeStartEra>
+			<FreeStartEra>ERA_POSTMODERN</FreeStartEra>
 			<PrereqTech>TECH_OPTICAL_COMPUTING</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
@@ -3793,7 +3793,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_GRID_ENERGY_STORAGE</BuildingClass>
-			<FreeStartEra>ERA_NANOTECH</FreeStartEra>
+			<FreeStartEra>ERA_POSTMODERN</FreeStartEra>
 			<PrereqTech>TECH_SUPER_BATTERIES</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
@@ -3831,7 +3831,7 @@
 			<FoodKept>10</FoodKept>
 			<Happiness>3</Happiness>
 			<BuildingClass>BUILDINGCLASS_ROBOTIC_OPERATING_ROOM</BuildingClass>
-			<FreeStartEra>ERA_NANOTECH</FreeStartEra>
+			<FreeStartEra>ERA_POSTMODERN</FreeStartEra>
 			<PrereqTech>TECH_ROBOTIC_SURGERY</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
@@ -3850,7 +3850,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_BIO_MEMORY_IMPLANT</BuildingClass>
-			<FreeStartEra>ERA_DIAMOND</FreeStartEra>
+			<FreeStartEra>ERA_FUTURE</FreeStartEra>
 			<PrereqTech>TECH_BIOCOMPUTER_INTERFACE</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
