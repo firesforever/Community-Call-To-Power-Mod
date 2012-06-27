@@ -147,7 +147,7 @@
 			<Type>BUILDING_TOBACCO_FIELD</Type>
 			<BuildingClass>BUILDINGCLASS_TOBACCO_FIELD</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
+			<PrereqTech>TECH_APOTHECARY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TOBACCO_FIELD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TOBACCO_FIELD_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_TOBACCO_FIELD_HELP</Help>
@@ -939,7 +939,7 @@
 			<BuildingClass>BUILDINGCLASS_TOBACCO_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
 			<FreeBuilding>BUILDINGCLASS_TOBACCO_DUMMY</FreeBuilding>
-			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_HELP</Help>
@@ -1032,7 +1032,7 @@
 			<BuildingClass>BUILDINGCLASS_TIN_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
 			<FreeBuilding>BUILDINGCLASS_TIN_DUMMY</FreeBuilding>
-			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TIN_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TIN_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_TIN_MONOPOLY_HELP</Help>			

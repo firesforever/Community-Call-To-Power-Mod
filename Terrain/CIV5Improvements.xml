@@ -388,19 +388,13 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
-			<ResourceType>RESOURCE_AMBER</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>-1</Yield>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<ResourceType>RESOURCE_AMBER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<ResourceType>RESOURCE_AMBER</ResourceType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>1</Yield>
