@@ -304,7 +304,7 @@
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TIN</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Resource_YieldChanges>
