@@ -31,10 +31,10 @@ print ("Using Random Resources")
 --======================================================================================
 -- Put the tpye of your resource here: 
 OnMapResourceGenerator("RESOURCE_ALLIGATOR");
-OnMapResourceGenerator("RESOURCE_COPPER" , { "FEATURE_FLOOD_PLAINS", "FEATURE_OASIS" } );
+OnMapResourceGenerator("RESOURCE_TIN" , { "FEATURE_FLOOD_PLAINS", "FEATURE_OASIS" } );
 OnMapResourceGenerator("RESOURCE_COFFEE" , { "TERRAIN_DESERT", "TERRAIN_TUNDRA" } );
 OnMapResourceGenerator("RESOURCE_CORN" , { "TERRAIN_DESERT", "FEATURE_MARSH", "FEATURE_JUNGLE", "FEATURE_FOREST" } );
-OnMapResourceGenerator("RESOURCE_CRAB");
+OnMapResourceGenerator("RESOURCE_TOBACCO");
 OnMapResourceGenerator("RESOURCE_JADE" , { "TERRAIN_DESERT", "TERRAIN_TUNDRA", } );
 OnMapResourceGenerator("RESOURCE_MANGANESE");
 OnMapResourceGenerator("RESOURCE_OAK");

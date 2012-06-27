@@ -1,4 +1,4 @@
-------------------------------------------------------------------------------
+TO------------------------------------------------------------------------------
 --	FILE:	  AssignStartingPlots.lua
 --	AUTHOR:   Bob Thomas
 --	PURPOSE:  Civ5's new and improved start plot assignment method.
@@ -9714,8 +9714,8 @@ function AssignStartingPlots:PrintFinalResourceTotalsToLog()
 	print("- Oak.....: ", self.amounts_of_resources_placed[self.oak_ID + 1]);
 	print("- Squid...: ", self.amounts_of_resources_placed[self.squid_ID + 1]);
 	print("- Amber...: ", self.amounts_of_resources_placed[self.amber_ID + 1]);
-	print("- Tobacco.: ", self.amounts_of_resources_placed[self.squid_ID + 1]);
-	print("- Tin.....: ", self.amounts_of_resources_placed[self.amber_ID + 1]);
+	print("- Tobacco.: ", self.amounts_of_resources_placed[self.tobacco_ID + 1]);
+	print("- Tin.....: ", self.amounts_of_resources_placed[self.tin_ID + 1]);
 	print("-");
 	print("-----------------------------------------------------");
 end
