@@ -45,10 +45,10 @@
 			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
 			<UnitClassType>UNITCLASS_HELICOPTER_GUNSHIP</UnitClassType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_MACHINE_GUNNER</UnitType>
 			<UnitClassType>UNITCLASS_MISSILE_SQUAD</UnitClassType>
-		</Row>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_MISSILE_SQUAD</UnitType>
 			<UnitClassType>UNITCLASS_COMBAT_CONTROLLER</UnitClassType>
@@ -3659,7 +3659,7 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_ECO_FANATIC</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVALRNAGED</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_ECO_FANATIC</PromotionType>
