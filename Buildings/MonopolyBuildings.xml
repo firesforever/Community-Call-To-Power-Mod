@@ -361,7 +361,7 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_TOBACCO_PLANTATION_CENTER</Type>
+			<Type>BUILDING_TOBACCO_PLANTATION</Type>
 			<BuildingClass>BUILDINGCLASS_TOBACCO_PLANTATION</BuildingClass>
 			<Cost>450</Cost>
 			<PrereqTech>TECH_AGRICULTURAL_REVOLUTION</PrereqTech>

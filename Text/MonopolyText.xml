@@ -174,12 +174,12 @@
 			<Text>Tin Smelter</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_SMELTER_PEDIA</Tag>
+			<Tag>TXT_KEY_BUILDING_TIN_SMELTER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Tin.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_SMELTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of Copper nearby.</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_SMELTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of Tin nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_RANCH</Tag>
@@ -292,7 +292,7 @@
 			<Text>A building used in the processing, storage, and trading of Tin.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_DEPOT_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_TIN_DEPOT_HELP</Tag>
 			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Tin Smelter.</Text>
 		</Row>
 		<Row>
@@ -482,7 +482,7 @@
 			<Text>A building used in the processing, storage, and trading of Tin.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_TIN_MANUFACTURER_HELP</Tag>
 			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Tin Resource and City must have a Tin Depot.</Text>
 		</Row>
 		<Row>
@@ -717,7 +717,7 @@
 			<Text>A building used in the processing, storage, and trading of Tin.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_CONGLOMERATE_HELP</Tag>
+			<Tag>TXT_KEY_BUILDING_TIN_CONGLOMERATE_HELP</Tag>
 			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Tin.[NEWLINE]City must have a Tin Manufacturer.</Text>
 		</Row>
 		<Row>
