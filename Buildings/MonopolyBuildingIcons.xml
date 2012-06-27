@@ -186,7 +186,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="5"/>
-			<Where Type="BUILDING_CRAB_MARKET"/>
+			<Where Type="BUILDING_TOBACCO_FIELD"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="6"/>
@@ -352,7 +352,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="6"/>
-			<Where Type="BUILDING_CRAB_DISTRIBUTION_CENTER"/>
+			<Where Type="BUILDING_TOBACCO_PLANTATION"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="7"/>
@@ -514,7 +514,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="6"/>
-			<Where Type="BUILDING_CRAB_CONGLOMERATE"/>
+			<Where Type="BUILDING_TOBACCO_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="7"/>
@@ -676,7 +676,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="6"/>
-			<Where Type="BUILDING_CRAB_MONOPOLY"/>
+			<Where Type="BUILDING_TOBACCO_MONOPOLY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="7"/>
