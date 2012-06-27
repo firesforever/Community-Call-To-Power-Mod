@@ -11,7 +11,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="2"/>
-			<Where Type="BUILDING_COPPER_SMELTER"/>
+			<Where Type="BUILDING_TIN_SMELTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="3"/>
@@ -121,7 +121,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="29"/>
-			<Where Type="BUILDING_COPPER_SMELTER"/>
+			<Where Type="BUILDING_TIN_SMELTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="30"/>
@@ -182,7 +182,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="4"/>
-			<Where Type="BUILDING_COPPER_DEPOT"/>
+			<Where Type="BUILDING_TIN_DEPOT"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="5"/>
@@ -283,7 +283,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="29"/>
-			<Where Type="BUILDING_COPPER_DEPOT"/>
+			<Where Type="BUILDING_TIN_DEPOT"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="30"/>
@@ -348,7 +348,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="5"/>
-			<Where Type="BUILDING_COPPER_DISTRIBUTION_CENTER"/>
+			<Where Type="BUILDING_TIN_MANUFACTURER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="6"/>
@@ -445,7 +445,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="29"/>
-			<Where Type="BUILDING_COPPER_DISTRIBUTION_CENTER"/>
+			<Where Type="BUILDING_TIN_MANUFACTURER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="30"/>
@@ -510,7 +510,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="5"/>
-			<Where Type="BUILDING_COPPER_CONGLOMERATE"/>
+			<Where Type="BUILDING_TIN_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="6"/>
@@ -607,7 +607,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="29"/>
-			<Where Type="BUILDING_COPPER_CONGLOMERATE"/>
+			<Where Type="BUILDING_TIN_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="30"/>
@@ -672,7 +672,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="5"/>
-			<Where Type="BUILDING_COPPER_MONOPOLY"/>
+			<Where Type="BUILDING_TIN_MONOPOLY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="6"/>
@@ -769,7 +769,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="29"/>
-			<Where Type="BUILDING_COPPER_MONOPOLY"/>
+			<Where Type="BUILDING_TIN_MONOPOLY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="30"/>

@@ -133,18 +133,18 @@
 			<Tag>TXT_KEY_BUILDING_FISH_HERDER_HELP</Tag>
 			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of Fish nearby.</Text>
 		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_HERDER</Tag>
-			<Text>Crab Herder</Text>
+		<!--<Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_HERDER</Tag>
+			<Text>Tobacco Herder</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_HERDER_PEDIA</Tag>
-			<Text>A building used in the processing, storage, and trading of Crab.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_HERDER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_HERDER_HELP</Tag>
-			<Text>Each source of [ICON_RES_CRAB] Crab worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Crab nearby.</Text>
-		</Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_HERDER_HELP</Tag>
+			<Text>Each source of [ICON_RES_TOBACCO] Tobacco worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Tobacco nearby.</Text>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_FARM</Tag>
 			<Text>Wheat Farm</Text>
@@ -170,16 +170,16 @@
 			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Banana nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_SMELTER</Tag>
-			<Text>Copper Smelter</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_SMELTER</Tag>
+			<Text>Tin Smelter</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_SMELTER_PEDIA</Tag>
-			<Text>A building used in the processing, storage, and trading of Copper.</Text>
+			<Text>A building used in the processing, storage, and trading of Tin.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_SMELTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of Copper nearby.</Text>
+			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of Copper nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_RANCH</Tag>
@@ -248,16 +248,16 @@
 			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Fish Herder.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_MARKET</Tag>
-			<Text>Crab Market</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_FIELD</Tag>
+			<Text>Tobacco Field</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_MARKET_PEDIA</Tag>
-			<Text>A building used in the processing, storage, and trading of Crab.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_FIELD_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_MARKET_HELP</Tag>
-			<Text>Each source of [ICON_RES_CRAB] Crab worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Crab Herder.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_FIELD_HELP</Tag>
+			<Text>Each source of [ICON_RES_TOBACCO] Tobacco worked by this City produces +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_MARKET</Tag>
@@ -284,16 +284,16 @@
 			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Banana Farm.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_DEPOT</Tag>
-			<Text>Copper Depot</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_DEPOT</Tag>
+			<Text>Tin Depot</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_DEPOT_PEDIA</Tag>
-			<Text>A building used in the processing, storage, and trading of Copper.</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_DEPOT_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tin.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_DEPOT_HELP</Tag>
-			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Copper Smelter.</Text>
+			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Tin Smelter.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_TRADER</Tag>
@@ -438,16 +438,16 @@
 			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Fish Resource and City must have a Fish Market.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER</Tag>
-			<Text>Crab Distribution Center</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_PLANTATION</Tag>
+			<Text>Tobacco Plantation</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER_PEDIA</Tag>
-			<Text>A building used in the processing, storage, and trading of Crab.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_PLANTATION_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_CRAB] Crab worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Crab Resource and City must have a Crab Market.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_PLANTATION_HELP</Tag>
+			<Text>Each source of [ICON_RES_TOBACCO] Tobacco worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Tobacco Resource and City must have a Tobacco Field.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER</Tag>
@@ -474,16 +474,16 @@
 			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Banana Resource and City must have a Banana Trader.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER</Tag>
-			<Text>Copper Distribution Center</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_MANUFACTURER</Tag>
+			<Text>Tin Manufacturer</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER_PEDIA</Tag>
-			<Text>A building used in the processing, storage, and trading of Copper.</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_MANUFACTURER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tin.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER_HELP</Tag>
-			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Copper Resource and City must have a Copper Depot.</Text>
+			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Tin Resource and City must have a Tin Depot.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER</Tag>
@@ -673,16 +673,16 @@
 			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Fish.[NEWLINE]City must have a Fish Distribution Center.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_CONGLOMERATE</Tag>
-			<Text>Crab Conglomerate</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_CONGLOMERATE</Tag>
+			<Text>Tobacco Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_PEDIA</Tag>
-			<Text>A building used in the processing, storage, and trading of Crab.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_CRAB] Crab worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Crab.[NEWLINE]City must have a Crab Distribution Center.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_TOBACCO] Tobacco worked by this City produces +1 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Tobacco.[NEWLINE]City must have a Tobacco Plantation.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE</Tag>
@@ -709,16 +709,16 @@
 			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Banana.[NEWLINE]City must have a Banana Distribution Center.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_CONGLOMERATE</Tag>
-			<Text>Copper Conglomerate</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_CONGLOMERATE</Tag>
+			<Text>Tin Conglomerate</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_CONGLOMERATE_PEDIA</Tag>
-			<Text>A building used in the processing, storage, and trading of Copper.</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tin.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPPER_CONGLOMERATE_HELP</Tag>
-			<Text>Each source of [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Copper.[NEWLINE]City must have a Copper Distribution Center.</Text>
+			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Tin.[NEWLINE]City must have a Tin Manufacturer.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE</Tag>
@@ -892,16 +892,16 @@
 			<Text>Each source of [ICON_RES_FISH] Fish in the empire produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Must have built a Fish Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_MONOPOLY</Tag>
-			<Text>Crab Monopoly</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Tag>
+			<Text>Tobacco Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_MONOPOLY_PEDIA</Tag>
-			<Text>A building used in the processing, storage, and trading of Crab.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_CRAB] Crab in the empire produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Crab Conglomerate in at least 3 cities.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_TOBACCO] Tobacco in the empire produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Tobacco Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_MONOPOLY</Tag>
@@ -928,16 +928,16 @@
 			<Text>Each source of [ICON_RES_BANANA] Banana in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Banana Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_MONOPOLY</Tag>
-			<Text>Copper Monopoly</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_MONOPOLY</Tag>
+			<Text>Tin Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_MONOPOLY_PEDIA</Tag>
-			<Text>A building used in the processing, storage, and trading of Copper.</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_MONOPOLY_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tin.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_MONOPOLY_HELP</Tag>
-			<Text>Each source of [ICON_RES_COPPER] Copper in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Copper Conglomerate in at least 3 cities.</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_TIN] Tin in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Tin Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_MONOPOLY</Tag>

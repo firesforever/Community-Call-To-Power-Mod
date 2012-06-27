@@ -11,11 +11,11 @@
 			<Description>TXT_KEY_BUILDING_FISH_HERDER</Description>
 			<DefaultBuilding>BUILDING_FISH_HERDER</DefaultBuilding>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_CRAB_HERDER</Type>
 			<Description>TXT_KEY_BUILDING_CRAB_HERDER</Description>
 			<DefaultBuilding>BUILDING_CRAB_HERDER</DefaultBuilding>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDINGCLASS_WHEAT_FARM</Type>
 			<Description>TXT_KEY_BUILDING_WHEAT_FARM</Description>
@@ -27,9 +27,9 @@
 			<DefaultBuilding>BUILDING_BANANA_FARM</DefaultBuilding>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_COPPER_SMELTER</Type>
-			<Description>TXT_KEY_BUILDING_COPPER_SMELTER</Description>
-			<DefaultBuilding>BUILDING_COPPER_SMELTER</DefaultBuilding>
+			<Type>BUILDINGCLASS_TIN_SMELTER</Type>
+			<Description>TXT_KEY_BUILDING_TIN_SMELTER</Description>
+			<DefaultBuilding>BUILDING_TIN_SMELTER</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_CATTLE_RANCH</Type>
@@ -61,9 +61,9 @@
 			<DefaultBuilding>BUILDING_FISH_MARKET</DefaultBuilding>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_CRAB_MARKET</Type>
-			<Description>TXT_KEY_BUILDING_CRAB_MARKET</Description>
-			<DefaultBuilding>BUILDING_CRAB_MARKET</DefaultBuilding>
+			<Type>BUILDINGCLASS_TOBACCO_FIELD</Type>
+			<Description>TXT_KEY_BUILDING_TOBACCO_FIELD</Description>
+			<DefaultBuilding>BUILDING_TOBACCO_FIELD</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_WHEAT_MARKET</Type>
@@ -76,9 +76,9 @@
 			<DefaultBuilding>BUILDING_BANANA_TRADER</DefaultBuilding>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_COPPER_DEPOT</Type>
-			<Description>TXT_KEY_BUILDING_COPPER_DEPOT</Description>
-			<DefaultBuilding>BUILDING_COPPER_DEPOT</DefaultBuilding>
+			<Type>BUILDINGCLASS_TIN_DEPOT</Type>
+			<Description>TXT_KEY_BUILDING_TIN_DEPOT</Description>
+			<DefaultBuilding>BUILDING_TIN_DEPOT</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_CATTLE_TRADER</Type>
@@ -134,9 +134,9 @@
 			<DefaultBuilding>BUILDING_FISH_DISTRIBUTION_CENTER</DefaultBuilding>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_CRAB_DISTRIBUTION_CENTER</Type>
-			<Description>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER</Description>
-			<DefaultBuilding>BUILDING_CRAB_DISTRIBUTION_CENTER</DefaultBuilding>
+			<Type>BUILDINGCLASS_TOBACCO_PLANTATION</Type>
+			<Description>TXT_KEY_BUILDING_TOBACCO_PLANTATION</Description>
+			<DefaultBuilding>BUILDING_TOBACCO_PLANTATION</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_WHEAT_DISTRIBUTION_CENTER</Type>
@@ -149,9 +149,9 @@
 			<DefaultBuilding>BUILDING_BANANA_DISTRIBUTION_CENTER</DefaultBuilding>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_COPPER_DISTRIBUTION_CENTER</Type>
-			<Description>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER</Description>
-			<DefaultBuilding>BUILDING_COPPER_DISTRIBUTION_CENTER</DefaultBuilding>
+			<Type>BUILDINGCLASS_TIN_MANUFACTURER</Type>
+			<Description>TXT_KEY_BUILDING_TIN_MANUFACTURER</Description>
+			<DefaultBuilding>BUILDING_TIN_MANUFACTURER</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_CATTLE_DISTRIBUTION_CENTER</Type>
@@ -227,9 +227,9 @@
 			<DefaultBuilding>BUILDING_FISH_CONGLOMERATE</DefaultBuilding>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_CRAB_CONGLOMERATE</Type>
-			<Description>TXT_KEY_BUILDING_CRAB_CONGLOMERATE</Description>
-			<DefaultBuilding>BUILDING_CRAB_CONGLOMERATE</DefaultBuilding>
+			<Type>BUILDINGCLASS_TOBACCO_CONGLOMERATE</Type>
+			<Description>TXT_KEY_BUILDING_TOBACCO_CONGLOMERATE</Description>
+			<DefaultBuilding>BUILDING_TOBACCO_CONGLOMERATE</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_WHEAT_CONGLOMERATE</Type>
@@ -242,9 +242,9 @@
 			<DefaultBuilding>BUILDING_BANANA_CONGLOMERATE</DefaultBuilding>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_COPPER_CONGLOMERATE</Type>
-			<Description>TXT_KEY_BUILDING_COPPER_CONGLOMERATE</Description>
-			<DefaultBuilding>BUILDING_COPPER_CONGLOMERATE</DefaultBuilding>
+			<Type>BUILDINGCLASS_TIN_CONGLOMERATE</Type>
+			<Description>TXT_KEY_BUILDING_TIN_CONGLOMERATE</Description>
+			<DefaultBuilding>BUILDING_TIN_CONGLOMERATE</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_CATTLE_CONGLOMERATE</Type>
@@ -320,9 +320,9 @@
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_CRAB_MONOPOLY</Type>
-			<Description>TXT_KEY_BUILDING_CRAB_MONOPOLY</Description>
-			<DefaultBuilding>BUILDING_CRAB_MONOPOLY</DefaultBuilding>
+			<Type>BUILDINGCLASS_TOBACCO_MONOPOLY</Type>
+			<Description>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Description>
+			<DefaultBuilding>BUILDING_TOBACCO_MONOPOLY</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
@@ -338,9 +338,9 @@
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_COPPER_MONOPOLY</Type>
-			<Description>TXT_KEY_BUILDING_COPPER_MONOPOLY</Description>
-			<DefaultBuilding>BUILDING_COPPER_MONOPOLY</DefaultBuilding>
+			<Type>BUILDINGCLASS_TIN_MONOPOLY</Type>
+			<Description>TXT_KEY_BUILDING_TIN_MONOPOLY</Description>
+			<DefaultBuilding>BUILDING_TIN_MONOPOLY</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
@@ -429,7 +429,7 @@
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_CRAB_DUMMY</Type>
-			<Description>TXT_KEY_BUILDING_CRAB_MONOPOLY</Description>
+			<Description>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Description>
 			<DefaultBuilding>BUILDING_CRAB_DUMMY</DefaultBuilding>
 		</Row>
 		<Row>
@@ -444,7 +444,7 @@
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_COPPER_DUMMY</Type>
-			<Description>TXT_KEY_BUILDING_COPPER_MONOPOLY</Description>
+			<Description>TXT_KEY_BUILDING_TIN_MONOPOLY</Description>
 			<DefaultBuilding>BUILDING_COPPER_DUMMY</DefaultBuilding>
 		</Row>
 		<Row>

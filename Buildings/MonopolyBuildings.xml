@@ -21,21 +21,6 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_CRAB_HERDER</Type>
-			<BuildingClass>BUILDINGCLASS_CRAB_HERDER</BuildingClass>
-			<Cost>150</Cost>
-			<PrereqTech>TECH_HERDING</PrereqTech>
-			<Description>TXT_KEY_BUILDING_CRAB_HERDER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CRAB_HERDER_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_CRAB_HERDER_HELP</Help>
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>50</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>0</ConquestProb>
-			<PortraitIndex>4</PortraitIndex>
-			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
-		</Row>
-		<Row>
 			<Type>BUILDING_WHEAT_FARM</Type>
 			<BuildingClass>BUILDINGCLASS_WHEAT_FARM</BuildingClass>
 			<Cost>150</Cost>
@@ -66,13 +51,13 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_COPPER_SMELTER</Type>
-			<BuildingClass>BUILDINGCLASS_COPPER_SMELTER</BuildingClass>
+			<Type>BUILDING_TIN_SMELTER</Type>
+			<BuildingClass>BUILDINGCLASS_TIN_SMELTER</BuildingClass>
 			<Cost>150</Cost>
 			<PrereqTech>TECH_RAW_MATERIALS</PrereqTech>
-			<Description>TXT_KEY_BUILDING_COPPER_SMELTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_COPPER_SMELTER_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_COPPER_SMELTER_HELP</Help>
+			<Description>TXT_KEY_BUILDING_TIN_SMELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TIN_SMELTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TIN_SMELTER_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -159,13 +144,13 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_CRAB_MARKET</Type>
-			<BuildingClass>BUILDINGCLASS_CRAB_MARKET</BuildingClass>
+			<Type>BUILDING_TOBACCO_FIELD</Type>
+			<BuildingClass>BUILDINGCLASS_TOBACCO_FIELD</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
-			<Description>TXT_KEY_BUILDING_CRAB_MARKET</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CRAB_MARKET_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_CRAB_MARKET_HELP</Help>
+			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_TOBACCO_FIELD</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TOBACCO_FIELD_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TOBACCO_FIELD_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -204,13 +189,13 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_COPPER_DEPOT</Type>
-			<BuildingClass>BUILDINGCLASS_COPPER_DEPOT</BuildingClass>
+			<Type>BUILDING_TIN_DEPOT</Type>
+			<BuildingClass>BUILDINGCLASS_TIN_DEPOT</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_STONE_MASONS</PrereqTech>
-			<Description>TXT_KEY_BUILDING_COPPER_DEPOT</Description>
-			<Civilopedia>TXT_KEY_BUILDING_COPPER_DEPOT_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_COPPER_DEPOT_HELP</Help>
+			<PrereqTech>TECH_DIVISION_OF_LABOR</PrereqTech>
+			<Description>TXT_KEY_BUILDING_TIN_DEPOT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TIN_DEPOT_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TIN_DEPOT_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -376,13 +361,13 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_CRAB_DISTRIBUTION_CENTER</Type>
-			<BuildingClass>BUILDINGCLASS_CRAB_DISTRIBUTION_CENTER</BuildingClass>
+			<Type>BUILDING_TOBACCO_PLANTATION_CENTER</Type>
+			<BuildingClass>BUILDINGCLASS_TOBACCO_PLANTATION</BuildingClass>
 			<Cost>450</Cost>
-			<PrereqTech>TECH_COMPASS</PrereqTech>
-			<Description>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_CRAB_DISTRIBUTION_CENTER_HELP</Help>
+			<PrereqTech>TECH_AGRICULTURAL_REVOLUTION</PrereqTech>
+			<Description>TXT_KEY_BUILDING_TOBACCO_PLANTATION</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TOBACCO_PLANTATION_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TOBACCO_PLANTATION_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -421,13 +406,13 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_COPPER_DISTRIBUTION_CENTER</Type>
-			<BuildingClass>BUILDINGCLASS_COPPER_DISTRIBUTION_CENTER</BuildingClass>
+			<Type>BUILDING_TIN_MANUFACTURER</Type>
+			<BuildingClass>BUILDINGCLASS_TIN_MANUFACTURER</BuildingClass>
 			<Cost>450</Cost>
 			<PrereqTech>TECH_METALLURGY</PrereqTech>
-			<Description>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER</Description>
-			<Civilopedia>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_COPPER_DISTRIBUTION_CENTER_HELP</Help>			
+			<Description>TXT_KEY_BUILDING_TIN_MANUFACTURER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TIN_MANUFACTURER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TIN_MANUFACTURER_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -655,13 +640,13 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_CRAB_CONGLOMERATE</Type>
-			<BuildingClass>BUILDINGCLASS_CRAB_CONGLOMERATE</BuildingClass>
+			<Type>BUILDING_TOBACCO_CONGLOMERATE</Type>
+			<BuildingClass>BUILDINGCLASS_TOBACCO_CONGLOMERATE</BuildingClass>
 			<Cost>720</Cost>
 			<PrereqTech>TECH_OCEAN_PIONEERING</PrereqTech>
-			<Description>TXT_KEY_BUILDING_CRAB_CONGLOMERATE</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_CRAB_CONGLOMERATE_HELP</Help>			
+			<Description>TXT_KEY_BUILDING_TOBACCO_CONGLOMERATE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TOBACCO_CONGLOMERATE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TOBACCO_CONGLOMERATE_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -700,13 +685,13 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_COPPER_CONGLOMERATE</Type>
-			<BuildingClass>BUILDINGCLASS_COPPER_CONGLOMERATE</BuildingClass>
+			<Type>BUILDING_TIN_CONGLOMERATE</Type>
+			<BuildingClass>BUILDINGCLASS_TIN_CONGLOMERATE</BuildingClass>
 			<Cost>720</Cost>
 			<PrereqTech>TECH_BLAST_FURNACE</PrereqTech>
-			<Description>TXT_KEY_BUILDING_COPPER_CONGLOMERATE</Description>
-			<Civilopedia>TXT_KEY_BUILDING_COPPER_CONGLOMERATE_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_COPPER_CONGLOMERATE_HELP</Help>			
+			<Description>TXT_KEY_BUILDING_TIN_CONGLOMERATE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TIN_CONGLOMERATE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TIN_CONGLOMERATE_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -950,14 +935,14 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_CRAB_MONOPOLY</Type>
-			<BuildingClass>BUILDINGCLASS_CRAB_MONOPOLY</BuildingClass>
+			<Type>BUILDING_TOBACCO_MONOPOLY</Type>
+			<BuildingClass>BUILDINGCLASS_TOBACCO_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
 			<FreeBuilding>BUILDINGCLASS_CRAB_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
-			<Description>TXT_KEY_BUILDING_CRAB_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CRAB_MONOPOLY_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_CRAB_MONOPOLY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
 			<HurryCostModifier>50</HurryCostModifier>
@@ -970,9 +955,9 @@
 			<Type>BUILDING_CRAB_DUMMY</Type>
 			<BuildingClass>BUILDINGCLASS_CRAB_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
-			<Description>TXT_KEY_BUILDING_CRAB_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CRAB_MONOPOLY_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_CRAB_MONOPOLY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -1043,14 +1028,14 @@
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_COPPER_MONOPOLY</Type>
-			<BuildingClass>BUILDINGCLASS_COPPER_MONOPOLY</BuildingClass>
+			<Type>BUILDING_TIN_MONOPOLY</Type>
+			<BuildingClass>BUILDINGCLASS_TIN_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
 			<FreeBuilding>BUILDINGCLASS_COPPER_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-			<Description>TXT_KEY_BUILDING_COPPER_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_COPPER_MONOPOLY_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_COPPER_MONOPOLY_HELP</Help>			
+			<Description>TXT_KEY_BUILDING_TIN_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TIN_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TIN_MONOPOLY_HELP</Help>			
 			<NukeImmune>true</NukeImmune>
 			<UnmoddedHappiness>4</UnmoddedHappiness>
 			<HurryCostModifier>50</HurryCostModifier>
@@ -1063,9 +1048,9 @@
 			<Type>BUILDING_COPPER_DUMMY</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
-			<Description>TXT_KEY_BUILDING_COPPER_MONOPOLY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_COPPER_MONOPOLY_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_COPPER_MONOPOLY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_TIN_MONOPOLY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TIN_MONOPOLY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_TIN_MONOPOLY_HELP</Help>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -1511,12 +1496,12 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_CRAB_HERDER</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_CATTLE_RANCH</BuildingType>
 			<ResourceType>RESOURCE_COW</ResourceType>
@@ -1530,8 +1515,8 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1575,8 +1560,8 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOCACCO_FIELD</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1593,8 +1578,8 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_DEPOT</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1685,14 +1670,14 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1727,14 +1712,14 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_MANUFACTURER</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_MANUFACTURER</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1891,16 +1876,16 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOBACCO_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOBACCO_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_CONGLOMERATE</BuildingType>
@@ -1939,14 +1924,14 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
@@ -2083,8 +2068,8 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_DUMMY</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOBACCO_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
@@ -2119,14 +2104,14 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DUMMY</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DUMMY</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_DUMMY</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -2247,10 +2232,10 @@
 			<BuildingType>BUILDING_FISH_HERDER</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_CRAB_HERDER</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
-		</Row>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_WHEAT_FARM</BuildingType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
@@ -2260,8 +2245,8 @@
 			<ResourceType>RESOURCE_BANANA</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_SMELTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CATTLE_RANCH</BuildingType>
@@ -2286,8 +2271,8 @@
 			<ResourceType>RESOURCE_FISH</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOBACCO_FIELD</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WHEAT_MARKET</BuildingType>
@@ -2298,8 +2283,8 @@
 			<ResourceType>RESOURCE_BANANA</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_DEPOT</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CATTLE_TRADER</BuildingType>
@@ -2344,8 +2329,8 @@
 			<ResourceType>RESOURCE_FISH</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WHEAT_DISTRIBUTION_CENTER</BuildingType>
@@ -2356,8 +2341,8 @@
 			<ResourceType>RESOURCE_BANANA</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_MANUFACTURER</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CATTLE_DISTRIBUTION_CENTER</BuildingType>
@@ -2418,8 +2403,8 @@
 			<ResourceType>RESOURCE_FISH</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOBACCO_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WHEAT_CONGLOMERATE</BuildingType>
@@ -2430,8 +2415,8 @@
 			<ResourceType>RESOURCE_BANANA</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CATTLE_CONGLOMERATE</BuildingType>
@@ -2492,8 +2477,8 @@
 			<ResourceType>RESOURCE_FISH</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOBACCO_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WHEAT_MONOPOLY</BuildingType>
@@ -2504,8 +2489,8 @@
 			<ResourceType>RESOURCE_BANANA</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_MONOPOLY</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CATTLE_MONOPOLY</BuildingType>
@@ -2574,8 +2559,8 @@
 			<Cost>1</Cost>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 		<Row>
@@ -2589,8 +2574,8 @@
 			<Cost>1</Cost>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_MANUFACTURER</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 		<Row>
@@ -2666,8 +2651,8 @@
 			<Cost>3</Cost>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<BuildingType>BUILDING_TOBACCO_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<Cost>3</Cost>
 		</Row>
 		<Row>
@@ -2681,8 +2666,8 @@
 			<Cost>3</Cost>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<BuildingType>BUILDING_TIN_CONGLOMERATE</BuildingType>
+			<ResourceType>RESOURCE_TIN</ResourceType>
 			<Cost>3</Cost>
 		</Row>
 		<Row>
@@ -2770,21 +2755,21 @@
 			<BuildingClassType>BUILDINGCLASS_FISH_CONGLOMERATE</BuildingClassType>
 		</Row>
 		
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CRAB_HERDER</BuildingClassType>
+		</Row>-->
+		<Row>
+			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TOBACCO_FIELD</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_CRAB_MARKET</BuildingClassType>
+			<BuildingType>BUILDING_TOBACCO_CONGLOMERATE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TOBACCO_PLANTATION</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_CRAB_DISTRIBUTION_CENTER</BuildingClassType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_CRAB_CONGLOMERATE</BuildingClassType>
+			<BuildingType>BUILDING_TOBACCO_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TOBACCO_CONGLOMERATE</BuildingClassType>
 		</Row>
 		
 		<Row>
@@ -2826,16 +2811,16 @@
 			<BuildingClassType>BUILDINGCLASS_COPPER_SMELTER</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_COPPER_DEPOT</BuildingClassType>
+			<BuildingType>BUILDING_TIN_MANUFACTURER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TIN_DEPOT</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_COPPER_DISTRIBUTION_CENTER</BuildingClassType>
+			<BuildingType>BUILDING_TIN_CONGLOMERATE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TIN_MANUFACTURER</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_COPPER_CONGLOMERATE</BuildingClassType>
+			<BuildingType>BUILDING_TIN_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TIN_CONGLOMERATE</BuildingClassType>
 		</Row>
 
 		<Row>
@@ -3015,8 +3000,8 @@
 			<NumBuildingNeeded>2</NumBuildingNeeded>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_CRAB_CONGLOMERATE</BuildingClassType>
+			<BuildingType>BUILDING_TOBACCO_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TOBACCO_CONGLOMERATE</BuildingClassType>
 			<NumBuildingNeeded>2</NumBuildingNeeded>
 		</Row>
 		<Row>
@@ -3030,8 +3015,8 @@
 			<NumBuildingNeeded>2</NumBuildingNeeded>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_COPPER_CONGLOMERATE</BuildingClassType>
+			<BuildingType>BUILDING_TIN_MONOPOLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TIN_CONGLOMERATE</BuildingClassType>
 			<NumBuildingNeeded>2</NumBuildingNeeded>
 		</Row>
 		<Row>
@@ -3119,11 +3104,11 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_CRAB_HERDER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_CATTLE_RANCH</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -3177,12 +3162,12 @@
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_FIELD</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_FIELD</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
@@ -3212,12 +3197,12 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
+			<BuildingType>BUILDING_TIN_DEPOT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
+			<BuildingType>BUILDING_TIN_DEPOT</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
@@ -3315,12 +3300,12 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
 		</Row>
@@ -3355,12 +3340,12 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
+			<BuildingType>BUILDING_TIN_MANUFACTURER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
+			<BuildingType>BUILDING_TIN_MANUFACTURER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>3</Yield>
 		</Row>
@@ -3487,12 +3472,12 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_CONGLOMERATE</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_CONGLOMERATE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>8</Yield>
 		</Row>
@@ -3527,12 +3512,12 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_TIN_CONGLOMERATE</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>5</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_TIN_CONGLOMERATE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>5</Yield>
 		</Row>
@@ -3642,12 +3627,12 @@
 			<Yield>5</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_MONOPOLY</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>5</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_MONOPOLY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>15</Yield>
 		</Row>
@@ -3672,12 +3657,12 @@
 			<Yield>10</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
+			<BuildingType>BUILDING_TIN_MONOPOLY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>10</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
+			<BuildingType>BUILDING_TIN_MONOPOLY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>10</Yield>
 		</Row>
@@ -3825,7 +3810,7 @@
 			<Yield>20</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_MONOPOLY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>10</Yield>
 		</Row>
@@ -3845,7 +3830,7 @@
 			<Yield>10</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
+			<BuildingType>BUILDING_TIN_MONOPOLY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>20</Yield>
 		</Row>
@@ -4005,52 +3990,52 @@
 		
 		
 		
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_CRAB_HERDER</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
-		</Row>
+		</Row>-->
 
 		<Row>
-			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_FIELD</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_MARKET</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_FIELD</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>65</Flavor>
 		</Row>
 
 		<Row>
-			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_DISTRIBUTION_CENTER</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>80</Flavor>
 		</Row>
 
 		<Row>
-			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_CONGLOMERATE</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_CONGLOMERATE</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_CONGLOMERATE</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>115</Flavor>
 		</Row>
 		
 		<Row>
-			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>160</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_CRAB_MONOPOLY</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
@@ -4110,66 +4095,53 @@
 		
 		
 		<Row>
-			<BuildingType>BUILDING_COPPER_SMELTER</BuildingType>
+			<BuildingType>BUILDING_TIN_SMELTER</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
 
 		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
+			<BuildingType>BUILDING_TIN_DEPOT</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIN_DEPOT</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_TIN_MANUFACTURER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TIN_MANUFACTURER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+
+
+		<Row>
+			<BuildingType>BUILDING_TIN_CONGLOMERATE</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>60</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
+			<BuildingType>BUILDING_TIN_CONGLOMERATE</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		
-		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>40</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>30</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COPPER_DISTRIBUTION_CENTER</BuildingType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>30</Flavor>
+			<Flavor>60</Flavor>
 		</Row>
 
-		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>40</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>40</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COPPER_CONGLOMERATE</BuildingType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>40</Flavor>
-		</Row>
 
 		<Row>
-			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
+			<BuildingType>BUILDING_TIN_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>90</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_MONOPOLY</BuildingType>
+			<BuildingType>BUILDING_TIN_MONOPOLY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>90</Flavor>
 		</Row>
