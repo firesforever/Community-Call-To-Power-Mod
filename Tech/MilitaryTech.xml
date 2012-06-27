@@ -408,7 +408,7 @@
 			<Civilopedia>TXT_KEY_TECH_ADVANCED_MAGNETICS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_ADVANCED_MAGNETICS_HELP</Help>
 			<Cost>7920</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>24</GridX>
@@ -424,7 +424,7 @@
 			<Civilopedia>TXT_KEY_TECH_METAMATERIALS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_METAMATERIALS_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -440,7 +440,7 @@
 			<Civilopedia>TXT_KEY_TECH_SCRAMJET_ENGINES_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SCRAMJET_ENGINES_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -456,7 +456,7 @@
 			<Civilopedia>TXT_KEY_TECH_MAGNETICS_MINIATURIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_MAGNETICS_MINIATURIZATION_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -472,7 +472,7 @@
 			<Civilopedia>TXT_KEY_TECH_DIGITAL_DEFENSE_DOCTRINE_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_DIGITAL_DEFENSE_DOCTRINE_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -488,7 +488,7 @@
 			<Civilopedia>TXT_KEY_TECH_HYBRID_SCRAMJETS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_HYBRID_SCRAMJETS_HELP</Help>
 			<Cost>10474</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>26</GridX>
@@ -504,7 +504,7 @@
 			<Civilopedia>TXT_KEY_TECH_EXOSKELETONS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_EXOSKELETONS_HELP</Help>
 			<Cost>10474</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>26</GridX>
@@ -520,7 +520,7 @@
 			<Civilopedia>TXT_KEY_TECH_REACTOR_MINIATURIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_REACTOR_MINIATURIZATION_HELP</Help>
 			<Cost>10474</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>26</GridX>
@@ -536,7 +536,7 @@
 			<Civilopedia>TXT_KEY_TECH_EXTREME_MECHANIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_EXTREME_MECHANIZATION_HELP</Help>
 			<Cost>12045</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>27</GridX>
@@ -553,7 +553,7 @@
 			<Civilopedia>TXT_KEY_TECH_SPACE_WEAPONIZATION_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_SPACE_WEAPONIZATION_HELP</Help>
 			<Cost>24091</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>28</GridX>
@@ -569,7 +569,7 @@
 			<Civilopedia>TXT_KEY_TECH_2D_ENERGY_FIELDS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_2D_ENERGY_FIELDS_HELP</Help>
 			<Cost>24091</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>28</GridX>
@@ -585,7 +585,7 @@
 			<Civilopedia>TXT_KEY_TECH_SMART_MATERIALS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_SMART_MATERIALS_HELP</Help>
 			<Cost>27705</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>29</GridX>
@@ -601,7 +601,7 @@
 			<Civilopedia>TXT_KEY_TECH_PARTICLE_BEAMS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_PARTICLE_BEAMS_HELP</Help>
 			<Cost>27705</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>29</GridX>
@@ -617,7 +617,7 @@
 			<Civilopedia>TXT_KEY_TECH_ULTRA_PRESSURE_MACHINERY_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_ULTRA_PRESSURE_MACHINERY_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -633,7 +633,7 @@
 			<Civilopedia>TXT_KEY_TECH_FREE_SPACE_SATURATION_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_FREE_SPACE_SATURATION_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -649,7 +649,7 @@
 			<Civilopedia>TXT_KEY_TECH_CYBERNETIC_ORGANISMS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_CYBERNETIC_ORGANISMS_HELP</Help>
 			<Cost>36640</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>31</GridX>

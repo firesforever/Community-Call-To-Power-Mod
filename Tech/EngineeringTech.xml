@@ -156,7 +156,7 @@
 			<Civilopedia>TXT_KEY_TECH_FUNCTIONAL_MRI_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FUNCTIONAL_MRI_HELP</Help>
 			<Cost>7920</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>24</GridX>
@@ -176,7 +176,7 @@
 			<Civilopedia>TXT_KEY_TECH_SUPER_BATTERIES_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SUPER_BATTERIES_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -192,7 +192,7 @@
 			<Civilopedia>TXT_KEY_TECH_ROBOTIC_SURGERY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_ROBOTIC_SURGERY_HELP</Help>
 			<Cost>10474</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>26</GridX>
@@ -208,7 +208,7 @@
 			<Civilopedia>TXT_KEY_TECH_LASER_MANUFACTURING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_LASER_MANUFACTURING_HELP</Help>
 			<Cost>12045</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>27</GridX>
@@ -225,7 +225,7 @@
 			<Civilopedia>TXT_KEY_TECH_NANO_MASS_PRODUCTION_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_NANO_MASS_PRODUCTION_HELP</Help>
 			<Cost>24091</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>28</GridX>
@@ -241,7 +241,7 @@
 			<Civilopedia>TXT_KEY_TECH_EXTREME_ENGINEERING_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_EXTREME_ENGINEERING_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -257,7 +257,7 @@
 			<Civilopedia>TXT_KEY_TECH_ARCOLOGIES_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_ARCOLOGIES_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -273,7 +273,7 @@
 			<Civilopedia>TXT_KEY_TECH_UNDERWATER_HABITATION_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_UNDERWATER_HABITATION_HELP</Help>
 			<Cost>36640</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>31</GridX>

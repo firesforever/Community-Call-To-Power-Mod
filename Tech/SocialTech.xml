@@ -440,7 +440,7 @@
 			<Civilopedia>TXT_KEY_TECH_SOCIAL_NETWORKS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SOCIAL_NETWORKS_HELP</Help>
 			<Cost>7920</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>24</GridX>
@@ -458,7 +458,7 @@
 			<Civilopedia>TXT_KEY_TECH_AI_SURVEILLANCE_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_AI_SURVEILLANCE_HELP</Help>
 			<Cost>24091</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>28</GridX>
@@ -474,7 +474,7 @@
 			<Civilopedia>TXT_KEY_TECH_AI_EVOLUTION_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_AI_EVOLUTION_HELP</Help>
 			<Cost>27705</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>29</GridX>
@@ -490,7 +490,7 @@
 			<Civilopedia>TXT_KEY_TECH_NEURAL_REPROGRAMMING_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_NEURAL_REPROGRAMMING_HELP</Help>
 			<Cost>27705</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>29</GridX>
@@ -506,7 +506,7 @@
 			<Civilopedia>TXT_KEY_TECH_SENTIENT_ROBOTS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_SENTIENT_ROBOTS_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -522,7 +522,7 @@
 			<Civilopedia>TXT_KEY_TECH_SUBLIMINAL_MIND_CONTROL_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_SUBLIMINAL_MIND_CONTROL_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -538,7 +538,7 @@
 			<Civilopedia>TXT_KEY_TECH_MIND_MELDING_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_MIND_MELDING_HELP</Help>
 			<Cost>36640</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>31</GridX>
