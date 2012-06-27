@@ -428,9 +428,9 @@
 			<DefaultBuilding>BUILDING_FISH_DUMMY</DefaultBuilding>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_CRAB_DUMMY</Type>
+			<Type>BUILDINGCLASS_TOBACCO_DUMMY</Type>
 			<Description>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Description>
-			<DefaultBuilding>BUILDING_CRAB_DUMMY</DefaultBuilding>
+			<DefaultBuilding>BUILDING_TOBACCO_DUMMY</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_WHEAT_DUMMY</Type>
@@ -443,9 +443,9 @@
 			<DefaultBuilding>BUILDING_BANANA_DUMMY</DefaultBuilding>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_COPPER_DUMMY</Type>
+			<Type>BUILDINGCLASS_TIN_DUMMY</Type>
 			<Description>TXT_KEY_BUILDING_TIN_MONOPOLY</Description>
-			<DefaultBuilding>BUILDING_COPPER_DUMMY</DefaultBuilding>
+			<DefaultBuilding>BUILDING_TIN_DUMMY</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_CATTLE_DUMMY</Type>

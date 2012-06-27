@@ -938,7 +938,7 @@
 			<Type>BUILDING_TOBACCO_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_TOBACCO_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
-			<FreeBuilding>BUILDINGCLASS_CRAB_DUMMY</FreeBuilding>
+			<FreeBuilding>BUILDINGCLASS_TOBACCO_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_PEDIA</Civilopedia>
@@ -952,8 +952,8 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_CRAB_DUMMY</Type>
-			<BuildingClass>BUILDINGCLASS_CRAB_DUMMY</BuildingClass>
+			<Type>BUILDING_TOBACCO_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_TOBACCO_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_PEDIA</Civilopedia>
@@ -962,7 +962,7 @@
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
-			<PortraitIndex>4</PortraitIndex>
+			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
@@ -1031,7 +1031,7 @@
 			<Type>BUILDING_TIN_MONOPOLY</Type>
 			<BuildingClass>BUILDINGCLASS_TIN_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
-			<FreeBuilding>BUILDINGCLASS_COPPER_DUMMY</FreeBuilding>
+			<FreeBuilding>BUILDINGCLASS_TIN_DUMMY</FreeBuilding>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TIN_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TIN_MONOPOLY_PEDIA</Civilopedia>
@@ -1045,8 +1045,8 @@
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
-			<Type>BUILDING_COPPER_DUMMY</Type>
-			<BuildingClass>BUILDINGCLASS_COPPER_DUMMY</BuildingClass>
+			<Type>BUILDING_TIN_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_TIN_DUMMY</BuildingClass>
 			<Cost>-1</Cost>
 			<Description>TXT_KEY_BUILDING_TIN_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TIN_MONOPOLY_PEDIA</Civilopedia>
@@ -1055,7 +1055,7 @@
 			<HurryCostModifier>50</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
-			<PortraitIndex>2</PortraitIndex>
+			<PortraitIndex>13</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS_2</IconAtlas>
 		</Row>
 		<Row>
