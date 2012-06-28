@@ -1,4 +1,4 @@
-TO------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 --	FILE:	  AssignStartingPlots.lua
 --	AUTHOR:   Bob Thomas
 --	PURPOSE:  Civ5's new and improved start plot assignment method.
@@ -373,7 +373,7 @@ function AssignStartingPlots.Create()
 		-- Expansion luxuries
 		copper_ID, salt_ID, citrus_ID, truffles_ID, crab_ID,
 		-- CCTP Bonus Resources
-		coffee_ID, poppy_ID, titanium_ID, aloevera_ID, jade_ID, 
+		coffee_ID, poppy_ID, titanium_ID, aloe_vera_ID, jade_ID, 
 		manganese_ID, oak_ID, squid_ID, amber_ID, tobacco_ID, tin_ID,
 		
 		-- Local arrays for storing Natural Wonder Placement XML data
@@ -601,8 +601,8 @@ function AssignStartingPlots:__Init()
 			self.poppy_ID = resourceID;
 		elseif resourceType == "RESOURCE_TITANIUM" then
 			self.titanium_ID = resourceID;
-		elseif resourceType == "RESOURCE_ALOEVERA" then
-			self.aloevera_ID = resourceID;
+		elseif resourceType == "RESOURCE_ALOE_VERA" then
+			self.aloe_vera_ID = resourceID;
 		elseif resourceType == "RESOURCE_JADE" then
 			self.jade_ID = resourceID;
 		elseif resourceType == "RESOURCE_MANGANESE" then
@@ -9708,7 +9708,7 @@ function AssignStartingPlots:PrintFinalResourceTotalsToLog()
 	print("- Coffee..: ", self.amounts_of_resources_placed[self.coffee_ID + 1]);
 	print("- Poppy...: ", self.amounts_of_resources_placed[self.poppy_ID + 1]);
 	print("- Titanium: ", self.amounts_of_resources_placed[self.titanium_ID + 1]);
-	print("- AloeVera: ", self.amounts_of_resources_placed[self.aloevera_ID + 1]);
+	print("- Aloe_Vera: ", self.amounts_of_resources_placed[self.aloe_vera_ID + 1]);
 	print("- Jade....: ", self.amounts_of_resources_placed[self.jade_ID + 1]);
 	print("- Manganes: ", self.amounts_of_resources_placed[self.manganese_ID + 1]);
 	print("- Oak.....: ", self.amounts_of_resources_placed[self.oak_ID + 1]);
@@ -9930,7 +9930,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	self:ProcessResourceList(19 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
-	{self.aloevera_ID, 1, 100, 1, 1} };
+	{self.aloe_vera_ID, 1, 100, 1, 1} };
 	self:ProcessResourceList(10 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {

@@ -379,6 +379,10 @@
 			<ResourceType>RESOURCE_TIN</ResourceType>
 			<TerrainType>TERRAIN_HILL</TerrainType>
 		</Row>
+		<Row>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
 	</Resource_TerrainBooleans>
 
 	<Resource_FeatureBooleans>
