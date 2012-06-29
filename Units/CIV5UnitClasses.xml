@@ -7,11 +7,11 @@
 			<Description>TXT_KEY_UNIT_COG</Description>
 			<DefaultUnit>UNIT_COG</DefaultUnit>
 		</Row>-->
-		<Row>
+		<!--<Row>
 			<Type>UNITCLASS_GALLEON</Type>
 			<Description>TXT_KEY_UNIT_GALLEON</Description>
 			<DefaultUnit>UNIT_GALLEON</DefaultUnit>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>UNITCLASS_CIVIL_ENGINEER</Type>
 			<Description>TXT_KEY_UNIT_CIVIL_ENGINEER</Description>

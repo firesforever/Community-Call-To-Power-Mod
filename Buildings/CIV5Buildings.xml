@@ -323,16 +323,16 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>8</Yield>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_GUILD_HALL</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<BuildingType>BUILDING_RANCH</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>6</Yield>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_OBSERVATORY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -1396,7 +1396,7 @@
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>32</PortraitIndex>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDING_GUILD_HALL</Type>
 			<Description>TXT_KEY_BUILDING_GUILD_HALL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_GUILD_HALL_DESC</Civilopedia>
@@ -1412,7 +1412,7 @@
 			<SpecialistCount>1</SpecialistCount>
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>27</PortraitIndex>
-		</Row>
+		</Row>-->
 		<Update>
 			<Set GoldMaintenance="8" Cost="800" PrereqTech="TECH_MILITARY_TRADITION"/>
 			<Where Type="BUILDING_MILITARY_ACADEMY"/>
@@ -1444,8 +1444,8 @@
 			<Help>TXT_KEY_BUILDING_PRISON_STRATEGY</Help>
 			<GoldMaintenance>6</GoldMaintenance>
 			<Cost>800</Cost>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>25</HurryCostModifier>
-			<Happiness>2</Happiness>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_PRISON</BuildingClass>
@@ -1476,7 +1476,7 @@
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>30</PortraitIndex>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDING_RANCH</Type>
 			<Description>TXT_KEY_BUILDING_RANCH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_RANCH_DESC</Civilopedia>
@@ -1490,7 +1490,7 @@
 			<PrereqTech>TECH_NATIONALISM</PrereqTech>
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>37</PortraitIndex>
-		</Row>
+		</Row>-->
 		<Update>
 			<Set GoldMaintenance="0" Cost="720" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="1" PrereqTech="TECH_OCEAN_PIONEERING"/>
 			<Where Type="BUILDING_SEAPORT"/>
@@ -4636,7 +4636,7 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_GUILD_HALL</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>40</Flavor>
@@ -4645,7 +4645,7 @@
 			<BuildingType>BUILDING_GUILD_HALL</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>55</Flavor>
-		</Row>
+		</Row>-->
 		<Update>
 			<Where BuildingType="BUILDING_MILITARY_ACADEMY" FlavorType="FLAVOR_MILITARY_TRAINING" />
 			<Set Flavor="35" />
@@ -4715,7 +4715,7 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_RANCH</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>8</Flavor>
@@ -4734,7 +4734,7 @@
 			<BuildingType>BUILDING_RANCH</BuildingType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
 			<Flavor>10</Flavor>
-		</Row>
+		</Row>-->
 		<Update>
 			<Where BuildingType="BUILDING_SATRAPS_COURT" FlavorType="FLAVOR_GOLD" />
 			<Set Flavor="100" />
@@ -7417,11 +7417,11 @@
 			<Set Cost="2" />
 			<Where BuildingType="BUILDING_NUCLEAR_PLANT" ResourceType="RESOURCE_URANIUM" />
 		</Update>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_RANCH</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<Cost>1</Cost>
-		</Row>
+		</Row>-->
 		<!--<Row>
 			<BuildingType>BUILDING_HORSE_DERBY</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
@@ -7503,7 +7503,7 @@
 			<BuildingType>BUILDING_BREWERY</BuildingType>
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_RANCH</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 		</Row>
@@ -7514,7 +7514,7 @@
 		<Row>
 			<BuildingType>BUILDING_RANCH</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_CIRCUS</BuildingType>
 			<ResourceType>RESOURCE_FUR</ResourceType>
@@ -7691,12 +7691,12 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_RANCH</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
-		</Row>
+		</Row>-->
 		<!--<Row>
 			<BuildingType>BUILDING_HORSE_DERBY</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>

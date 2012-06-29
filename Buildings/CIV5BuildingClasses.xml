@@ -184,11 +184,11 @@
 			<DefaultBuilding>BUILDING_BOND_MARKET</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_GUILD_HALL</Type>
 			<Description>TXT_KEY_BUILDING_GUILD_HALL</Description>
 			<DefaultBuilding>BUILDING_GUILD_HALL</DefaultBuilding>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDINGCLASS_NATIONAL_ACADEMY</Type>
 			<Description>TXT_KEY_BUILDING_NATIONAL_ACADEMY</Description>
@@ -251,11 +251,11 @@
 			<Description>TXT_KEY_BUILDING_MISSIONARY_CHURCH</Description>
 			<DefaultBuilding>BUILDING_MISSIONARY_CHURCH</DefaultBuilding>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_RANCH</Type>
 			<Description>TXT_KEY_BUILDING_RANCH</Description>
 			<DefaultBuilding>BUILDING_RANCH</DefaultBuilding>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDINGCLASS_DECLARATION_OF_INDEPENDENCE</Type>
 			<Description>TXT_KEY_BUILDING_DECLARATION_OF_INDEPENDENCE</Description>

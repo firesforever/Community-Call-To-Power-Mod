@@ -684,7 +684,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PRISON_STRATEGY</Tag>
-			<Text>Increases [ICON_HAPPINESS_1] Happiness and [ICON_PRODUCTION] Production in this City.</Text>
+			<Text>Increases this city's Hit Points by 25.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CONSTITUTION</Tag>
@@ -3627,7 +3627,7 @@
 			<Tag>TXT_KEY_UNIT_HELP_COG</Tag>
 			<Text>A Medieval naval upgrade to the Trireme.</Text>
 		</Row>-->
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_UNIT_GALLEON</Tag>
 			<Text>Galleon</Text>
 		</Row>
@@ -3638,7 +3638,7 @@
 		<Row>
 			<Tag>TXT_KEY_UNIT_HELP_GALLEON</Tag>
 			<Text>A heavy Renaissance warship.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_UNIT_CIVIL_ENGINEER</Tag>
 			<Text>Civil Engineer</Text>
