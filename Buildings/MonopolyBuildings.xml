@@ -1672,14 +1672,8 @@
 		<Row>
 			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
-			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_DISTRIBUTION_CENTER</BuildingType>
@@ -3163,13 +3157,8 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TOBACCO_FIELD</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TOBACCO_FIELD</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CATTLE_TRADER</BuildingType>
@@ -3301,13 +3290,8 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TOBACCO_PLANTATION</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_DISTRIBUTION_CENTER</BuildingType>

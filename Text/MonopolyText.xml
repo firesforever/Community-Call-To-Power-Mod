@@ -447,7 +447,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TOBACCO_PLANTATION_HELP</Tag>
-			<Text>Each source of [ICON_RES_TOBACCO] Tobacco worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Tobacco Resource and City must have a Tobacco Field.</Text>
+			<Text>Each source of [ICON_RES_TOBACCO] Tobacco worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Tobacco Resource and City must have a Tobacco Field.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER</Tag>

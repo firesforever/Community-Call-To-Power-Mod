@@ -308,7 +308,7 @@
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -591,23 +591,23 @@
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>6</Flavor>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TIN</ResourceType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_TIN</ResourceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 	</Resource_Flavors>
 
