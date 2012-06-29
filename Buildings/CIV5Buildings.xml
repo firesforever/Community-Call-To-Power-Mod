@@ -4,6 +4,121 @@
 	<Building_YieldChanges>
 		<Delete/>
 		<Row>
+			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMPHITHEATER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OPERA_HOUSE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CEILIDH_HALL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STELE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STELE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAGODA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAGODA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_PUBLISHING_HOUSE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
@@ -307,6 +422,16 @@
 			<BuildingType>BUILDING_NAZCA_LINES</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WINDMILL</BuildingType>
@@ -1115,7 +1240,7 @@
 			<IconAtlas>BW_ATLAS_5</IconAtlas>
 		</Row>
 		<Update>
-			<Set Cost="160" Happiness="2" SpecialistCount="1" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_ARTIST" PrereqTech="TECH_MYSTICISM" />
+			<Set Cost="160" Happiness="2" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_ARTIST" PrereqTech="TECH_MYSTICISM" />
 			<Where Type="BUILDING_BURIAL_TOMB"/>
 		</Update>
 		<Update>
@@ -1139,7 +1264,7 @@
 			<Where Type="BUILDING_MONUMENT"/>
 		</Update>
 		<Update>
-			<Set Cost="160" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" Happiness="0" SpecialistCount="1"/>
+			<Set Cost="160" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" Happiness="0"/>
 			<Where Type="BUILDING_MUD_PYRAMID_MOSQUE"/>
 		</Update>
 		<Update>
@@ -1147,7 +1272,7 @@
 			<Where Type="BUILDING_STONE_WORKS"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="160" Happiness="0" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" SpecialistCount="1" />
+			<Set GoldMaintenance="2" Cost="160" Happiness="0" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" />
 			<Where Type="BUILDING_TEMPLE"/>
 		</Update>
 		<Update>
@@ -1305,10 +1430,6 @@
 		<Update>
 			<Set GoldMaintenance="2" Cost="540" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount ="0" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_LIGHTHOUSE"/>
-		</Update>
-		<Update>
-			<Set GoldMaintenance="2" Cost="540" />
-			<Where Type="BUILDING_MONASTERY"/>
 		</Update>
 		<Update>
 			<Set Cost="540" />
@@ -4250,20 +4371,6 @@
 		<!--keep Stone works at 20 production, 10 happiness-->
 		<Row>
 			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
-			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Update>
-			<Where BuildingType="BUILDING_TEMPLE" FlavorType="FLAVOR_CULTURE" />
-			<Set Flavor="35" />
-		</Update>
-		<Row>
-			<BuildingType>BUILDING_TEMPLE</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>30</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TEMPLE</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
@@ -7341,7 +7448,6 @@
 		</Row>
 	</Building_SpecialistYieldChanges>
 	<Building_ClassesNeededInCity>
-		<Delete BuildingType="BUILDING_OPERA_HOUSE" BuildingClassType="BUILDINGCLASS_TEMPLE"/>
 		<Delete BuildingType="BUILDING_MUSEUM" BuildingClassType="BUILDINGCLASS_OPERA_HOUSE"/>
 		<Row>
 			<BuildingType>BUILDING_OPERA_HOUSE</BuildingType>
