@@ -1560,7 +1560,7 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_TOCACCO_FIELD</BuildingType>
+			<BuildingType>BUILDING_TOBACCO_FIELD</BuildingType>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
@@ -2801,8 +2801,8 @@
 		</Row>
 		
 		<Row>
-			<BuildingType>BUILDING_COPPER_DEPOT</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_COPPER_SMELTER</BuildingClassType>
+			<BuildingType>BUILDING_TIN_DEPOT</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TIN_SMELTER</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TIN_MANUFACTURER</BuildingType>
@@ -3114,7 +3114,7 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_COPPER_SMELTER</BuildingType>
+			<BuildingType>BUILDING_TIN_SMELTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>

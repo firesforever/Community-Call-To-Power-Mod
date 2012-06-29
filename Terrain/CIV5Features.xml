@@ -308,11 +308,6 @@
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_SRI_PADA</FeatureType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_SRI_PADA</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>4</Yield>
 		</Row>
