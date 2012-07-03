@@ -19,6 +19,11 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
@@ -32,6 +37,16 @@
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
@@ -499,6 +514,12 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<TechType>TECH_TRADE_FAIRS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -706,7 +727,7 @@
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 		</Row>
 	</Improvement_ValidFeatures>
-	<Improvement_ValidTerrains>
+	<!--<Improvement_ValidTerrains>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<TerrainType>TERRAIN_COAST</TerrainType>
@@ -715,6 +736,6 @@
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<TerrainType>TERRAIN_OCEAN</TerrainType>
 		</Row>
-	</Improvement_ValidTerrains>
+	</Improvement_ValidTerrains>-->
 
 </GameData>
