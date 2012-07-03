@@ -18,11 +18,11 @@
 
 	<BuildFeatures>
 		<Update>
-			<Set Production="100" />
+			<Set Production="20" />
 			<Where BuildType="BUILD_REMOVE_JUNGLE" />
 		</Update>
 		<Update>
-			<Set Production="100" />
+			<Set Production="40" />
 			<Where BuildType="BUILD_REMOVE_FOREST" />
 		</Update>
 	</BuildFeatures>
