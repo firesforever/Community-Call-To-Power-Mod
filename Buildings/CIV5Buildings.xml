@@ -4,6 +4,11 @@
 	<Building_YieldChanges>
 		<Delete/>
 		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_MONUMENT</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
@@ -135,7 +140,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ABBEY</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
@@ -147,16 +152,6 @@
 			<BuildingType>BUILDING_GARDEN</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_OPERA_HOUSE</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AQUARIUM</BuildingType>
@@ -302,6 +297,21 @@
 			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
@@ -1440,7 +1450,7 @@
 			<Where Type="BUILDING_MUSEUM"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="5" Cost="610" GreatPeopleRateChange="0" SpecialistCount="1" Happiness="2"/>
+			<Set GoldMaintenance="5" Cost="610" GreatPeopleRateChange="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_OPERA_HOUSE"/>
 		</Update>
 		<Row>
@@ -2809,7 +2819,7 @@
 			<WonderSplashImage>SplashZeus.dds</WonderSplashImage>
 		</Row>-->
 		<Update>
-			<Set Cost="380" GreatPeopleRateChange="4"/>
+			<Set Cost="380"/>
 			<Where Type="BUILDING_STONEHENGE"/>
 		</Update>
 		<Row>
