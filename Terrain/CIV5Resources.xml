@@ -20,6 +20,10 @@
 			<Where Type="RESOURCE_DEER" />
 		</Update>
 		<Update>
+			<Set TechCityTrade="TECH_ECONOMY_OF_SCALE" />
+			<Where Type="RESOURCE_CITRUS" />
+		</Update>
+		<Update>
 			<Set ResourceClassType="RESOURCECLASS_BONUS" RandApp1="20" RandApp2="20" TechCityTrade="TECH_ECONOMY_OF_SCALE" />
 			<Where Type="RESOURCE_BANANA" />
 		</Update>

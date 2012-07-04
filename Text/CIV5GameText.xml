@@ -24,6 +24,16 @@
 			<Tag>TXT_KEY_TECHTREE_SOCIAL</Tag>
 			<Text>Social ([ICON_CULTURE]/[ICON_HAPPINESS_1])  </Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_RESOURCE_BLOCKBUSTER">
+			<Text>Blockbuster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_BLOCKBUSTER_TEXT">
+			<Text>Blockbuster, as applied to film or theatre, denotes a very popular or successful production. The entertainment industry use was originally theatrical slang referring to a particularly successful play, but is now used primarily by the film industry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BLOCKBUSTER_HELP">
+			<Text>Blockbusters can only be gained from the [COLOR_POSITIVE_TEXT]Hollywood[ENDCOLOR] Wonder. They can be traded off to other Civilizations.</Text>
+		</Row>
 		
 		<!--BUILDINGS-->
 		<!--ANCIENT-->
@@ -1276,7 +1286,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_HOLLYWOOD_HELP</Tag>
-			<Text>[ICON_HAPPINESS_4] Unhappiness from number of cities reduced by 25%.</Text>
+			<Text>Provides +4 [ICON_BLOCKBUSTER] Blockbuster resources.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_HOLLYWOOD_QUOTE</Tag>

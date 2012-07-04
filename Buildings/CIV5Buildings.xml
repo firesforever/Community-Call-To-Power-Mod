@@ -191,7 +191,7 @@
 		<Row>
 			<BuildingType>BUILDING_HOLLYWOOD</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>6</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BACH_CATHEDRAL</BuildingType>
@@ -2428,14 +2428,12 @@
 			<NukeImmune>true</NukeImmune>
 			<Cost>1475</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
+			<UnmoddedHappiness>2</UnmoddedHappiness>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<CityCountUnhappinessMod>-25</CityCountUnhappinessMod>
 			<BuildingClass>BUILDINGCLASS_HOLLYWOOD</BuildingClass>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<PrereqTech>TECH_TELEPHONE</PrereqTech>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
 			<WonderSplashImage>SplashHollywood.dds</WonderSplashImage>
 			<IconAtlas>BW_ATLAS_4</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
@@ -5552,17 +5550,12 @@
 		<Row>
 			<BuildingType>BUILDING_HOLLYWOOD</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>45</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HOLLYWOOD</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>41</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HOLLYWOOD</BuildingType>
-			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>120</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HOLLYWOOD</BuildingType>
@@ -6902,6 +6895,13 @@
 			<Flavor>50</Flavor>
 		</Row>
 	</Building_Flavors>
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_HOLLYWOOD</BuildingType>
+			<ResourceType>RESOURCE_BLOCKBUSTER</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
 	<Building_LocalResourceAnds>
 		<!--<Row>
 			<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
@@ -8022,6 +8022,26 @@
 			<Where BuildingType="BUILDING_BAZAAR" YieldType="YIELD_GOLD"/>
 		</Update>
 	</Building_FeatureYieldChanges>
-
+	<Building_TerrainYieldChanges>
+		<Delete/>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
 
 </GameData>
