@@ -1734,7 +1734,7 @@
 		<Row>
 			<PolicyType>POLICY_JINGOISM</PolicyType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>12</Flavor>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_JINGOISM</PolicyType>
@@ -1743,24 +1743,15 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_JINGOISM</PolicyType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_EXCEPTIONALISM</PolicyType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>45</Flavor>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_EXCEPTIONALISM</PolicyType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_JINGOISM</PolicyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>12</Flavor>
 		</Row>
+
 		<Row>
 			<PolicyType>POLICY_SOCIALISM</PolicyType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
