@@ -7,10 +7,10 @@
 			<Set Value="4" />
 			<Where Name="NUM_POLICY_BRANCHES_ALLOWED" />
 		</Update>
-		<!--<Update>
-			<Set Value="10" />
+		<Update>
+			<Set Value="200" />
 			<Where Name="EACH_GOLD_VALUE_PERCENT" />
-		</Update>-->
+		</Update>
 		<Update>
 			<Set Value="8" />
 			<Where Name="EACH_GOLD_PER_TURN_VALUE_PERCENT" />

@@ -1474,7 +1474,7 @@
 			<PortraitIndex>20</PortraitIndex>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="6" Cost="610" PrereqTech="TECH_DRAMA" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="0" GreatPeopleRateChange="0" Happiness="4"/>
+			<Set GoldMaintenance="6" Cost="610" PrereqTech="TECH_ACOUSTICS" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="0" GreatPeopleRateChange="0" Happiness="4"/>
 			<Where Type="BUILDING_THEATRE"/>
 		</Update>
 		<Row>
@@ -2075,6 +2075,23 @@
 			<PortraitIndex>10</PortraitIndex>
 		</Row>
 		<Row>
+			<Type>BUILDING_MOVIE_THEATRE</Type>
+			<Description>TXT_KEY_BUILDING_MOVIE_THEATRE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MOVIE_THEATRE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MOVIE_THEATRE_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_MOVIE_THEATRE_STRATEGY</Strategy>
+			<GoldMaintenance>40</GoldMaintenance>
+			<Cost>1675</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>30</ConquestProb>
+			<Happiness>6</Happiness>
+			<BuildingClass>BUILDINGCLASS_MOVIE_THEATRE</BuildingClass>
+			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
 			<Type>BUILDING_MEGACHURCH</Type>
 			<Description>TXT_KEY_BUILDING_MEGACHURCH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MEGACHURCH_DESC</Civilopedia>
@@ -2426,14 +2443,14 @@
 			<Help>TXT_KEY_WONDER_HOLLYWOOD_HELP</Help>
 			<Quote>TXT_KEY_WONDER_HOLLYWOOD_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
-			<Cost>1475</Cost>
+			<Cost>3200</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
-			<UnmoddedHappiness>2</UnmoddedHappiness>
+			<UnmoddedHappiness>4</UnmoddedHappiness>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_HOLLYWOOD</BuildingClass>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
-			<PrereqTech>TECH_TELEPHONE</PrereqTech>
+			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 			<WonderSplashImage>SplashHollywood.dds</WonderSplashImage>
 			<IconAtlas>BW_ATLAS_4</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
@@ -5312,7 +5329,16 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>70</Flavor>
 		</Row>
-		
+		<Row>
+			<BuildingType>BUILDING_MOVIE_THEATRE</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOVIE_THEATRE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
 		<!--WONDERS-->
 		<!--I MADE THE FLAVORS 25% LESS THAN NORMAL TO ENCOURAGE THE AI TO BUILD NORMAL BUILDINGS TOO.  THE WONDER FLAVOR SHOULD MAKE UP FOR IT-->
 		<!--WORLD WONDERS-->
@@ -7459,6 +7485,10 @@
 	</Building_SpecialistYieldChanges>
 	<Building_ClassesNeededInCity>
 		<Delete BuildingType="BUILDING_MUSEUM" BuildingClassType="BUILDINGCLASS_OPERA_HOUSE"/>
+		<Row>
+			<BuildingType>BUILDING_MOVIE_THEATRE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_STADIUM</BuildingClassType>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_OPERA_HOUSE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>

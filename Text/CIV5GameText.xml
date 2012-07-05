@@ -1213,6 +1213,22 @@
 			<Text>City must have a Missionary Church.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_MOVIE_THEATRE</Tag>
+			<Text>Movie Theatre</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MOVIE_THEATRE_PEDIA</Tag>
+			<Text>A movie theater (also called a movie house, film theater, film house, picture theater or cinema) is a venue, usually a building, for viewing motion pictures ("movies" or "films"). Most but not all movie theaters are commercial operations catering to the general public, who attend by purchasing a ticket. The movie is projected with a movie projector onto a large projection screen at the front of the auditorium. Some movie theaters are now equipped for digital cinema projection, removing the need to create and transport a physical film print.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MOVIE_THEATRE_HELP</Tag>
+			<Text>It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Stadium.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MOVIE_THEATRE_STRATEGY</Tag>
+			<Text>A Movie Theatre is a Modern-era building which increases the [ICON_HAPPINESS_1] Happiness of your entire empire, not just the city in which it is constructed. The city must already possess a Stadium before it can construct a Movie Theatre.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_CRYSTAL_CATHEDRAL</Tag>
 			<Text>Crystal Cathedral</Text>
 		</Row>

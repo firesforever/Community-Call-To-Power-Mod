@@ -431,6 +431,11 @@
 			<DefaultBuilding>BUILDING_MEGACHURCH</DefaultBuilding>
 		</Row>
 		<Row>
+			<Type>BUILDINGCLASS_MOVIE_THEATRE</Type>
+			<Description>TXT_KEY_BUILDING_MOVIE_THEATRE</Description>
+			<DefaultBuilding>BUILDING_MOVIES_THEATRE</DefaultBuilding>
+		</Row>
+		<Row>
 			<Type>BUILDINGCLASS_CRYSTAL_CATHEDRAL</Type>
 			<Description>TXT_KEY_BUILDING_CRYSTAL_CATHEDRAL</Description>
 			<DefaultBuilding>BUILDING_CRYSTAL_CATHEDRAL</DefaultBuilding>
