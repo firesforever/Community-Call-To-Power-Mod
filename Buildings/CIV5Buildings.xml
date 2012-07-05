@@ -6899,7 +6899,7 @@
 		<Row>
 			<BuildingType>BUILDING_HOLLYWOOD</BuildingType>
 			<ResourceType>RESOURCE_BLOCKBUSTER</ResourceType>
-			<Quantity>2</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 	</Building_ResourceQuantity>
 	<Building_LocalResourceAnds>
