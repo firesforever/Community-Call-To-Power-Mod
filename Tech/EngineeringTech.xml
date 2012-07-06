@@ -19,7 +19,7 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>2</GridX>
 			<GridY>2</GridY>
-			<Quote>TXT_KEY_RAW_MATERIALS_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_RAW_MATERIALS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -39,7 +39,7 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>3</GridX>
 			<GridY>5</GridY>
-			<Quote>TXT_KEY_GREAT_WORKS_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_GREAT_WORKS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
