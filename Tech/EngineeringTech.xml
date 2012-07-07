@@ -317,9 +317,19 @@
 			<Flavor>12</Flavor>
 		</Row>
 		<Row>
+			<TechType>TECH_RAW_MATERIALS</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
 			<TechType>TECH_GREAT_WORKS</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>9</Flavor>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_GREAT_WORKS</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>4</Flavor>
 		</Row>
 		<Delete TechType="TECH_MASONRY" FlavorType="FLAVOR_HAPPINESS" />
 		<Update>
