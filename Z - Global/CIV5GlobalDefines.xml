@@ -8,7 +8,7 @@
 			<Where Name="NUM_POLICY_BRANCHES_ALLOWED" />
 		</Update>
 		<Update>
-			<Set Value="200" />
+			<Set Value="50" />
 			<Where Name="EACH_GOLD_VALUE_PERCENT" />
 		</Update>
 		<Update>
