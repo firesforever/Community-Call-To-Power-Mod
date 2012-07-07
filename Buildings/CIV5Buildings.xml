@@ -1278,6 +1278,10 @@
 			<Where Type="BUILDING_MUD_PYRAMID_MOSQUE"/>
 		</Update>
 		<Update>
+			<Set Cost="80" />
+			<Where Type="BUILDING_SHRINE"/>
+		</Update>
+		<Update>
 			<Set GoldMaintenance="2" Cost="220" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="0" SpecialistCount="0" Happiness="1" PrereqTech="TECH_MASONRY"/>
 			<Where Type="BUILDING_STONE_WORKS"/>
 		</Update>
@@ -1440,6 +1444,10 @@
 		<Update>
 			<Set GoldMaintenance="2" Cost="540" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount ="0" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_LIGHTHOUSE"/>
+		</Update>
+		<Update>
+			<Set Cost="970" />
+			<Where Type="BUILDING_MOSQUE_OF_DJENNE"/>
 		</Update>
 		<Update>
 			<Set Cost="540" />
