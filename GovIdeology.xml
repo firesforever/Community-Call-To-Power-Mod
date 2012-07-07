@@ -934,7 +934,7 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_JINGOISM</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_MILATARY_ACADEMY</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
 			<Happiness>1</Happiness>
 		</Row>
 		<Row>
