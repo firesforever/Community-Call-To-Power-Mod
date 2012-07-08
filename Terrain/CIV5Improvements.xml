@@ -445,12 +445,6 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
