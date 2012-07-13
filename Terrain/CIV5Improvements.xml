@@ -551,7 +551,7 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
-			<TechType>TECH_CONSTRUCTION</TechType>
+			<TechType>TECH_PUBLIC_WORKS</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>

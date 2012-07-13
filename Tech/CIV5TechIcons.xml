@@ -58,10 +58,10 @@
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="13"/>
 			<Where Type="TECH_ALGEBRA" />
 		</Update>
-		<!--<Update>
+		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="14"/>
-			<Where Type="TECH_GUILDS" />
-		</Update>-->
+			<Where Type="TECH_PUBLIC_WORKS" />
+		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="15"/>
 			<Where Type="TECH_BLAST_FURNACE" />

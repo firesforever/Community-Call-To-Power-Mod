@@ -438,7 +438,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SEWER_SYSTEM_STRATEGY</Tag>
-			<Text>10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.</Text>
+			<Text>10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.[NEWLINE][NEWLINE]City must have a Granary.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_REGIONAL_FAIR</Tag>
@@ -4564,6 +4564,23 @@
 			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"Death comes to all, but great achievements build a monument which shall endure until the sun grows cold."[NEWLINE][TAB][TAB] - Ralph Waldo Emerson</Text>
 		</Row>
+
+		<Row>
+			<Tag>TXT_KEY_TECH_PUBLIC_WORKS_TITLE</Tag>
+			<Text>Public Works ([ICON_PRODUCTION])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_PUBLIC_WORKS_DESC</Tag>
+			<Text>Public works are a broad category of projects, financed and constructed by the government, for recreational, employment, and health and safety uses in the greater community. They include bridges, parks, roads, municipal buildings, dams, railroads, schools, hospitals, beaches, and other, usually long-term, physical assets and facilities. Though often interchangeable with public infrastructure and public capital, public works does not necessarily carry an economic component, thereby being a broader term.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_PUBLIC_WORKS_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Terracotta Army[ENDCOLOR], [COLOR_POSSITIVE_TEXT]Public Baths[ENDCOLOR], and [COLOR_POSSITIVE_TEXT]Sewer System[ENDCOLOR] Wonder and Buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_PUBLIC_WORKS_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"The fondest wish of my heart ever was that the surplus portion of these taxes, destined for the payment of that debt, should be applied, in time of peace, to the improvements of our country by canals, roads, and useful institutions."[NEWLINE][TAB][TAB] - Thomas Jefferson</Text>
+		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FISH_MARKETS_TITLE</Tag>
 			<Text>Fish Markets ([ICON_GOLD])  </Text>
@@ -4733,7 +4750,7 @@
 			<Where Tag="TXT_KEY_BUILDING_FORGE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born."/>
+			<Set Text="10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.[NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold in every tile next to a River.[NEWLINE][NEWLINE]City must be built next to a River.[NEWLINE]City must have a Sewer System."/>
 			<Where Tag="TXT_KEY_BUILDING_AQUEDUCT_HELP" />
 		</Update>
 		<Update>

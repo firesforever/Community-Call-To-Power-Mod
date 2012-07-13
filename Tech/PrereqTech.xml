@@ -92,6 +92,10 @@
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_PUBLIC_WORKS</TechType>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_CONSTRUCTION</TechType>
 			<PrereqTech>TECH_GREAT_MONUMENTS</PrereqTech>
 		</Row>
@@ -473,7 +477,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_ENGINEERING</TechType>
-			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<PrereqTech>TECH_PUBLIC_WORKS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ENGINEERING</TechType>

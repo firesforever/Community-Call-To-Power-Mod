@@ -64,6 +64,22 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
+		<Row>
+			<Type>TECH_PUBLIC_WORKS</Type>
+			<TechCat>TECHTREE_ENGINEERING</TechCat>
+			<Description>TXT_KEY_TECH_PUBLIC_WORKS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_PUBLIC_WORKS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_PUBLIC_WORKS_HELP</Help>
+			<Cost>40</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>6</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_STONE_MASONS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<!-- Medieval Era -->
 		<Update>
 			<Set TechCat="TECHTREE_ENGINEERING" Cost="92" Era="ERA_MEDIEVAL" GridX="8" GridY="5" />
@@ -374,6 +390,16 @@
 			<TechType>TECH_STONE_MASONS</TechType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PUBLIC_WORKS</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PUBLIC_WORKDS</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<!--MEDIEVAL-->
 		<Delete TechType="TECH_ENGINEERING" FlavorType="FLAVOR_DEFENSE" />
