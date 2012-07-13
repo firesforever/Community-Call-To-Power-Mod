@@ -32,14 +32,14 @@
 			<TechCat>TECHTREE_ENGINEERING</TechCat>
 			<Description>TXT_KEY_TECH_GREAT_MONUMENTS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_GREAT_MONUMENTS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_GREAT_WORKS_HELP</Help>
+			<Help>TXT_KEY_TECH_GREAT_MONUMENTS_HELP</Help>
 			<Cost>15</Cost>
 			<Era>ERA_ANCIENT</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>3</GridX>
 			<GridY>5</GridY>
-			<Quote>TXT_KEY_GREAT_WORKS_QUOTE</Quote>
+			<Quote>TXT_KEY_GREAT_MONUMENTS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -75,7 +75,7 @@
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>6</GridX>
-			<GridY>3</GridY>
+			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_STONE_MASONS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>

@@ -948,14 +948,6 @@
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
 		</Row>-->
 		<Row>
-			<TechType>TECH_MOBILE_TACTICS</TechType>
-			<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_MOBILE_TACTICS</TechType>
-			<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_REFINING</TechType>
 			<PrereqTech>TECH_PENICILIN</PrereqTech>
 		</Row>
@@ -1757,7 +1749,7 @@
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_ENGINEERING</TechType>
+			<TechType>TECH_PUBLIC_WORKS</TechType>
 			<PrereqTech>TECH_STONE_MASONS</PrereqTech>
 		</Row>
 		<Row>

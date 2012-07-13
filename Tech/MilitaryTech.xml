@@ -34,7 +34,7 @@
 			<Civilopedia>TXT_KEY_TECH_SHIPBUILDING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SHIPBUILDING_HELP</Help>
 			<Cost>13</Cost>
-			<Era>ERA_CLASSICAL</Era>
+			<Era>ERA_ANCIENT</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>2</GridX>
