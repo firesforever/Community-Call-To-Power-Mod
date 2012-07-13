@@ -2079,6 +2079,10 @@
 			<IconAtlas>BW_ATLAS_4</IconAtlas>
 			<PortraitIndex>8</PortraitIndex>
 		</Row>
+		<Update>
+			<Set Cost="1675" />
+			<Where Type="BUILDING_BOMB_SHELTER"/>
+		</Update>
 		<Row>
 			<Type>BUILDING_CELL_TOWERS</Type>
 			<Description>TXT_KEY_BUILDING_CELL_TOWERS</Description>
@@ -3296,6 +3300,10 @@
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>57</PortraitIndex>
 		</Row>
+		<Update>
+			<Set Cost="3750" />
+			<Where Type="BUILDING_CN_TOWER"/>
+		</Update>
 		<!--CYBER COMMAND-->
 		<Row>
 			<Type>BUILDING_CYBER_COMMAND</Type>
