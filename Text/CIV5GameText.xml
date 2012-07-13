@@ -4762,6 +4762,10 @@
 			<Where Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP" />
 		</Update>
 		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_BUILDING_TEMPLE_ARTEMIS_HELP" />
+		</Update>
+		<Update>
 			<Set Text="+1 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum for Construction.[NEWLINE][NEWLINE]City must be built next to a River." />
 			<Where Tag="TXT_KEY_BUILDING_HYDRO_PLANT_HELP" />
 		</Update>
@@ -5225,6 +5229,30 @@
 		<Update>
 			<Set Text="Stealth ([ICON_STRENGTH])  " />
 			<Where Tag="TXT_KEY_TECH_STEALTH_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Mobile Tactics ([ICON_STRENGTH])  " />
+			<Where Tag="TXT_KEY_TECH_MOBILE_TACTICS_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Telecommunications ([ICON_CULTURE]/[ICON_HAPPINESS_1]) " />
+			<Where Tag="TXT_KEY_TECH_TELECOM_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Guilds ([ICON_GOLD])  " />
+			<Where Tag="TXT_KEY_TECH_GUILDS_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Architecture ([ICON_PRODUCTION])  " />
+			<Where Tag="TXT_KEY_TECH_ARCHITECTURE_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Drama and Poetry ([ICON_CULTURE]/[ICON_HAPPINESS_1])  " />
+			<Where Tag="TXT_KEY_TECH_DRAMA_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Ballistics ([ICON_STRENGTH])  " />
+			<Where Tag="TXT_KEY_TECH_BALLISTICS_TITLE" />
 		</Update>
 		<Update>
 			<Set Text="Advanced Ballistics ([ICON_STRENGTH])  " />
