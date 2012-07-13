@@ -944,7 +944,7 @@
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
 		</Row>-->
 		<Row>
-			<TechType>TECH_INFANTRY_FIGHTING_VEHICLES</TechType>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
 			<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
 		</Row>
 		<Row>
@@ -1113,19 +1113,15 @@
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_INFANTRY_FIGHTING_VEHICLES</TechType>
-			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_MOBILE_TACTICS</TechType>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_COMBINED_ARMS_DOCTRINE</TechType>
-			<PrereqTech>TECH_INFANTRY_FIGHTING_VEHICLES</PrereqTech>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_INFANTRY_FIGHTING_VEHICLES</TechType>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
 			<PrereqTech>TECH_LASERS</PrereqTech>
 		</Row>
 		<Row>
@@ -1266,7 +1262,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_COMPOSITE_ARMOR</TechType>
-			<PrereqTech>TECH_INFANTRY_FIGHTING_VEHICLES</PrereqTech>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_MAGNETICS_MINIATURIZATION</TechType>

@@ -216,7 +216,7 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 		<Update>
-			<Set TechCat="TECHTREE_MILITARY" Cost="984" Era="ERA_INDUSTRIAL" GridX="16" GridY="4" />
+			<Set TechCat="TECHTREE_MILITARY" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="4" />
 			<Where Type="TECH_COMBINED_ARMS" />
 		</Update>
 		<Update>
@@ -312,7 +312,7 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 		<!-- Modern Era -->
-		<Row>
+		<!--<Row>
 			<Type>TECH_INFANTRY_FIGHTING_VEHICLES</Type>
 			<TechCat>TECHTREE_MILITARY</TechCat>
 			<Description>TXT_KEY_TECH_INFANTRY_FIGHTING_VEHICLES_TITLE</Description>
@@ -327,9 +327,9 @@
 			<Quote>TXT_KEY_TECH_INFANTRY_FIGHTING_VEHICLES_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
+		</Row>-->
 		<Update>
-			<Set TechCat="TECHTREE_MILITARY" Cost="2603" Era="ERA_MODERN" GridX="20" GridY="6" />
+			<Set TechCat="TECHTREE_MILITARY" Cost="2603" Era="ERA_MODERN" GridX="20" GridY="7" />
 			<Where Type="TECH_MOBILE_TACTICS" />
 		</Update>
 		<Update>
