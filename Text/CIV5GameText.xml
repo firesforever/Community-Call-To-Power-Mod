@@ -4713,7 +4713,7 @@
 			<Where Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_IRON] Iron worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of [ICON_RES_IRON] Iron nearby."/>
+			<Set Text="Each source of [ICON_RES_IRON] Iron and [ICON_RES_COPPER] Copper  worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_FORGE_HELP" />
 		</Update>
 		<Update>

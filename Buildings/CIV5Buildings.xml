@@ -1693,7 +1693,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_AIRCRAFT_PLANT</BuildingClass>
-			<PrereqTech>TECH_FLIGHT</PrereqTech>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
@@ -1716,7 +1716,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_AUTO_PLANT</BuildingClass>
-			<PrereqTech>TECH_COMBUSTION</PrereqTech>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
@@ -1803,7 +1803,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_INDUSTRIAL_SHIPYARD</BuildingClass>
-			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<GreatPeopleRateChange>0</GreatPeopleRateChange>
@@ -6937,6 +6937,7 @@
 		</Row>
 	</Building_ResourceQuantity>
 	<Building_LocalResourceAnds>
+		<Delete BuildingType="BUILDING_FORGE" ResourceType="RESOURCE_IRON" />
 		<!--<Row>
 			<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
 			<ResourceType>RESOURCE_IVORY</ResourceType>
@@ -7642,6 +7643,14 @@
 		<Delete BuildingType="BUILDING_SEAPORT" ResourceType="RESOURCE_WHALE"/>
 		<Delete BuildingType="BUILDING_SEAPORT" ResourceType="RESOURCE_PEARLS"/>
 		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
 			<ResourceType>RESOURCE_JADE</ResourceType>
 		</Row>
@@ -7776,6 +7785,12 @@
 		<Row>
 			<BuildingType>BUILDING_FORGE</BuildingType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
