@@ -374,18 +374,13 @@
 		</Update>
 		<Row>
 			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
@@ -395,7 +390,7 @@
 		<Row>
 			<TechType>TECH_FERMENTATION</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_FERMENTATION</TechType>
@@ -405,12 +400,7 @@
 		<Row>
 			<TechType>TECH_FERMENTATION</TechType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FERMENTATION</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>2</Flavor>
 		</Row>
 		<Update>
 			<Where TechType="TECH_ANIMAL_HUSBANDRY" FlavorType="FLAVOR_TILE_IMPROVEMENT" />
@@ -439,17 +429,7 @@
 		<Row>
 			<TechType>TECH_HERDING</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_HERDING</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_HERDING</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 <!--CLASSICAL-->
 		<!--KEEP CURRENCY AT 20 GOLD-->
@@ -465,7 +445,7 @@
 		<Row>
 			<TechType>TECH_APOTHECARY</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_APOTHECARY</TechType>
@@ -485,7 +465,7 @@
 		<Row>
 			<TechType>TECH_ANIMAL_MARKETS</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_ANIMAL_MARKETS</TechType>
@@ -505,22 +485,17 @@
 		<Row>
 			<TechType>TECH_FISH_MARKETS</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>8</Flavor>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_FISH_MARKETS</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FISH_MARKETS</TechType>
-			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_FARMERS_MARKETS</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>14</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_FARMERS_MARKETS</TechType>
@@ -535,33 +510,18 @@
 		</Row>
 		<Row>
 			<TechType>TECH_TRADE_FAIRS</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_TRADE_FAIRS</TechType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_TRADE_FAIRS</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_TRADE_FAIRS</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
 			<TechType>TECH_COFFEE_TRADE</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>7</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_COFFEE_TRADE</TechType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor></Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
@@ -571,22 +531,22 @@
 		<Row>
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>18</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>18</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
@@ -648,27 +608,18 @@
 		<Row>
 			<TechType>TECH_OCEAN_PIONEERING</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_OCEAN_PIONEERING</TechType>
-			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_OCEAN_PIONEERING</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_STEEL</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_STEEL</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_OCEAN_PIONEERING</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Delete TechType="TECH_STEEL" FlavorType="FLAVOR_OFFENSE" />
+		<Row>
+			<TechType>TECH_STEEL</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_INTERNATIONAL_TRADE</TechType>

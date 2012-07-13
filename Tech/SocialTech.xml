@@ -355,6 +355,10 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
+		<Update>
+			<Set TechCat="TECHTREE_SOCIAL" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="5" />
+			<Where Type="TECH_TELECOM" />
+		</Update>
 		<!--<Update>
 			<Set TechCat="TECHTREE_SOCIAL" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="5" />
 			<Where Type="TECH_MASS_MEDIA" />
@@ -555,23 +559,18 @@
 <!--ANCIENT-->
 		<Row>
 			<TechType>TECH_MYSTICISM</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>8</Flavor>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_MYSTICISM</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>2</Flavor>
+			<Flavor>13</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_MYSTICISM</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_CEREMONIAL_BURIAL</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_CEREMONIAL_BURIAL</TechType>
@@ -586,7 +585,7 @@
 		</Update>
 		<Row>
 			<TechType>TECH_CALENDAR</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
@@ -597,113 +596,73 @@
 		<Row>
 			<TechType>TECH_POLYTHEISM</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_MEDITATION</TechType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_MEDITATION</TechType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_MEDITATION</TechType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>2</Flavor>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_MEDITATION</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>2</Flavor>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MEDITATION</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_SPORTS</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>2</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_SPORTS</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>15</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_SPORTS</TechType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>1</Flavor>
+			<Flavor>19</Flavor>
 		</Row>
 <!--CLASSICAL-->
 		<Row>
 			<TechType>TECH_MONOTHEISM</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_MONOTHEISM</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_MONOTHEISM</TechType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_MONOTHEISM</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_PRIESTHOOD</TechType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_PRIESTHOOD</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_PRIESTHOOD</TechType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>1</Flavor>
+			<TechType>TECH_MONOTHEISM</TechType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MONOTHEISM</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_PRIESTHOOD</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>1</Flavor>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_PRIESTHOOD</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>2</Flavor>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>14</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_PRIESTHOOD</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_HERBAL_SCIENCE</TechType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_HERBAL_SCIENCE</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_HERBAL_SCIENCE</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_HERBAL_SCIENCE</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>1</Flavor>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_HERBAL_SCIENCE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Update>
 			<Where TechType="TECH_PHILOSOPHY" FlavorType="FLAVOR_WONDER"/>
@@ -713,14 +672,10 @@
 			<Where TechType="TECH_PHILOSOPHY" FlavorType="FLAVOR_SCIENCE"/>
 			<Set Flavor="6" />
 		</Update>
-		<Update>
-			<Where TechType="TECH_PHILOSOPHY" FlavorType="FLAVOR_CULTURE"/>
-			<Set Flavor="3" />
-		</Update>
 		<Row>
 			<TechType>TECH_PHILOSOPHY</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>2</Flavor>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_CODE_OF_LAWS</TechType>
@@ -730,17 +685,17 @@
 		<Row>
 			<TechType>TECH_CODE_OF_LAWS</TechType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>2</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_CODE_OF_LAWS</TechType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>1</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_CODE_OF_LAWS</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>1</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_CODE_OF_LAWS</TechType>
@@ -765,11 +720,11 @@
 <!--MEDIEVAL-->
 		<Update>
 			<Where TechType="TECH_THEOLOGY" FlavorType="FLAVOR_WONDER"/>
-			<Set Flavor="6" />
+			<Set Flavor="9" />
 		</Update>
 		<Update>
 			<Where TechType="TECH_THEOLOGY" FlavorType="FLAVOR_CULTURE"/>
-			<Set Flavor="3" />
+			<Set Flavor="15" />
 		</Update>
 		<Update>
 			<Where TechType="TECH_THEOLOGY" FlavorType="FLAVOR_GREAT_PEOPLE"/>
@@ -778,12 +733,7 @@
 		<Row>
 			<TechType>TECH_THEOLOGY</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_THEOLOGY</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>9</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_LITERATURE</TechType>
@@ -805,16 +755,6 @@
 			<Where TechType="TECH_ARCHAEOLOGY" FlavorType="FLAVOR_WONDER"/>
 			<Set Flavor="6" />
 		</Update>
-		<Row>
-			<TechType>TECH_ARCHAEOLOGY</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ARCHAEOLOGY</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
 		<!--<Row>
 			<TechType>TECH_DRAMA</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
@@ -828,7 +768,7 @@
 		<Row>
 			<TechType>TECH_FUNDAMENTALISM</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>9</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_FUNDAMENTALISM</TechType>
@@ -838,17 +778,12 @@
 		<Row>
 			<TechType>TECH_FUNDAMENTALISM</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>2</Flavor>
+			<Flavor>1</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_FUNDAMENTALISM</TechType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FUNDAMENTALISM</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>2</Flavor>
 		</Row>
 		<Update>
 			<Where TechType="TECH_ACOUSTICS" FlavorType="FLAVOR_WONDER"/>
@@ -862,11 +797,6 @@
 			<TechType>TECH_ACOUSTICS</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>15</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ACOUSTICS</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>7</Flavor>
 		</Row>
 		<Delete TechType="TECH_CIVIL_SERVICE" FlavorType="FLAVOR_SCIENCE"/>
 		<Delete TechType="TECH_CIVIL_SERVICE" FlavorType="FLAVOR_GROWTH"/>
@@ -907,24 +837,14 @@
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_ENLIGHTENMENT</TechType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
 			<TechType>TECH_EVANGELISM</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>14</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_EVANGELISM</TechType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_EVANGELISM</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>8</Flavor>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_CONSTITUTION</TechType>
@@ -933,13 +853,18 @@
 		</Row>
 		<Row>
 			<TechType>TECH_CONSTITUTION</TechType>
-			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
-			<Flavor>4</Flavor>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>16</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_CONSTITUTION</TechType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>1</Flavor>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_NATIONALISM</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_NATIONALISM</TechType>
@@ -954,7 +879,7 @@
 		<Row>
 			<TechType>TECH_NATIONALISM</TechType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>3</Flavor>
 		</Row>
 <!--INDUSTRIAL-->
 		<Row>

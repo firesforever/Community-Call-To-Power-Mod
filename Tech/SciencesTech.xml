@@ -592,7 +592,7 @@
 		</Row>
 		<!-- Diamond Era -->
 		<Update>
-			<Set TechCat="TECHTREE_SCIENCES" Cost="73280" Era="ERA_DIAMOND" GridX="32" GridY="5" />
+			<Set TechCat="TECHTREE_SCIENCES" Cost="73280" Era="ERA_FUTURE" GridX="32" GridY="5" />
 			<Where Type="TECH_FUTURE_TECH" />
 		</Update>
 

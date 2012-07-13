@@ -4,6 +4,58 @@
 	<Technology_PrereqTechs>
 		<Delete/>
 		<Row>
+			<TechType>TECH_GLOBALIZATION</TechType>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TELECOM</TechType>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMBINED_ARMS</TechType>
+			<PrereqTech>TECH_COMBUSTION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FLIGHT</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TRACKED_VEHICLES</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TORPEDOES</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RADIO</TechType>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ARCHITECTURE</TechType>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ARCHITECTURE</TechType>
+			<PrereqTech>TECH_BANKING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ARCHITECTURE</TechType>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SCIENTIFIC_THEORY</TechType>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_BLAST_FURNACE</TechType>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_HERDING</TechType>
 			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
 		</Row>
@@ -764,6 +816,18 @@
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_STEAM_POWER</TechType>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INDUSTRIALIZATION</TechType>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INDUSTRIALIZATION</TechType>
+			<PrereqTech>TECH_BLAST_FURNACE</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_DYNAMITE</TechType>
 			<PrereqTech>TECH_FERTILIZER</PrereqTech>
 		</Row>
@@ -825,6 +889,10 @@
 		</Row>
 		<Row>
 			<TechType>TECH_RAILROAD</TechType>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RAILROAD</TechType>
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
 		</Row>
 		<Row>
@@ -865,6 +933,10 @@
 		</Row>-->
 		<Row>
 			<TechType>TECH_INFANTRY_FIGHTING_VEHICLES</TechType>
+			<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
 			<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
 		</Row>
 		<Row>
@@ -1030,6 +1102,10 @@
 		</Row>
 		<Row>
 			<TechType>TECH_INFANTRY_FIGHTING_VEHICLES</TechType>
+			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 		</Row>
 		<Row>

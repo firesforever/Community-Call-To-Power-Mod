@@ -19,7 +19,7 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>2</GridX>
 			<GridY>2</GridY>
-			<Quote>TXT_KEY_TECH_RAW_MATERIALS_QUOTE</Quote>
+			<Quote>TXT_KEY_RAW_MATERIALS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -39,7 +39,7 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>3</GridX>
 			<GridY>5</GridY>
-			<Quote>TXT_KEY_TECH_GREAT_WORKS_QUOTE</Quote>
+			<Quote>TXT_KEY_GREAT_WORKS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -74,6 +74,10 @@
 			<Where Type="TECH_MACHINERY" />
 		</Update>
 		<!-- Renaissance Era -->
+		<Update>
+			<Set TechCat="TECHTREE_ENGINEERING" Cost="281" Era="ERA_RENAISSANCE" GridX="12" GridY="6" />
+			<Where Type="TECH_ARCHITECTURE" />
+		</Update>
 		<Row>
 			<Type>TECH_BLAST_FURNACE</Type>
 			<TechCat>TECHTREE_ENGINEERING</TechCat>
@@ -92,8 +96,12 @@
 		</Row>
 		<!-- Industrial Era -->
 		<Update>
-			<Set TechCat="TECHTREE_ENGINEERING" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="5" />
+			<Set TechCat="TECHTREE_ENGINEERING" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="4" />
 			<Where Type="TECH_DYNAMITE" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_ENGINEERING" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="5" />
+			<Where Type="TECH_INDUSTRIALIZATION" />
 		</Update>
 		<Update>
 			<Set TechCat="TECHTREE_ENGINEERING" Cost="856" Trade="1" Era="ERA_INDUSTRIAL" GridX="16" GridY="6" />
@@ -317,19 +325,9 @@
 			<Flavor>12</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_RAW_MATERIALS</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
 			<TechType>TECH_GREAT_WORKS</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_GREAT_WORKS</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>9</Flavor>
 		</Row>
 		<Delete TechType="TECH_MASONRY" FlavorType="FLAVOR_HAPPINESS" />
 		<Update>
