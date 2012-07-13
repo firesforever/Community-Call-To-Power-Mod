@@ -28,10 +28,10 @@
 			<Where Type="TECH_MASONRY" />
 		</Update>
 		<Row>
-			<Type>TECH_GREAT_WORKS</Type>
+			<Type>TECH_GREAT_MONUMENTS</Type>
 			<TechCat>TECHTREE_ENGINEERING</TechCat>
-			<Description>TXT_KEY_TECH_GREAT_WORKS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_GREAT_WORKS_DESC</Civilopedia>
+			<Description>TXT_KEY_TECH_GREAT_MONUMENTS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_GREAT_MONUMENTS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_GREAT_WORKS_HELP</Help>
 			<Cost>15</Cost>
 			<Era>ERA_ANCIENT</Era>
