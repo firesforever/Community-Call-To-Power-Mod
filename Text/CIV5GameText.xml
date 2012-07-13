@@ -4549,19 +4549,19 @@
 			<Text>[NEWLINE][TAB][TAB]"A rolling stone gathers no moss, but it gains a certain polish."[NEWLINE][TAB][TAB] - Oliver Herford</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_GREAT_WORKS_TITLE</Tag>
-			<Text>Great Works ([ICON_PRODUCTION])</Text>
+			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_TITLE</Tag>
+			<Text>Great Monuments ([ICON_PRODUCTION])</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_GREAT_WORKS_DESC</Tag>
+			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_DESC</Tag>
 			<Text>Various Wonders dedicated to notable figures.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_GREAT_WORKS_HELP</Tag>
+			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_HELP</Tag>
 			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Mausoleum of Halicarnassus[ENDCOLOR], [COLOR_POSSITIVE_TEXT]The Labyrnth[ENDCOLOR], and [COLOR_POSSITIVE_TEXT]Sphinx[ENDCOLOR] Wonders.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_GREAT_WORKS_QUOTE</Tag>
+			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"Death comes to all, but great achievements build a monument which shall endure until the sun grows cold."[NEWLINE][TAB][TAB] - Ralph Waldo Emerson</Text>
 		</Row>
 		<Row>

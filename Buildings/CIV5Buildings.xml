@@ -2704,7 +2704,7 @@
 			
 		</Row>
 		<Update>
-			<Set Cost="400" PrereqTech="TECH_GREAT_WORKS"/>
+			<Set Cost="400" PrereqTech="TECH_GREAT_MONUMENTS"/>
 			<Where Type="BUILDING_MAUSOLEUM_HALICARNASSUS" />
 		</Update>
 		<Row>
@@ -2817,7 +2817,7 @@
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_SPHINX</BuildingClass>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<PrereqTech>TECH_GREAT_WORKS</PrereqTech>
+			<PrereqTech>TECH_GREAT_MONUMENTS</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
 			<WonderSplashImage>SplashSphinx.dds</WonderSplashImage>
@@ -3009,7 +3009,7 @@
 			<BuildingClass>BUILDINGCLASS_THE_LABYRNTH</BuildingClass>
 			<ArtDefineTag>STONEHENGE</ArtDefineTag>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<PrereqTech>TECH_GREAT_WORKS</PrereqTech>
+			<PrereqTech>TECH_GREAT_MONUMENTS</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<GreatPeopleRateChange>4</GreatPeopleRateChange>
 			<WonderSplashImage>SplashLabyrinth.dds</WonderSplashImage>

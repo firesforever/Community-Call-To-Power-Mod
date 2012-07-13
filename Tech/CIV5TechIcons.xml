@@ -507,7 +507,7 @@
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="60"/>
-			<Where Type="TECH_GREAT_WORKS" />
+			<Where Type="TECH_GREAT_MONUMENTS" />
 		</Update>
 
 		<Update>

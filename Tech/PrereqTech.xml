@@ -88,12 +88,12 @@
 			<PrereqTech>TECH_MINING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_GREAT_WORKS</TechType>
+			<TechType>TECH_GREAT_MONUMENTS</TechType>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_CONSTRUCTION</TechType>
-			<PrereqTech>TECH_GREAT_WORKS</PrereqTech>
+			<PrereqTech>TECH_GREAT_MONUMENTS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FISH_MARKETS</TechType>
