@@ -1072,15 +1072,15 @@
 			<Where Type="UNIT_ENGLISH_SHIPOFTHELINE" />
 		</Update>
 		<Update>
-			<Set Cost="465" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Set Cost="465" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
 			<Where Type="UNIT_LANCER" />
 		</Update>
 		<Update>
-			<Set Cost="465" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Set Cost="465" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
 			<Where Type="UNIT_OTTOMAN_SIPAHI" />
 		</Update>
 		<Update>
-			<Set Cost="465" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Set Cost="465" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
 			<Where Type="UNIT_SWEDISH_HAKKAPELIITTA" />
 		</Update>
 		<!--<Row>
@@ -1172,6 +1172,7 @@
 			<Set Cost="375" />
 			<Where Type="UNIT_DUTCH_SEA_BEGGAR" />
 		</Update>
+		<!--RENAISSANCE (2)-->
 		<Update>
 			<Set Cost="565" />
 			<Where Type="UNIT_DANISH_SKI_INFANTRY" />
@@ -1187,6 +1188,18 @@
 		<Update>
 			<Set Cost="565" />
 			<Where Type="UNIT_SWEDISH_CAROLEAN" />
+		</Update>
+		<Update>
+			<Set Cost="590" PrereqTech="TECH_RIFLING" ObsoleteTech="TECH_TRACKED_VEHICLES" />
+			<Where Type="UNIT_CAVALRY" />
+		</Update>
+		<Update>
+			<Set Cost="590" PrereqTech="TECH_RIFLING" ObsoleteTech="TECH_TRACKED_VEHICLES"/>
+			<Where Type="UNIT_RUSSIAN_COSSACK" />
+		</Update>
+		<Update>
+			<Set Cost="590" PrereqTech="TECH_RIFLING" ObsoleteTech="TECH_TRACKED_VEHICLES"/>
+			<Where Type="UNIT_AUSTRIAN_HUSSAR" />
 		</Update>
 		<!--INDUSTRIAL ERA (1)-->
 		<Update>
@@ -1216,18 +1229,8 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
-		<Update>
-			<Set Cost="590" PrereqTech="TECH_MILITARY_SCIENCE" ObsoleteTech="TECH_TRACKED_VEHICLES" />
-			<Where Type="UNIT_CAVALRY" />
-		</Update>
-		<Update>
-			<Set Cost="590" PrereqTech="TECH_MILITARY_SCIENCE" ObsoleteTech="TECH_TRACKED_VEHICLES"/>
-			<Where Type="UNIT_RUSSIAN_COSSACK" />
-		</Update>
-		<Update>
-			<Set Cost="590" PrereqTech="TECH_MILITARY_SCIENCE" ObsoleteTech="TECH_TRACKED_VEHICLES"/>
-			<Where Type="UNIT_AUSTRIAN_HUSSAR" />
-		</Update>
+
+		
 		<Update>
 			<Set Cost="565" PrereqTech="TECH_SHELLS" ObsoleteTech="TECH_MAGNETICS_MINIATURIZATION" />
 			<Where Type="UNIT_GATLINGGUN" />
@@ -1249,6 +1252,10 @@
 		<Update>
 			<Set Cost="945" PrereqTech="TECH_BIG_GUNS_DOCTRINE" />
 			<Where Type="UNIT_BATTLESHIP" />
+		</Update>
+		<Update>
+			<Set Cost="945" PrereqTech="TECH_BIG_GUNS_DOCTRINE" ObsoleteTech="TECH_REACTOR_MINIATURIZATION" />
+			<Where Type="UNIT_CARRIER" />
 		</Update>
 		<Update>
 			<Set Cost="900" ObsoleteTech="TECH_ADVANCED_MAGNETICS" PrereqTech="TECH_TORPEDOES" />
@@ -1288,11 +1295,11 @@
 			<Where Type="UNIT_MACHINE_GUN" />
 		</Update>
 		<Update>
-			<Set Cost="805" />
+			<Set Cost="805" PrereqTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_GREAT_WAR_INFANTRY" />
 		</Update>
 		<Update>
-			<Set Cost="805" />
+			<Set Cost="805" PrereqTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_FRENCH_FOREIGNLEGION" />
 		</Update>
 		<Update>
@@ -1351,13 +1358,6 @@
 		<Update>
 			<Set Cost="2150" />
 			<Where Type="UNIT_ATOMIC_BOMB" />
-		</Update>
-		
-		
-		
-		<Update>
-			<Set Cost="945" ObsoleteTech="TECH_REACTOR_MINIATURIZATION" />
-			<Where Type="UNIT_CARRIER" />
 		</Update>
 		<Update>
 			<Set Cost="1075" PrereqTech="TECH_ADVANCED_FLIGHT" ObsoleteTech="TECH_SMART_MATERIALS" />
