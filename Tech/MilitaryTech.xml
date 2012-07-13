@@ -224,7 +224,7 @@
 			<Where Type="TECH_MILITARY_SCIENCE" />
 		</Update>
 		<Update>
-			<Set TechCat="TECHTREE_MILITARY" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="4" />
+			<Set TechCat="TECHTREE_MILITARY" Cost="1132" Era="ERA_INDUSTRIAL" GridX="17" GridY="3" />
 			<Where Type="TECH_FLIGHT" />
 		</Update>
 		<Row>
@@ -237,8 +237,8 @@
 			<Era>ERA_INDUSTRIAL</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
-			<GridX>18</GridX>
-			<GridY>7</GridY>
+			<GridX>17</GridX>
+			<GridY>6</GridY>
 			<Quote>TXT_KEY_TECH_TRACKED_VEHICLES_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>

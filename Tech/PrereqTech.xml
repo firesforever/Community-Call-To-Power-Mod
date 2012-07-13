@@ -909,11 +909,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_TRACKED_VEHICLES</TechType>
-			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_FLIGHT</TechType>
-			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_BIG_GUNS_DOCTRINE</TechType>

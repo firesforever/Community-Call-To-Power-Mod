@@ -1241,7 +1241,7 @@
 			<Where Type="UNIT_ARTILLERY" />
 		</Update>
 		<Update>
-			<Set Cost="1050" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
+			<Set Cost="1050" PrereqTech="TECH_RADAR" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
 			<Where Type="UNIT_BOMBER" />
 		</Update>
 		<Update>
@@ -1249,7 +1249,7 @@
 			<Where Type="UNIT_AMERICAN_B17" />
 		</Update>
 		<Update>
-			<Set Combat="80" RangedCombat="70" Cost="945" />
+			<Set Combat="80" RangedCombat="70" Cost="945" PrereqTech="TECH_BIG_GUNS_DOCTRINE" />
 			<Where Type="UNIT_BATTLESHIP" />
 		</Update>
 		<Update>
@@ -1257,7 +1257,7 @@
 			<Where Type="UNIT_CARRIER" />
 		</Update>
 		<Update>
-			<Set Cost="850" ObsoleteTech="TECH_ADVANCED_MAGNETICS" />
+			<Set Cost="850" ObsoleteTech="TECH_ADVANCED_MAGNETICS" PrereqTech="TECH_TORPEDOES" />
 			<Where Type="UNIT_DESTROYER" />
 		</Update>
 		<Update>
@@ -1269,11 +1269,11 @@
 			<Where Type="UNIT_FRENCH_FOREIGNLEGION" />
 		</Update>
 		<Update>
-			<Set Cost="930" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Set Cost="930" ObsoleteTech="TECH_ADVANCED_FLIGHT" PrereqTech="TECH_RADAR" />
 			<Where Type="UNIT_FIGHTER" />
 		</Update>
 		<Update>
-			<Set Cost="930" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Set Cost="930" ObsoleteTech="TECH_ADVANCED_FLIGHT" PrereqTech="TECH_RADAR" />
 			<Where Type="UNIT_JAPANESE_ZERO" />
 		</Update>
 		<Update>
