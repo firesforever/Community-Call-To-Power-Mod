@@ -1317,6 +1317,10 @@
 			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Update>
+			<Set Cost="930" PrereqTech="TECH_TRACKED_VEHICLES" />
+			<Where Type="UNIT_WWI_TANK" />
+		</Update>
+		<Update>
 			<Set Cost="1050" PrereqTech="TECH_BLITZKRIEG" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
 			<Where Type="UNIT_TANK" />
 		</Update>

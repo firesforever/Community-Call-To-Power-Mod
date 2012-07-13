@@ -468,7 +468,7 @@
 		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="52"/>
-			<Where Type="TECH_AROMATICS" />
+			<Where Type="TECH_BLITZKRIEG" />
 		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="53"/>
