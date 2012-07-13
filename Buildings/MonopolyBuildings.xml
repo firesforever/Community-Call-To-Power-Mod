@@ -1319,7 +1319,7 @@
 			<BuildingClass>BUILDINGCLASS_SQUID_MONOPOLY</BuildingClass>
 			<Cost>1650</Cost>
 			<FreeBuilding>BUILDINGCLASS_SQUID_DUMMY</FreeBuilding>
-			<PrereqTech>TECH_SUBMERSIBLES</PrereqTech>
+			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SQUID_MONOPOLY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SQUID_MONOPOLY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_SQUID_MONOPOLY_HELP</Help>
