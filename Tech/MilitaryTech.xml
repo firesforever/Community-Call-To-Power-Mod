@@ -52,6 +52,10 @@
 			<Set TechCat="TECHTREE_MILITARY" Cost="35" Era="ERA_CLASSICAL" GridX="5" GridY="7" />
 			<Where Type="TECH_IRON_WORKING" />
 		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_MILITARY" Cost="30" Era="ERA_CLASSICAL" GridX="4" GridY="8" />
+			<Where Type="TECH_BALLISTICS" />
+		</Update>
 		<!--<Row>
 			<Type>TECH_BALLISTICS</Type>
 			<TechCat>TECHTREE_MILITARY</TechCat>
@@ -212,7 +216,7 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 		<Update>
-			<Set TechCat="TECHTREE_MILITARY" Cost="984" Era="ERA_INDUSTRIAL" GridX="17" GridY="3" />
+			<Set TechCat="TECHTREE_MILITARY" Cost="984" Era="ERA_INDUSTRIAL" GridX="16" GridY="4" />
 			<Where Type="TECH_COMBINED_ARMS" />
 		</Update>
 		<Update>

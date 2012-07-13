@@ -32,6 +32,14 @@
 			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_COMBINED_ARMS</TechType>
+			<PrereqTech>TECH_MILITARY_TRADITION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_MILITARY_SCIENCE</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_RADIO</TechType>
 			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
 		</Row>
@@ -858,10 +866,6 @@
 		<Row>
 			<TechType>TECH_MILITARY_SCIENCE</TechType>
 			<PrereqTech>TECH_NATIONALISM</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_MILITARY_SCIENCE</TechType>
-			<PrereqTech>TECH_MILITARY_TRADITION</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_PENICILIN</TechType>

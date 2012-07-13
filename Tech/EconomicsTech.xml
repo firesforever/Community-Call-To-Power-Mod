@@ -254,6 +254,10 @@
 			<Set TechCat="TECHTREE_ECONOMICS" Cost="281" Era="ERA_RENAISSANCE" GridX="12" GridY="5" />
 			<Where Type="TECH_BANKING" />
 		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_ECONOMICS" Cost="281" Era="ERA_RENAISSANCE" GridX="13" GridY="5" />
+			<Where Type="TECH_GUILDS" />
+		</Update>
 		<!--<Row>
 			<Type>TECH_GUILDS</Type>
 			<TechCat>TECHTREE_ECONOMICS</TechCat>
