@@ -303,7 +303,7 @@
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Resource_YieldChanges>

@@ -1504,7 +1504,10 @@
 			<Set GoldMaintenance="5" Cost="575" PrereqTech="TECH_AGRICULTURAL_REVOLUTION" BuildingProductionModifier="0" GreatPeopleRateChange="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_WINDMILL"/>
 		</Update>
-
+		<Update>
+			<Set GoldMaintenance="5" Cost="575" PrereqTech="TECH_AGRICULTURAL_REVOLUTION" BuildingProductionModifier="0" GreatPeopleRateChange="0" SpecialistCount="1"/>
+			<Where Type="BUILDING_COFFEE_HOUSE"/>
+		</Update>
 
 		
 
@@ -4333,12 +4336,12 @@
 		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>35</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BURIAL_MOUND</BuildingType>
@@ -5161,11 +5164,6 @@
 			<BuildingType>BUILDING_INDUSTRIAL_SHIPYARD</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
@@ -7642,6 +7640,12 @@
 		<Delete BuildingType="BUILDING_SEAPORT" ResourceType="RESOURCE_FISH"/>
 		<Delete BuildingType="BUILDING_SEAPORT" ResourceType="RESOURCE_WHALE"/>
 		<Delete BuildingType="BUILDING_SEAPORT" ResourceType="RESOURCE_PEARLS"/>
+		<Delete BuildingType="BUILDING_STABLE" ResourceType="RESOURCE_COW"/>
+		<Delete BuildingType="BUILDING_STABLE" ResourceType="RESOURCE_SHEEP"/>
+		<Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_FORGE</BuildingType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
@@ -7656,7 +7660,11 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
-			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
@@ -7732,15 +7740,15 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FOOD_PROCESSING_PLANT</BuildingType>
-			<ResourceType>RESOURCE_DEER</ResourceType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
-			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
-			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
@@ -7801,6 +7809,12 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_MINT</BuildingType>
 			<ResourceType>RESOURCE_GOLD</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -7844,7 +7858,13 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
-			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -7928,6 +7948,18 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FOOD_PROCESSING_PLANT</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FOOD_PROCESSING_PLANT</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FOOD_PROCESSING_PLANT</BuildingType>
 			<ResourceType>RESOURCE_WINE</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
@@ -7945,8 +7977,38 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INDUSTRIAL_WAREHOUSE</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_JEWELRY_STORE</BuildingType>
 			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JEWELRY_STORE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>3</Yield>
 		</Row>
