@@ -4,6 +4,18 @@
 	<Technology_PrereqTechs>
 		<Delete/>
 		<Row>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
+			<PrereqTech>TECH_BLITZKRIEG</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_BLITZKRIEG</TechType>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_BLITZKRIEG</TechType>
+			<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_GLOBALIZATION</TechType>
 			<PrereqTech>TECH_TELECOM</PrereqTech>
 		</Row>
@@ -909,7 +921,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_TRACKED_VEHICLES</TechType>
-			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<PrereqTech>TECH_SHELLS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_BIG_GUNS_DOCTRINE</TechType>

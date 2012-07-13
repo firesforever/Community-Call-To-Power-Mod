@@ -741,6 +741,9 @@
 		<Delete UnitType="UNIT_BATTLESHIP" ResourceType="RESOURCE_OIL" Cost="1" />
 		<Delete UnitType="UNIT_NUCLEAR_SUBMARINE" ResourceType="RESOURCE_ALUMINUM" Cost="1" />
 		<Delete UnitType="UNIT_MISSILE_CRUISER" ResourceType="RESOURCE_ALUMINUM" Cost="1" />
+		<Delete UnitType="UNIT_WWI_TANK" ResourceType="RESOURCE_OIL" Cost="1" />
+		<Delete UnitType="UNIT_TRIPLANE" ResourceType="RESOURCE_OIL" Cost="1" />
+		<Delete UnitType="UNIT_WWI_BOMBER" ResourceType="RESOURCE_OIL" Cost="1" />
 		<Row>
 			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
 			<ResourceType>NULL</ResourceType>
@@ -1265,7 +1268,7 @@
 			<Where Type="UNIT_GREAT_WAR_INFANTRY" />
 		</Update>
 		<Update>
-			<Set Cost="805" ObsoleteTech="TECH_EXOSKELETONS"/>
+			<Set Cost="805" />
 			<Where Type="UNIT_FRENCH_FOREIGNLEGION" />
 		</Update>
 		<Update>
@@ -1277,10 +1280,13 @@
 			<Where Type="UNIT_JAPANESE_ZERO" />
 		</Update>
 		<Update>
-			<Set Cost="850" PrereqTech="TECH_MILITARY_SCIENCE" ObsoleteTech="TECH_EXOSKELETONS" />
+			<Set Cost="850" PrereqTech="TECH_BLITZKRIEG" ObsoleteTech="TECH_EXOSKELETONS" />
 			<Where Type="UNIT_INFANTRY" />
 		</Update>
-
+		<Update>
+			<Set PrereqTech="TECH_BLITZKRIEG" />
+			<Where Type="UNIT_MARINE" />
+		</Update>
 		<Row>
 			<Type>UNIT_MISSILE_SQUAD</Type>
 			<Description>TXT_KEY_UNIT_MISSILE_SQUAD</Description>
@@ -1311,15 +1317,15 @@
 			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Update>
-			<Set Cost="1050" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
+			<Set Cost="1050" PrereqTech="TECH_BLITZKRIEG" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
 			<Where Type="UNIT_TANK" />
 		</Update>
 		<Update>
-			<Set Cost="1050" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
+			<Set Cost="1050" PrereqTech="TECH_BLITZKRIEG" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
 			<Where Type="UNIT_GERMAN_PANZER" />
 		</Update>
 		<Update>
-			<Set Cost="920" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_EXOSKELETONS" />
+			<Set Cost="920" PrereqTech="TECH_RADAR" ObsoleteTech="TECH_EXOSKELETONS" />
 			<Where Type="UNIT_PARATROOPER" />
 		</Update>
 		<Update>
@@ -2705,6 +2711,10 @@
 			<BuildingClassType>BUILDINGCLASS_INDUSTRIAL_SHIPYARD</BuildingClassType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_WWI_TANK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_AUTO_PLANT</BuildingClassType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_TANK</UnitType>
 			<BuildingClassType>BUILDINGCLASS_AUTO_PLANT</BuildingClassType>
 		</Row>
@@ -2719,6 +2729,14 @@
 		<Row>
 			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
 			<BuildingClassType>BUILDINGCLASS_AUTO_PLANT</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_AIRCRAFT_PLANT</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_AIRCRAFT_PLANT</BuildingClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FIGHTER</UnitType>

@@ -2789,6 +2789,22 @@
 			<Text>[NEWLINE][TAB][TAB]"A bazooka is the skeleton key of the impatient."[NEWLINE][TAB][TAB] - Will Timmins</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_TECH_BLITZKRIEG_TITLE</Tag>
+			<Text>Blitzkrieg ([ICON_STRENGTH])  </Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_BLITZKRIEG_DESC</Tag>
+			<Text>Blitzkrieg, translated as "lightning war," is an anglicised word describing all-motorised force concentration of tanks, infantry, artillery, combat engineers and air power, concentrating overwhelming force at high speed to break through enemy lines, and, once the lines are broken, proceeding without regard to its flank. Through constant motion, the blitzkrieg attempts to keep its enemy off-balance, making it difficult to respond effectively at any given point before the front has already moved on.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_BLITZKRIEG_HELP</Tag>
+			<Text>Allows you to build the mobile[COLOR_POSITIVE_TEXT]Tank[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Marine[ENDCOLOR] units and the sturdy [COLOR_POSITIVE_TEXT]Infantry[ENDCOLOR] unit.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_BLITZKRIEG_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"The best defense is a good offense."[NEWLINE][TAB][TAB] - Unknown</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_TECH_CORPORATIONS_TITLE</Tag>
 			<Text>Corporations ([ICON_GOLD])  </Text>
 		</Row>
@@ -4873,15 +4889,27 @@
 			<Where Tag="TXT_KEY_UNIT_HELP_ATOMIC_BOMB" />
 		</Update>
 		<Update>
+			<Set Text="Early Air Unit that can bombard enemy Units and Cities from the skies.[NEWLINE][NEWLINE]Aircraft Plant Required." />
+			<Where Tag="TXT_KEY_UNIT_HELP_WWI_BOMBER" />
+		</Update>
+		<Update>
 			<Set Text="Air Unit that rains death from above onto enemy Units and Cities.[NEWLINE][NEWLINE]Aircraft Plant Required." />
 			<Where Tag="TXT_KEY_UNIT_HELP_BOMBER" />
+		</Update>
+		<Update>
+			<Set Text="Early Air Unit designed to intercept incoming enemy aircraft.[NEWLINE][NEWLINE]Aircraft Plant Required." />
+			<Where Tag="TXT_KEY_UNIT_HELP_TRIPLANE" />
 		</Update>
 		<Update>
 			<Set Text="Air Unit designed to wrest control of the skies and intercept incoming enemy aircraft.[NEWLINE][NEWLINE]Aircraft Plant Required." />
 			<Where Tag="TXT_KEY_UNIT_HELP_FIGHTER" />
 		</Update>
 		<Update>
-			<Set Text="Fast and powerful Industrial Era Unit. Receives a penalty when attacking Cities and on defense, but is incredibly effective in open ground.[NEWLINE][NEWLINE]Auto Plant Required." />
+			<Set Text="The first of its kind, this powerful late game unit can move after attacking.[NEWLINE][NEWLINE]Auto Plant Required." />
+			<Where Tag="TXT_KEY_UNIT_HELP_WWI_TANK" />
+		</Update>
+		<Update>
+			<Set Text="Fast and powerful Industrial Era Unit.[NEWLINE][NEWLINE]Auto Plant Required." />
 			<Where Tag="TXT_KEY_UNIT_HELP_TANK" />
 		</Update>
 		<Update>
