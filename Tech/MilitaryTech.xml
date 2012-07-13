@@ -27,23 +27,23 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		<!-- Classical Era -->
 		<Row>
 			<Type>TECH_SHIPBUILDING</Type>
 			<TechCat>TECHTREE_MILITARY</TechCat>
 			<Description>TXT_KEY_TECH_SHIPBUILDING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SHIPBUILDING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SHIPBUILDING_HELP</Help>
-			<Cost>30</Cost>
+			<Cost>13</Cost>
 			<Era>ERA_CLASSICAL</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
-			<GridX>4</GridX>
+			<GridX>2</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_SHIPBUILDING_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
+		<!-- Classical Era -->
 		<Update>
 			<Set TechCat="TECHTREE_MILITARY" Cost="30" Era="ERA_CLASSICAL" GridX="4" GridY="4" />
 			<Where Type="TECH_HORSEBACK_RIDING" />
