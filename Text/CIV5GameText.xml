@@ -4698,6 +4698,10 @@
 			<Where Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP" />
 		</Update>
 		<Update>
+			<Set Text="City must be built on or next to Desert. +1 [ICON_FOOD] Food, +2 [ICON_PRODUCTION] Production, and +2 [ICON_GOLD] Gold for all desert tiles worked by this city (except Flood Plains)."/>
+			<Where Tag="TXT_KEY_WONDER_PETRA_HELP" />
+		</Update>
+		<Update>
 			<Set Text="1 Free Social Policy.[NEWLINE]Must be constructed in a coastal city."/>
 			<Where Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP" />
 		</Update>
