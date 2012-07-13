@@ -1378,7 +1378,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>60</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_PUBLIC_BATHS</BuildingClass>
-			<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
+			<PrereqTech>TECH_PUBLIC_WORKS</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
@@ -1388,6 +1388,24 @@
 			<Set GoldMaintenance="2" Cost="300" />
 			<Where Type="BUILDING_STABLE"/>
 		</Update>
+		<Row>
+			<Type>BUILDING_SEWER_SYSTEM</Type>
+			<Description>TXT_KEY_BUILDING_SEWER_SYSTEM</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SEWER_SYSTEM_DESC</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SEWER_SYSTEM_STRATEGY</Help>
+			<GoldMaintenance>2</GoldMaintenance>
+			<Cost>300</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FoodKept>10</FoodKept>
+			<Happiness>2</Happiness>
+			<BuildingClass>BUILDINGCLASS_SEWER_SYSTEM</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<PrereqTech>TECH_PUBLIC_WORKS</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>20</PortraitIndex>
+		</Row>
 		<Update>
 			<Set GoldMaintenance="2" Cost="300" GreatPeopleRateChange="0" SpecialistCount="1" SpecialistType="SPECIALIST_ENGINEER"/>
 			<Where Type="BUILDING_WATERMILL"/>
@@ -1401,7 +1419,7 @@
 		
 		<!--MEDIEVAL ERA-->
 		<Update>
-			<Set GoldMaintenance="3" Cost="540" ConquestProb="100" FoodKept="10" Happiness="2" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="0"/>
+			<Set GoldMaintenance="0" Cost="540" ConquestProb="50" FoodKept="10" River="True" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_AQUEDUCT" />
 		</Update>
 		<Update>
@@ -1461,26 +1479,6 @@
 			<Set GoldMaintenance="5" Cost="610" GreatPeopleRateChange="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_OPERA_HOUSE"/>
 		</Update>
-		<Row>
-			<Type>BUILDING_SEWER_SYSTEM</Type>
-			<Description>TXT_KEY_BUILDING_SEWER_SYSTEM</Description>
-			<Civilopedia>TXT_KEY_BUILDING_SEWER_SYSTEM_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_SEWER_SYSTEM_STRATEGY</Help>
-			<GoldMaintenance>3</GoldMaintenance>
-			<Cost>540</Cost>
-			<HurryCostModifier>25</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<FoodKept>10</FoodKept>
-			<Happiness>2</Happiness>
-			<BuildingClass>BUILDINGCLASS_SEWER_SYSTEM</BuildingClass>
-			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<PrereqTech>TECH_FEUDALISM</PrereqTech>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
-			<IconAtlas>BW_ATLAS_3</IconAtlas>
-			<PortraitIndex>20</PortraitIndex>
-		</Row>
 		<Update>
 			<Set GoldMaintenance="6" Cost="610" PrereqTech="TECH_ACOUSTICS" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="0" GreatPeopleRateChange="0" Happiness="4"/>
 			<Where Type="BUILDING_THEATRE"/>
@@ -2943,6 +2941,10 @@
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
 		</Row>-->
+		<Update>
+			<Set Cost="540" SpecialistCount="2" GreatPeopleRateChange="0" PrereqTech="TECH_PUBLIC_WORKS"/>
+			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
+		</Update>
 		<Update>
 			<Set Cost="395" ObsoleteTech="NULL" SpecialistCount="0" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_COLOSSUS"/>
@@ -4598,17 +4600,17 @@
 		<Delete BuildingType="BUILDING_AQUEDUCT" FlavorType="FLAVOR_SCIENCE" />
 		<Update>
 			<Where BuildingType="BUILDING_AQUEDUCT" FlavorType="FLAVOR_GROWTH" />
-			<Set Flavor="40" />
+			<Set Flavor="30" />
 		</Update>
 		<Row>
 			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>20</Flavor>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>8</Flavor>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<!--Keep castle city defense at 25-->
 		<Row>
@@ -6952,6 +6954,11 @@
 	<Building_RiverPlotYieldChanges>
 		<Delete/>
 		<Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
@@ -7492,6 +7499,14 @@
 	</Building_SpecialistYieldChanges>
 	<Building_ClassesNeededInCity>
 		<Delete BuildingType="BUILDING_MUSEUM" BuildingClassType="BUILDINGCLASS_OPERA_HOUSE"/>
+		<Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SEWER_SYSTEM</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEWER_SYSTEM</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_MOVIE_THEATRE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_STADIUM</BuildingClassType>
