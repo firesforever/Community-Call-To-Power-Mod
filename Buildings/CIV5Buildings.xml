@@ -4,6 +4,11 @@
 	<Building_YieldChanges>
 		<Delete/>
 		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_PALACE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
@@ -371,7 +376,12 @@
 		<Row>
 			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>8</Yield>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
@@ -379,9 +389,19 @@
 			<Yield>4</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>10</Yield>
+			<Yield>25</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_IRONWORKS</BuildingType>
@@ -883,6 +903,7 @@
 	</Building_PrereqBuildingClasses>
 	<Building_UnitCombatProductionModifiers>
 		<Delete BuildingType="BUILDING_STABLE" UnitCombatType="UNITCOMBAT_MOUNTED"/>
+		<Delete BuildingType="BUILDING_TEMPLE_ARTEMIS" UnitCombatType="UNITCOMBAT_ARCHER"/>
 	</Building_UnitCombatProductionModifiers>
 	<Building_DomainProductionModifiers>
 		<Delete BuildingType="BUILDING_FORGE" DomainType="DOMAIN_LAND"/>
@@ -1320,6 +1341,10 @@
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>10</PortraitIndex>
 		</Row>
+		<Update>
+			<Set Cost="300" />
+			<Where Type="BUILDING_AMPHITHEATER"/>
+		</Update>
 		<Row>
 			<Type>BUILDING_ARTILLERY_RANGE</Type>
 			<Description>TXT_KEY_BUILDING_ARTILLERY_RANGE</Description>
@@ -1423,7 +1448,7 @@
 			<Where Type="BUILDING_AQUEDUCT" />
 		</Update>
 		<Update>
-			<Set GoldMaintenance="3" Cost="610" />
+			<Set GoldMaintenance="3" Cost="610" PrereqTech="TECH_SIEGE_ENGINES"/>
 			<Where Type="BUILDING_ARMORY"/>
 		</Update>
 		<Update>
@@ -1517,6 +1542,10 @@
 		<Update>
 			<Set Cost="720" GreatPeopleRateChange="0" SpecialistCount="2"/>
 			<Where Type="BUILDING_SATRAPS_COURT"/>
+		</Update>
+		<Update>
+			<Set Cost="720" />
+			<Where Type="BUILDING_CONSTABLE"/>
 		</Update>
 		<Row>
 			<Type>BUILDING_FOUNDRY</Type>
@@ -1909,6 +1938,10 @@
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>48</PortraitIndex>
 		</Row>
+		<Update>
+			<Set GoldMaintenance="0" Cost="1050" Happiness="1"/>
+			<Where Type="BUILDING_POLICE_STATION"/>
+		</Update>
 	<!--<Row>
 			<Type>BUILDING_POLICE_STATION</Type>
 			<Description>TXT_KEY_BUILDING_POLICE_STATION</Description>
@@ -2179,7 +2212,11 @@
 		
 		
 		
-		<!--WORLD WONDERS-->		
+		<!--WORLD WONDERS-->
+		<Update>
+			<Set Cost="935" />
+			<Where Type="BUILDING_ALHAMBRA" />
+		</Update>
 		<Row>
 			<Type>BUILDING_AL_JABR</Type>
 			<Description>TXT_KEY_BUILDING_AL_JABR</Description>
@@ -2611,6 +2648,10 @@
 			<IconAtlas>BW_ATLAS_4</IconAtlas>
 			<PortraitIndex>18</PortraitIndex>
 		</Row>
+		<Update>
+			<Set Cost="1450" />
+			<Where Type="BUILDING_LEANING_TOWER"/>
+		</Update>
 		<Row>
 			<Type>BUILDING_LEONARDO_WORKSHOP</Type>
 			<Description>TXT_KEY_BUILDING_LEONARDO_WORKSHOP</Description>
@@ -2654,7 +2695,7 @@
 			<PortraitIndex>37</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="540" TradeRouteModifier="0" GreatPeopleRateChange="1" SpecialistCount="1"/>
+			<Set Cost="1400" TradeRouteModifier="0" GreatPeopleRateChange="0" SpecialistCount="1" UnmoddedHappiness="2"/>
 			<Where Type="BUILDING_MACHU_PICHU"/>
 		</Update>
 		<Row>
@@ -2756,6 +2797,10 @@
 			<Set Cost="1900" PrereqTech="TECH_TELEPHONE" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="3" SpecialistCount="1"/>
 			<Where Type="BUILDING_PENTAGON"/>
 		</Update>
+		<Update>
+			<Set Cost="540" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="0" SpecialistCount="0" EnhancedYieldTech="NULL" FreeBuildingThisCity="NULL"/>
+			<Where Type="BUILDING_PETRA"/>
+		</Update>
 		<Row>
 			<Type>BUILDING_PRINCIPIA_MATHEMATICA</Type>
 			<Description>TXT_KEY_BUILDING_PRINCIPIA_MATHEMATICA</Description>
@@ -2791,7 +2836,7 @@
 			<UnmoddedHappiness>8</UnmoddedHappiness>
 			<BuildingClass>BUILDINGCLASS_SHAKESPEARE_THEATER</BuildingClass>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
-			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
@@ -2946,6 +2991,10 @@
 			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
 		</Update>
 		<Update>
+			<Set Cost="400" PrereqTech="TECH_GREAT_MONUMENTS"/>
+			<Where Type="BUILDING_TEMPLE_ARTEMIS"/>
+		</Update>
+		<Update>
 			<Set Cost="395" ObsoleteTech="NULL" SpecialistCount="0" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_COLOSSUS"/>
 		</Update>
@@ -2982,7 +3031,7 @@
 			<Where Type="BUILDING_GREAT_LIGHTHOUSE"/>
 		</Update>
 		<Update>
-			<Set Cost="570" SpecialistCount="1" GreatPeopleRateChange="3" />
+			<Set Cost="945" SpecialistCount="1" GreatPeopleRateChange="3" />
 			<Where Type="BUILDING_GREAT_WALL"/>
 		</Update>
 		<Update>
@@ -3389,7 +3438,7 @@
 			<PortraitIndex>13</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="900" />
+			<Set Cost="1475" />
 			<Where Type="BUILDING_HERMITAGE"/>
 		</Update>
 		<Update>
@@ -3563,7 +3612,7 @@
 			<PortraitIndex>11</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="500" SpecialistCount="2" SpecialistType="SPECIALIST_MERCHANT"/>
+			<Set Cost="1400" SpecialistCount="2" SpecialistType="SPECIALIST_MERCHANT"/>
 			<Where Type="BUILDING_NATIONAL_TREASURY"/>
 		</Update>
 		<!--OCEAN HABITAT-->
@@ -5667,7 +5716,7 @@
 		</Update>
 		<Row>
 			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<FlavorType>FLAVOR_FAITH</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
 		<Row>
@@ -8158,13 +8207,13 @@
 			<BuildingType>BUILDING_PETRA</BuildingType>
 			<TerrainType>TERRAIN_DESERT</TerrainType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PETRA</BuildingType>
 			<TerrainType>TERRAIN_DESERT</TerrainType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PETRA</BuildingType>
