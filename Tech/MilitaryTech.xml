@@ -52,10 +52,6 @@
 			<Set TechCat="TECHTREE_MILITARY" Cost="35" Era="ERA_CLASSICAL" GridX="5" GridY="7" />
 			<Where Type="TECH_IRON_WORKING" />
 		</Update>
-		<Update>
-			<Set TechCat="TECHTREE_MILITARY" Cost="30" Era="ERA_CLASSICAL" GridX="4" GridY="8" />
-			<Where Type="TECH_BALLISTICS" />
-		</Update>
 		<!--<Row>
 			<Type>TECH_BALLISTICS</Type>
 			<TechCat>TECHTREE_MILITARY</TechCat>
@@ -275,7 +271,7 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>TECH_SHOULDER_LAUNCHED_WEAPONS</Type>
 			<TechCat>TECHTREE_MILITARY</TechCat>
 			<Description>TXT_KEY_TECH_SHOULDER_LAUNCHED_WEAPONS_TITLE</Description>
@@ -290,10 +286,14 @@
 			<Quote>TXT_KEY_TECH_SHOULDER_LAUNCHED_WEAPONS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
+		</Row>-->
 		<Update>
 			<Set TechCat="TECHTREE_MILITARY" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="4" />
 			<Where Type="TECH_RADAR" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_MILITARY" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="3" />
+			<Where Type="TECH_BALLISTICS" />
 		</Update>
 		<Row>
 			<Type>TECH_BLITZKRIEG</Type>
@@ -1064,7 +1064,7 @@
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_SHOULDER_LAUNCHED_WEAPONS</TechType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>10</Flavor>
@@ -1078,7 +1078,7 @@
 			<TechType>TECH_SHOULDER_LAUNCHED_WEAPONS</TechType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>10</Flavor>
-		</Row>
+		</Row>-->
 		<Delete TechType="TECH_RADAR" FlavorType="FLAVOR_WONDER" />
 		<Delete TechType="TECH_RADAR" FlavorType="FLAVOR_OFFENSE" />
 		<Row>
@@ -1086,11 +1086,11 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_SHOULDER_LAUNCHED_WEAPONS</TechType>
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
 			<Flavor>15</Flavor>
-		</Row>
+		</Row>-->
 		<Row>
 			<TechType>TECH_BLITZKRIEG</TechType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>

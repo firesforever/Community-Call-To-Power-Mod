@@ -936,12 +936,12 @@
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_SHOULDER_LAUNCHED_WEAPONS</TechType>
+			<TechType>TECH_BALLISTICS</TechType>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ROCKETRY</TechType>
-			<PrereqTech>TECH_SHOULDER_LAUNCHED_WEAPONS</PrereqTech>
+			<PrereqTech>TECH_BALLISTICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_BIG_GUNS_DOCTRINE</TechType>

@@ -2772,7 +2772,7 @@
 			<Tag>TXT_KEY_TECH_BIG_GUNS_DOCTRINE_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"Without a decisive naval force we can do nothing definitive, and with it, everything honorable and glorious."[NEWLINE][TAB][TAB] - George Washington</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_TECH_SHOULDER_LAUNCHED_WEAPONS_TITLE</Tag>
 			<Text>Shoulder Launched Weapons ([ICON_STRENGTH])  </Text>
 		</Row>
@@ -2787,7 +2787,7 @@
 		<Row>
 			<Tag>TXT_KEY_TECH_SHOULDER_LAUNCHED_WEAPONS_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"A bazooka is the skeleton key of the impatient."[NEWLINE][TAB][TAB] - Will Timmins</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_TECH_BLITZKRIEG_TITLE</Tag>
 			<Text>Blitzkrieg ([ICON_STRENGTH])  </Text>
@@ -4574,7 +4574,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_WOODWORKING_HELP</Tag>
-			<Text>Reveals [ICON_RES_OAK] Oak and allows construction of the powerful [COLOR_POSITIVE_TEXT]Composite Bowman[ENDCOLOR] and [COLOR_POSSITIVE_TEXT]Catapult[ENDCOLOR] units.</Text>
+			<Text>Reveals [ICON_RES_OAK] Oak and allows construction of the powerful [COLOR_POSITIVE_TEXT]Composite Bowman[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Catapult[ENDCOLOR] units.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_WOODWORKING_QUOTE</Tag>

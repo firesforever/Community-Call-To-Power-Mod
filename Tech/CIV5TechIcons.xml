@@ -366,10 +366,10 @@
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="26"/>
 			<Where Type="TECH_TRACKED_VEHICLES" />
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="27"/>
 			<Where Type="TECH_SHOULDER_LAUNCHED_WEAPONS" />
-		</Update>
+		</Update>-->
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="28"/>
 			<Where Type="TECH_INFANTRY_FIGHTING_VEHICLES" />

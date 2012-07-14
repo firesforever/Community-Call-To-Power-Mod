@@ -1278,7 +1278,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<PrereqTech>TECH_SHOULDER_LAUNCHED_WEAPONS</PrereqTech>
+			<PrereqTech>TECH_BALLISTICS</PrereqTech>
 			<ObsoleteTech>TECH_COMBINED_ARMS_DOCTRINE</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_COMBAT_CONTROLLER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>40</AdvancedStartCost>
