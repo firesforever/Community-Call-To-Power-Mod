@@ -364,14 +364,6 @@
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_BALLISTICS</TechType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_BALLISTICS</TechType>
-			<PrereqTech>TECH_ARCHERY</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_POETRY</TechType>
 			<PrereqTech>TECH_HERBAL_SCIENCE</PrereqTech>
 		</Row>
@@ -462,10 +454,6 @@
 		<Row>
 			<TechType>TECH_OPTICS</TechType>
 			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_OPTICS</TechType>
-			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_OPTICS</TechType>
@@ -569,10 +557,6 @@
 		</Row>
 		<Row>
 			<TechType>TECH_SIEGE_ENGINES</TechType>
-			<PrereqTech>TECH_BALLISTICS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_SIEGE_ENGINES</TechType>
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
 		</Row>
 		<Row>
@@ -586,10 +570,6 @@
 		<Row>
 			<TechType>TECH_PHYSICS</TechType>
 			<PrereqTech>TECH_COMPASS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_PHYSICS</TechType>
-			<PrereqTech>TECH_BALLISTICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FUNDAMENTALISM</TechType>
@@ -938,6 +918,10 @@
 		<Row>
 			<TechType>TECH_BALLISTICS</TechType>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_BALLISTICS</TechType>
+			<PrereqTech>TECH_FLIGHT</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ROCKETRY</TechType>
