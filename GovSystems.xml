@@ -843,7 +843,7 @@
 		<Row>
 			<PolicyType>POLICY_OLD_MONEY</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>50</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PROMINANT_COUNCIL</PolicyType>
