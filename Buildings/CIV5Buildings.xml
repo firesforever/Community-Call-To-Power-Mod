@@ -2892,6 +2892,10 @@
 			<WonderSplashImage>SplashZeus.dds</WonderSplashImage>
 		</Row>-->
 		<Update>
+			<Set Cost="375"/>
+			<Where Type="BUILDING_STATUE_ZEUS"/>
+		</Update>
+		<Update>
 			<Set Cost="380"/>
 			<Where Type="BUILDING_STONEHENGE"/>
 		</Update>
