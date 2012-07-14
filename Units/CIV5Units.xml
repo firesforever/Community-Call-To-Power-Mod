@@ -8,7 +8,7 @@
 		<Delete UnitType="UNIT_LANCER" UnitClassType="UNITCLASS_ANTI_TANK_GUN" />
 		<Delete UnitType="UNIT_OTTOMAN_SIPAHI" UnitClassType="UNITCLASS_ANTI_TANK_GUN" />
 		<Delete UnitType="UNIT_TRIREME" UnitClassType="UNITCLASS_FRIGATE" />
-
+		<Delete UnitType="UNIT_MACHINE_GUN" UnitClassType="UNITCLASS_MECHANIZED_INFANTRY"/>
 		<Row>
 			<UnitType>UNIT_MACHINE_GUN</UnitType>
 			<UnitClassType>UNITCLASS_COMBAT_CONTROLLER</UnitClassType>
@@ -910,11 +910,11 @@
 		
 		<!--CLASSICAL ERA-->
 		<Update>
-			<Set Cost="200" PrereqTech="TECH_BALLISTICS" ObsoleteTech="TECH_SIEGE_ENGINES"/>
+			<Set Cost="200" PrereqTech="TECH_WOODWORKING" ObsoleteTech="TECH_SIEGE_ENGINES"/>
 			<Where Type="UNIT_ROMAN_BALLISTA" />
 		</Update>
 		<Update>
-			<Set Cost="200" PrereqTech="TECH_BALLISTICS" ObsoleteTech="TECH_SIEGE_ENGINES"/>
+			<Set Cost="200" PrereqTech="TECH_WOODWORKING" ObsoleteTech="TECH_SIEGE_ENGINES"/>
 			<Where Type="UNIT_CATAPULT" />
 		</Update>
 		<Update>
@@ -946,7 +946,7 @@
 			<Where Type="UNIT_ROMAN_LEGION" />
 		</Update>
 		<Update>
-			<Set Cost="180" />
+			<Set Cost="180" PrereqTech="TECH_WOODWORKING"/>
 			<Where Type="UNIT_COMPOSITE_BOWMAN" />
 		</Update>
 		<!--MEDIEVAL ERA-->

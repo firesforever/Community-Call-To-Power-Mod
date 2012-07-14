@@ -4,6 +4,10 @@
 	<Technology_PrereqTechs>
 		<Delete/>
 		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<PrereqTech>TECH_GREAT_MONUMENTS</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_MOBILE_TACTICS</TechType>
 			<PrereqTech>TECH_BLITZKRIEG</PrereqTech>
 		</Row>
@@ -97,7 +101,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_CONSTRUCTION</TechType>
-			<PrereqTech>TECH_GREAT_MONUMENTS</PrereqTech>
+			<PrereqTech>TECH_WOODWORKING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FISH_MARKETS</TechType>

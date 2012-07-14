@@ -4564,7 +4564,22 @@
 			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"Death comes to all, but great achievements build a monument which shall endure until the sun grows cold."[NEWLINE][TAB][TAB] - Ralph Waldo Emerson</Text>
 		</Row>
-
+		<Row>
+			<Tag>TXT_KEY_TECH_WOODWORKING_TITLE</Tag>
+			<Text>Wood Working ([ICON_PRODUCTION])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_WOODWORKING_DESC</Tag>
+			<Text>Along with stone, mud and animal parts, wood was one of the first materials worked by early humans. Historically, woodworkers relied upon the woods native to their region, until transportation and trade innovations made more exotic woods available to the craftsman. Woods are typically sorted into three basic types: hardwoods typified by tight grain and derived from broadleaf trees, softwoods from coniferous trees, and man-made materials such as plywood and MDF.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_WOODWORKING_HELP</Tag>
+			<Text>Reveals [ICON_RES_OAK] Oak and allows construction of the powerful [COLOR_POSITIVE_TEXT]Composite Bowman[ENDCOLOR] and [COLOR_POSSITIVE_TEXT]Catapult[ENDCOLOR] units.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_WOODWORKING_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"From such crooked wood as that which man is made of, nothing straight can be fashioned."[NEWLINE][TAB][TAB] - Immanuel Kant</Text>
+		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_PUBLIC_WORKS_TITLE</Tag>
 			<Text>Public Works ([ICON_PRODUCTION])</Text>

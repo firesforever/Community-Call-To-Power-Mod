@@ -30,10 +30,10 @@
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="6"/>
 			<Where Type="TECH_CARRIAGES" />
 		</Update>
-		<!--<Update>
+		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="7"/>
-			<Where Type="TECH_BALLISTICS" />
-		</Update>-->
+			<Where Type="TECH_WOODWORKING" />
+		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="8"/>
 			<Where Type="TECH_POETRY" />

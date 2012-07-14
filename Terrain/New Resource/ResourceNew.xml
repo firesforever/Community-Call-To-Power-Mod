@@ -169,7 +169,7 @@
 	<Row>
 		<Type>RESOURCE_OAK</Type>
 		<TechCityTrade>TECH_CONSTRUCTION</TechCityTrade>
-		<TechReveal>TECH_CONSTRUCTION</TechReveal>
+		<TechReveal>TECH_WOODWORKING</TechReveal>
 		<Description>TXT_KEY_RESOURCE_OAK</Description>
 		<Civilopedia>TXT_KEY_CIV5_RESOURCE_OAK_TEXT</Civilopedia>
 		<Help>TXT_KEY_RESOURCE_OAK_HELP</Help>

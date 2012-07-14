@@ -19,7 +19,7 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>2</GridX>
 			<GridY>2</GridY>
-			<Quote>TXT_KEY_RAW_MATERIALS_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_RAW_MATERIALS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -39,7 +39,7 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>3</GridX>
 			<GridY>5</GridY>
-			<Quote>TXT_KEY_GREAT_MONUMENTS_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_GREAT_MONUMENTS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -77,6 +77,22 @@
 			<GridX>6</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_STONE_MASONS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_WOODWORKING</Type>
+			<TechCat>TECHTREE_ENGINEERING</TechCat>
+			<Description>TXT_KEY_TECH_WOODWORKING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_WOODWORKING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_WOODWORKING_HELP</Help>
+			<Cost>30</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>4</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_WOODWORKING_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -400,6 +416,21 @@
 			<TechType>TECH_PUBLIC_WORKDS</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
 		</Row>
 		<!--MEDIEVAL-->
 		<Delete TechType="TECH_ENGINEERING" FlavorType="FLAVOR_DEFENSE" />
