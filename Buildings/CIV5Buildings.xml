@@ -1229,6 +1229,23 @@
 	</Building_UnitCombatFreeExperiences>
 	<Buildings>
 		<!--ANCIENT ERA-->
+		<Row>
+			<Type>BUILDING_ARTILLERY_RANGE</Type>
+			<Description>TXT_KEY_BUILDING_ARTILLERY_RANGE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ARTILLERY_RANGE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_ARTILLERY_RANGE_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_ARTILLERY_RANGE_STRATEGY</Strategy>
+			<GoldMaintenance>3</GoldMaintenance>
+			<Cost>100</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<BuildingClass>BUILDINGCLASS_ARTILLERY_RANGE</BuildingClass>
+			<ArtDefineTag>ART_DEF_BUILDING_ARTILLERY_RANGE</ArtDefineTag>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
+		</Row>
 		<Update>
 			<Set GoldMaintenance="2" Cost="140" />
 			<Where Type="BUILDING_BARRACKS"/>
@@ -1345,23 +1362,6 @@
 			<Set Cost="300" />
 			<Where Type="BUILDING_AMPHITHEATER"/>
 		</Update>
-		<Row>
-			<Type>BUILDING_ARTILLERY_RANGE</Type>
-			<Description>TXT_KEY_BUILDING_ARTILLERY_RANGE</Description>
-			<Civilopedia>TXT_KEY_BUILDING_ARTILLERY_RANGE_PEDIA</Civilopedia>
-			<Help>TXT_KEY_BUILDING_ARTILLERY_RANGE_HELP</Help>
-			<Strategy>TXT_KEY_BUILDING_ARTILLERY_RANGE_STRATEGY</Strategy>
-			<GoldMaintenance>3</GoldMaintenance>
-			<Cost>340</Cost>
-			<HurryCostModifier>25</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<BuildingClass>BUILDINGCLASS_ARTILLERY_RANGE</BuildingClass>
-			<ArtDefineTag>ART_DEF_BUILDING_ARTILLERY_RANGE</ArtDefineTag>
-			<PrereqTech>TECH_BALLISTICS</PrereqTech>
-			<IconAtlas>BW_ATLAS_3</IconAtlas>
-			<PortraitIndex>15</PortraitIndex>
-		</Row>
 		<Update>
 			<Set GoldMaintenance="4" Cost="380" Happiness="3"/>
 			<Where Type="BUILDING_COLOSSEUM"/>
@@ -1436,7 +1436,7 @@
 			<Where Type="BUILDING_WATERMILL"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="2" Cost="380" PrereqTech="TECH_DIVISION_OF_LABOR" GreatPeopleRateChange="0" SpecialistCount="1"/>
+			<Set GoldMaintenance="2" Cost="380" PrereqTech="TECH_CONSTRUCTION" GreatPeopleRateChange="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_WORKSHOP"/>
 		</Update>
 
