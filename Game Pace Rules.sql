@@ -138,7 +138,10 @@ UPDATE HandicapInfos
 SET HappinessDefault = HappinessDefault;
 
 
---
+--Goody Huts only Ancient Techs
+UPDATE "Technologies"
+SET GoodyTech = 0
+WHERE Era IN ('ERA_CLASSICAL', 'ERA_MEDIEVAL', 'ERA_RENAISSANCE', 'ERA_INDUSTRIAL', 'ERA_MODERN', 'ERA_POSTMODERN', 'ERA_FUTURE');
 
 
 
