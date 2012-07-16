@@ -230,7 +230,7 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>-->
 		<Update>
-			<Set TechCat="TECHTREE_SOCIAL" Cost="122" Era="ERA_CLASSICAL" GridX="10" GridY="5" />
+			<Set TechCat="TECHTREE_SOCIAL" Cost="122" Era="ERA_MEDIEVAL" GridX="10" GridY="5" />
 			<Where Type="TECH_DRAMA" />
 		</Update>
 		<Row>
