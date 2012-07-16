@@ -559,18 +559,18 @@
 <!--ANCIENT-->
 		<Row>
 			<TechType>TECH_MYSTICISM</TechType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>10</Flavor>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>12</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_MYSTICISM</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>13</Flavor>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_MYSTICISM</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>1</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_CEREMONIAL_BURIAL</TechType>
@@ -641,18 +641,18 @@
 		</Row>
 		<Row>
 			<TechType>TECH_PRIESTHOOD</TechType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>6</Flavor>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_PRIESTHOOD</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>14</Flavor>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_PRIESTHOOD</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_HERBAL_SCIENCE</TechType>

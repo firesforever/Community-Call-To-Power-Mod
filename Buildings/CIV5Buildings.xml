@@ -1287,10 +1287,7 @@
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>BW_ATLAS_5</IconAtlas>
 		</Row>
-		<Update>
-			<Set Cost="160" Happiness="2" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_ARTIST" PrereqTech="TECH_MYSTICISM" />
-			<Where Type="BUILDING_BURIAL_TOMB"/>
-		</Update>
+
 		<Update>
 			<Set GoldMaintenance="2" Cost="220" />
 			<Where Type="BUILDING_CIRCUS"/>
@@ -1312,20 +1309,12 @@
 			<Where Type="BUILDING_MONUMENT"/>
 		</Update>
 		<Update>
-			<Set Cost="160" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" Happiness="0"/>
-			<Where Type="BUILDING_MUD_PYRAMID_MOSQUE"/>
-		</Update>
-		<Update>
-			<Set Cost="80" />
+			<Set Cost="80" PrereqTech="TECH_MYSTICISM" />
 			<Where Type="BUILDING_SHRINE"/>
 		</Update>
 		<Update>
 			<Set GoldMaintenance="2" Cost="220" SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="0" SpecialistCount="0" Happiness="1" PrereqTech="TECH_MASONRY"/>
 			<Where Type="BUILDING_STONE_WORKS"/>
-		</Update>
-		<Update>
-			<Set GoldMaintenance="2" Cost="160" Happiness="0" PrereqTech="TECH_MYSTICISM" GreatPeopleRateChange="0" />
-			<Where Type="BUILDING_TEMPLE"/>
 		</Update>
 		<Update>
 			<Set Cost="220" />
@@ -1361,6 +1350,18 @@
 		<Update>
 			<Set Cost="300" />
 			<Where Type="BUILDING_AMPHITHEATER"/>
+		</Update>
+		<Update>
+			<Set Cost="275" Happiness="2" GreatPeopleRateChange="0" SpecialistType="SPECIALIST_ARTIST" PrereqTech="TECH_PRIESTHOOD" />
+			<Where Type="BUILDING_BURIAL_TOMB"/>
+		</Update>
+		<Update>
+			<Set Cost="275" PrereqTech="TECH_PRIESTHOOD" GreatPeopleRateChange="0" Happiness="0"/>
+			<Where Type="BUILDING_MUD_PYRAMID_MOSQUE"/>
+		</Update>
+		<Update>
+			<Set GoldMaintenance="2" Cost="275" Happiness="0" PrereqTech="TECH_PRIESTHOOD" GreatPeopleRateChange="0" />
+			<Where Type="BUILDING_TEMPLE"/>
 		</Update>
 		<Update>
 			<Set GoldMaintenance="4" Cost="380" Happiness="3"/>
@@ -5728,7 +5729,7 @@
 		</Update>
 		<Row>
 			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
-			<FlavorType>FLAVOR_FAITH</FlavorType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
 		<Row>
