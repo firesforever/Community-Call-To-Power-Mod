@@ -1113,12 +1113,12 @@
 			<Text>Shaman's Hut</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT_PEDIA</Tag>
 			<Text>A shaman is a person regarded as having access to, and influence in, the world of benevolent and malevolent spirits, who typically enters a trance state during a ritual, and practices divination and healing.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT_HELP</Tag>
-			<Text>Each source of [ICON_RES_WINE] Wine or [ICON_RES_INCENSE] Incense worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Units in this City heal 50% faster.</Text>
+			<Text>Each source of [ICON_RES_WINE] Wine or [ICON_RES_INCENSE] Incense worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Units in this City are healed +10 HP per turn.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT_STRATEGY</Tag>

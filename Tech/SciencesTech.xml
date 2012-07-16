@@ -14,7 +14,7 @@
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>2</GridX>
-			<GridY>4</GridY>
+			<GridY>3</GridY>
 			<Quote>TXT_KEY_TECH_ORAL_TRADITION_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
