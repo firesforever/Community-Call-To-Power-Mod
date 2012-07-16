@@ -1319,7 +1319,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>25</ConquestProb>
 			<GoldMaintenance>1</GoldMaintenance>
-			<HealRateChange>50</HealRateChange>
+			<HealRateChange>10</HealRateChange>
 			<BuildingClass>BUILDINGCLASS_SHAMAN_HUT</BuildingClass>
 			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
 			<PortraitIndex>61</PortraitIndex>
@@ -1365,7 +1365,7 @@
 			<PortraitIndex>10</PortraitIndex>
 		</Row>
 		<Update>
-			<Set Cost="300" />
+			<Set Cost="300" PrereqTech="TECH_PHILOSOPHY" />
 			<Where Type="BUILDING_AMPHITHEATER"/>
 		</Update>
 		<Update>
@@ -1523,7 +1523,7 @@
 			<Where Type="BUILDING_OPERA_HOUSE"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="6" Cost="610" PrereqTech="TECH_ACOUSTICS" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="0" GreatPeopleRateChange="0" Happiness="4"/>
+			<Set GoldMaintenance="6" Cost="610" PrereqTech="TECH_DRAMA" SpecialistType="SPECIALIST_ARTIST" SpecialistCount="0" GreatPeopleRateChange="0" Happiness="4"/>
 			<Where Type="BUILDING_THEATRE"/>
 		</Update>
 		<Row>
