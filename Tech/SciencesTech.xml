@@ -3,6 +3,22 @@
 <GameData>
 	<Technologies>
 		<!-- Ancient Era -->
+		<Row>
+			<Type>TECH_ORAL_TRADITION</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_ORAL_TRADITION_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ORAL_TRADITION_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ORAL_TRADITION_HELP</Help>
+			<Cost>13</Cost>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>2</GridX>
+			<GridY>4</GridY>
+			<Quote>TXT_KEY_TECH_ORAL_TRADITION_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<Update>
 			<Set TechCat="TECHTREE_SCIENCES" Cost="13" Era="ERA_ANCIENT" GridX="2" GridY="4" />
 			<Where Type="TECH_POTTERY" />
@@ -606,12 +622,37 @@
 		<Row>
 			<TechType>TECH_POTTERY</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_POTTERY</TechType>
 			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ORAL_TRADITION</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ORAL_TRADITION</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ORAL_TRADITION</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ORAL_TRADITION</TechType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ORAL_TRADITION</TechType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<!--CLASSISCAL-->
 		<Delete TechType="TECH_WRITING" FlavorType="FLAVOR_MILITARY_TRAINING" />

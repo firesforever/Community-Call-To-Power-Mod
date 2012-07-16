@@ -4,6 +4,14 @@
 	<Technology_PrereqTechs>
 		<Delete/>
 		<Row>
+			<TechType>TECH_ORAL_TRADITION</TechType>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_WRITING</TechType>
+			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_WOODWORKING</TechType>
 			<PrereqTech>TECH_GREAT_MONUMENTS</PrereqTech>
 		</Row>

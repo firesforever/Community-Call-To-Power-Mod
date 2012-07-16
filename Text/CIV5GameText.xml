@@ -4526,7 +4526,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_HERDING_HELP</Tag>
-			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Cattle Ranch[ENDCOLOR],[COLOR_POSSITIVE_TEXT] Sheep Ranch[ENDCOLOR], and[COLOR_POSSITIVE_TEXT] Deer Herder[ENDCOLOR], the first buildings in their respective Monopoly trees.</Text>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Cattle Ranch[ENDCOLOR],[COLOR_POSITIVE_TEXT] Sheep Ranch[ENDCOLOR], and[COLOR_POSITIVE_TEXT] Deer Herder[ENDCOLOR], the first buildings in their respective Monopoly trees.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_HERDING_QUOTE</Tag>
@@ -4542,7 +4542,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_RAW_MATERIALS_HELP</Tag>
-			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Stone Cutter[ENDCOLOR] and[COLOR_POSSITIVE_TEXT] Copper Smelter[ENDCOLOR], the first buildings in their respective Monopoly trees.</Text>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Stone Cutter[ENDCOLOR] and[COLOR_POSITIVE_TEXT] Copper Smelter[ENDCOLOR], the first buildings in their respective Monopoly trees.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_RAW_MATERIALS_QUOTE</Tag>
@@ -4558,12 +4558,29 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_HELP</Tag>
-			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Mausoleum of Halicarnassus[ENDCOLOR], [COLOR_POSSITIVE_TEXT]The Labyrnth[ENDCOLOR], and [COLOR_POSSITIVE_TEXT]Sphinx[ENDCOLOR] Wonders.</Text>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Mausoleum of Halicarnassus[ENDCOLOR], [COLOR_POSITIVE_TEXT]The Labyrnth[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Sphinx[ENDCOLOR] Wonders.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"Death comes to all, but great achievements build a monument which shall endure until the sun grows cold."[NEWLINE][TAB][TAB] - Ralph Waldo Emerson</Text>
 		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_ORAL_TRADITION_TITLE</Tag>
+			<Text>Oral Tradition ([ICON_RESEARCH])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_ORAL_TRADITION_DESC</Tag>
+			<Text>Oral tradition and oral lore is cultural material and tradition transmitted orally from one generation to another.[1][2] The messages or testimony are verbally transmitted in speech or song and may take the form, for example, of folktales, sayings, ballads, songs, or chants. In this way, it is possible for a society to transmit oral history, oral literature, oral law and other knowledges across generations without a writing system.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_ORAL_TRADITION_HELP</Tag>
+			<Text>Allows construction of the useful [COLOR_POSITIVE_TEXT]Shaman Hut[ENDCOLOR] building.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_ORAL_TRADITION_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"The life of my people is to remember forever; each head granary is full. The life of your people is to forget: your thing granaries ("museums"), and not yourselves, are full."[NEWLINE][TAB][TAB] - Alice Walker</Text>
+		</Row>
+		
 		<Row>
 			<Tag>TXT_KEY_TECH_WOODWORKING_TITLE</Tag>
 			<Text>Wood Working ([ICON_PRODUCTION])</Text>
@@ -4590,7 +4607,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_PUBLIC_WORKS_HELP</Tag>
-			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Terracotta Army[ENDCOLOR], [COLOR_POSSITIVE_TEXT]Public Baths[ENDCOLOR], and [COLOR_POSSITIVE_TEXT]Sewer System[ENDCOLOR] Wonder and Buildings.</Text>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Terracotta Army[ENDCOLOR], [COLOR_POSITIVE_TEXT]Public Baths[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Sewer System[ENDCOLOR] Wonder and Buildings.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_PUBLIC_WORKS_QUOTE</Tag>
