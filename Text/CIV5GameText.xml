@@ -4596,6 +4596,23 @@
 			<Tag>TXT_KEY_TECH_ORAL_TRADITION_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"The life of my people is to remember forever; each head granary is full. The life of your people is to forget: your thing granaries ("museums"), and not yourselves, are full."[NEWLINE][TAB][TAB] - Alice Walker</Text>
 		</Row>
+
+		<Row>
+			<Tag>TXT_KEY_TECH_MILITARY_TRAINING_TITLE</Tag>
+			<Text>Military Training ([ICON_STRENGTH])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_MILITARY_TRAINING_DESC</Tag>
+			<Text>Military education and training is a process which intends to establish and improve the capabilities of military personnel in their respective roles. Military education can be voluntary or compulsory duty. Before any person gets authorization to operate technical equipment or be on the battle field, they must take a medical and often a physical test. If passed, they may begin primary training.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_MILITARY_TRAINING_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Barracks[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Artillery Range[ENDCOLOR] buildings, which gives your units an experience boost.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_MILITARY_TRAINING_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"The aim of military training is not just to prepare men for battle, but to make them long for it."[NEWLINE][TAB][TAB] - Louis Simpson</Text>
+		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_WOODWORKING_TITLE</Tag>
 			<Text>Wood Working ([ICON_PRODUCTION])</Text>

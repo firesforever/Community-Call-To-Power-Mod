@@ -1242,12 +1242,12 @@
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_ARTILLERY_RANGE</BuildingClass>
 			<ArtDefineTag>ART_DEF_BUILDING_ARTILLERY_RANGE</ArtDefineTag>
-			<PrereqTech>TECH_ARCHERY</PrereqTech>
+			<PrereqTech>TECH_MILITARY_TRAINING</PrereqTech>
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>15</PortraitIndex>
 		</Row>
 		<Update>
-			<Set GoldMaintenance="2" Cost="140" />
+			<Set GoldMaintenance="2" Cost="140" PrereqTech="TECH_MILITARY_TRAINING"/>
 			<Where Type="BUILDING_BARRACKS"/>
 		</Update>
 		<Update>
@@ -3600,7 +3600,7 @@
 			<Where Type="BUILDING_NATIONAL_COLLEGE"/>
 		</Update>
 		<Update>
-			<Set Cost="480"/>
+			<Set Cost="900"/>
 			<Where Type="BUILDING_NATIONAL_EPIC"/>
 		</Update>
 		<!--NATIONAL LAB-->

@@ -544,10 +544,9 @@
 			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="3"/>
 			<Where Type="TECH_STONE_MASONS" />
 		</Update>
-
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="4"/>
-			<Where Type="TECH_TEXTILE_TRADE" />
+			<Where Type="TECH_MILITARY_TRAINING" />
 		</Update>
 
 	</Technologies>

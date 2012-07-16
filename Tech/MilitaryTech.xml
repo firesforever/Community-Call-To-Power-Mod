@@ -8,7 +8,7 @@
 			<Where Type="TECH_ARCHERY" />
 		</Update>
 		<Update>
-			<Set TechCat="TECHTREE_MILITARY" Cost="11" Era="ERA_ANCIENT" GridX="1" GridY="7" />
+			<Set TechCat="TECHTREE_MILITARY" Cost="11" Era="ERA_ANCIENT" GridX="1" GridY="6" />
 			<Where Type="TECH_BRONZE_WORKING" />
 		</Update>
 		<Row>
@@ -40,6 +40,22 @@
 			<GridX>2</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_SHIPBUILDING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_MILITARY_TRAINING</Type>
+			<TechCat>TECHTREE_MILITARY</TechCat>
+			<Description>TXT_KEY_TECH_MILITARY_TRAINING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_MILITARY_TRAINING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_MILITARY_TRAINING_HELP</Help>
+			<Cost>15</Cost>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>3</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_MILITARY_TRAINING_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -722,7 +738,8 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
-		<!--KEEP BRONZE WORKING MILITARY TRAINING AND DEFENSE AT 4-->
+		<!--KEEP BRONZE WORKING AND DEFENSE AT 4-->
+		<Delete TechType="TECH_BRONZE_WORKING" FlavorType="FLAVOR_MILITARY_TRAINING" />
 		<Update>
 			<Where TechType="TECH_BRONZE_WORKING" FlavorType="FLAVOR_WONDER" />
 			<Set Flavor="6" />
@@ -747,6 +764,21 @@
 			<TechType>TECH_ARCHERY</TechType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MILITARY_TRAINING</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MILITARY_TRAINING</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MILITARY_TRAINING</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 <!--CLASSICAL-->
 		<Row>
