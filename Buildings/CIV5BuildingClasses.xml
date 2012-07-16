@@ -6,6 +6,11 @@
 			<DefaultBuilding>BUILDING_BURIAL_MOUND</DefaultBuilding>
 		</Row>
 		<Row>
+			<Type>BUILDINGCLASS_SHAMAN_HUT</Type>
+			<Description>TXT_KEY_BUILDING_SHAMAN_HUT</Description>
+			<DefaultBuilding>BUILDING_SHAMAN_HUT</DefaultBuilding>
+		</Row>
+		<Row>
 			<Type>BUILDINGCLASS_BREWERY</Type>
 			<Description>TXT_KEY_BUILDING_BREWERY</Description>
 			<DefaultBuilding>BUILDING_BREWERY</DefaultBuilding>

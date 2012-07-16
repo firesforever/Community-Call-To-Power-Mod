@@ -1308,6 +1308,23 @@
 			<Set Cost="60" GoldMaintenance="0" />
 			<Where Type="BUILDING_MONUMENT"/>
 		</Update>
+		<Row>
+			<Type>BUILDING_SHAMAN_HUT</Type>
+			<Description>TXT_KEY_BUILDING_SHAMAN_HUT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SHAMAN_HUT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SHAMAN_HUT_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SHAMAN_HUT_HELP</Help>
+			<Cost>140</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>25</ConquestProb>
+			<GoldMaintenance>1</GoldMaintenance>
+			<HealRateChange>50</HealRateChange>
+			<BuildingClass>BUILDINGCLASS_SHAMAN_HUT</BuildingClass>
+			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
+			<PortraitIndex>61</PortraitIndex>
+			<IconAtlas>BW_ATLAS_4</IconAtlas>
+		</Row>
 		<Update>
 			<Set Cost="80" PrereqTech="TECH_MYSTICISM" />
 			<Where Type="BUILDING_SHRINE"/>
@@ -4412,14 +4429,6 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
-		<Update>
-			<Where BuildingType="BUILDING_BURIAL_TOMB" FlavorType="FLAVOR_CULTURE" />
-			<Set Flavor="30" />
-		</Update>
-		<Update>
-			<Where BuildingType="BUILDING_BURIAL_TOMB" FlavorType="FLAVOR_HAPPINESS" />
-			<Set Flavor="40" />
-		</Update>
 		<Delete BuildingType="BUILDING_GRANARY" FlavorType="FLAVOR_SCIENCE" />
 		<!--Keep granary production at 5-->
 		<Update>
@@ -4454,19 +4463,30 @@
 			<Where BuildingType="BUILDING_MONUMENT" FlavorType="FLAVOR_CULTURE" />
 			<Set Flavor="25" />
 		</Update>
-		<Update>
-			<Where BuildingType="BUILDING_MUD_PYRAMID_MOSQUE" FlavorType="FLAVOR_CULTURE" />
-			<Set Flavor="45" />
-		</Update>
 		<Row>
-			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
-			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>5</Flavor>
+			<BuildingType>BUILDING_SHAMAN_HUT</BuildingType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>30</Flavor>
+			<BuildingType>BUILDING_SHAMAN_HUT</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHAMAN_HUT</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHAMAN_HUT</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHAMAN_HUT</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>4</Flavor>
 		</Row>
 		<!--keep Stone works at 20 production, 10 happiness-->
 		<Row>
@@ -4573,6 +4593,7 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		<!--Temple and UB stay the same-->
 		<Delete BuildingType="BUILDING_PAPER_MAKER" FlavorType="FLAVOR_SPACESHIP" />
 		<Update>
 			<Where BuildingType="BUILDING_PAPER_MAKER" FlavorType="FLAVOR_MILITARY_TRAINING" />
@@ -7861,6 +7882,18 @@
 	</Building_ResourceCultureChanges>
 	<Building_ResourceYieldChanges>
 		<Delete/>
+		<Row>
+			<BuildingType>BUILDING_SHAMAN_HUT</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHAMAN_HUT</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>

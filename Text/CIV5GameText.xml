@@ -1109,6 +1109,22 @@
 			<Text>Required for Fighter, Bomber, B-17, Jet Fighter, and Helicopter Gunship production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory and must not contain an Auto Plant or Industrial Shipyard.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT</Tag>
+			<Text>Shaman's Hut</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT_DESC</Tag>
+			<Text>A shaman is a person regarded as having access to, and influence in, the world of benevolent and malevolent spirits, who typically enters a trance state during a ritual, and practices divination and healing.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT_HELP</Tag>
+			<Text>Each source of [ICON_RES_WINE] Wine or [ICON_RES_INCENSE] Incense worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Units in this City heal 50% faster.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT_STRATEGY</Tag>
+			<Text>The Shaman's Hut provides [ICON_GOLD] Gold for resources used in religious contexts. It also increases the healing rate for units in this city.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_CHEMICAL_PLANT</Tag>
 			<Text>Chemical Plant</Text>
 		</Row>
@@ -4574,13 +4590,12 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ORAL_TRADITION_HELP</Tag>
-			<Text>Allows construction of the useful [COLOR_POSITIVE_TEXT]Shaman Hut[ENDCOLOR] building.</Text>
+			<Text>Allows construction of the useful [COLOR_POSITIVE_TEXT]Shaman's Hut[ENDCOLOR] building.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ORAL_TRADITION_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"The life of my people is to remember forever; each head granary is full. The life of your people is to forget: your thing granaries ("museums"), and not yourselves, are full."[NEWLINE][TAB][TAB] - Alice Walker</Text>
 		</Row>
-		
 		<Row>
 			<Tag>TXT_KEY_TECH_WOODWORKING_TITLE</Tag>
 			<Text>Wood Working ([ICON_PRODUCTION])</Text>
