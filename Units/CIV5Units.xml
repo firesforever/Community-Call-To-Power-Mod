@@ -959,19 +959,19 @@
 			<Where Type="UNIT_MONGOLIAN_KESHIK" />
 		</Update>
 		<Update>
-			<Set Cost="300" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="300" ObsoleteTech="TECH_RIFLING"/>
 			<Where Type="UNIT_KNIGHT" />
 		</Update>
 		<Update>
-			<Set Cost="300" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="300" ObsoleteTech="TECH_RIFLING"/>
 			<Where Type="UNIT_ARABIAN_CAMELARCHER" />
 		</Update>
 		<Update>
-			<Set Cost="300" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="300" ObsoleteTech="TECH_RIFLING"/>
 			<Where Type="UNIT_SIAMESE_WARELEPHANT" />
 		</Update>
 		<Update>
-			<Set Cost="300" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="300" ObsoleteTech="TECH_RIFLING"/>
 			<Where Type="UNIT_SONGHAI_MUSLIMCAVALRY" />
 		</Update>
 		<Update>
