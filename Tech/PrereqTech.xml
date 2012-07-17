@@ -12,8 +12,20 @@
 			<PrereqTech>TECH_GREAT_MONUMENTS</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_WOODWORKING</TechType>
+			<TechType>TECH_MILITARY_TRAINING</TechType>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_MILITARY_TRAINING</TechType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<PrereqTech>TECH_MILITARY_TRAINING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_IRON_WORKING</TechType>
+			<PrereqTech>TECH_MILITARY_TRAINING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_MOBILE_TACTICS</TechType>
@@ -398,10 +410,6 @@
 		<Row>
 			<TechType>TECH_CONSTRUCTION</TechType>
 			<PrereqTech>TECH_CARRIAGES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_IRON_WORKING</TechType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_THEOLOGY</TechType>
