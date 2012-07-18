@@ -1128,10 +1128,10 @@
 			<TechType>TECH_TELEVANGELISM</TechType>
 			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_CONSUMERISM</TechType>
 			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
-		</Row>
+		</Row>-->
 		<Row>
 			<TechType>TECH_COMPUTERS</TechType>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
