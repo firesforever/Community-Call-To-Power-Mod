@@ -5315,6 +5315,10 @@
 			<Where Tag="TXT_KEY_TECH_ARCHITECTURE_TITLE" />
 		</Update>
 		<Update>
+			<Set Text="Industrialization ([ICON_PRODUCTION])  " />
+			<Where Tag="TXT_KEY_TECH_INDUSTRIALIZATIION_TITLE" />
+		</Update>
+		<Update>
 			<Set Text="Drama and Poetry ([ICON_CULTURE]/[ICON_HAPPINESS_1])  " />
 			<Where Tag="TXT_KEY_TECH_DRAMA_TITLE" />
 		</Update>
