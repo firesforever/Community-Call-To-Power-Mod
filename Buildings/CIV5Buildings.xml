@@ -119,6 +119,11 @@
 			<Yield>3</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_PAGODA</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
@@ -856,7 +861,7 @@
 		<Row>
 			<BuildingType>BUILDING_EAST_INDIA_COMPANY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>100</Yield>
+			<Yield>30</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WALL_STREET</BuildingType>
@@ -1325,6 +1330,10 @@
 			<PortraitIndex>61</PortraitIndex>
 			<IconAtlas>BW_ATLAS_4</IconAtlas>
 		</Row>
+		<Update>
+		<Set Cost="80" PrereqTech="TECH_MYSTICISM" />
+		<Where Type="BUILDING_MAYA_PYRAMID"/>
+	</Update>
 		<Update>
 			<Set Cost="80" PrereqTech="TECH_MYSTICISM" />
 			<Where Type="BUILDING_SHRINE"/>
@@ -3016,6 +3025,7 @@
 			<Set Cost="540" SpecialistCount="2" GreatPeopleRateChange="0" PrereqTech="TECH_PUBLIC_WORKS"/>
 			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
 		</Update>
+		<Delete Type="TEMPLE_ARTEMIS" Help="TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP" />
 		<Update>
 			<Set Cost="400" PrereqTech="TECH_GREAT_MONUMENTS"/>
 			<Where Type="BUILDING_TEMPLE_ARTEMIS"/>
@@ -3375,13 +3385,13 @@
 			<Quote>TXT_KEY_WONDER_EAST_INDIA_COMPANY_QUOTE</Quote>
 			<Water>true</Water>
 			<NukeImmune>true</NukeImmune>
-			<Cost>865</Cost>
+			<Cost>1400</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_EAST_INDIA_COMPANY</BuildingClass>
 			<MaxStartEra>ERA_MODERN</MaxStartEra>
-			<PrereqTech>TECH_BANKING</PrereqTech>
+			<PrereqTech>TECH_OCEAN_PIONEERING</PrereqTech>
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
