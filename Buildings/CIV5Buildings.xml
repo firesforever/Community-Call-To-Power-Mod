@@ -4,6 +4,11 @@
 	<Building_YieldChanges>
 		<Delete/>
 		<Row>
+			<BuildingType>BUILDING_BEEF_VAT</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>40</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
@@ -1069,8 +1074,8 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BEEF_VAT</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>60</Yield>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>-100</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_IMPLANT_STATION</BuildingType>
@@ -3025,9 +3030,8 @@
 			<Set Cost="540" SpecialistCount="2" GreatPeopleRateChange="0" PrereqTech="TECH_PUBLIC_WORKS"/>
 			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
 		</Update>
-		<Delete Type="TEMPLE_ARTEMIS" Help="TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP" />
 		<Update>
-			<Set Cost="400" PrereqTech="TECH_GREAT_MONUMENTS"/>
+			<Set Cost="400" PrereqTech="TECH_GREAT_MONUMENTS" />
 			<Where Type="BUILDING_TEMPLE_ARTEMIS"/>
 		</Update>
 		<Update>
@@ -4241,7 +4245,7 @@
 			<ConquestProb>100</ConquestProb>
 			<BuildingClass>BUILDINGCLASS_BEEF_VAT</BuildingClass>
 			<PrereqTech>TECH_BIOLOGICAL_SYNTHESIS</PrereqTech>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<IconAtlas>BW_ATLAS_4</IconAtlas>
 			<PortraitIndex>46</PortraitIndex>
@@ -7131,7 +7135,12 @@
 	</Building_LakePlotYieldChanges>
 	<Building_SpecialistYieldChanges>
 		<Delete/>
-		
+		<Row>
+			<BuildingType>BUILDING_BEEF_VAT</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
 		<!--WORLD WONDERS-->
 		
 		<!--ANCIENT-->

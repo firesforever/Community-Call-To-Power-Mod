@@ -1870,7 +1870,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BEEF_VAT_HELP</Tag>
-			<Text>+3 [ICON_FOOD] Food for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
+			<Text>+5 [ICON_FOOD] Food for every Merchant Specialist in this City.[NEWLINE]-1 [ICON_PRODUCTION] Production per [ICON_CITIZEN] Citizen.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_IMPLANT_STATION</Tag>
@@ -4830,11 +4830,11 @@
 			<Where Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_BUILDING_TEMPLE_ARTEMIS_HELP" />
+			<Set Text="Massively increases [ICON_FOOD] Food production in the city in which this is built." />
+			<Where Tag="TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum for Construction.[NEWLINE][NEWLINE]City must be built next to a River." />
+			<Set Text="+1 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum for Construction.[NEWLINE]City must be built next to a River." />
 			<Where Tag="TXT_KEY_BUILDING_HYDRO_PLANT_HELP" />
 		</Update>
 		<Update>

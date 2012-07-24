@@ -3,7 +3,7 @@
 <GameData>
 	<Projects>
 		<Update>
-			<Set Cost="30000" />
+			<Set Cost="4000" />
 			<Where Type="PROJECT_MANHATTAN_PROJECT" />
 		</Update>
 		<Update>
