@@ -121,10 +121,10 @@
 			<Text>Conservatism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_NATIONALISM_CAP">
-			<Text>NationalismM</Text>
+			<Text>Nationalism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_SOCIALISM_CAP">
-			<Text>Socialsim</Text>
+			<Text>Socialism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ANARCHISM_CAP">
 			<Text>Anarchism</Text>

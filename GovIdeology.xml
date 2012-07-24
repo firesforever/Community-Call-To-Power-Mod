@@ -771,31 +771,13 @@
 			<PolicyType>POLICY_ECONOMIC_FREEDOM</PolicyType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_ECONOMIC_FREEDOM</PolicyType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_TRADITIONAL_INSTITUTIONS</PolicyType>
-			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_TRADITIONAL_INSTITUTIONS</PolicyType>
-			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_TRADITIONAL_INSTITUTIONS</PolicyType>
-			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PRIVATIZATION</PolicyType>
