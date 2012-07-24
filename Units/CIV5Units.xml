@@ -1174,19 +1174,19 @@
 		</Update>
 		<!--RENAISSANCE (2)-->
 		<Update>
-			<Set Cost="565" />
+			<Set Cost="565" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_DANISH_SKI_INFANTRY" />
 		</Update>
 		<Update>
-			<Set Cost="565" />
+			<Set Cost="565" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_RIFLEMAN" />
 		</Update>
 		<Update>
-			<Set Cost="505" />
+			<Set Cost="505" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_ETHIOPIAN_MEHAL_SEFARI" />
 		</Update>
 		<Update>
-			<Set Cost="565" />
+			<Set Cost="565" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_SWEDISH_CAROLEAN" />
 		</Update>
 		<Update>
