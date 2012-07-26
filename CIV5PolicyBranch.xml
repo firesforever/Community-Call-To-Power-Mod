@@ -89,7 +89,7 @@
 			<Description>TXT_KEY_NEWPOLICY_BRANCH_TECHNOCRACY</Description>
 			<Help>TXT_KEY_NEWPOLICY_BRANCH_TECHNOCRACY_HELP</Help>
 			<Title>TXT_KEY_TECHNOCRACY_NEWTITLE</Title>
-			<EraPrereq>ERA_FUTURE</EraPrereq>
+			<EraPrereq>ERA_POSTMODERN</EraPrereq>
 			<FreePolicy>POLICY_TECHNOCRACY</FreePolicy>
 		</Row>
 		
@@ -100,7 +100,7 @@
 			<Description>TXT_KEY_NEWPOLICY_BRANCH_ECOTOPIA</Description>
 			<Help>TXT_KEY_NEWPOLICY_BRANCH_ECOTOPIA_HELP</Help>
 			<Title>TXT_KEY_ECOTOPIA_NEWTITLE</Title>
-			<EraPrereq>ERA_FUTURE</EraPrereq>
+			<EraPrereq>ERA_POSTMODERN</EraPrereq>
 			<FreePolicy>POLICY_ECOTOPIA</FreePolicy>
 		</Row>
 		
@@ -111,7 +111,7 @@
 			<Description>TXT_KEY_NEWPOLICY_BRANCH_VIRTUALDEMOCRACY</Description>
 			<Help>TXT_KEY_NEWPOLICY_BRANCH_VIRTUALDEMOCRACY_HELP</Help>
 			<Title>TXT_KEY_VIRTUALDEMOCRACY_NEWTITLE</Title>
-			<EraPrereq>ERA_NANOTECH</EraPrereq>
+			<EraPrereq>ERA_FUTURE</EraPrereq>
 			<FreePolicy>POLICY_VIRTUALDEMOCRACY</FreePolicy>
 		</Row>
 		

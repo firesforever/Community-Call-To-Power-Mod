@@ -8,24 +8,28 @@
 		<Delete UnitType="UNIT_LANCER" UnitClassType="UNITCLASS_ANTI_TANK_GUN" />
 		<Delete UnitType="UNIT_OTTOMAN_SIPAHI" UnitClassType="UNITCLASS_ANTI_TANK_GUN" />
 		<Delete UnitType="UNIT_TRIREME" UnitClassType="UNITCLASS_FRIGATE" />
-		
+		<Delete UnitType="UNIT_MACHINE_GUN" UnitClassType="UNITCLASS_MECHANIZED_INFANTRY"/>
+		<Row>
+			<UnitType>UNIT_MACHINE_GUN</UnitType>
+			<UnitClassType>UNITCLASS_COMBAT_CONTROLLER</UnitClassType>
+		</Row>
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<UnitClassType>UNITCLASS_CIVIL_ENGINEER</UnitClassType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<UnitClassType>UNITCLASS_COG</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_COG</UnitType>
 			<UnitClassType>UNITCLASS_FRIGATE</UnitClassType>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<UnitType>UNIT_GALLEON</UnitType>
 			<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<UnitType>UNIT_CROSSBOWMAN</UnitType>
 			<UnitClassType>UNITCLASS_MACHINE_GUNNER</UnitClassType>
 		</Row>
@@ -36,7 +40,7 @@
 		<Row>
 			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
 			<UnitClassType>UNITCLASS_MACHINE_GUNNER</UnitClassType>
-		</Row>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_LANCER</UnitType>
 			<UnitClassType>UNITCLASS_HELICOPTER_GUNSHIP</UnitClassType>
@@ -45,10 +49,10 @@
 			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
 			<UnitClassType>UNITCLASS_HELICOPTER_GUNSHIP</UnitClassType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_MACHINE_GUNNER</UnitType>
 			<UnitClassType>UNITCLASS_MISSILE_SQUAD</UnitClassType>
-		</Row>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_MISSILE_SQUAD</UnitType>
 			<UnitClassType>UNITCLASS_COMBAT_CONTROLLER</UnitClassType>
@@ -193,14 +197,14 @@
 	<Unit_FreePromotions>
 		<Delete UnitType="UNIT_CARRIER" PromotionType="PROMOTION_CARGO_III" />
 		<Delete UnitType="UNIT_MODERN_ARMOR" PromotionType="PROMOTION_SIGHT_PENALTY" />
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_COG</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<UnitType>UNIT_GALLEON</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_CARRIER</UnitType>
 			<PromotionType>PROMOTION_CARGO_II</PromotionType>
@@ -209,10 +213,10 @@
 			<UnitType>UNIT_MECH</UnitType>
 			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_MACHINE_GUNNER</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_MISSILE_SQUAD</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
@@ -738,8 +742,12 @@
 		<Delete UnitType="UNIT_JET_FIGHTER" ResourceType="RESOURCE_ALUMINUM" Cost="1" />
 		<Delete UnitType="UNIT_MECH" ResourceType="RESOURCE_URANIUM" Cost="1" />
 		<Delete UnitType="UNIT_CARRIER" ResourceType="RESOURCE_OIL" Cost="1" />
+		<Delete UnitType="UNIT_BATTLESHIP" ResourceType="RESOURCE_OIL" Cost="1" />
 		<Delete UnitType="UNIT_NUCLEAR_SUBMARINE" ResourceType="RESOURCE_ALUMINUM" Cost="1" />
 		<Delete UnitType="UNIT_MISSILE_CRUISER" ResourceType="RESOURCE_ALUMINUM" Cost="1" />
+		<Delete UnitType="UNIT_WWI_TANK" ResourceType="RESOURCE_OIL" Cost="1" />
+		<Delete UnitType="UNIT_TRIPLANE" ResourceType="RESOURCE_OIL" Cost="1" />
+		<Delete UnitType="UNIT_WWI_BOMBER" ResourceType="RESOURCE_OIL" Cost="1" />
 		<Row>
 			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
 			<ResourceType>NULL</ResourceType>
@@ -812,28 +820,36 @@
 	<Units>
 		<!--Ancient Era-->
 		<Update>
-			<Set Cost="120" />
+			<Set Cost="110" />
 			<Where Type="UNIT_ARCHER" />
 		</Update>
 		<Update>
-			<Set Cost="140" />
+			<Set Cost="115" />
 			<Where Type="UNIT_BABYLONIAN_BOWMAN" />
 		</Update>
 		<Update>
-			<Set Cost="120" />
+			<Set Cost="100" />
 			<Where Type="UNIT_INCAN_SLINGER" />
 		</Update>
 		<Update>
-			<Set Cost="160" PrereqTech="TECH_CARRIAGES" />
+			<Set Cost="100" />
+			<Where Type="UNIT_MAYAN_ATLATLIST" />
+		</Update>
+		<Update>
+			<Set Cost="120" PrereqTech="TECH_CARRIAGES" />
 			<Where Type="UNIT_CHARIOT_ARCHER" />
 		</Update>
 		<Update>
-			<Set Cost="160" PrereqTech="TECH_CARRIAGES" />
+			<Set Cost="120" PrereqTech="TECH_CARRIAGES" />
 			<Where Type="UNIT_EGYPTIAN_WARCHARIOT" />
 		</Update>
 		<Update>
-			<Set Cost="160" PrereqTech="TECH_CARRIAGES" />
+			<Set Cost="120" PrereqTech="TECH_CARRIAGES" />
 			<Where Type="UNIT_INDIAN_WARELEPHANT" />
+		</Update>
+		<Update>
+			<Set Cost="120" PrereqTech="TECH_CARRIAGES" />
+			<Where Type="UNIT_HUN_HORSE_ARCHER" />
 		</Update>
 		<Update>
 			<Set Cost="120" />
@@ -848,6 +864,14 @@
 			<Where Type="UNIT_PERSIAN_IMMORTAL" />
 		</Update>
 		<Update>
+			<Set Cost="120" />
+			<Where Type="UNIT_HUN_BATTERING_RAM" />
+		</Update>
+		<Update>
+			<Set Cost="120" />
+			<Where Type="UNIT_CELT_PICTISH_WARRIOR" />
+		</Update>
+		<Update>
 			<Set Cost="80" />
 			<Where Type="UNIT_WARRIOR" />
 		</Update>
@@ -860,7 +884,19 @@
 			<Where Type="UNIT_AZTEC_JAGUAR" />
 		</Update>
 		<Update>
-			<Set Cost="60" />
+			<Set Cost="90" PrereqTech="TECH_SHIPBUILDING" ObsoleteTech="TECH_RUDDER"/>
+			<Where Type="UNIT_TRIREME" />
+		</Update>
+		<Update>
+			<Set Cost="90" PrereqTech="TECH_SHIPBUILDING" ObsoleteTech="TECH_RUDDER"/>
+			<Where Type="UNIT_BYZANTINE_DROMON" />
+		</Update>
+		<Update>
+			<Set Cost="90" PrereqTech="TECH_SHIPBUILDING" ObsoleteTech="TECH_RUDDER"/>
+			<Where Type="UNIT_CARTHAGINIAN_QUINQUEREME" />
+		</Update>
+		<Update>
+			<Set Cost="45" />
 			<Where Type="UNIT_SCOUT" />
 		</Update>
 		<Update>
@@ -874,76 +910,83 @@
 		
 		<!--CLASSICAL ERA-->
 		<Update>
-			<Set Cost="250" PrereqTech="TECH_BALLISTICS" ObsoleteTech="TECH_SIEGE_ENGINES"/>
+			<Set Cost="200" PrereqTech="TECH_WOODWORKING" ObsoleteTech="TECH_SIEGE_ENGINES"/>
 			<Where Type="UNIT_ROMAN_BALLISTA" />
 		</Update>
 		<Update>
-			<Set Cost="250" PrereqTech="TECH_BALLISTICS" ObsoleteTech="TECH_SIEGE_ENGINES"/>
+			<Set Cost="200" PrereqTech="TECH_WOODWORKING" ObsoleteTech="TECH_SIEGE_ENGINES"/>
 			<Where Type="UNIT_CATAPULT" />
 		</Update>
 		<Update>
-			<Set Cost="180" />
+			<Set Cost="165" />
 			<Where Type="UNIT_GREEK_COMPANIONCAVALRY" />
 		</Update>
 		<Update>
-			<Set Cost="180" />
+			<Set Cost="165" />
 			<Where Type="UNIT_HORSEMAN" />
 		</Update>
 		<Update>
-			<Set Cost="210" />
+			<Set Cost="165" />
+			<Where Type="UNIT_BYZANTINE_CATAPHRACT" />
+		</Update>
+		<Update>
+			<Set Cost="220" />
+			<Where Type="UNIT_CARTHAGINIAN_FOREST_ELEPHANT" />
+		</Update>
+		<Update>
+			<Set Cost="180" />
 			<Where Type="UNIT_SWORDSMAN" />
 		</Update>
 		<Update>
-			<Set Cost="210" />
+			<Set Cost="180" />
 			<Where Type="UNIT_IROQUOIAN_MOHAWKWARRIOR" />
 		</Update>
 		<Update>
-			<Set Cost="210" />
+			<Set Cost="180" />
 			<Where Type="UNIT_ROMAN_LEGION" />
 		</Update>
 		<Update>
-			<Set Cost="140" Combat="6" RangedCombat="4" PrereqTech="TECH_SHIPBUILDING" ObsoleteTech="TECH_RUDDER"/>
-			<Where Type="UNIT_TRIREME" />
+			<Set Cost="180" PrereqTech="TECH_WOODWORKING"/>
+			<Where Type="UNIT_COMPOSITE_BOWMAN" />
 		</Update>
-		
 		<!--MEDIEVAL ERA-->
 		<Update>
-			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="300" ObsoleteTech="TECH_MILITARY_TRADITION"/>
 			<Where Type="UNIT_SPANISH_CONQUISTADOR" />
 		</Update>
 		<Update>
-			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="300" ObsoleteTech="TECH_MILITARY_TRADITION"/>
 			<Where Type="UNIT_MONGOLIAN_KESHIK" />
 		</Update>
 		<Update>
-			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="300" ObsoleteTech="TECH_RIFLING"/>
 			<Where Type="UNIT_KNIGHT" />
 		</Update>
 		<Update>
-			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="300" ObsoleteTech="TECH_RIFLING"/>
 			<Where Type="UNIT_ARABIAN_CAMELARCHER" />
 		</Update>
 		<Update>
-			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="300" ObsoleteTech="TECH_RIFLING"/>
 			<Where Type="UNIT_SIAMESE_WARELEPHANT" />
 		</Update>
 		<Update>
-			<Set Cost="420" ObsoleteTech="TECH_MILITARY_TRADITION"/>
+			<Set Cost="300" ObsoleteTech="TECH_RIFLING"/>
 			<Where Type="UNIT_SONGHAI_MUSLIMCAVALRY" />
 		</Update>
 		<Update>
-			<Set Cost="360" PrereqTech="TECH_METAL_CASTING" />
+			<Set Cost="300" PrereqTech="TECH_METAL_CASTING" />
 			<Where Type="UNIT_CROSSBOWMAN" />
 		</Update>
 		<Update>
-			<Set Cost="360" PrereqTech="TECH_METAL_CASTING" />
+			<Set Cost="300" PrereqTech="TECH_METAL_CASTING" />
 			<Where Type="UNIT_CHINESE_CHUKONU" />
 		</Update>
 		<Update>
-			<Set Cost="360" PrereqTech="TECH_METAL_CASTING" />
+			<Set Cost="300" PrereqTech="TECH_METAL_CASTING" />
 			<Where Type="UNIT_ENGLISH_LONGBOWMAN" />
 		</Update>
-		<Row>
+		<!--<Row>
 			<Class>UNITCLASS_COG</Class>
 			<Type>UNIT_COG</Type>
 			<PrereqTech>TECH_RUDDER</PrereqTech>
@@ -969,70 +1012,78 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_CARAVEL</UnitArtInfo>
-			<UnitFlagIconOffset>42</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>43</PortraitIndex>
+			<UnitFlagIconOffset>34</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-		</Row>
+		</Row>-->
 		<Update>
-			<Set Combat="20" Cost="450" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
-			<Where Type="UNIT_LANCER" />
-		</Update>
-		<Update>
-			<Set Cost="450" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
-			<Where Type="UNIT_OTTOMAN_SIPAHI" />
-		</Update>
-		<Update>
-			<Set Cost="320" PrereqTech="TECH_FEUDALISM" />
+			<Set Cost="215" PrereqTech="TECH_FEUDALISM" />
 			<Where Type="UNIT_PIKEMAN" />
 		</Update>
 		<Update>
-			<Set Cost="160" PrereqTech="TECH_FEUDALISM" />
+			<Set Cost="110" PrereqTech="TECH_FEUDALISM" />
 			<Where Type="UNIT_GERMAN_LANDSKNECHT" />
 		</Update>
 		<Update>
-			<Set Cost="380" PrereqTech="TECH_METALLURGY" />
+			<Set Cost="300" PrereqTech="TECH_METALLURGY" />
 			<Where Type="UNIT_LONGSWORDSMAN" />
 		</Update>
 		<Update>
-			<Set Cost="380" PrereqTech="TECH_METALLURGY" />
+			<Set Cost="300" PrereqTech="TECH_METALLURGY" />
 			<Where Type="UNIT_DANISH_BERSERKER" />
 		</Update>
 		<Update>
-			<Set Cost="380" PrereqTech="TECH_METALLURGY" />
+			<Set Cost="300" PrereqTech="TECH_METALLURGY" />
 			<Where Type="UNIT_JAPANESE_SAMURAI" />
 		</Update>
 		<Update>
-			<Set Cost="420" PrereqTech="TECH_SIEGE_ENGINES" />
+			<Set Cost="320" PrereqTech="TECH_SIEGE_ENGINES" />
 			<Where Type="UNIT_TREBUCHET" />
 		</Update>
-		
+		<Update>
+			<Set Cost="320" PrereqTech="TECH_SIEGE_ENGINES" />
+			<Where Type="UNIT_KOREAN_HWACHA" />
+		</Update>
+		<Update>
+			<Set Cost="245" PrereqTech="TECH_RUDDER" />
+			<Where Type="UNIT_GALLEASS" />
+		</Update>
 		<!--RENAISSANCE ERA-->
 		<Update>
-			<Set RangedCombat="22" Cost="660" Range="3" ObsoleteTech="TECH_SHELLS" />
+			<Set Cost="465" Range="3" ObsoleteTech="TECH_SHELLS" />
 			<Where Type="UNIT_CANNON" />
 		</Update>
 		<Update>
-			<Set Cost="480" Moves="7" Combat="15" RangedCombat="9" PrereqTech="TECH_NAVIGATION" ObsoleteTech="TECH_TORPEDOES"/>
+			<Set Cost="320" PrereqTech="TECH_NAVIGATION" ObsoleteTech="TECH_TORPEDOES"/>
 			<Where Type="UNIT_CARAVEL" />
 		</Update>
 		<Update>
-			<Set Combat="22" Cost="550" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_TRACKED_VEHICLES" />
-			<Where Type="UNIT_CAVALRY" />
+			<Set Cost="320" PrereqTech="TECH_NAVIGATION" ObsoleteTech="TECH_TORPEDOES"/>
+			<Where Type="UNIT_KOREAN_TURTLE_SHIP" />
 		</Update>
 		<Update>
-			<Set Cost="550" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_TRACKED_VEHICLES"/>
-			<Where Type="UNIT_RUSSIAN_COSSACK" />
-		</Update>
-		<Update>
-			<Set Cost="550" Moves="5" Combat="25" RangedCombat="18" ObsoleteTech="TECH_TORPEDOES"/>
+			<Set Cost="465" Moves="5" RangedCombat="35" ObsoleteTech="TECH_TORPEDOES"/>
 			<Where Type="UNIT_FRIGATE" />
 		</Update>
 		<Update>
-			<Set Cost="550" Combat="25" RangedCombat="22" ObsoleteTech="TECH_TORPEDOES"/>
+			<Set Cost="430" Combat="30" RangedCombat="35" ObsoleteTech="TECH_TORPEDOES"/>
 			<Where Type="UNIT_ENGLISH_SHIPOFTHELINE" />
 		</Update>
-		<Row>
+		<Update>
+			<Set Cost="465" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Where Type="UNIT_LANCER" />
+		</Update>
+		<Update>
+			<Set Cost="465" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Where Type="UNIT_OTTOMAN_SIPAHI" />
+		</Update>
+		<Update>
+			<Set Cost="465" PrereqTech="TECH_MILITARY_TRADITION" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Where Type="UNIT_SWEDISH_HAKKAPELIITTA" />
+		</Update>
+		<!--<Row>
 			<Class>UNITCLASS_GALLEON</Class>
 			<Type>UNIT_GALLEON</Type>
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
@@ -1042,7 +1093,7 @@
 			<Moves>4</Moves>
 			<HurryCostModifier>30</HurryCostModifier>
 			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_EXPLORE_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_GALLEON</Description>
@@ -1058,12 +1109,13 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_FRIGATE</UnitArtInfo>
-			<UnitFlagIconOffset>51</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
-			<PortraitIndex>9</PortraitIndex>
+			<UnitFlagIconOffset>35</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
+			<PortraitIndex>36</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<Type>UNIT_MACHINE_GUNNER</Type>
 			<Description>TXT_KEY_UNIT_MACHINE_GUNNER</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MACHINE_GUNNER_TEXT</Civilopedia>
@@ -1087,73 +1139,78 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_INFANTRY</UnitArtInfo>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-		</Row>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
+		</Row>-->
 		<Update>
-			<Set Cost="400" />
+			<Set Cost="375" />
 			<Where Type="UNIT_MUSKETMAN" />
 		</Update>
 		<Update>
-			<Set Cost="440" />
+			<Set Cost="400" />
 			<Where Type="UNIT_SPANISH_TERCIO" />
 		</Update>
 		<Update>
-			<Set Cost="400" />
+			<Set Cost="375" />
 			<Where Type="UNIT_AMERICAN_MINUTEMAN" />
 		</Update>
 		<Update>
-			<Set Cost="400" />
+			<Set Cost="375" />
 			<Where Type="UNIT_FRENCH_MUSKETEER" />
 		</Update>
 		<Update>
-			<Set Cost="400" />
+			<Set Cost="375" />
 			<Where Type="UNIT_OTTOMAN_JANISSARY" />
 		</Update>
 		<Update>
-			<Set Combat="27" Cost="620" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
+			<Set Cost="375" />
+			<Where Type="UNIT_PRIVATEER" />
+		</Update>
+		<Update>
+			<Set Cost="375" />
+			<Where Type="UNIT_DUTCH_SEA_BEGGAR" />
+		</Update>
+		<!--RENAISSANCE (2)-->
+		<Update>
+			<Set Cost="565" />
 			<Where Type="UNIT_DANISH_SKI_INFANTRY" />
 		</Update>
 		<Update>
-			<Set Combat="27" Cost="620" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
+			<Set Cost="565" />
 			<Where Type="UNIT_RIFLEMAN" />
 		</Update>
-		
-		<!--INDUSTRIAL ERA-->
 		<Update>
-			<Set Cost="765" PrereqTech="TECH_RADAR" ObsoleteTech="TECH_ROCKETRY" />
-			<Where Type="UNIT_ANTI_AIRCRAFT_GUN" />
+			<Set Cost="505" />
+			<Where Type="UNIT_ETHIOPIAN_MEHAL_SEFARI" />
 		</Update>
 		<Update>
-			<Set Cost="765" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
-			<Where Type="UNIT_ANTI_TANK_GUN" />
+			<Set Cost="565" />
+			<Where Type="UNIT_SWEDISH_CAROLEAN" />
 		</Update>
 		<Update>
-			<Set RangedCombat="34" Cost="900" PrereqTech="TECH_SHELLS" ObsoleteTech="TECH_MAGNETICS_MINIATURIZATION" />
+			<Set Cost="590" PrereqTech="TECH_RIFLING" ObsoleteTech="TECH_TRACKED_VEHICLES" />
+			<Where Type="UNIT_CAVALRY" />
+		</Update>
+		<Update>
+			<Set Cost="590" PrereqTech="TECH_RIFLING" ObsoleteTech="TECH_TRACKED_VEHICLES"/>
+			<Where Type="UNIT_RUSSIAN_COSSACK" />
+		</Update>
+		<Update>
+			<Set Cost="590" PrereqTech="TECH_RIFLING" ObsoleteTech="TECH_TRACKED_VEHICLES"/>
+			<Where Type="UNIT_AUSTRIAN_HUSSAR" />
+		</Update>
+		<!--INDUSTRIAL ERA (1)-->
+		<Update>
+			<Set Cost="630" PrereqTech="TECH_SHELLS" ObsoleteTech="TECH_MAGNETICS_MINIATURIZATION" />
 			<Where Type="UNIT_ARTILLERY" />
-		</Update>
-		<Update>
-			<Set Cost="1050" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
-			<Where Type="UNIT_BOMBER" />
-		</Update>
-		<Update>
-			<Set Cost="1050" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
-			<Where Type="UNIT_AMERICAN_B17" />
-		</Update>
-		<Update>
-			<Set Combat="80" RangedCombat="70" Cost="1050" PrereqTech="TECH_BIG_GUNS_DOCTRINE" ObsoleteTech="TECH_ADVANCED_MAGNETICS"/>
-			<Where Type="UNIT_BATTLESHIP" />
-		</Update>
-		<Update>
-			<Set Combat="40" Cost="1175" ObsoleteTech="TECH_REACTOR_MINIATURIZATION"/>
-			<Where Type="UNIT_CARRIER" />
 		</Update>
 		<Row>
 			<Class>UNITCLASS_CIVIL_ENGINEER</Class>
 			<Type>UNIT_CIVIL_ENGINEER</Type>
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
-			<Cost>750</Cost>
+			<Cost>550</Cost>
 			<Moves>3</Moves>
 			<Capture>UNITCLASS_CIVIL_ENGINEER</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
@@ -1168,32 +1225,41 @@
 			<UnitArtInfo>ART_DEF_UNIT_ENGINEER</UnitArtInfo>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>1</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
+
+		
 		<Update>
-			<Set Combat="40" RangedCombat="30" Cost="850" PrereqTech="TECH_TORPEDOES" ObsoleteTech="TECH_ADVANCED_MAGNETICS" />
-			<Where Type="UNIT_DESTROYER" />
+			<Set Cost="565" PrereqTech="TECH_SHELLS" ObsoleteTech="TECH_MAGNETICS_MINIATURIZATION" />
+			<Where Type="UNIT_GATLINGGUN" />
 		</Update>
 		<Update>
-			<Set Cost="930" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
-			<Where Type="UNIT_FIGHTER" />
-		</Update>
-		<Update>
-			<Set Cost="930" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
-			<Where Type="UNIT_JAPANESE_ZERO" />
-		</Update>
-		<Update>
-			<Set Cost="850" PrereqTech="TECH_MILITARY_SCIENCE" ObsoleteTech="TECH_EXOSKELETONS" />
-			<Where Type="UNIT_INFANTRY" />
-		</Update>
-		<Update>
-			<Set Cost="850" PrereqTech="TECH_MILITARY_SCIENCE" ObsoleteTech="TECH_EXOSKELETONS"/>
-			<Where Type="UNIT_FRENCH_FOREIGNLEGION" />
-		</Update>
-		<Update>
-			<Set Combat="40" RangedCombat="20" Cost="780" PrereqTech="TECH_NAVAL_ARMOR" ObsoleteTech="TECH_TORPEDOES" />
+			<Set Cost="630" PrereqTech="TECH_NAVAL_ARMOR" ObsoleteTech="TECH_TORPEDOES" />
 			<Where Type="UNIT_IRONCLAD" />
+		</Update>
+		
+		<!--INDUSTRIAL ERA (2)-->
+		<Update>
+			<Set Cost="945" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_ADVANCED_FLIGHT" />
+			<Where Type="UNIT_ANTI_TANK_GUN" />
+		</Update>
+		<Update>
+			<Set Cost="945" ObsoleteTech="TECH_ROCKETRY" />
+			<Where Type="UNIT_ANTI_AIRCRAFT_GUN" />
+		</Update>
+		<Update>
+			<Set Cost="945" PrereqTech="TECH_BIG_GUNS_DOCTRINE" />
+			<Where Type="UNIT_BATTLESHIP" />
+		</Update>
+		<Update>
+			<Set Cost="945" PrereqTech="TECH_BIG_GUNS_DOCTRINE" ObsoleteTech="TECH_REACTOR_MINIATURIZATION" />
+			<Where Type="UNIT_CARRIER" />
+		</Update>
+		<Update>
+			<Set Cost="900" ObsoleteTech="TECH_ADVANCED_MAGNETICS" PrereqTech="TECH_TORPEDOES" />
+			<Where Type="UNIT_DESTROYER" />
 		</Update>
 		<Row>
 			<Type>UNIT_MISSILE_SQUAD</Type>
@@ -1202,7 +1268,7 @@
 			<Help>TXT_KEY_UNIT_HELP_MISSILE_SQUAD</Help>
 			<Combat>20</Combat>
 			<RangedCombat>40</RangedCombat>
-			<Cost>925</Cost>
+			<Cost>885</Cost>
 			<Moves>2</Moves>
 			<Range>2</Range>
 			<Class>UNITCLASS_MISSILE_SQUAD</Class>
@@ -1212,48 +1278,120 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<PrereqTech>TECH_SHOULDER_LAUNCHED_WEAPONS</PrereqTech>
+			<PrereqTech>TECH_BALLISTICS</PrereqTech>
 			<ObsoleteTech>TECH_COMBINED_ARMS_DOCTRINE</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_COMBAT_CONTROLLER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>40</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_INFANTRY</UnitArtInfo>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Update>
-			<Set Cost="1050" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
+			<Set Cost="885" ObsoleteTech="TECH_ROCKETRY" />
+			<Where Type="UNIT_MACHINE_GUN" />
+		</Update>
+		<Update>
+			<Set Cost="805" PrereqTech="TECH_MILITARY_SCIENCE"/>
+			<Where Type="UNIT_GREAT_WAR_INFANTRY" />
+		</Update>
+		<Update>
+			<Set Cost="805" PrereqTech="TECH_MILITARY_SCIENCE"/>
+			<Where Type="UNIT_FRENCH_FOREIGNLEGION" />
+		</Update>
+		<Update>
+			<Set Cost="805" ObsoleteTech="TECH_RADAR" />
+			<Where Type="WWI_BOMBER" />
+		</Update>
+		<Update>
+			<Set Cost="805" ObsoleteTech="TECH_RADAR" />
+			<Where Type="TRIPLANE" />
+		</Update>
+		<Update>
+			<Set Cost="945" PrereqTech="TECH_BLITZKRIEG" ObsoleteTech="TECH_EXOSKELETONS" />
+			<Where Type="UNIT_INFANTRY" />
+		</Update>
+		<Update>
+			<Set Cost="885" PrereqTech="TECH_TRACKED_VEHICLES" />
+			<Where Type="UNIT_WWI_TANK" />
+		</Update>
+		<Update>
+			<Set Cost="915" PrereqTech="TECH_SUBMERSIBLES" ObsoleteTech="TECH_METAMATERIALS"/>
+			<Where Type="UNIT_SUBMARINE" />
+		</Update>
+		<Update>
+			<Set Cost="945" PrereqTech="TECH_RADAR" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
+			<Where Type="UNIT_BOMBER" />
+		</Update>
+		<Update>
+			<Set Cost="945" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
+			<Where Type="UNIT_AMERICAN_B17" />
+		</Update>
+		<Update>
+			<Set Cost="945" ObsoleteTech="TECH_ADVANCED_FLIGHT" PrereqTech="TECH_RADAR" />
+			<Where Type="UNIT_FIGHTER" />
+		</Update>
+		<Update>
+			<Set Cost="945" ObsoleteTech="TECH_ADVANCED_FLIGHT" PrereqTech="TECH_RADAR" />
+			<Where Type="UNIT_JAPANESE_ZERO" />
+		</Update>
+		<Update>
+			<Set Cost ="945" PrereqTech="TECH_BLITZKRIEG" />
+			<Where Type="UNIT_MARINE" />
+		</Update>
+		<Update>
+			<Set Cost="1050" PrereqTech="TECH_BLITZKRIEG" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
 			<Where Type="UNIT_TANK" />
 		</Update>
 		<Update>
-			<Set Cost="1050" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
+			<Set Cost="1050" PrereqTech="TECH_BLITZKRIEG" ObsoleteTech="TECH_COMPOSITE_ARMOR" />
 			<Where Type="UNIT_GERMAN_PANZER" />
 		</Update>
 		<Update>
-			<Set Cost="920" PrereqTech="TECH_FLIGHT" ObsoleteTech="TECH_EXOSKELETONS" />
+			<Set Cost="945" PrereqTech="TECH_RADAR" ObsoleteTech="TECH_EXOSKELETONS" />
 			<Where Type="UNIT_PARATROOPER" />
 		</Update>
-		<Update>
-			<Set Combat="30" RangedCombat="70" Cost="950" PrereqTech="TECH_SUBMERSIBLES" ObsoleteTech="TECH_METAMATERIALS"/>
-			<Where Type="UNIT_SUBMARINE" />
-		</Update>
-		
 		<!--MODERN ERA-->
 		<Update>
 			<Set Cost="2150" />
 			<Where Type="UNIT_ATOMIC_BOMB" />
+		</Update>
+		<Update>
+			<Set Cost="1075" PrereqTech="TECH_ADVANCED_FLIGHT" ObsoleteTech="TECH_SMART_MATERIALS" />
+			<Where Type="UNIT_HELICOPTER_GUNSHIP" />
+		</Update>
+		<Update>
+			<Set Cost="1075" PrereqTech="TECH_ROCKETRY" ObsoleteTech="TECH_DIGITAL_DEFENSE_DOCTRINE" />
+			<Where Type="UNIT_MOBILE_SAM" />
+		</Update>
+		<Update>
+			<Set Cost="1075" Range="4" ObsoleteTech="TECH_PARTICLE_BEAMS"/>
+			<Where Type="UNIT_ROCKET_ARTILLERY" />
+		</Update>
+		<Update>
+			<Set Cost="575" PrereqTech="TECH_CRUISE_MISSILES" ObsoleteTech="TECH_SCRAMJET_ENGINES" HurryCostModifier="50" />
+			<Where Type="UNIT_GUIDED_MISSILE" />
+		</Update>
+		<Update>
+			<Set Cost="1375" PrereqTech="TECH_ADVANCED_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS"/>
+			<Where Type="UNIT_JET_FIGHTER" />
+		</Update>
+		<Update>
+			<Set Cost="1200" ObsoleteTech="TECH_EXOSKELETONS" />
+			<Where Type="UNIT_MECHANIZED_INFANTRY" />
 		</Update>
 		<Row>
 			<Type>UNIT_COMBAT_CONTROLLER</Type>
 			<Description>TXT_KEY_UNIT_COMBAT_CONTROLLER</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_COMBAT_CONTROLLER_TEXT</Civilopedia>
 			<Help>TXT_KEY_UNIT_HELP_COMBAT_CONTROLLER</Help>
-			<Combat>28</Combat>
-			<RangedCombat>56</RangedCombat>
-			<Cost>1250</Cost>
-			<Moves>3</Moves>
+			<Combat>60</Combat>
+			<RangedCombat>80</RangedCombat>
+			<Cost>1150</Cost>
+			<Moves>2</Moves>
 			<Range>2</Range>
 			<Class>UNITCLASS_COMBAT_CONTROLLER</Class>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
@@ -1269,33 +1407,14 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER</UnitArtInfo>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagIconOffset>4</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Update>
-			<Set Cost="1325" PrereqTech="TECH_CRUISE_MISSILES" ObsoleteTech="TECH_SCRAMJET_ENGINES" HurryCostModifier="50" />
-			<Where Type="UNIT_GUIDED_MISSILE" />
-		</Update>
-		<Update>
-			<Set Cost="1300" PrereqTech="TECH_ADVANCED_FLIGHT" ObsoleteTech="TECH_SMART_MATERIALS" />
-			<Where Type="UNIT_HELICOPTER_GUNSHIP" />
-		</Update>
-		<Update>
-			<Set Cost="1375" PrereqTech="TECH_ADVANCED_FLIGHT" ObsoleteTech="TECH_HYBRID_SCRAMJETS"/>
-			<Where Type="UNIT_JET_FIGHTER" />
-		</Update>
-		<Update>
-			<Set Cost="1200" PrereqTech="TECH_INFANTRY_FIGHTING_VEHICLES" ObsoleteTech="TECH_EXOSKELETONS" />
-			<Where Type="UNIT_MECHANIZED_INFANTRY" />
-		</Update>
-		<Update>
-			<Set RangedCombat="50" Cost="1525" PrereqTech="TECH_CRUISE_MISSILES" ObsoleteTech="TECH_ULTRA_PRESSURE_MACHINERY" />
+			<Set Cost="1375" PrereqTech="TECH_CRUISE_MISSILES" ObsoleteTech="TECH_ULTRA_PRESSURE_MACHINERY" />
 			<Where Type="UNIT_MISSILE_CRUISER" />
-		</Update>
-		<Update>
-			<Set Cost="1100" PrereqTech="TECH_ROCKETRY" ObsoleteTech="TECH_DIGITAL_DEFENSE_DOCTRINE" />
-			<Where Type="UNIT_MOBILE_SAM" />
 		</Update>
 		<Update>
 			<Set Cost="1375" PrereqTech="TECH_COMPOSITE_ARMOR" ObsoleteTech="TECH_PARTICLE_BEAMS"/>
@@ -1306,15 +1425,11 @@
 			<Where Type="UNIT_NUCLEAR_MISSILE" />
 		</Update>
 		<Update>
-			<Set Combat="40" RangedCombat="90" Cost="1800" PrereqTech="TECH_NUCLEAR_FISSION" ObsoleteTech="TECH_ULTRA_PRESSURE_MACHINERY" />
+			<Set Cost="1325" PrereqTech="TECH_NUCLEAR_FISSION" ObsoleteTech="TECH_ULTRA_PRESSURE_MACHINERY" />
 			<Where Type="UNIT_NUCLEAR_SUBMARINE" />
 		</Update>
 		<Update>
-			<Set RangedCombat="58" Cost="1325" Range="4" ObsoleteTech="TECH_PARTICLE_BEAMS"/>
-			<Where Type="UNIT_ROCKET_ARTILLERY" />
-		</Update>
-		<Update>
-			<Set Cost="1525" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
+			<Set Cost="1325" ObsoleteTech="TECH_HYBRID_SCRAMJETS" />
 			<Where Type="UNIT_STEALTH_BOMBER" />
 		</Update>
 		<Row>
@@ -1346,9 +1461,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_JET_FIGHTER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<PortraitIndex>31</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_SUPERCARRIER</Type>
@@ -1359,7 +1475,7 @@
 			<Cost>1800</Cost>
 			<Moves>8</Moves>
 			<Class>UNITCLASS_SUPERCARRIER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -1377,9 +1493,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_CARRIER</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>70</UnitFlagIconOffset>
-			<PortraitIndex>23</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_UNMANNED_AIRCRAFT</Type>
@@ -1410,9 +1527,10 @@
 			<XPValueDefense>2</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_JET_FIGHTER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>37</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>6</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 
 		<!--DIGITAL ERA-->
@@ -1425,12 +1543,11 @@
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_DDX_DESTROYER_TEXT</Civilopedia>
 			<Help>TXT_KEY_UNIT_HELP_DDX_DESTROYER</Help>
 			<Combat>65</Combat>
-			<RangedCombat>60</RangedCombat>
 			<Cost>25000</Cost>
 			<Moves>10</Moves>
 			<Range>3</Range>
 			<Class>UNITCLASS_DDX_DESTROYER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -1445,9 +1562,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_DESTROYER</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>67</UnitFlagIconOffset>
-			<PortraitIndex>20</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>7</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_CGX_CRUISER</Type>
@@ -1460,7 +1578,7 @@
 			<Moves>8</Moves>
 			<Range>4</Range>
 			<Class>UNITCLASS_CGX_CRUISER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -1477,9 +1595,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_MISSILE_CRUISER</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>80</UnitFlagIconOffset>
-			<PortraitIndex>33</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>8</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_STEALTH_GUNSHIP</Type>
@@ -1503,9 +1622,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_HELICOPTER_GUNSHIP</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>75</UnitFlagIconOffset>
-			<PortraitIndex>28</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>9</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_STEALTH_SUBMARINE</Type>
@@ -1518,7 +1638,7 @@
 			<Moves>8</Moves>
 			<Range>4</Range>
 			<Class>UNITCLASS_STEALTH_SUBMARINE</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -1536,9 +1656,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_SUBMARINE</UnitArtInfo>
 			<MoveRate>SUB</MoveRate>
-			<UnitFlagIconOffset>81</UnitFlagIconOffset>
-			<PortraitIndex>34</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>10</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_HYPERSONIC_CRUISE_MISSILE</Type>
@@ -1568,9 +1689,10 @@
 			<NoMaintenance>true</NoMaintenance>
 			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>77</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_GAUSS_TANK</Type>
@@ -1595,9 +1717,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_MODERN_ARMOR</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>74</UnitFlagIconOffset>
-			<PortraitIndex>27</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>12</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_MASS_DRIVER_ARTILLERY</Type>
@@ -1624,9 +1747,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_ROCKET_ARTILLERY</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>72</UnitFlagIconOffset>
-			<PortraitIndex>25</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>13</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>14</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_POWERED_INFANTRY</Type>
@@ -1651,9 +1775,10 @@
 			<Conscription>7</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>59</UnitFlagIconOffset>
-			<PortraitIndex>14</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>14</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>15</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_FUSION_SUPERCARRIER</Type>
@@ -1664,7 +1789,7 @@
 			<Cost>37500</Cost>
 			<Moves>12</Moves>
 			<Class>UNITCLASS_FUSION_SUPERCARRIER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -1681,9 +1806,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_CARRIER</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>70</UnitFlagIconOffset>
-			<PortraitIndex>23</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>15</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>16</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_HYPERSONIC_BOMBER</Type>
@@ -1713,9 +1839,10 @@
 			<XPValueDefense>2</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_STEALTH_BOMBER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>79</UnitFlagIconOffset>
-			<PortraitIndex>37</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>16</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_HYPERSONIC_INTERCEPTOR</Type>
@@ -1745,9 +1872,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_JET_FIGHTER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<PortraitIndex>31</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>17</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>18</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_MICRO_UAV_TEAM</Type>
@@ -1772,9 +1900,10 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER</UnitArtInfo>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagIconOffset>18</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_TACTICAL_LASER_AIR_DEFENSE</Type>
@@ -1801,9 +1930,10 @@
 			<Conscription>1</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_MOBILE_SAM</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>76</UnitFlagIconOffset>
-			<PortraitIndex>29</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>19</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>20</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_ORBITAL_STRIKE_MISSILE</Type>
@@ -1833,9 +1963,10 @@
 			<NoMaintenance>true</NoMaintenance>
 			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>77</UnitFlagIconOffset>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>20</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_SPACE_BOMBER</Type>
@@ -1865,9 +1996,10 @@
 			<XPValueDefense>2</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_STEALTH_BOMBER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>79</UnitFlagIconOffset>
-			<PortraitIndex>37</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>21</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_SPACE_FIGHTER</Type>
@@ -1897,9 +2029,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_JET_FIGHTER</UnitArtInfo>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<UnitFlagIconOffset>78</UnitFlagIconOffset>
-			<PortraitIndex>31</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>22</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>23</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_HUNTER_KILLER</Type>
@@ -1923,9 +2056,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_HELICOPTER_GUNSHIP</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>75</UnitFlagIconOffset>
-			<PortraitIndex>28</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>23</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_FUSION_TANK</Type>
@@ -1950,9 +2084,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_MODERN_ARMOR</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>74</UnitFlagIconOffset>
-			<PortraitIndex>27</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>24</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>25</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_HEAVY_ISOTOPE_PROJECTOR</Type>
@@ -1979,9 +2114,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_ROCKET_ARTILLERY</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>72</UnitFlagIconOffset>
-			<PortraitIndex>25</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>25</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>26</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_BEAM_JUMPER</Class>
@@ -2005,9 +2141,10 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_MECH</UnitArtInfo>
-			<UnitFlagIconOffset>83</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
-			<PortraitIndex>36</PortraitIndex>
+			<UnitFlagIconOffset>26</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
+			<PortraitIndex>27</PortraitIndex>
 			<MoveRate>ROBOT</MoveRate>
 		</Row>
 		<Row>
@@ -2016,12 +2153,11 @@
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_PLASMA_DESTROYER_TEXT</Civilopedia>
 			<Help>TXT_KEY_UNIT_HELP_PLASMA_DESTROYER</Help>
 			<Combat>100</Combat>
-			<RangedCombat>120</RangedCombat>
 			<Cost>55000</Cost>
 			<Moves>12</Moves>
 			<Range>4</Range>
 			<Class>UNITCLASS_PLASMA_DESTROYER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -2036,9 +2172,10 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_DESTROYER</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>67</UnitFlagIconOffset>
-			<PortraitIndex>20</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>27</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>28</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_FUSION_DREADNOUGHT</Type>
@@ -2051,7 +2188,7 @@
 			<Moves>8</Moves>
 			<Range>5</Range>
 			<Class>UNITCLASS_FUSION_DREADNOUGHT</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -2068,9 +2205,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_BATTLESHIP</UnitArtInfo>
 			<MoveRate>BOAT</MoveRate>
-			<UnitFlagIconOffset>80</UnitFlagIconOffset>
-			<PortraitIndex>33</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>28</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>29</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_SUPERCAVITATING_SUBMARINE</Type>
@@ -2083,7 +2221,7 @@
 			<Moves>12</Moves>
 			<Range>4</Range>
 			<Class>UNITCLASS_SUPERCAVITATING_SUBMARINE</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -2101,9 +2239,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_SUBMARINE</UnitArtInfo>
 			<MoveRate>SUB</MoveRate>
-			<UnitFlagIconOffset>81</UnitFlagIconOffset>
-			<PortraitIndex>34</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>29</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>30</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_SUBMERSIBLE_CARRIER</Type>
@@ -2116,7 +2255,7 @@
 			<Moves>12</Moves>
 			<Range>4</Range>
 			<Class>UNITCLASS_SUBMERSIBLE_CARRIER</Class>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
 			<MilitarySupport>true</MilitarySupport>
@@ -2133,9 +2272,10 @@
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_SUBMARINE</UnitArtInfo>
 			<MoveRate>SUB</MoveRate>
-			<UnitFlagIconOffset>70</UnitFlagIconOffset>
-			<PortraitIndex>23</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>30</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>31</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_PARTICLE_GRID_AIR_DEFENSE</Type>
@@ -2161,9 +2301,10 @@
 			<Conscription>1</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_MOBILE_SAM</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>76</UnitFlagIconOffset>
-			<PortraitIndex>29</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>31</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_CYBERNETIC_MARAUDER</Type>
@@ -2186,9 +2327,11 @@
 			<AdvancedStartCost>110</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
+			<UnitFlagIconOffset>32</UnitFlagIconOffset>
 			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER</UnitArtInfo>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>UNIT_LEAP_INFANTRY</Type>
@@ -2213,9 +2356,10 @@
 			<Conscription>7</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_PARATROOPER</UnitArtInfo>
 			<MoveRate>WHEELED</MoveRate>
-			<UnitFlagIconOffset>59</UnitFlagIconOffset>
-			<PortraitIndex>14</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagIconOffset>33</UnitFlagIconOffset>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_3</IconAtlas>
 		</Row>
 
 
@@ -2250,7 +2394,7 @@
 		
 	</Units>
 	<Unit_AITypes>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_COG</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
 		</Row>
@@ -2265,8 +2409,8 @@
 		<Row>
 			<UnitType>UNIT_COG</UnitType>
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<UnitType>UNIT_GALLEON</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
 		</Row>
@@ -2281,11 +2425,11 @@
 		<Row>
 			<UnitType>UNIT_GALLEON</UnitType>
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<UnitType>UNIT_MACHINE_GUNNER</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
-		</Row>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_MISSILE_SQUAD</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
@@ -2590,6 +2734,10 @@
 			<BuildingClassType>BUILDINGCLASS_INDUSTRIAL_SHIPYARD</BuildingClassType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_WWI_TANK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_AUTO_PLANT</BuildingClassType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_TANK</UnitType>
 			<BuildingClassType>BUILDINGCLASS_AUTO_PLANT</BuildingClassType>
 		</Row>
@@ -2604,6 +2752,14 @@
 		<Row>
 			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
 			<BuildingClassType>BUILDINGCLASS_AUTO_PLANT</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_AIRCRAFT_PLANT</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_AIRCRAFT_PLANT</BuildingClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FIGHTER</UnitType>
@@ -2735,7 +2891,7 @@
 		</Row>
 	</Unit_BuildingClassRequireds>
 	<Unit_Flavors>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_COG</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>8</Flavor>
@@ -2754,8 +2910,8 @@
 			<UnitType>UNIT_COG</UnitType>
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>4</Flavor>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<UnitType>UNIT_GALLEON</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>12</Flavor>
@@ -2774,8 +2930,8 @@
 			<UnitType>UNIT_GALLEON</UnitType>
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>2</Flavor>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<UnitType>UNIT_MACHINE_GUNNER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>3</Flavor>
@@ -2789,7 +2945,7 @@
 			<UnitType>UNIT_MACHINE_GUNNER</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>6</Flavor>
-		</Row>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_MISSILE_SQUAD</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -3413,11 +3569,15 @@
 	<UnitPromotions_UnitCombats>
 		<Row>
 			<PromotionType>PROMOTION_MAGELLAN_VOYAGE</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FOR_THE_KING</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FOR_THE_KING</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FOR_THE_KING</PromotionType>
@@ -3453,7 +3613,11 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FEROCITY</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FEROCITY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FEROCITY</PromotionType>
@@ -3489,7 +3653,11 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_OATH</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_OATH</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_OATH</PromotionType>
@@ -3525,7 +3693,11 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_JINGOIST</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_JINGOIST</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_JINGOIST</PromotionType>
@@ -3561,7 +3733,11 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FATHERLAND</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FATHERLAND</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_FATHERLAND</PromotionType>
@@ -3597,7 +3773,11 @@
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_ECO_FANATIC</PromotionType>
-			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ECO_FANATIC</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 		</Row>
 		<Row>
 			<PromotionType>PROMOTION_ECO_FANATIC</PromotionType>

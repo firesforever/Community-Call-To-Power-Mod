@@ -1,65 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Resources>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="0" IconString="[ICON_RES_ALLIGATOR]"/>
-			<Where Type="RESOURCE_ALLIGATOR" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="1" IconString="[ICON_RES_COFFEE]"/>
-			<Where Type="RESOURCE_COFFEE" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="2" IconString="[ICON_RES_COPPER]"/>
-			<Where Type="RESOURCE_COPPER" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="3" IconString="[ICON_RES_SQUID]"/>
-			<Where Type="RESOURCE_SQUID" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="4" IconString="[ICON_RES_CRAB]"/>
-			<Where Type="RESOURCE_CRAB" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="5" IconString="[ICON_RES_ELECTRICITY]"/>
-			<Where Type="RESOURCE_ELECTRICITY" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="6" IconString="[ICON_RES_POPPY]"/>
-			<Where Type="RESOURCE_POPPY" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="7" IconString="[ICON_RES_OAK]"/>
-			<Where Type="RESOURCE_OAK" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="8" IconString="[ICON_RES_ALOE_VERA]"/>
-			<Where Type="RESOURCE_ALOE_VERA" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="9" IconString="[ICON_RES_AMBER]"/>
-			<Where Type="RESOURCE_AMBER" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="10" IconString="[ICON_RES_JADE]"/>
-			<Where Type="RESOURCE_JADE" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="11" IconString="[ICON_RES_TITANIUM]"/>
-			<Where Type="RESOURCE_TITANIUM" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="12" IconString="[ICON_RES_MANGANESE]"/>
-			<Where Type="RESOURCE_MANGANESE" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="13" IconString="[ICON_RES_HELIUM_3]"/>
-			<Where Type="RESOURCE_HELIUM_3" />
-		</Update>
-		<Update>
-			<Set IconAtlas="RESOURCE_ATLAS_2" PortraitIndex="14" IconString="[ICON_RES_COCOA]"/>
-			<Where Type="RESOURCE_COCOA" />
-		</Update>
-	</Resources>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>CCTP_RESOURCE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>resourcesTwo2048.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CCTP_RESOURCE_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>resourcesTwo640.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CCTP_RESOURCE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>resourcesTwo512.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CCTP_RESOURCE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>resourcesTwo360.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
 </GameData>

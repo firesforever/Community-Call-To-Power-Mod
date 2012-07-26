@@ -40,127 +40,127 @@
 		<!--Box Titles-->
 		<!--Governments-->
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_MONARCHY_CAP">
-			<Text>MONARCHY</Text>
+			<Text>Monarchy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_THEOCRACY_CAP">
-			<Text>THEOCRACY</Text>
+			<Text>Theocracy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_REPUBLIC_CAP">
-			<Text>REPUBLIC</Text>
+			<Text>Republic</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_DEMOCRACY_CAP">
-			<Text>DEMOCRACY</Text>
+			<Text>Democracy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FASCISM_CAP">
-			<Text>FASCISM</Text>
+			<Text>Fascism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_COMMUNISM_CAP">
-			<Text>COMMUNISM</Text>
+			<Text>Communism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CORPORATE_CAP">
-			<Text>CORPORATE</Text>
+			<Text>Corporate</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_TECHNOCRACY_CAP">
-			<Text>TECHNOCRACY</Text>
+			<Text>Technocracy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ECOTOPIA_CAP">
-			<Text>ECOTOPIA</Text>
+			<Text>Ecotopia</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_VIRTUALDEMOCRACY_CAP">
-			<Text>VIRTUALDEMOCRACY</Text>
+			<Text>Virtual Democracy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_MONARCHY">
-			<Text>MONARCHY</Text>
+			<Text>Monarchy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_THEOCRACY">
-			<Text>THEOCRACY</Text>
+			<Text>Theocracy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_REPUBLIC">
-			<Text>REPUBLIC</Text>
+			<Text>Republic</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_DEMOCRACY">
-			<Text>DEMOCRACY</Text>
+			<Text>Democracy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FASCISM">
-			<Text>FASCISM</Text>
+			<Text>Fascism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_COMMUNISM">
-			<Text>COMMUNISM</Text>
+			<Text>Communism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CORPORATE">
-			<Text>CORPORATE</Text>
+			<Text>Corporate</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_TECHNOCRACY">
-			<Text>TECHNOCRACY</Text>
+			<Text>Technocracy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ECOTOPIA">
-			<Text>ECOTOPIA</Text>
+			<Text>Ecotopia</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_VIRTUALDEMOCRACY">
-			<Text>VIRTUALDEMOCRACY</Text>
+			<Text>Virtual Democracy</Text>
 		</Row>
 
 		<!--Governement Ideologies-->
 
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PACIFISM_CAP">
-			<Text>PACIFISM</Text>
+			<Text>Pacifism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_IMPERIALISM_CAP">
-			<Text>IMPERIALISM</Text>
+			<Text>Imperialism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_POPULISM_CAP">
-			<Text>POPULISM</Text>
+			<Text>Populism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CAPITALISM_CAP">
-			<Text>CAPITALISM</Text>
+			<Text>Capitalism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_LIBERALISM_CAP">
-			<Text>LIBERALISM</Text>
+			<Text>Liberalism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CONSERVATISM_CAP">
-			<Text>CONSERVATISM</Text>
+			<Text>Conservatism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_NATIONALISM_CAP">
-			<Text>NATIONALISM</Text>
+			<Text>NationalismM</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_SOCIALISM_CAP">
-			<Text>SOCIALISM</Text>
+			<Text>Socialsim</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ANARCHISM_CAP">
-			<Text>ANARCHISM</Text>
+			<Text>Anarchism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ENVIRONMENTALISM_CAP">
-			<Text>ENVIRONMENTALISM</Text>
+			<Text>Environmentalism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PACIFISM">
-			<Text>PACIFISM</Text>
+			<Text>Pacifism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_IMPERIALISM">
-			<Text>IMPERIALISM</Text>
+			<Text>Imperialism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_POPULISM">
-			<Text>POPULISM</Text>
+			<Text>Populism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CAPITALISM">
-			<Text>CAPITALISM</Text>
+			<Text>Capitalism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_LIBERALISM">
-			<Text>LIBERALISM</Text>
+			<Text>Liberalism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CONSERVATISM">
-			<Text>CONSERVATISM</Text>
+			<Text>Conservatism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_NATIONALISM">
-			<Text>NATIONALISM</Text>
+			<Text>Nationalism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_SOCIALISM">
-			<Text>SOCIALISM</Text>
+			<Text>Socialism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ANARCHISM">
-			<Text>ANARCHISM</Text>
+			<Text>Anarchism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ENVIRONMENTALISM">
-			<Text>ENVIRONMENTALISM</Text>
+			<Text>Environmentalism</Text>
 		</Row>
 
 		<!--Governement Systems-->
@@ -1183,7 +1183,7 @@
 			<Text>Jingoism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_JINGOISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Jingoism[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production from every Military Academy.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Jingoism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Barracks, Armory, or Military Academy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_EXCEPTIONALISM">
 			<Text>Exceptionalism</Text>

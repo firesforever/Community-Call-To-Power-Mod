@@ -3,43 +3,45 @@
 	<Buildings>
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="0"/>
-			<Where Type="BUILDING_SMALL_IRON_SMELTER"/>
+			<Where Type="BUILDING_BANANA_FARM"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="1"/>
-			<Where Type="BUILDING_SMALL_HORSE_STABLE"/>
+			<Where Type="BUILDING_CATTLE_RANCH"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="2"/>
-			<Where Type="BUILDING_SMALL_COAL_PLANT"/>
+			<Where Type="BUILDING_TIN_SMELTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="3"/>
-			<Where Type="BUILDING_SMALL_OIL_REFINERY"/>
+			<Where Type="BUILDING_CRAB_HERDER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="4"/>
-			<Where Type="BUILDING_SMALL_ALUMINUM_MILL"/>
-		</Update>	
-		<Update>	
+			<Where Type="BUILDING_DEER_HERDER"/>
+		</Update>
+		<Update>
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="5"/>
-			<Where Type="BUILDING_SMALL_NUCLEAR_PLANT"/>
-		</Update>	
+			<Where Type="BUILDING_FISH_HERDER"/>
+		</Update>
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="6"/>
-			<Where Type="BUILDING_SMALL_WHEAT_MILL"/>
+			<Where Type="BUILDING_SHEEP_RANCH"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="7"/>
-			<Where Type="BUILDING_SMALL_CATTLE_YARD"/>
+			<Where Type="BUILDING_STONE_CUTTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="8"/>
-			<Where Type="BUILDING_SMALL_DEER_BUTCHER"/>
+			<Where Type="BUILDING_WHEAT_FARM"/>
 		</Update>	
+		
+		<!--
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="9"/>
-			<Where Type="BUILDING_SMALL_FISH_MARKET"/>
+			<Where Type="BUILDING_FISH_HERDER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="10"/>
@@ -47,7 +49,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="11"/>
-			<Where Type="BUILDING_SMALL_BANANA_MARKET"/>
+			<Where Type="BUILDING_BANANA_FARM"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="12"/>
@@ -107,7 +109,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="26"/>
-			<Where Type="BUILDING_SMALL_SHEEP_BUTCHER"/>
+			<Where Type="BUILDING_SHEEP_RANCH"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="27"/>
@@ -119,7 +121,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="29"/>
-			<Where Type="BUILDING_SMALL_COPPER_SMELTER"/>
+			<Where Type="BUILDING_TIN_SMELTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="30"/>
@@ -127,7 +129,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="31"/>
-			<Where Type="BUILDING_SMALL_CRAB_MARKET"/>
+			<Where Type="BUILDING_CRAB_HERDER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="32"/>
@@ -161,62 +163,64 @@
 			<Set IconAtlas="BW_MONOPOLY_1" PortraitIndex="39"/>
 			<Where Type="BUILDING_SMALL_COCOA_MILL"/>
 		</Update>	
+		-->
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="0"/>
-			<Where Type="BUILDING_MEDIUM_IRON_SMELTER"/>
+			<Where Type="BUILDING_ALOE_VERA_DISTILLERY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="1"/>
-			<Where Type="BUILDING_MEDIUM_HORSE_STABLE"/>
+			<Where Type="BUILDING_AMBER_PURIFIER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="2"/>
-			<Where Type="BUILDING_MEDIUM_COAL_PLANT"/>
+			<Where Type="BUILDING_BANANA_TRADER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="3"/>
-			<Where Type="BUILDING_MEDIUM_OIL_REFINERY"/>
+			<Where Type="BUILDING_CATTLE_TRADER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="4"/>
-			<Where Type="BUILDING_MEDIUM_ALUMINUM_MILL"/>
+			<Where Type="BUILDING_TIN_DEPOT"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="5"/>
-			<Where Type="BUILDING_MEDIUM_NUCLEAR_PLANT"/>
+			<Where Type="BUILDING_TOBACCO_FIELD"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="6"/>
-			<Where Type="BUILDING_MEDIUM_WHEAT_MILL"/>
+			<Where Type="BUILDING_DEER_MARKET"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="7"/>
-			<Where Type="BUILDING_MEDIUM_CATTLE_YARD"/>
+			<Where Type="BUILDING_FISH_MARKET"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="8"/>
-			<Where Type="BUILDING_MEDIUM_DEER_BUTCHER"/>
+			<Where Type="BUILDING_JADE_MARKET"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="9"/>
-			<Where Type="BUILDING_MEDIUM_FISH_MARKET"/>
+			<Where Type="BUILDING_OAK_DEPOT"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="10"/>
-			<Where Type="BUILDING_MEDIUM_WHALE_MARKET"/>
+			<Where Type="BUILDING_POPPY_REFINERY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="11"/>
-			<Where Type="BUILDING_MEDIUM_BANANA_MARKET"/>
+			<Where Type="BUILDING_SHEEP_TRADER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="12"/>
-			<Where Type="BUILDING_MEDIUM_GOLD_SMELTER"/>
+			<Where Type="BUILDING_STONE_DEPOT"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="13"/>
-			<Where Type="BUILDING_MEDIUM_GEM_MARKET"/>
+			<Where Type="BUILDING_WHEAT_MARKET"/>
 		</Update>	
+	<!--
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="14"/>
 			<Where Type="BUILDING_MEDIUM_MARBLEWORKS"/>
@@ -267,7 +271,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="26"/>
-			<Where Type="BUILDING_MEDIUM_SHEEP_BUTCHER"/>
+			<Where Type="BUILDING_SHEEP_TRADER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="27"/>
@@ -279,7 +283,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="29"/>
-			<Where Type="BUILDING_MEDIUM_COPPER_SMELTER"/>
+			<Where Type="BUILDING_TIN_DEPOT"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="30"/>
@@ -287,11 +291,11 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="31"/>
-			<Where Type="BUILDING_MEDIUM_CRAB_MARKET"/>
+			<Where Type="BUILDING_CRAB_MARKET"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="32"/>
-			<Where Type="BUILDING_MEDIUM_POPPY_REFINERY"/>
+			<Where Type="BUILDING_POPPY_REFINERY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="33"/>
@@ -321,78 +325,80 @@
 			<Set IconAtlas="BW_MONOPOLY_2" PortraitIndex="39"/>
 			<Where Type="BUILDING_MEDIUM_COCOA_MILL"/>
 		</Update>	
+		-->
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="0"/>
-			<Where Type="BUILDING_LARGE_IRON_SMELTER"/>
+			<Where Type="BUILDING_ALOE_VERA_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="1"/>
-			<Where Type="BUILDING_LARGE_HORSE_STABLE"/>
+			<Where Type="BUILDING_AMBER_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="2"/>
-			<Where Type="BUILDING_LARGE_COAL_PLANT"/>
+			<Where Type="BUILDING_BANANA_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="3"/>
-			<Where Type="BUILDING_LARGE_OIL_REFINERY"/>
+			<Where Type="BUILDING_CATTLE_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="4"/>
-			<Where Type="BUILDING_LARGE_ALUMINUM_MILL"/>
+			<Where Type="BUILDING_COFFEE_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="5"/>
-			<Where Type="BUILDING_LARGE_NUCLEAR_PLANT"/>
+			<Where Type="BUILDING_TIN_MANUFACTURER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="6"/>
-			<Where Type="BUILDING_LARGE_WHEAT_MILL"/>
+			<Where Type="BUILDING_TOBACCO_PLANTATION"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="7"/>
-			<Where Type="BUILDING_LARGE_CATTLE_YARD"/>
+			<Where Type="BUILDING_DEER_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="8"/>
-			<Where Type="BUILDING_LARGE_DEER_BUTCHER"/>
+			<Where Type="BUILDING_FISH_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="9"/>
-			<Where Type="BUILDING_LARGE_FISH_MARKET"/>
+			<Where Type="BUILDING_JADE_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="10"/>
-			<Where Type="BUILDING_LARGE_WHALE_MARKET"/>
+			<Where Type="BUILDING_MANGANESE_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="11"/>
-			<Where Type="BUILDING_LARGE_BANANA_MARKET"/>
+			<Where Type="BUILDING_OAK_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="12"/>
-			<Where Type="BUILDING_LARGE_GOLD_SMELTER"/>
+			<Where Type="BUILDING_POPPY_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="13"/>
-			<Where Type="BUILDING_LARGE_GEM_MARKET"/>
+			<Where Type="BUILDING_SHEEP_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="14"/>
-			<Where Type="BUILDING_LARGE_MARBLEWORKS"/>
+			<Where Type="BUILDING_SQUID_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="15"/>
-			<Where Type="BUILDING_LARGE_IVORY_MARKET"/>
+			<Where Type="BUILDING_STONE_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="16"/>
-			<Where Type="BUILDING_LARGE_DYEWORKS"/>
+			<Where Type="BUILDING_TITANIUM_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="17"/>
-			<Where Type="BUILDING_LARGE_SPICE_MARKET"/>
+			<Where Type="BUILDING_WHEAT_DISTRIBUTION_CENTER"/>
 		</Update>	
+	<!--
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="18"/>
 			<Where Type="BUILDING_LARGE_SILK_LOOM"/>
@@ -427,7 +433,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="26"/>
-			<Where Type="BUILDING_LARGE_SHEEP_BUTCHER"/>
+			<Where Type="BUILDING_SHEEP_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="27"/>
@@ -435,11 +441,11 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="28"/>
-			<Where Type="BUILDING_LARGE_COFFEE_MILL"/>
+			<Where Type="BUILDING_COFFEE_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="29"/>
-			<Where Type="BUILDING_LARGE_COPPER_SMELTER"/>
+			<Where Type="BUILDING_TIN_MANUFACTURER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="30"/>
@@ -447,11 +453,11 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="31"/>
-			<Where Type="BUILDING_LARGE_CRAB_MARKET"/>
+			<Where Type="BUILDING_CRAB_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="32"/>
-			<Where Type="BUILDING_LARGE_POPPY_REFINERY"/>
+			<Where Type="BUILDING_POPPY_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="33"/>
@@ -471,7 +477,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="37"/>
-			<Where Type="BUILDING_LARGE_TITANIUM_SMELTER"/>
+			<Where Type="BUILDING_TITANIUM_DISTRIBUTION_CENTER"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="38"/>
@@ -481,78 +487,80 @@
 			<Set IconAtlas="BW_MONOPOLY_3" PortraitIndex="39"/>
 			<Where Type="BUILDING_LARGE_COCOA_MILL"/>
 		</Update>	
+		-->
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="0"/>
-			<Where Type="BUILDING_HUGE_IRON_SMELTER"/>
+			<Where Type="BUILDING_ALOE_VERA_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="1"/>
-			<Where Type="BUILDING_HUGE_HORSE_STABLE"/>
+			<Where Type="BUILDING_AMBER_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="2"/>
-			<Where Type="BUILDING_HUGE_COAL_PLANT"/>
+			<Where Type="BUILDING_BANANA_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="3"/>
-			<Where Type="BUILDING_HUGE_OIL_REFINERY"/>
+			<Where Type="BUILDING_CATTLE_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="4"/>
-			<Where Type="BUILDING_HUGE_ALUMINUM_MILL"/>
+			<Where Type="BUILDING_COFFEE_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="5"/>
-			<Where Type="BUILDING_HUGE_NUCLEAR_PLANT"/>
+			<Where Type="BUILDING_TIN_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="6"/>
-			<Where Type="BUILDING_HUGE_WHEAT_MILL"/>
+			<Where Type="BUILDING_TOBACCO_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="7"/>
-			<Where Type="BUILDING_HUGE_CATTLE_YARD"/>
+			<Where Type="BUILDING_DEER_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="8"/>
-			<Where Type="BUILDING_HUGE_DEER_BUTCHER"/>
+			<Where Type="BUILDING_FISH_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="9"/>
-			<Where Type="BUILDING_HUGE_FISH_MARKET"/>
+			<Where Type="BUILDING_JADE_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="10"/>
-			<Where Type="BUILDING_HUGE_WHALE_MARKET"/>
+			<Where Type="BUILDING_MANGANESE_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="11"/>
-			<Where Type="BUILDING_HUGE_BANANA_MARKET"/>
+			<Where Type="BUILDING_OAK_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="12"/>
-			<Where Type="BUILDING_HUGE_GOLD_SMELTER"/>
+			<Where Type="BUILDING_POPPY_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="13"/>
-			<Where Type="BUILDING_HUGE_GEM_MARKET"/>
+			<Where Type="BUILDING_SHEEP_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="14"/>
-			<Where Type="BUILDING_HUGE_MARBLEWORKS"/>
+			<Where Type="BUILDING_SQUID_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="15"/>
-			<Where Type="BUILDING_HUGE_IVORY_MARKET"/>
+			<Where Type="BUILDING_STONE_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="16"/>
-			<Where Type="BUILDING_HUGE_DYEWORKS"/>
+			<Where Type="BUILDING_TITANIUM_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="17"/>
-			<Where Type="BUILDING_HUGE_SPICE_MARKET"/>
+			<Where Type="BUILDING_WHEAT_CONGLOMERATE"/>
 		</Update>	
+		<!--
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="18"/>
 			<Where Type="BUILDING_HUGE_SILK_LOOM"/>
@@ -587,7 +595,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="26"/>
-			<Where Type="BUILDING_HUGE_SHEEP_BUTCHER"/>
+			<Where Type="BUILDING_SHEEP_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="27"/>
@@ -595,11 +603,11 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="28"/>
-			<Where Type="BUILDING_HUGE_COFFEE_MILL"/>
+			<Where Type="BUILDING_COFFEE_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="29"/>
-			<Where Type="BUILDING_HUGE_COPPER_SMELTER"/>
+			<Where Type="BUILDING_TIN_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="30"/>
@@ -607,11 +615,11 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="31"/>
-			<Where Type="BUILDING_HUGE_CRAB_MARKET"/>
+			<Where Type="BUILDING_CRAB_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="32"/>
-			<Where Type="BUILDING_HUGE_POPPY_REFINERY"/>
+			<Where Type="BUILDING_POPPY_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="33"/>
@@ -631,7 +639,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="37"/>
-			<Where Type="BUILDING_HUGE_TITANIUM_SMELTER"/>
+			<Where Type="BUILDING_TITANIUM_CONGLOMERATE"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="38"/>
@@ -641,78 +649,80 @@
 			<Set IconAtlas="BW_MONOPOLY_4" PortraitIndex="39"/>
 			<Where Type="BUILDING_HUGE_COCOA_MILL"/>
 		</Update>	
+		-->
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="0"/>
-			<Where Type="BUILDING_IRON_MONOPOLY"/>
+			<Where Type="BUILDING_ALOE_VERA_MONOPOLY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="1"/>
-			<Where Type="BUILDING_HORSE_MONOPOLY"/>
+			<Where Type="BUILDING_AMBER_MONOPOLY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="2"/>
-			<Where Type="BUILDING_COAL_MONOPOLY"/>
-		</Update>	
-		<Update>	
-			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="3"/>
-			<Where Type="BUILDING_OIL_MONOPOLY"/>
-		</Update>	
-		<Update>	
-			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="4"/>
-			<Where Type="BUILDING_ALUMINUM_MONOPOLY"/>
-		</Update>	
-		<Update>	
-			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="5"/>
-			<Where Type="BUILDING_URANIUM_MONOPOLY"/>
-		</Update>	
-		<Update>	
-			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="6"/>
-			<Where Type="BUILDING_WHEAT_MONOPOLY"/>
-		</Update>	
-		<Update>	
-			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="7"/>
-			<Where Type="BUILDING_CATTLE_MONOPOLY"/>
-		</Update>	
-		<Update>	
-			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="8"/>
-			<Where Type="BUILDING_DEER_MONOPOLY"/>
-		</Update>	
-		<Update>	
-			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="9"/>
-			<Where Type="BUILDING_FISH_MONOPOLY"/>
-		</Update>	
-		<Update>	
-			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="10"/>
-			<Where Type="BUILDING_WHALE_MONOPOLY"/>
-		</Update>	
-		<Update>	
-			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="11"/>
 			<Where Type="BUILDING_BANANA_MONOPOLY"/>
 		</Update>	
 		<Update>	
+			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="3"/>
+			<Where Type="BUILDING_CATTLE_MONOPOLY"/>
+		</Update>	
+		<Update>	
+			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="4"/>
+			<Where Type="BUILDING_COFFEE_MONOPOLY"/>
+		</Update>	
+		<Update>	
+			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="5"/>
+			<Where Type="BUILDING_TIN_MONOPOLY"/>
+		</Update>	
+		<Update>	
+			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="6"/>
+			<Where Type="BUILDING_TOBACCO_MONOPOLY"/>
+		</Update>	
+		<Update>	
+			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="7"/>
+			<Where Type="BUILDING_DEER_MONOPOLY"/>
+		</Update>	
+		<Update>	
+			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="8"/>
+			<Where Type="BUILDING_FISH_MONOPOLY"/>
+		</Update>	
+		<Update>	
+			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="9"/>
+			<Where Type="BUILDING_JADE_MONOPOLY"/>
+		</Update>	
+		<Update>	
+			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="10"/>
+			<Where Type="BUILDING_MANGANESE_MONOPOLY"/>
+		</Update>	
+		<Update>	
+			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="11"/>
+			<Where Type="BUILDING_OAK_MONOPOLY"/>
+		</Update>	
+		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="12"/>
-			<Where Type="BUILDING_GOLD_MONOPOLY"/>
+			<Where Type="BUILDING_POPPY_MONOPOLY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="13"/>
-			<Where Type="BUILDING_GEM_MONOPOLY"/>
+			<Where Type="BUILDING_SHEEP_MONOPOLY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="14"/>
-			<Where Type="BUILDING_MARBLE_MONOPOLY"/>
+			<Where Type="BUILDING_SQUID_MONOPOLY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="15"/>
-			<Where Type="BUILDING_IVORY_MONOPOLY"/>
+			<Where Type="BUILDING_STONE_MONOPOLY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="16"/>
-			<Where Type="BUILDING_DYE_MONOPOLY"/>
+			<Where Type="BUILDING_TITANIUM_MONOPOLY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="17"/>
-			<Where Type="BUILDING_SPICE_MONOPOLY"/>
+			<Where Type="BUILDING_WHEAT_MONOPOLY"/>
 		</Update>	
+		<!--
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="18"/>
 			<Where Type="BUILDING_SILK_MONOPOLY"/>
@@ -759,7 +769,7 @@
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="29"/>
-			<Where Type="BUILDING_COPPER_MONOPOLY"/>
+			<Where Type="BUILDING_TIN_MONOPOLY"/>
 		</Update>	
 		<Update>	
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="30"/>
@@ -801,5 +811,6 @@
 			<Set IconAtlas="BW_MONOPOLY_5" PortraitIndex="39"/>
 			<Where Type="BUILDING_COCOA_MONOPOLY"/>
 		</Update>	
+		-->
 	</Buildings>
 </GameData>

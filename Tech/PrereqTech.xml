@@ -4,6 +4,206 @@
 	<Technology_PrereqTechs>
 		<Delete/>
 		<Row>
+			<TechType>TECH_WRITING</TechType>
+			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<PrereqTech>TECH_GREAT_MONUMENTS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_MILITARY_TRAINING</TechType>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_MILITARY_TRAINING</TechType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<PrereqTech>TECH_MILITARY_TRAINING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_IRON_WORKING</TechType>
+			<PrereqTech>TECH_MILITARY_TRAINING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
+			<PrereqTech>TECH_BLITZKRIEG</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_BLITZKRIEG</TechType>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_BLITZKRIEG</TechType>
+			<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_GLOBALIZATION</TechType>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TELECOM</TechType>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMBINED_ARMS</TechType>
+			<PrereqTech>TECH_COMBUSTION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FLIGHT</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TRACKED_VEHICLES</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TORPEDOES</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMBINED_ARMS</TechType>
+			<PrereqTech>TECH_MILITARY_TRADITION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_MILITARY_SCIENCE</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RADIO</TechType>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ARCHITECTURE</TechType>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ARCHITECTURE</TechType>
+			<PrereqTech>TECH_BANKING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ARCHITECTURE</TechType>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SCIENTIFIC_THEORY</TechType>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_BLAST_FURNACE</TechType>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HERDING</TechType>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HERDING</TechType>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RAW_MATERIALS</TechType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_GREAT_MONUMENTS</TechType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_PUBLIC_WORKS</TechType>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CONSTRUCTION</TechType>
+			<PrereqTech>TECH_WOODWORKING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FISH_MARKETS</TechType>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HERBAL_SCIENCE</TechType>
+			<PrereqTech>TECH_TRADING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HERBAL_SCIENCE</TechType>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HERBAL_SCIENCE</TechType>
+			<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_APOTHECARY</TechType>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_APOTHECARY</TechType>
+			<PrereqTech>TECH_HERBAL_SCIENCE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_MARKETS</TechType>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_MARKETS</TechType>
+			<PrereqTech>TECH_HERDING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_STONE_MASONS</TechType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_STONE_MASONS</TechType>
+			<PrereqTech>TECH_RAW_MATERIALS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_STONE_MASONS</TechType>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<PrereqTech>TECH_TRADE_FAIRS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<PrereqTech>TECH_AGRICULTURAL_REVOLUTION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<PrereqTech>TECH_ANIMAL_MARKETS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_OCEAN_PIONEERING</TechType>
+			<PrereqTech>TECH_BANKING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_OCEAN_PIONEERING</TechType>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_OCEAN_PIONEERING</TechType>
+			<PrereqTech>TECH_NAVIGATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<PrereqTech>TECH_OCEAN_PIONEERING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<PrereqTech>TECH_LIVESTOCK_DISTRIBUTION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_AGRICULTURAL_SCIENCES</TechType>
+			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
 			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 		</Row>
@@ -56,10 +256,6 @@
 			<PrereqTech>TECH_FERMENTATION</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_DRINK_FLAVORING</TechType>
-			<PrereqTech>TECH_FERMENTATION</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_CODE_OF_LAWS</TechType>
 			<PrereqTech>TECH_SPORTS</PrereqTech>
 		</Row>
@@ -73,10 +269,6 @@
 		</Row>
 		<Row>
 			<TechType>TECH_CALENDAR</TechType>
-			<PrereqTech>TECH_SAILING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_FISH_MARKETS</TechType>
 			<PrereqTech>TECH_SAILING</PrereqTech>
 		</Row>
 		<Row>
@@ -116,104 +308,24 @@
 			<PrereqTech>TECH_TRAPPING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_CARVING</TechType>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TANNING</TechType>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_SHIPBUILDING</TechType>
 			<PrereqTech>TECH_SAILING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FISH_MARKETS</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FARMERS_MARKETS</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_FOOD_FLAVORING</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_FOOD_FLAVORING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_DRINK_FLAVORING</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_DRINK_FLAVORING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TEXTILE_TRADE</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_TEXTILE_TRADE</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_METALS_TRADE</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_METALS_TRADE</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_AROMATICS</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_AROMATICS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_LIVESTOCK_AUCTIONS</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_LIVESTOCK_AUCTIONS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CARVING</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_CARVING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TANNING</TechType>
-			<PrereqTech>TECH_TRADING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_TANNING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_DRUGS</TechType>
-			<PrereqTech>TECH_AROMATICS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_DRUGS</TechType>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FARMERS_MARKETS</TechType>
+			<PrereqTech>TECH_FERMENTATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CURRENCY</TechType>
+			<PrereqTech>TECH_TRADING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_SHIPBUILDING</TechType>
@@ -226,10 +338,6 @@
 		<Row>
 			<TechType>TECH_MONOTHEISM</TechType>
 			<PrereqTech>TECH_MEDITATION</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_PRIESTHOOD</TechType>
-			<PrereqTech>TECH_AROMATICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_PRIESTHOOD</TechType>
@@ -276,16 +384,8 @@
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_BALLISTICS</TechType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_BALLISTICS</TechType>
-			<PrereqTech>TECH_ARCHERY</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_POETRY</TechType>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_HERBAL_SCIENCE</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_POETRY</TechType>
@@ -312,14 +412,6 @@
 			<PrereqTech>TECH_CARRIAGES</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_CONSTRUCTION</TechType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_IRON_WORKING</TechType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_THEOLOGY</TechType>
 			<PrereqTech>TECH_MONOTHEISM</PrereqTech>
 		</Row>
@@ -340,12 +432,12 @@
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_IRON_TRADE</TechType>
+			<TechType>TECH_DIVISION_OF_LABOR</TechType>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_DIVISION_OF_LABOR</TechType>
-			<PrereqTech>TECH_IRON_TRADE</PrereqTech>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_TRADE_FAIRS</TechType>
@@ -357,11 +449,15 @@
 		</Row>
 		<Row>
 			<TechType>TECH_COFFEE_TRADE</TechType>
-			<PrereqTech>TECH_DRUGS</PrereqTech>
+			<PrereqTech>TECH_APOTHECARY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
 			<PrereqTech>TECH_COFFEE_TRADE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
+			<PrereqTech>TECH_FARMERS_MARKETS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_TRADE_FAIRS</TechType>
@@ -373,7 +469,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_OPTICS</TechType>
-			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_OPTICS</TechType>
@@ -389,11 +485,11 @@
 		</Row>
 		<Row>
 			<TechType>TECH_ENGINEERING</TechType>
-			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<PrereqTech>TECH_PUBLIC_WORKS</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_DIVISION_OF_LABOR</TechType>
-			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<TechType>TECH_ENGINEERING</TechType>
+			<PrereqTech>TECH_DIVISION_OF_LABOR</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_CHIVALRY</TechType>
@@ -418,6 +514,10 @@
 		<Row>
 			<TechType>TECH_COMPASS</TechType>
 			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMPASS</TechType>
+			<PrereqTech>TECH_FISH_MARKETS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ARCHAEOLOGY</TechType>
@@ -473,10 +573,6 @@
 		</Row>
 		<Row>
 			<TechType>TECH_SIEGE_ENGINES</TechType>
-			<PrereqTech>TECH_BALLISTICS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_SIEGE_ENGINES</TechType>
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
 		</Row>
 		<Row>
@@ -490,10 +586,6 @@
 		<Row>
 			<TechType>TECH_PHYSICS</TechType>
 			<PrereqTech>TECH_COMPASS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_PHYSICS</TechType>
-			<PrereqTech>TECH_BALLISTICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FUNDAMENTALISM</TechType>
@@ -705,7 +797,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_FERTILIZER</TechType>
-			<PrereqTech>TECH_STEEL</PrereqTech>
+			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FERTILIZER</TechType>
@@ -722,6 +814,10 @@
 		<Row>
 			<TechType>TECH_ECONOMICS</TechType>
 			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ECONOMICS</TechType>
+			<PrereqTech>TECH_INTERNATIONAL_TRADE</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_GUILDS</TechType>
@@ -742,6 +838,18 @@
 		<Row>
 			<TechType>TECH_STEAM_POWER</TechType>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_STEAM_POWER</TechType>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INDUSTRIALIZATION</TechType>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INDUSTRIALIZATION</TechType>
+			<PrereqTech>TECH_BLAST_FURNACE</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_DYNAMITE</TechType>
@@ -776,16 +884,12 @@
 			<PrereqTech>TECH_NATIONALISM</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_MILITARY_SCIENCE</TechType>
-			<PrereqTech>TECH_MILITARY_TRADITION</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_PENICILIN</TechType>
 			<PrereqTech>TECH_BIOLOGY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_REFRIGERATION</TechType>
-			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_CORPORATIONS</TechType>
@@ -805,6 +909,10 @@
 		</Row>
 		<Row>
 			<TechType>TECH_RAILROAD</TechType>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RAILROAD</TechType>
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
 		</Row>
 		<Row>
@@ -817,36 +925,32 @@
 		</Row>
 		<Row>
 			<TechType>TECH_TRACKED_VEHICLES</TechType>
-			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_FLIGHT</TechType>
-			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<PrereqTech>TECH_SHELLS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_BIG_GUNS_DOCTRINE</TechType>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_SHOULDER_LAUNCHED_WEAPONS</TechType>
+			<TechType>TECH_BALLISTICS</TechType>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_BALLISTICS</TechType>
+			<PrereqTech>TECH_FLIGHT</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_ROCKETRY</TechType>
-			<PrereqTech>TECH_SHOULDER_LAUNCHED_WEAPONS</PrereqTech>
+			<PrereqTech>TECH_BALLISTICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_BIG_GUNS_DOCTRINE</TechType>
 			<PrereqTech>TECH_TORPEDOES</PrereqTech>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_BIG_GUNS_DOCTRINE</TechType>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_INFANTRY_FIGHTING_VEHICLES</TechType>
-			<PrereqTech>TECH_TRACKED_VEHICLES</PrereqTech>
-		</Row>
+		</Row>-->
 		<Row>
 			<TechType>TECH_REFINING</TechType>
 			<PrereqTech>TECH_PENICILIN</PrereqTech>
@@ -860,32 +964,12 @@
 			<PrereqTech>TECH_CORPORATIONS</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_ENERGY_COMMODITIES</TechType>
-			<PrereqTech>TECH_FERTILIZER</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_ENERGY_COMMODITIES</TechType>
-			<PrereqTech>TECH_ECONOMICS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_ENERGY_COMMODITIES</TechType>
-			<PrereqTech>TECH_BIOLOGY</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_REFRIGERATION</TechType>
-			<PrereqTech>TECH_ENERGY_COMMODITIES</PrereqTech>
+			<TechType>TECH_INDUSTRIAL_PROCESSES</TechType>
+			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_REFRIGERATION</TechType>
 			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TELEGRAPH</TechType>
-			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TELEGRAPH</TechType>
-			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_RAILROAD</TechType>
@@ -917,6 +1001,10 @@
 		</Row>
 		<Row>
 			<TechType>TECH_ECOLOGY</TechType>
+			<PrereqTech>TECH_AGRICULTURAL_SCIENCES</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ECOLOGY</TechType>
 			<PrereqTech>TECH_REFINING</PrereqTech>
 		</Row>
 		<Row>
@@ -934,14 +1022,11 @@
 		<Row>
 			<TechType>TECH_INDUSTRIAL_PROCESSES</TechType>
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_RADIO</TechType>
-			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-		</Row>
+		</Row>	
+<!--MIGHT NEED TO CHANGE BELOW FROM RADIO-->
 		<Row>
 			<TechType>TECH_TELEPHONE</TechType>
-			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
+			<PrereqTech>TECH_RADIO</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FLIGHT</TechType>
@@ -975,18 +1060,10 @@
 			<TechType>TECH_VACCINES</TechType>
 			<PrereqTech>TECH_PHARMACEUTICALS</PrereqTech>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_MASS_MEDIA</TechType>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_MASS_MEDIA</TechType>
-			<PrereqTech>TECH_RADIO</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_MASS_MEDIA</TechType>
-			<PrereqTech>TECH_TELEPHONE</PrereqTech>
-		</Row>
+		</Row>-->
 		<Row>
 			<TechType>TECH_ELECTRONICS</TechType>
 			<PrereqTech>TECH_RADIO</PrereqTech>
@@ -1002,34 +1079,6 @@
 		<Row>
 			<TechType>TECH_ATOMIC_THEORY</TechType>
 			<PrereqTech>TECH_INDUSTRIAL_PROCESSES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CONTROLLED_MATERIALS</TechType>
-			<PrereqTech>TECH_INDUSTRIAL_PROCESSES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_METAL_COMMODITIES</TechType>
-			<PrereqTech>TECH_INDUSTRIAL_PROCESSES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_RARE_EARTH_COMMODITIES</TechType>
-			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_BIOTECH_INDUSTRY</TechType>
-			<PrereqTech>TECH_METAL_COMMODITIES</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_CONTROLLED_MATERIALS</TechType>
-			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_METAL_COMMODITIES</TechType>
-			<PrereqTech>TECH_ADVANCED_FLIGHT</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_RARE_EARTH_COMMODITIES</TechType>
-			<PrereqTech>TECH_COMPUTERS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ATOMIC_THEORY</TechType>
@@ -1064,36 +1113,28 @@
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_INFANTRY_FIGHTING_VEHICLES</TechType>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_COMBINED_ARMS_DOCTRINE</TechType>
-			<PrereqTech>TECH_INFANTRY_FIGHTING_VEHICLES</PrereqTech>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_INFANTRY_FIGHTING_VEHICLES</TechType>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
 			<PrereqTech>TECH_LASERS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_TELEVANGELISM</TechType>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_CONSUMERISM</TechType>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_COMPUTERS</TechType>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
-		</Row>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
+		</Row>-->
 		<Row>
 			<TechType>TECH_COMPUTERS</TechType>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_RADAR</TechType>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_RADAR</TechType>
@@ -1221,7 +1262,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_COMPOSITE_ARMOR</TechType>
-			<PrereqTech>TECH_INFANTRY_FIGHTING_VEHICLES</PrereqTech>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_MAGNETICS_MINIATURIZATION</TechType>
@@ -1710,6 +1751,10 @@
 		<Row>
 			<TechType>TECH_ENGINEERING</TechType>
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_PUBLIC_WORKS</TechType>
+			<PrereqTech>TECH_STONE_MASONS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_MACHINERY</TechType>

@@ -8,7 +8,7 @@
 			<Where Type="TECH_ARCHERY" />
 		</Update>
 		<Update>
-			<Set TechCat="TECHTREE_MILITARY" Cost="11" Era="ERA_ANCIENT" GridX="1" GridY="7" />
+			<Set TechCat="TECHTREE_MILITARY" Cost="11" Era="ERA_ANCIENT" GridX="1" GridY="6" />
 			<Where Type="TECH_BRONZE_WORKING" />
 		</Update>
 		<Row>
@@ -27,23 +27,39 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		<!-- Classical Era -->
 		<Row>
 			<Type>TECH_SHIPBUILDING</Type>
 			<TechCat>TECHTREE_MILITARY</TechCat>
 			<Description>TXT_KEY_TECH_SHIPBUILDING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SHIPBUILDING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SHIPBUILDING_HELP</Help>
-			<Cost>30</Cost>
-			<Era>ERA_CLASSICAL</Era>
+			<Cost>13</Cost>
+			<Era>ERA_ANCIENT</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
-			<GridX>4</GridX>
+			<GridX>2</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_SHIPBUILDING_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
+		<Row>
+			<Type>TECH_MILITARY_TRAINING</Type>
+			<TechCat>TECHTREE_MILITARY</TechCat>
+			<Description>TXT_KEY_TECH_MILITARY_TRAINING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_MILITARY_TRAINING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_MILITARY_TRAINING_HELP</Help>
+			<Cost>15</Cost>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>3</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_MILITARY_TRAINING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<!-- Classical Era -->
 		<Update>
 			<Set TechCat="TECHTREE_MILITARY" Cost="30" Era="ERA_CLASSICAL" GridX="4" GridY="4" />
 			<Where Type="TECH_HORSEBACK_RIDING" />
@@ -52,7 +68,7 @@
 			<Set TechCat="TECHTREE_MILITARY" Cost="35" Era="ERA_CLASSICAL" GridX="5" GridY="7" />
 			<Where Type="TECH_IRON_WORKING" />
 		</Update>
-		<Row>
+		<!--<Row>
 			<Type>TECH_BALLISTICS</Type>
 			<TechCat>TECHTREE_MILITARY</TechCat>
 			<Description>TXT_KEY_TECH_BALLISTICS_1_TITLE</Description>
@@ -67,7 +83,7 @@
 			<Quote>TXT_KEY_TECH_BALLISTICS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
+		</Row>-->
 		<!-- Medieval Era -->
 		<Update>
 			<Set TechCat="TECHTREE_MILITARY" Cost="92" Era="ERA_MEDIEVAL" GridX="8" GridY="4" />
@@ -201,22 +217,26 @@
 			<Description>TXT_KEY_TECH_TORPEDOES_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_TORPEDOES_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_TORPEDOES_HELP</Help>
-			<Cost>1132</Cost>
+			<Cost>984</Cost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
-			<GridX>18</GridX>
-			<GridY>1</GridY>
+			<GridX>17</GridX>
+			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_TORPEDOES_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 		<Update>
-			<Set TechCat="TECHTREE_MILITARY" Cost="984" Era="ERA_INDUSTRIAL" GridX="17" GridY="3" />
+			<Set TechCat="TECHTREE_MILITARY" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="4" />
+			<Where Type="TECH_COMBINED_ARMS" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_MILITARY" Cost="984" Era="ERA_INDUSTRIAL" GridX="17" GridY="4" />
 			<Where Type="TECH_MILITARY_SCIENCE" />
 		</Update>
 		<Update>
-			<Set TechCat="TECHTREE_MILITARY" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="4" />
+			<Set TechCat="TECHTREE_MILITARY" Cost="984" Era="ERA_INDUSTRIAL" GridX="17" GridY="3" />
 			<Where Type="TECH_FLIGHT" />
 		</Update>
 		<Row>
@@ -225,12 +245,12 @@
 			<Description>TXT_KEY_TECH_TRACKED_VEHICLES_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_TRACKED_VEHICLES_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_TRACKED_VEHICLES_HELP</Help>
-			<Cost>1132</Cost>
+			<Cost>984</Cost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
-			<GridX>18</GridX>
-			<GridY>7</GridY>
+			<GridX>17</GridX>
+			<GridY>6</GridY>
 			<Quote>TXT_KEY_TECH_TRACKED_VEHICLES_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
@@ -267,7 +287,7 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>TECH_SHOULDER_LAUNCHED_WEAPONS</Type>
 			<TechCat>TECHTREE_MILITARY</TechCat>
 			<Description>TXT_KEY_TECH_SHOULDER_LAUNCHED_WEAPONS_TITLE</Description>
@@ -282,13 +302,33 @@
 			<Quote>TXT_KEY_TECH_SHOULDER_LAUNCHED_WEAPONS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
+		</Row>-->
 		<Update>
 			<Set TechCat="TECHTREE_MILITARY" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="4" />
 			<Where Type="TECH_RADAR" />
 		</Update>
-		<!-- Modern Era -->
+		<Update>
+			<Set TechCat="TECHTREE_MILITARY" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="3" />
+			<Where Type="TECH_BALLISTICS" />
+		</Update>
 		<Row>
+			<Type>TECH_BLITZKRIEG</Type>
+			<TechCat>TECHTREE_MILITARY</TechCat>
+			<Description>TXT_KEY_TECH_BLITZKRIEG_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_BLITZKRIEG_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_BLITZKRIEG_HELP</Help>
+			<Cost>1301</Cost>
+			<Era>ERA_INDUSTRIAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>19</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_BLITZKRIEG_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<!-- Modern Era -->
+		<!--<Row>
 			<Type>TECH_INFANTRY_FIGHTING_VEHICLES</Type>
 			<TechCat>TECHTREE_MILITARY</TechCat>
 			<Description>TXT_KEY_TECH_INFANTRY_FIGHTING_VEHICLES_TITLE</Description>
@@ -303,7 +343,11 @@
 			<Quote>TXT_KEY_TECH_INFANTRY_FIGHTING_VEHICLES_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
+		</Row>-->
+		<Update>
+			<Set TechCat="TECHTREE_MILITARY" Cost="2603" Era="ERA_MODERN" GridX="20" GridY="7" />
+			<Where Type="TECH_MOBILE_TACTICS" />
+		</Update>
 		<Update>
 			<Set TechCat="TECHTREE_MILITARY" Cost="2994" Era="ERA_MODERN" GridX="21" GridY="2" />
 			<Where Type="TECH_NUCLEAR_FISSION" />
@@ -408,7 +452,7 @@
 			<Civilopedia>TXT_KEY_TECH_ADVANCED_MAGNETICS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_ADVANCED_MAGNETICS_HELP</Help>
 			<Cost>7920</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>24</GridX>
@@ -424,7 +468,7 @@
 			<Civilopedia>TXT_KEY_TECH_METAMATERIALS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_METAMATERIALS_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -440,7 +484,7 @@
 			<Civilopedia>TXT_KEY_TECH_SCRAMJET_ENGINES_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SCRAMJET_ENGINES_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -456,7 +500,7 @@
 			<Civilopedia>TXT_KEY_TECH_MAGNETICS_MINIATURIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_MAGNETICS_MINIATURIZATION_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -472,7 +516,7 @@
 			<Civilopedia>TXT_KEY_TECH_DIGITAL_DEFENSE_DOCTRINE_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_DIGITAL_DEFENSE_DOCTRINE_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -488,7 +532,7 @@
 			<Civilopedia>TXT_KEY_TECH_HYBRID_SCRAMJETS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_HYBRID_SCRAMJETS_HELP</Help>
 			<Cost>10474</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>26</GridX>
@@ -504,7 +548,7 @@
 			<Civilopedia>TXT_KEY_TECH_EXOSKELETONS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_EXOSKELETONS_HELP</Help>
 			<Cost>10474</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>26</GridX>
@@ -520,7 +564,7 @@
 			<Civilopedia>TXT_KEY_TECH_REACTOR_MINIATURIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_REACTOR_MINIATURIZATION_HELP</Help>
 			<Cost>10474</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>26</GridX>
@@ -536,7 +580,7 @@
 			<Civilopedia>TXT_KEY_TECH_EXTREME_MECHANIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_EXTREME_MECHANIZATION_HELP</Help>
 			<Cost>12045</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>27</GridX>
@@ -553,7 +597,7 @@
 			<Civilopedia>TXT_KEY_TECH_SPACE_WEAPONIZATION_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_SPACE_WEAPONIZATION_HELP</Help>
 			<Cost>24091</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>28</GridX>
@@ -569,7 +613,7 @@
 			<Civilopedia>TXT_KEY_TECH_2D_ENERGY_FIELDS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_2D_ENERGY_FIELDS_HELP</Help>
 			<Cost>24091</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>28</GridX>
@@ -585,7 +629,7 @@
 			<Civilopedia>TXT_KEY_TECH_SMART_MATERIALS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_SMART_MATERIALS_HELP</Help>
 			<Cost>27705</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>29</GridX>
@@ -601,7 +645,7 @@
 			<Civilopedia>TXT_KEY_TECH_PARTICLE_BEAMS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_PARTICLE_BEAMS_HELP</Help>
 			<Cost>27705</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>29</GridX>
@@ -617,7 +661,7 @@
 			<Civilopedia>TXT_KEY_TECH_ULTRA_PRESSURE_MACHINERY_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_ULTRA_PRESSURE_MACHINERY_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -633,7 +677,7 @@
 			<Civilopedia>TXT_KEY_TECH_FREE_SPACE_SATURATION_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_FREE_SPACE_SATURATION_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -649,7 +693,7 @@
 			<Civilopedia>TXT_KEY_TECH_CYBERNETIC_ORGANISMS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_CYBERNETIC_ORGANISMS_HELP</Help>
 			<Cost>36640</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>31</GridX>
@@ -694,7 +738,8 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
-		<!--KEEP BRONZE WORKING MILITARY TRAINING AND DEFENSE AT 4-->
+		<!--KEEP BRONZE WORKING AND DEFENSE AT 4-->
+		<Delete TechType="TECH_BRONZE_WORKING" FlavorType="FLAVOR_MILITARY_TRAINING" />
 		<Update>
 			<Where TechType="TECH_BRONZE_WORKING" FlavorType="FLAVOR_WONDER" />
 			<Set Flavor="6" />
@@ -719,6 +764,21 @@
 			<TechType>TECH_ARCHERY</TechType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MILITARY_TRAINING</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MILITARY_TRAINING</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MILITARY_TRAINING</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 <!--CLASSICAL-->
 		<Row>
@@ -746,7 +806,7 @@
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_BALLISTICS</TechType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>4</Flavor>
@@ -765,7 +825,7 @@
 			<TechType>TECH_BALLISTICS</TechType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>1</Flavor>
-		</Row>
+		</Row>-->
 		<!--KEEP IRON WORKING AT 12 OFF, 3 MIL TRAINING-->
 		<Update>
 			<Where TechType="TECH_IRON_WORKING" FlavorType="FLAVOR_DEFENSE" />
@@ -1036,7 +1096,7 @@
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_SHOULDER_LAUNCHED_WEAPONS</TechType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>10</Flavor>
@@ -1050,7 +1110,7 @@
 			<TechType>TECH_SHOULDER_LAUNCHED_WEAPONS</TechType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>10</Flavor>
-		</Row>
+		</Row>-->
 		<Delete TechType="TECH_RADAR" FlavorType="FLAVOR_WONDER" />
 		<Delete TechType="TECH_RADAR" FlavorType="FLAVOR_OFFENSE" />
 		<Row>
@@ -1058,10 +1118,20 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_SHOULDER_LAUNCHED_WEAPONS</TechType>
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
 			<Flavor>15</Flavor>
+		</Row>-->
+		<Row>
+			<TechType>TECH_BLITZKRIEG</TechType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_BLITZKRIEG</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>45</Flavor>
 		</Row>
 <!--MODERN-->
 	</Technology_Flavors>

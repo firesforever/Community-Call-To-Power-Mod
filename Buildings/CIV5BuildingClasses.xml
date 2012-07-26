@@ -6,6 +6,11 @@
 			<DefaultBuilding>BUILDING_BURIAL_MOUND</DefaultBuilding>
 		</Row>
 		<Row>
+			<Type>BUILDINGCLASS_SHAMAN_HUT</Type>
+			<Description>TXT_KEY_BUILDING_SHAMAN_HUT</Description>
+			<DefaultBuilding>BUILDING_SHAMAN_HUT</DefaultBuilding>
+		</Row>
+		<Row>
 			<Type>BUILDINGCLASS_BREWERY</Type>
 			<Description>TXT_KEY_BUILDING_BREWERY</Description>
 			<DefaultBuilding>BUILDING_BREWERY</DefaultBuilding>
@@ -20,12 +25,6 @@
 			<Type>BUILDINGCLASS_ZIGGURAT_OF_MARDUK</Type>
 			<Description>TXT_KEY_ZIGGURAT_OF_MARDUK</Description>
 			<DefaultBuilding>BUILDING_ZIGGURAT_OF_MARDUK</DefaultBuilding>
-			<MaxGlobalInstances>1</MaxGlobalInstances>
-		</Row>
-		<Row>
-			<Type>BUILDINGCLASS_PETRA</Type>
-			<Description>TXT_KEY_PETRA</Description>
-			<DefaultBuilding>BUILDING_PETRA</DefaultBuilding>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
 		<Row>
@@ -93,12 +92,12 @@
 			<DefaultBuilding>BUILDING_NAZCA_LINES</DefaultBuilding>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_TERRACOTTA_ARMY</Type>
 			<Description>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Description>
 			<DefaultBuilding>BUILDING_TERRACOTTA_ARMY</DefaultBuilding>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDINGCLASS_ARTILLERY_RANGE</Type>
 			<Description>TXT_KEY_BUILDING_ARTILLERY_RANGE</Description>
@@ -190,11 +189,11 @@
 			<DefaultBuilding>BUILDING_BOND_MARKET</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_GUILD_HALL</Type>
 			<Description>TXT_KEY_BUILDING_GUILD_HALL</Description>
 			<DefaultBuilding>BUILDING_GUILD_HALL</DefaultBuilding>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDINGCLASS_NATIONAL_ACADEMY</Type>
 			<Description>TXT_KEY_BUILDING_NATIONAL_ACADEMY</Description>
@@ -257,23 +256,23 @@
 			<Description>TXT_KEY_BUILDING_MISSIONARY_CHURCH</Description>
 			<DefaultBuilding>BUILDING_MISSIONARY_CHURCH</DefaultBuilding>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_RANCH</Type>
 			<Description>TXT_KEY_BUILDING_RANCH</Description>
 			<DefaultBuilding>BUILDING_RANCH</DefaultBuilding>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDINGCLASS_DECLARATION_OF_INDEPENDENCE</Type>
 			<Description>TXT_KEY_BUILDING_DECLARATION_OF_INDEPENDENCE</Description>
 			<DefaultBuilding>BUILDING_DECLARATION_OF_INDEPENDENCE</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_HORSE_DERBY</Type>
 			<Description>TXT_KEY_BUILDING_HORSE_DERBY</Description>
 			<DefaultBuilding>BUILDING_HORSE_DERBY</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDINGCLASS_THEORY_OF_EVOLUTION</Type>
 			<Description>TXT_KEY_BUILDING_THEORY_OF_EVOLUTION</Description>
@@ -310,11 +309,11 @@
 			<DefaultBuilding>BUILDING_EDISON_LAB</DefaultBuilding>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_POLICE_STATION</Type>
 			<Description>TXT_KEY_BUILDING_POLICE_STATION</Description>
 			<DefaultBuilding>BUILDING_POLICE_STATION</DefaultBuilding>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>BUILDINGCLASS_OIL_REFINERY</Type>
 			<Description>TXT_KEY_BUILDING_OIL_REFINERY</Description>
@@ -340,6 +339,11 @@
 			<Description>TXT_KEY_BUILDING_TRANSCONTINENTAL_RAILROAD</Description>
 			<DefaultBuilding>BUILDING_TRANSCONTINENTAL_RAILROAD</DefaultBuilding>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_AQUARIUM</Type>
+			<Description>TXT_KEY_BUILDING_AQUARIUM</Description>
+			<DefaultBuilding>BUILDING_AQUARIUM</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_AUTO_PLANT</Type>
@@ -380,9 +384,9 @@
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_TELECOMMUNICATIONS_NETWORK</Type>
-			<Description>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK</Description>
-			<DefaultBuilding>BUILDING_TELECOMMUNICATIONS_NETWORK</DefaultBuilding>
+			<Type>BUILDINGCLASS_PUBLIC_BATHS</Type>
+			<Description>TXT_KEY_BUILDING_PUBLIC_BATHS</Description>
+			<DefaultBuilding>BUILDING_PUBLIC_BATHS</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_AIRCRAFT_PLANT</Type>
@@ -430,6 +434,11 @@
 			<Type>BUILDINGCLASS_MEGACHURCH</Type>
 			<Description>TXT_KEY_BUILDING_MEGACHURCH</Description>
 			<DefaultBuilding>BUILDING_MEGACHURCH</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MOVIE_THEATRE</Type>
+			<Description>TXT_KEY_BUILDING_MOVIE_THEATRE</Description>
+			<DefaultBuilding>BUILDING_MOVIES_THEATRE</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_CRYSTAL_CATHEDRAL</Type>
@@ -787,4 +796,16 @@
 
 
 	</BuildingClasses>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_HOLLYWOOD</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_HOLLYWOOD</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
 </GameData>

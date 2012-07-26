@@ -279,7 +279,7 @@
 			<Atlas>BW_MONOPOLY_1</Atlas>
 			<IconSize>256</IconSize>
 			<Filename>BuildingMonopolyOne.dds</Filename>
-			<IconsPerRow>8</IcoPerRow>
+			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 		<Row>
@@ -315,7 +315,7 @@
 			<Atlas>BW_MONOPOLY_2</Atlas>
 			<IconSize>256</IconSize>
 			<Filename>BuildingMonopolyTwo.dds</Filename>
-			<IconsPerRow>8</IcoPerRow>
+			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 		<Row>
@@ -351,7 +351,7 @@
 			<Atlas>BW_MONOPOLY_3</Atlas>
 			<IconSize>256</IconSize>
 			<Filename>BuildingMonopolyThree.dds</Filename>
-			<IconsPerRow>8</IcoPerRow>
+			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 		<Row>
@@ -387,7 +387,7 @@
 			<Atlas>BW_MONOPOLY_4</Atlas>
 			<IconSize>256</IconSize>
 			<Filename>BuildingMonopolyFour.dds</Filename>
-			<IconsPerRow>8</IcoPerRow>
+			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 		<Row>
@@ -423,7 +423,7 @@
 			<Atlas>BW_MONOPOLY_5</Atlas>
 			<IconSize>256</IconSize>
 			<Filename>BuildingMonopolyFive.dds</Filename>
-			<IconsPerRow>8</IcoPerRow>
+			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 		<Row>

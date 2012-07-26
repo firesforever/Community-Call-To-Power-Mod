@@ -207,18 +207,8 @@
     <File md5="D72D3806D6F8024F0FFEE11EB855CFA6">Tech/TechTableAdds.sql</File>
     <File md5="4A1B3075A9E75323278D311C5C6EABE9">Tech/TechTree.lua</File>
     <File md5="8E5DA33B189E5225DC439B85EA426EB3">Tech/TechTree.xml</File>
-    <File md5="733AAF07E81B5C39BB5E77F1D9378B9D">Tech/TechTreeEconomics.lua</File>
-    <File md5="2A4344E1AA47EB78E43985CC9AB0BBD6">Tech/TechTreeEconomics.xml</File>
-    <File md5="5755CFA8EB91FACEC3906E735E1A17F3">Tech/TechTreeEngineering.lua</File>
-    <File md5="2A4344E1AA47EB78E43985CC9AB0BBD6">Tech/TechTreeEngineering.xml</File>
-    <File md5="C999B85340F8086C8938B0AE32EBD04B">Tech/TechTreeMilitary.lua</File>
-    <File md5="2A4344E1AA47EB78E43985CC9AB0BBD6">Tech/TechTreeMilitary.xml</File>
-    <File md5="06E14970220E3DF5B315E308BD203C71">Tech/TechTreeOld.lua</File>
-    <File md5="D65CFF1F5774EBBF4CBA8BEE7C3D8D92">Tech/TechTreeOld.xml</File>
-    <File md5="7372916A2B616B1A2DFD73F792EFA334">Tech/TechTreeScience.lua</File>
-    <File md5="2A4344E1AA47EB78E43985CC9AB0BBD6">Tech/TechTreeScience.xml</File>
-    <File md5="D216096DC3C2E1B9CC336390E2312B55">Tech/TechTreeSocial.lua</File>
-    <File md5="2A4344E1AA47EB78E43985CC9AB0BBD6">Tech/TechTreeSocial.xml</File>
+    <File md5="733AAF07E81B5C39BB5E77F1D9378B9D">Tech/TechTreeBFTT.lua</File>
+    <File md5="2A4344E1AA47EB78E43985CC9AB0BBD6">Tech/TechTreeBFTT.xml</File>
     <File md5="1441243D18427F3F51DACD75A42CE3A0">Tech/TechTreeText.xml</File>
     <File md5="B2260607988F95873DB16E28B540FE2A">Terrain/CIV5Features.xml</File>
     <File md5="82184813FC8573DFB5026A354B0749B7">Terrain/CIV5Improvements.xml</File>
@@ -852,7 +842,7 @@
 		  <UpdateDatabase>Terrain/CIV5Features.xml</UpdateDatabase>
 		  <UpdateDatabase>Text/CIV5GameText.xml</UpdateDatabase>
 		  <UpdateDatabase>Buildings/CIV5Projects.xml</UpdateDatabase>
-		  <UpdateDatabase>CIV5Resources.xml</UpdateDatabase>
+		  <UpdateDatabase>Terrain/CIV5Resources.xml</UpdateDatabase>
 		  <UpdateDatabase>Terrain/CIV5Routes.xml</UpdateDatabase>
 		  <UpdateDatabase>Units/CIV5UnitClasses.xml</UpdateDatabase>
 		  <UpdateDatabase>Z - Global/CIV5Worlds.xml</UpdateDatabase>
@@ -863,7 +853,6 @@
 		  <UpdateDatabase>Terrain/CIV5Improvements.xml</UpdateDatabase>
 		  <UpdateDatabase>Terrain/CIV5Resources.xml</UpdateDatabase>
 		  <UpdateDatabase>Terrain/CIV5Terrains.xml</UpdateDatabase>
-		  <UpdateDatabase>Z - Global/CIV5GameSpeeds.xml</UpdateDatabase>
 		  <UpdateDatabase>Units/CIV5Units.xml</UpdateDatabase>
 		  <UpdateDatabase>Z - Global/HandicapInfos.xml</UpdateDatabase>
 		  <UpdateDatabase>CIV5PolicyBranch.xml</UpdateDatabase>
@@ -909,4 +898,4 @@
 	  </OnModActivated>
   </Actions>
   <EntryPoints />
-</Mod>
+</Mod> 

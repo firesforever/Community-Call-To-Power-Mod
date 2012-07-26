@@ -2,14 +2,12 @@
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
 <GameData>
 	<Eras>
-		<Row>
+		<!--<Row>
 			<Type>ERA_NANOTECH</Type>
-			<Description>TXT_KEY_ERA_7</Description>
+			<Description>TXT_KEY_ERA_71</Description>
 			<ArtPrefix>FUTURE</ArtPrefix>
 			<Strategy>TXT_KEY_ERA_NANOTECH_STRATEGY</Strategy>
 			<NoGoodies>true</NoGoodies>
-			<NoBarbUnits>true</NoBarbUnits>
-			<NoBarbCities>true</NoBarbCities>
 			<ResearchAgreementCost>40000</ResearchAgreementCost>
 			<StartingUnitMultiplier>4</StartingUnitMultiplier>
 			<StartingDefenseUnits>4</StartingDefenseUnits>
@@ -41,8 +39,6 @@
 			<ArtPrefix>FUTURE </ArtPrefix>
 			<Strategy>0</Strategy>
 			<NoGoodies>true</NoGoodies>
-			<NoBarbUnits>true</NoBarbUnits>
-			<NoBarbCities>true</NoBarbCities>
 			<ResearchAgreementCost>80000</ResearchAgreementCost>
 			<StartingUnitMultiplier>5</StartingUnitMultiplier>
 			<StartingDefenseUnits>5</StartingDefenseUnits>
@@ -67,7 +63,7 @@
 			<CityBombardEffectTag>CITY_BOMBARD_LATE</CityBombardEffectTag>
 			<AudioUnitVictoryScript>AS2D_VICTORY_LATE</AudioUnitVictoryScript>
 			<AudioUnitDefeatScript>AS2D_LOSS_LATE</AudioUnitDefeatScript>
-		</Row>
+		</Row>-->
 		<Update>
 			<Set ResearchAgreementCost="700" GrowthPercent="100" TrainPercent="100" ConstructPercent="100" ResearchPercent="130" GreatPeoplePercent="100" />
 			<Where Type="ERA_ANCIENT" />
@@ -93,11 +89,15 @@
 			<Where Type="ERA_MODERN" />
 		</Update>
 		<Update>
+			<Set ResearchAgreementCost="200000" StartingCulture="1500" StartingGold="210000" FreePopulation="7" BuildingMaintenancePercent="480" GrowthPercent="110" TrainPercent="135" ConstructPercent="155" ResearchPercent="110" GreatPeoplePercent="150" />
+			<Where Type="ERA_POSTMODERN" />
+		</Update>
+		<Update>
 			<Set ResearchAgreementCost="20000" StartingCulture="2500" StartingGold="320000" FreePopulation="8" BuildingMaintenancePercent="760" GrowthPercent="90" TrainPercent="145" ConstructPercent="165" ResearchPercent="100" GreatPeoplePercent="150" />
 			<Where Type="ERA_FUTURE" />
 		</Update>
 	</Eras>
-	<Era_Soundtracks>
+	<!--<Era_Soundtracks>
 		<Row>
 			<EraType>ERA_NANOTECH</EraType>
 			<SoundTrack>AS2D_SHAKING_AND_TREMBLING</SoundTrack>
@@ -197,5 +197,5 @@
 			<EraType>ERA_NANOTECH</EraType>
 			<VOScript>AS2D_ERA_SPEECH_FUTURE_ERA04</VOScript>
 		</Row>
-	</Era_NewEraVOs>
+	</Era_NewEraVOs>-->
 </GameData>

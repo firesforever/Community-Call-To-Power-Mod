@@ -32,7 +32,7 @@
 		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="7"/>
-			<Where Type="TECH_BALLISTICS" />
+			<Where Type="TECH_WOODWORKING" />
 		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="8"/>
@@ -42,10 +42,10 @@
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="9"/>
 			<Where Type="TECH_LITERATURE" />
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="10"/>
 			<Where Type="TECH_DRAMA" />
-		</Update>
+		</Update>-->
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="11"/>
 			<Where Type="TECH_FEUDALISM" />
@@ -60,7 +60,7 @@
 		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="14"/>
-			<Where Type="TECH_GUILDS" />
+			<Where Type="TECH_PUBLIC_WORKS" />
 		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="15"/>
@@ -368,7 +368,7 @@
 		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="27"/>
-			<Where Type="TECH_SHOULDER_LAUNCHED_WEAPONS" />
+			<Where Type="TECH_ORAL_TRADITION" />
 		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="28"/>
@@ -468,9 +468,8 @@
 		</Update>
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="52"/>
-			<Where Type="TECH_AROMATICS" />
+			<Where Type="TECH_BLITZKRIEG" />
 		</Update>
-
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="53"/>
 			<Where Type="TECH_CARVING" />
@@ -483,72 +482,71 @@
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="55"/>
-			<Where Type="TECH_CONTROLLED_MATERIALS" />
+			<Where Type="TECH_AGRICULTURAL_SCIENCES" />
 		</Update>
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="56"/>
-			<Where Type="TECH_DRINK_FLAVORING" />
+			<Where Type="TECH_ANIMAL_MARKETS" />
 		</Update>
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="57"/>
-			<Where Type="TECH_DRUGS" />
+			<Where Type="TECH_APOTHECARY" />
 		</Update>
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="58"/>
-			<Where Type="TECH_ENERGY_COMMODITIES" />
-		</Update>
-
-		<Update>
-			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="59"/>
 			<Where Type="TECH_FARMERS_MARKETS" />
 		</Update>
 
 		<Update>
-			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="60"/>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="59"/>
 			<Where Type="TECH_FISH_MARKETS" />
 		</Update>
 
 		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="60"/>
+			<Where Type="TECH_GREAT_MONUMENTS" />
+		</Update>
+
+		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="61"/>
-			<Where Type="TECH_FOOD_FLAVORING" />
+			<Where Type="TECH_HERBAL_SCIENCE" />
 		</Update>
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="62"/>
-			<Where Type="TECH_IRON_TRADE" />
+			<Where Type="TECH_HERDING" />
 		</Update>
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="63"/>
-			<Where Type="TECH_LIVESTOCK_AUCTIONS" />
+			<Where Type="TECH_INTERNATIONAL_TRADE" />
 		</Update>
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="0"/>
-			<Where Type="TECH_METAL_COMMODITIES" />
+			<Where Type="TECH_LIVESTOCK_DISTRIBUTION" />
 		</Update>
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="1"/>
-			<Where Type="TECH_METALS_TRADE" />
+			<Where Type="TECH_OCEAN_PIONEERING" />
 		</Update>
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="2"/>
-			<Where Type="TECH_RARE_EARTH_COMMODITIES" />
+			<Where Type="TECH_RAW_MATERIALS" />
 		</Update>
 
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="3"/>
-			<Where Type="TECH_TANNING" />
+			<Where Type="TECH_STONE_MASONS" />
 		</Update>
-
 		<Update>
 			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="4"/>
-			<Where Type="TECH_TEXTILE_TRADE" />
+			<Where Type="TECH_MILITARY_TRAINING" />
 		</Update>
 
 	</Technologies>

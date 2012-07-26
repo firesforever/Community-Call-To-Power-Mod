@@ -68,162 +68,18 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 		<Row>
-			<Type>TECH_FISH_MARKETS</Type>
+			<Type>TECH_HERDING</Type>
 			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_FISH_MARKETS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_FISH_MARKETS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_FISH_MARKETS_HELP</Help>
-			<Cost>15</Cost>
+			<Description>TXT_KEY_TECH_HERDING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_HERDING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_HERDING_HELP</Help>
+			<Cost>13</Cost>
 			<Era>ERA_ANCIENT</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
-			<GridX>3</GridX>
-			<GridY>0</GridY>
-			<Quote>TXT_KEY_TECH_FISH_MARKETS_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_FARMERS_MARKETS</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_FARMERS_MARKETS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_FARMERS_MARKETS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_FARMERS_MARKETS_HELP</Help>
-			<Cost>15</Cost>
-			<Era>ERA_ANCIENT</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>3</GridX>
-			<GridY>1</GridY>
-			<Quote>TXT_KEY_TECH_FARMERS_MARKETS_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_FOOD_FLAVORING</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_FOOD_FLAVORING_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_FOOD_FLAVORING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_FOOD_FLAVORING_HELP</Help>
-			<Cost>15</Cost>
-			<Era>ERA_ANCIENT</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>3</GridX>
-			<GridY>2</GridY>
-			<Quote>TXT_KEY_TECH_FOOD_FLAVORING_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_DRINK_FLAVORING</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_DRINK_FLAVORING_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_DRINK_FLAVORING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_DRINK_FLAVORING_HELP</Help>
-			<Cost>15</Cost>
-			<Era>ERA_ANCIENT</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>3</GridX>
-			<GridY>3</GridY>
-			<Quote>TXT_KEY_TECH_DRINK_FLAVORING_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_TEXTILE_TRADE</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_TEXTILE_TRADE_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_TEXTILE_TRADE_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_TEXTILE_TRADE_HELP</Help>
-			<Cost>15</Cost>
-			<Era>ERA_ANCIENT</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>3</GridX>
-			<GridY>4</GridY>
-			<Quote>TXT_KEY_TECH_TEXTILE_TRADE_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_METALS_TRADE</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_METALS_TRADE_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_METALS_TRADE_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_METALS_TRADE_HELP</Help>
-			<Cost>15</Cost>
-			<Era>ERA_ANCIENT</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>3</GridX>
-			<GridY>5</GridY>
-			<Quote>TXT_KEY_TECH_METALS_TRADE_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_AROMATICS</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_AROMATICS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_AROMATICS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_AROMATICS_HELP</Help>
-			<Cost>15</Cost>
-			<Era>ERA_ANCIENT</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>3</GridX>
-			<GridY>6</GridY>
-			<Quote>TXT_KEY_TECH_AROMATICS_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_LIVESTOCK_AUCTIONS</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_HELP</Help>
-			<Cost>15</Cost>
-			<Era>ERA_ANCIENT</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>3</GridX>
+			<GridX>2</GridX>
 			<GridY>7</GridY>
-			<Quote>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_CARVING</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_CARVING_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_CARVING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_CARVING_HELP</Help>
-			<Cost>15</Cost>
-			<Era>ERA_ANCIENT</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>3</GridX>
-			<GridY>8</GridY>
-			<Quote>TXT_KEY_TECH_CARVING_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_TANNING</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_TANNING_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_TANNING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_TANNING_HELP</Help>
-			<Cost>15</Cost>
-			<Era>ERA_ANCIENT</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>3</GridX>
-			<GridY>9</GridY>
-			<Quote>TXT_KEY_TECH_TANNING_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_HERDING_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -233,34 +89,66 @@
 			<Where Type="TECH_CURRENCY" />
 		</Update>
 		<Row>
-			<Type>TECH_IRON_TRADE</Type>
+			<Type>TECH_APOTHECARY</Type>
 			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_IRON_TRADE_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_IRON_TRADE_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_IRON_TRADE_HELP</Help>
-			<Cost>35</Cost>
-			<Era>ERA_CLASSICAL</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>5</GridX>
-			<GridY>5</GridY>
-			<Quote>TXT_KEY_TECH_IRON_TRADE_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_DRUGS</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_DRUGS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_DRUGS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_DRUGS_HELP</Help>
+			<Description>TXT_KEY_TECH_APOTHECARY_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_APOTHECARY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_APOTHECARY_HELP</Help>
 			<Cost>35</Cost>
 			<Era>ERA_CLASSICAL</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>5</GridX>
 			<GridY>6</GridY>
-			<Quote>TXT_KEY_TECH_DRUGS_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_APOTHECARY_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_FARMERS_MARKETS</Type>
+			<TechCat>TECHTREE_ECONOMICS</TechCat>
+			<Description>TXT_KEY_TECH_FARMERS_MARKETS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_FARMERS_MARKETS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_FARMERS_MARKETS_HELP</Help>
+			<Cost>35</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>5</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_FARMERS_MARKETS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_FISH_MARKETS</Type>
+			<TechCat>TECHTREE_ECONOMICS</TechCat>
+			<Description>TXT_KEY_TECH_FISH_MARKETS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_FISH_MARKETS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_FISH_MARKETS_HELP</Help>
+			<Cost>35</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>5</GridX>
+			<GridY>2</GridY>
+			<Quote>TXT_KEY_TECH_FISH_MARKETS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_ANIMAL_MARKETS</Type>
+			<TechCat>TECHTREE_ECONOMICS</TechCat>
+			<Description>TXT_KEY_TECH_ANIMAL_MARKETS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ANIMAL_MARKETS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ANIMAL_MARKETS_HELP</Help>
+			<Cost>35</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>5</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_ANIMAL_MARKETS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -270,11 +158,11 @@
 			<Description>TXT_KEY_TECH_DIVISION_OF_LABOR_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_DIVISION_OF_LABOR_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_DIVISION_OF_LABOR_HELP</Help>
-			<Cost>40</Cost>
+			<Cost>35</Cost>
 			<Era>ERA_CLASSICAL</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
-			<GridX>6</GridX>
+			<GridX>5</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_DIVISION_OF_LABOR_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
@@ -330,6 +218,22 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 		<Row>
+			<Type>TECH_LIVESTOCK_DISTRIBUTION</Type>
+			<TechCat>TECHTREE_ECONOMICS</TechCat>
+			<Description>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_HELP</Help>
+			<Cost>122</Cost>
+			<Era>ERA_MEDIEVAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>10</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
 			<Type>TECH_BONDS</Type>
 			<TechCat>TECHTREE_ECONOMICS</TechCat>
 			<Description>TXT_KEY_TECH_BONDS_TITLE</Description>
@@ -350,7 +254,11 @@
 			<Set TechCat="TECHTREE_ECONOMICS" Cost="281" Era="ERA_RENAISSANCE" GridX="12" GridY="5" />
 			<Where Type="TECH_BANKING" />
 		</Update>
-		<Row>
+		<Update>
+			<Set TechCat="TECHTREE_ECONOMICS" Cost="281" Era="ERA_RENAISSANCE" GridX="13" GridY="5" />
+			<Where Type="TECH_GUILDS" />
+		</Update>
+		<!--<Row>
 			<Type>TECH_GUILDS</Type>
 			<TechCat>TECHTREE_ECONOMICS</TechCat>
 			<Description>TXT_KEY_TECH_GUILDS_TITLE</Description>
@@ -365,15 +273,43 @@
 			<Quote>TXT_KEY_TECH_GUILDS_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
+		</Row>-->
 		<Update>
 			<Set TechCat="TECHTREE_ECONOMICS" Cost="323" Era="ERA_RENAISSANCE" GridX="13" GridY="7" />
 			<Where Type="TECH_STEEL" />
 		</Update>
-		<Update>
-			<Set TechCat="TECHTREE_ECONOMICS" Description="TXT_KEY_TECH_FERTILIZER_TITLE" Civilopedia="TXT_KEY_TECH_FERTILIZER_CIV" Cost="428" Era="ERA_RENAISSANCE" GridX="15" GridY="7" />
-			<Where Type="TECH_FERTILIZER" />
-		</Update>
+		<Row>
+			<Type>TECH_OCEAN_PIONEERING</Type>
+			<TechCat>TECHTREE_ECONOMICS</TechCat>
+			<Description>TXT_KEY_TECH_OCEAN_PIONEERING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_OCEAN_PIONEERING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_OCEAN_PIONEERING_HELP</Help>
+			<Cost>323</Cost>
+			<Era>ERA_RENAISSANCE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>13</GridX>
+			<GridY>1</GridY>
+			<Quote>TXT_KEY_TECH_OCEAN_PIONEERING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_INTERNATIONAL_TRADE</Type>
+			<TechCat>TECHTREE_ECONOMICS</TechCat>
+			<Description>TXT_KEY_TECH_INTERNATIONAL_TRADE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_INTERNATIONAL_TRADE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_INTERNATIONAL_TRADE_HELP</Help>
+			<Cost>372</Cost>
+			<Era>ERA_RENAISSANCE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>14</GridX>
+			<GridY>2</GridY>
+			<Quote>TXT_KEY_TECH_INTERNATIONAL_TRADE_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<!-- Industrial Era -->
 		<Update>
 			<Set TechCat="TECHTREE_ECONOMICS" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="6" />
@@ -396,26 +332,6 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 		<Row>
-			<Type>TECH_ENERGY_COMMODITIES</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_ENERGY_COMMODITIES_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_ENERGY_COMMODITIES_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_ENERGY_COMMODITIES_HELP</Help>
-			<Cost>984</Cost>
-			<Era>ERA_INDUSTRIAL</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>17</GridX>
-			<GridY>7</GridY>
-			<Quote>TXT_KEY_TECH_ENERGY_COMMODITIES_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Update>
-			<Set TechCat="TECHTREE_ECONOMICS" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="7" />
-			<Where Type="TECH_REFRIGERATION" />
-		</Update>
-		<Row>
 			<Type>TECH_INDUSTRIAL_PROCESSES</Type>
 			<TechCat>TECHTREE_ECONOMICS</TechCat>
 			<Description>TXT_KEY_TECH_INDUSTRIAL_PROCESSES_TITLE</Description>
@@ -432,71 +348,6 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 		<!-- Modern Era -->
-		
-		<Row>
-			<Type>TECH_CONTROLLED_MATERIALS</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_CONTROLLED_MATERIALS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_CONTROLLED_MATERIALS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_CONTROLLED_MATERIALS_HELP</Help>
-			<Cost>2603</Cost>
-			<Era>ERA_MODERN</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>20</GridX>
-			<GridY>5</GridY>
-			<Quote>TXT_KEY_TECH_CONTROLLED_MATERIALS_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_METAL_COMMODITIES</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_METAL_COMMODITIES_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_METAL_COMMODITIES_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_METAL_COMMODITIES_HELP</Help>
-			<Cost>2603</Cost>
-			<Era>ERA_MODERN</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>20</GridX>
-			<GridY>7</GridY>
-			<Quote>TXT_KEY_TECH_METAL_COMMODITIES_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_RARE_EARTH_COMMODITIES</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_HELP</Help>
-			<Cost>3443</Cost>
-			<Era>ERA_MODERN</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>22</GridX>
-			<GridY>6</GridY>
-			<Quote>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
-		<Row>
-			<Type>TECH_BIOTECH_INDUSTRY</Type>
-			<TechCat>TECHTREE_ECONOMICS</TechCat>
-			<Description>TXT_KEY_TECH_BIOTECH_INDUSTRY</Description>
-			<Civilopedia>TXT_KEY_TECH_BIOTECH_INDUSTRY_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_BIOTECH_INDUSTRY_HELP</Help>
-			<Cost>3443</Cost>
-			<Era>ERA_MODERN</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>22</GridX>
-			<GridY>8</GridY>
-			<Quote>TXT_KEY_TECH_BIOTECH_INDUSTRY_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
 
 		<!-- Digital Era -->
 
@@ -525,6 +376,21 @@
 			<Where TechType="TECH_SAILING" FlavorType="FLAVOR_WONDER" />
 			<Set Flavor="3" />
 		</Update>
+		<Row>
+			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
 		<Row>
 			<TechType>TECH_FERMENTATION</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
@@ -564,6 +430,11 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
+		<Row>
+			<TechType>TECH_HERDING</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
 <!--CLASSICAL-->
 		<!--KEEP CURRENCY AT 20 GOLD-->
 		<Update>
@@ -571,14 +442,69 @@
 			<Set Flavor="8" />
 		</Update>
 		<Row>
+			<TechType>TECH_APOTHECARY</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_APOTHECARY</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_APOTHECARY</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
 			<TechType>TECH_DIVISION_OF_LABOR</TechType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>22</Flavor>
+			<Flavor>16</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_DIVISION_OF_LABOR</TechType>
 			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
 			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_MARKETS</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_MARKETS</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_MARKETS</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FISH_MARKETS</TechType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FISH_MARKETS</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FISH_MARKETS</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FARMERS_MARKETS</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FARMERS_MARKETS</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
 		</Row>
 <!--MEDIEVAL-->
 		<Row>
@@ -590,6 +516,16 @@
 			<TechType>TECH_TRADE_FAIRS</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_COFFEE_TRADE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_COFFEE_TRADE</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor></Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
@@ -610,6 +546,21 @@
 			<TechType>TECH_AGRICULTURAL_REVOLUTION</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_LIVESTOCK_DISTRIBUTION</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_BONDS</TechType>
@@ -638,7 +589,7 @@
 			<Where TechType="TECH_BANKING" FlavorType="FLAVOR_EXPANSION" />
 			<Set Flavor="3" />
 		</Update>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_GUILDS</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>8</Flavor>
@@ -652,12 +603,47 @@
 			<TechType>TECH_GUILDS</TechType>
 			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
 			<Flavor>2</Flavor>
+		</Row>-->
+		<Row>
+			<TechType>TECH_OCEAN_PIONEERING</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_OCEAN_PIONEERING</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_OCEAN_PIONEERING</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
 		</Row>
 		<Delete TechType="TECH_STEEL" FlavorType="FLAVOR_OFFENSE" />
 		<Row>
 			<TechType>TECH_STEEL</TechType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
 			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNATIONAL_TRADE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Delete TechType="TECH_FERTILIZER" FlavorType="FLAVOR_SCIENCE" />
 		<Delete TechType="TECH_FERTILIZER" FlavorType="FLAVOR_GROWTH" />
@@ -689,16 +675,6 @@
 			<TechType>TECH_CORPORATIONS</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ENERGY_COMMODITIES</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ENERGY_COMMODITIES</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>10</Flavor>
 		</Row>
 		<Delete TechType="TECH_REFRIGERATION" FlavorType="FLAVOR_NAVAL" />
 		<Delete TechType="TECH_REFRIGERATION" FlavorType="FLAVOR_PRODUCTION" />
@@ -737,157 +713,6 @@
 		
 <!--MODERN-->
 		
-		
-		<!--MONOPOLY TECH FLAVORS-->
-		<Row>
-			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>70</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>80</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ECONOMY_OF_SCALE</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>70</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FISH_MARKETS</TechType>
-			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>60</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FISH_MARKETS</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>80</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FISH_MARKETS</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FARMERS_MARKETS</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>180</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FOOD_FLAVORING</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_FOOD_FLAVORING</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>110</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_DRINK_FLAVORING</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_DRINK_FLAVORING</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>110</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_TEXTILE_TRADE</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_TEXTILE_TRADE</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>110</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_METALS_TRADE</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_METALS_TRADE</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>60</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_METALS_TRADE</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>100</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_AROMATICS</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>200</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_AROMATICS</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>70</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_LIVESTOCK_AUCTIONS</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>70</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_LIVESTOCK_AUCTIONS</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>70</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_LIVESTOCK_AUCTIONS</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>70</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_CARVING</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>60</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_CARVING</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>120</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_CARVING</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_TANNING</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>60</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_TANNING</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_TANNING</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_IRON_TRADE</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>200</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_DRUGS</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>170</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_COFFEE_TRADE</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>180</Flavor>
-		</Row>
+
 	</Technology_Flavors>
 </GameData>

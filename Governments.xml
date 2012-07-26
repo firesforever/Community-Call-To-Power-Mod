@@ -786,9 +786,17 @@
 		</Row>
 	</Policy_CapitalYieldChanges>
 
+	<Policy_CapitalYieldModifiers>
+		<Delete/>
+	</Policy_CapitalYieldModifiers>
+
 	<Policy_CityYieldChanges>
 		<Delete/>
 	</Policy_CityYieldChanges>
+
+	<Policy_CoastalCityYieldChanges>
+		<Delete/>
+	</Policy_CoastalCityYieldChanges>
 
 	<Policy_SpecialistExtraYields>
 		<Delete/>
@@ -842,6 +850,10 @@
 			<CultureChange>1</CultureChange>
 		</Row>
 	</Policy_BuildingClassCultureChanges>
+
+	<Policy_BuildingClassProductionModifiers>
+		<Delete/>
+	</Policy_BuildingClassProductionModifiers>
 	
 	<Policy_BuildingClassYieldChanges>
 		<Delete/>
@@ -895,6 +907,10 @@
 		</Row>
 	</Policy_BuildingClassYieldChanges>
 
+	<Policy_BuildingClassYieldModifiers>
+		<Delete/>
+	</Policy_BuildingClassYieldModifiers>
+
 	<Policy_HurryModifiers>
 		<Delete/>
 		<Row>
@@ -931,8 +947,6 @@
 		</Row>
 
 	</Policy_FreePromotions>
-
-	
 
 	<Policy_YieldModifiers>
 		<Delete/>
@@ -1201,91 +1215,91 @@
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_WELL</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_GAIA_HYPOTHESIS</PolicyType>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_ENERGY_ACCOUNTING</PolicyType>
@@ -1558,6 +1572,10 @@
 			<Yield>1</Yield>
 		</Row>
 	</Policy_ImprovementYieldChanges>
+
+	<Policy_ImprovementCultureChanges>
+		<Delete/>
+	</Policy_ImprovementCultureChanges>
 	
 	<Policy_CapitalYieldPerPopChanges>
 		<Delete/>
@@ -1583,6 +1601,10 @@
 			<Count>1</Count>
 		</Row>
 	</Policy_FreeUnitClasses>
+
+	<Policy_UnitCombatProductionModifiers>
+		<Delete/>
+	</Policy_UnitCombatProductionModifiers>
 
 	<Policy_PrereqPolicies>
 		<Delete/>
@@ -1780,5 +1802,8 @@
 		
 	</Policy_PrereqPolicies>
 	
+
+
+
 </GameData>
 

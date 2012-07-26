@@ -5,6 +5,7 @@
 	<Policies>
 		<!-- The Free Policies (One for each policy Branch, do not change the ID number of these)-->
 		<!-- Governement Page Free Policies-->
+		<Delete/>
 		<Row>
 			<ID>0</ID>
 			<Type>POLICY_MONARCHY</Type>
@@ -118,9 +119,9 @@
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
-		
-		
-				<!-- Governement Ideologies Free Policies-->
+
+
+		<!-- Governement Ideologies Free Policies-->
 		<Row>
 			<ID>10</ID>
 			<Type>POLICY_PACIFISM</Type>
@@ -226,7 +227,7 @@
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
-		
+
 		<!-- Government Systems Free Policies-->
 
 		<Row>
@@ -333,7 +334,7 @@
 			<PortraitIndex>54</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
-		</Row>	
+		</Row>
 	</Policies>	
 
 	<Policy_Flavors>
@@ -1733,7 +1734,7 @@
 		<Row>
 			<PolicyType>POLICY_JINGOISM</PolicyType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>12</Flavor>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_JINGOISM</PolicyType>
@@ -1742,24 +1743,15 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_JINGOISM</PolicyType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_EXCEPTIONALISM</PolicyType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>45</Flavor>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_EXCEPTIONALISM</PolicyType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_JINGOISM</PolicyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>12</Flavor>
 		</Row>
+
 		<Row>
 			<PolicyType>POLICY_SOCIALISM</PolicyType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2815,7 +2807,7 @@
 			<PolicyType>POLICY_BIG_BROTHER</PolicyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>20</Flavor>
-		</Row
+		</Row>
 	</Policy_Flavors>
 	
 </GameData>

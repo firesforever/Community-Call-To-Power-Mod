@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/12/2010 2:38:46 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TP_TECH_TURN_COUNTER">
+			<Text>  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_OURTECH">
+			<Text>Our Technologies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DEFAULTTREE">
+			<Text>Default Tree</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECHTREEAVAILABLE">
+			<Text>Technology Trees Available</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_REQUIRES">
+			<Text>[ICON_BULLET]Requires: {1_TechsString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE1">
+			<Text>"Developing the plan is actually laying out the sequence of events that have to occur for you to achieve your goal." [NEWLINE] [COLOR_GREEN]- George L. Morrisey[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE2">
+			<Text>"Even if you are on the right track, you will get run over if you just sit there." [NEWLINE] [COLOR_GREEN]- Will Rogers[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE3">
+			<Text>"Four steps to achievement: Plan purposefully. Prepare prayerfully. Proceed positively. Pursue persistently." [NEWLINE] [COLOR_GREEN]- William A. Ward[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE4">
+			<Text>"Take time to deliberate, but when the time for action has arrived, stop thinking and go in." [NEWLINE] [COLOR_GREEN]- Napoleon Bonaparte[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE5">
+			<Text>"Take your life in your own hands and what happens? A terrible thing: no one to blame." [NEWLINE] [COLOR_GREEN]- Erica Jong[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE6">
+			<Text>"The greatest mistake you can make in life is to be continually fearing you will make one." [NEWLINE] [COLOR_GREEN]- Elbert Hubbard[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE7">
+			<Text>"The indispensable first step to getting the things you want out of life is this: decide what you want." [NEWLINE] [COLOR_GREEN]- Ben Stein[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE8">
+			<Text>"The search for the perfect venture can turn into procrastination. Your idea may or may not have merit. The key is to get started." [NEWLINE] [COLOR_GREEN]- Unknown Author[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE9">
+			<Text>"The wise man bridges the gap by laying out the path by means of which he can get from where he is to where he wants to go." [NEWLINE] [COLOR_GREEN]- John Pierpont Morgan[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE10">
+			<Text>"Plans are nothing; planning is everything." [NEWLINE] [COLOR_GREEN]- Dwight D. Eisenhower[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE11">
+			<Text>"Please all, and you will please none." [NEWLINE] [COLOR_GREEN]- Aesop[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE12">
+			<Text>"Stay committed to your decisions; but stay flexible in your approach." [NEWLINE] [COLOR_GREEN]- Tony Robbins[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE13">
+			<Text>"Successful leaders have the courage to take action while others hesitate." [NEWLINE] [COLOR_GREEN]- John C. Maxwell[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE14">
+			<Text>"When someone asks you if you're a god, you say YES!" [NEWLINE] [COLOR_GREEN]- Winston Zeddemore[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE15">
+			<Text>"Pretend for a moment that I don't know anything about metallurgy, engineering, or physics, and just tell me what the hell is going on. " [NEWLINE] [COLOR_GREEN]- Dr. Peter Venkman[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE16">
+			<Text>"There is no spoon." [NEWLINE] [COLOR_GREEN]- Spoon Boy[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE17">
+			<Text>"Do or do not, There is no try." [NEWLINE] [COLOR_GREEN]- Yoda[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE18">
+			<Text>"We have no simple problems or easy decisions after kindergarten." [NEWLINE] [COLOR_GREEN]- John W. Turk[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE19">
+			<Text>"When you cannot make up your mind which of two evenly balanced courses of action you should take - choose the bolder." [NEWLINE] [COLOR_GREEN]- William Joseph Slim[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE20">
+			<Text>"If you chase two rabbits, both will escape." [NEWLINE] [COLOR_GREEN]- Unknown Author[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE21">
+			<Text>"If you put off everything till you're sure of it, you'll get nothing done." [NEWLINE] [COLOR_GREEN]- Norman Vincent Peale[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE22">
+			<Text>"It takes as much energy to wish as it does to plan." [NEWLINE] [COLOR_GREEN]- Eleanor Roosevelt[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE23">
+			<Text>"It's in your moments of decision that your destiny is shaped." [NEWLINE] [COLOR_GREEN]- Anthony Robbins[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE24">
+			<Text>"A plan is a list of actions arranged in whatever sequence is thought likely to achieve an objective." [NEWLINE] [COLOR_GREEN]- John Argenti[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE25">
+			<Text>"All you need is the plan, the road map, and the courage to press on to your destination." [NEWLINE] [COLOR_GREEN]- Earl Nightingale[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE26">
+			<Text>"Always plan ahead. It wasn't raining when Noah built the ark." [NEWLINE] [COLOR_GREEN]- Richard C. Cushing[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE27">
+			<Text>"By failing to prepare, you are preparing to fail." [NEWLINE] [COLOR_GREEN]- Benjamin Franklin[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE28">
+			<Text>"Nothing is more difficult, and therefore more precious, than to be able to decide." [NEWLINE] [COLOR_GREEN]- Napoleon Bonaparte[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE29">
+			<Text>"Houston, we have a problem." [NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE30">
+			<Text>"Sure I could've stayed. Could've even been king. But in my own way, I am king." [NEWLINE] [COLOR_GREEN]- Ash[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE31">
+			<Text>"Hail to the king, baby" [NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE32">
+			<Text>"When this baby hits eighty eight miles an hour, you're gonna see some serious shit." [NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE33">
+			<Text>"Our journey through time has taken a most excellent turn!" [NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DQUOTE34">
+			<Text>"Hi, I'm Chucky. Wanna play?" [NEWLINE]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

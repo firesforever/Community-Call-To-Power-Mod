@@ -3,6 +3,22 @@
 <GameData>
 	<Technologies>
 		<!-- Ancient Era -->
+		<Row>
+			<Type>TECH_ORAL_TRADITION</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_ORAL_TRADITION_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ORAL_TRADITION_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ORAL_TRADITION_HELP</Help>
+			<Cost>13</Cost>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>2</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_ORAL_TRADITION_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<Update>
 			<Set TechCat="TECHTREE_SCIENCES" Cost="13" Era="ERA_ANCIENT" GridX="2" GridY="4" />
 			<Where Type="TECH_POTTERY" />
@@ -82,6 +98,10 @@
 			<Set TechCat="TECHTREE_SCIENCES" Cost="372" Era="ERA_RENAISSANCE" GridX="14" GridY="4" />
 			<Where Type="TECH_SCIENTIFIC_THEORY" />
 		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Description="TXT_KEY_TECH_FERTILIZER_TITLE" Civilopedia="TXT_KEY_TECH_FERTILIZER_CIV" Cost="428" Era="ERA_RENAISSANCE" GridX="15" GridY="4" />
+			<Where Type="TECH_FERTILIZER" />
+		</Update>
 		<!-- Industrial Era -->
 		<Update>
 			<Set TechCat="TECHTREE_SCIENCES" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="6" />
@@ -95,9 +115,29 @@
 			<Set TechCat="TECHTREE_SCIENCES" Cost="984" Era="ERA_INDUSTRIAL" GridX="17" GridY="7" />
 			<Where Type="TECH_PENICILIN" />
 		</Update>
-		<Update>
+		<Row>
+			<Type>TECH_AGRICULTURAL_SCIENCES</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_HELP</Help>
+			<Cost>984</Cost>
+			<Era>ERA_INDUSTRIAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>17</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<!--<Update>
 			<Set TechCat="TECHTREE_SCIENCES" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="5" />
 			<Where Type="TECH_TELEGRAPH" />
+		</Update>-->
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="7" />
+			<Where Type="TECH_REFRIGERATION" />
 		</Update>
 		<Row>
 			<Type>TECH_REFINING</Type>
@@ -212,6 +252,22 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
+		<Row>
+			<Type>TECH_BIOTECH_INDUSTRY</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_BIOTECH_INDUSTRY</Description>
+			<Civilopedia>TXT_KEY_TECH_BIOTECH_INDUSTRY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_BIOTECH_INDUSTRY_HELP</Help>
+			<Cost>3443</Cost>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>22</GridX>
+			<GridY>8</GridY>
+			<Quote>TXT_KEY_TECH_BIOTECH_INDUSTRY_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<Update>
 			<Set TechCat="TECHTREE_SCIENCES" Cost="3443" Era="ERA_MODERN" GridX="22" GridY="4" />
 			<Where Type="TECH_PARTICLE_PHYSICS" />
@@ -296,7 +352,7 @@
 			<Civilopedia>TXT_KEY_TECH_ADVANCED_LASERS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_ADVANCED_LASERS_HELP</Help>
 			<Cost>7920</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>24</GridX>
@@ -312,7 +368,7 @@
 			<Civilopedia>TXT_KEY_TECH_VIRTUALIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_VIRTUALIZATION_HELP</Help>
 			<Cost>7920</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>24</GridX>
@@ -332,7 +388,7 @@
 			<Civilopedia>TXT_KEY_TECH_OPTICAL_COMPUTING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_OPTICAL_COMPUTING_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -348,7 +404,7 @@
 			<Civilopedia>TXT_KEY_TECH_CLONING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_CLONING_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -364,7 +420,7 @@
 			<Civilopedia>TXT_KEY_TECH_QUANTUM_COMPUTERS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_QUANTUM_COMPUTERS_HELP</Help>
 			<Cost>10474</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>26</GridX>
@@ -380,7 +436,7 @@
 			<Civilopedia>TXT_KEY_TECH_GENETIC_SYNTHESIS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_GENETIC_SYNTHESIS_HELP</Help>
 			<Cost>10474</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>26</GridX>
@@ -396,7 +452,7 @@
 			<Civilopedia>TXT_KEY_TECH_UNIFIED_FIELD_THEORY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_UNIFIED_FIELD_THEORY_HELP</Help>
 			<Cost>12045</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>27</GridX>
@@ -412,7 +468,7 @@
 			<Civilopedia>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_HELP</Help>
 			<Cost>12045</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>27</GridX>
@@ -428,7 +484,7 @@
 			<Civilopedia>TXT_KEY_TECH_BIOCOMPUTER_INTERFACE_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_BIOCOMPUTER_INTERFACE_HELP</Help>
 			<Cost>12045</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>27</GridX>
@@ -445,7 +501,7 @@
 			<Civilopedia>TXT_KEY_TECH_LEVITATION_MOTORS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_LEVITATION_MOTORS_HELP</Help>
 			<Cost>24091</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>28</GridX>
@@ -461,7 +517,7 @@
 			<Civilopedia>TXT_KEY_TECH_VIRTUAL_REALITY_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_VIRTUAL_REALITY_HELP</Help>
 			<Cost>24091</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>28</GridX>
@@ -477,7 +533,7 @@
 			<Civilopedia>TXT_KEY_TECH_BIOLOGICAL_NANITES_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_BIOLOGICAL_NANITES_HELP</Help>
 			<Cost>24091</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>1</Trade>
 			<GoodyTech>1</GoodyTech>
 			<GridX>28</GridX>
@@ -493,7 +549,7 @@
 			<Civilopedia>TXT_KEY_TECH_BIOLOGICAL_SYNTHESIS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_BIOLOGICAL_SYNTHESIS_HELP</Help>
 			<Cost>27705</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>29</GridX>
@@ -509,7 +565,7 @@
 			<Civilopedia>TXT_KEY_TECH_MECHANICAL_BODY_GRAFTING_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_MECHANICAL_BODY_GRAFTING_HELP</Help>
 			<Cost>27705</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>29</GridX>
@@ -525,7 +581,7 @@
 			<Civilopedia>TXT_KEY_TECH_WARP_FIELD_THEORY_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_WARP_FIELD_THEORY_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -541,7 +597,7 @@
 			<Civilopedia>TXT_KEY_TECH_WORMHOLE_DETECTION_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_WORMHOLE_DETECTION_HELP</Help>
 			<Cost>36640</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>31</GridX>
@@ -552,7 +608,7 @@
 		</Row>
 		<!-- Diamond Era -->
 		<Update>
-			<Set TechCat="TECHTREE_SCIENCES" Cost="73280" Era="ERA_DIAMOND" GridX="32" GridY="5" />
+			<Set TechCat="TECHTREE_SCIENCES" Cost="73280" Era="ERA_FUTURE" GridX="32" GridY="5" />
 			<Where Type="TECH_FUTURE_TECH" />
 		</Update>
 
@@ -566,12 +622,37 @@
 		<Row>
 			<TechType>TECH_POTTERY</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_POTTERY</TechType>
 			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ORAL_TRADITION</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ORAL_TRADITION</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ORAL_TRADITION</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ORAL_TRADITION</TechType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ORAL_TRADITION</TechType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<!--CLASSISCAL-->
 		<Delete TechType="TECH_WRITING" FlavorType="FLAVOR_MILITARY_TRAINING" />
@@ -811,6 +892,21 @@
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
+		<Row>
+			<TechType>TECH_AGRICULTURAL_SCIENCES</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_AGRICULTURAL_SCIENCES</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_AGRICULTURAL_SCIENCES</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
 		<Delete TechType="TECH_ELECTRICITY" FlavorType="FLAVOR_GOLD" />
 		<Delete TechType="TECH_ELECTRICITY" FlavorType="FLAVOR_NAVAL" />
 		<Row>
@@ -856,7 +952,7 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
-		<Update>
+		<!--<Update>
 			<Where TechType="TECH_TELEGRAPH" FlavorType="FLAVOR_CITY_DEFENSE"/>
 			<Set Flavor="5" />
 		</Update>
@@ -877,7 +973,7 @@
 			<TechType>TECH_TELEGRAPH</TechType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>3</Flavor>
-		</Row>
+		</Row>-->
 		<Row>
 			<TechType>TECH_REFINING</TechType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
