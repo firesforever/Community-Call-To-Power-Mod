@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Font="TwCenMT14" FontStyle="Base" Color="Beige" Color1="Black" >
+
+
+	<Instance Offset="0,0" Name="NotificationButton2" Size="700,40"  >
+
+		<GridButton Anchor="L,T" Offset="0,0" Size="700,40" Color="255,255,255,200" StateOffsetIncrement="0,0" ID="Button">
+
+			<Stack ID="TextStack" Anchor="L,T" Padding="0">
+
+				<Label Anchor="L,C" Offset="0,5" ID="NotificationText" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+				
+				<Label Anchor="L,C" Offset="0,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+
+			</Stack>
+
+		</GridButton>
+
+	</Instance>
+
+	<Instance Offset="0,0" Name="EconomicsButton" Size="256,256"  >
+
+		<Button Anchor="L,T" Offset="0,0" StateOffsetIncrement="0,0"  Texture="256x256Frame.dds" Size="256,256" ID="OpenEconomics" Hidden="0" ConsumeMouseOver="1" >
+			<ShowOnMouseOver>
+				<Image Anchor="C,C" Size="128,128" Texture="assets\UI\Art\Notification\NotificationScienceGlow.dds"  />
+			</ShowOnMouseOver>
+			<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="EconomicsIcon"/>
+
+			<ScrollAnim  Offset="0,0"  Size="256.256" Speed=".3" Texture="assets\UI\Art\Notification\NotificationScienceBubbles.dds"  MaskTexture="assets\UI\Art\Notification\NotificationScienceMask.dds"/>
+			<Label Anchor="C,C" Offset="0,0" String="" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ScienceCount" />
+		</Button>
+
+	</Instance>
+	<Instance Offset="0,0" Name="ScienceButton" Size="256,256"  >
+		<Button Anchor="C,T" Offset="0,0" StateOffsetIncrement="0,0"  Texture="256x256Frame.dds" Size="256,256" ID="OpenScience" Hidden="0" ConsumeMouseOver="1" >
+			<ShowOnMouseOver>
+				<Image Anchor="C,C" Size="128,128" Texture="assets\UI\Art\Notification\NotificationScienceGlow.dds"  />
+			</ShowOnMouseOver>
+			<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="ScienceIcon"/>
+
+			<ScrollAnim  Offset="0,0"  Size="256.256" Speed=".3" Texture="assets\UI\Art\Notification\NotificationScienceBubbles.dds"  MaskTexture="assets\UI\Art\Notification\NotificationScienceMask.dds"/>
+			<Label Anchor="C,C" Offset="0,0" String="" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ScienceCount" />
+		</Button>
+
+	</Instance>
+	<Instance Offset="0,0" Name="MilitaryButton" Size="256,256"  >
+		<Button Anchor="R,T" Offset="0,0" StateOffsetIncrement="0,0"  Texture="256x256Frame.dds" Size="256,256" ID="OpenMilitary" Hidden="0" ConsumeMouseOver="1" >
+			<ShowOnMouseOver>
+				<Image Anchor="C,C" Size="128,128" Texture="assets\UI\Art\Notification\NotificationScienceGlow.dds"  />
+			</ShowOnMouseOver>
+			<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="MilitaryIcon"/>
+
+			<ScrollAnim  Offset="0,0"  Size="256.256" Speed=".3" Texture="assets\UI\Art\Notification\NotificationScienceBubbles.dds"  MaskTexture="assets\UI\Art\Notification\NotificationScienceMask.dds"/>
+			<Label Anchor="C,C" Offset="0,0" String="" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ScienceCount" />
+		</Button>
+
+	</Instance>
+	<Instance Offset="0,0" Name="SocialButton" Size="256,256"  >
+		<Button Anchor="L,B" Offset="0,0" StateOffsetIncrement="0,0"  Texture="256x256Frame.dds" Size="256,256" ID="OpenSocial" Hidden="0" ConsumeMouseOver="1" >
+			<ShowOnMouseOver>
+				<Image Anchor="C,C" Size="128,128" Texture="assets\UI\Art\Notification\NotificationScienceGlow.dds"  />
+			</ShowOnMouseOver>
+			<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="SocialIcon"/>
+
+			<ScrollAnim  Offset="0,0"  Size="256.256" Speed=".3" Texture="assets\UI\Art\Notification\NotificationScienceBubbles.dds"  MaskTexture="assets\UI\Art\Notification\NotificationScienceMask.dds"/>
+			<Label Anchor="C,C" Offset="0,0" String="" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ScienceCount" />
+		</Button>
+
+	</Instance>
+	<Instance Offset="0,0" Name="EngineeringButton" Size="256,256"  >
+		<Button Anchor="R,B" Offset="0,0" StateOffsetIncrement="0,0"  Texture="256x256Frame.dds" Size="256,256" ID="OpenEngineering" Hidden="0" ConsumeMouseOver="1" >
+			<ShowOnMouseOver>
+				<Image Anchor="C,C" Size="128,128" Texture="assets\UI\Art\Notification\NotificationScienceGlow.dds"  />
+			</ShowOnMouseOver>
+			<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="EngineeringIcon"/>
+
+			<ScrollAnim  Offset="0,0"  Size="256.256" Speed=".3" Texture="assets\UI\Art\Notification\NotificationScienceBubbles.dds"  MaskTexture="assets\UI\Art\Notification\NotificationScienceMask.dds"/>
+			<Label Anchor="C,C" Offset="0,0" String="" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ScienceCount" />
+		</Button>
+
+	</Instance>
+
+	
+	
+	<Box Style="BGBlock_ClearTopBar" />
+
+
+
+
+	<Grid Size="960,658" Anchor="C,C" Offset="0,36" Padding="0,0" Style="Grid9DetailFive140" ConsumeMouse="0">
+
+		<!-- Upper Treatment -->
+		<Image Anchor="C,T" AnchorSide="I.O" Size="256,64" Offset="0,-16"  Texture="assets\UI\Art\Icons\Top512IconTrim.dds" >
+			<Image ID="CivIconBG" Size="64.64" Anchor="C,C" Offset="-1,-1" TextureOffset="77,0" Texture="CivIconBGSizes.dds" />
+			<Image ID="CivIconShadow" Size="48.48" Anchor="C,C" Offset="0,0" Texture="CivSymbolAtlas48.dds" Color="Black.128"/>
+			<Image ID="CivIcon" Size="48,48" Offset="-1,-1"  Anchor="C,C" Texture="CivSymbolsColor512.dds" />
+		</Image>
+
+
+		<Image Anchor="L,C" AnchorSide="O.I"  Offset="-17,0" Texture="Dec32x64Left.dds" Size="32.64" />
+		<Image Anchor="R,C" AnchorSide="O.I"  Offset="-17,0" Texture="Dec32x64Right.dds" Size="32.64" />
+
+
+		<!-- Panel Header Text ("string= TXT_*" name changed can be put back to make multilanguage) -->
+		<Label String="TXT_KEY_TECHTREEAVAILABLE"  ID="Notifications Label" Anchor="C,T" Offset="0,19" Font="TwCenMT20" Color0="30.50.80.255" Color1="133.184.186.255" Color2="133.184.186.255" FontStyle="SoftShadow"  />
+
+
+
+
+		<ScrollPanel Anchor="L,T" Offset="16,46" Size="1010,500" ID="NotificationScrollPanel" Vertical="1" >
+
+			<Stack Anchor="L,T" Size="256,256" Offset="0,0" StackGrowth="B" Padding="0" ID="EconomicsButtonStack" >
+			</Stack>
+			<Stack Anchor="C,T" Size="256,256" Offset="80,0" StackGrowth="B" Padding="0" ID="ScienceButtonStack" >
+			</Stack>
+			<Stack Anchor="R,T" Size="256,256" Offset="-175,0" StackGrowth="B" Padding="0" ID="MilitaryButtonStack" >
+			</Stack>
+			<Stack Anchor="L,B" Size="256,256" Offset="175,0" StackGrowth="B" Padding="0" ID="SocialButtonStack" >
+			</Stack>
+			<Stack Anchor="R,B" Size="256,256" Offset="0,0" StackGrowth="B" Padding="0" ID="EngineeringButtonStack" >
+			</Stack>
+
+			
+
+			
+
+			
+
+			
+
+
+
+			<GridButton Anchor="R,B"  Style="SmallButton" Size="150,32"  Offset="100,10" StateOffsetIncrement="0,0" ID="CloseButton"  >
+				<Label Anchor="C,C"  Offset="0,0"  String="TXT_KEY_CLOSE" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
+
+			</GridButton>
+
+
+		</ScrollPanel>
+
+
+		<Box Anchor="C,B" AnchorSide="I.I" Offset="0,54"   Size="910,56" Color="255,255,255,0" >
+
+
+
+
+			<Stack Anchor="L,T" Size="600,40" Offset="0,10" StackGrowth="B" Padding="0" ID="NotificationButton3Stack" >
+			</Stack>
+
+
+		</Box>
+
+		<Image Anchor="C,B" Offset="0,110" Texture="HorizontalTrim.dds" Size="926.5" />
+	</Grid>
+
+	<LuaContext FileName="Trees/TechTreeBFTT" ID="EconomicsTTPanel" Hidden="TRUE" />
+
+</Context>
+
+
+<!-- Portrait 
+
+			<Image Anchor="L,T" Offset="-24,0" TextureOffset="0.0"  Texture="256x256Frame.dds" Size="256,256" ID="PortraitFrame">
+				<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="Portrait"/>
+			</Image>
+-->

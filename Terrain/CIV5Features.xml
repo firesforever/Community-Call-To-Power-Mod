@@ -4,43 +4,59 @@
 	<Features>
 		<Update>
 			<Where Type="FEATURE_CRATER" />
-			<Set Culture="2" InBorderHappiness="2" />
+			<Set InBorderHappiness="2" />
 		</Update>
 		<Update>
 			<Where Type="FEATURE_FUJI" />
-			<Set Culture="2" InBorderHappiness="2" />
+			<Set InBorderHappiness="2" />
 		</Update>
 		<Update>
 			<Where Type="FEATURE_MESA" />
-			<Set Culture="2" InBorderHappiness="2" />
+			<Set InBorderHappiness="2" />
 		</Update>
 		<Update>
 			<Where Type="FEATURE_REEF" />
-			<Set Culture="1" InBorderHappiness="1" />
+			<Set InBorderHappiness="1" />
 		</Update>
 		<Update>
 			<Where Type="FEATURE_VOLCANO" />
-			<Set Culture="2" InBorderHappiness="2" />
+			<Set InBorderHappiness="2" />
 		</Update>
 		<Update>
 			<Where Type="FEATURE_GIBRALTAR" />
-			<Set Culture="2" InBorderHappiness="2" />
+			<Set InBorderHappiness="2" />
 		</Update>
 		<Update>
 			<Where Type="FEATURE_GEYSER" />
-			<Set Culture="2" InBorderHappiness="2" />
+			<Set InBorderHappiness="4" />
 		</Update>
 		<Update>
 			<Where Type="FEATURE_FOUNTAIN_YOUTH" />
-			<Set Culture="2" InBorderHappiness="2" />
+			<Set InBorderHappiness="6" />
 		</Update>
 		<Update>
 			<Where Type="FEATURE_POTOSI" />
-			<Set Culture="2" InBorderHappiness="2" />
+			<Set InBorderHappiness="2" />
 		</Update>
 		<Update>
 			<Where Type="FEATURE_EL_DORADO" />
-			<Set Culture="2" InBorderHappiness="2" />
+			<Set InBorderHappiness="4" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_SRI_PADA" />
+			<Set InBorderHappiness="4" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_MT_SINAI" />
+			<Set InBorderHappiness="4" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_MT_KAILASH" />
+			<Set InBorderHappiness="2" />
+		</Update>
+		<Update>
+			<Where Type="FEATURE_ULURU" />
+			<Set InBorderHappiness="2" />
 		</Update>
 	</Features>
 	<Feature_YieldChanges>
@@ -79,6 +95,11 @@
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_MARSH</FeatureType>
@@ -122,32 +143,37 @@
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_CRATER</FeatureType>
-			<YieldType>YIELD_FOOD</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_CRATER</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_CRATER</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<FeatureType>FEATURE_CRATER</FeatureType>
+			<FeatureType>FEATURE_FUJI</FeatureType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>7</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_CRATER</FeatureType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_FUJI</FeatureType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_FUJI</FeatureType>
-			<YieldType>YIELD_GOLD</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_FUJI</FeatureType>
-			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>4</Yield>
 		</Row>
 		<Row>
@@ -161,59 +187,64 @@
 			<Yield>6</Yield>
 		</Row>
 		<Row>
+			<FeatureType>FEATURE_MESA</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<FeatureType>FEATURE_REEF</FeatureType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>6</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_REEF</FeatureType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_REEF</FeatureType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_VOLCANO</FeatureType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>6</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<FeatureType>FEATURE_REEF</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
 		</Row>
 		<Row>
-			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<FeatureType>FEATURE_REEF</FeatureType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>4</Yield>
 		</Row>
 		<Row>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
 			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>5</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>6</Yield>
+			<Yield>8</Yield>
 		</Row>
 		<Row>
-			<FeatureType>FEATURE_GEYSER</FeatureType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
+			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_GEYSER</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_GEYSER</FeatureType>
@@ -221,34 +252,114 @@
 			<Yield>8</Yield>
 		</Row>
 		<Row>
+			<FeatureType>FEATURE_GEYSER</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
-			<YieldType>YIELD_FOOD</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>5</Yield>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_POTOSI</FeatureType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>6</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_POTOSI</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>8</Yield>
+			<Yield>12</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_EL_DORADO</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>14</Yield>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_EL_DORADO</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_SRI_PADA</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_SRI_PADA</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_SRI_PADA</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_MT_SINAI</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_MT_SINAI</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>12</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_ULURU</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_ULURU</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_ULURU</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_ULURU</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
 		</Row>
 	</Feature_YieldChanges>
 	<Feature_RiverYieldChanges>

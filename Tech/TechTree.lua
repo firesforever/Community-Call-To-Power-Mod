@@ -4,7 +4,6 @@
 include( "IconSupport" );
 include( "InstanceManager" );
 include( "TechHelpInclude" );
-include( "LuaReqInclude" );
 
 local g_CultureInstanceManager3 = InstanceManager:new( "NotificationButton2", "Button", Controls.NotificationButton3Stack );
 local g_EconomicsManager = InstanceManager:new( "EconomicsButton", "OpenEconomics", Controls.EconomicsButtonStack );
@@ -309,4 +308,3 @@ ContextPtr:SetShowHideHandler( ShowHideHandler );
 
 --This code only needs to be done once, Firesforever 14/10/2010
 InitialSetup()
-CompileTableLuaCallbacks()

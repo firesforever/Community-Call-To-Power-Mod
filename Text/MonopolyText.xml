@@ -21,2500 +21,1079 @@
 		</Update>
 
 
-
+		<Row Tag="TXT_KEY_RESOURCE_COFFEE">
+			<Text>Coffee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_COFFEE_TEXT">
+			<Text>Coffee is a brewed beverage with a bitter flavor prepared from the roasted seeds of the coffee plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_COFFEE_HELP">
+			<Text>Aromatic beans coveted by many.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_POPPY">
+			<Text>Poppy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_POPPY_TEXT">
+			<Text>Most species of poppies are attractive and are cultivated as ornamental plants. A few species have other uses, principally as sources of drugs and foods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_POPPY_HELP">
+			<Text>Both a vital Medical and Recreational Drug.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_TITANIUM">
+			<Text>Titanium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_TITANIUM_TEXT">
+			<Text>A metallic element, titanium is recognized for its high strength-to-weight ratio. It is a strong metal with low density that is quite ductile (especially in an oxygen-free environment), lustrous, and metallic-white in color. The relatively high melting point (more than 1,650 °C or 3,000 °F) makes it useful as a refractory metal. It is paramagnetic and has fairly low electrical and thermal conductivity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_TITANIUM_HELP">
+			<Text>Valuable metal prized in the Aerospace Industry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_ALOE_VERA">
+			<Text>Aloe Vera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_ALOE_VERA_TEXT">
+			<Text>Aloe vera is a species of succulent plant that probably originated in northern Africa. The species does not have any naturally occurring populations, although closely related aloes do occur in northern Africa. The species is frequently cited as being used in herbal medicine since the beginning of the first century AD.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_ALOE_VERA_HELP">
+			<Text>Herb used for many medicinal practices.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JADE">
+			<Text>Jade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JADE_TEXT">
+			<Text>Jade is an ornamental stone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JADE_HELP">
+			<Text>Stone used for many types of ornaments.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MANGANESE">
+			<Text>Manganese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MANGANESE_TEXT">
+			<Text>Manganese is a silvery-gray metal resembling iron. It is hard and very brittle, difficult to fuse, but easy to oxidize.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MANGANESE_HELP">
+			<Text>Metal used in many processes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_OAK">
+			<Text>Oak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_OAK_TEXT">
+			<Text>Oaks have spirally arranged leaves, with lobed margins in many species; some have serrated leaves or entire leaves with smooth margins. Many deciduous species are marcescent, not dropping dead leaves until spring. The flowers are catkins, produced in spring. The fruit is a nut called an acorn, borne in a cup-like structure known as a cupule; each acorn contains one seed (rarely two or three) and takes 6–18 months to mature, depending on species.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_OAK_HELP">
+			<Text>Strong wood used in building construction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SQUID">
+			<Text>Squid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_SQUID_TEXT">
+			<Text>Like all other cephalopods, squid have a distinct head, bilateral symmetry, a mantle, and arms. Squid, like cuttlefish, have eight arms arranged in pairs and two, usually longer, tentacles. Squid are strong swimmers and certain species can 'fly' for short distances out of the water.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SQUID_HELP">
+			<Text>Deep-sea animal that darts around the ocean.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_AMBER">
+			<Text>Amber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_AMBER_TEXT">
+			<Text>Amber is fossilized tree resin (not sap), which has been appreciated for its color and natural beauty since Neolithic times. Amber is used as an ingredient in perfumes, as a healing agent in folk medicine, and as jewelry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_AMBER_HELP">
+			<Text>Hard crystal made of tree resin.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_TOBACCO">
+			<Text>Tobacco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_TOBACCO_TEXT">
+			<Text>Tobacco is an agricultural product processed from the leaves of plants in the genus Nicotiana. It can be consumed, used as a pesticide and, in the form of nicotine tartrate, used in some medicines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_TOBACCO_HELP">
+			<Text>Usualy consumed as a recreational drug.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_TIN">
+			<Text>Tin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_TIN_TEXT">
+			<Text>This silvery, malleable post-transition metal is not easily oxidized in air and is used to coat other metals to prevent corrosion. The first alloy, used in large scale since 3000 BC, was bronze, an alloy of tin and copper.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_TIN_HELP">
+			<Text>Most commonly use in Tin cans.</Text>
+		</Row>	
 		<!-- Ancient Era -->
-
-		<!-- Small -->
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_FISH_MARKET</Tag>
-			<Text>Small Fish Market</Text>
+			<Tag>TXT_KEY_BUILDING_FISH_HERDER</Tag>
+			<Text>Fish Herder</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_FISH_MARKET_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_FISH_HERDER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Fish.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_FISH_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Fish Resource.</Text>
+			<Tag>TXT_KEY_BUILDING_FISH_HERDER_HELP</Tag>
+			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of Fish nearby.</Text>
+		</Row>
+		<!--<Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_HERDER</Tag>
+			<Text>Tobacco Herder</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WHALE_MARKET</Tag>
-			<Text>Small Whale Market</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_HERDER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WHALE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Whale.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_HERDER_HELP</Tag>
+			<Text>Each source of [ICON_RES_TOBACCO] Tobacco worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Tobacco nearby.</Text>
+		</Row>-->
+		<Row>
+			<Tag>TXT_KEY_BUILDING_WHEAT_FARM</Tag>
+			<Text>Wheat Farm</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WHALE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Whale Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_PEARL_MARKET</Tag>
-			<Text>Small Pearl Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_PEARL_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Pearls.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_PEARL_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Pearl Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CRAB_MARKET</Tag>
-			<Text>Small Crab Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CRAB_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Crab.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CRAB_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Crab Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WHEAT_MILL</Tag>
-			<Text>Small Wheat Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WHEAT_MILL_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_WHEAT_FARM_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WHEAT_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Wheat Resource.</Text>
+			<Tag>TXT_KEY_BUILDING_WHEAT_FARM_HELP</Tag>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of Wheat nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_RICE_MILL</Tag>
-			<Text>Small Rice Mill</Text>
+			<Tag>TXT_KEY_BUILDING_BANANA_FARM</Tag>
+			<Text>Banana Farm</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_RICE_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Rice.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_RICE_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Rice Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CORN_MILL</Tag>
-			<Text>Small Corn Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CORN_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Corn.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CORN_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Corn Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SOYBEAN_MILL</Tag>
-			<Text>Small Soybean Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SOYBEAN_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Soybeans.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SOYBEAN_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Soybean Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_BANANA_MARKET</Tag>
-			<Text>Small Banana Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_BANANA_MARKET_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_BANANA_FARM_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_BANANA_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Banana Resource.</Text>
+			<Tag>TXT_KEY_BUILDING_BANANA_FARM_HELP</Tag>
+			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Banana nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SUGAR_MILL</Tag>
-			<Text>Small Sugar Mill</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_SMELTER</Tag>
+			<Text>Tin Smelter</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SUGAR_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Sugar.</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_SMELTER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tin.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SUGAR_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Sugar Resource.</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_SMELTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of Tin nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SPICE_MARKET</Tag>
-			<Text>Small Spice Market</Text>
+			<Tag>TXT_KEY_BUILDING_CATTLE_RANCH</Tag>
+			<Text>Cattle Ranch</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SPICE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Spices.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SPICE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Spice Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COCOA_MILL</Tag>
-			<Text>Small Cocoa Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COCOA_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cocoa.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COCOA_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cocoa Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WINERY</Tag>
-			<Text>Small Winery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Wine.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_WINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Wine Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_TEA_HOUSE</Tag>
-			<Text>Small Tea House</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_TEA_HOUSE_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Tea.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_TEA_HOUSE_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Tea Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COTTON_LOOM</Tag>
-			<Text>Small Cotton Loom</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COTTON_LOOM_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cotton.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COTTON_LOOM_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cotton Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SILK_LOOM</Tag>
-			<Text>Small Silk Loom</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SILK_LOOM_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Silk.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SILK_LOOM_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Silk Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_DYEWORKS</Tag>
-			<Text>Small Dyeworks</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_DYEWORKS_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Dye.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_DYEWORKS_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Dye Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER</Tag>
-			<Text>Small Copper Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Copper.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COPPER_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Copper Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_GOLD_SMELTER</Tag>
-			<Text>Small Gold Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_GOLD_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Gold.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_GOLD_SMELTER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Gold Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SILVER_SMELTER</Tag>
-			<Text>Small Silver Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SILVER_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Silver.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SILVER_SMELTER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Silver Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_INCENSE_MARKET</Tag>
-			<Text>Small Incense Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_INCENSE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Incense.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_INCENSE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Incense Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_HORSE_STABLE</Tag>
-			<Text>Small Horse Stable</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_HORSE_STABLE_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Horses.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_HORSE_STABLE_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Horse Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CATTLE_YARD</Tag>
-			<Text>Small Cattle Yard</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CATTLE_YARD_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_CATTLE_RANCH_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_CATTLE_YARD_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_PRODUCTION] Production produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cow Resource.</Text>
+			<Tag>TXT_KEY_BUILDING_CATTLE_RANCH_HELP</Tag>
+			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of Cow nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER</Tag>
-			<Text>Small Sheep Butcher</Text>
+			<Tag>TXT_KEY_BUILDING_SHEEP_RANCH</Tag>
+			<Text>Sheep Ranch</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_SHEEP_RANCH_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_SHEEP_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Sheep Resource.</Text>
+			<Tag>TXT_KEY_BUILDING_SHEEP_RANCH_HELP</Tag>
+			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of Sheep nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_GEM_MARKET</Tag>
-			<Text>Small Gem Market</Text>
+			<Tag>TXT_KEY_BUILDING_DEER_HERDER</Tag>
+			<Text>Deer Herder</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_GEM_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Gems.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_GEM_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Gem Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_IVORY_MARKET</Tag>
-			<Text>Small Ivory Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_IVORY_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Ivory.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_IVORY_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Ivory Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_MARBLEWORKS</Tag>
-			<Text>Small Marbleworks</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_MARBLEWORKS_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Marble.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_MARBLEWORKS_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Marble Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_ALLIGATOR_BUTCHER</Tag>
-			<Text>Small Alligator Butcher</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_ALLIGATOR_BUTCHER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Alligator.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_ALLIGATOR_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Alligator Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER</Tag>
-			<Text>Small Deer Butcher</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_DEER_HERDER_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Deer.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_DEER_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Deer Resource.</Text>
+			<Tag>TXT_KEY_BUILDING_DEER_HERDER_HELP</Tag>
+			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of Deer nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_STONE_CUTTER</Tag>
-			<Text>Small Stone Cutter</Text>
+			<Tag>TXT_KEY_BUILDING_STONE_CUTTER</Tag>
+			<Text>Stone Cutter</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_STONE_CUTTER_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Stone.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_STONE_CUTTER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Stone Resource.</Text>
+			<Tag>TXT_KEY_BUILDING_STONE_CUTTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of Stone nearby.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_FUR_TANNERY</Tag>
-			<Text>Small Fur Tannery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_FUR_TANNERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Fur.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_FUR_TANNERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Fur Resource.</Text>
+			<Tag>TXT_KEY_BUILDING_STONE_CUTTER_STRATEGY</Tag>
+			<Text>N/A</Text>
 		</Row>
 
+		<!-- CLASSICAL ERA -->
+		<Row>
+			<Tag>TXT_KEY_BUILDING_FISH_MARKET</Tag>
+			<Text>Fish Market</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_FISH_MARKET_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Fish.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_FISH_MARKET_HELP</Tag>
+			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Fish Herder.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_FIELD</Tag>
+			<Text>Tobacco Field</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_FIELD_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_FIELD_HELP</Tag>
+			<Text>Each source of [ICON_RES_TOBACCO] Tobacco worked by this City produces +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_WHEAT_MARKET</Tag>
+			<Text>Wheat Market</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_WHEAT_MARKET_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_WHEAT_MARKET_HELP</Tag>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Wheat Farm.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BANANA_TRADER</Tag>
+			<Text>Banana Trader</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BANANA_TRADER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BANANA_TRADER_HELP</Tag>
+			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have a Banana Farm.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TIN_DEPOT</Tag>
+			<Text>Tin Depot</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TIN_DEPOT_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tin.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TIN_DEPOT_HELP</Tag>
+			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Tin Smelter.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CATTLE_TRADER</Tag>
+			<Text>Cattle Trader</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CATTLE_TRADER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CATTLE_TRADER_HELP</Tag>
+			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Cattle Ranch.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHEEP_TRADER</Tag>
+			<Text>Sheep Trader</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHEEP_TRADER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHEEP_TRADER_HELP</Tag>
+			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Sheep Ranch.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DEER_MARKET</Tag>
+			<Text>Deer Market</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DEER_MARKET_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Deer.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DEER_MARKET_HELP</Tag>
+			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Deer Herder.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_DEPOT</Tag>
+			<Text>Stone Depot</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_DEPOT_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Stone.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_DEPOT_HELP</Tag>
+			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Stone Cutter.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_DEPOT_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_MARKET</Tag>
+			<Text>Jade Market</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_MARKET_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Jade.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_MARKET_HELP</Tag>
+			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Jade nearby.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_MARKET_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_DEPOT</Tag>
+			<Text>Oak Depot</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_DEPOT_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Oak.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_DEPOT_HELP</Tag>
+			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of Oak nearby.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY</Tag>
+			<Text>Aloe Vera Distillery</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Aloe Vera.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY_HELP</Tag>
+			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of Aloe Vera nearby.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTILLERY_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER</Tag>
+			<Text>Amber Purifier</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Amber.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER_HELP</Tag>
+			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Amber nearby.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AMBER_PURIFIER_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_POPPY_REFINERY</Tag>
+			<Text>Poppy Refinery</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_POPPY_REFINERY_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Poppy.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_POPPY_REFINERY_HELP</Tag>
+			<Text>Each source of [ICON_RES_POPPY] Poppy worked by this City produces +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have an improved source of Poppy nearby.</Text>
+		</Row>
+		
+		<!-- MEDIEVAL ERA -->
+		<Row>
+			<Tag>TXT_KEY_BUILDING_FISH_DISTRIBUTION_CENTER</Tag>
+			<Text>Fish Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_FISH_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Fish.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_FISH_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Fish Resource and City must have a Fish Market.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_PLANTATION</Tag>
+			<Text>Tobacco Plantation</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_PLANTATION_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_PLANTATION_HELP</Tag>
+			<Text>Each source of [ICON_RES_TOBACCO] Tobacco worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Tobacco Resource and City must have a Tobacco Field.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER</Tag>
+			<Text>Wheat Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_WHEAT_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Wheat Resource and City must have a Wheat Market.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BANANA_DISTRIBUTION_CENTER</Tag>
+			<Text>Banana Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BANANA_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BANANA_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Banana Resource and City must have a Banana Trader.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TIN_MANUFACTURER</Tag>
+			<Text>Tin Manufacturer</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TIN_MANUFACTURER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tin.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TIN_MANUFACTURER_HELP</Tag>
+			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Tin Resource and City must have a Tin Depot.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER</Tag>
+			<Text>Cattle Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CATTLE_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Cow Resource and City must have a Cattle Trader.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHEEP_DISTRIBUTION_CENTER</Tag>
+			<Text>Sheep Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHEEP_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHEEP_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Sheep Resource and City must have a Sheep Trader.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DEER_DISTRIBUTION_CENTER</Tag>
+			<Text>Deer Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DEER_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Deer.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DEER_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Deer Resource and City must have a Deer Market.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_DISTRIBUTION_CENTER</Tag>
+			<Text>Stone Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Stone.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Stone Resource and City must have a Stone Depot.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_DISTRIBUTION_CENTER_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER</Tag>
+			<Text>Jade Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Jade.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Jade Resource and City must have a Jade Market.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_DISTRIBUTION_CENTER_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_DISTRIBUTION_CENTER</Tag>
+			<Text>Oak Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Oak.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Oak Resource and City must have a Oak Depot.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_DISTRIBUTION_CENTER_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER</Tag>
+			<Text>Aloe Vera Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Aloe Vera.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Aloe Vera Resource and City must have a Aloe Vera Distillery.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_DISTRIBUTION_CENTER_STRATEGY</Tag>
+			<Text>N/A</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AMBER_DISTRIBUTION_CENTER</Tag>
+			<Text>Amber Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AMBER_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Amber.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AMBER_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Amber Resource and City must have a Aloe Vera Purifier.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SQUID_DISTRIBUTION_CENTER</Tag>
+			<Text>Squid Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SQUID_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Squid.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SQUID_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_SQUID] Squid worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Squid Resource.[NEWLINE]City must have an improved source of Squid nearby.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_DISTRIBUTION_CENTER</Tag>
+			<Text>Manganese Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Manganese.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_MANGANESE] Manganese worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Manganese Resource.[NEWLINE]City must have an improved source of Manganese nearby.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER</Tag>
+			<Text>Poppy Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Poppy.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_POPPY_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_POPPY] Poppy worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 1 Poppy Resource and City must have a Poppy Refinery.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_COFFEE_DISTRIBUTION_CENTER</Tag>
+			<Text>Coffee Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_COFFEE_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Coffee.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_COFFEE_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_COFFEE] Coffee worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 1 Coffee Resource.[NEWLINE]City must have an improved source of Coffee nearby.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_DISTRIBUTION_CENTER</Tag>
+			<Text>Titanium Distribution Center</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_DISTRIBUTION_CENTER_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Titanium.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_DISTRIBUTION_CENTER_HELP</Tag>
+			<Text>Each source of [ICON_RES_TITANIUM] Titanium worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 1 Titanium Resource.[NEWLINE]City must have an improved source of Titanium nearby.</Text>
+		</Row>
+
+
+		<!-- RENAISSANCE ERA -->
+		<Row>
+			<Tag>TXT_KEY_BUILDING_FISH_CONGLOMERATE</Tag>
+			<Text>Fish Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_FISH_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Fish.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_FISH_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_FISH] Fish worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Fish.[NEWLINE]City must have a Fish Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_CONGLOMERATE</Tag>
+			<Text>Tobacco Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_TOBACCO] Tobacco worked by this City produces +1 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Tobacco.[NEWLINE]City must have a Tobacco Plantation.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE</Tag>
+			<Text>Wheat Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_WHEAT_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat worked by this City produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Wheat.[NEWLINE]City must have a Wheat Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BANANA_CONGLOMERATE</Tag>
+			<Text>Banana Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BANANA_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_BANANA_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_BANANA] Banana worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Banana.[NEWLINE]City must have a Banana Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TIN_CONGLOMERATE</Tag>
+			<Text>Tin Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TIN_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tin.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TIN_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_TIN] Tin worked by this City produces +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Tin.[NEWLINE]City must have a Tin Manufacturer.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE</Tag>
+			<Text>Cattle Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CATTLE_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_COW] Cow worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 3 Cow.[NEWLINE]City must have a Cattle Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE</Tag>
+			<Text>Sheep Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHEEP_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_SHEEP] Sheep worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Requires 3 Sheep.[NEWLINE]City must have a Sheep Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DEER_CONGLOMERATE</Tag>
+			<Text>Deer Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DEER_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Deer.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DEER_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_DEER] Deer worked by this City produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Deer.[NEWLINE]City must have a Deer Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_CONGLOMERATE</Tag>
+			<Text>Stone Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Stone.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_STONE_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_STONE] Stone worked by this City produces +3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Stone.[NEWLINE]City must have a Stone Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_CONGLOMERATE</Tag>
+			<Text>Jade Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Jade.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_JADE_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_JADE] Jade worked by this City produces +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Jade.[NEWLINE]City must have a Jade Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_CONGLOMERATE</Tag>
+			<Text>Oak Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Oak.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_OAK_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_OAK] Oak worked by this City produces +3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Oak.[NEWLINE]City must have a Oak Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE</Tag>
+			<Text>Aloe Vera Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Aloe Vera.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera worked by this City produces +2 [ICON_GOLD] Gold and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Aloe Vera.[NEWLINE]City must have a Aloe Vera Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AMBER_CONGLOMERATE</Tag>
+			<Text>Amber Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AMBER_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Amber.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AMBER_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_AMBER] Amber worked by this City produces +2 [ICON_GOLD] Gold and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Amber.[NEWLINE]City must have a Aloe Vera Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SQUID_CONGLOMERATE</Tag>
+			<Text>Squid Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SQUID_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Squid.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SQUID_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_SQUID] Squid worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Squid.[NEWLINE]City must have a Squid Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE</Tag>
+			<Text>Manganese Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Manganese.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_MANGANESE] Manganese worked by this City produces +2 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Manganese.[NEWLINE]City must have a Manganese Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_POPPY_CONGLOMERATE</Tag>
+			<Text>Poppy Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_POPPY_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Poppy.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_POPPY_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_POPPY] Poppy worked by this City produces +1 [ICON_FOOD] Food and +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Poppy.[NEWLINE]City must have a Poppy Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE</Tag>
+			<Text>Coffee Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Coffee.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_COFFEE_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_COFFEE] Coffee worked by this City produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Requires 3 Coffee.[NEWLINE]City must have a Coffee Distribution Center.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE</Tag>
+			<Text>Titanium Conglomerate</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Titanium.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_CONGLOMERATE_HELP</Tag>
+			<Text>Each source of [ICON_RES_TITANIUM] Titanium worked by this City produces +2 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Requires 3 Titanium.[NEWLINE]City must have a Titanium Distribution Center.</Text>
+		</Row>
 		
 		
-
-		<!-- Medium -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET</Tag>
-			<Text>Medium Fish Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Fish.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_FISH_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Fish Resource.[NEWLINE][NEWLINE]Requires Small Fish Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WHALE_MARKET</Tag>
-			<Text>Medium Whale Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WHALE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Whale.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WHALE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Whale Resource.[NEWLINE][NEWLINE]Requires Small Whale Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_PEARL_MARKET</Tag>
-			<Text>Medium Pearl Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_PEARL_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Pearls.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_PEARL_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Pearl Resource.[NEWLINE][NEWLINE]Requires Small Pearl Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CRAB_MARKET</Tag>
-			<Text>Medium Crab Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CRAB_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Crab.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CRAB_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Crab Resource.[NEWLINE][NEWLINE]Requires Small Crab Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WHEAT_MILL</Tag>
-			<Text>Medium Wheat Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WHEAT_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WHEAT_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Wheat Resource.[NEWLINE][NEWLINE]Requires Small Wheat Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_RICE_MILL</Tag>
-			<Text>Medium Rice Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_RICE_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Rice.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_RICE_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Rice Resource.[NEWLINE][NEWLINE]Requires Small Rice Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CORN_MILL</Tag>
-			<Text>Medium Corn Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CORN_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Corn.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CORN_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Corn Resource.[NEWLINE][NEWLINE]Requires Small Corn Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SOYBEAN_MILL</Tag>
-			<Text>Medium Soybean Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SOYBEAN_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Soybeans.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SOYBEAN_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Soybean Resource.[NEWLINE][NEWLINE]Requires Small Soybean Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_BANANA_MARKET</Tag>
-			<Text>Medium Banana Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_BANANA_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_BANANA_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Banana Resource.[NEWLINE][NEWLINE]Requires Small Banana Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SUGAR_MILL</Tag>
-			<Text>Medium Sugar Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SUGAR_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Sugar.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SUGAR_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Sugar Resource.[NEWLINE][NEWLINE]Requires Small Sugar Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SPICE_MARKET</Tag>
-			<Text>Medium Spice Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SPICE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Spices.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SPICE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Spice Resource.[NEWLINE][NEWLINE]Requires Small Spice Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COCOA_MILL</Tag>
-			<Text>Medium Cocoa Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COCOA_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cocoa.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COCOA_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cocoa Resource.[NEWLINE][NEWLINE]Requires Small Cocoa Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WINERY</Tag>
-			<Text>Medium Winery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Wine.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_WINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Wine Resource.[NEWLINE][NEWLINE]Requires Small Winery Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_TEA_HOUSE</Tag>
-			<Text>Medium Tea House</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_TEA_HOUSE_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Tea.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_TEA_HOUSE_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Tea Resource.[NEWLINE][NEWLINE]Requires Small Tea House Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COTTON_LOOM</Tag>
-			<Text>Medium Cotton Loom</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COTTON_LOOM_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cotton.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COTTON_LOOM_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cotton Resource.[NEWLINE][NEWLINE]Requires Small Cotton Loom Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SILK_LOOM</Tag>
-			<Text>Medium Silk Loom</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SILK_LOOM_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Silk.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SILK_LOOM_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Silk Resource.[NEWLINE][NEWLINE]Requires Small Silk Loom Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_DYEWORKS</Tag>
-			<Text>Medium Dyeworks</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_DYEWORKS_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Dye.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_DYEWORKS_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Dye Resource.[NEWLINE][NEWLINE]Requires Small Dyeworks Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COPPER_SMELTER</Tag>
-			<Text>Medium Copper Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COPPER_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Copper.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COPPER_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Copper Resource.[NEWLINE][NEWLINE]Requires Small Copper Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_GOLD_SMELTER</Tag>
-			<Text>Medium Gold Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_GOLD_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Gold.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_GOLD_SMELTER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Gold Resource.[NEWLINE][NEWLINE]Requires Small Gold Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SILVER_SMELTER</Tag>
-			<Text>Medium Silver Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SILVER_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Silver.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SILVER_SMELTER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Silver Resource.[NEWLINE][NEWLINE]Requires Small Silver Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_INCENSE_MARKET</Tag>
-			<Text>Medium Incense Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_INCENSE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Incense.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_INCENSE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Incense Resource.[NEWLINE][NEWLINE]Requires Small Incense Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_HORSE_STABLE</Tag>
-			<Text>Medium Horse Stable</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_HORSE_STABLE_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Horses.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_HORSE_STABLE_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Horse Resource.[NEWLINE][NEWLINE]Requires Small Horse Stable Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CATTLE_YARD</Tag>
-			<Text>Medium Cattle Yard</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CATTLE_YARD_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_CATTLE_YARD_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_PRODUCTION] Production produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cow Resource.[NEWLINE][NEWLINE]Requires Small Cattle YardBuilding.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SHEEP_BUTCHER</Tag>
-			<Text>Medium Sheep Butcher</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SHEEP_BUTCHER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_SHEEP_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Sheep Resource.[NEWLINE][NEWLINE]Requires Small Sheep Butcher Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_GEM_MARKET</Tag>
-			<Text>Medium Gem Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_GEM_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Gems.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_GEM_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Gem Resource.[NEWLINE][NEWLINE]Requires Small Gem Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_IVORY_MARKET</Tag>
-			<Text>Medium Ivory Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_IVORY_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Ivory.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_IVORY_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Ivory Resource.[NEWLINE][NEWLINE]Requires Small Ivory Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_MARBLEWORKS</Tag>
-			<Text>Medium Marbleworks</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_MARBLEWORKS_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Marble.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_MARBLEWORKS_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Marble Resource.[NEWLINE][NEWLINE]Requires Small Marbleworks Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_ALLIGATOR_BUTCHER</Tag>
-			<Text>Medium Alligator Butcher</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_ALLIGATOR_BUTCHER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Alligator.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_ALLIGATOR_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Alligator Resource.[NEWLINE][NEWLINE]Requires Small Alligator Butcher Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER</Tag>
-			<Text>Medium Deer Butcher</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Deer.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_DEER_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Deer Resource.[NEWLINE][NEWLINE]Requires Small Deer Butcher Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_FUR_TANNERY</Tag>
-			<Text>Medium Fur Tannery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_FUR_TANNERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Fur.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_FUR_TANNERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Fur Resource.[NEWLINE][NEWLINE]Requires Small Fur Tannery Building.</Text>
-		</Row>
-
-
-
-		<!-- Large -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_FISH_MARKET</Tag>
-			<Text>Large Fish Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_FISH_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Fish.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_FISH_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food [ICON_GOLD] Gold produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Fish Resource.[NEWLINE][NEWLINE]Requires Medium Fish Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WHALE_MARKET</Tag>
-			<Text>Large Whale Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WHALE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Whale.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WHALE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Whale Resource.[NEWLINE][NEWLINE]Requires Medium Whale Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_PEARL_MARKET</Tag>
-			<Text>Large Pearl Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_PEARL_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Pearls.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_PEARL_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Pearl Resource.[NEWLINE][NEWLINE]Requires Medium Pearl Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CRAB_MARKET</Tag>
-			<Text>Large Crab Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CRAB_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Crab.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CRAB_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Crab Resource.[NEWLINE][NEWLINE]Requires Medium Crab Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WHEAT_MILL</Tag>
-			<Text>Large Wheat Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WHEAT_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WHEAT_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Wheat Resource.[NEWLINE][NEWLINE]Requires Medium Wheat Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_RICE_MILL</Tag>
-			<Text>Large Rice Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_RICE_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Rice.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_RICE_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Rice Resource.[NEWLINE][NEWLINE]Requires Medium Rice Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CORN_MILL</Tag>
-			<Text>Large Corn Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CORN_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Corn.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CORN_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Corn Resource.[NEWLINE][NEWLINE]Requires Medium Corn Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SOYBEAN_MILL</Tag>
-			<Text>Large Soybean Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SOYBEAN_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Soybeans.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SOYBEAN_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Soybean Resource.[NEWLINE][NEWLINE]Requires Medium Soybean Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_BANANA_MARKET</Tag>
-			<Text>Large Banana Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_BANANA_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_BANANA_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Banana Resource.[NEWLINE][NEWLINE]Requires Medium Banana Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SUGAR_MILL</Tag>
-			<Text>Large Sugar Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SUGAR_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Sugar.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SUGAR_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Sugar Resource.[NEWLINE][NEWLINE]Requires Medium Sugar Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SPICE_MARKET</Tag>
-			<Text>Large Spice Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SPICE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Spices.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SPICE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Spice Resource.[NEWLINE][NEWLINE]Requires Medium Spice Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COCOA_MILL</Tag>
-			<Text>Large Cocoa Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COCOA_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cocoa.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COCOA_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cocoa Resource.[NEWLINE][NEWLINE]Requires Medium Cocoa Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WINERY</Tag>
-			<Text>Large Winery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Wine.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_WINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Wine Resource.[NEWLINE][NEWLINE]Requires Medium Winery Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TEA_HOUSE</Tag>
-			<Text>Large Tea House</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TEA_HOUSE_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Tea.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TEA_HOUSE_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Tea Resource.[NEWLINE][NEWLINE]Requires Medium Tea House Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COTTON_LOOM</Tag>
-			<Text>Large Cotton Loom</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COTTON_LOOM_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cotton.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COTTON_LOOM_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cotton Resource.[NEWLINE][NEWLINE]Requires Medium Cotton Loom Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SILK_LOOM</Tag>
-			<Text>Large Silk Loom</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SILK_LOOM_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Silk.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SILK_LOOM_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Silk Resource.[NEWLINE][NEWLINE]Requires Medium Silk Loom Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_DYEWORKS</Tag>
-			<Text>Large Dyeworks</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_DYEWORKS_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Dye.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_DYEWORKS_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Dye Resource.[NEWLINE][NEWLINE]Requires Medium Dyeworks Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COPPER_SMELTER</Tag>
-			<Text>Large Copper Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COPPER_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Copper.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COPPER_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Copper Resource.[NEWLINE][NEWLINE]Requires Medium Copper Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_GOLD_SMELTER</Tag>
-			<Text>Large Gold Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_GOLD_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Gold.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_GOLD_SMELTER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Gold Resource.[NEWLINE][NEWLINE]Requires Medium Gold Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SILVER_SMELTER</Tag>
-			<Text>Large Silver Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SILVER_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Silver.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SILVER_SMELTER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Silver Resource.[NEWLINE][NEWLINE]Requires Medium Silver Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_INCENSE_MARKET</Tag>
-			<Text>Large Incense Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_INCENSE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Incense.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_INCENSE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Incense Resource.[NEWLINE][NEWLINE]Requires Medium Incense Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_HORSE_STABLE</Tag>
-			<Text>Large Horse Stable</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_HORSE_STABLE_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Horses.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_HORSE_STABLE_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Horse Resource.[NEWLINE][NEWLINE]Requires Medium Horse Stable Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CATTLE_YARD</Tag>
-			<Text>Large Cattle Yard</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CATTLE_YARD_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_CATTLE_YARD_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cow Resource.[NEWLINE][NEWLINE]Requires Medium Cattle Yard Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SHEEP_BUTCHER</Tag>
-			<Text>Large Sheep Butcher</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SHEEP_BUTCHER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_SHEEP_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Sheep Resource.[NEWLINE][NEWLINE]Requires Medium Sheep Butcher Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_GEM_MARKET</Tag>
-			<Text>Large Gem Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_GEM_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Gems.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_GEM_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Gem Resource.[NEWLINE][NEWLINE]Requires Medium Gem Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_IVORY_MARKET</Tag>
-			<Text>Large Ivory Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_IVORY_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Ivory.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_IVORY_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Ivory Resource.[NEWLINE][NEWLINE]Requires Medium Ivory Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_MARBLEWORKS</Tag>
-			<Text>Large Marbleworks</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_MARBLEWORKS_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Marble.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_MARBLEWORKS_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Marble Resource.[NEWLINE][NEWLINE]Requires Medium Marbleworks Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_ALLIGATOR_BUTCHER</Tag>
-			<Text>Large Alligator Butcher</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_ALLIGATOR_BUTCHER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Alligator.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_ALLIGATOR_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Alligator Resource.[NEWLINE][NEWLINE]Requires Medium Alligator Butcher Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER</Tag>
-			<Text>Large Deer Butcher</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Deer.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_DEER_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Deer Resource.[NEWLINE][NEWLINE]Requires Medium Deer Butcher Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_FUR_TANNERY</Tag>
-			<Text>Large Fur Tannery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_FUR_TANNERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Fur.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_FUR_TANNERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Fur Resource.[NEWLINE][NEWLINE]Requires Medium Fur Tannery Building.</Text>
-		</Row>
-
-
-
-
-		<!-- Huge -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_FISH_MARKET</Tag>
-			<Text>Huge Fish Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_FISH_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Fish.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_FISH_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Fish Resource.[NEWLINE][NEWLINE]Requires Large Fish Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WHALE_MARKET</Tag>
-			<Text>Huge Whale Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WHALE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Whale.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WHALE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Whale Resource.[NEWLINE][NEWLINE]Requires Large Whale Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_PEARL_MARKET</Tag>
-			<Text>Huge Pearl Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_PEARL_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Pearls.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_PEARL_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Pearl Resource.[NEWLINE][NEWLINE]Requires Large Pearl Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CRAB_MARKET</Tag>
-			<Text>Huge Crab Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CRAB_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Crab.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CRAB_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Crab Resource.[NEWLINE][NEWLINE]Requires Large Crab Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WHEAT_MILL</Tag>
-			<Text>Huge Wheat Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WHEAT_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WHEAT_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Wheat Resource.[NEWLINE][NEWLINE]Requires Large Wheat Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_RICE_MILL</Tag>
-			<Text>Huge Rice Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_RICE_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Rice.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_RICE_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Rice Resource.[NEWLINE][NEWLINE]Requires Large Rice Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CORN_MILL</Tag>
-			<Text>Huge Corn Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CORN_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Corn.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CORN_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Corn Resource.[NEWLINE][NEWLINE]Requires Large Corn Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SOYBEAN_MILL</Tag>
-			<Text>Huge Soybean Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SOYBEAN_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Soybeans.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SOYBEAN_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Soybean Resource.[NEWLINE][NEWLINE]Requires Large Soybean Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_BANANA_MARKET</Tag>
-			<Text>Huge Banana Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_BANANA_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_BANANA_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Banana Resource.[NEWLINE][NEWLINE]Requires Large Banana Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SUGAR_MILL</Tag>
-			<Text>Huge Sugar Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SUGAR_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Sugar.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SUGAR_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Sugar Resource.[NEWLINE][NEWLINE]Requires Large Sugar Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SPICE_MARKET</Tag>
-			<Text>Huge Spice Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SPICE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Spices.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SPICE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Spice Resource.[NEWLINE][NEWLINE]Requires Large Spice Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COCOA_MILL</Tag>
-			<Text>Huge Cocoa Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COCOA_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cocoa.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COCOA_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cocoa Resource.[NEWLINE][NEWLINE]Requires Large Cocoa Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WINERY</Tag>
-			<Text>Huge Winery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Wine.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_WINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Wine Resource.[NEWLINE][NEWLINE]Requires Large Winery Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TEA_HOUSE</Tag>
-			<Text>Huge Tea House</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TEA_HOUSE_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Tea.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TEA_HOUSE_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Tea Resource.[NEWLINE][NEWLINE]Requires Large Tea House Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COTTON_LOOM</Tag>
-			<Text>Huge Cotton Loom</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COTTON_LOOM_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cotton.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COTTON_LOOM_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cotton Resource.[NEWLINE][NEWLINE]Requires Large Cotton Loom Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SILK_LOOM</Tag>
-			<Text>Huge Silk Loom</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SILK_LOOM_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Silk.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SILK_LOOM_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Silk Resource.[NEWLINE][NEWLINE]Requires Large Silk Loom Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_DYEWORKS</Tag>
-			<Text>Huge Dyeworks</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_DYEWORKS_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Dye.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_DYEWORKS_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Dye Resource.[NEWLINE][NEWLINE]Requires Large Dyeworks Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COPPER_SMELTER</Tag>
-			<Text>Huge Copper Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COPPER_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Copper.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COPPER_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Copper Resource.[NEWLINE][NEWLINE]Requires Large Copper Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_GOLD_SMELTER</Tag>
-			<Text>Huge Gold Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_GOLD_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Gold.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_GOLD_SMELTER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Gold Resource.[NEWLINE][NEWLINE]Requires Large Gold Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SILVER_SMELTER</Tag>
-			<Text>Huge Silver Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SILVER_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Silver.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SILVER_SMELTER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_GOLD] Gold and [ICON_HAPPINESS_1] Happiness produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Silver Resource.[NEWLINE][NEWLINE]Requires Large Silver Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_INCENSE_MARKET</Tag>
-			<Text>Huge Incense Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_INCENSE_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Incense.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_INCENSE_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Incense Resource.[NEWLINE][NEWLINE]Requires Large Incense Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_HORSE_STABLE</Tag>
-			<Text>Huge Horse Stable</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_HORSE_STABLE_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Horses.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_HORSE_STABLE_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Horse Resource.[NEWLINE][NEWLINE]Requires Large Horse Stable Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CATTLE_YARD</Tag>
-			<Text>Huge Cattle Yard</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CATTLE_YARD_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_CATTLE_YARD_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food produced and [ICON_PRODUCTION] Production in this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Cow Resource.[NEWLINE][NEWLINE]Requires Large Cattle Yard Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SHEEP_BUTCHER</Tag>
-			<Text>Huge Sheep Butcher</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SHEEP_BUTCHER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_SHEEP_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Sheep Resource.[NEWLINE][NEWLINE]Requires Large Sheep Butcher Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_GEM_MARKET</Tag>
-			<Text>Huge Gem Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_GEM_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Gems.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_GEM_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Gem Resource.[NEWLINE][NEWLINE]Requires Large Gem Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_IVORY_MARKET</Tag>
-			<Text>Huge Ivory Market</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_IVORY_MARKET_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Ivory.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_IVORY_MARKET_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Ivory Resource.[NEWLINE][NEWLINE]Requires Large Ivory Market Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_MARBLEWORKS</Tag>
-			<Text>Huge Marbleworks</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_MARBLEWORKS_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Marble.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_MARBLEWORKS_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Marble Resource.[NEWLINE][NEWLINE]Requires Large Marbleworks Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_ALLIGATOR_BUTCHER</Tag>
-			<Text>Huge Alligator Butcher</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_ALLIGATOR_BUTCHER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Alligator.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_ALLIGATOR_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Alligator Resource.[NEWLINE][NEWLINE]Requires Large Alligator Butcher Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER</Tag>
-			<Text>Huge Deer Butcher</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Deer.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_DEER_BUTCHER_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Deer Resource.[NEWLINE][NEWLINE]Requires Large Deer Butcher Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_FUR_TANNERY</Tag>
-			<Text>Huge Fur Tannery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_FUR_TANNERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Fur.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_FUR_TANNERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Fur Resource.[NEWLINE][NEWLINE]Requires Large Fur Tannery Building.</Text>
-		</Row>
-
-
-
-
 		<!-- Monopoly -->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FISH_MONOPOLY</Tag>
 			<Text>Fish Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_FISH_MONOPOLY_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_FISH_MONOPOLY_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Fish.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_FISH_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_FISH] Fish in the empire produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_FISH] Fish.[NEWLINE][NEWLINE]Requires 2 Huge Fish Market Buildings.</Text>
-		</Row>
-		
-		<!--<Row>
-			<Tag>TXT_KEY_BUILDING_WHALE_MONOPOLY</Tag>
-			<Text>Whale Monopoly</Text>
+			<Tag>TXT_KEY_BUILDING_FISH_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_FISH] Fish in the empire produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Must have built a Fish Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_WHALE_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Whale.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Tag>
+			<Text>Tobacco Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_WHALE_MONOPOLY_STRATEGY</Tag>
-			<Text>+10% [ICON_FOOD] Food and +10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Whale Resource.[NEWLINE][NEWLINE]Requires 2 Huge Whale Market Buildings.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_PEARL_MONOPOLY</Tag>
-			<Text>Pearl Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_PEARL_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Pearls.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_PEARL_MONOPOLY_STRATEGY</Tag>
-			<Text>+2 [ICON_HAPPINESS_1] Happiness per city.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Pearl Resource.[NEWLINE][NEWLINE]Requires 2 Huge Pearl Market Buildings.</Text>
-		</Row>-->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_MONOPOLY</Tag>
-			<Text>Crab Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Crab.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_CRAB_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_CRAB] Crab in the empire produces +1 [ICON_FOOD] and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_CRAB] Crab.</Text>
+			<Tag>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_TOBACCO] Tobacco in the empire produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Tobacco Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WHEAT_MONOPOLY</Tag>
 			<Text>Wheat Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_WHEAT_MONOPOLY_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_WHEAT_MONOPOLY_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Wheat.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_WHEAT_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_WHEAT] Wheat in the empire produces +3 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_WHEAT] Wheat.</Text>
+			<Tag>TXT_KEY_BUILDING_WHEAT_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_WHEAT] Wheat in the empire produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Must have built a Wheat Conglomerate in at least 3 cities.</Text>
 		</Row>
-		<!--<Row>
-			<Tag>TXT_KEY_BUILDING_RICE_MONOPOLY</Tag>
-			<Text>Rice Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_RICE_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Rice.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_RICE_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]Requires 1 Rice Resource.[NEWLINE][NEWLINE]Requires 2 Huge Rice Mill Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_CORN_MONOPOLY</Tag>
-			<Text>Corn Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_CORN_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Corn.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_CORN_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]Requires 1 Corn Resource.[NEWLINE][NEWLINE]Requires 2 Huge Corn Mill Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SOYBEAN_MONOPOLY</Tag>
-			<Text>Soybean Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SOYBEAN_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Soybeans.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SOYBEAN_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]Requires 1 Soybean Resource.[NEWLINE][NEWLINE]Requires 2 Huge Soybean Mill Buildings.</Text>
-		</Row>
-		-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BANANA_MONOPOLY</Tag>
 			<Text>Banana Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_BANANA_MONOPOLY_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_BANANA_MONOPOLY_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Bananas.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_BANANA_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_BANANA] Banana in the empire produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_BANANA] Bananas.</Text>
-		</Row>
-		<!--
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SUGAR_MONOPOLY</Tag>
-			<Text>Sugar Monopoly</Text>
+			<Tag>TXT_KEY_BUILDING_BANANA_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_BANANA] Banana in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Banana Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SUGAR_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Sugar.</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_MONOPOLY</Tag>
+			<Text>Tin Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SUGAR_MONOPOLY_STRATEGY</Tag>
-			<Text>5% [ICON_FOOD] Food Empire Wide. [NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Sugar Resource.[NEWLINE][NEWLINE]Requires 2 Huge Sugar Mill Buildings.</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_MONOPOLY_PEDIA</Tag>
+			<Text>A building used in the processing, storage, and trading of Tin.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SPICE_MONOPOLY</Tag>
-			<Text>Spice Monopoly</Text>
+			<Tag>TXT_KEY_BUILDING_TIN_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_TIN] Tin in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Tin Conglomerate in at least 3 cities.</Text>
 		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SPICE_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Spices.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SPICE_MONOPOLY_STRATEGY</Tag>
-			<Text>5% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Spice Resource.[NEWLINE][NEWLINE]Requires 2 Huge Spice Market Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COCOA_MONOPOLY</Tag>
-			<Text>Cocoa Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COCOA_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cocoa.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COCOA_MONOPOLY_STRATEGY</Tag>
-			<Text>5% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Cocoa Resource.[NEWLINE][NEWLINE]Requires 2 Huge Cocoa Mill Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_WINE_MONOPOLY</Tag>
-			<Text>Wine Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_WINE_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Wine.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_WINE_MONOPOLY_STRATEGY</Tag>
-			<Text>5% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Wine Resource.[NEWLINE][NEWLINE]Requires 2 Huge Winery Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_TEA_MONOPOLY</Tag>
-			<Text>Tea Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_TEA_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Tea.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_TEA_MONOPOLY_STRATEGY</Tag>
-			<Text>5% [ICON_FOOD] Food Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Tea Resource.[NEWLINE][NEWLINE]Requires 2 Huge Tea House Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COTTON_MONOPOLY</Tag>
-			<Text>Cotton Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COTTON_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Cotton.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COTTON_MONOPOLY_STRATEGY</Tag>
-			<Text>+5% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Cotton Resource.[NEWLINE][NEWLINE]Requires 2 Huge Cotton Loom Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SILK_MONOPOLY</Tag>
-			<Text>Silk Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SILK_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Silk.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SILK_MONOPOLY_STRATEGY</Tag>
-			<Text>++5% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Silk Resource.[NEWLINE][NEWLINE]Requires 2 Huge Silk Loom Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_DYE_MONOPOLY</Tag>
-			<Text>Dye Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_DYE_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Dye.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_DYE_MONOPOLY_STRATEGY</Tag>
-			<Text>+5% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Dye Resource.[NEWLINE][NEWLINE]Requires 2 Huge Dyeworks Buildings.</Text>
-		</Row>
-		-->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_MONOPOLY</Tag>
-			<Text>Copper Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Copper.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COPPER_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_COPPER] Copper in the empire produces +2 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_COPPER] Copper.</Text>
-		</Row>
-		<!--
-		<Row>
-			<Tag>TXT_KEY_BUILDING_GOLD_MONOPOLY</Tag>
-			<Text>Gold Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_GOLD_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Gold.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_GOLD_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Gold Resource.[NEWLINE][NEWLINE]Requires 2 Huge Gold Smelter Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SILVER_MONOPOLY</Tag>
-			<Text>Silver Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SILVER_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Silver.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SILVER_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Silver Resource.[NEWLINE][NEWLINE]Requires 2 Huge Silver Smelter Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_INCENSE_MONOPOLY</Tag>
-			<Text>Incense Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_INCENSE_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Incense.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_INCENSE_MONOPOLY_STRATEGY</Tag>
-			<Text>+2 [ICON_HAPPINESS_1] Happiness per city.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Incense Resource.[NEWLINE][NEWLINE]Requires 2 Huge Incense Market Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HORSE_MONOPOLY</Tag>
-			<Text>Horse Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HORSE_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Horses.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HORSE_MONOPOLY_STRATEGY</Tag>
-			<Text>+10% [ICON_PRODUCTION] Production and +10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Horse Resource.[NEWLINE][NEWLINE]Requires 2 Huge Horse Stable Buildings.</Text>
-		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CATTLE_MONOPOLY</Tag>
 			<Text>Cattle Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CATTLE_MONOPOLY_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_CATTLE_MONOPOLY_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Cattle.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CATTLE_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of Cow worked in the empire produces +2 [ICON_FOOD] Food and +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_COW] Cows.</Text>
+			<Tag>TXT_KEY_BUILDING_CATTLE_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_COW] Cow in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Cattle Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHEEP_MONOPOLY</Tag>
 			<Text>Sheep Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SHEEP_MONOPOLY_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_SHEEP_MONOPOLY_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Sheep.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SHEEP_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_SHEEP] Sheep in the empire produces +2 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_SHEEP] Sheep.</Text>
+			<Tag>TXT_KEY_BUILDING_SHEEP_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_SHEEP] Sheep in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Sheep Conglomerate in at least 3 cities.</Text>
 		</Row>
-		<!--
-		<Row>
-			<Tag>TXT_KEY_BUILDING_GEM_MONOPOLY</Tag>
-			<Text>Gem Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_GEM_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Gems.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_GEM_MONOPOLY_STRATEGY</Tag>
-			<Text>+2 [ICON_HAPPINESS_1] Happiness per city.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Gem Resource.[NEWLINE][NEWLINE]Requires 2 Huge Gem Market Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_IVORY_MONOPOLY</Tag>
-			<Text>Ivory Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_IVORY_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Ivory.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_IVORY_MONOPOLY_STRATEGY</Tag>
-			<Text>+2 [ICON_HAPPINESS_1] Happiness per city.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Ivory Resource.[NEWLINE][NEWLINE]Requires 2 Huge Ivory Market Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MARBLE_MONOPOLY</Tag>
-			<Text>Marble Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MARBLE_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Marble.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MARBLE_MONOPOLY_STRATEGY</Tag>
-			<Text>+5% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Marble Resource.[NEWLINE][NEWLINE]Requires 2 Huge Marbleworks Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_ALLIGATOR_MONOPOLY</Tag>
-			<Text>Alligator Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_ALLIGATOR_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Alligator.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_ALLIGATOR_MONOPOLY_STRATEGY</Tag>
-			<Text>+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Alligator Resource.[NEWLINE][NEWLINE]Requires 2 Huge Alligator Butcher Buildings.</Text>
-		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DEER_MONOPOLY</Tag>
 			<Text>Deer Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_DEER_MONOPOLY_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_DEER_MONOPOLY_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Deer.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_DEER_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_DEER] Deer in the empire produces +2 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_DEER] Deer.</Text>
+			<Tag>TXT_KEY_BUILDING_DEER_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_DEER] Deer in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Deer Conglomerate in at least 3 cities.</Text>
 		</Row>
-		<!--<Row>
-			<Tag>TXT_KEY_BUILDING_FUR_MONOPOLY</Tag>
-			<Text>Fur Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_FUR_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Fur.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_FUR_MONOPOLY_STRATEGY</Tag>
-			<Text>+5% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Fur Resource.[NEWLINE][NEWLINE]Requires 2 Huge Fur Tannery Buildings.</Text>
-		</Row>
--->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STONE_MONOPOLY</Tag>
 			<Text>Stone Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_STONE_MONOPOLY_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_STONE_MONOPOLY_PEDIA</Tag>
 			<Text>A building used in the shaping and utilization of Stone.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_STONE_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_STONE] Stone in the empire produces +3 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_STONE] Stone.</Text>
-		</Row>
-
-		<!-- Classical Era -->
-
-		<!-- Small -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_IRON_SMELTER</Tag>
-			<Text>Small Iron Smelter</Text>
+			<Tag>TXT_KEY_BUILDING_STONE_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_STONE] Stone in the empire produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Stone Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_IRON_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Iron.</Text>
+			<Tag>TXT_KEY_BUILDING_JADE_MONOPOLY</Tag>
+			<Text>Jade Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_IRON_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Iron Resource.</Text>
+			<Tag>TXT_KEY_BUILDING_JADE_MONOPOLY_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Jade.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY</Tag>
-			<Text>Small Poppy Refinery</Text>
+			<Tag>TXT_KEY_BUILDING_JADE_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_JADE] Jade in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Jade Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Poppy.</Text>
+			<Tag>TXT_KEY_BUILDING_OAK_MONOPOLY</Tag>
+			<Text>Oak Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_POPPY_REFINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Poppy Resource.</Text>
+			<Tag>TXT_KEY_BUILDING_OAK_MONOPOLY_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Oak.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_TOBACCO_BARN</Tag>
-			<Text>Small Tobacco Barn</Text>
+			<Tag>TXT_KEY_BUILDING_OAK_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_OAK] Jade in the empire produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Must have built a Oak Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_TOBACCO_BARN_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY</Tag>
+			<Text>Aloe Vera Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_TOBACCO_BARN_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Tobacco Resource.</Text>
-		</Row>
-		<!-- Medium -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_IRON_SMELTER</Tag>
-			<Text>Medium Iron Smelter</Text>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Aloe Vera.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_IRON_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Iron.</Text>
+			<Tag>TXT_KEY_BUILDING_ALOE_VERA_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_ALOE_VERA] Aloe Vera in the empire produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Aloe Vera Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_IRON_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Iron Resource.[NEWLINE][NEWLINE]Requires Small Iron Smelter Building.</Text>
+			<Tag>TXT_KEY_BUILDING_AMBER_MONOPOLY</Tag>
+			<Text>Amber Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY</Tag>
-			<Text>Medium Poppy Refinery</Text>
+			<Tag>TXT_KEY_BUILDING_AMBER_MONOPOLY_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Amber.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Poppy.</Text>
+			<Tag>TXT_KEY_BUILDING_AMBER_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_AMBER] Amber in the empire produces +1 [ICON_GOLD] Gold and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Aloe Vera Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_POPPY_REFINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Poppy Resource.[NEWLINE][NEWLINE]Requires Small Poppy Refinery Building.</Text>
+			<Tag>TXT_KEY_BUILDING_SQUID_MONOPOLY</Tag>
+			<Text>Squid Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_TOBACCO_BARN</Tag>
-			<Text>Medium Tobacco Barn</Text>
+			<Tag>TXT_KEY_BUILDING_SQUID_MONOPOLY_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Squid.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_TOBACCO_BARN_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
+			<Tag>TXT_KEY_BUILDING_SQUID_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_SQUID] Squid in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Squid Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_TOBACCO_BARN_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Tobacco Resource.[NEWLINE][NEWLINE]Requires Small Tobacco Barn Building.</Text>
-		</Row>
-		<!-- Large -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_IRON_SMELTER</Tag>
-			<Text>Large Iron Smelter</Text>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_MONOPOLY</Tag>
+			<Text>Manganese Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_IRON_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Iron.</Text>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_MONOPOLY_PEDIA</Tag>
+			<Text>A building used in the shaping and utilization of Manganese.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_IRON_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Iron Resource.[NEWLINE][NEWLINE]Requires Medium Iron Smelter Building.</Text>
+			<Tag>TXT_KEY_BUILDING_MANGANESE_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_MANGANESE] Manganese in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Manganese Conglomerate in at least 3 cities.</Text>
 		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY</Tag>
-			<Text>Large Poppy Refinery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Poppy.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_POPPY_REFINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Poppy Resource.[NEWLINE][NEWLINE]Requires Medium Poppy Refinery Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TOBACCO_BARN</Tag>
-			<Text>Large Tobacco Barn</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TOBACCO_BARN_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TOBACCO_BARN_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Tobacco Resource.[NEWLINE][NEWLINE]Requires Medium Tobacco Barn Building.</Text>
-		</Row>
-		<!-- Huge -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_IRON_SMELTER</Tag>
-			<Text>Huge Iron Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_IRON_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Iron.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_IRON_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Iron Resource.[NEWLINE][NEWLINE]Requires Large Iron Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY</Tag>
-			<Text>Huge Poppy Refinery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Poppy.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_POPPY_REFINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Poppy Resource.[NEWLINE][NEWLINE]Requires Large Poppy Refinery Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TOBACCO_BARN</Tag>
-			<Text>Huge Tobacco Barn</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TOBACCO_BARN_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TOBACCO_BARN_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Tobacco Resource.[NEWLINE][NEWLINE]Requires Large Tobacco Barn Building.</Text>
-		</Row>
-		<!-- Monopoly -->
-		<!--
-		<Row>
-			<Tag>TXT_KEY_BUILDING_IRON_MONOPOLY</Tag>
-			<Text>Iron Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_IRON_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Iron.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_IRON_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]Requires 1 Iron Resource.[NEWLINE][NEWLINE]Requires 2 Huge Iron Smelter Buildings.</Text>
-		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POPPY_MONOPOLY</Tag>
 			<Text>Poppy Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_POPPY_MONOPOLY_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_POPPY_MONOPOLY_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Poppy.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_POPPY_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_POPPY] Poppy in the empire produces +2 [ICON_FOOD] Food and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_POPPY] Poppy.</Text>
+			<Tag>TXT_KEY_BUILDING_POPPY_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_POPPY] Poppy in the empire produces +1 [ICON_FOOD] Food and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Poppy Conglomerate in at least 3 cities.</Text>
 		</Row>
-		<!--
-		<Row>
-			<Tag>TXT_KEY_BUILDING_TOBACCO_MONOPOLY</Tag>
-			<Text>Tobacco Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Tobacco.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_TOBACCO_MONOPOLY_STRATEGY</Tag>
-			<Text>+2 [ICON_HAPPINESS_1] Happiness per city.[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Tobacco Resource.[NEWLINE][NEWLINE]Requires 2 Huge Tobacco Barn Buildings.</Text>
-		</Row>
-
-
--->
-		<!-- Medieval Era -->
-
-		<!-- Small -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COFFEE_MILL</Tag>
-			<Text>Small Coffee Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COFFEE_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Coffee.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COFFEE_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Coffee Resource.</Text>
-		</Row>
-		<!-- Medium -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COFFEE_MILL</Tag>
-			<Text>Medium Coffee Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COFFEE_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Coffee.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COFFEE_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Coffee Resource.[NEWLINE][NEWLINE]Requires Small Coffee Mill Building.</Text>
-		</Row>
-		<!-- Large -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COFFEE_MILL</Tag>
-			<Text>Large Coffee Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COFFEE_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Coffee.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COFFEE_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Coffee Resource.[NEWLINE][NEWLINE]Requires Medium Coffee Mill Building.</Text>
-		</Row>
-		<!-- Huge -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COFFEE_MILL</Tag>
-			<Text>Huge Coffee Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COFFEE_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Coffee.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COFFEE_MILL_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_FOOD] Food and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Coffee Resource.[NEWLINE][NEWLINE]Requires Large Coffee Mill Building.</Text>
-		</Row>
-		<!-- Monopoly -->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COFFEE_MONOPOLY</Tag>
 			<Text>Coffee Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COFFEE_MONOPOLY_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_COFFEE_MONOPOLY_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Coffee.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_COFFEE_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_COFFEE] Coffee in the empire produces +1 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 [ICON_RES_COFFEE] Coffee.</Text>
-		</Row>
-
-
-		<!-- Industrial Era -->
-
-		<!-- Small -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COAL_PLANT</Tag>
-			<Text>Small Coal Plant</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COAL_PLANT_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Coal.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_COAL_PLANT_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Coal Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_OIL_REFINERY</Tag>
-			<Text>Small Oil Refinery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_OIL_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Oil.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_OIL_REFINERY_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Oil Resource.</Text>
-		</Row>
-		<!-- Medium -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COAL_PLANT</Tag>
-			<Text>Medium Coal Plant</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COAL_PLANT_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Coal.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_COAL_PLANT_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Coal Resource.[NEWLINE][NEWLINE]Requires Small Coal Plant Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_OIL_REFINERY</Tag>
-			<Text>Medium Oil Refinery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_OIL_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Oil.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_OIL_REFINERY_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Oil Resource.[NEWLINE][NEWLINE]Requires Small Oil Refinery Building.</Text>
-		</Row>
-		<!-- Large -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COAL_PLANT</Tag>
-			<Text>Large Coal Plant</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COAL_PLANT_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Coal.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_COAL_PLANT_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Coal Resource.[NEWLINE][NEWLINE]Requires Medium Coal Plant Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_OIL_REFINERY</Tag>
-			<Text>Large Oil Refinery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_OIL_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Oil.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_OIL_REFINERY_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Oil Resource.[NEWLINE][NEWLINE]Requires Medium Oil Refinery Building.</Text>
-		</Row>
-		<!-- Huge -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COAL_PLANT</Tag>
-			<Text>Huge Coal Plant</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COAL_PLANT_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Coal.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_COAL_PLANT_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Coal Resource.[NEWLINE][NEWLINE]Requires Large Coal Plant Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_OIL_REFINERY</Tag>
-			<Text>Huge Oil Refinery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_OIL_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Oil.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_OIL_REFINERY_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Oil Resource.[NEWLINE][NEWLINE]Requires Large Oil Refinery Building.</Text>
-		</Row>
-		<!-- Monopoly -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COAL_MONOPOLY</Tag>
-			<Text>Coal Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COAL_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Coal.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_COAL_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]Requires 1 Coal Resource.[NEWLINE][NEWLINE]Requires 2 Huge Coal Plant Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_OIL_MONOPOLY</Tag>
-			<Text>Oil Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_OIL_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Oil.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_OIL_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]Requires 1 Oil Resource.[NEWLINE][NEWLINE]Requires 2 Huge Oil Refinery Buildings.</Text>
-		</Row>
-
-
-
-
-		<!-- Modern Era -->
-
-		<!-- Small -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_NUCLEAR_PLANT</Tag>
-			<Text>Small Nuclear Plant</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_NUCLEAR_PLANT_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Uranium.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_NUCLEAR_PLANT_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Uranium Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_ALUMINUM_MILL</Tag>
-			<Text>Small Aluminum Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_ALUMINUM_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Aluminum.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_ALUMINUM_MILL_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Aluminum Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_TITANIUM_SMELTER</Tag>
-			<Text>Small Titanium Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_TITANIUM_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Titanium.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_TITANIUM_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Titanium Resource.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_RARE_EARTH_REFINERY</Tag>
-			<Text>Small Rare Earth Refinery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_RARE_EARTH_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Rare Earths.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_SMALL_RARE_EARTH_REFINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Rare Earth Resource.</Text>
-		</Row>
-		<!-- Medium -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_NUCLEAR_PLANT</Tag>
-			<Text>Medium Nuclear Plant</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_NUCLEAR_PLANT_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Uranium.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_NUCLEAR_PLANT_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Uranium Resource.[NEWLINE][NEWLINE]Requires Small Nuclear Plant Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_ALUMINUM_MILL</Tag>
-			<Text>Medium Aluminum Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_ALUMINUM_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Aluminum.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_ALUMINUM_MILL_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Aluminum Resource.[NEWLINE][NEWLINE]Requires Small Aluminum Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_TITANIUM_SMELTER</Tag>
-			<Text>Medium Titanium Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_TITANIUM_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Titanium.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_TITANIUM_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Titanium Resource.[NEWLINE][NEWLINE]Requires Small Titanium Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_RARE_EARTH_REFINERY</Tag>
-			<Text>Medium Rare Earth Refinery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_RARE_EARTH_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Rare Earths.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_MEDIUM_RARE_EARTH_REFINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Rare Earth Resource.[NEWLINE][NEWLINE]Requires Small Rare Earth Refinery Building.</Text>
-		</Row>
-		<!-- Large -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_NUCLEAR_PLANT</Tag>
-			<Text>Large Nuclear Plant</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_NUCLEAR_PLANT_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Uranium.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_NUCLEAR_PLANT_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Uranium Resource.[NEWLINE][NEWLINE]Requires Medium Nuclear Plant Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_ALUMINUM_MILL</Tag>
-			<Text>Large Aluminum Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_ALUMINUM_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Aluminum.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_ALUMINUM_MILL_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Aluminum Resource.[NEWLINE][NEWLINE]Requires Medium Aluminum Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER</Tag>
-			<Text>Large Titanium Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Titanium.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_TITANIUM_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Titanium Resource.[NEWLINE][NEWLINE]Requires Medium Titanium Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_RARE_EARTH_REFINERY</Tag>
-			<Text>Large Rare Earth Refinery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_RARE_EARTH_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Rare Earths.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_LARGE_RARE_EARTH_REFINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Rare Earth Resource.[NEWLINE][NEWLINE]Requires Medium Rare Earth Refinery Building.</Text>
-		</Row>
-		<!-- Huge -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_NUCLEAR_PLANT</Tag>
-			<Text>Huge Nuclear Plant</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_NUCLEAR_PLANT_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Uranium.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_NUCLEAR_PLANT_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Uranium Resource.[NEWLINE][NEWLINE]Requires Large Nuclear Plant Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_ALUMINUM_MILL</Tag>
-			<Text>Huge Aluminum Mill</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_ALUMINUM_MILL_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Aluminum.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_ALUMINUM_MILL_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Aluminum Resource.[NEWLINE][NEWLINE]Requires Large Aluminum Mill Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER</Tag>
-			<Text>Huge Titanium Smelter</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Titanium.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_TITANIUM_SMELTER_STRATEGY</Tag>
-			<Text>Increases the [ICON_PRODUCTION] Production of this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Titanium Resource.[NEWLINE][NEWLINE]Requires Large Titanium Smelter Building.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_RARE_EARTH_REFINERY</Tag>
-			<Text>Huge Rare Earth Refinery</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_RARE_EARTH_REFINERY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Rare Earths.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_HUGE_RARE_EARTH_REFINERY_STRATEGY</Tag>
-			<Text>Increases the amount of [ICON_PRODUCTION] Production and [ICON_GOLD] Gold produced by this City.[NEWLINE][NEWLINE]Each successive Monopoly Building provides greater benefits.[NEWLINE][NEWLINE]Requires 1 Rare Earth Resource.[NEWLINE][NEWLINE]Requires Large Rare Earth Refinery Building.</Text>
-		</Row>
-		<!-- Monopoly -->
-		<Row>
-			<Tag>TXT_KEY_BUILDING_URANIUM_MONOPOLY</Tag>
-			<Text>Uranium Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_URANIUM_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Uranium.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_URANIUM_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]Requires 1 Uranium Resource.[NEWLINE][NEWLINE]Requires 2 Huge Nuclear Plant Buildings.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_ALUMINUM_MONOPOLY</Tag>
-			<Text>Aluminum Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_ALUMINUM_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Aluminum.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_ALUMINUM_MONOPOLY_STRATEGY</Tag>
-			<Text>+20% [ICON_PRODUCTION] Production Empire Wide.[NEWLINE][NEWLINE]Requires 1 Aluminum Resource.[NEWLINE][NEWLINE]Requires 2 Huge Aluminum Mill Buildings.</Text>
+			<Tag>TXT_KEY_BUILDING_COFFEE_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_COFFEE] Coffee in the empire produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Must have built a Coffee Conglomerate in at least 3 cities.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TITANIUM_MONOPOLY</Tag>
 			<Text>Titanium Monopoly</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_PEDIA</Tag>
 			<Text>A building used in the processing, storage, and trading of Titanium.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_TITANIUM] Titanium in the empire produces +2 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The empire enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE][NEWLINE]Requires 12 Titanium.</Text>
+			<Tag>TXT_KEY_BUILDING_TITANIUM_MONOPOLY_HELP</Tag>
+			<Text>Each source of [ICON_RES_TITANIUM] Titanium in the empire produces +1 [ICON_PRODUCTION] Production and +1 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Must have built a Titanium Conglomerate in at least 3 cities.</Text>
 		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_RARE_EARTH_MONOPOLY</Tag>
-			<Text>Rare Earth Monopoly</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_RARE_EARTH_MONOPOLY_DESC</Tag>
-			<Text>A building used in the processing, storage, and trading of Rare Earths.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_RARE_EARTH_MONOPOLY_STRATEGY</Tag>
-			<Text>+10% [ICON_PRODUCTION] Production and +10% [ICON_GOLD] Gold Empire Wide.[NEWLINE][NEWLINE]Requires 1 Rare Earth Resource.[NEWLINE][NEWLINE]Requires 2 Huge Rare Earth Refinery Buildings.</Text>
-		</Row>
-		
 	</Language_en_US>
 </GameData>

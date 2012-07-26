@@ -2,26 +2,26 @@
 <!-- Created by ModBuddy on 11/10/2010 1:58:41 PM -->
 <GameData>
 	<UnitClasses>
-		<Row>
+		<!--<Row>
 			<Type>UNITCLASS_COG</Type>
 			<Description>TXT_KEY_UNIT_COG</Description>
 			<DefaultUnit>UNIT_COG</DefaultUnit>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<Type>UNITCLASS_GALLEON</Type>
 			<Description>TXT_KEY_UNIT_GALLEON</Description>
 			<DefaultUnit>UNIT_GALLEON</DefaultUnit>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>UNITCLASS_CIVIL_ENGINEER</Type>
 			<Description>TXT_KEY_UNIT_CIVIL_ENGINEER</Description>
 			<DefaultUnit>UNIT_CIVIL_ENGINEER</DefaultUnit>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>UNITCLASS_MACHINE_GUNNER</Type>
 			<Description>TXT_KEY_UNIT_MACHINE_GUNNER</Description>
 			<DefaultUnit>UNIT_MACHINE_GUNNER</DefaultUnit>
-		</Row>
+		</Row>-->
 		<Row>
 			<Type>UNITCLASS_MISSILE_SQUAD</Type>
 			<Description>TXT_KEY_UNIT_MISSILE_SQUAD</Description>

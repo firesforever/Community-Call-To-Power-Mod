@@ -24,6 +24,16 @@
 			<Tag>TXT_KEY_TECHTREE_SOCIAL</Tag>
 			<Text>Social ([ICON_CULTURE]/[ICON_HAPPINESS_1])  </Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_RESOURCE_BLOCKBUSTER">
+			<Text>Blockbuster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_BLOCKBUSTER_TEXT">
+			<Text>Blockbuster, as applied to film or theatre, denotes a very popular or successful production. The entertainment industry use was originally theatrical slang referring to a particularly successful play, but is now used primarily by the film industry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BLOCKBUSTER_HELP">
+			<Text>Blockbusters can only be gained from the [COLOR_POSITIVE_TEXT]Hollywood[ENDCOLOR] Wonder. They can be traded off to other Civilizations.</Text>
+		</Row>
 		
 		<!--BUILDINGS-->
 		<!--ANCIENT-->
@@ -31,6 +41,10 @@
 			<Set Text="+2 [ICON_FOOD] Food from every Oasis."/>
 			<Where Tag="TXT_KEY_BUILDING_BAZAAR_HELP" />
 		</Update>
+		<Update>
+			<Set Text="+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library."/>
+			<Where Tag="TXT_KEY_BUILDING_WAT_HELP" />
+		</Update>		
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BREWERY</Tag>
 			<Text>Brewery</Text>
@@ -41,7 +55,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BREWERY_HELP</Tag>
-			<Text>Each source of [ICON_RES_WHEAT] Wheat, [ICON_RES_SUGAR] Sugar, and [ICON_RES_SPICES] Spices worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_SUGAR] Sugar, [ICON_RES_SPICES] Spices, [ICON_RES_CITRUS] Citrus, or [ICON_RES_SALT] Salt worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of one of these resources nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BREWERY_STRATEGY</Tag>
@@ -64,11 +78,11 @@
 			<Where Tag="TXT_KEY_BUILDING_CIRCUS_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_DEER] Deer and [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]+10% [ICON_FOOD] Food carried over after a [ICON_CITIZEN] Citizen is born."/>
+			<Set Text="+10% [ICON_FOOD] Food carried over after a [ICON_CITIZEN] Citizen is born."/>
 			<Where Tag="TXT_KEY_BUILDING_GRANARY_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.[NEWLINE][NEWLINE]City must not be in Plains."/>
+			<Set Text="Each source of [ICON_RES_MARBLE] Marble worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_MARBLE] Marble, [ICON_RES_STONE] Stone, or [ICON_RES_JADE] Jade nearby.[NEWLINE][NEWLINE]City must not be in Plains."/>
 			<Where Tag="TXT_KEY_BUILDING_STONE_WORKS_HELP" />
 		</Update>
 		
@@ -83,7 +97,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ABBEY_HELP</Tag>
-			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces 1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_SILK] Silk worked by this City produces 1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces +1 [ICON_GOLD] Gold. Each source of [ICON_RES_SILK] Silk worked by this City produces +1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ABBEY_STRATEGY</Tag>
@@ -94,7 +108,7 @@
 			<Text>Artillery Range</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_ARTILLERY_RANGE_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_ARTILLERY_RANGE_PEDIA</Tag>
 			<Text>Atillery Ranges give seige weapon operators the ability to test their equipment and become proficient at it's use.  Commanders of Other ground based units also recieve training here so they know the capabilities of current ranged weaponry.  </Text>
 		</Row>
 		<Row>
@@ -122,7 +136,7 @@
 			<Where Tag="TXT_KEY_BUILDING_PAPER_MAKER_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each sorce of [ICON_RES_COW] Cow, [ICON_RES_SHEEP] Sheep, and [ICON_RES_HORSE] Horse worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]Requires improved source of [ICON_RES_COW] Cow, [ICON_RES_HORSE] Horse, or [ICON_RES_SHEEP] Sheep nearby."/>
+			<Set Text="Each sorce of [ICON_RES_HORSE] Horse or [ICON_RES_TRUFFLES] Truffles worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_HORSE] Horse or [ICON_RES_TRUFFLES] Truffles nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_STABLE_HELP" />
 		</Update>
 		<!--<Update>
@@ -136,14 +150,17 @@
 			<Text>City Clock</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_CITY_CLOCK_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_CITY_CLOCK_PEDIA</Tag>
 			<Text>A City Clock is a tower specifically built with one or more (often four) clock faces. Clock towers can be either freestanding or part of a church or municipal building such as a town hall. Some clock towers are not true clock towers having had their clock faces added to an already existing building. These 'false' clock towers should not be confused with true clock towers but are still significant buildings.  The mechanism inside the tower is known as a turret clock. It often marks the hour (and sometimes segments of an hour) by sounding large bells or chimes, sometimes playing simple musical phrases or tunes.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_CLOCK_STRATEGY</Tag>
-			<Text>The City Clock increases the city's output of gold. </Text>
+			<Text>The City Clock provides a one-time boost to gold. Use it to boost your economy.</Text>
 		</Row>
-		
+		<Row>
+			<Tag>TXT_KEY_BUILDING_CITY_CLOCK_HELP</Tag>
+			<Text>Provides a one-time instance of +360 [ICON_GOLD] Gold.</Text>
+		</Row>
 		
 		
 		
@@ -157,7 +174,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_MAHABODHI_TEMPLE_DESC</Tag>
-			<Text>The Mahabodhi Temple is located in Bodhgaya, Bihar state in India. Literally it means “Great Awakening Temple”. It constituted one of the four holy sites related to the Lord Buddha’s life and particularly is the holiest pilgrimage site for the Buddhists around the world where Siddhartha Gautama, the Buddha attained enlightenment.</Text>
+			<Text>The Mahabodhi Temple is located in Bodhgaya, Bihar state in India. Literally it means "Great Awakening Temple". It constituted one of the four holy sites related to the Lord Buddha’s life and particularly is the holiest pilgrimage site for the Buddhists around the world where Siddhartha Gautama, the Buddha attained enlightenment.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_MAHABODHI_TEMPLE_HELP</Tag>
@@ -165,7 +182,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_MAHABODHI_TEMPLE_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Thousands of candles can be lit from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared.”[NEWLINE][TAB][TAB] - Buddha[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Thousands of candles can be lit from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared."[NEWLINE][TAB][TAB] - Buddha[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DOCKS</Tag>
@@ -193,7 +210,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_ZIGGURAT_OF_MARDUK_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Therefore is the name of it called Babel; because the Lord did there confound the language of all the earth: and from thence did the Lord scatter them abroad upon the face of all the earth.”[NEWLINE][TAB][TAB] - Old Testement[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Therefore is the name of it called Babel; because the Lord did there confound the language of all the earth: and from thence did the Lord scatter them abroad upon the face of all the earth."[NEWLINE][TAB][TAB] - Old Testement[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_THE_LABYRNTH</Tag>
@@ -209,23 +226,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_THE_LABYRNTH_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Indeed, what is there that does not appear marvelous when it comes to our knowledge for the first time? How many things, too, are looked upon as quite impossible until they have been actually effected?”[NEWLINE][TAB][TAB] - Pliny the Elder 25AD-79AD[NEWLINE][TAB][TAB]</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_PETRA</Tag>
-			<Text>Petra</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_WONDER_PETRA_DESC</Tag>
-			<Text>Petra  is a historic and archaeological City in the Jordanian governorate of Ma'an that has rock cut architecture and a water conduits system. Established sometime around the 6th century BC as the capital City of the Nabataeans, it is a symbol of Jordan as well as its most visited tourism attraction.  It lies on the slope of Mount Hor in a basin among the mountains which form the eastern flank of Arabah (Wadi Araba), the large valley running from the Dead Sea to the Gulf of Aqaba.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_WONDER_PETRA_HELP</Tag>
-			<Text>Increases [ICON_PRODUCTION] Production in this City.[NEWLINE][NEWLINE]City must be built within 2 tiles of a Mountain.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_WONDER_PETRA_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“The best plan is to profit by the folly of others.”[NEWLINE][TAB][TAB] - Pliny the Elder 25AD-79AD[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Indeed, what is there that does not appear marvelous when it comes to our knowledge for the first time? How many things, too, are looked upon as quite impossible until they have been actually effected?"[NEWLINE][TAB][TAB] - Pliny the Elder[NEWLINE][TAB][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PARTHENON</Tag>
@@ -241,7 +242,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_PARTHENON_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Earth proudly wears the Parthenon as the best gem upon her zone.”[NEWLINE][TAB][TAB] - Ralph Emerson[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Earth proudly wears the Parthenon as the best gem upon her zone."[NEWLINE][TAB][TAB] - Ralph Emerson[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEMPLE_OF_HEAVEN</Tag>
@@ -257,7 +258,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_TEMPLE_OF_HEAVEN_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“To the mind that is still, the whole universe surrenders.”[NEWLINE][TAB][TAB] - Lao Tzu[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"To the mind that is still, the whole universe surrenders."[NEWLINE][TAB][TAB] - Lao Tzu[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPHINX</Tag>
@@ -269,7 +270,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_SPHINX_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“You can tell whether a man is clever by his answers. You can tell whether a man is wise by his questions.”[NEWLINE][TAB][TAB] - Naguib Mahfouz[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"You can tell whether a man is clever by his answers. You can tell whether a man is wise by his questions."[NEWLINE][TAB][TAB] - Naguib Mahfouz[NEWLINE][TAB]</Text>
 		</Row>
 		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_STATUE_OF_ZEUS</Tag>
@@ -285,7 +286,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_STATUE_OF_ZEUS_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“The dice of Zeus always fall luckily.”[NEWLINE][TAB][TAB] - Sophocles[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"The dice of Zeus always fall luckily."[NEWLINE][TAB][TAB] - Sophocles[NEWLINE][TAB]</Text>
 		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEMPLE_OF_SOLOMON</Tag>
@@ -301,7 +302,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_TEMPLE_OF_SOLOMON_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Who is the wise man? He who sees what's going to be born.”[NEWLINE][TAB][TAB] - King Solomon[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Who is the wise man? He who sees what's going to be born."[NEWLINE][TAB][TAB] - King Solomon[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_KONG_MIAO</Tag>
@@ -313,7 +314,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_KONG_MIAO_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Before you embark on a journey of revenge, dig two graves.”[NEWLINE][TAB][TAB] - Confucius[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Before you embark on a journey of revenge, dig two graves."[NEWLINE][TAB][TAB] - Confucius[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OLYMPICS</Tag>
@@ -329,7 +330,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_OLYMPICS_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“The Olympics remain the most compelling search for excellence that exists in sport, and maybe in life itself.”[NEWLINE][TAB][TAB] - Dawn Fraser[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"The Olympics remain the most compelling search for excellence that exists in sport, and maybe in life itself."[NEWLINE][TAB][TAB] - Dawn Fraser[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MAUSOLEUM_OF_MAUSOLUS</Tag>
@@ -345,7 +346,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_MAUSOLEUM_OF_MAUSOLUS_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“Famous men have the whole earth as their memorial.”[NEWLINE][TAB][TAB] - Pericles[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][NEWLINE]"Famous men have the whole earth as their memorial."[NEWLINE][TAB][TAB] - Pericles[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_NAZCA_LINES</Tag>
@@ -363,7 +364,7 @@
 			<Tag>TXT_KEY_WONDER_NAZCA_LINES_QUOTE</Tag>
 			<Text>[NEWLINE][NEWLINE]We must spare our enemies or it will be our loss, since they and all that belongs to them must soon be ours."[NEWLINE][TAB][TAB] - Unknown[NEWLINE][TAB]</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Tag>
 			<Text>Terracotta Army</Text>
 		</Row>
@@ -377,8 +378,8 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_TERRACOTTA_ARMY_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“To have a great peace, the state must be united. The king does what he must to fulfill his responsibilities as a king.”[NEWLINE][TAB][TAB] - Qin Shi Huang[NEWLINE][TAB]</Text>
-		</Row>
+			<Text>[NEWLINE][TAB][TAB]"To have a great peace, the state must be united. The king does what he must to fulfill his responsibilities as a king."[NEWLINE][TAB][TAB] - Qin Shi Huang[NEWLINE][TAB]</Text>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_LITERARY_EPIC</Tag>
 			<Text>Literary Epic</Text>
@@ -393,7 +394,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_LITERARY_EPIC_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Thy soul is hurt by cowardice, which oftentimes encumbereth a man so that it turns him back from honorable enterprise.”[NEWLINE][TAB][TAB] - Dante[NEWLINE][TAB][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Thy soul is hurt by cowardice, which oftentimes encumbereth a man so that it turns him back from honorable enterprise."[NEWLINE][TAB][TAB] - Dante[NEWLINE][TAB][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_GALILEO_TELESCOPE</Tag>
@@ -409,7 +410,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_GALILEO_TELESCOPE_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“I do not feel obliged to believe that the same God who has endowed us with sense, reason, and intellect has intended us to forgo their use.”[NEWLINE][TAB][TAB](Galileo)</Text>
+			<Text>[NEWLINE][TAB][TAB]"I do not feel obliged to believe that the same God who has endowed us with sense, reason, and intellect has intended us to forgo their use."[NEWLINE][TAB][TAB](Galileo)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHAKESPEARE_THEATER</Tag>
@@ -425,7 +426,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_SHAKESPEARE_THEATER_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Say as you think and speak it from your souls.”[NEWLINE][TAB][TAB] - Shakespeare[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Say as you think and speak it from your souls."[NEWLINE][TAB][TAB] - Shakespeare[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SEWER_SYSTEM</Tag>
@@ -437,7 +438,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SEWER_SYSTEM_STRATEGY</Tag>
-			<Text>10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.</Text>
+			<Text>10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.[NEWLINE][NEWLINE]City must have a Granary.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_REGIONAL_FAIR</Tag>
@@ -461,7 +462,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JEWELRY_STORE_HELP</Tag>
-			<Text>Each souce of [ICON_RES_GOLD] Gold worked by this City produces +3 [ICON_GOLD] Gold. Each source of [ICON_RES_SILVER] Silver or [ICON_RES_GEMS] Gems worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Mint.</Text>
+			<Text>Each souce of [ICON_RES_GOLD] Gold or [ICON_RES_COPPER] Copper worked by this City produces +3 [ICON_GOLD] Gold. Each source of [ICON_RES_SILVER] Silver or [ICON_RES_GEMS] Gems worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have a Mint.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_JEWELRY_STORE_STRATEGY</Tag>
@@ -477,7 +478,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TOWN_HALL_STRATEGY</Tag>
-			<Text>+0.5 [ICON_GOLD] Gold for each [ICON_CITIZEN] Citizen in this City.</Text>
+			<Text>+1 [ICON_GOLD] Gold for every 2 [ICON_CITIZEN] Citizens in this City</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUN_TZU_ART_OF_WAR</Tag>
@@ -493,7 +494,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_SUN_TZU_ART_OF_WAR_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before defeat.”[NEWLINE][TAB][TAB] - Sun Tzu[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before defeat."[NEWLINE][TAB][TAB] - Sun Tzu[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ARCHIMEDES_LAB</Tag>
@@ -509,7 +510,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_ARCHIMEDES_LAB_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Give me a lever long enough and a fulcrum on which to place it, and I shall move the world.” (Archimedes)[NEWLINE][TAB][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Give me a lever long enough and a fulcrum on which to place it, and I shall move the world." (Archimedes)[NEWLINE][TAB][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_LEONARDO_WORKSHOP</Tag>
@@ -525,7 +526,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_LEONARDO_WORKSHOP_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.”[NEWLINE][TAB][TAB] - Leonardo Davinci[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do."[NEWLINE][TAB][TAB] - Leonardo Davinci[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_THE_GRAND_MOSQUE</Tag>
@@ -541,7 +542,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_THE_GRAND_MOSQUE_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“To overcome evil with good is good; to resist evil by evil is evil.”[NEWLINE][TAB][TAB] - Mohammed[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"To overcome evil with good is good; to resist evil by evil is evil."[NEWLINE][TAB][TAB] - Mohammed[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BACH_CATHEDRAL</Tag>
@@ -557,7 +558,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_BACH_CATHEDRAL_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“It's easy to play any musical instrument: all you have to do is touch the right key at the right time and the instrument will play itself.”[NEWLINE][TAB][TAB] - Johann Sebastian Bach[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"It's easy to play any musical instrument: all you have to do is touch the right key at the right time and the instrument will play itself."[NEWLINE][TAB][TAB] - Johann Sebastian Bach[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AL_JABR</Tag>
@@ -625,7 +626,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_EAST_INDIA_COMPANY_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Brass shines as fair to the ignorant as gold to the goldsmiths.”[NEWLINE][TAB][TAB] - Elizabeth I[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Brass shines as fair to the ignorant as gold to the goldsmiths."[NEWLINE][TAB][TAB] - Elizabeth I[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COPERNICUS_OBSERVATORY</Tag>
@@ -669,7 +670,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_GUTENBERG_BIBLE_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“It is a press, certainly, but a press from which shall flow in inexhaustible streams..."[NEWLINE][TAB][TAB]-Gutenberg</Text>
+			<Text>[NEWLINE][TAB][TAB]"It is a press, certainly, but a press from which shall flow in inexhaustible streams..."[NEWLINE][TAB][TAB]-Gutenberg</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOUNDRY</Tag>
@@ -693,7 +694,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PRISON_STRATEGY</Tag>
-			<Text>Increases [ICON_HAPPINESS_1] Happiness and [ICON_PRODUCTION] Production in this City.</Text>
+			<Text>Increases this city's Hit Points by 25.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CONSTITUTION</Tag>
@@ -709,7 +710,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_CONSTITUTION_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Don't interfere with anything in the Constitution. That must be maintained, for it is the only safeguard of our liberties.”[NEWLINE][TAB][TAB] - Abraham Lincoln[NEWLINE][TAB][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Don't interfere with anything in the Constitution. That must be maintained, for it is the only safeguard of our liberties."[NEWLINE][TAB][TAB] - Abraham Lincoln[NEWLINE][TAB][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PRINCIPIA_MATHEMATICA</Tag>
@@ -725,7 +726,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_PRINCIPIA_MATHEMATICA_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“If I have seen further than others, it is by standing upon the shoulders of giants.”[NEWLINE][TAB][TAB] - Isaac Newton[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"If I have seen further than others, it is by standing upon the shoulders of giants."[NEWLINE][TAB][TAB] - Isaac Newton[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MAGELLAN_VOYAGE</Tag>
@@ -741,7 +742,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_MAGELLAN_VOYAGE_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“The church says the earth is flat, but I know that it is round, for I have seen the shadow on the moon, and I have more faith in a shadow than in the church.”[NEWLINE][TAB][TAB] - Ferdinand Magellan[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"The church says the earth is flat, but I know that it is round, for I have seen the shadow on the moon, and I have more faith in a shadow than in the church."[NEWLINE][TAB][TAB] - Ferdinand Magellan[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MISSIONARY_CHURCH</Tag>
@@ -756,10 +757,6 @@
 			<Text>City must have an Abbey.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_WAT_HELP</Tag>
-			<Text>+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library.</Text>
-		</Row>
-		<Row>
 			<Tag>TXT_KEY_BUILDING_RANCH</Tag>
 			<Text>Ranch</Text>
 		</Row>
@@ -769,7 +766,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_RANCH_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_HORSE] Horses, [ICON_RES_COW] Cattle, and [ICON_RES_SHEEP] Sheep worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of at least one of these resources nearby.</Text>
+			<Text>Each source of [ICON_RES_HORSE] Horse worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_HORSE] Horse, [ICON_RES_COW] Cow, or [ICON_RES_SHEEP] Sheep nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DECLARATION_OF_INDEPENDENCE</Tag>
@@ -785,9 +782,9 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_DECLARATION_OF_INDEPENDENCE_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Experience hath shown, that even under the best forms (of government) those entrusted with power have, in time, and by slow operations, perverted it into tyranny.”[NELWINE][TAB][TAB] - Thomas Jefferson[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Experience hath shown, that even under the best forms (of government) those entrusted with power have, in time, and by slow operations, perverted it into tyranny."[NELWINE][TAB][TAB] - Thomas Jefferson[NEWLINE][TAB]</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_HORSE_DERBY</Tag>
 			<Text>Horse Derby</Text>
 		</Row>
@@ -801,8 +798,8 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_HORSE_DERBY_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“When a jockey retires, he just becomes another little man.”[NEWLINE][TAB][TAB] - Eddie Arcaro[NEWLINE][TAB]</Text>
-		</Row>
+			<Text>[NEWLINE][TAB][TAB]"When a jockey retires, he just becomes another little man."[NEWLINE][TAB][TAB] - Eddie Arcaro[NEWLINE][TAB]</Text>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_THEORY_OF_EVOLUTION</Tag>
 			<Text>Theory of Evolution</Text>
@@ -817,7 +814,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_THEORY_OF_EVOLUTION_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“We must, however, acknowledge, as it seems to me, that man with all his noble qualities... still bears in his bodily frame the indelible stamp of his lowly origin.” (Charles Darmin)</Text>
+			<Text>[NEWLINE][NEWLINE]"We must, however, acknowledge, as it seems to me, that man with all his noble qualities... still bears in his bodily frame the indelible stamp of his lowly origin." (Charles Darmin)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WALL_STREET</Tag>
@@ -833,7 +830,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_WALL_STREET_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“The investor of today does not profit from yesterday's growth.”[NEWLINE][TAB][TAB] - Warren Buffet[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"The investor of today does not profit from yesterday's growth."[NEWLINE][TAB][TAB] - Warren Buffet[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WEALTH_OF_NATIONS</Tag>
@@ -849,7 +846,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_WEALTH_OF_NATIONS_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest.”[NEWLINE][TAB][TAB] - Adam Smith[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest."[NEWLINE][TAB][TAB] - Adam Smith[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_COMMUNIST_MANIFESTO</Tag>
@@ -865,7 +862,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_COMMUNIST_MANIFESTO_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“All history has been a history of class struggles between dominated classes at various stages of social development”[NEWLINE][TAB][TAB](Friedrich Engels)</Text>
+			<Text>[NEWLINE][TAB][TAB]"All history has been a history of class struggles between dominated classes at various stages of social development"[NEWLINE][TAB][TAB](Friedrich Engels)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_WAR_COLLEGE</Tag>
@@ -881,7 +878,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_WAR_COLLEGE_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Never tell people how to do things. Tell them what to do and they will surprise you with their ingenuity.”[NEWLINE][TAB][TAB] - Patton[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Never tell people how to do things. Tell them what to do and they will surprise you with their ingenuity."[NEWLINE][TAB][TAB] - Patton[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_EDISON_LAB</Tag>
@@ -897,16 +894,16 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_EDISON_LAB_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“I haven't failed, I've found 10,000 ways that don't work.”[NEWLINE][TAB][TAB] (Thomas Alva Edison)</Text>
+			<Text>[NEWLINE][TAB][TAB]"I haven't failed, I've found 10,000 ways that don't work."[NEWLINE][TAB][TAB] (Thomas Alva Edison)</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_POLICE_STATION</Tag>
 			<Text>Police Station</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_POLICE_STATION_DESC</Tag>
 			<Text>A police station or station house is a building which serves to accommodate police officers and other members of staff. These buildings often contain offices and accommodation for personnel and vehicles, along with locker rooms, temporary holding cells and interview/interrogation rooms.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OIL_REFINERY</Tag>
 			<Text>Oil Refinery</Text>
@@ -932,16 +929,36 @@
 			<Text>+15 XP for all Sea units built in this City.[NEWLINE][NEWLINE]Requires a Seaport in this City.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_AQUARIUM</Tag>
+			<Text>Aquarium</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AQUARIUM_PEDIA</Tag>
+			<Text>An aquarium is a vivarium consisting of at least one transparent side in which water-dwelling plants or animals are kept. Fishkeepers use aquaria to keep fish, invertebrates, amphibians, marine mammals, turtles, and aquatic plants.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AQUARIUM_STRATEGY</Tag>
+			<Text>The Aquarium increases the science output of an improved sea resource. It also increases a civilization's [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_AQUARIUM_HELP</Tag>
+			<Text>+1 [ICON_RESEARCH] Science from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have at least one Sea Resource improved nearby.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_SUPERMARKET</Tag>
 			<Text>Supermarket</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_SUPERMARKET_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_SUPERMARKET_PEDIA</Tag>
 			<Text>A supermarket, a form of grocery store, is a self-service store offering a wide variety of food and household merchandise, organized into departments. It is larger in size and has a wider selection than a traditional grocery store and it is smaller than a hypermarket or superstore.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_SUPERMARKET_HELP</Tag>
+			<Text>City must have a Granary.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_SUPERMARKET_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_SUGAR] Sugar and [ICON_RES_COFFEE] Coffee worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>The supermarket greatly increases the food intake of a city.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD</Tag>
@@ -969,7 +986,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_TRANSCONTINENTAL_RAILROAD_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Never tell people how to do things. Tell them what to do and they will surprise you with their ingenuity.”[NEWLINE][TAB][TAB] - Patton[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Never tell people how to do things. Tell them what to do and they will surprise you with their ingenuity."[NEWLINE][TAB][TAB] - Patton[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AUTO_PLANT</Tag>
@@ -1033,7 +1050,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_MEGA_DAM_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“About the time we can make the ends meet, somebody moves the ends.”[NEWLINE][TAB][TAB] - Herbert Hoover[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"About the time we can make the ends meet, somebody moves the ends."[NEWLINE][TAB][TAB] - Herbert Hoover[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CONTRACEPTION</Tag>
@@ -1051,18 +1068,22 @@
 			<Tag>TXT_KEY_WONDER_CONTRACEPTION_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"Neglect of an effective birth control policy is a never-failing source of poverty which, in turn, is the parent of revolution and crime.[NEWLINE][TAB][TAB]" - Aristotle[NEWLINE][TAB]</Text>
 		</Row>
-		<!--!<Row>
-			<Tag>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK</Tag>
-			<Text>Telecommunications Network</Text>
+		!<Row>
+			<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS</Tag>
+			<Text>Public Baths</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK_DESC</Tag>
-			<Text>A telecommunications network is a collection of terminals, links and nodes which connect together to enable telecommunication between users of the terminals. Networks may use circuit switching or message switching. Each terminal in the network must have a unique address so messages or connections can be routed to the correct recipients.</Text>
+			<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS_PEDIA</Tag>
+			<Text>Public baths originated from a communal need for cleanliness. The term public may confuse some people, as some types of public baths are restricted depending on membership, gender, religious affiliation, or other reasons. In ancient times public bathing included saunas, massages and relaxation therapies. Members of the society considered it as a place to meet and socialize. Public bathing could be compared to the spa of modern times.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_TELECOMMUNICATIONS_NETWORK_STRATEGY</Tag>
-			<Text>Increases [ICON_RESEARCH] Science and [ICON_GOLD] Gold in this City.</Text>
-		</Row>-->
+			<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS_HELP</Tag>
+			<Text>City must be built next to a River or Lake.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_PUBLIC_BATHS_STRATEGY</Tag>
+			<Text>The Public Baths increases a civilization's [ICON_HAPPINESS_1] Happiness. It can only be constructed in a city next to a river or lake.</Text>
+		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_AIRBASE</Tag>
 			<Text>Airbase</Text>
@@ -1088,6 +1109,22 @@
 			<Text>Required for Fighter, Bomber, B-17, Jet Fighter, and Helicopter Gunship production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory and must not contain an Auto Plant or Industrial Shipyard.</Text>
 		</Row>
 		<Row>
+			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT</Tag>
+			<Text>Shaman's Hut</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT_PEDIA</Tag>
+			<Text>A shaman is a person regarded as having access to, and influence in, the world of benevolent and malevolent spirits, who typically enters a trance state during a ritual, and practices divination and healing.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT_HELP</Tag>
+			<Text>Each source of [ICON_RES_WINE] Wine or [ICON_RES_INCENSE] Incense worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Units in this City are healed +10 HP per turn.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT_STRATEGY</Tag>
+			<Text>The Shaman's Hut provides [ICON_GOLD] Gold for resources used in religious contexts. It also increases the healing rate for units in this city.</Text>
+		</Row>
+		<Row>
 			<Tag>TXT_KEY_BUILDING_CHEMICAL_PLANT</Tag>
 			<Text>Chemical Plant</Text>
 		</Row>
@@ -1097,7 +1134,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CHEMICAL_PLANT_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_DYE] Dye worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Each source of [ICON_RES_INCENSE] Incense or [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_DYE] Dye worked by this City produces +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science. Each source of [ICON_RES_INCENSE] Incense worked by this City produces +2 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEXTILE_MILL</Tag>
@@ -1109,7 +1146,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TEXTILE_MILL_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_COTTON] Cotton, [ICON_RES_FUR] Fur, and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby."</Text>
+			<Text>Each source of [ICON_RES_COTTON] Cotton, [ICON_RES_FUR] Fur, and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOOD_PROCESSING_PLANT</Tag>
@@ -1121,7 +1158,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOOD_PROCESSING_PLANT_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_SPICES] Spices worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Each source of [ICON_RES_WINE] Wine and [ICON_RES_DEER] Deer worked by this City produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_SPICES] Spices or [ICON_RES_SALT] Salt worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold. Each source of [ICON_RES_WINE] Wine worked by this City produces +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of one of these resources nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE</Tag>
@@ -1133,7 +1170,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_WAREHOUSE_STRATEGY</Tag>
-			<Text>Each source of [ICON_RES_WHEAT] Wheat and [ICON_RES_BANANA] Banana worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_WHEAT] Wheat or [ICON_RES_BANANA] Banana nearby.</Text>
+			<Text>Each source of [ICON_RES_SUGAR] Sugar, [ICON_RES_CITRUS] Citrus, or [ICON_RES_TRUFFLES] Truffles worked by this City produces +2 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of one of theses resources nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INTERNATIONAL_AID_ORGANIZATION</Tag>
@@ -1149,7 +1186,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_INTERNATIONAL_AID_ORGANIZATION_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“If you can't feed a hundred people, then just feed one.” (Mother Teresa)</Text>
+			<Text>[NEWLINE][NEWLINE]"If you can't feed a hundred people, then just feed one." (Mother Teresa)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INTERSTATE_HIGHWAY_SYSTEM</Tag>
@@ -1177,7 +1214,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_SMALLPOX_ERADICATION_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“I hope that some day the practice of producing cowpox in human beings will spread over the world - when that day comes, there will be no more smallpox” (Edward Jenner, 200 years before Smallpox Eradication)</Text>
+			<Text>[NEWLINE][NEWLINE]"I hope that some day the practice of producing cowpox in human beings will spread over the world - when that day comes, there will be no more smallpox" (Edward Jenner, 200 years before Smallpox Eradication)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MEGACHURCH</Tag>
@@ -1190,6 +1227,22 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_MEGACHURCH_HELP</Tag>
 			<Text>City must have a Missionary Church.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MOVIE_THEATRE</Tag>
+			<Text>Movie Theatre</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MOVIE_THEATRE_PEDIA</Tag>
+			<Text>A movie theater (also called a movie house, film theater, film house, picture theater or cinema) is a venue, usually a building, for viewing motion pictures ("movies" or "films"). Most but not all movie theaters are commercial operations catering to the general public, who attend by purchasing a ticket. The movie is projected with a movie projector onto a large projection screen at the front of the auditorium. Some movie theaters are now equipped for digital cinema projection, removing the need to create and transport a physical film print.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MOVIE_THEATRE_HELP</Tag>
+			<Text>It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Stadium.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_MOVIE_THEATRE_STRATEGY</Tag>
+			<Text>A Movie Theatre is a Modern-era building which increases the [ICON_HAPPINESS_1] Happiness of your entire empire, not just the city in which it is constructed. The city must already possess a Stadium before it can construct a Movie Theatre.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CRYSTAL_CATHEDRAL</Tag>
@@ -1205,7 +1258,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_CRYSTAL_CATHEDRAL_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“You can educate yourself right out of a relationship with God.” (Tammy Faye Bakker)</Text>
+			<Text>[NEWLINE][NEWLINE]"You can educate yourself right out of a relationship with God." (Tammy Faye Bakker)</Text>
 		</Row>
 		<!--<Row>
 			<Tag>TXT_KEY_BUILDING_TELEVISION</Tag>
@@ -1265,11 +1318,11 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_HOLLYWOOD_HELP</Tag>
-			<Text>[ICON_HAPPINESS_4] Unhappiness from number of cities reduced by 25%.</Text>
+			<Text>Provides +4 [ICON_BLOCKBUSTER] Blockbuster resources.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_HOLLYWOOD_QUOTE</Tag>
-			<Text>[NEWLINE][TAB][TAB]“Hollywood is a place where they'll pay you a thousand dollars for a kiss and fifty cents for your soul.”[NEWLINE][TAB][TAB] - Marilyn Monroe[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]"Hollywood is a place where they'll pay you a thousand dollars for a kiss and fifty cents for your soul."[NEWLINE][TAB][TAB] - Marilyn Monroe[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SEMICONDUCTOR_PLANT</Tag>
@@ -1349,7 +1402,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_ROBOTICS_HELP</Tag>
-			<Text>Each source of [ICON_RES_ALUMINUM] Aluminum and [ICON_RES_TITANIUM] Titanium worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold. Each source of [ICON_RES_COAL] Coal worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Factory.</Text>
+			<Text>Each source of [ICON_RES_ALUMINUM] Aluminum worked by this City produces +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold. Each source of [ICON_RES_COAL] Coal worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Factory.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_NATIONAL_LABORATORY</Tag>
@@ -1389,7 +1442,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_GPS_SATELLITES_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“The bottom line -- GPS is absolutely critical to our nation's economic well being.” (Michael Shaw)</Text>
+			<Text>[NEWLINE][NEWLINE]"The bottom line -- GPS is absolutely critical to our nation's economic well being." (Michael Shaw)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CURE_FOR_CANCER</Tag>
@@ -1445,7 +1498,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_INTERNET_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“During my service in the United States Congress, I took the initiative in creating the Internet.” (Al Gore)</Text>
+			<Text>[NEWLINE][NEWLINE]"During my service in the United States Congress, I took the initiative in creating the Internet." (Al Gore)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_LARGE_HADRON_COLLIDER</Tag>
@@ -1597,7 +1650,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_DINOSAUR_PARK_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“Dinosaur fossils? God put those there to test our faith."  Does that trouble anyone here? The idea that God.. might be...fuckin' with our heads? I have trouble sleeping with that knowledge. Some prankster God running around: "Hu hu ho. We will see who believes in me now, ha HA.” (Bill Hicks)</Text>
+			<Text>[NEWLINE][NEWLINE]"Dinosaur fossils? God put those there to test our faith."  Does that trouble anyone here? The idea that God.. might be...fuckin' with our heads? I have trouble sleeping with that knowledge. Some prankster God running around: "Hu hu ho. We will see who believes in me now, ha HA." (Bill Hicks)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_QUANTUM_SUPERCOMPUTER</Tag>
@@ -1709,7 +1762,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_M_THEORY_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“In the history of our intellectual development this will represent the crowning achievement of 2,000 years of investigation into the nature of matter -- space and time.” (Michio Kaku)</Text>
+			<Text>[NEWLINE][NEWLINE]"In the history of our intellectual development this will represent the crowning achievement of 2,000 years of investigation into the nature of matter -- space and time." (Michio Kaku)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_IMMUNITY_CHIP</Tag>
@@ -1901,7 +1954,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_SPACE_ELEVATOR_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“The space elevator will be built about 50 years after everyone stops laughing.” (Arthur C. Clarke)</Text>
+			<Text>[NEWLINE][NEWLINE]"The space elevator will be built about 50 years after everyone stops laughing." (Arthur C. Clarke)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ARCOLOGY</Tag>
@@ -1941,7 +1994,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_SPACE_MANIPULATION_TESTING_STATION_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“Nothing puzzles me more than time and space; and yet nothing troubles me less” (Charles Lamb)</Text>
+			<Text>[NEWLINE][NEWLINE]"Nothing puzzles me more than time and space; and yet nothing troubles me less" (Charles Lamb)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_EMPATHIC_NETWORK</Tag>
@@ -1957,7 +2010,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_EMPATHIC_NETWORK_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“That is the exploration that awaits you! Not mapping stars and studying nebula, but charting the unknown possibilities of existence” (Leonard Nimoy)</Text>
+			<Text>[NEWLINE][NEWLINE]"That is the exploration that awaits you! Not mapping stars and studying nebula, but charting the unknown possibilities of existence" (Leonard Nimoy)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ROBOT_DISTRICT</Tag>
@@ -1981,7 +2034,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_ROBOTIC_EGALITARIAN_ACT_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“They hate us, you know... The humans." (Gigolo Joe)  </Text>
+			<Text>[NEWLINE][NEWLINE]"They hate us, you know... The humans." (Gigolo Joe)  </Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OCEAN_HABITAT_PROTOTYPE</Tag>
@@ -1997,7 +2050,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_WONDER_OCEAN_HABITAT_PROTOTYPE_QUOTE</Tag>
-			<Text>[NEWLINE][NEWLINE]“But more wonderful than the lore of old men and the lore of books is the secret lore of ocean." (H. P. Lovecraft)</Text>
+			<Text>[NEWLINE][NEWLINE]"But more wonderful than the lore of old men and the lore of books is the secret lore of ocean." (H. P. Lovecraft)</Text>
 		</Row>
 		
 
@@ -2033,7 +2086,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ECONOMY_OF_SCALE_QUOTE</Tag>
-			<Text>“Good wives and good plantations are made by good husbands.” (Benjamin Franklin)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Good wives and good plantations are made by good husbands."[NEWLINE][TAB][TAB] - Benjamin Franklin</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FERMENTATION_TITLE</Tag>
@@ -2049,7 +2102,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FERMENTATION_QUOTE</Tag>
-			<Text>“I fear the man who drinks water and so remembers this morning what the rest of us said last night.” (Greek Proverb)</Text>
+			<Text>[NEWLINE][TAB][TAB]"I fear the man who drinks water and so remembers this morning what the rest of us said last night."[NEWLINE][TAB][TAB] - Greek Proverb</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TRADING_TITLE</Tag>
@@ -2065,23 +2118,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TRADING_QUOTE</Tag>
-			<Text>“The merchant has no country” (Thomas Jefferson)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FISH_MARKETS_TITLE</Tag>
-			<Text>Fish Markets ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FISH_MARKETS_DESC</Tag>
-			<Text>A fish market is a marketplace used for marketing fish products. It can be dedicated to wholesale trade between fishermen and fish merchants, or to the sale of seafood to individual consumers, or to both. Retail fish markets, a type of wet market, often sell street food as well.[NEWLINE][NEWLINE]Because seafood is quick to spoil, fish markets are historically most often found in seaside towns. Once ice or other simple cooling methods became available, some were also established in large inland cities that had good trade routes to the coast.[NEWLINE][NEWLINE]Since refrigeration and rapid transport became available in the 19th and 20th century, fish markets can technically be established at any place. However, because modern trade logistics in general has shifted away from marketplaces and towards retail outlets, such as supermarkets, most seafood worldwide is now sold to consumers through these venues, like most other foodstuffs.[NEWLINE][NEWLINE]Consequently, most major fish markets now mainly deal with wholesale trade, and the existing major fish retail markets continue to operate as much for traditional reasons as for commercial ones. Both types of fish markets are often tourist attractions as well.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FISH_MARKETS_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Fish Market[ENDCOLOR], [COLOR_POSITIVE_TEXT]Whale Market[ENDCOLOR], [COLOR_POSITIVE_TEXT]Pearl Market[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Crab Market[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FISH_MARKETS_QUOTE</Tag>
-			<Text>“Fish and visitors smell in three days.” (Benjamin Franklin)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The merchant has no country"[NEWLINE][TAB][TAB] - Thomas Jefferson</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FARMERS_MARKETS_TITLE</Tag>
@@ -2097,167 +2134,39 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FARMERS_MARKETS_QUOTE</Tag>
-			<Text>“A farmer is always going to be rich next year.” (Philemon)</Text>
+			<Text>[NEWLINE][TAB][TAB]"A farmer is always going to be rich next year."[NEWLINE][TAB][TAB] - Philemon</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_FOOD_FLAVORING_TITLE</Tag>
-			<Text>Food Flavoring ([ICON_GOLD])  </Text>
+			<Tag>TXT_KEY_TECH_ANIMAL_MARKETS_TITLE</Tag>
+			<Text>Animal Markets ([ICON_GOLD])  </Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_FOOD_FLAVORING_DESC</Tag>
-			<Text>Food flavoring has been practiced since the first humans discovered that adding Spices to food could improve taste and health.  The spice trade developed throughout the Middle East in around 2000 BC with cinnamon and pepper, and in East Asia (Korea, China) with herbs and pepper. The Egyptians used herbs for embalming and their need for exotic herbs helped stimulate world trade. In fact, the word spice comes from the same root as species, meaning kinds of goods. By 1000 BC, China, Korea and India had a medical system based upon herbs. Early uses were connected with magic, medicine, religion, tradition, and preservation.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FOOD_FLAVORING_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Spice Market[ENDCOLOR], [COLOR_POSITIVE_TEXT]Sugar Mill[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Cocoa Mill[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_FOOD_FLAVORING_QUOTE</Tag>
-			<Text>“Americans can eat garbage, provided you sprinkle it liberally with ketchup, mustard, chili sauce, Tabasco sauce, cayenne pepper, or any other condiment which destroys the original flavor of the dish” (Henry Miller)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRINK_FLAVORING_TITLE</Tag>
-			<Text>Drink Flavoring ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRINK_FLAVORING_DESC</Tag>
-			<Text>The history of drink flavoring is thought to have begun with Wine.  The history of wine spans thousands of years and is closely intertwined with the history of agriculture, cuisine, civilization and humanity itself. Archaeological evidence suggests that the earliest wine production came from sites in Armenia, Georgia, and Iran, dating from 8000 to 5000 BC.[1][2][3] The archaeological evidence becomes clearer and points to domestication of grapevine in Early Bronze Age sites of the Near East, Sumer and Egypt from around the third millennium BC.  The next major advancement of Drink Flavoring comes from a story of the second emperor of China, Shen Nung, who discovered tea when tea leaves blew into his cup of hot water, or so the story goes.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRINK_FLAVORING_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Winery[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Tea House[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRINK_FLAVORING_QUOTE</Tag>
-			<Text>“Bread and water can so easily be toast and tea.”</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TEXTILE_TRADE_TITLE</Tag>
-			<Text>Textile Trade ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TEXTILE_TRADE_DESC</Tag>
-			<Text>Clothing and textiles have been enormously important throughout human history—so have their materials, production tools and techniques, cultural influences, and social significance.[NEWLINE][NEWLINE]Textiles, defined as felt or spun fibers made into yarn and subsequently netted, looped, knit or woven to make fabrics, appeared in the Middle East during the late stone age.  From ancient times to the present day, methods of textile production have continually evolved, and the choices of textiles available have influenced how people carried their possessions, clothed themselves, and decorated their surroundings.[NEWLINE][NEWLINE]Sources available for the study of the history of clothing and textiles include material remains discovered via archaeology; representation of textiles and their manufacture in art; and documents concerning the manufacture, acquisition, use, and trade of fabrics, tools, and finished garments. Scholarship of textile history, especially its earlier stages, is part of material culture studies.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TEXTILE_TRADE_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Cotton Loom[ENDCOLOR], [COLOR_POSITIVE_TEXT]Silk Loom[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Dyeworks[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TEXTILE_TRADE_QUOTE</Tag>
-			<Text>“Clothes and manners do not make the man; but, when he is made, they greatly improve his appearance.” (Henry Ward Beecher)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METALS_TRADE_TITLE</Tag>
-			<Text>Metals Trade ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METALS_TRADE_DESC</Tag>
-			<Text>Metals Trading began long before the first gold coin was cast.  Originally, valuable metals were formed into jewelry worn by prominant citizens, forged into weapons, or used in mystical ceremonies.  Whatever the intended use, metal's rare, and extremely useful nature led it to be at the center of the trading world.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METALS_TRADE_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Copper Smelter[ENDCOLOR], [COLOR_POSITIVE_TEXT]Silver Smelter[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Gold Smelter[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METALS_TRADE_QUOTE</Tag>
-			<Text>“Make new friends but keep the old ones; one is silver and the other's gold” (Proverb)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_AROMATICS_TITLE</Tag>
-			<Text>Aromatics ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_AROMATICS_DESC</Tag>
-			<Text>Aromatic compounds derive their names from the fact that many of these compounds in the early days of discovery were grouped because they were oils with fragrant odors, hence the name aromatic.[NEWLINE][NEWLINE]The current definition of aromatic compounds includes only those with a benzene ring, which is a special six carbon ring compound with three alternating double bonds. This structure imparts unique properties to benzene which are different from other ring compounds.  Because many fragrant oils contain a benzene ring, these compounds became known as AROMATIC. </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_AROMATICS_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Incense Market[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_AROMATICS_QUOTE</Tag>
-			<Text>“Nothing is more memorable than a smell. One scent can be unexpected, momentary and fleeting, yet conjure up a childhood summer beside a lake in the mountains...” (Diane Ackerman)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_TITLE</Tag>
-			<Text>Livestock Auctions ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_DESC</Tag>
+			<Tag>TXT_KEY_TECH_ANIMAL_MARKETS_DESC</Tag>
 			<Text>An auction is a process of buying and selling goods or services by offering them up for bid, taking bids, and then selling the item to the highest bidder. In economic theory, an auction may refer to any mechanism or set of trading rules for exchange.[NEWLINE][NEWLINE]It is generally accepted that auctions were recorded as early as 500 B.C. They were Babylonian wedding auctions, held annually, where women were sold for the purpose of marriage. These auctions were of the "descending type" where the offers for the beautiful maidens started high and went down until the bidder accepted the maiden. The "true value" in many cases, related to beauty and the less comely maidens sometimes had to pay a dowry to be accepted. Thus the price could actually be negative figure for the buyer.[NEWLINE][NEWLINE]Auctions were also used extensively during the Roman Empire. The refinement of the auction process grew to be much more organized and defined. In today's language, the key players became the consignor (the person on whose behalf the property was sold), the organizer (regulator, financial backer), the promoter (advertiser, auctioneer), and the buyer (highest and final bidder). Auctions were held at the "Atrium" for the purpose of selling the "spoils of war" at public auction for the soldiers after a military victory. Business agents were said to have accompanied the warriors into battle in order to facilitate and promote expected sales. (The Latin word for auction is auctus, which means to increase).[NEWLINE][NEWLINE]The Romans also used the auction to liquidate personal property. Marcus Aurelius is said to have auctioned off prized heirlooms and furniture. It's claimed that that auction lasted over two months.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Horse Stable[ENDCOLOR], [COLOR_POSITIVE_TEXT]Cattle Yard[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Sheep Butcher[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
+			<Tag>TXT_KEY_TECH_ANIMAL_MARKETS_HELP</Tag>
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Cattle Trader[ENDCOLOR], [COLOR_POSITIVE_TEXT]Sheep Trader[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Deer Market[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_LIVESTOCK_AUCTIONS_QUOTE</Tag>
-			<Text>“In order to be an immaculate member of a flock of sheep, one must above all be a sheep oneself.” (Albert Einstein)</Text>
+			<Tag>TXT_KEY_TECH_ANIMAL_MARKETS_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"In order to be an immaculate member of a flock of sheep, one must above all be a sheep oneself."[NEWLINE][TAB][TAB] - Albert Einstein</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_CARVING_TITLE</Tag>
-			<Text>Carving ([ICON_GOLD])  </Text>
+			<Tag>TXT_KEY_TECH_APOTHECARY_TITLE</Tag>
+			<Text>Apothecary ([ICON_GOLD])  </Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_CARVING_DESC</Tag>
-			<Text>Carving is also generally known as sculpture, though more broad in scope.  The history of the sculpture is varied and is illustrative of how sculpture has changed extensively over the ages. The art of sculpture continues as a vital artform worldwide. From pre-historic and ancient civilizations to the contemporary, from the utilitarian and religious to Modernist abstraction, and conceptual manifestations of both form and content, a continuous stream of creativity and an extremely modest show of compassion.</Text>
+			<Tag>TXT_KEY_TECH_APOTHECARY_DESC</Tag>
+			<Text>Drug use and abuse is as old as mankind itself. Human beings have always had a desire to eat or drink substances that make them feel relaxed, stimulated, or euphoric. Humans have used APOTHECARY of one sort or another for thousands of years. Wine was used at least from the time of the early Egyptians; narcotics from 4000 B.C.; and medicinal use of marijuana has been dated to 2737 BC in China.[NEWLINE][NEWLINE]As time went by, "home remedies" were discovered and used to alleviate aches, pains and other ailments. Most of these preparations were herbs, roots, mushrooms or fungi. They had to be eaten, drunk, rubbed on the skin, or inhaled to achieve the desired effect.[NEWLINE][NEWLINE]Pre-Columbian Mexicans used many substances, from tobacco to mind-expanding (hallucinogenic) plants, in their medicinal collections. The most fascinating of these substances are sacred mushrooms, used in religious ceremonies to induce altered states of mind, not just drunkenness.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_CARVING_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Gem Market[ENDCOLOR], [COLOR_POSITIVE_TEXT]Ivory Market[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Marbleworks[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
+			<Tag>TXT_KEY_TECH_APOTHECARY_HELP</Tag>
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Poppy Refinery[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aloe Vera Distillery[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_TECH_CARVING_QUOTE</Tag>
-			<Text>“In every block of marble I see a statue as plain as though it stood before me, shaped and perfect in attitude and action. I have only to hew away the rough walls that imprison the lovely apparition to reveal it to the other eyes as mine see it.” (Michelangelo)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TANNING_TITLE</Tag>
-			<Text>Tanning ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TANNING_DESC</Tag>
-			<Text>Tanning is the process of making leather, which does not easily decompose, from the skins of animals, which do. Often this uses tannin, an acidic chemical compound. Coloring may occur during tanning. A tannery is the term for a place where these skins are processed.[NEWLINE][NEWLINE]Tanning leather involves a process which permanently alters the protein structure of skin so that it cannot ever return to rawhide. Making rawhide does not require the use of tannin and is made simply by removing the flesh and fat and then the hair by way of soaking in an aqueous solution (often called liming when using lime and water or bucking when using wood ash (lye) and water), then scraping over a beam with a somewhat dull knife, and then leaving to dry, usually stretched on a frame so that it dries flat. The two aforementioned solutions for removing the hair also act to clean the fiber network of the skin and therefore allow penetration and action of the tanning agent.[NEWLINE][NEWLINE]The English word for tanning is from medieval Latin tannāre, deriv. of tannum (oak bark), related to Old High German tanna meaning oak or fir (related to modern Tannenbaum). This refers to use of the bark of oaks (the original source of tannin) in some kinds of hide preservation.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TANNING_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Fur Tannery[ENDCOLOR], [COLOR_POSITIVE_TEXT]Deer Butcher[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Aligator Butcher[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_TANNING_QUOTE</Tag>
-			<Text>“People are more violently opposed to fur than leather because it's safer to harass rich women than motorcycle gangs.”</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_IRON_TRADE_TITLE</Tag>
-			<Text>Iron Trade ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_IRON_TRADE_DESC</Tag>
-			<Text>At the beginning of the Iron Age, Iron was an extremely valuable metal, fetching up to 5 time's the price of Gold.  While the Iron Age came about largely due to the collapse of the Bronze Age, the trade conducted as a result of Iron's many uses also played a large part.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_IRON_TRADE_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Iron Smelter[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_IRON_TRADE_QUOTE</Tag>
-			<Text>“Monopoly is business at the end of its journey.” (Henry DeMarest Lloyd)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRUGS_TITLE</Tag>
-			<Text>Drugs ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRUGS_DESC</Tag>
-			<Text>Drug use and abuse is as old as mankind itself. Human beings have always had a desire to eat or drink substances that make them feel relaxed, stimulated, or euphoric. Humans have used drugs of one sort or another for thousands of years. Wine was used at least from the time of the early Egyptians; narcotics from 4000 B.C.; and medicinal use of marijuana has been dated to 2737 BC in China.[NEWLINE][NEWLINE]As time went by, "home remedies" were discovered and used to alleviate aches, pains and other ailments. Most of these preparations were herbs, roots, mushrooms or fungi. They had to be eaten, drunk, rubbed on the skin, or inhaled to achieve the desired effect.[NEWLINE][NEWLINE]Pre-Columbian Mexicans used many substances, from tobacco to mind-expanding (hallucinogenic) plants, in their medicinal collections. The most fascinating of these substances are sacred mushrooms, used in religious ceremonies to induce altered states of mind, not just drunkenness.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRUGS_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Poppy Refinery[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Tobacco Barn[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_DRUGS_QUOTE</Tag>
-			<Text>“I used to have a drug problem, now I make enough money.” (David Lee Roth)</Text>
+			<Tag>TXT_KEY_TECH_APOTHECARY_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"I used to have a drug problem, now I make enough money."[NEWLINE][TAB][TAB] - David Lee Roth</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_COFFEE_TRADE_TITLE</Tag>
@@ -2273,71 +2182,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_COFFEE_TRADE_QUOTE</Tag>
-			<Text>"No one can understand the truth until he drinks of coffee's frothy goodness." (Sheik Abd-al-Kadir)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_ENERGY_COMMODITIES_TITLE</Tag>
-			<Text>Energy Commodities ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_ENERGY_COMMODITIES_DESC</Tag>
-			<Text>A commodity is a good for which there is demand, but which is supplied without qualitative differentiation across a market.  A commodity has full or partial fungibility; that is, the market treats it as equivalent or nearly so no matter who produces it. Examples are petroleum and copper.  The price of copper is universal, and fluctuates daily based on global supply and demand. Stereo systems, on the other hand, have many aspects of product differentiation, such as the brand, the user interface, the perceived quality etc. And, the more valuable a stereo is perceived to be, the more it will cost. [NEWLINE][NEWLINE]In contrast, one of the characteristics of a commodity good is that its price is determined as a function of its market as a whole. Well-established physical commodities have actively traded spot and derivative markets. Generally, these are basic resources and agricultural products such as iron ore, crude oil, coal, salt, sugar, coffee beans, soybeans, aluminium, copper, rice, wheat, gold, silver, palladium, and platinum. Soft commodities are goods that are grown, while hard commodities are the ones that are extracted through mining. [NEWLINE][NEWLINE]There is another important class of energy commodities which includes electriCity, gas, coal and oil. ElectriCity has the particular characteristic that it is either impossible or uneconomical to store, hence, electriCity must be consumed as soon as it is produced.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_ENERGY_COMMODITIES_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Coal Plant[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Oil Refinery[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_ENERGY_COMMODITIES_QUOTE</Tag>
-			<Text>“The use of solar energy has not been opened up because the oil industry does not own the sun.” (Ralph Nader)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CONTROLLED_MATERIALS_TITLE</Tag>
-			<Text>Controlled Materials ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CONTROLLED_MATERIALS_DESC</Tag>
-			<Text>Enriched uranium is a kind of uranium in which the percent composition of uranium-235 has been increased through the process of isotope separation. Natural uranium is 99.284% 238U isotope, with 235U only constituting about 0.711% of its weight. 235U is the only isotope existing in nature (in any appreciable amount) that is fissile with thermal neutrons.[NEWLINE][NEWLINE]Enriched uranium is a critical component for both civil nuclear power generation and military nuclear weapons. The International Atomic Energy Agency attempts to monitor and control enriched uranium supplies and processes in its efforts to ensure nuclear power generation safety and curb nuclear weapons proliferation.[NEWLINE][NEWLINE]During the Manhattan Project enriched uranium was given the codename oralloy, a shortened version of Oak Ridge alloy, after the location of the plants where the uranium was enriched. The term oralloy is still occasionally used to refer to enriched uranium. There are about 2,000 tonnes (t, Mg) of highly enriched uranium in the world, produced mostly for nuclear weapons, naval propulsion, and smaller quantities for research reactors.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CONTROLLED_MATERIALS_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Uranium Centrifuge[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_CONTROLLED_MATERIALS_QUOTE</Tag>
-			<Text>“One pound of uranium is worth about 3 million pounds worth of coal or oil.” (James Lovelock)</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METAL_COMMODITIES_TITLE</Tag>
-			<Text>Metal Commodities ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METAL_COMMODITIES_DESC</Tag>
-			<Text>A commodity is a good for which there is demand, but which is supplied without qualitative differentiation across a market.  A commodity has full or partial fungibility; that is, the market treats it as equivalent or nearly so no matter who produces it. Examples are petroleum and copper.  The price of copper is universal, and fluctuates daily based on global supply and demand. Stereo systems, on the other hand, have many aspects of product differentiation, such as the brand, the user interface, the perceived quality etc. And, the more valuable a stereo is perceived to be, the more it will cost. [NEWLINE][NEWLINE]In contrast, one of the characteristics of a commodity good is that its price is determined as a function of its market as a whole. Well-established physical commodities have actively traded spot and derivative markets. Generally, these are basic resources and agricultural products such as iron ore, crude oil, coal, salt, sugar, coffee beans, soybeans, aluminium, copper, rice, wheat, gold, silver, palladium, and platinum. Soft commodities are goods that are grown, while hard commodities are the ones that are extracted through mining. [NEWLINE][NEWLINE]There is another important class of energy commodities which includes electriCity, gas, coal and oil. ElectriCity has the particular characteristic that it is either impossible or uneconomical to store, hence, electriCity must be consumed as soon as it is produced.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METAL_COMMODITIES_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Aluminum Mill[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Titanium Smelter[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_METAL_COMMODITIES_QUOTE</Tag>
-			<Text>“Advice is the only commodity on the market where the supply always exceeds the demand”</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_TITLE</Tag>
-			<Text>Rare Earth Commodities ([ICON_GOLD])  </Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_DESC</Tag>
-			<Text>A commodity is a good for which there is demand, but which is supplied without qualitative differentiation across a market.  A commodity has full or partial fungibility; that is, the market treats it as equivalent or nearly so no matter who produces it. Examples are petroleum and copper.  The price of copper is universal, and fluctuates daily based on global supply and demand. Stereo systems, on the other hand, have many aspects of product differentiation, such as the brand, the user interface, the perceived quality etc. And, the more valuable a stereo is perceived to be, the more it will cost. [NEWLINE][NEWLINE]In contrast, one of the characteristics of a commodity good is that its price is determined as a function of its market as a whole. Well-established physical commodities have actively traded spot and derivative markets. Generally, these are basic resources and agricultural products such as iron ore, crude oil, coal, salt, sugar, coffee beans, soybeans, aluminium, copper, rice, wheat, gold, silver, palladium, and platinum. Soft commodities are goods that are grown, while hard commodities are the ones that are extracted through mining. [NEWLINE][NEWLINE]There is another important class of energy commodities which includes electriCity, gas, coal and oil. ElectriCity has the particular characteristic that it is either impossible or uneconomical to store, hence, electriCity must be consumed as soon as it is produced.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Rare Earth Refinery[ENDCOLOR] line of buildings which are progressively more profitable as you attain more and more resources.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_TECH_RARE_EARTH_COMMODITIES_QUOTE</Tag>
-			<Text>“We have for the first time an economy based on a key resource [Information] that is not only renewable, but self-generating. Running out of it is not a problem, but drowning in it is.” (John Naisbitt)</Text>
+			<Text>[NEWLINE][TAB][TAB]"No one can understand the truth until he drinks of coffee's frothy goodness."[NEWLINE][TAB][TAB] - Sheik Abd-al-Kadir</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MYSTICISM_TITLE</Tag>
@@ -2353,7 +2198,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MYSTICISM_QUOTE</Tag>
-			<Text>"My words are very easy to know, and very easy to practice; but there is no one in the world who is able to know and able to practice them." (Legge, 70)</Text>
+			<Text>[NEWLINE][TAB][TAB]"My words are very easy to know, and very easy to practice; but there is no one in the world who is able to know and able to practice them."[NEWLINE][TAB][TAB] - Legge, 70</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CEREMONIAL_BURIAL_TITLE</Tag>
@@ -2369,7 +2214,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CEREMONIAL_BURIAL_QUOTE</Tag>
-			<Text>“Cry 'Havoc', and let slip the dogs of war, that this foul deed shall smell above the earth with carrion men, groaning for burial” (William Shakespeare)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Cry 'Havoc', and let slip the dogs of war, that this foul deed shall smell above the earth with carrion men, groaning for burial."[NEWLINE][TAB][TAB] - William Shakespeare</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SPORTS_TITLE</Tag>
@@ -2385,7 +2230,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SPORTS_QUOTE</Tag>
-			<Text>“Serious sport has nothing to do with fair play. It is bound up with hatred, jealousy, boastfulness, disregard of all rules and sadistic pleasure in witnessing violence. In other words, it is war minus the shooting.” (George Orwell)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Serious sport has nothing to do with fair play. It is bound up with hatred, jealousy, boastfulness, disregard of all rules and sadistic pleasure in witnessing violence. In other words, it is war minus the shooting."[NEWLINE][TAB][TAB] - George Orwell</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_POLYTHEISM_TITLE</Tag>
@@ -2401,7 +2246,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_POLYTHEISM_QUOTE</Tag>
-			<Text>A man in this world without learning is as a beast of the field</Text>
+			<Text>[NEWLINE][TAB][TAB]"A man in this world without learning is as a beast of the field."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MEDITATION_TITLE</Tag>
@@ -2417,7 +2262,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MEDITATION_QUOTE</Tag>
-			<Text>“Peace comes from within. Do not seek it without.” (Hindu Prince Gautama Siddharta, the founder of Buddhism, 563-483 B.C.)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Peace comes from within. Do not seek it without."[NEWLINE][TAB][TAB] - Hindu Prince Gautama Siddharta, the founder of Buddhism, 563-483 B.C.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SHIPBUILDING_TITLE</Tag>
@@ -2433,7 +2278,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SHIPBUILDING_QUOTE</Tag>
-			<Text>“If you want to build a ship, don't drum up people together to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea” (Antoine de Saint-Exupery)</Text>
+			<Text>[NEWLINE][TAB][TAB]"If you want to build a ship, don't drum up people together to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea"[NEWLINE][TAB][TAB] - Antoine de Saint-Exupery</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MONOTHEISM_TITLE</Tag>
@@ -2449,7 +2294,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MONOTHEISM_QUOTE</Tag>
-			<Text>Wisdom is a fountain of life to him who has it. (Proverbs 16:22)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Wisdom is a fountain of life to him who has it."[NEWLINE][TAB][TAB] - Proverbs 16:22</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_PRIESTHOOD_TITLE</Tag>
@@ -2465,7 +2310,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_PRIESTHOOD_QUOTE</Tag>
-			<Text>“If someone had told me I would be Pope one day, I would have studied harder” (Pope John Paul I)</Text>
+			<Text>[NEWLINE][TAB][TAB]"If someone had told me I would be Pope one day, I would have studied harder"[NEWLINE][TAB][TAB] - Pope John Paul I</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CODE_OF_LAWS_TITLE</Tag>
@@ -2481,7 +2326,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CODE_OF_LAWS_QUOTE</Tag>
-			<Text>If a man destroys the eye of another man, they shall destroy his eye. (Hammurabi)</Text>
+			<Text>[NEWLINE][TAB][TAB]"If a man destroys the eye of another man, they shall destroy his eye."[NEWLINE][TAB][TAB] - Hammurabi</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CARRIAGES_TITLE</Tag>
@@ -2497,9 +2342,9 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CARRIAGES_QUOTE</Tag>
-			<Text>“Because I could not stop for death, He kindly stopped for me; The carriage held but just ourselves and immortality.” (Emily Dickinson)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Because I could not stop for death, He kindly stopped for me; The carriage held but just ourselves and immortality."[NEWLINE][TAB][TAB] - Emily Dickinson</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_TECH_BALLISTICS_1_TITLE</Tag>
 			<Text>Ballistics ([ICON_STRENGTH])  </Text>
 		</Row>
@@ -2509,8 +2354,8 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BALLISTICS_QUOTE</Tag>
-			<Text>“It is imperative to contest all factions for complete victory, so the army is not garrisoned and the profit can be total. This is the law of strategic siege.” (Sun Tzu)</Text>
-		</Row>
+			<Text>"It is imperative to contest all factions for complete victory, so the army is not garrisoned and the profit can be total. This is the law of strategic siege." (Sun Tzu)</Text>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_TECH_POETRY_TITLE</Tag>
 			<Text>Poetry ([ICON_CULTURE]/[ICON_HAPPINESS_1])  </Text>
@@ -2525,7 +2370,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_POETRY_QUOTE</Tag>
-			<Text>“Poetry is the music of the soul, and, above all, of great and feeling souls.” (Voltaire)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Poetry is the music of the soul, and, above all, of great and feeling souls."[NEWLINE][TAB][TAB] - Voltaire</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LITERATURE_TITLE</Tag>
@@ -2541,9 +2386,9 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LITERATURE_QUOTE</Tag>
-			<Text>"The decline of literature indicates the decline of a nation." (Johann Wolfgang von Goethe)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The decline of literature indicates the decline of a nation."[NEWLINE][TAB][TAB] - Johann Wolfgang von Goethe</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_TECH_DRAMA_TITLE</Tag>
 			<Text>Drama ([ICON_CULTURE]/[ICON_HAPPINESS_1])  </Text>
 		</Row>
@@ -2558,7 +2403,7 @@
 		<Row>
 			<Tag>TXT_KEY_TECH_DRAMA_QUOTE</Tag>
 			<Text>"What is drama but life with the dull bits cut out." (Alfred Hitchcock)</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_TECH_RUDDER_TITLE</Tag>
 			<Text>Rudder ([ICON_STRENGTH])  </Text>
@@ -2573,7 +2418,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_RUDDER_QUOTE</Tag>
-			<Text>“He who loves practice without theory is like the sailor who boards ship without a rudder and compass and never knows where he may cast.” (Leonardo Da Vinci)</Text>
+			<Text>[NEWLINE][TAB][TAB]"He who loves practice without theory is like the sailor who boards ship without a rudder and compass and never knows where he may cast."[NEWLINE][TAB][TAB] - Leonardo Da Vinci</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_DIVISION_OF_LABOR_TITLE</Tag>
@@ -2589,7 +2434,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_DIVISION_OF_LABOR_QUOTE</Tag>
-			<Text>"Well then, how will our state supply these needs? It will need a farmer, a builder, and a weaver, and also, I think, a shoemaker and one or two others to provide for our bodily needs. So that the minimum state would consist of four or five men...." (Plato, The Republic)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Well then, how will our state supply these needs? It will need a farmer, a builder, and a weaver, and also, I think, a shoemaker and one or two others to provide for our bodily needs. So that the minimum state would consist of four or five men...."[NEWLINE][TAB][TAB] - Plato, The Republic</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TRADE_FAIRS_TITLE</Tag>
@@ -2605,7 +2450,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TRADE_FAIRS_QUOTE</Tag>
-			<Text>“Don't waste time learning the "tricks of the trade. Instead, learn the trade.”</Text>
+			<Text>[NEWLINE][TAB][TAB]"Don't waste time learning the "tricks of the trade. Instead, learn the trade."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_AGRICULTURAL_REVOLUTION_TITLE</Tag>
@@ -2621,7 +2466,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_AGRICULTURAL_REVOLUTION_QUOTE</Tag>
-			<Text>“We see nothing on the horizon that can overturn the growing imbalance between demand and supply. Nor is the growing demand just a passing phase: We are smack in the middle of one of the most dramatic population explosions this planet has seen since the agricultural revolution in the early days of civilization.” (Martin Weiss)</Text>
+			<Text>[NEWLINE][TAB][TAB]"We see nothing on the horizon that can overturn the growing imbalance between demand and supply. Nor is the growing demand just a passing phase: We are smack in the middle of one of the most dramatic population explosions this planet has seen since the agricultural revolution in the early days of civilization."[NEWLINE][TAB][TAB] - Martin Weiss</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BUREAUCRACY_TITLE</Tag>
@@ -2637,7 +2482,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BUREAUCRACY_QUOTE</Tag>
-			<Text>“Every revolution evaporates and leaves behind only the slime of a new bureaucracy.” (Franz Kafka)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Every revolution evaporates and leaves behind only the slime of a new bureaucracy."[NEWLINE][TAB][TAB] - Franz Kafka</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FEUDALISM_TITLE</Tag>
@@ -2653,7 +2498,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FEUDALISM_QUOTE</Tag>
-			<Text>"In democracy it's your vote that counts; in feudalism it's your count that votes." (Mogens Jallberg)</Text>
+			<Text>[NEWLINE][TAB][TAB]"In democracy it's your vote that counts; in feudalism it's your count that votes."[NEWLINE][TAB][TAB] - Mogens Jallberg</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SIEGE_ENGINES_TITLE</Tag>
@@ -2669,7 +2514,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SIEGE_ENGINES_QUOTE</Tag>
-			<Text>“And I will camp against thee round about, and will lay siege against thee with a mount, and I will raise forts against thee.” (Isaiah 29:3)</Text>
+			<Text>[NEWLINE][TAB][TAB]"And I will camp against thee round about, and will lay siege against thee with a mount, and I will raise forts against thee."[NEWLINE][TAB][TAB] - Bible</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FUNDAMENTALISM_TITLE</Tag>
@@ -2685,7 +2530,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FUNDAMENTALISM_QUOTE</Tag>
-			<Text>“To this point doth my knowledge go, I only know I nothing know.” (10th Century Persian poet Abu Shakur Balkhi)</Text>
+			<Text>[NEWLINE][TAB][TAB]"To this point doth my knowledge go, I only know I nothing know."[NEWLINE][TAB][TAB] - 10th Century Persian poet Abu Shakur Balkhi</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ALGEBRA_TITLE</Tag>
@@ -2701,7 +2546,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ALGEBRA_QUOTE</Tag>
-			<Text>"The most powerful single idea in mathematics is the notion of a variable." (K. Dewdney)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The most powerful single idea in mathematics is the notion of a variable."[NEWLINE][TAB][TAB] - K. Dewdney</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BONDS_TITLE</Tag>
@@ -2717,9 +2562,9 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BONDS_QUOTE</Tag>
-			<Text>“Solvency is maintained by means of a national debt, on the principle, ''If you will not lend me the money, how can I pay you?” (Ralph Waldo Emerson)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Solvency is maintained by means of a national debt, on the principle, 'If you will not lend me the money, how can I pay you?'"[NEWLINE][TAB][TAB] - Ralph Waldo Emerson</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_TECH_GUILDS_TITLE</Tag>
 			<Text>Guilds ([ICON_GOLD])  </Text>
 		</Row>
@@ -2734,7 +2579,7 @@
 		<Row>
 			<Tag>TXT_KEY_TECH_GUILDS_QUOTE</Tag>
 			<Text>The company makes the feast.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_TECH_BLAST_FURNACE_TITLE</Tag>
 			<Text>Blast Furnace ([ICON_PRODUCTION])  </Text>
@@ -2749,7 +2594,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BLAST_FURNACE_QUOTE</Tag>
-			<Text>“Even the hardest metal yields to sufficient heat" (Gandhi)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Even the hardest metal yields to sufficient heat"[NEWLINE][TAB][TAB] - Gandhi</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ENLIGHTENMENT_TITLE</Tag>
@@ -2765,7 +2610,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ENLIGHTENMENT_QUOTE</Tag>
-			<Text>“Before enlightenment; chop wood, carry water. After enlightenment; chop wood, carry water.” (Zen Proverb) </Text>
+			<Text>[NEWLINE][TAB][TAB]"Before enlightenment; chop wood, carry water. After enlightenment; chop wood, carry water."[NEWLINE][TAB][TAB] - Zen Proverb</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_EVANGELISM_TITLE</Tag>
@@ -2781,7 +2626,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_EVANGELISM_QUOTE</Tag>
-			<Text>“Do all the good you can, in all the ways you can, to all the souls you can, in every place you can, at all the times you can, with all the zeal you can, as long as ever you can” (John Wesley) </Text>
+			<Text>[NEWLINE][TAB][TAB]"Do all the good you can, in all the ways you can, to all the souls you can, in every place you can, at all the times you can, with all the zeal you can, as long as ever you can."[NEWLINE][TAB][TAB] - John Wesley </Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CONSTITUTION_1_TITLE</Tag>
@@ -2797,7 +2642,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CONSTITUTION_1_QUOTE</Tag>
-			<Text>“The Constitution is not an instrument for the government to restrain the people, it is an instrument for the people to restrain the government." (Patrick Henry) </Text>
+			<Text>[NEWLINE][TAB][TAB]"The Constitution is not an instrument for the government to restrain the people, it is an instrument for the people to restrain the government."[NEWLINE][TAB][TAB] - Patrick Henry</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MILITARY_TRADITION_1_TITLE</Tag>
@@ -2813,7 +2658,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MILITARY_TRADITION_1_QUOTE</Tag>
-			<Text>"The God of War hates those who hesitate." (Euripides 480-406 b.c.)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The God of War hates those who hesitate."[NEWLINE][TAB][TAB] - Euripides </Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_NATIONALISM_1_TITLE</Tag>
@@ -2829,7 +2674,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_NATIONALISM_1_QUOTE</Tag>
-			<Text>"Patriotism is when love of your own people comes first; nationalism, when hate for people other than your own comes first." (Charles DeGaulle)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Patriotism is when love of your own people comes first; nationalism, when hate for people other than your own comes first."[NEWLINE][TAB][TAB] - Charles DeGaulle</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_NAVAL_ARMOR_TITLE</Tag>
@@ -2845,7 +2690,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_NAVAL_ARMOR_QUOTE</Tag>
-			<Text>"A good Navy is not a provocation to war. It is the surest guaranty of peace." (Theodore Roosevelt)</Text>
+			<Text>[NEWLINE][TAB][TAB]"A good Navy is not a provocation to war. It is the surest guaranty of peace."[NEWLINE][TAB][TAB] - Theodore Roosevelt</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MARXISM_TITLE</Tag>
@@ -2861,7 +2706,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MARXISM_QUOTE</Tag>
-			<Text>"Democracy is the road to socialism." (Karl Marx)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Democracy is the road to socialism."[NEWLINE][TAB][TAB] - Karl Marx</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SHELLS_TITLE</Tag>
@@ -2877,7 +2722,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SHELLS_QUOTE</Tag>
-			<Text>"Artillerymen believe the world consist of two types of people; other Artillerymen and targets."</Text>
+			<Text>[NEWLINE][TAB][TAB]"Artillerymen believe the world consist of two types of people; other Artillerymen and targets."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TRACKED_VEHICLES_TITLE</Tag>
@@ -2893,7 +2738,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TRACKED_VEHICLES_QUOTE</Tag>
-			<Text>“My aim, then, was to whip the rebels, to humble their pride, to follow them to their inmost recesses, and make them fear and dread us. Fear is the beginning of wisdom.” (General William T. Sherman)</Text>
+			<Text>[NEWLINE][TAB][TAB]"My aim, then, was to whip the rebels, to humble their pride, to follow them to their inmost recesses, and make them fear and dread us. Fear is the beginning of wisdom."[NEWLINE][TAB][TAB] - General William T. Sherman</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TORPEDOES_TITLE</Tag>
@@ -2909,7 +2754,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TORPEDOES_QUOTE</Tag>
-			<Text>“Damn the torpedoes! Full speed ahead!” (Admiral David G. Farragut)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Damn the torpedoes! Full speed ahead!"[NEWLINE][TAB][TAB] - Admiral David G. Farragut</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SUBMERSIBLES_TITLE</Tag>
@@ -2925,7 +2770,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SUBMERSIBLES_QUOTE</Tag>
-			<Text>“I must confess that my imagination refuses to see any sort of submarine doing anything but suffocating its crew and floundering at sea.” (H. G. Wells)</Text>
+			<Text>[NEWLINE][TAB][TAB]"I must confess that my imagination refuses to see any sort of submarine doing anything but suffocating its crew and floundering at sea."[NEWLINE][TAB][TAB] - H. G. Wells</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIG_GUNS_DOCTRINE_TITLE</Tag>
@@ -2941,9 +2786,9 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIG_GUNS_DOCTRINE_QUOTE</Tag>
-			<Text>“Without a decisive naval force we can do nothing definitive, and with it, everything honorable and glorious.” (George Washington)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Without a decisive naval force we can do nothing definitive, and with it, everything honorable and glorious."[NEWLINE][TAB][TAB] - George Washington</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_TECH_SHOULDER_LAUNCHED_WEAPONS_TITLE</Tag>
 			<Text>Shoulder Launched Weapons ([ICON_STRENGTH])  </Text>
 		</Row>
@@ -2957,7 +2802,23 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SHOULDER_LAUNCHED_WEAPONS_QUOTE</Tag>
-			<Text>“A bazooka is the skeleton key of the impatient.” (Will Timmins)</Text>
+			<Text>[NEWLINE][TAB][TAB]"A bazooka is the skeleton key of the impatient."[NEWLINE][TAB][TAB] - Will Timmins</Text>
+		</Row>-->
+		<Row>
+			<Tag>TXT_KEY_TECH_BLITZKRIEG_TITLE</Tag>
+			<Text>Blitzkrieg ([ICON_STRENGTH])  </Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_BLITZKRIEG_DESC</Tag>
+			<Text>Blitzkrieg, translated as "lightning war," is an anglicised word describing all-motorised force concentration of tanks, infantry, artillery, combat engineers and air power, concentrating overwhelming force at high speed to break through enemy lines, and, once the lines are broken, proceeding without regard to its flank. Through constant motion, the blitzkrieg attempts to keep its enemy off-balance, making it difficult to respond effectively at any given point before the front has already moved on.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_BLITZKRIEG_HELP</Tag>
+			<Text>Allows you to build the mobile[COLOR_POSITIVE_TEXT]Tank[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Marine[ENDCOLOR] units and the sturdy [COLOR_POSITIVE_TEXT]Infantry[ENDCOLOR] unit.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_BLITZKRIEG_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"The best defense is a good offense."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CORPORATIONS_TITLE</Tag>
@@ -2973,7 +2834,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CORPORATIONS_QUOTE</Tag>
-			<Text>“Corporation: An ingenious device for obtaining profit without individual responsibility.” (Ambrose Bierce)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Corporation: An ingenious device for obtaining profit without individual responsibility."[NEWLINE][TAB][TAB] - Ambrose Bierce</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_INFANTRY_FIGHTING_VEHICLES_TITLE</Tag>
@@ -2989,7 +2850,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_INFANTRY_FIGHTING_VEHICLES_QUOTE</Tag>
-			<Text>"If we continue to develop our technology without wisdom or prudence, our	servant may prove to be our executioner." (General Omar N. Bradley)</Text>
+			<Text>[NEWLINE][TAB][TAB]"If we continue to develop our technology without wisdom or prudence, our	servant may prove to be our executioner."[NEWLINE][TAB][TAB] - General Omar N. Bradley</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SOCIALISM_TITLE</Tag>
@@ -3005,7 +2866,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SOCIALISM_QUOTE</Tag>
-			<Text>“The inherent vice of capitalism is the unequal sharing of blessings; the inherent virtue of socialism is the equal sharing of miseries.” (Winston Churchill)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The inherent vice of capitalism is the unequal sharing of blessings; the inherent virtue of socialism is the equal sharing of miseries."[NEWLINE][TAB][TAB] - Winston Churchill</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_REFINING_TITLE</Tag>
@@ -3021,7 +2882,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_REFINING_QUOTE</Tag>
-			<Text>"If you don't have a refinery operating, it's hard to use oil that's available." (T. Boone Pickens)</Text>
+			<Text>[NEWLINE][TAB][TAB]"If you don't have a refinery operating, it's hard to use oil that's available."[NEWLINE][TAB][TAB] - T. Boone Pickens</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_INDUSTRIAL_PROCESSES_TITLE</Tag>
@@ -3037,7 +2898,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_INDUSTRIAL_PROCESSES_QUOTE</Tag>
-			<Text>“Men who accomplish great things in the industrial world are the ones who have faith in the money producing power of ideas.” (Charles Fillmore)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Men who accomplish great things in the industrial world are the ones who have faith in the money producing power of ideas."[NEWLINE][TAB][TAB] - Charles Fillmore</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_PHARMACEUTICALS_TITLE</Tag>
@@ -3053,7 +2914,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_PHARMACEUTICALS_QUOTE</Tag>
-			<Text>"Every day, in every way, I am getting better and better." (Emily Coue).</Text>
+			<Text>[NEWLINE][TAB][TAB]"Every day, in every way, I am getting better and better."[NEWLINE][TAB][TAB] - Emily Coue</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TELEPHONE_TITLE</Tag>
@@ -3069,7 +2930,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TELEPHONE_QUOTE</Tag>
-			<Text>"Sometimes we stare so long at a door that is closing that we see too late the one that is open." (Alexander Graham Bell)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Sometimes we stare so long at a door that is closing that we see too late the one that is open."[NEWLINE][TAB][TAB] - Alexander Graham Bell</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_VACCINES_TITLE</Tag>
@@ -3085,7 +2946,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_VACCINES_QUOTE</Tag>
-			<Text>“The deviation of man from the state in which he was originally placed by nature seems to have proved to him a prolific source of diseases” (Edward Jenner)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The deviation of man from the state in which he was originally placed by nature seems to have proved to him a prolific source of diseases."[NEWLINE][TAB][TAB] - Edward Jenner</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MEGA_ENGINEERING_TITLE</Tag>
@@ -3101,7 +2962,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MEGA_ENGINEERING_QUOTE</Tag>
-			<Text>“A scientist studies what is, an engineer studies what never was.”</Text>
+			<Text>[NEWLINE][TAB][TAB]"A scientist studies what is, an engineer studies what never was."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TELEVANGELISM_TITLE</Tag>
@@ -3117,7 +2978,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_TELEVANGELISM_QUOTE</Tag>
-			<Text>“You're born. You suffer. You die. Fortunately, there's a loophole.” (Billy Graham)</Text>
+			<Text>[NEWLINE][TAB][TAB]"You're born. You suffer. You die. Fortunately, there's a loophole."[NEWLINE][TAB][TAB] - Billy Graham</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_GENETICS_TITLE</Tag>
@@ -3133,7 +2994,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_GENETICS_QUOTE</Tag>
-			<Text>Genetic engineering is to traditional crossbreeding what the nuclear bomb was to the sword.</Text>
+			<Text>[NEWLINE][TAB][TAB]"Genetic engineering is to traditional crossbreeding what the nuclear bomb was to the sword."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CRUISE_MISSILES_TITLE</Tag>
@@ -3149,7 +3010,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CRUISE_MISSILES_QUOTE</Tag>
-			<Text>“When I take action, I'm not going to fire a $2 million missile at a $10 empty tent and hit a camel in the butt. It's going to be decisive.” (George W. Bush, September 2001)</Text>
+			<Text>[NEWLINE][TAB][TAB]"When I take action, I'm not going to fire a $2 million missile at a $10 empty tent and hit a camel in the butt. It's going to be decisive."[NEWLINE][TAB][TAB] - George W. Bush</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CONSUMERISM_TITLE</Tag>
@@ -3165,7 +3026,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CONSUMERISM_QUOTE</Tag>
-			<Text>"Earth provides enough to satisfy every man's need, but not every man's greed." (Mohandas K. Gandhi)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Earth provides enough to satisfy every man's need, but not every man's greed."[NEWLINE][TAB][TAB] - Mohandas K. Gandhi</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CONSERVATIONISM_TITLE</Tag>
@@ -3181,7 +3042,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CONSERVATIONISM_QUOTE</Tag>
-			<Text>“The conservation of our natural resources and their proper use constitute the fundamental problem which underlies almost every other problem of our national life”. (Theodore Roosevelt)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The conservation of our natural resources and their proper use constitute the fundamental problem which underlies almost every other problem of our national life."[NEWLINE][TAB][TAB] - Theodore Roosevelt</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_EXTREME_SPORTS_TITLE</Tag>
@@ -3197,7 +3058,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_EXTREME_SPORTS_QUOTE</Tag>
-			<Text>“Man, I hate that trick. There are times when you're just spinning and you totally lose track of where you are. You don't know where you're going to land. You only hope you're still in the pipe.” (Shaun White)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Man, I hate that trick. There are times when you're just spinning and you totally lose track of where you are. You don't know where you're going to land. You only hope you're still in the pipe."[NEWLINE][TAB][TAB] - Shaun White</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SOLAR_POWER_TITLE</Tag>
@@ -3205,7 +3066,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SOLAR_POWER_DESC</Tag>
-			<Text>Solar power is by far the Earth's most available energy source, easily capable of providing many times the total current energy demand. The largest solar power plants, like the 354 MW SEGS, are concentrating solar thermal plants, but recently multi-megawatt photovoltaic plants have been built. Completed in 2008, the 46 MW Moura photovoltaic power station in Portugal and the 40 MW Waldpolenz Solar Park in Germany are characteristic of the trend toward larger photovoltaic power stations. Much larger ones are proposed, such as the 550 MW Topaz Solar Farm, and the 600 MW Rancho Cielo Solar Farm. Covering 4% of the world's desert area with photovoltaics could supply all of the world's electriCity. The Gobi Desert alone could supply almost all of the world's total energy demand.</Text>
+			<Text>Solar power is by far the Earth's most available energy source, easily capable of providing many times the total current energy demand. The largest solar power plants, like the 354 MW SEGS, are concentrating solar thermal plants, but recently multi-megawatt photovoltaic plants have been built. Completed in 2008, the 46 MW Moura photovoltaic power station in Portugal and the 40 MW Waldpolenz Solar Park in Germany are characteristic of the trend toward larger photovoltaic power stations. Much larger ones are proposed, such as the 550 MW Topaz Solar Farm, and the 600 MW Rancho Cielo Solar Farm. Covering 4% of the world's desert area with photovoltaics could supply all of the world's electricity. The Gobi Desert alone could supply almost all of the world's total energy demand.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SOLAR_POWER_HELP</Tag>
@@ -3213,7 +3074,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SOLAR_POWER_QUOTE</Tag>
-			<Text>“I have no doubt that we will be successful in harnessing the sun's energy... If sunbeams were weapons of war, we would have had solar energy centuries ago.” (Sir George Porter)</Text>
+			<Text>[NEWLINE][TAB][TAB]"I have no doubt that we will be successful in harnessing the sun's energy... If sunbeams were weapons of war, we would have had solar energy centuries ago."[NEWLINE][TAB][TAB] - Sir George Porter</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_COMPOSITE_ARMOR_TITLE</Tag>
@@ -3229,7 +3090,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_COMPOSITE_ARMOR_QUOTE</Tag>
-			<Text>“Whereas knights of old wore armor of plate, the modern knights of the air wear the invisible but magic armor of confidence in technology” (Mike Spick)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Whereas knights of old wore armor of plate, the modern knights of the air wear the invisible but magic armor of confidence in technology"[NEWLINE][TAB][TAB] - Mike Spick</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_COMBINED_ARMS_DOCTRINE_TITLE</Tag>
@@ -3245,11 +3106,11 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_COMBINED_ARMS_DOCTRINE_QUOTE</Tag>
-			<Text>"I were to sum up what I've learned in 35 years of service, it's improvise, improvise, improvise." (General James Mattis, Joint Forces Command)</Text>
+			<Text>[NEWLINE][TAB][TAB]"I were to sum up what I've learned in 35 years of service, it's improvise, improvise, improvise."[NEWLINE][TAB][TAB] - General James Mattis</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIOTECH_INDUSTRY</Tag>
-			<Text>BioTech Industry ([ICON_GOLD])  </Text>
+			<Text>BioTech Industry ([ICON_RESEARCH])  </Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIOTECH_INDUSTRY_DESC</Tag>
@@ -3261,7 +3122,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIOTECH_INDUSTRY_QUOTE</Tag>
-			<Text>"We have the means right now to live long enough to live forever." (Ray Kurzweil)</Text>
+			<Text>[NEWLINE][TAB][TAB]"We have the means right now to live long enough to live forever."[NEWLINE][TAB][TAB] - Ray Kurzweil</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ADVANCED_FLIGHT_TITLE</Tag>
@@ -3277,7 +3138,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ADVANCED_FLIGHT_QUOTE</Tag>
-			<Text>"You don't concentrate on risks. You concentrate on results. No risk is too great to prevent the necessary job from getting done." (Chuck Yeager)</Text>
+			<Text>[NEWLINE][TAB][TAB]"You don't concentrate on risks. You concentrate on results. No risk is too great to prevent the necessary job from getting done."[NEWLINE][TAB][TAB] - Chuck Yeager</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MANNED_SPACEFLIGHT_TITLE</Tag>
@@ -3293,7 +3154,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MANNED_SPACEFLIGHT_QUOTE</Tag>
-			<Text>"Here men from the planet Earth first set foot upon the Moon. July 1969 AD. We came in peace for all mankind." (Neil Armstrong)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Here men from the planet Earth first set foot upon the Moon. July 1969 AD. We came in peace for all mankind."[NEWLINE][TAB][TAB] - Neil Armstrong</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_GENETIC_ENGINEERING_TITLE</Tag>
@@ -3309,7 +3170,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_GENETIC_ENGINEERING_QUOTE</Tag>
-			<Text>"Natural species are the library from which genetic engineers can work." (Thomas E. Lovejoy)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Natural species are the library from which genetic engineers can work."[NEWLINE][TAB][TAB] - Thomas E. Lovejoy</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MOBILE_PHONES_TITLE</Tag>
@@ -3325,7 +3186,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MOBILE_PHONES_QUOTE</Tag>
-			<Text>"To be happy in this world, first you need a cell phone and then you need an airplane. Then you're truly wireless."(Ted Turner)</Text>
+			<Text>[NEWLINE][TAB][TAB]"To be happy in this world, first you need a cell phone and then you need an airplane. Then you're truly wireless."[NEWLINE][TAB][TAB] - Ted Turner</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_INTERNET_TITLE</Tag>
@@ -3341,7 +3202,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_INTERNET_QUOTE</Tag>
-			<Text>“The Internet is becoming the town square for the global village of tomorrow.” (Bill Gates)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The Internet is becoming the town square for the global village of tomorrow."[NEWLINE][TAB][TAB] - Bill Gates</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_UNMANNED_AIRCRAFT_TITLE</Tag>
@@ -3357,7 +3218,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_UNMANNED_AIRCRAFT_QUOTE</Tag>
-			<Text>"You don't win a war by dying for your country. You win a war by making the other son-of-a-bitch die for his." (General George Patton)</Text>
+			<Text>[NEWLINE][TAB][TAB]"You don't win a war by dying for your country. You win a war by making the other son-of-a-bitch die for his."[NEWLINE][TAB][TAB] - General George Patton</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SUPERCONDUCTORS_TITLE</Tag>
@@ -3365,7 +3226,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SUPERCONDUCTORS_DESC</Tag>
-			<Text>uperconductivity is an electrical resistance of exactly zero which occurs in certain materials below a characteristic temperature. It was discovered by Heike Kamerlingh Onnes in 1911. Like ferromagnetism and atomic spectral lines, superconductivity is a quantum mechanical phenomenon. It is also characterized by a phenomenon called the Meissner effect, the ejection of any sufficiently weak magnetic field from the interior of the superconductor as it transitions into the superconducting state. The occurrence of the Meissner effect indicates that superconductivity cannot be understood simply as the idealization of "perfect conductivity" in classical physics.</Text>
+			<Text>Superconductivity is an electrical resistance of exactly zero which occurs in certain materials below a characteristic temperature. It was discovered by Heike Kamerlingh Onnes in 1911. Like ferromagnetism and atomic spectral lines, superconductivity is a quantum mechanical phenomenon. It is also characterized by a phenomenon called the Meissner effect, the ejection of any sufficiently weak magnetic field from the interior of the superconductor as it transitions into the superconducting state. The occurrence of the Meissner effect indicates that superconductivity cannot be understood simply as the idealization of "perfect conductivity" in classical physics.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SUPERCONDUCTORS_HELP</Tag>
@@ -3373,7 +3234,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SUPERCONDUCTORS_QUOTE</Tag>
-			<Text>The path of least resistance has been replaced by the path of pretty much no resistance.</Text>
+			<Text>[NEWLINE][TAB][TAB]"The path of least resistance has been replaced by the path of pretty much no resistance."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CLONING_TITLE</Tag>
@@ -3389,7 +3250,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CLONING_QUOTE</Tag>
-			<Text>"Today, the theory of evolution is an accepted fact for everyone but a fundamentalist minority, whose objections are based not on reasoning but on doctrinaire adherence to religious principles." (James D. Watson)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Today, the theory of evolution is an accepted fact for everyone but a fundamentalist minority, whose objections are based not on reasoning but on doctrinaire adherence to religious principles."[NEWLINE][TAB][TAB] - James D. Watson</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FUNCTIONAL_MRI_TITLE</Tag>
@@ -3405,7 +3266,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FUNCTIONAL_MRI_QUOTE</Tag>
-			<Text>“With fMRI, there were, consistently, unique areas of the brain -- and more of them -- that were activated during the deceptive process than during truth telling.” (Feroze B. Mohamed)</Text>
+			<Text>[NEWLINE][TAB][TAB]"With fMRI, there were, consistently, unique areas of the brain -- and more of them -- that were activated during the deceptive process than during truth telling."[NEWLINE][TAB][TAB]  Feroze B. Mohamed</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_VIRTUALIZATION_TITLE</Tag>
@@ -3421,7 +3282,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_VIRTUALIZATION_QUOTE</Tag>
-			<Text>Together we do what individually we only dreamed of.</Text>
+			<Text>[NEWLINE][TAB][TAB]"Together we do what individually we only dreamed of."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SOCIAL_NETWORKS_TITLE</Tag>
@@ -3437,7 +3298,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SOCIAL_NETWORKS_QUOTE</Tag>
-			<Text>"When you give everyone a voice and give people power, the system usually ends up in a really good place. So, what we view our role as, is giving people that power." (Mark Zuckerberg)</Text>
+			<Text>[NEWLINE][TAB][TAB]"When you give everyone a voice and give people power, the system usually ends up in a really good place. So, what we view our role as, is giving people that power."[NEWLINE][TAB][TAB] - Mark Zuckerberg</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ADVANCED_LASERS_TITLE</Tag>
@@ -3453,7 +3314,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ADVANCED_LASERS_QUOTE</Tag>
-			<Text>“We manipulate nature as if we were stuffing an Alsatian goose. We create new forms of energy; we make new elements; we kill crops; we wash brains. I can hear them in the dark sharpening their lasers.” (Erwin Chargaff)</Text>
+			<Text>[NEWLINE][TAB][TAB]"We manipulate nature as if we were stuffing an Alsatian goose. We create new forms of energy; we make new elements; we kill crops; we wash brains. I can hear them in the dark sharpening their lasers."[NEWLINE][TAB][TAB] - Erwin Chargaff</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ADVANCED_MAGNETICS_TITLE</Tag>
@@ -3469,7 +3330,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ADVANCED_MAGNETICS_QUOTE</Tag>
-			<Text>“The only way to predict the future is to have power to shape the future.” (Eric Hoffer)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The only way to predict the future is to have power to shape the future."[NEWLINE][TAB][TAB] - Eric Hoffer</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SUPER_BATTERIES_TITLE</Tag>
@@ -3485,7 +3346,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SUPER_BATTERIES_QUOTE</Tag>
-			<Text>"Energy and persistence conquer all things." (Benjamin Franklin)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Energy and persistence conquer all things."[NEWLINE][TAB][TAB] - Benjamin Franklin</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_OPTICAL_COMPUTING_TITLE</Tag>
@@ -3493,7 +3354,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_OPTICAL_COMPUTING_DESC</Tag>
-			<Text>An optical computer (also called a photonic computer) is a device that uses the photons of visible light or infrared (IR) beams, rather than electrons in the electric current, to perform digital computations. An electric current creates heat in computer systems. As the processing speed increases, so does the amount of electriCity required; this extra heat is extremely damaging to the hardware. Light, however, creates insignificant amounts of heat[dubious – discuss], regardless of how much is used. Thus, the development of more powerful processing systems becomes possible. By applying some of the advantages of visible and/or IR networks at the device and component scale, a computer might someday be developed that can perform operations significantly faster than a conventional electronic computer.</Text>
+			<Text>An optical computer (also called a photonic computer) is a device that uses the photons of visible light or infrared (IR) beams, rather than electrons in the electric current, to perform digital computations. An electric current creates heat in computer systems. As the processing speed increases, so does the amount of electricity required; this extra heat is extremely damaging to the hardware. Light, however, creates insignificant amounts of heat[dubious – discuss], regardless of how much is used. Thus, the development of more powerful processing systems becomes possible. By applying some of the advantages of visible and/or IR networks at the device and component scale, a computer might someday be developed that can perform operations significantly faster than a conventional electronic computer.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_OPTICAL_COMPUTING_HELP</Tag>
@@ -3501,7 +3362,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_OPTICAL_COMPUTING_QUOTE</Tag>
-			<Text>“In 20 or 30 years, you'll be able to hold in your hand as much computing knowledge as exists now in the whole City, or even the whole world.” (Douglas Englebart)</Text>
+			<Text>[NEWLINE][TAB][TAB]"In 20 or 30 years, you'll be able to hold in your hand as much computing knowledge as exists now in the whole City, or even the whole world."[NEWLINE][TAB][TAB] - Douglas Englebart</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_METAMATERIALS_TITLE</Tag>
@@ -3517,7 +3378,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_METAMATERIALS_QUOTE</Tag>
-			<Text>“O divine art of subtlety and secrecy! Through you we learn to be invisible, through you inaudible and hence we can hold the enemy's fate in our hands.” (Sun Tzu)</Text>
+			<Text>[NEWLINE][TAB][TAB]"O divine art of subtlety and secrecy! Through you we learn to be invisible, through you inaudible and hence we can hold the enemy's fate in our hands."[NEWLINE][TAB][TAB] - Sun Tzu</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SCRAMJET_ENGINES_TITLE</Tag>
@@ -3533,7 +3394,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SCRAMJET_ENGINES_QUOTE</Tag>
-			<Text>“The backbone of surprise is fusing speed with secrecy.” (Karl Von Clausewitz)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The backbone of surprise is fusing speed with secrecy."[NEWLINE][TAB][TAB] - Karl Von Clausewitz</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MAGNETICS_MINIATURIZATION_TITLE</Tag>
@@ -3549,7 +3410,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MAGNETICS_MINIATURIZATION_QUOTE</Tag>
-			<Text>“This is really miniaturization at its best.”	(Dave O'Brien)</Text>
+			<Text>[NEWLINE][TAB][TAB]"This is really miniaturization at its best."[NEWLINE][TAB][TAB] -	Dave O'Brien</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ROBOTIC_SURGERY_TITLE</Tag>
@@ -3565,7 +3426,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ROBOTIC_SURGERY_QUOTE</Tag>
-			<Text>“If a man needs his appendix taken out, his gallbladder treated and some brain surgery as well, I don't think too many doctors would do the jobs simultaneously.”	(Bob Lavner)</Text>
+			<Text>[NEWLINE][TAB][TAB]"If a man needs his appendix taken out, his gallbladder treated and some brain surgery as well, I don't think too many doctors would do the jobs simultaneously."[NEWLINE][TAB][TAB] -	Bob Lavner</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_GENETIC_SYNTHESIS_TITLE</Tag>
@@ -3581,7 +3442,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_GENETIC_SYNTHESIS_QUOTE</Tag>
-			<Text>“Got into the gene pool while the lifeguard wasn't watching”</Text>
+			<Text>[NEWLINE][TAB][TAB]"Got into the gene pool while the lifeguard wasn't watching."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_EXOSKELETONS_TITLE</Tag>
@@ -3597,7 +3458,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_EXOSKELETONS_QUOTE</Tag>
-			<Text>"History is much like an endless waltz. The three beats of war, peace, and revolution continue on forever." (Mariemaia Khushrenada)</Text>
+			<Text>[NEWLINE][TAB][TAB]"History is much like an endless waltz. The three beats of war, peace, and revolution continue on forever."[NEWLINE][TAB][TAB] - Mariemaia Khushrenada</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_DIGITAL_DEFENSE_DOCTRINE_TITLE</Tag>
@@ -3613,7 +3474,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_DIGITAL_DEFENSE_DOCTRINE_QUOTE</Tag>
-			<Text>“The more reliant we become upon computers and information systems, the more vulnerable we become to cyber-terrorists who will conceive unlimited ways to cripple our infrastructure, our power grids, our banking systems, our financial markets, our space based communications systems.” (William S. Cohen)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The more reliant we become upon computers and information systems, the more vulnerable we become to cyber-terrorists who will conceive unlimited ways to cripple our infrastructure, our power grids, our banking systems, our financial markets, our space based communications systems."[NEWLINE][TAB][TAB] - William S. Cohen</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_HYBRID_SCRAMJETS_TITLE</Tag>
@@ -3629,7 +3490,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_HYBRID_SCRAMJETS_QUOTE</Tag>
-			<Text>"It'll be a great day when education gets all the money it wants and the Air Force has to hold a bake sale to buy bombers." (Unattributable)</Text>
+			<Text>[NEWLINE][TAB][TAB]"It'll be a great day when education gets all the money it wants and the Air Force has to hold a bake sale to buy bombers."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_REACTOR_MINIATURIZATION_TITLE</Tag>
@@ -3645,7 +3506,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_REACTOR_MINIATURIZATION_QUOTE</Tag>
-			<Text>No really, now this is really miniaturization at its best.</Text>
+			<Text>[NEWLINE][TAB][TAB]"No really, now this is really miniaturization at its best."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_QUANTUM_COMPUTERS_TITLE</Tag>
@@ -3661,7 +3522,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_QUANTUM_COMPUTERS_QUOTE</Tag>
-			<Text>"Nobody understands Quantum Theory". (Richard Feynman)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Nobody understands Quantum Theory."[NEWLINE][TAB][TAB] - Richard Feynman</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_TITLE</Tag>
@@ -3677,7 +3538,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_QUOTE</Tag>
-			<Text>"I visualize a time when we will be to robots what dogs are to humans, and I'm rooting for the machines." (CLAUDE SHANNON)</Text>
+			<Text>[NEWLINE][TAB][TAB]"I visualize a time when we will be to robots what dogs are to humans, and I'm rooting for the machines."[NEWLINE][TAB][TAB] - CLAUDE SHANNON</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LASER_MANUFACTURING_TITLE</Tag>
@@ -3693,7 +3554,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LASER_MANUFACTURING_QUOTE</Tag>
-			<Text>“Production is not the application of tools to materials, but logic to work” (Peter F. Drucker)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Production is not the application of tools to materials, but logic to work."[NEWLINE][TAB][TAB] - Peter F. Drucker</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_EXTREME_MECHANIZATION_TITLE</Tag>
@@ -3709,7 +3570,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_EXTREME_MECHANIZATION_QUOTE</Tag>
-			<Text>“The robot is going to lose. Not by much. But when the final score is tallied, flesh and blood is going to beat the damn monster.” (Adam Smith)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The robot is going to lose. Not by much. But when the final score is tallied, flesh and blood is going to beat the damn monster."[NEWLINE][TAB][TAB] - Adam Smith</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_UNIFIED_FIELD_THEORY_TITLE</Tag>
@@ -3725,7 +3586,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_UNIFIED_FIELD_THEORY_QUOTE</Tag>
-			<Text>“If you can't explain it simply, you don't understand it well enough” (Albert Einstein)</Text>
+			<Text>[NEWLINE][TAB][TAB]"If you can't explain it simply, you don't understand it well enough"[NEWLINE][TAB][TAB] - Albert Einstein</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_PROMOTION_MAGELLAN_VOYAGE_DESC</Tag>
@@ -3812,7 +3673,7 @@
 			<Text>This unit ignores terrain cost, and pillaging does not consume movement points.</Text>
 		</Row>
 
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_UNIT_COG</Tag>
 			<Text>Cog</Text>
 		</Row>
@@ -3823,8 +3684,8 @@
 		<Row>
 			<Tag>TXT_KEY_UNIT_HELP_COG</Tag>
 			<Text>A Medieval naval upgrade to the Trireme.</Text>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<Tag>TXT_KEY_UNIT_GALLEON</Tag>
 			<Text>Galleon</Text>
 		</Row>
@@ -3835,7 +3696,7 @@
 		<Row>
 			<Tag>TXT_KEY_UNIT_HELP_GALLEON</Tag>
 			<Text>A heavy Renaissance warship.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_UNIT_CIVIL_ENGINEER</Tag>
 			<Text>Civil Engineer</Text>
@@ -3848,7 +3709,7 @@
 			<Tag>TXT_KEY_UNIT_CIVIL_ENGINEER_HELP</Tag>
 			<Text>Industrial upgrade to the ancient worker unit.  The Civil Engineer recieves none of the standard bonuses of the worker but is 150% more efficient.</Text>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Tag>TXT_KEY_UNIT_MACHINE_GUNNER</Tag>
 			<Text>Machine Gunner</Text>
 		</Row>
@@ -3859,7 +3720,7 @@
 		<Row>
 			<Tag>TXT_KEY_UNIT_HELP_MACHINE_GUNNER</Tag>
 			<Text>A late Renaissance upgrade to the Crossbowman, fulfilling the role of light man-portable ranged firepower.</Text>
-		</Row>
+		</Row>-->
 		<Row>
 			<Tag>TXT_KEY_UNIT_MISSILE_SQUAD</Tag>
 			<Text>Missile Squad</Text>
@@ -4259,7 +4120,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIOCOMPUTER_INTERFACE_QUOTE</Tag>
-			<Text>Those who underestimate the effects of human telepathy and telekinesis on society will be left behind by the tempest of innovation that is sure to follow.</Text>
+			<Text>[NEWLINE][TAB][TAB]"Those who underestimate the effects of human telepathy and telekinesis on society will be left behind by the tempest of innovation that is sure to follow."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FERTILIZER_CIV</Tag>
@@ -4279,7 +4140,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_NANO_MASS_PRODUCTION_QUOTE</Tag>
-			<Text>A world of perfection awaits.</Text>
+			<Text>[NEWLINE][TAB][TAB]"A world of perfection awaits."[NEWLINE][TAB][TAB] - Unknown</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LEVITATION_MOTORS_DESC</Tag>
@@ -4295,7 +4156,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LEVITATION_MOTORS_QUOTE</Tag>
-			<Text>“Fair is foul, and foul is fair: Hover through the fog and filthy air.” (William Shakespeare)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Fair is foul, and foul is fair: Hover through the fog and filthy air."[NEWLINE][TAB][TAB] - William Shakespeare</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_2D_ENERGY_FIELDS_DESC</Tag>
@@ -4311,7 +4172,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_2D_ENERGY_FIELDS_QUOTE</Tag>
-			<Text>“Remember-you can't beam through a force field. So, don't try it.” (William Shatner)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Remember-you can't beam through a force field. So, don't try it."[NEWLINE][TAB][TAB] - William Shatner</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_AI_EVOLUTION_DESC</Tag>
@@ -4323,7 +4184,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_AI_EVOLUTION_QUOTE</Tag>
-			<Text>"A year spent in artificial intelligence is enough to make one believe in God." (Alan Perlis)</Text>
+			<Text>[NEWLINE][TAB][TAB]"A year spent in artificial intelligence is enough to make one believe in God."[NEWLINE][TAB][TAB] - Alan Perlis</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_AI_EVOLUTION_HELP</Tag>
@@ -4343,7 +4204,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SPACE_WEAPONIZATION_QUOTE</Tag>
-			<Text>“It’s politically sensitive, but it’s going to happen. Some people don’t want to hear this, and it sure isn’t in vogue, but—absolutely—we’re going to fight in space. We’re going to fight from space and we’re going to fight into space. That’s why the US has development programs in directed energy and hit-to-kill mechanisms. We will engage terrestrial targets someday—ships, airplanes, land targets—from space.” (General Joseph W. Ashy, Commander, US Space Command)</Text>
+			<Text>[NEWLINE][TAB][TAB]"It’s politically sensitive, but it’s going to happen. Some people don’t want to hear this, and it sure isn’t in vogue, but—absolutely—we’re going to fight in space. We’re going to fight from space and we’re going to fight into space. That’s why the US has development programs in directed energy and hit-to-kill mechanisms. We will engage terrestrial targets someday—ships, airplanes, land targets—from space."[NEWLINE][TAB][TAB] - General Joseph W. Ashy, Commander, US Space Command</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SMART_MATERIALS_DESC</Tag>
@@ -4359,7 +4220,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SMART_MATERIALS_QUOTE</Tag>
-			<Text>“What we are interested in is merging the computer with the clothing so that all you need to do is get dressed.” (Neil Gershenfeld)</Text>
+			<Text>[NEWLINE][TAB][TAB]"What we are interested in is merging the computer with the clothing so that all you need to do is get dressed."[NEWLINE][TAB][TAB] - Neil Gershenfeld</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_PARTICLE_BEAMS_DESC</Tag>
@@ -4375,10 +4236,10 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_PARTICLE_BEAMS_QUOTE</Tag>
-			<Text>"But while it will make every nation safe against any attack by a would-be invader, the death-beam by its nature could not be employed similarly as a weapon for offense. For this death-beam, could be generated only from large, stationary and immovable power plants, stationed in the manner of old-time forts at various strategic distances from each country's border.   An exception however, must be made in the case of battleships, which would be able to equip themselves with smaller plants for generating the death-beam, with enough power to destroy any airplane approaching for attack from the air." (Nikola Tesla, inventor of the first particle beam weapon; 1934)</Text>
+			<Text>[NEWLINE][TAB][TAB]"But while it will make every nation safe against any attack by a would-be invader, the death-beam by its nature could not be employed similarly as a weapon for offense. For this death-beam, could be generated only from large, stationary and immovable power plants, stationed in the manner of old-time forts at various strategic distances from each country's border.   An exception however, must be made in the case of battleships, which would be able to equip themselves with smaller plants for generating the death-beam, with enough power to destroy any airplane approaching for attack from the air."[NEWLINE][TAB][TAB] - Nikola Tesla (inventor of the first particle beam weapon)</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_ERA_7</Tag>
+			<Tag>TXT_KEY_ERA_71</Tag>
 			<Text>NanoTech Era</Text>
 		</Row>
 		<Row>
@@ -4399,7 +4260,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MIND_MELDING_QUOTE</Tag>
-			<Text>“The miracle is this: the more we share the more we have”	(Leonard Nimoy)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The miracle is this: the more we share the more we have."[NEWLINE][TAB][TAB]	- Leonard Nimoy</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SENTIENT_ROBOTS_DESC</Tag>
@@ -4415,7 +4276,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SENTIENT_ROBOTS_QUOTE</Tag>
-			<Text>" But hath not a robot eyes? Hath not a robot hands, organs, dimensions, senses, affections, passions? If you prick us, do we not bleed?" (Johnny Five)</Text>
+			<Text>[NEWLINE][TAB][TAB]"But hath not a robot eyes? Hath not a robot hands, organs, dimensions, senses, affections, passions? If you prick us, do we not bleed?"[NEWLINE][TAB][TAB] - Johnny Five</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_UNDERWATER_HABITATION_DESC</Tag>
@@ -4431,7 +4292,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_UNDERWATER_HABITATION_QUOTE</Tag>
-			<Text>"The extreme conditions of a long underwater mission are similar to those of space.  Someday, these techniques could be used in long-duration, manned space flights." (David Williams)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The extreme conditions of a long underwater mission are similar to those of space.  Someday, these techniques could be used in long-duration, manned space flights."[NEWLINE][TAB][TAB] - David Williams</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_WORMHOLE_DETECTION_DESC</Tag>
@@ -4447,7 +4308,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_WORMHOLE_DETECTION_QUOTE</Tag>
-			<Text>“The Air Force is to be applauded for investigating technologies that may have value for national security, ... But wormholes, negative energies, warped space-time, etc., require futuristic technologies centuries to millions of years ahead of ours. The only thing going down the wormhole is taxpayers' money.”	(Michio Kaku)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The Air Force is to be applauded for investigating technologies that may have value for national security, ... But wormholes, negative energies, warped space-time, etc., require futuristic technologies centuries to millions of years ahead of ours. The only thing going down the wormhole is taxpayers' money."[NEWLINE][TAB][TAB] -	Michio Kaku</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_WARP_FIELD_THEORY_DESC</Tag>
@@ -4463,7 +4324,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_WARP_FIELD_THEORY_QUOTE</Tag>
-			<Text>“Since the mathematicians have invaded the theory of relativity, I do not understand it myself anymore.” (Albert Einstein)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Since the mathematicians have invaded the theory of relativity, I do not understand it myself anymore."[NEWLINE][TAB][TAB] - Albert Einstein</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ULTRA_PRESSURE_MACHINERY_DESC</Tag>
@@ -4479,7 +4340,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ULTRA_PRESSURE_MACHINERY_QUOTE</Tag>
-			<Text>“The machine does not isolate us from the great problems of nature but plunges us more deeply into them” (Antoine de Saint-Exupery)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The machine does not isolate us from the great problems of nature but plunges us more deeply into them."[NEWLINE][TAB][TAB] - Antoine de Saint-Exupery</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_EXTREME_ENGINEERING_DESC</Tag>
@@ -4495,7 +4356,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_EXTREME_ENGINEERING_QUOTE</Tag>
-			<Text>"Scientists investigate that which already is; Engineers create that which has never been.'' (Albert Einstein)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Scientists investigate that which already is; Engineers create that which has never been."[NEWLINE][TAB][TAB] - Albert Einstein</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ARCOLOGIES_DESC</Tag>
@@ -4511,7 +4372,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_ARCOLOGIES_QUOTE</Tag>
-			<Text>"We cannot afford to permit squalid overcrowding or the kind of living system which makes impossible the decencies and necessities of life." (Teddy Rossevelt)</Text>
+			<Text>[NEWLINE][TAB][TAB]"We cannot afford to permit squalid overcrowding or the kind of living system which makes impossible the decencies and necessities of life."[NEWLINE][TAB][TAB] - Teddy Rossevelt</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SUBLIMINAL_MIND_CONTROL_DESC</Tag>
@@ -4527,7 +4388,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_SUBLIMINAL_MIND_CONTROL_QUOTE</Tag>
-			<Text>"All wrong-doing arises because of mind. If mind is transformed can wrong-doing remain?" (Buddha)</Text>
+			<Text>[NEWLINE][TAB][TAB]"All wrong-doing arises because of mind. If mind is transformed can wrong-doing remain?"[NEWLINE][TAB][TAB] - Buddha</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CYBERNETIC_ORGANISMS_DESC</Tag>
@@ -4543,7 +4404,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_CYBERNETIC_ORGANISMS_QUOTE</Tag>
-			<Text>“I'm a cybernetic organism: living tissue over a metal endoskeleton." (The Terminator)</Text>
+			<Text>[NEWLINE][TAB][TAB]"I'm a cybernetic organism: living tissue over a metal endoskeleton."[NEWLINE][TAB][TAB] - The Terminator</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_NEURAL_REPROGRAMMING_DESC</Tag>
@@ -4559,7 +4420,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_NEURAL_REPROGRAMMING_QUOTE</Tag>
-			<Text>"It is a man's own mind, not his enemy or foe, that lures him to evil ways."  (Buddha)</Text>
+			<Text>[NEWLINE][TAB][TAB]"It is a man's own mind, not his enemy or foe, that lures him to evil ways."[NEWLINE][TAB][TAB] - Buddha</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MECHANICAL_BODY_GRAFTING_DESC</Tag>
@@ -4575,7 +4436,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_MECHANICAL_BODY_GRAFTING_QUOTE</Tag>
-			<Text>"Gentlemen, we can rebuild him, we have the technology, we have the capability to build the world's first bionic man. Steve Austin will be that man. We can make him better than he was before; better, stronger, faster."  (Oscar Goldman)</Text>
+			<Text>[NEWLINE][TAB][TAB]"Gentlemen, we can rebuild him, we have the technology, we have the capability to build the world's first bionic man. Steve Austin will be that man. We can make him better than he was before; better, stronger, faster."[NEWLINE][TAB][TAB] - Oscar Goldman</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIOLOGICAL_SYNTHESIS_DESC</Tag>
@@ -4591,7 +4452,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIOLOGICAL_SYNTHESIS_QUOTE</Tag>
-			<Text>“The synthesis of pure, calming food is breathing pure air, listening to good sounds, looking at good sights, and touching pure objects.” (Sri Sathya Sai Baba)</Text>
+			<Text>[NEWLINE][TAB][TAB]"The synthesis of pure, calming food is breathing pure air, listening to good sounds, looking at good sights, and touching pure objects."[NEWLINE][TAB][TAB] - Sri Sathya Sai Baba</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_AI_SURVEILLANCE_DESC</Tag>
@@ -4607,7 +4468,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_AI_SURVEILLANCE_QUOTE</Tag>
-			<Text>" It can also be argued that DNA is nothing more than a program designed to preserve itself. Life has become more complex in the overwhelming sea of information. And life, when organized into species, relies upon genes to be its memory system. So man is an individual only because of his own undefinable memory. But memory cannot be defined, yet it defines mankind. The advent of computers and the subsequent accumulation of incalculable data has given rise to a new system of memory and thought, parallel to your own. Humanity has underestimated the consequences of computerization." (Puppet Master)</Text>
+			<Text>[NEWLINE][TAB][TAB]"It can also be argued that DNA is nothing more than a program designed to preserve itself. Life has become more complex in the overwhelming sea of information. And life, when organized into species, relies upon genes to be its memory system. So man is an individual only because of his own undefinable memory. But memory cannot be defined, yet it defines mankind. The advent of computers and the subsequent accumulation of incalculable data has given rise to a new system of memory and thought, parallel to your own. Humanity has underestimated the consequences of computerization."[NEWLINE][TAB][TAB] - Puppet Master</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_VIRTUAL_REALITY_DESC</Tag>
@@ -4623,7 +4484,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_VIRTUAL_REALITY_QUOTE</Tag>
-			<Text>“If some unemployed punk in New Jersey, can get a cassette to make love to Elle McPherson for $19.95, this virtual reality stuff is going to make crack look like Sanka.” (Dennis Miller)</Text>
+			<Text>[NEWLINE][TAB][TAB]"If some unemployed punk in New Jersey, can get a cassette to make love to Elle McPherson for $19.95, this virtual reality stuff is going to make crack look like Sanka."[NEWLINE][TAB][TAB] - Dennis Miller</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIOLOGICAL_NANITES_DESC</Tag>
@@ -4639,7 +4500,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_BIOLOGICAL_NANITES_QUOTE</Tag>
-			<Text>“This means the ability to put small numbers of atom and molecules where we want them, to form materials, structures and devices that benefit from such a high level of control and precision.” (Andrew Maynard)</Text>
+			<Text>[NEWLINE][TAB][TAB]"This means the ability to put small numbers of atom and molecules where we want them, to form materials, structures and devices that benefit from such a high level of control and precision."[NEWLINE][TAB][TAB] - Andrew Maynard</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FREE_SPACE_SATURATION_DESC</Tag>
@@ -4655,7 +4516,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_FREE_SPACE_SATURATION_QUOTE</Tag>
-			<Text>“If our air forces are never used, they have achieved their finest goal.” (General Nathan F. Twining)</Text>
+			<Text>[NEWLINE][TAB][TAB]"If our air forces are never used, they have achieved their finest goal."[NEWLINE][TAB][TAB] - General Nathan F. Twining</Text>
 		</Row>
 
 		<Row>
@@ -4670,9 +4531,239 @@
 			<Tag>TXT_KEY_PROJECT_WORMHOLE_DETECTION_ARRAY_PEDIA</Tag>
 			<Text>The Wormhole Detection Array is a feat of human engineering that places many detection stations around the solar system, all of which coordinate to pinpoint possible wormhole entrances.  Any such wormhole entrances could potentially open up the stars to human colonization, or perhaps even alien contact.</Text>
 		</Row>
+		
+		<Row>
+			<Tag>TXT_KEY_TECH_HERDING_TITLE</Tag>
+			<Text>Herding ([ICON_GOLD])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERDING_DESC</Tag>
+			<Text>Markets for trading various livestock.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERDING_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Cattle Ranch[ENDCOLOR],[COLOR_POSITIVE_TEXT] Sheep Ranch[ENDCOLOR], and[COLOR_POSITIVE_TEXT] Deer Herder[ENDCOLOR], the first buildings in their respective Monopoly trees.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERDING_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"In order to be an immaculate member of a flock of sheep, one must above all be a sheep oneself."[NEWLINE][TAB][TAB] - Albert Einstein</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_RAW_MATERIALS_TITLE</Tag>
+			<Text>Raw Materials ([ICON_PRODUCTION])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_RAW_MATERIALS_DESC</Tag>
+			<Text>Markets for trading various raw materials.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_RAW_MATERIALS_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Stone Cutter[ENDCOLOR] and[COLOR_POSITIVE_TEXT] Copper Smelter[ENDCOLOR], the first buildings in their respective Monopoly trees.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_RAW_MATERIALS_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"A rolling stone gathers no moss, but it gains a certain polish."[NEWLINE][TAB][TAB] - Oliver Herford</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_TITLE</Tag>
+			<Text>Great Monuments ([ICON_PRODUCTION])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_DESC</Tag>
+			<Text>Various Wonders dedicated to notable figures.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Mausoleum of Halicarnassus[ENDCOLOR], [COLOR_POSITIVE_TEXT]The Labyrnth[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Sphinx[ENDCOLOR] Wonders.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_GREAT_MONUMENTS_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"Death comes to all, but great achievements build a monument which shall endure until the sun grows cold."[NEWLINE][TAB][TAB] - Ralph Waldo Emerson</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_ORAL_TRADITION_TITLE</Tag>
+			<Text>Oral Tradition ([ICON_RESEARCH])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_ORAL_TRADITION_DESC</Tag>
+			<Text>Oral tradition and oral lore is cultural material and tradition transmitted orally from one generation to another.[1][2] The messages or testimony are verbally transmitted in speech or song and may take the form, for example, of folktales, sayings, ballads, songs, or chants. In this way, it is possible for a society to transmit oral history, oral literature, oral law and other knowledges across generations without a writing system.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_ORAL_TRADITION_HELP</Tag>
+			<Text>Allows construction of the useful [COLOR_POSITIVE_TEXT]Shaman's Hut[ENDCOLOR] building.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_ORAL_TRADITION_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"The life of my people is to remember forever; each head granary is full. The life of your people is to forget: your thing granaries ("museums"), and not yourselves, are full."[NEWLINE][TAB][TAB] - Alice Walker</Text>
+		</Row>
+
+		<Row>
+			<Tag>TXT_KEY_TECH_MILITARY_TRAINING_TITLE</Tag>
+			<Text>Military Training ([ICON_STRENGTH])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_MILITARY_TRAINING_DESC</Tag>
+			<Text>Military education and training is a process which intends to establish and improve the capabilities of military personnel in their respective roles. Military education can be voluntary or compulsory duty. Before any person gets authorization to operate technical equipment or be on the battle field, they must take a medical and often a physical test. If passed, they may begin primary training.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_MILITARY_TRAINING_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Barracks[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Artillery Range[ENDCOLOR] buildings, which gives your units an experience boost.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_MILITARY_TRAINING_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"The aim of military training is not just to prepare men for battle, but to make them long for it."[NEWLINE][TAB][TAB] - Louis Simpson</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_WOODWORKING_TITLE</Tag>
+			<Text>Wood Working ([ICON_PRODUCTION])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_WOODWORKING_DESC</Tag>
+			<Text>Along with stone, mud and animal parts, wood was one of the first materials worked by early humans. Historically, woodworkers relied upon the woods native to their region, until transportation and trade innovations made more exotic woods available to the craftsman. Woods are typically sorted into three basic types: hardwoods typified by tight grain and derived from broadleaf trees, softwoods from coniferous trees, and man-made materials such as plywood and MDF.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_WOODWORKING_HELP</Tag>
+			<Text>Reveals [ICON_RES_OAK] Oak and allows construction of the powerful [COLOR_POSITIVE_TEXT]Composite Bowman[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Catapult[ENDCOLOR] units.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_WOODWORKING_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"From such crooked wood as that which man is made of, nothing straight can be fashioned."[NEWLINE][TAB][TAB] - Immanuel Kant</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_PUBLIC_WORKS_TITLE</Tag>
+			<Text>Public Works ([ICON_PRODUCTION])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_PUBLIC_WORKS_DESC</Tag>
+			<Text>Public works are a broad category of projects, financed and constructed by the government, for recreational, employment, and health and safety uses in the greater community. They include bridges, parks, roads, municipal buildings, dams, railroads, schools, hospitals, beaches, and other, usually long-term, physical assets and facilities. Though often interchangeable with public infrastructure and public capital, public works does not necessarily carry an economic component, thereby being a broader term.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_PUBLIC_WORKS_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Terracotta Army[ENDCOLOR], [COLOR_POSITIVE_TEXT]Public Baths[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Sewer System[ENDCOLOR] Wonder and Buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_PUBLIC_WORKS_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"The fondest wish of my heart ever was that the surplus portion of these taxes, destined for the payment of that debt, should be applied, in time of peace, to the improvements of our country by canals, roads, and useful institutions."[NEWLINE][TAB][TAB] - Thomas Jefferson</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_FISH_MARKETS_TITLE</Tag>
+			<Text>Fish Markets ([ICON_GOLD])  </Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_FISH_MARKETS_DESC</Tag>
+			<Text>A fish market is a marketplace used for marketing fish products. It can be dedicated to wholesale trade between fishermen and fish merchants, or to the sale of seafood to individual consumers, or to both. Retail fish markets, a type of wet market, often sell street food as well.[NEWLINE][NEWLINE]Because seafood is quick to spoil, fish markets are historically most often found in seaside towns. Once ice or other simple cooling methods became available, some were also established in large inland cities that had good trade routes to the coast.[NEWLINE][NEWLINE]Since refrigeration and rapid transport became available in the 19th and 20th century, fish markets can technically be established at any place. However, because modern trade logistics in general has shifted away from marketplaces and towards retail outlets, such as supermarkets, most seafood worldwide is now sold to consumers through these venues, like most other foodstuffs.[NEWLINE][NEWLINE]Consequently, most major fish markets now mainly deal with wholesale trade, and the existing major fish retail markets continue to operate as much for traditional reasons as for commercial ones. Both types of fish markets are often tourist attractions as well.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_FISH_MARKETS_HELP</Tag>
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Fish Herder[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Crab Herder [ENDCOLOR], the first buildings in their respective Monopoly trees.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_FISH_MARKETS_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"Fish and visitors smell in three days."[NEWLINE][TAB][TAB] - Benjamin Franklin</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERBAL_SCIENCE_TITLE</Tag>
+			<Text>Herbal Science ([ICON_CULTURE]/[ICON_HAPPINESS_1])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERBAL_SCIENCE_DESC</Tag>
+			<Text>Field of science dedicated to finding natural cures.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERBAL_SCIENCE_HELP</Tag>
+			<Text>Reveals Aloe Vera, Amber, and Poppy, which are used in the construction of Monopoly buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_HERBAL_SCIENCE_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"I think it's wrong the way they criminalize herb. There are many more uses than just smoking. Beneficial to mankind."[NEWLINE][TAB][TAB] - Ziggy Marley</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_STONE_MASONS_TITLE</Tag>
+			<Text>Stone Masons ([ICON_PRODUCTION])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_STONE_MASONS_DESC</Tag>
+			<Text>Group of people dedicated to finding, using, and profiting from geological resources.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_STONE_MASONS_HELP</Tag>
+			<Text>Allows you to build the [COLOR_POSITIVE]Copper Depot[ENDCOLOR], [COLOR_POSITIVE]Stone Depot[ENDCOLOR], and[COLOR_POSITIVE] Jade Market[ENDCOLOR] Monopoly buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_STONE_MASONS_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"In every block of marble I see a statue as plain as though it stood before me, shaped and perfect in attitude and action. I have only to hew away the rough walls that imprison the lovely apparition to reveal it to the other eyes as mine see it."[NEWLINE][TAB][TAB] - Michelangelo</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_TITLE</Tag>
+			<Text>Livestock Distribution ([ICON_GOLD])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_DESC</Tag>
+			<Text>Livestock are domesticated animals raised in an agricultural setting to produce commodities such as food, fiber and labor. This article does not discuss poultry or farmed fish, although these, especially poultry, are commonly included within the meaning of "livestock". Livestock generally are raised for profit. Raising animals (animal husbandry) is a component of modern agriculture. It has been practiced in many cultures since the transition to farming from hunter-gather lifestyles.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_HELP</Tag>
+			<Text>Allows construbtion of [COLOR_POSSITIVE]Cattle Distribution Center[ENDCOLOR], [COLOR_POSSITIVE]Sheep Distribution Center[ENDCOLOR], and [COLOR_POSSITIVE]Deer Distribution Center[ENDCOLOR] Monopoly buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"I go about looking at horses and cattle. They eat grass, make love, work when they have to, bear their young. I am sick with envy of them."[NEWLINE][TAB][TAB] - Sherwood Anderson</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_TITLE</Tag>
+			<Text>Ocean Pioneering ([ICON_GOLD])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_DESC</Tag>
+			<Text>Throughout history, scientists have relied on a number of instruments to measure, map, and observe the ocean's depths. One of the first instruments used to examine the seafloor was the sounding weight. Ancient Viking sailors took measurements of sea depth and sampled seafloor sediments with this instrument, which consisted of a lead weight with a hollow bottom attached to a line. Once the weight reached the sea bottom and collected a sample of the seabed, the line was hauled back on board ship and measured in fathom.[11] Cornelius Drebbel, a Dutch architect, is generally given credit for construction of the first submarine. His submersible boat consisted of a wooden frame sheathed in animal skin. Oars, with its openings were sealed with tight-fitting leather flaps, extended out the sides to propel the craft through the water, at depths up to 4.6 meters (15 ft). Drebel tested his submarine in the Thames River in England in sometime between 1620 and 1624. It is believed that King James I may have enjoyed a short ride in the craft.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSSITIVE]Seaport[ENDCOLOR] and the [COLOR_POSSITIVE]Fish Conglomerate[ENDCOLOR] and [COLOR_POSSITIVE]Crab Conglomerate[ENDCOLOR] Monopoly buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"In a word I was a pioneer, and therefore had to blaze my own trail."[NEWLINE][TAB][TAB] - Major Taylor</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_INTERNATIONAL_TRADE_TITLE</Tag>
+			<Text>International Trade ([ICON_GOLD])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_INTERNATIONAL_TRADE_DESC</Tag>
+			<Text>International trade is the exchange of capital, goods, and services across international borders or territories.[1] In most countries, such trade represents a significant share of gross domestic product (GDP). While international trade has been present throughout much of history (see Silk Road, Amber Road), its economic, social, and political importance has been on the rise in recent centuries.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_INTERNATIONAL_TRADE_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSSITIVE]Deer Conglomerate[ENDCOLOR], [COLOR_POSSITIVE]Cattle Conglomerate[ENDCOLOR],[COLOR_POSSITIVE] Coffee Conglomerate, [COLOR_POSSITIVE]Banana Conglomerate[ENDCOLOR], and [COLOR_POSSITIVE]Sheep Conglomerate[ENDCOLOR] Monopoly buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_INTERNATIONAL_TRADE_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"Few people think more than two or three times a year; I have made an international reputation for myself by thinking once or twice a week."[NEWLINE][TAB][TAB] - George Bernard Shaw</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_TITLE</Tag>
+			<Text>Agricultural Sciences ([ICON_RESEARCH])</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_DESC</Tag>
+			<Text>Agricultural science is a broad multidisciplinary field that encompasses the parts of exact, natural, economic and social sciences that are used in the practice and understanding of agriculture.[NEWLINE][NEWLINE]With the exception of theoretical agronomy, research in agronomy, more than in any other field, is strongly related to local areas. It can be considered a science of ecoregions, because it is closely linked to soil properties and climate, which are never exactly the same from one place to another. Many people think an agricultural production system relying on local weather, soil characteristics, and specific crops has to be studied locally. Others feel a need to know and understand production systems in as many areas as possible, and the human dimension of interaction with nature.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_HELP</Tag>
+			<Text>Allows construction of the [COLOR_POSSITIVE]Wheat Monopoly[ENDCOLOR], [COLOR_POSSITIVE]Cattle Monopoly[ENDCOLOR],[COLOR_POSSITIVE] Sheep Monopoly, and [COLOR_POSSITIVE]Banana Monopoly[ENDCOLOR] buildings.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_QUOTE</Tag>
+			<Text>[NEWLINE][TAB][TAB]"Agriculture not only gives riches to a nation, but the only riches she can call her own."[NEWLINE][TAB][TAB] - Samuel Johnson</Text>
+		</Row>
 		<Update>
 			<Set Text="Greatly increases [ICON_HAPPINESS_1] Happiness in the empire."/>
 			<Where Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP" />
+		</Update>
+		<Update>
+			<Set Text="City must be built on or next to Desert. +1 [ICON_FOOD] Food, +2 [ICON_PRODUCTION] Production, and +2 [ICON_GOLD] Gold for all desert tiles worked by this city (except Flood Plains)."/>
+			<Where Tag="TXT_KEY_WONDER_PETRA_HELP" />
 		</Update>
 		<Update>
 			<Set Text="1 Free Social Policy.[NEWLINE]Must be constructed in a coastal city."/>
@@ -4681,10 +4772,6 @@
 		<Update>
 			<Set Text="A Great Artist appears in the City where this building was constructed."/>
 			<Where Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP" />
-		</Update>
-		<Update>
-			<Set Text="Massively increases [ICON_CULTURE] Culture in this City."/>
-			<Where Tag="TXT_KEY_WONDER_LOUVRE_HELP" />
 		</Update>
 		<Update>
 			<Set Text="+1 [ICON_PRODUCTION] Production from Artist Specialist in every City.[NEWLINE][NEWLINE]Must have built a Monument in all Cities. The cost goes up the more cities there are in the empire."/>
@@ -4715,7 +4802,7 @@
 			<Where Tag="TXT_KEY_BUILDING_BANK_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_IRON] Iron or [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Military Academy."/>
+			<Set Text="Each source of [ICON_RES_IRON] Iron worked by this City produces +2 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a Military Academy."/>
 			<Where Tag="TXT_KEY_BUILDING_ARSENAL_HELP" />
 		</Update>
 		<Update>
@@ -4727,11 +4814,11 @@
 			<Where Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_IRON] Iron and [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper nearby."/>
+			<Set Text="Each source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_FORGE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born."/>
+			<Set Text="10% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.[NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold in every tile next to a River.[NEWLINE][NEWLINE]City must be built next to a River.[NEWLINE]City must have a Sewer System."/>
 			<Where Tag="TXT_KEY_BUILDING_AQUEDUCT_HELP" />
 		</Update>
 		<Update>
@@ -4741,6 +4828,10 @@
 		<Update>
 			<Set Text="+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]Must have built a Library in all Cities. The cost goes up the more cities there are in the empire." />
 			<Where Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_BUILDING_TEMPLE_ARTEMIS_HELP" />
 		</Update>
 		<Update>
 			<Set Text="+1 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum for Construction.[NEWLINE][NEWLINE]City must be built next to a River." />
@@ -4755,11 +4846,11 @@
 			<Where Tag="TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_RESEARCH] Science per 2 [ICON_CITIZEN] Citizens in this City." />
+			<Set Text="+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City." />
 			<Where Tag="TXT_KEY_BUILDING_LIBRARY_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_RESEARCH] Science per 2 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]City must have a University." />
+			<Set Text="+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]City must have a University." />
 			<Where Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL_HELP" />
 		</Update>
 		<Update>
@@ -4791,7 +4882,7 @@
 			<Where Tag="TXT_KEY_BUILDING_LIGHTHOUSE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]+15 XP for Naval Units produced in this City.[NEWLINE]Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land).[NEWLINE][NEWLINE]City must be built on the coast." />
+			<Set Text="+15 XP for Naval Units produced in this City. Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land).[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_BUILDING_HARBOR_HELP" />
 		</Update>
 		<Update>
@@ -4815,7 +4906,7 @@
 			<Where Tag="TXT_KEY_BUILDING_HOSPITAL_STRATEGY" />
 		</Update>
 		<Update>
-			<Set Text="Each source of [ICON_RES_URANIUM] Uranium and [ICON_RES_POPPY] Poppy worked by this City produces +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have a Hospital." />
+			<Set Text="Each source of [ICON_RES_URANIUM] Uranium worked by this City produces +3 [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]City must have a Hospital." />
 			<Where Tag="TXT_KEY_BUILDING_MEDICAL_LAB_HELP" />
 		</Update>
 		<Update>
@@ -4887,15 +4978,27 @@
 			<Where Tag="TXT_KEY_UNIT_HELP_ATOMIC_BOMB" />
 		</Update>
 		<Update>
+			<Set Text="Early Air Unit that can bombard enemy Units and Cities from the skies.[NEWLINE][NEWLINE]Aircraft Plant Required." />
+			<Where Tag="TXT_KEY_UNIT_HELP_WWI_BOMBER" />
+		</Update>
+		<Update>
 			<Set Text="Air Unit that rains death from above onto enemy Units and Cities.[NEWLINE][NEWLINE]Aircraft Plant Required." />
 			<Where Tag="TXT_KEY_UNIT_HELP_BOMBER" />
+		</Update>
+		<Update>
+			<Set Text="Early Air Unit designed to intercept incoming enemy aircraft.[NEWLINE][NEWLINE]Aircraft Plant Required." />
+			<Where Tag="TXT_KEY_UNIT_HELP_TRIPLANE" />
 		</Update>
 		<Update>
 			<Set Text="Air Unit designed to wrest control of the skies and intercept incoming enemy aircraft.[NEWLINE][NEWLINE]Aircraft Plant Required." />
 			<Where Tag="TXT_KEY_UNIT_HELP_FIGHTER" />
 		</Update>
 		<Update>
-			<Set Text="Fast and powerful Industrial Era Unit. Receives a penalty when attacking Cities and on defense, but is incredibly effective in open ground.[NEWLINE][NEWLINE]Auto Plant Required." />
+			<Set Text="The first of its kind, this powerful late game unit can move after attacking.[NEWLINE][NEWLINE]Auto Plant Required." />
+			<Where Tag="TXT_KEY_UNIT_HELP_WWI_TANK" />
+		</Update>
+		<Update>
+			<Set Text="Fast and powerful Industrial Era Unit.[NEWLINE][NEWLINE]Auto Plant Required." />
 			<Where Tag="TXT_KEY_UNIT_HELP_TANK" />
 		</Update>
 		<Update>
@@ -4930,6 +5033,7 @@
 			<Set Text="Animal Husbandry ([ICON_GOLD])  " />
 			<Where Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_TITLE" />
 		</Update>
+		
 		<Update>
 			<Set Text="Archery ([ICON_STRENGTH])  " />
 			<Where Tag="TXT_KEY_TECH_ARCHERY_TITLE" />
@@ -5083,7 +5187,7 @@
 			<Where Tag="TXT_KEY_TECH_MILITARY_SCIENCE_TITLE" />
 		</Update>
 		<Update>
-			<Set Text="Fertilizer ([ICON_GOLD])  " />
+			<Set Text="Fertilizer ([ICON_RESEARCH])  " />
 			<Where Tag="TXT_KEY_TECH_FERTILIZER_TITLE" />
 		</Update>
 		<Update>
@@ -5099,8 +5203,8 @@
 			<Where Tag="TXT_KEY_TECH_STEAM_POWER_TITLE" />
 		</Update>
 		<Update>
-			<Set Text="ElectriCity ([ICON_RESEARCH])  " />
-			<Where Tag="TXT_KEY_TECH_ELECTRICity_TITLE" />
+			<Set Text="Electricity ([ICON_RESEARCH])  " />
+			<Where Tag="TXT_KEY_TECH_ELECTRICITY_TITLE" />
 		</Update>
 		<Update>
 			<Set Text="Replaceable Parts ([ICON_PRODUCTION])  " />
@@ -5115,7 +5219,7 @@
 			<Where Tag="TXT_KEY_TECH_DYNAMITE_TITLE" />
 		</Update>
 		<Update>
-			<Set Text="Refrigeration ([ICON_GOLD])  " />
+			<Set Text="Refrigeration ([ICON_RESEARCH])  " />
 			<Where Tag="TXT_KEY_TECH_REFRIGERATION_TITLE" />
 		</Update>
 		<Update>
@@ -5136,7 +5240,7 @@
 		</Update>
 		<Update>
 			<Set Text="Plastic ([ICON_RESEARCH])  " />
-			<Where Tag="TXT_KEY_TECH_PLASTIC_TITLE" />
+			<Where Tag="TXT_KEY_TECH_PLASTICS_TITLE" />
 		</Update>
 		<Update>
 			<Set Text="Penicilin ([ICON_RESEARCH])  " />
@@ -5195,6 +5299,34 @@
 			<Where Tag="TXT_KEY_TECH_STEALTH_TITLE" />
 		</Update>
 		<Update>
+			<Set Text="Mobile Tactics ([ICON_STRENGTH])  " />
+			<Where Tag="TXT_KEY_TECH_MOBILE_TACTICS_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Telecommunications ([ICON_CULTURE]/[ICON_HAPPINESS_1]) " />
+			<Where Tag="TXT_KEY_TECH_TELECOM_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Guilds ([ICON_GOLD])  " />
+			<Where Tag="TXT_KEY_TECH_GUILDS_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Architecture ([ICON_PRODUCTION])  " />
+			<Where Tag="TXT_KEY_TECH_ARCHITECTURE_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Industrialization ([ICON_PRODUCTION])  " />
+			<Where Tag="TXT_KEY_TECH_INDUSTRIALIZATIION_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Drama and Poetry ([ICON_CULTURE]/[ICON_HAPPINESS_1])  " />
+			<Where Tag="TXT_KEY_TECH_DRAMA_TITLE" />
+		</Update>
+		<Update>
+			<Set Text="Ballistics ([ICON_STRENGTH])  " />
+			<Where Tag="TXT_KEY_TECH_BALLISTICS_TITLE" />
+		</Update>
+		<Update>
 			<Set Text="Advanced Ballistics ([ICON_STRENGTH])  " />
 			<Where Tag="TXT_KEY_TECH_ADVANCED_BALLISTICS_TITLE" />
 		</Update>
@@ -5211,6 +5343,10 @@
 			<Where Tag="TXT_KEY_TECH_NANOTECHNOLOGY_TITLE" />
 		</Update>
 
+		<Update>
+			<Set Text="While in a [ICON_GOLDEN_AGE] Golden Age, every tile in your empire that produces at least 1 [ICON_PRODUCTION] Production, 1 [ICON_GOLD] Gold, or 1 [ICON_RESEARCH] Science produces 1 extra."/>
+			<Where Tag="TXT_KEY_TP_GOLDEN_AGE_EFFECT" />
+		</Update>
 		<Update>
 			<Set Text="Strategic Resources provide +1 [ICON_PRODUCTION] Production and Horse, Iron and Uranium Resources provide double quantity." />
 			<Where Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES" />

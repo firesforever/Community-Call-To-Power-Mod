@@ -119,7 +119,7 @@
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>4</GridX>
-			<GridY>4</GridY>theo
+			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_PRIESTHOOD_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
@@ -137,6 +137,22 @@
 			<GridX>4</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_CODE_OF_LAWS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_HERBAL_SCIENCE</Type>
+			<TechCat>TECHTREE_SOCIAL</TechCat>
+			<Description>TXT_KEY_TECH_HERBAL_SCIENCE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_HERBAL_SCIENCE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_HERBAL_SCIENCE_HELP</Help>
+			<Cost>35</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>5</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_HERBAL_SCIENCE_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
@@ -197,7 +213,7 @@
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>TECH_DRAMA</Type>
 			<TechCat>TECHTREE_SOCIAL</TechCat>
 			<Description>TXT_KEY_TECH_DRAMA_TITLE</Description>
@@ -212,7 +228,11 @@
 			<Quote>TXT_KEY_TECH_DRAMA_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		</Row>
+		</Row>-->
+		<Update>
+			<Set TechCat="TECHTREE_SOCIAL" Cost="122" Era="ERA_MEDIEVAL" GridX="10" GridY="5" />
+			<Where Type="TECH_DRAMA" />
+		</Update>
 		<Row>
 			<Type>TECH_FUNDAMENTALISM</Type>
 			<TechCat>TECHTREE_SOCIAL</TechCat>
@@ -341,8 +361,12 @@
 		</Row>
 		<Update>
 			<Set TechCat="TECHTREE_SOCIAL" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="5" />
-			<Where Type="TECH_MASS_MEDIA" />
+			<Where Type="TECH_TELECOM" />
 		</Update>
+		<!--<Update>
+			<Set TechCat="TECHTREE_SOCIAL" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="5" />
+			<Where Type="TECH_MASS_MEDIA" />
+		</Update>-->
 		<Update>
 			<Set TechCat="TECHTREE_SOCIAL" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="8" />
 			<Where Type="TECH_ECOLOGY" />
@@ -424,7 +448,7 @@
 			<Civilopedia>TXT_KEY_TECH_SOCIAL_NETWORKS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SOCIAL_NETWORKS_HELP</Help>
 			<Cost>7920</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>24</GridX>
@@ -442,7 +466,7 @@
 			<Civilopedia>TXT_KEY_TECH_AI_SURVEILLANCE_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_AI_SURVEILLANCE_HELP</Help>
 			<Cost>24091</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>28</GridX>
@@ -458,7 +482,7 @@
 			<Civilopedia>TXT_KEY_TECH_AI_EVOLUTION_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_AI_EVOLUTION_HELP</Help>
 			<Cost>27705</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>29</GridX>
@@ -474,7 +498,7 @@
 			<Civilopedia>TXT_KEY_TECH_NEURAL_REPROGRAMMING_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_NEURAL_REPROGRAMMING_HELP</Help>
 			<Cost>27705</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>29</GridX>
@@ -490,7 +514,7 @@
 			<Civilopedia>TXT_KEY_TECH_SENTIENT_ROBOTS_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_SENTIENT_ROBOTS_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -506,7 +530,7 @@
 			<Civilopedia>TXT_KEY_TECH_SUBLIMINAL_MIND_CONTROL_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_SUBLIMINAL_MIND_CONTROL_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -522,7 +546,7 @@
 			<Civilopedia>TXT_KEY_TECH_MIND_MELDING_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_MIND_MELDING_HELP</Help>
 			<Cost>36640</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>31</GridX>
@@ -539,18 +563,18 @@
 <!--ANCIENT-->
 		<Row>
 			<TechType>TECH_MYSTICISM</TechType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>10</Flavor>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>12</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_MYSTICISM</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>13</Flavor>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_MYSTICISM</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>1</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_CEREMONIAL_BURIAL</TechType>
@@ -621,18 +645,28 @@
 		</Row>
 		<Row>
 			<TechType>TECH_PRIESTHOOD</TechType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>6</Flavor>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_PRIESTHOOD</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>14</Flavor>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_PRIESTHOOD</TechType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_HERBAL_SCIENCE</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_HERBAL_SCIENCE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Update>
 			<Where TechType="TECH_PHILOSOPHY" FlavorType="FLAVOR_WONDER"/>
@@ -725,7 +759,7 @@
 			<Where TechType="TECH_ARCHAEOLOGY" FlavorType="FLAVOR_WONDER"/>
 			<Set Flavor="6" />
 		</Update>
-		<Row>
+		<!--<Row>
 			<TechType>TECH_DRAMA</TechType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>18</Flavor>
@@ -734,7 +768,7 @@
 			<TechType>TECH_DRAMA</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>3</Flavor>
-		</Row>
+		</Row>-->
 		<Row>
 			<TechType>TECH_FUNDAMENTALISM</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
@@ -897,7 +931,7 @@
 			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<Update>
+		<!--<Update>
 			<Where TechType="TECH_MASS_MEDIA" FlavorType="FLAVOR_HAPPINESS"/>
 			<Set Flavor="8" />
 		</Update>
@@ -920,7 +954,7 @@
 			<TechType>TECH_MASS_MEDIA</TechType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>1</Flavor>
-		</Row>
+		</Row>-->
 		<Update>
 			<Where TechType="TECH_ECOLOGY" FlavorType="FLAVOR_PRODUCTION"/>
 			<Set Flavor="8" />

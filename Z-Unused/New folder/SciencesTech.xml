@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/20/2011 6:24:27 PM -->
+<GameData>
+	<Technologies>
+		<!-- Ancient Era -->
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="13" Era="ERA_ANCIENT" GridX="2" GridY="4" />
+			<Where Type="TECH_POTTERY" />
+		</Update>
+		<!-- Classical Era -->
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="30" Era="ERA_CLASSICAL" GridX="4" GridY="3" />
+			<Where Type="TECH_WRITING" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="30" Era="ERA_CLASSICAL" GridX="4" GridY="4" />
+			<Where Type="TECH_THE_WHEEL" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="40" Era="ERA_CLASSICAL" GridX="6" GridY="4" />
+			<Where Type="TECH_MATHEMATICS" />
+		</Update>
+		<!-- Medieval Era -->
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="106" Era="ERA_MEDIEVAL" GridX="9" GridY="3" AllowsEmbarking="NULL"/>
+			<Where Type="TECH_OPTICS" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="106" Era="ERA_MEDIEVAL" GridX="9" GridY="4" />
+			<Where Type="TECH_COMPASS" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="122" Era="ERA_MEDIEVAL" GridX="10" GridY="4" />
+			<Where Type="TECH_PHYSICS" />
+		</Update>
+		<Row>
+			<Type>TECH_ALGEBRA</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_ALGEBRA_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ALGEBRA_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ALGEBRA_HELP</Help>
+			<Cost>140</Cost>
+			<Era>ERA_MEDIEVAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>11</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_ALGEBRA_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<!-- Renaissance Era -->
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="281" Era="ERA_RENAISSANCE" GridX="12" GridY="3" />
+			<Where Type="TECH_EDUCATION" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="281" Era="ERA_RENAISSANCE" GridX="12" GridY="4" />
+			<Where Type="TECH_ASTRONOMY" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="281" Era="ERA_RENAISSANCE" GridX="12" GridY="5" />
+			<Where Type="TECH_PRINTING_PRESS" />
+		</Update>
+		<Row>
+			<Type>TECH_CALCULUS</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_CALCULUS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_CALCULUS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CALCULUS_HELP</Help>
+			<Cost>323</Cost>
+			<Era>ERA_RENAISSANCE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>13</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_CALCULUS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="372" Era="ERA_RENAISSANCE" GridX="14" GridY="4" />
+			<Where Type="TECH_SCIENTIFIC_THEORY" />
+		</Update>
+		<!-- Industrial Era -->
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="6" />
+			<Where Type="TECH_BIOLOGY" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="984" Era="ERA_INDUSTRIAL" GridX="17" GridY="4" />
+			<Where Type="TECH_ELECTRICITY" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="984" Era="ERA_INDUSTRIAL" GridX="17" GridY="7" />
+			<Where Type="TECH_PENICILIN" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="1132" Era="ERA_INDUSTRIAL" GridX="18" GridY="5" />
+			<Where Type="TECH_TELEGRAPH" />
+		</Update>
+		<Row>
+			<Type>TECH_REFINING</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_REFINING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_REFINING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_REFINING_HELP</Help>
+			<Cost>1132</Cost>
+			<Era>ERA_INDUSTRIAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>18</GridX>
+			<GridY>8</GridY>
+			<Quote>TXT_KEY_TECH_REFINING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_TELEPHONE</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_TELEPHONE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_TELEPHONE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_TELEPHONE_HELP</Help>
+			<Cost>1301</Cost>
+			<Era>ERA_INDUSTRIAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>19</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_TELEPHONE_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="1301" Era="ERA_INDUSTRIAL" GridX="19" GridY="7" />
+			<Where Type="TECH_PLASTIC" />
+		</Update>
+		<Row>
+			<Type>TECH_PHARMACEUTICALS</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_PHARMACEUTICALS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_PHARMACEUTICALS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_PHARMACEUTICALS_HELP</Help>
+			<Cost>1301</Cost>
+			<Era>ERA_INDUSTRIAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>19</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_PHARMACEUTICALS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<!-- Modern Era -->
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="2603" Era="ERA_MODERN" GridX="20" GridY="4" />
+			<Where Type="TECH_ATOMIC_THEORY" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="2603" Era="ERA_MODERN" GridX="20" GridY="6" />
+			<Where Type="TECH_ELECTRONICS" />
+		</Update>
+		<Row>
+			<Type>TECH_VACCINES</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_VACCINES_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_VACCINES_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_VACCINES_HELP</Help>
+			<Cost>2603</Cost>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>20</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_VACCINES_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="2994" Era="ERA_MODERN" GridX="21" GridY="5" />
+			<Where Type="TECH_COMPUTERS" />
+		</Update>
+		<Row>
+			<Type>TECH_SOLAR_POWER</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_SOLAR_POWER_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_SOLAR_POWER_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SOLAR_POWER_HELP</Help>
+			<Cost>2994</Cost>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>21</GridX>
+			<GridY>6</GridY>
+			<Quote>TXT_KEY_TECH_SOLAR_POWER_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_GENETICS</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_GENETICS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_GENETICS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_GENETICS_HELP</Help>
+			<Cost>2994</Cost>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>21</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_GENETICS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="3443" Era="ERA_MODERN" GridX="22" GridY="4" />
+			<Where Type="TECH_PARTICLE_PHYSICS" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="3443" Era="ERA_MODERN" GridX="22" GridY="5" />
+			<Where Type="TECH_SATELLITES" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="3443" Era="ERA_MODERN" GridX="22" GridY="6" />
+			<Where Type="TECH_LASERS" />
+		</Update>
+		<Row>
+			<Type>TECH_SUPERCONDUCTORS</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_SUPERCONDUCTORS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_SUPERCONDUCTORS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SUPERCONDUCTORS_HELP</Help>
+			<Cost>3960</Cost>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>23</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_SUPERCONDUCTORS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_INTERNET</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_INTERNET_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_INTERNET_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_INTERNET_HELP</Help>
+			<Cost>3960</Cost>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>23</GridX>
+			<GridY>6</GridY>
+			<Quote>TXT_KEY_TECH_INTERNET_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_MOBILE_PHONES</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_MOBILE_PHONES_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_MOBILE_PHONES_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_MOBILE_PHONES_HELP</Help>
+			<Cost>3960</Cost>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>23</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_MOBILE_PHONES_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_GENETIC_ENGINEERING</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_GENETIC_ENGINEERING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_GENETIC_ENGINEERING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_GENETIC_ENGINEERING_HELP</Help>
+			<Cost>3960</Cost>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>23</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_GENETIC_ENGINEERING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<!-- Digital Era -->
+		<Row>
+			<Type>TECH_ADVANCED_LASERS</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_ADVANCED_LASERS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ADVANCED_LASERS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ADVANCED_LASERS_HELP</Help>
+			<Cost>7920</Cost>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>24</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_ADVANCED_LASERS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_VIRTUALIZATION</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_VIRTUALIZATION_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_VIRTUALIZATION_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_VIRTUALIZATION_HELP</Help>
+			<Cost>7920</Cost>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>24</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_VIRTUALIZATION_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="9108" Era="ERA_FUTURE" GridX="25" GridY="5" />
+			<Where Type="TECH_NUCLEAR_FUSION" />
+		</Update>
+		<Row>
+			<Type>TECH_OPTICAL_COMPUTING</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_OPTICAL_COMPUTING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_OPTICAL_COMPUTING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_OPTICAL_COMPUTING_HELP</Help>
+			<Cost>9108</Cost>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>25</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_OPTICAL_COMPUTING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_CLONING</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_CLONING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_CLONING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CLONING_HELP</Help>
+			<Cost>9108</Cost>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>25</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_CLONING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_QUANTUM_COMPUTERS</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_QUANTUM_COMPUTERS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_QUANTUM_COMPUTERS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_QUANTUM_COMPUTERS_HELP</Help>
+			<Cost>10474</Cost>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>26</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_QUANTUM_COMPUTERS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_GENETIC_SYNTHESIS</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_GENETIC_SYNTHESIS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_GENETIC_SYNTHESIS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_GENETIC_SYNTHESIS_HELP</Help>
+			<Cost>10474</Cost>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>26</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_GENETIC_SYNTHESIS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_UNIFIED_FIELD_THEORY</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_UNIFIED_FIELD_THEORY_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_UNIFIED_FIELD_THEORY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_UNIFIED_FIELD_THEORY_HELP</Help>
+			<Cost>12045</Cost>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>27</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_UNIFIED_FIELD_THEORY_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_ARTIFICIAL_INTELLIGENCE</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_HELP</Help>
+			<Cost>12045</Cost>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>27</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_BIOCOMPUTER_INTERFACE</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_BIOCOMPUTER_INTERFACE_DESC</Description>
+			<Civilopedia>TXT_KEY_TECH_BIOCOMPUTER_INTERFACE_CIV</Civilopedia>
+			<Help>TXT_KEY_TECH_BIOCOMPUTER_INTERFACE_HELP</Help>
+			<Cost>12045</Cost>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>27</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_BIOCOMPUTER_INTERFACE_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<!-- NanoTech Era -->
+		<Row>
+			<Type>TECH_LEVITATION_MOTORS</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_LEVITATION_MOTORS_DESC</Description>
+			<Civilopedia>TXT_KEY_TECH_LEVITATION_MOTORS_CIV</Civilopedia>
+			<Help>TXT_KEY_TECH_LEVITATION_MOTORS_HELP</Help>
+			<Cost>24091</Cost>
+			<Era>ERA_NANOTECH</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>28</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_LEVITATION_MOTORS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_VIRTUAL_REALITY</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_VIRTUAL_REALITY_DESC</Description>
+			<Civilopedia>TXT_KEY_TECH_VIRTUAL_REALITY_CIV</Civilopedia>
+			<Help>TXT_KEY_TECH_VIRTUAL_REALITY_HELP</Help>
+			<Cost>24091</Cost>
+			<Era>ERA_NANOTECH</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>28</GridX>
+			<GridY>8</GridY>
+			<Quote>TXT_KEY_TECH_VIRTUAL_REALITY_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_BIOLOGICAL_NANITES</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_BIOLOGICAL_NANITES_DESC</Description>
+			<Civilopedia>TXT_KEY_TECH_BIOLOGICAL_NANITES_CIV</Civilopedia>
+			<Help>TXT_KEY_TECH_BIOLOGICAL_NANITES_HELP</Help>
+			<Cost>24091</Cost>
+			<Era>ERA_NANOTECH</Era>
+			<Trade>1</Trade>
+			<GoodyTech>1</GoodyTech>
+			<GridX>28</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_BIOLOGICAL_NANITES_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_BIOLOGICAL_SYNTHESIS</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_BIOLOGICAL_SYNTHESIS_DESC</Description>
+			<Civilopedia>TXT_KEY_TECH_BIOLOGICAL_SYNTHESIS_CIV</Civilopedia>
+			<Help>TXT_KEY_TECH_BIOLOGICAL_SYNTHESIS_HELP</Help>
+			<Cost>27705</Cost>
+			<Era>ERA_NANOTECH</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>29</GridX>
+			<GridY>8</GridY>
+			<Quote>TXT_KEY_TECH_BIOLOGICAL_SYNTHESIS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_MECHANICAL_BODY_GRAFTING</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_MECHANICAL_BODY_GRAFTING_DESC</Description>
+			<Civilopedia>TXT_KEY_TECH_MECHANICAL_BODY_GRAFTING_CIV</Civilopedia>
+			<Help>TXT_KEY_TECH_MECHANICAL_BODY_GRAFTING_HELP</Help>
+			<Cost>27705</Cost>
+			<Era>ERA_NANOTECH</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>29</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_MECHANICAL_BODY_GRAFTING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_WARP_FIELD_THEORY</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_WARP_FIELD_THEORY_DESC</Description>
+			<Civilopedia>TXT_KEY_TECH_WARP_FIELD_THEORY_CIV</Civilopedia>
+			<Help>TXT_KEY_TECH_WARP_FIELD_THEORY_HELP</Help>
+			<Cost>31861</Cost>
+			<Era>ERA_NANOTECH</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>30</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_WARP_FIELD_THEORY_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_WORMHOLE_DETECTION</Type>
+			<TechCat>TECHTREE_SCIENCES</TechCat>
+			<Description>TXT_KEY_TECH_WORMHOLE_DETECTION_DESC</Description>
+			<Civilopedia>TXT_KEY_TECH_WORMHOLE_DETECTION_CIV</Civilopedia>
+			<Help>TXT_KEY_TECH_WORMHOLE_DETECTION_HELP</Help>
+			<Cost>36640</Cost>
+			<Era>ERA_NANOTECH</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>31</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_WORMHOLE_DETECTION_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<!-- Diamond Era -->
+		<Update>
+			<Set TechCat="TECHTREE_SCIENCES" Cost="73280" Era="ERA_DIAMOND" GridX="32" GridY="5" />
+			<Where Type="TECH_FUTURE_TECH" />
+		</Update>
+
+	</Technologies>
+	<Technology_Flavors>
+		<!--ANCIENT-->
+		<Update>
+			<Where TechType="TECH_POTTERY" FlavorType="FLAVOR_GROWTH"/>
+			<Set Flavor="12" />
+		</Update>
+		<Row>
+			<TechType>TECH_POTTERY</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_POTTERY</TechType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<!--CLASSISCAL-->
+		<Delete TechType="TECH_WRITING" FlavorType="FLAVOR_MILITARY_TRAINING" />
+		<Update>
+			<Where TechType="TECH_WRITING" FlavorType="FLAVOR_SCIENCE"/>
+			<Set Flavor="12" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_WRITING" FlavorType="FLAVOR_WONDER"/>
+			<Set Flavor="6" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_WRITING" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set Flavor="1" />
+		</Update>
+		<!--KEEP THE WHEEL GOLD AT 6-->
+		<Delete TechType="TECH_THE_WHEEL" FlavorType="FLAVOR_RANGED" />
+		<Delete TechType="TECH_THE_WHEEL" FlavorType="FLAVOR_GROWTH" />
+		<Update>
+			<Where TechType="TECH_THE_WHEEL" FlavorType="FLAVOR_INFRASTRUCTURE"/>
+			<Set Flavor="6" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_THE_WHEEL" FlavorType="FLAVOR_MOBILE"/>
+			<Set Flavor="3" />
+		</Update>
+		<Row>
+			<TechType>TECH_THE_WHEEL</TechType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_THE_WHEEL</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Delete TechType="TECH_MATHEMATICS" FlavorType="FLAVOR_RANGED" />
+		<Delete TechType="TECH_MATHEMATICS" FlavorType="FLAVOR_OFFENSE" />
+		<Update>
+			<Where TechType="TECH_MATHEMATICS" FlavorType="FLAVOR_WONDER"/>
+			<Set Flavor="6" />
+		</Update>
+		<Row>
+			<TechType>TECH_MATHEMATICS</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MATHEMATICS</TechType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MATHEMATICS</TechType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MATHEMATICS</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<!--MEDIEVAL-->
+		<Delete TechType="TECH_OPTICS" FlavorType="FLAVOR_NAVAL_GROWTH" />
+		<Delete TechType="TECH_OPTICS" FlavorType="FLAVOR_GROWTH" />
+		<Delete TechType="TECH_OPTICS" FlavorType="FLAVOR_EXPANSION" />
+		<Update>
+			<Where TechType="TECH_OPTICS" FlavorType="FLAVOR_GOLD"/>
+			<Set Flavor="3" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_OPTICS" FlavorType="FLAVOR_SCIENCE"/>
+			<Set Flavor="4" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_OPTICS" FlavorType="FLAVOR_NAVAL"/>
+			<Set Flavor="3" />
+		</Update>
+		<Row>
+			<TechType>TECH_OPTICS</TechType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_OPTICS</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<!--KEEP COMPASS WATER CONNECTION AT 8-->
+		<Update>
+			<Where TechType="TECH_COMPASS" FlavorType="FLAVOR_GOLD"/>
+			<Set Flavor="7" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_COMPASS" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set Flavor="1" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_COMPASS" FlavorType="FLAVOR_NAVAL"/>
+			<Set Flavor="7" />
+		</Update>
+		<Row>
+			<TechType>TECH_COMPASS</TechType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Delete TechType="TECH_PHYSICS" FlavorType="FLAVOR_RANGED" />
+		<Row>
+			<TechType>TECH_PHYSICS</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PHYSICS</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ALGEBRA</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ALGEBRA</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ALGEBRA</TechType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<!--RENAISSANCE-->
+		<Update>
+			<Where TechType="TECH_EDUCATION" FlavorType="FLAVOR_SCIENCE"/>
+			<Set Flavor="15" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_EDUCATION" FlavorType="FLAVOR_WONDER"/>
+			<Set Flavor="6" />
+		</Update>
+		<Row>
+			<TechType>TECH_EDUCATION</TechType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_EDUCATION</TechType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<!--KEEP NAVAL AT 5 FOR ASTRONOMY-->
+		<Update>
+			<Where TechType="TECH_ASTRONOMY" FlavorType="FLAVOR_EXPANSION"/>
+			<Set Flavor="9" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_ASTRONOMY" FlavorType="FLAVOR_NAVAL_RECON"/>
+			<Set Flavor="16" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_ASTRONOMY" FlavorType="FLAVOR_SCIENCE"/>
+			<Set Flavor="8" />
+		</Update>
+		<Row>
+			<TechType>TECH_ASTRONOMY</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ASTRONOMY</TechType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Delete TechType="TECH_PRINTING_PRESS" FlavorType="FLAVOR_HAPPINESS" />
+		<Update>
+			<Where TechType="TECH_PRINTING_PRESS" FlavorType="FLAVOR_WONDER"/>
+			<Set Flavor="3" />
+		</Update>
+		<Row>
+			<TechType>TECH_PRINTING_PRESS</TechType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PRINTING_PRESS</TechType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PRINTING_PRESS</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CALCULUS</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CALCULUS</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<!--KEEP SCIENTIFIC THEORY AT 15 SCIENCE-->
+		<Update>
+			<Where TechType="TECH_SCIENTIFIC_THEORY" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set Flavor="5" />
+		</Update>
+		<Row>
+			<TechType>TECH_SCIENTIFIC_THEORY</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<!--INDUSTRIAL-->
+		<!--KEEP BIOLOGY GROWTH AT 7-->
+		<Update>
+			<Where TechType="TECH_BIOLOGY" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+			<Set Flavor="5" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_BIOLOGY" FlavorType="FLAVOR_OFFENSE"/>
+			<Set Flavor="3" />
+		</Update>
+		<Row>
+			<TechType>TECH_BIOLOGY</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_BIOLOGY</TechType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_BIOLOGY</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Delete TechType="TECH_ELECTRICITY" FlavorType="FLAVOR_GOLD" />
+		<Delete TechType="TECH_ELECTRICITY" FlavorType="FLAVOR_NAVAL" />
+		<Row>
+			<TechType>TECH_ELECTRICITY</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ELECTRICITY</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ELECTRICITY</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ELECTRICITY</TechType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ELECTRICITY</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Delete TechType="TECH_PENICILIN" FlavorType="FLAVOR_GOLD" />
+		<Delete TechType="TECH_PENICILIN" FlavorType="FLAVOR_SCIENCE" />
+		<Delete TechType="TECH_PENICILIN" FlavorType="FLAVOR_GROWTH" />
+		<Row>
+			<TechType>TECH_PENICILIN</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PENICILIN</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PENICILIN</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Update>
+			<Where TechType="TECH_TELEGRAPH" FlavorType="FLAVOR_CITY_DEFENSE"/>
+			<Set Flavor="5" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_TELEGRAPH" FlavorType="FLAVOR_WONDER"/>
+			<Set Flavor="4" />
+		</Update>
+		<Update>
+			<Where TechType="TECH_TELEGRAPH" FlavorType="FLAVOR_NAVAL"/>
+			<Set Flavor="8" />
+		</Update>
+		<Row>
+			<TechType>TECH_TELEGRAPH</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_TELEGRAPH</TechType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_REFINING</TechType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_REFINING</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_REFINING</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_REFINING</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_REFINING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_REFINING</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_TELEPHONE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_TELEPHONE</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_TELEPHONE</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_TELEPHONE</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Delete TechType="TECH_PLASTIC" FlavorType="FLAVOR_PRODUCTION" />
+		<Delete TechType="TECH_PLASTIC" FlavorType="FLAVOR_WONDER" />
+		<Update>
+			<Where TechType="TECH_PLASIC" FlavorType="FLAVOR_SCIENCE"/>
+			<Set Flavor="15" />
+		</Update>
+		<Row>
+			<TechType>TECH_PLASTIC</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PHARMACEUTICALS</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PHARMACEUTICALS</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PHARMACEUTICALS</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<!--MODERN-->
+	</Technology_Flavors>
+
+</GameData>

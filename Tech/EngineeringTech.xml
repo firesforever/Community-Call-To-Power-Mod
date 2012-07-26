@@ -7,15 +7,95 @@
 			<Set TechCat="TECHTREE_ENGINEERING" Cost="11" Era="ERA_ANCIENT" GridX="1" GridY="5" />
 			<Where Type="TECH_MINING" />
 		</Update>
+		<Row>
+			<Type>TECH_RAW_MATERIALS</Type>
+			<TechCat>TECHTREE_ENGINEERING</TechCat>
+			<Description>TXT_KEY_TECH_RAW_MATERIALS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_RAW_MATERIALS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_RAW_MATERIALS_HELP</Help>
+			<Cost>13</Cost>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>2</GridX>
+			<GridY>2</GridY>
+			<Quote>TXT_KEY_TECH_RAW_MATERIALS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<Update>
-			<Set TechCat="TECHTREE_ENGINEERING" Cost="15" Era="ERA_ANCIENT" GridX="3" GridY="4" />
+			<Set TechCat="TECHTREE_ENGINEERING" Cost="13" Era="ERA_ANCIENT" GridX="2" GridY="4" />
 			<Where Type="TECH_MASONRY" />
 		</Update>
+		<Row>
+			<Type>TECH_GREAT_MONUMENTS</Type>
+			<TechCat>TECHTREE_ENGINEERING</TechCat>
+			<Description>TXT_KEY_TECH_GREAT_MONUMENTS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_GREAT_MONUMENTS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_GREAT_MONUMENTS_HELP</Help>
+			<Cost>15</Cost>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>3</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_GREAT_MONUMENTS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<!-- Classical Era -->
 		<Update>
-			<Set TechCat="TECHTREE_ENGINEERING" Cost="35" Era="ERA_CLASSICAL" GridX="5" GridY="4" />
+			<Set TechCat="TECHTREE_ENGINEERING" Cost="35" Era="ERA_CLASSICAL" GridX="5" GridY="5" />
 			<Where Type="TECH_CONSTRUCTION" />
 		</Update>
+		<Row>
+			<Type>TECH_STONE_MASONS</Type>
+			<TechCat>TECHTREE_ENGINEERING</TechCat>
+			<Description>TXT_KEY_TECH_STONE_MASONS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_STONE_MASONS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_STONE_MASONS_HELP</Help>
+			<Cost>35</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>5</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_STONE_MASONS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_PUBLIC_WORKS</Type>
+			<TechCat>TECHTREE_ENGINEERING</TechCat>
+			<Description>TXT_KEY_TECH_PUBLIC_WORKS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_PUBLIC_WORKS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_PUBLIC_WORKS_HELP</Help>
+			<Cost>40</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>6</GridX>
+			<GridY>4</GridY>
+			<Quote>TXT_KEY_TECH_STONE_MASONS_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECH_WOODWORKING</Type>
+			<TechCat>TECHTREE_ENGINEERING</TechCat>
+			<Description>TXT_KEY_TECH_WOODWORKING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_WOODWORKING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_WOODWORKING_HELP</Help>
+			<Cost>30</Cost>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>4</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_WOODWORKING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
 		<!-- Medieval Era -->
 		<Update>
 			<Set TechCat="TECHTREE_ENGINEERING" Cost="92" Era="ERA_MEDIEVAL" GridX="8" GridY="5" />
@@ -26,6 +106,10 @@
 			<Where Type="TECH_MACHINERY" />
 		</Update>
 		<!-- Renaissance Era -->
+		<Update>
+			<Set TechCat="TECHTREE_ENGINEERING" Cost="281" Era="ERA_RENAISSANCE" GridX="12" GridY="6" />
+			<Where Type="TECH_ARCHITECTURE" />
+		</Update>
 		<Row>
 			<Type>TECH_BLAST_FURNACE</Type>
 			<TechCat>TECHTREE_ENGINEERING</TechCat>
@@ -44,8 +128,12 @@
 		</Row>
 		<!-- Industrial Era -->
 		<Update>
-			<Set TechCat="TECHTREE_ENGINEERING" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="5" />
+			<Set TechCat="TECHTREE_ENGINEERING" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="4" />
 			<Where Type="TECH_DYNAMITE" />
+		</Update>
+		<Update>
+			<Set TechCat="TECHTREE_ENGINEERING" Cost="856" Era="ERA_INDUSTRIAL" GridX="16" GridY="5" />
+			<Where Type="TECH_INDUSTRIALIZATION" />
 		</Update>
 		<Update>
 			<Set TechCat="TECHTREE_ENGINEERING" Cost="856" Trade="1" Era="ERA_INDUSTRIAL" GridX="16" GridY="6" />
@@ -108,7 +196,7 @@
 			<Civilopedia>TXT_KEY_TECH_FUNCTIONAL_MRI_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FUNCTIONAL_MRI_HELP</Help>
 			<Cost>7920</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>24</GridX>
@@ -128,7 +216,7 @@
 			<Civilopedia>TXT_KEY_TECH_SUPER_BATTERIES_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SUPER_BATTERIES_HELP</Help>
 			<Cost>9108</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>25</GridX>
@@ -144,7 +232,7 @@
 			<Civilopedia>TXT_KEY_TECH_ROBOTIC_SURGERY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_ROBOTIC_SURGERY_HELP</Help>
 			<Cost>10474</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>26</GridX>
@@ -160,7 +248,7 @@
 			<Civilopedia>TXT_KEY_TECH_LASER_MANUFACTURING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_LASER_MANUFACTURING_HELP</Help>
 			<Cost>12045</Cost>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>27</GridX>
@@ -177,7 +265,7 @@
 			<Civilopedia>TXT_KEY_TECH_NANO_MASS_PRODUCTION_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_NANO_MASS_PRODUCTION_HELP</Help>
 			<Cost>24091</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>28</GridX>
@@ -193,7 +281,7 @@
 			<Civilopedia>TXT_KEY_TECH_EXTREME_ENGINEERING_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_EXTREME_ENGINEERING_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -209,7 +297,7 @@
 			<Civilopedia>TXT_KEY_TECH_ARCOLOGIES_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_ARCOLOGIES_HELP</Help>
 			<Cost>31861</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>30</GridX>
@@ -225,7 +313,7 @@
 			<Civilopedia>TXT_KEY_TECH_UNDERWATER_HABITATION_CIV</Civilopedia>
 			<Help>TXT_KEY_TECH_UNDERWATER_HABITATION_HELP</Help>
 			<Cost>36640</Cost>
-			<Era>ERA_NANOTECH</Era>
+			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>31</GridX>
@@ -263,6 +351,16 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
+		<Row>
+			<TechType>TECH_RAW_MATERIALS</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_GREAT_WORKS</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
 		<Delete TechType="TECH_MASONRY" FlavorType="FLAVOR_HAPPINESS" />
 		<Update>
 			<Where TechType="TECH_MASONRY" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
@@ -294,6 +392,46 @@
 			<Where TechType="TECH_CONSTRUCTION" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
 			<Set Flavor="6" />
 		</Update>
+		<Row>
+			<TechType>TECH_STONE_MASONS</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_STONE_MASONS</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_STONE_MASONS</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PUBLIC_WORKS</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PUBLIC_WORKDS</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
 		<!--MEDIEVAL-->
 		<Delete TechType="TECH_ENGINEERING" FlavorType="FLAVOR_DEFENSE" />
 		<Update>

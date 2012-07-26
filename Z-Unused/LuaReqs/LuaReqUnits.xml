@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+		<Units>
+<!--
+***Examples**
+This will make warrior unit only buildable when you have liberty policy 
+		<Update>
+			<Set PreReqPolicy="POLICY_LIBERTY" />
+			<Where Type="UNIT_WARRIOR"/>
+		</Update>
+-->
+
+			</Units>
+</GameData>

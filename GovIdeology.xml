@@ -922,7 +922,21 @@
 	
 	<Policy_BuildingClassHappiness>
 
-		
+		<Row>
+			<PolicyType>POLICY_JINGOISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_JINGOISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_JINGOISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
 		<Row>
 			<PolicyType>POLICY_POPULISM</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
@@ -1036,22 +1050,16 @@
 			<YieldChange>5</YieldChange>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_TRADITIONAL_INSTITUTIONS</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_STONE_WORKS</BuildingClassType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>4</YieldChange>
-		</Row>
-		<Row>
 			<PolicyType>POLICY_ETHNOCENTRISM</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<YieldChange>4</YieldChange>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_JINGOISM</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+			<PolicyType>POLICY_TRADITIONAL_INSTITUTIONS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STONE_WORKS</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>3</YieldChange>
+			<YieldChange>4</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MEANS_OF_PRODUCTION</PolicyType>

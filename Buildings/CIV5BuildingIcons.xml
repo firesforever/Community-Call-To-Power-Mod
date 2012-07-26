@@ -9,10 +9,10 @@
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="2"/>
 			<Where Type="BUILDING_ZIGGURAT_OF_MARDUK"/>
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="3"/>
 			<Where Type="BUILDING_PETRA"/>
-		</Update>
+		</Update>-->
 		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="4"/>
 			<Where Type="BUILDING_THE_LABYRNTH"/>
@@ -34,6 +34,10 @@
 			<Where Type="BUILDING_KONG_MIAO"/>
 		</Update>
 		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="12"/>
+			<Where Type="BUILDING_AQUARIUM"/>
+		</Update>
+		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="7"/>
 			<Where Type="BUILDING_SPHINX"/>
 		</Update>
@@ -49,10 +53,10 @@
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="14"/>
 			<Where Type="BUILDING_NAZCA_LINES"/>
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="16"/>
 			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
-		</Update>
+		</Update>-->
 		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="17"/>
 			<Where Type="BUILDING_LITERARY_EPIC"/>
@@ -309,10 +313,10 @@
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="37"/>
 			<Where Type="BUILDING_RANCH"/>
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="47"/>
 			<Where Type="BUILDING_POLICE_STATION"/>
-		</Update>
+		</Update>-->
 		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="48"/>
 			<Where Type="BUILDING_OIL_REFINERY"/>
@@ -347,7 +351,7 @@
 		</Update>
 		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="58"/>
-			<Where Type="BUILDING_TELECOMMUNICATIONS_NETWORK"/>
+			<Where Type="BUILDING_PUBLIC_BATHS"/>
 		</Update>
 		<Update>
 			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="59"/>
