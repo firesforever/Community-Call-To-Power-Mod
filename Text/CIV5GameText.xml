@@ -965,11 +965,11 @@
 			<Text>Industrial Shipyard</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_PEDIA</Tag>
 			<Text>Shipyards and dockyards are places which repair and build ships. These can be yachts, military vessels, cruise liners or other cargo or passenger ships. Dockyards are sometimes more associated with maintenance and basing activities than shipyards, which are sometimes associated more with initial construction. The terms are routinely used interchangeably, in part because the evolution of dockyards and shipyards has often caused them to change or merge roles.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_STRATEGY</Tag>
+			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_HELP</Tag>
 			<Text>Required for Battleship, Carrier, Supercarrier, Missile Cruiser, Nuclear Submarine, and Submarine production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Seaport and must not contain an Aircraft Plant or an Auto Plant.</Text>
 		</Row>
 		<Row>
@@ -993,11 +993,11 @@
 			<Text>Auto Plant</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_AUTO_PLANT_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_AUTO_PLANT_PEDIA</Tag>
 			<Text>Auto plants are a type of factory whose sole purpose is to manufacture and assemble automotives.  While a laborous process at first, the invention of the Assembly Line revolutioned the auto industry, as well as the rest of the manufacturing world, by cutting assembly time and costs down to a mere fraction.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_AUTO_PLANT_STRATEGY</Tag>
+			<Tag>TXT_KEY_BUILDING_AUTO_PLANT_HELP</Tag>
 			<Text>Required for Tank, Panzer, Modern Armor, and Rocket Artillery production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory and must not contain an Aircraft Plant or Industrial Shipyard.</Text>
 		</Row>
 		<Row>
@@ -1101,11 +1101,11 @@
 			<Text>Aircraft Plant</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_PEDIA</Tag>
 			<Text>Aircraft plants are a type of factory whose sole purpose is to manufacture and assemble aircraft.  Making use of the Assembly Line and a dedicated parts industry, the aircraft plant is able to mass produce military aircraft for the war effort, and commercial aircraft during peacetime.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_STRATEGY</Tag>
+			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_HELP</Tag>
 			<Text>Required for Fighter, Bomber, B-17, Jet Fighter, and Helicopter Gunship production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory and must not contain an Auto Plant or Industrial Shipyard.</Text>
 		</Row>
 		<Row>
@@ -4769,10 +4769,10 @@
 			<Set Text="1 Free Social Policy.[NEWLINE]Must be constructed in a coastal city."/>
 			<Where Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP" />
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set Text="A Great Artist appears in the City where this building was constructed."/>
 			<Where Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP" />
-		</Update>
+		</Update>-->
 		<Update>
 			<Set Text="+1 [ICON_PRODUCTION] Production from Artist Specialist in every City.[NEWLINE][NEWLINE]Must have built a Monument in all Cities. The cost goes up the more cities there are in the empire."/>
 			<Where Tag="TXT_KEY_BUILDING_NATIONAL_EPIC_HELP" />
@@ -4881,10 +4881,10 @@
 			<Set Text="+1 [ICON_FOOD] Food from Water Tiles.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_BUILDING_LIGHTHOUSE_HELP" />
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set Text="+15 XP for Naval Units produced in this City. Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land).[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_BUILDING_HARBOR_HELP" />
-		</Update>
+		</Update>-->
 		<Update>
 			<Set Text="+1 [ICON_GOLD] Gold from Water Tiles.[NEWLINE]+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have a Harbor." />
 			<Where Tag="TXT_KEY_BUILDING_SEAPORT_HELP" />

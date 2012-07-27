@@ -357,7 +357,7 @@
 			<Flavor>12</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_GREAT_WORKS</TechType>
+			<TechType>TECH_GREAT_MONUMENTS</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>9</Flavor>
 		</Row>
@@ -413,7 +413,7 @@
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_PUBLIC_WORKDS</TechType>
+			<TechType>TECH_PUBLIC_WORKS</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
