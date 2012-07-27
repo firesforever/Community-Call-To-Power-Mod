@@ -150,7 +150,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HARBOR</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
 		</Row>
 		<Row>
@@ -1128,11 +1128,6 @@
 			<NumUnits>1</NumUnits>
 		</Row>-->
 		<Row>
-			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<NumUnits>1</NumUnits>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_THE_LABYRNTH</BuildingType>
 			<UnitType>UNIT_ENGINEER</UnitType>
 			<NumUnits>1</NumUnits>
@@ -1411,6 +1406,10 @@
 			<Where Type="BUILDING_LIBRARY"/>
 		</Update>
 		<Update>
+			<Set GoldMaintenance="2" Cost="300" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount ="0" GreatPeopleRateChange="0"/>
+			<Where Type="BUILDING_LIGHTHOUSE"/>
+		</Update>
+		<Update>
 			<Set GoldMaintenance="2" Cost="380" PrereqTech="TECH_DIVISION_OF_LABOR" GreatPeopleRateChange="0" SpecialistCount="1"/>
 			<Where Type="BUILDING_LONGHOUSE"/>
 		</Update>
@@ -1509,16 +1508,12 @@
 			<Where Type="BUILDING_FORGE"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="3" Cost="540" Happiness="1"/>
+			<Set GoldMaintenance="3" Cost="540" PrereqTech="TECH_LITERATURE" Happiness="1"/>
 			<Where Type="BUILDING_GARDEN"/>
 		</Update>
 		<Update>
-			<Set GoldMaintenance="3" Cost="540" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount ="1" GreatPeopleRateChange="0"/>
+			<Set GoldMaintenance="0" Cost="540" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount ="1" GreatPeopleRateChange="0"/>
 			<Where Type="BUILDING_HARBOR"/>
-		</Update>
-		<Update>
-			<Set GoldMaintenance="2" Cost="540" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount ="0" GreatPeopleRateChange="0"/>
-			<Where Type="BUILDING_LIGHTHOUSE"/>
 		</Update>
 		<Update>
 			<Set Cost="970" />
@@ -1746,8 +1741,8 @@
 		<Row>
 			<Type>BUILDING_AIRCRAFT_PLANT</Type>
 			<Description>TXT_KEY_BUILDING_AIRCRAFT_PLANT</Description>
-			<Civilopedia>TXT_KEY_BUILDING_AIRCRAFT_PLANT_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_AIRCRAFT_PLANT_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_AIRCRAFT_PLANT_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_AIRCRAFT_PLANT_HELP</Help>
 			<GoldMaintenance>20</GoldMaintenance>
 			<Cost>1275</Cost>
 			<MutuallyExclusiveGroup>33</MutuallyExclusiveGroup>
@@ -1769,8 +1764,8 @@
 		<Row>
 			<Type>BUILDING_AUTO_PLANT</Type>
 			<Description>TXT_KEY_BUILDING_AUTO_PLANT</Description>
-			<Civilopedia>TXT_KEY_BUILDING_AUTO_PLANT_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_AUTO_PLANT_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_AUTO_PLANT_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_AUTO_PLANT_HELP</Help>
 			<GoldMaintenance>20</GoldMaintenance>
 			<Cost>1275</Cost>
 			<MutuallyExclusiveGroup>33</MutuallyExclusiveGroup>
@@ -1855,8 +1850,8 @@
 		<Row>
 			<Type>BUILDING_INDUSTRIAL_SHIPYARD</Type>
 			<Description>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD</Description>
-			<Civilopedia>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_DESC</Civilopedia>
-			<Help>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_HELP</Help>
 			<GoldMaintenance>25</GoldMaintenance>
 			<Water>true</Water>
 			<Cost>1275</Cost>
@@ -2484,7 +2479,7 @@
 			<FreeTechs>1</FreeTechs>
 			<BuildingClass>BUILDINGCLASS_GALILEO_TELESCOPE</BuildingClass>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
-			<PrereqTech>TECH_OPTICS</PrereqTech>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
@@ -3067,7 +3062,7 @@
 			<Where Type="BUILDING_GREAT_LIBRARY"/>
 		</Update>
 		<Update>
-			<Set Cost="395" GreatPeopleRateChange="4" />
+			<Set Cost="540" GreatPeopleRateChange="4" />
 			<Where Type="BUILDING_GREAT_LIGHTHOUSE"/>
 		</Update>
 		<Update>
@@ -4598,6 +4593,28 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		<!--keep lighthouse science at 5-->
+		<Update>
+			<Where BuildingType="BUILDING_LIGHTHOUSE" FlavorType="FLAVOR_NAVAL_GROWTH" />
+			<Set Flavor="20" />
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_LIGHTHOUSE" FlavorType="FLAVOR_GROWTH" />
+			<Set Flavor="8" />
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_LIGHTHOUSE" FlavorType="FLAVOR_GOLD" />
+			<Set Flavor="15" />
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_LIGHTHOUSE" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT" />
+			<Set Flavor="12" />
+		</Update>
+		<Row>
+			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
 		<Update>
 			<Where BuildingType="BUILDING_MINT" FlavorType="FLAVOR_GOLD" />
 			<Set Flavor="40" />
@@ -4766,28 +4783,6 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HARBOR</BuildingType>
-			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<!--keep lighthouse science at 5-->
-		<Update>
-			<Where BuildingType="BUILDING_LIGHTHOUSE" FlavorType="FLAVOR_NAVAL_GROWTH" />
-			<Set Flavor="12" />
-		</Update>
-		<Update>
-			<Where BuildingType="BUILDING_LIGHTHOUSE" FlavorType="FLAVOR_GROWTH" />
-			<Set Flavor="4" />
-		</Update>
-		<Update>
-			<Where BuildingType="BUILDING_LIGHTHOUSE" FlavorType="FLAVOR_GOLD" />
-			<Set Flavor="15" />
-		</Update>
-		<Update>
-			<Where BuildingType="BUILDING_LIGHTHOUSE" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT" />
-			<Set Flavor="12" />
-		</Update>
-		<Row>
-			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
@@ -4992,17 +4987,12 @@
 		</Row>
 		<Update>
 			<Where BuildingType="BUILDING_SEAPORT" FlavorType="FLAVOR_PRODUCTION" />
-			<Set Flavor="20" />
+			<Set Flavor="15" />
 		</Update>
 		<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SEAPORT</BuildingType>
-			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
@@ -6200,7 +6190,7 @@
 		<Row>
 			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>7</Flavor>
+			<Flavor>2</Flavor>
 		</Row>
 		<Update>
 			<Where BuildingType="BUILDING_HANGING_GARDEN" FlavorType="FLAVOR_WONDER"/>
@@ -7116,6 +7106,11 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
@@ -7601,6 +7596,7 @@
 	</Building_SpecialistYieldChanges>
 	<Building_ClassesNeededInCity>
 		<Delete BuildingType="BUILDING_MUSEUM" BuildingClassType="BUILDINGCLASS_OPERA_HOUSE"/>
+		<Delete BuildingType="BUILDING_HOSPITAL" BuildingClassType="BUILDINGCLASS_AQUEDUCT"/>
 		<Row>
 			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SEWER_SYSTEM</BuildingClassType>
