@@ -24,6 +24,16 @@
 			<Yield>4</Yield>
 		</Row>
 		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
@@ -454,7 +464,7 @@
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<ResourceType>RESOURCE_SALT</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
@@ -508,8 +518,32 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
+			<TechType>TECH_COMPASS</TechType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
+			<TechType>TECH_STEEL</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
+			<TechType>TECH_FLIGHT</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
-			<TechType>TECH_TRADE_FAIRS</TechType>
+			<TechType>TECH_PENICILIN</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<TechType>TECH_TRADE_SOLAR_POWER</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -703,6 +737,42 @@
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<TechType>TECH_PENICILIN</TechType>
 			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<TechType>TECH_POETRY</TechType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<TechType>TECH_DRAMA</TechType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<TechType>TECH_RADIO</TechType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<TechType>TECH_THEOLOGY</TechType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<TechType>TECH_PRIESTHOOD</TechType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<TechType>TECH_EVANGELISM</TechType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
 	</Improvement_TechYieldChanges>
