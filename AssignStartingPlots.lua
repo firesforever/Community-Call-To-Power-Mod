@@ -9883,19 +9883,19 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 
 	local resources_to_place = {
 	{self.deer_ID, 1, 100, 1, 2} };
-	self:ProcessResourceList(12 * bonus_multiplier, 3, self.tundra_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(9 * bonus_multiplier, 3, self.tundra_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.banana_ID, 1, 100, 0, 3} };
-	self:ProcessResourceList(14 * bonus_multiplier, 3, self.banana_list, resources_to_place)
+	self:ProcessResourceList(9 * bonus_multiplier, 3, self.banana_list, resources_to_place)
 
 	local resources_to_place = {
 	{self.wheat_ID, 1, 100, 2, 3} };
-	self:ProcessResourceList(27 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(26 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.cow_ID, 1, 100, 1, 2} };
-	self:ProcessResourceList(18 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(17 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.stone_ID, 1, 100, 1, 1} };
@@ -9915,7 +9915,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 
 	local resources_to_place = {
 	{self.deer_ID, 1, 100, 3, 4} };
-	self:ProcessResourceList(25 * bonus_multiplier, 3, self.forest_flat_that_are_not_tundra, resources_to_place)
+	self:ProcessResourceList(23 * bonus_multiplier, 3, self.forest_flat_that_are_not_tundra, resources_to_place)
 	-- CCTP Bonus Resources
 	local resources_to_place = {
 	{self.coffee_ID, 1, 100, 1, 1} };
@@ -9923,15 +9923,15 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 
 	local resources_to_place = {
 	{self.poppy_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(12 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(19 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.poppy_ID, 1, 100, 2, 3} };
-	self:ProcessResourceList(19 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(18 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.aloe_vera_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(10 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(13 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.titanium_ID, 1, 100, 1, 1} };
@@ -9939,11 +9939,11 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 
 	local resources_to_place = {
 	{self.titanium_ID, 1, 100, 1, 2} };
-	self:ProcessResourceList(11 * bonus_multiplier, 3, self.desert_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(16 * bonus_multiplier, 3, self.desert_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.manganese_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(11 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
+	self:ProcessResourceList(15 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
 
 	local resources_to_place = {
 	{self.manganese_ID, 1, 100, 2, 3} };
@@ -9951,11 +9951,15 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 
 	local resources_to_place = {
 	{self.oak_ID, 1, 100, 2, 3} };
-	self:ProcessResourceList(9 * bonus_multiplier, 3, self.forest_flat_that_are_not_tundra, resources_to_place)
+	self:ProcessResourceList(5 * bonus_multiplier, 3, self.forest_flat_that_are_not_tundra, resources_to_place)
 
 	local resources_to_place = {
 	{self.amber_ID, 1, 100, 2, 3} };
-	self:ProcessResourceList(13 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(17 * bonus_multiplier, 3, self.hills_jungle_list, resources_to_place)
+
+	local resources_to_place = {
+	{self.amber_ID, 1, 100, 2, 3} };
+	self:ProcessResourceList(13 * bonus_multiplier, 3, self.jungle_flat_list, resources_to_place)
 
 	local resources_to_place = {
 	{self.jade_ID, 1, 100, 2, 3} };
@@ -9963,19 +9967,19 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 
 	local resources_to_place = {
 	{self.jade_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(11 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
+	self:ProcessResourceList(17 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
 
 	local resources_to_place = {
 	{self.tin_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(13 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
+	self:ProcessResourceList(15 * bonus_multiplier, 3, self.hills_open_list, resources_to_place)
 
 	local resources_to_place = {
 	{self.tin_ID, 1, 100, 1, 2} };
-	self:ProcessResourceList(11 * bonus_multiplier, 3, self.desert_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(16 * bonus_multiplier, 3, self.desert_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.tobacco_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(12 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(13 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
 end
 ------------------------------------------------------------------------------
 function AssignStartingPlots:PlaceResourcesAndCityStates()
