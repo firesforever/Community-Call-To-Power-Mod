@@ -533,7 +533,11 @@
 		</Row>
 		<Row>
 			<TechType>TECH_RUDDER</TechType>
-			<PrereqTech>TECH_SHIPBUILDING</PrereqTech>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RUDDER</TechType>
+			<PrereqTech>TECH_DIVISION_OF_LABOR</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_OPTICS</TechType>
