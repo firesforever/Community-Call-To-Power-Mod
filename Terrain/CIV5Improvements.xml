@@ -259,8 +259,20 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<ResourceType>RESOURCE_BANANA</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
