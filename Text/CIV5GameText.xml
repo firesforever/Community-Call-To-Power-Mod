@@ -1878,7 +1878,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_IMPLANT_STATION_DESC</Tag>
-			<Text>The Beef Vat uses Nanites, Genetic Synthesis, and a fair amount of electricty to grow almost any food item from it's base elements.  While at first rejected by the population due to prejudices against non-natural food, Beef Vat technology has managed to catch on in cities whose enourmous size demands a cheap, unending source of nourishment.</Text>
+			<Text>Brain implants, often referred to as neural implants, are technological devices that connect directly to a biological subject's brain - usually placed on the surface of the brain, or attached to the brain's cortex. A common purpose of modern brain implants and the focus of much current research is establishing a biomedical prosthesis circumventing areas in the brain that have become dysfunctional after a stroke or other head injuries. This includes sensory substitution, e.g., in vision. Other brain implants are used in animal experiments simply to record brain activity for scientific reasons. Some brain implants involve creating interfaces between neural systems and computer chips. This work is part of a wider research field called brain-computer interfaces.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_IMPLANT_STATION_HELP</Tag>
@@ -4703,7 +4703,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_HELP</Tag>
-			<Text>Allows construbtion of [COLOR_POSSITIVE]Cattle Distribution Center[ENDCOLOR], [COLOR_POSSITIVE]Sheep Distribution Center[ENDCOLOR], and [COLOR_POSSITIVE]Deer Distribution Center[ENDCOLOR] Monopoly buildings.</Text>
+			<Text>Allows construction of [COLOR_POSITIVE]Cattle Distribution Center[ENDCOLOR], [COLOR_POSITIVE]Sheep Distribution Center[ENDCOLOR], and [COLOR_POSITIVE]Deer Distribution Center[ENDCOLOR] Monopoly buildings.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_QUOTE</Tag>
