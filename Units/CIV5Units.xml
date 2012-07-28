@@ -748,7 +748,7 @@
 		<Delete UnitType="UNIT_WWI_TANK" ResourceType="RESOURCE_OIL" Cost="1" />
 		<Delete UnitType="UNIT_TRIPLANE" ResourceType="RESOURCE_OIL" Cost="1" />
 		<Delete UnitType="UNIT_WWI_BOMBER" ResourceType="RESOURCE_OIL" Cost="1" />
-		<Row>
+	<!--<Row>
 			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
 			<ResourceType>NULL</ResourceType>
 		</Row>
@@ -815,7 +815,7 @@
 		<Row>
 			<UnitType>UNIT_HYPERSONIC_BOMBER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
+		</Row>-->
 	</Unit_ResourceQuantityRequirements>
 	<Units>
 		<!--Ancient Era-->
