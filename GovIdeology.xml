@@ -1065,7 +1065,7 @@
 			<PolicyType>POLICY_STATE_OWNED_ENTERPRISE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>75</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PARTICIPATORY_ECONOMICS</PolicyType>
