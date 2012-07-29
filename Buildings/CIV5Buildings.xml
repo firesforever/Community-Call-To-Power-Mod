@@ -1297,6 +1297,22 @@
 			<Set GoldMaintenance="2" Cost="220" />
 			<Where Type="BUILDING_CIRCUS"/>
 		</Update>
+		<Row>
+			<Type>BUILDING_DOCK</Type>
+			<Description>TXT_KEY_BUILDING_DOCK</Description>
+			<Civilopedia>TXT_KEY_BUILDING_DOCK_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_DOCK_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_DOCK_HELP</Help>
+			<Cost>180</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>25</ConquestProb>
+			<BuildingClass>BUILDINGCLASS_DOCK</BuildingClass>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Water>true</Water>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+		</Row>
 		<Update>
 			<Set FoodKept="10" GoldMaintenance="2" Cost="175"/>
 			<Where Type="BUILDING_GRANARY" />
@@ -4438,6 +4454,16 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_DOCK</BuildingType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DOCK</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
 		<Delete BuildingType="BUILDING_GRANARY" FlavorType="FLAVOR_SCIENCE" />
 		<!--Keep granary production at 5-->
 		<Update>
@@ -7063,6 +7089,11 @@
 	</Building_RiverPlotYieldChanges>
 	<Building_SeaPlotYieldChanges>
 		<Delete/>
+		<Row>
+			<BuildingType>BUILDING_DOCK</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>

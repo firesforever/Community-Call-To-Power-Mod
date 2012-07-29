@@ -185,15 +185,15 @@
 			<Text>[NEWLINE][TAB][TAB]"Thousands of candles can be lit from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared."[NEWLINE][TAB][TAB] - Buddha[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_DOCKS</Tag>
+			<Tag>TXT_KEY_BUILDING_DOCK</Tag>
 			<Text>Docks</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_DOCKS_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_DOCK_DESC</Tag>
 			<Text>A dock is a human-made structure or group of structures involved in the handling of boats or ships, usually on or close to a shore. However, the exact meaning varies among different variants of the English language. "Dock" may also refer to a dockyard (or shipyard) where the loading, unloading, building, or repairing of ships occurs.  The world's oldest known dock at Lothal (2400 BCE) was located away from the main current to avoid deposition of silt.  Modern oceanographers have observed that the Harappans must have possessed great knowledge relating to tides in order to build such a dock on the ever-shifting course of the Sabarmati, as well as exemplary hydrography and maritime engineering.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_DOCKS_STRATEGY</Tag>
+			<Tag>TXT_KEY_BUILDING_DOCK_STRATEGY</Tag>
 			<Text>+1 [ICON_FOOD] Food in every sea tile near this City.</Text>
 		</Row>
 		<Row>
@@ -1108,6 +1108,23 @@
 			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_HELP</Tag>
 			<Text>Required for Fighter, Bomber, B-17, Jet Fighter, and Helicopter Gunship production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory and must not contain an Auto Plant or Industrial Shipyard.</Text>
 		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DOCK</Tag>
+			<Text>Dock</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DOCK_PEDIA</Tag>
+			<Text>A dock is a human-made structure or group of structures involved in the handling of boats or ships, usually on or close to a shore. The world's oldest known dock at Lothal (2400 BCE) was located away from the main current to avoid deposition of silt. Modern oceanographers have observed that the Harappans must have possessed great knowledge relating to tides in order to build such a dock on the ever-shifting course of the Sabarmati, as well as exemplary hydrography and maritime engineering. This was the earliest known dock found in the world, equipped to berth and service ships. It is speculated that Lothal engineers studied tidal movements, and their effects on brick-built structures, since the walls are of kiln-burnt bricks.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DOCK_HELP</Tag>
+			<Text>+1 [ICON_GOLD] Gold from water tiles worked by this City.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DOCK_STRATEGY</Tag>
+			<Text>The Dock can only be constructed in a city next to a coastal tile. It increases the [ICON_GOLD] Gold output for water tiles.</Text>
+		</Row>
+		
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT</Tag>
 			<Text>Shaman's Hut</Text>
