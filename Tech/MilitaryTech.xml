@@ -35,6 +35,7 @@
 			<Help>TXT_KEY_TECH_SHIPBUILDING_HELP</Help>
 			<Cost>13</Cost>
 			<Era>ERA_ANCIENT</Era>
+			<AllowsEmbarking>true</AllowsEmbarking>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>2</GridX>

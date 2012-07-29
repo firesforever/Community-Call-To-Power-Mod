@@ -8,7 +8,7 @@
 			<Where Type="TECH_AGRICULTURE" />
 		</Update>
 		<Update>
-			<Set TechCat="TECHTREE_ECONOMICS" Cost="11" AllowsEmbarking="true" Era="ERA_ANCIENT" GridX="1" GridY="2" />
+			<Set TechCat="TECHTREE_ECONOMICS" Cost="11" Era="ERA_ANCIENT" GridX="1" GridY="2" />
 			<Where Type="TECH_SAILING" />
 		</Update>
 		<Row>
