@@ -185,18 +185,6 @@
 			<Text>[NEWLINE][TAB][TAB]"Thousands of candles can be lit from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared."[NEWLINE][TAB][TAB] - Buddha[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_DOCK</Tag>
-			<Text>Docks</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_DOCK_DESC</Tag>
-			<Text>A dock is a human-made structure or group of structures involved in the handling of boats or ships, usually on or close to a shore. However, the exact meaning varies among different variants of the English language. "Dock" may also refer to a dockyard (or shipyard) where the loading, unloading, building, or repairing of ships occurs.  The world's oldest known dock at Lothal (2400 BCE) was located away from the main current to avoid deposition of silt.  Modern oceanographers have observed that the Harappans must have possessed great knowledge relating to tides in order to build such a dock on the ever-shifting course of the Sabarmati, as well as exemplary hydrography and maritime engineering.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_DOCK_STRATEGY</Tag>
-			<Text>+1 [ICON_FOOD] Food in every sea tile near this City.</Text>
-		</Row>
-		<Row>
 			<Tag>TXT_KEY_BUILDING_ZIGGURAT_OF_MARDUK</Tag>
 			<Text>Ziggurat of Marduk</Text>
 		</Row>
@@ -1124,7 +1112,6 @@
 			<Tag>TXT_KEY_BUILDING_DOCK_STRATEGY</Tag>
 			<Text>The Dock can only be constructed in a city next to a coastal tile. It increases the [ICON_GOLD] Gold output for water tiles.</Text>
 		</Row>
-		
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT</Tag>
 			<Text>Shaman's Hut</Text>

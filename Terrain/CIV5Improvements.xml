@@ -555,7 +555,7 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
-			<TechType>TECH_TRADE_SOLAR_POWER</TechType>
+			<TechType>TECH_SOLAR_POWER</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
