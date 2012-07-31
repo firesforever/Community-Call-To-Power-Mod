@@ -314,10 +314,6 @@
 			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_DDX_DESTROYER</UnitType>
-			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_CGX_CRUISER</UnitType>
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
@@ -608,10 +604,6 @@
 		<Row>
 			<UnitType>UNIT_PLASMA_DESTROYER</UnitType>
 			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PLASMA_DESTROYER</UnitType>
-			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FUSION_DREADNOUGHT</UnitType>
