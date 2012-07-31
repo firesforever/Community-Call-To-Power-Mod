@@ -583,9 +583,9 @@ function OnGovs( )
 	Controls.BottomGovernmentSysStack:SetHide( true );
 	
 	--Show the correct Title and hide the rest
-	Controls.GovernmentsTitle:SetHide( false );
-	Controls.GovernmentIdeTitle:SetHide( true );
-	Controls.GovernmentSysTitle:SetHide( true );
+	--Controls.GovernmentsTitle:SetHide( false );
+	--Controls.GovernmentIdeTitle:SetHide( true );
+	--Controls.GovernmentSysTitle:SetHide( true );
 	
 	
 end
@@ -607,9 +607,9 @@ function OnGovsIde( )
 	Controls.BottomGovernmentSysStack:SetHide( true );
 	
 	--Show the correct Title and hide the rest
-	Controls.GovernmentsTitle:SetHide( true );
-	Controls.GovernmentIdeTitle:SetHide( false );
-	Controls.GovernmentSysTitle:SetHide( true );
+	--Controls.GovernmentsTitle:SetHide( true );
+	--Controls.GovernmentIdeTitle:SetHide( false );
+	--Controls.GovernmentSysTitle:SetHide( true );
 
 end
 Controls.GovernmentIdeologyInfo:RegisterCallback( Mouse.eLClick, OnGovsIde );
@@ -629,9 +629,9 @@ function OnGovsSys( )
 	Controls.BottomGovernmentSysStack:SetHide( false );
 	
 	--Show the correct Title and hide the rest
-	Controls.GovernmentsTitle:SetHide( true );
-	Controls.GovernmentIdeTitle:SetHide( true );
-	Controls.GovernmentSysTitle:SetHide( false );
+	--Controls.GovernmentsTitle:SetHide( true );
+	--Controls.GovernmentIdeTitle:SetHide( true );
+	--Controls.GovernmentSysTitle:SetHide( false );
 
 end
 Controls.GovernmentSysInfo:RegisterCallback( Mouse.eLClick, OnGovsSys );
@@ -1119,15 +1119,27 @@ function ShowHideHandler( bIsHide, bInitState )
         Controls.PolicyInfo:SetCheck( OptionsManager.GetPolicyInfo() );
         if( not bIsHide ) then
         	UI.incTurnTimerSemaphore();
-        	OpenAdvisorPopup(ButtonPopupTypes.BUTTONPOPUP_CHOOSEPOLICY);
+        	--OpenAdvisorPopup(ButtonPopupTypes.BUTTONPOPUP_CHOOSEPOLICY);
         	Events.SerialEventGameMessagePopupShown(m_PopupInfo);
         else
             UI.decTurnTimerSemaphore();
-            CloseAdvisorPopup(ButtonPopupTypes.BUTTONPOPUP_CHOOSEPOLICY);
+            --CloseAdvisorPopup(ButtonPopupTypes.BUTTONPOPUP_CHOOSEPOLICY);
             Events.SerialEventGameMessagePopupProcessed.CallImmediate(ButtonPopupTypes.BUTTONPOPUP_CHOOSEPOLICY, 0);
         end
     end
 end
 ContextPtr:SetShowHideHandler( ShowHideHandler );
+
+----------------------------------------------------------------
+-- 'Active' (local human) player has changed
+----------------------------------------------------------------
+function OnActivePlayerChanged()
+	if (not Controls.PolicyConfirm:IsHidden()) then
+		Controls.PolicyConfirm:SetHide(true);
+    	Controls.BGBlock:SetHide(false);
+	end
+	OnClose();
+end
+Events.GameplaySetActivePlayer.Add(OnActivePlayerChanged);
 
 Init();
