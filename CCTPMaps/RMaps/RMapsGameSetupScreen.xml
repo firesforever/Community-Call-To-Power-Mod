@@ -25,10 +25,6 @@
 
                 <Stack Anchor="C,B" Offset="0,0"   Size="128,128" StackGrowth="Right" Padding="8" >
 
-                    <!-- Randomize Button  -->
-                    <GridButton Anchor="L,C"  Style="SmallButton" Size="150,32"  Offset="0,0" StateOffsetIncrement="0,0" ID="RandomizeButton" >
-                        <Label Anchor="C,C"  Offset="0,0"  String="TXT_KEY_GAME_SETUP_RANDOMIZE" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
-                    </GridButton>
                     <!-- Advanced Button -->
                     <GridButton Anchor="L,C"  Style="SmallButton" Size="150,32"  Offset="0,0" StateOffsetIncrement="0,0" ID="AdvancedButton" >
                         <Label Anchor="C,C"  Offset="0,0"  String="TXT_KEY_GAME_ADVANCED_SETUP" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />

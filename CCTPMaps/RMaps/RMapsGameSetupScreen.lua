@@ -46,18 +46,6 @@ Controls.AdvancedButton:RegisterCallback( Mouse.eLClick, OnAdvanced );
 
 -------------------------------------------------
 -------------------------------------------------
-function OnRandomize()
-	PreGame.SetEarthMap(false);
-	PreGame.SetLoadWBScenario(false);
-	PreGame.SetCivilization(0, -1);
-	PreGame.SetRandomWorldSize(true);
-	PreGame.SetRandomMapScript(true);
-	UpdateDisplay();
-end
-Controls.RandomizeButton:RegisterCallback( Mouse.eLClick, OnRandomize );
-
--------------------------------------------------
--------------------------------------------------
 function OnSetCivNames()
     UIManager:PushModal( Controls.SetCivNames );
 end
