@@ -14,6 +14,10 @@
 			<Set PrereqTech="TECH_MINING" />
 			<Where Type="BUILD_REMOVE_JUNGLE" />
 		</Update>
+		<Update>
+			<Set PrereqTech="TECH_TRADE_FAIRS" />
+			<Where Type="BUILD_POLDER" />
+		</Update>
 	</Builds>
 
 	<BuildFeatures>

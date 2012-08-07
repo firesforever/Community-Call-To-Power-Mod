@@ -328,10 +328,6 @@
 			<PrereqTech>TECH_TRADING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_SHIPBUILDING</TechType>
-			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_MONOTHEISM</TechType>
 			<PrereqTech>TECH_POLYTHEISM</PrereqTech>
 		</Row>
@@ -397,7 +393,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_COMPASS</TechType>
-			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_CURRENCY</TechType>
@@ -537,6 +533,18 @@
 		</Row>
 		<Row>
 			<TechType>TECH_RUDDER</TechType>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RUDDER</TechType>
+			<PrereqTech>TECH_DIVISION_OF_LABOR</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_OPTICS</TechType>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_OPTICS</TechType>
 			<PrereqTech>TECH_SHIPBUILDING</PrereqTech>
 		</Row>
 		<Row>
@@ -577,10 +585,6 @@
 		</Row>
 		<Row>
 			<TechType>TECH_ENGINEERING</TechType>
-			<PrereqTech>TECH_OPTICS</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_ALGEBRA</TechType>
 			<PrereqTech>TECH_OPTICS</PrereqTech>
 		</Row>
 		<Row>

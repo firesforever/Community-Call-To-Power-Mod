@@ -817,13 +817,13 @@
 			<PolicyType>POLICY_LOBBYISTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>50</YieldChange>
+			<YieldChange>10</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_TOP_1_PERCENT</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>75</YieldChange>
+			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_POWER_SHARING</PolicyType>
@@ -835,7 +835,7 @@
 			<PolicyType>POLICY_INTEREST_GROUPS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>25</YieldChange>
+			<YieldChange>1</YieldChange>
 		</Row>
 	</Policy_BuildingClassYieldChanges>
 

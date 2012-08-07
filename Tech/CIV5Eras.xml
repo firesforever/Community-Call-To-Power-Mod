@@ -77,7 +77,7 @@
 			<Where Type="ERA_MEDIEVAL" />
 		</Update>
 		<Update>
-			<Set ResearchAgreementCost="14500" StartingCulture="500" StartingGold="100000" FreePopulation="4" BuildingMaintenancePercent="180" GrowthPercent="150" TrainPercent="115" ConstructPercent="135" ResearchPercent="130" GreatPeoplePercent="150" />
+			<Set ResearchAgreementCost="14500" StartingCulture="500" StartingGold="100000" SpiesGrantedForEveryone="2" FreePopulation="4" BuildingMaintenancePercent="180" GrowthPercent="150" TrainPercent="115" ConstructPercent="135" ResearchPercent="130" GreatPeoplePercent="150" />
 			<Where Type="ERA_RENAISSANCE" />
 		</Update>
 		<Update>

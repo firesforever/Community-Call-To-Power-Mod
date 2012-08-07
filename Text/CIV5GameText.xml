@@ -185,18 +185,6 @@
 			<Text>[NEWLINE][TAB][TAB]"Thousands of candles can be lit from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared."[NEWLINE][TAB][TAB] - Buddha[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_DOCKS</Tag>
-			<Text>Docks</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_DOCKS_DESC</Tag>
-			<Text>A dock is a human-made structure or group of structures involved in the handling of boats or ships, usually on or close to a shore. However, the exact meaning varies among different variants of the English language. "Dock" may also refer to a dockyard (or shipyard) where the loading, unloading, building, or repairing of ships occurs.  The world's oldest known dock at Lothal (2400 BCE) was located away from the main current to avoid deposition of silt.  Modern oceanographers have observed that the Harappans must have possessed great knowledge relating to tides in order to build such a dock on the ever-shifting course of the Sabarmati, as well as exemplary hydrography and maritime engineering.</Text>
-		</Row>
-		<Row>
-			<Tag>TXT_KEY_BUILDING_DOCKS_STRATEGY</Tag>
-			<Text>+1 [ICON_FOOD] Food in every sea tile near this City.</Text>
-		</Row>
-		<Row>
 			<Tag>TXT_KEY_BUILDING_ZIGGURAT_OF_MARDUK</Tag>
 			<Text>Ziggurat of Marduk</Text>
 		</Row>
@@ -965,11 +953,11 @@
 			<Text>Industrial Shipyard</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_PEDIA</Tag>
 			<Text>Shipyards and dockyards are places which repair and build ships. These can be yachts, military vessels, cruise liners or other cargo or passenger ships. Dockyards are sometimes more associated with maintenance and basing activities than shipyards, which are sometimes associated more with initial construction. The terms are routinely used interchangeably, in part because the evolution of dockyards and shipyards has often caused them to change or merge roles.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_STRATEGY</Tag>
+			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_SHIPYARD_HELP</Tag>
 			<Text>Required for Battleship, Carrier, Supercarrier, Missile Cruiser, Nuclear Submarine, and Submarine production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Seaport and must not contain an Aircraft Plant or an Auto Plant.</Text>
 		</Row>
 		<Row>
@@ -993,11 +981,11 @@
 			<Text>Auto Plant</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_AUTO_PLANT_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_AUTO_PLANT_PEDIA</Tag>
 			<Text>Auto plants are a type of factory whose sole purpose is to manufacture and assemble automotives.  While a laborous process at first, the invention of the Assembly Line revolutioned the auto industry, as well as the rest of the manufacturing world, by cutting assembly time and costs down to a mere fraction.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_AUTO_PLANT_STRATEGY</Tag>
+			<Tag>TXT_KEY_BUILDING_AUTO_PLANT_HELP</Tag>
 			<Text>Required for Tank, Panzer, Modern Armor, and Rocket Artillery production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory and must not contain an Aircraft Plant or Industrial Shipyard.</Text>
 		</Row>
 		<Row>
@@ -1101,12 +1089,28 @@
 			<Text>Aircraft Plant</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_DESC</Tag>
+			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_PEDIA</Tag>
 			<Text>Aircraft plants are a type of factory whose sole purpose is to manufacture and assemble aircraft.  Making use of the Assembly Line and a dedicated parts industry, the aircraft plant is able to mass produce military aircraft for the war effort, and commercial aircraft during peacetime.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_STRATEGY</Tag>
+			<Tag>TXT_KEY_BUILDING_AIRCRAFT_PLANT_HELP</Tag>
 			<Text>Required for Fighter, Bomber, B-17, Jet Fighter, and Helicopter Gunship production.[NEWLINE][NEWLINE]Requires 2 [ICON_RES_OIL] Oil for construction.[NEWLINE]City must have a Factory and must not contain an Auto Plant or Industrial Shipyard.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DOCK</Tag>
+			<Text>Dock</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DOCK_PEDIA</Tag>
+			<Text>A dock is a human-made structure or group of structures involved in the handling of boats or ships, usually on or close to a shore. The world's oldest known dock at Lothal (2400 BCE) was located away from the main current to avoid deposition of silt. Modern oceanographers have observed that the Harappans must have possessed great knowledge relating to tides in order to build such a dock on the ever-shifting course of the Sabarmati, as well as exemplary hydrography and maritime engineering. This was the earliest known dock found in the world, equipped to berth and service ships. It is speculated that Lothal engineers studied tidal movements, and their effects on brick-built structures, since the walls are of kiln-burnt bricks.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DOCK_HELP</Tag>
+			<Text>+1 [ICON_GOLD] Gold from water tiles worked by this City.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DOCK_STRATEGY</Tag>
+			<Text>The Dock can only be constructed in a city next to a coastal tile. It increases the [ICON_GOLD] Gold output for water tiles.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SHAMAN_HUT</Tag>
@@ -1870,7 +1874,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BEEF_VAT_HELP</Tag>
-			<Text>+3 [ICON_FOOD] Food for every 1 [ICON_CITIZEN] Citizens in this City.</Text>
+			<Text>+5 [ICON_FOOD] Food for every Merchant Specialist in this City.[NEWLINE]-1 [ICON_PRODUCTION] Production per [ICON_CITIZEN] Citizen.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_IMPLANT_STATION</Tag>
@@ -1878,7 +1882,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_IMPLANT_STATION_DESC</Tag>
-			<Text>The Beef Vat uses Nanites, Genetic Synthesis, and a fair amount of electricty to grow almost any food item from it's base elements.  While at first rejected by the population due to prejudices against non-natural food, Beef Vat technology has managed to catch on in cities whose enourmous size demands a cheap, unending source of nourishment.</Text>
+			<Text>Brain implants, often referred to as neural implants, are technological devices that connect directly to a biological subject's brain - usually placed on the surface of the brain, or attached to the brain's cortex. A common purpose of modern brain implants and the focus of much current research is establishing a biomedical prosthesis circumventing areas in the brain that have become dysfunctional after a stroke or other head injuries. This includes sensory substitution, e.g., in vision. Other brain implants are used in animal experiments simply to record brain activity for scientific reasons. Some brain implants involve creating interfaces between neural systems and computer chips. This work is part of a wider research field called brain-computer interfaces.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_IMPLANT_STATION_HELP</Tag>
@@ -4703,7 +4707,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_HELP</Tag>
-			<Text>Allows construbtion of [COLOR_POSSITIVE]Cattle Distribution Center[ENDCOLOR], [COLOR_POSSITIVE]Sheep Distribution Center[ENDCOLOR], and [COLOR_POSSITIVE]Deer Distribution Center[ENDCOLOR] Monopoly buildings.</Text>
+			<Text>Allows construction of [COLOR_POSITIVE]Cattle Distribution Center[ENDCOLOR], [COLOR_POSITIVE]Sheep Distribution Center[ENDCOLOR], and [COLOR_POSITIVE]Deer Distribution Center[ENDCOLOR] Monopoly buildings.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_QUOTE</Tag>
@@ -4769,10 +4773,10 @@
 			<Set Text="1 Free Social Policy.[NEWLINE]Must be constructed in a coastal city."/>
 			<Where Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP" />
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set Text="A Great Artist appears in the City where this building was constructed."/>
 			<Where Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP" />
-		</Update>
+		</Update>-->
 		<Update>
 			<Set Text="+1 [ICON_PRODUCTION] Production from Artist Specialist in every City.[NEWLINE][NEWLINE]Must have built a Monument in all Cities. The cost goes up the more cities there are in the empire."/>
 			<Where Tag="TXT_KEY_BUILDING_NATIONAL_EPIC_HELP" />
@@ -4830,11 +4834,11 @@
 			<Where Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP" />
 		</Update>
 		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_BUILDING_TEMPLE_ARTEMIS_HELP" />
+			<Set Text="Massively increases [ICON_FOOD] Food production in the city in which this is built." />
+			<Where Tag="TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP" />
 		</Update>
 		<Update>
-			<Set Text="+1 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum for Construction.[NEWLINE][NEWLINE]City must be built next to a River." />
+			<Set Text="+1 [ICON_PRODUCTION] Production in every tile next to a River.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum for Construction.[NEWLINE]City must be built next to a River." />
 			<Where Tag="TXT_KEY_BUILDING_HYDRO_PLANT_HELP" />
 		</Update>
 		<Update>
@@ -4881,10 +4885,10 @@
 			<Set Text="+1 [ICON_FOOD] Food from Water Tiles.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_BUILDING_LIGHTHOUSE_HELP" />
 		</Update>
-		<Update>
+		<!--<Update>
 			<Set Text="+15 XP for Naval Units produced in this City. Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land).[NEWLINE][NEWLINE]City must be built on the coast." />
 			<Where Tag="TXT_KEY_BUILDING_HARBOR_HELP" />
-		</Update>
+		</Update>-->
 		<Update>
 			<Set Text="+1 [ICON_GOLD] Gold from Water Tiles.[NEWLINE]+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must have a Harbor." />
 			<Where Tag="TXT_KEY_BUILDING_SEAPORT_HELP" />
