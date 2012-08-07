@@ -314,10 +314,6 @@
 			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_DDX_DESTROYER</UnitType>
-			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_CGX_CRUISER</UnitType>
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
@@ -610,10 +606,6 @@
 			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_PLASMA_DESTROYER</UnitType>
-			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_FUSION_DREADNOUGHT</UnitType>
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
@@ -748,7 +740,7 @@
 		<Delete UnitType="UNIT_WWI_TANK" ResourceType="RESOURCE_OIL" Cost="1" />
 		<Delete UnitType="UNIT_TRIPLANE" ResourceType="RESOURCE_OIL" Cost="1" />
 		<Delete UnitType="UNIT_WWI_BOMBER" ResourceType="RESOURCE_OIL" Cost="1" />
-		<Row>
+	<!--<Row>
 			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
 			<ResourceType>NULL</ResourceType>
 		</Row>
@@ -815,7 +807,7 @@
 		<Row>
 			<UnitType>UNIT_HYPERSONIC_BOMBER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
+		</Row>-->
 	</Unit_ResourceQuantityRequirements>
 	<Units>
 		<!--Ancient Era-->
@@ -1174,19 +1166,19 @@
 		</Update>
 		<!--RENAISSANCE (2)-->
 		<Update>
-			<Set Cost="565" />
+			<Set Cost="565" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_DANISH_SKI_INFANTRY" />
 		</Update>
 		<Update>
-			<Set Cost="565" />
+			<Set Cost="565" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_RIFLEMAN" />
 		</Update>
 		<Update>
-			<Set Cost="505" />
+			<Set Cost="505" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_ETHIOPIAN_MEHAL_SEFARI" />
 		</Update>
 		<Update>
-			<Set Cost="565" />
+			<Set Cost="565" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
 			<Where Type="UNIT_SWEDISH_CAROLEAN" />
 		</Update>
 		<Update>
