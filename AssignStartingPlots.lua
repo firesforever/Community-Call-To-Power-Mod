@@ -9211,7 +9211,7 @@ function AssignStartingPlots:PlaceSquid(frequency, plot_list)
 	end
 	local iW, iH = Map.GetGridSize();
 	local iNumTotalPlots = table.maxn(plot_list);
-	local iNumSquidToPlace = math.ceil(iNumTotalPlots / frequency);
+	local iNumSquidToPlace = math.ceil(iNumTotalPlots / frequency /4);
 	-- Main loop
 	local current_index = 1;
 	for place_resource = 1, iNumSquidToPlace do
@@ -9917,6 +9917,7 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	{self.deer_ID, 1, 100, 3, 4} };
 	self:ProcessResourceList(20 * bonus_multiplier, 3, self.forest_flat_that_are_not_tundra, resources_to_place)
 	-- CCTP Bonus Resources
+	print("Map Generation - Placing CCTP Bonuses");
 	local resources_to_place = {
 	{self.coffee_ID, 1, 100, 1, 1} };
 	self:ProcessResourceList(10 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)

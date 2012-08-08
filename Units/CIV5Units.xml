@@ -1535,6 +1535,7 @@
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_DDX_DESTROYER_TEXT</Civilopedia>
 			<Help>TXT_KEY_UNIT_HELP_DDX_DESTROYER</Help>
 			<Combat>65</Combat>
+			<RangedCombat>45</RangedCombat>
 			<Cost>25000</Cost>
 			<Moves>10</Moves>
 			<Range>3</Range>

@@ -2,7 +2,40 @@
 <!-- Created by ModBuddy on 11/10/2010 1:49:15 PM -->
 <GameData>
 	<Language_en_US>
-
+		<!-- Update Gamespeed Names -->
+		<Update>
+			<Set Text="Fast"/>
+			<Where Tag="TXT_KEY_GAMESPEED_QUICK"/>
+		</Update>
+		<Update>
+			<Set Text="Normal"/>
+			<Where Tag="TXT_KEY_GAMESPEED_STANDARD"/>
+		</Update>
+		<Update>
+			<Set Text="Slow"/>
+			<Where Tag="TXT_KEY_GAMESPEED_EPIC"/>
+		</Update>
+		<Update>
+			<Set Text="Crawl"/>
+			<Where Tag="TXT_KEY_GAMESPEED_MARATHON"/>
+		</Update>
+		<!-- Update Gamespeed Help -->
+		<Update>
+			<Set Text="A fast paced game. Good for players that do not like to hang around"/>
+			<Where Tag="TXT_KEY_GAMESPEED_QUICK_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="Normal Pace"/>
+			<Where Tag="TXT_KEY_GAMESPEED_STANDARD_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="A slow paced game. Ideal for players who like to experience most of what an Era has to offer."/>
+			<Where Tag="TXT_KEY_GAMESPEED_EPIC_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="A very slow paced game. Ideal for players that like to experience ALL an Era has to offer."/>
+			<Where Tag="TXT_KEY_GAMESPEED_MARATHON_HELP"/>
+		</Update>
 		<!--TECH TREES-->
 		<Row>
 			<Tag>TXT_KEY_TECHTREE_ENGINEERING</Tag>

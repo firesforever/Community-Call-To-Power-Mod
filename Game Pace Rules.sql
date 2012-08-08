@@ -110,12 +110,12 @@ WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MODERN' )
 
 --Industrial
 UPDATE Buildings
-SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 30% Increase
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_INDUSTRIAL' ) );
 
 --Renaissance
 UPDATE Buildings
-SET GoldMaintenance = GoldMaintenance * 1.0 -- 20% Increase
+SET GoldMaintenance = GoldMaintenance * 1.0 -- 30% Increase
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_RENAISSANCE' ) );
 
 --Medieval
@@ -142,6 +142,14 @@ SET HappinessDefault = HappinessDefault;
 UPDATE "Technologies"
 SET GoodyTech = 0
 WHERE Era IN ('ERA_CLASSICAL', 'ERA_MEDIEVAL', 'ERA_RENAISSANCE', 'ERA_INDUSTRIAL', 'ERA_MODERN', 'ERA_POSTMODERN', 'ERA_FUTURE');
+
+-- Gamespeeds and Game Calender
+DELETE FROM GameSpeeds WHERE Type IN ('GAMESPEED_MARATHON','GAMESPEED_EPIC','GAMESPEED_STANDARD','GAMESPEED_QUICK');
+INSERT INTO GameSpeeds VALUES ("0",'GAMESPEED_MARATHON','TXT_KEY_GAMESPEED_MARATHON','TXT_KEY_GAMESPEED_MARATHON_HELP',"90","450","300","300","300","450","300","67","300","300","300","375","300","400","300","375","375","300","200","100","10","-270","2","300","300","300","100","0",'GAMESPEED_ATLAS');
+INSERT INTO GameSpeeds VALUES ("1",'GAMESPEED_EPIC','TXT_KEY_GAMESPEED_EPIC','TXT_KEY_GAMESPEED_EPIC_HELP',"45","225","150","150","150","225","150","75","150","150","150","188","150","150","150","188","188","150","125","100","20","-135","4","150","150","150","100","1",'GAMESPEED_ATLAS');
+INSERT INTO GameSpeeds VALUES ("2",'GAMESPEED_STANDARD','TXT_KEY_GAMESPEED_STANDARD','TXT_KEY_GAMESPEED_STANDARD_HELP',"30","125","100","100","100","100","100","100","100","100","100","125","100","100","100","125","125","100","100","100","30","-90","6","100","100","100","100","2",'GAMESPEED_ATLAS');
+INSERT INTO GameSpeeds VALUES ("3",'GAMESPEED_QUICK','TXT_KEY_GAMESPEED_QUICK','TXT_KEY_GAMESPEED_QUICK_HELP',"25","84","67","67","67","84","67","125","67","67","67","84","67","67","67","84","84","67","80","100","45","-60","9","67","67","67","50","3",'GAMESPEED_ATLAS');
+
 
 
 

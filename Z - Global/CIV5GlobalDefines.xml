@@ -2,6 +2,16 @@
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
 <!-- Global Defines -->
 <GameData>
+	<GameOptions>
+		<Update>
+			<Set Default ="true"/>
+			<Where Type ="GAMEOPTION_POLICY_SAVING"/>
+		</Update>
+		<Update>
+			<Set Default ="true"/>
+			<Where Type ="GAMEOPTION_PROMOTION_SAVING"/>
+		</Update>
+	</GameOptions>
 	<Defines>
 		<Update>
 			<Set Value="4" />
