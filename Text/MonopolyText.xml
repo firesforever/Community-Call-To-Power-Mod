@@ -81,6 +81,15 @@
 		<Row Tag="TXT_KEY_SQUID_MONOPOLY_STRATEGY">
 			<Text>Oops No Text!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_OAK_DEPOT_STRATEGY">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OAK_MONOPOLY_STRATEGY">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MANGANESE_MONOPOLY_STRATEGY">
+			<Text>Oops No Text!</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_RESOURCE_COFFEE">
 			<Text>Coffee</Text>

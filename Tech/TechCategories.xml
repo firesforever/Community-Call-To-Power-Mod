@@ -29,32 +29,32 @@
 			<ID>0</ID>
 			<Type>TECHTREE_ENGINEERING</Type>
 			<Description>TXT_KEY_TECHTREE_ENGINEERING</Description>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS</IconAtlas>
+			<PortraitIndex>41</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
 		</Row>
 		<Row>
 			<Type>TECHTREE_MILITARY</Type>
 			<Description>TXT_KEY_TECHTREE_MILITARY</Description>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
 		</Row>
 		<Row>
 			<Type>TECHTREE_ECONOMICS</Type>
 			<Description>TXT_KEY_TECHTREE_ECONOMICS</Description>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
 			<Type>TECHTREE_SCIENCES</Type>
 			<Description>TXT_KEY_TECHTREE_SCIENCES</Description>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
 		</Row>
 		<Row>
 			<Type>TECHTREE_SOCIAL</Type>
 			<Description>TXT_KEY_TECHTREE_SOCIAL</Description>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>TECH_ATLAS</IconAtlas>
+			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_3</IconAtlas>
 		</Row>
 	</TechTreeCat>
 

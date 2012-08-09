@@ -540,6 +540,10 @@
 		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_BIG_BROTHER_TEXT">
 			<Text>Oops No Text!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SENATE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+
 		
 		<!-- Added Missing _HELP Entries, blank for now to remove them from logs -->
 		<Row Tag="TXT_KEY_NEWPOLICY_MONARCHY_HELP">
@@ -630,6 +634,9 @@
 			<Text>Oops No Text!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ELECTORAL_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_FASCISM_HELP">
 			<Text>Oops No Text!</Text>
 		</Row>
 		<!-- Make changes directly to the txt_Key_ entries in this xml file, do not use the update command-->
