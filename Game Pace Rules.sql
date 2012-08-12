@@ -61,12 +61,12 @@ AND Cost < 30;
 --Nano
 UPDATE Buildings 
 SET 'Cost' = Cost * 4.8
-WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_NANOTECH' ) );
+WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_FUTURE' ) );
 
 --Digital
 UPDATE Buildings 
 SET 'Cost' = Cost * 4.2
-WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_DIGITAL' ) );
+WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_POSTMODERN' ) );
 
 --Modern
 UPDATE Buildings 
@@ -78,12 +78,12 @@ WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MODERN' )
 --Nano
 UPDATE Units
 SET 'Cost' = Cost * 3.6
-WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_NANOTECH' ) );
+WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_FUTURE' ) );
 
 --Digital
 UPDATE Units
 SET 'Cost' = Cost * 3.07
-WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_DIGITAL' ) );
+WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_POSTMODERN' ) );
 
 --Modern
 UPDATE Units
@@ -96,12 +96,12 @@ WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MODERN' )
 --Nano
 UPDATE Buildings
 SET GoldMaintenance = GoldMaintenance * 4.6
-WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_NANOTECH' ) );
+WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_FUTURE' ) );
 
 --Digital
 UPDATE Buildings
 SET GoldMaintenance = GoldMaintenance * 3.6
-WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_DIGITAL' ) );
+WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_POSTMODERN' ) );
 
 --Modern
 UPDATE Buildings
