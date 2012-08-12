@@ -30,21 +30,21 @@
 	<File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/RTPPics/WarLord.dds</File>
 	<File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/RTPPics/RTPBookBG.dds</File>
 	<File md5="C8F6CE90622D47D30042EA449212D014" import="1">CCTPMaps/CCTP/PlotHelpManager.lua</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/MapFiles/MasterMapInfo.lua</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/MapFiles/LEMMapInfo.lua</File>
+    	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/MapFiles/MasterMapInfo.lua</File>
+   	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/MapFiles/LEMMapInfo.lua</File>
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/MapFiles/RNEMapInfo.lua</File>
-    <File md5="D646F8270F8F58D10EE59CBC28B2CD8A" import="1">CCTPMaps/BasicCCTPSetup.lua</File>
-    <File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/BasicCCTPSetup.xml</File>
+   	<File md5="D646F8270F8F58D10EE59CBC28B2CD8A" import="1">CCTPMaps/BasicCCTPSetup.lua</File>
+   	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/BasicCCTPSetup.xml</File>
 	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/SelectCCTPCivilization.lua</File>
 	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/SelectCCTPCivilization.xml</File>
 	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/AdvancedCCTPSetup.lua</File>
 	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/AdvancedCCTPSetup.xml</File>
 	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/SelectRTP.lua</File>
 	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/SelectRTP.xml</File>
-    <File md5="4F02D0E484606713FE7C7049F2E19199" import="0">CCTPMaps/SelectCCTPMapVersion.xml</File>
-    <File md5="76BB768A8039808F96FAE975931366D2" import="0">CCTPMaps/SelectCCTPMapVersion.lua</File>
-    <File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/CCTPMapManager.lua</File>
-    <File md5="90EC885289800940F993E1E88264D863" import="0">CCTPMaps/MapMenuTXT.xml</File>	
+   	<File md5="4F02D0E484606713FE7C7049F2E19199" import="0">CCTPMaps/SelectCCTPMapVersion.xml</File>
+	<File md5="76BB768A8039808F96FAE975931366D2" import="0">CCTPMaps/SelectCCTPMapVersion.lua</File>
+	<File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/CCTPMapManager.lua</File>
+        <File md5="90EC885289800940F993E1E88264D863" import="0">CCTPMaps/MapMenuTXT.xml</File>	
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsAdvancedSetup.lua</File>
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsAdvancedSetup.xml</File>
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsGameSetupScreen.lua</File>
@@ -53,873 +53,269 @@
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsSelectCivilization.xml</File>
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsSelectMapType.lua</File>
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsSelectMapType.xml</File>
-    <File md5="2A4344E1AA47EB78E43985CC9AB0BBD6" import="1">Tech/TechTreeSelectbg.dds</File>
-    <File md5="12E7317D1B2B9454957258B07CE34165">AI/CIV5GlobalAIDefines.xml</File>
-    <File md5="CBBE4715F1EF26777BDE6B793E26467E">AI/CIV5Leaders.xml</File>
-    <File md5="986A4E3DAAC617A22D2EA3DEF334B893">Art/Icons/Building Icons/buildingatlasFour.dds</File>
-    <File md5="2DD1EEE65692F1429C07373DE1E0372D">Art/Icons/Building Icons/buildingatlasFour1024.dds</File>
-    <File md5="1E5D1976EFEBAE8CADE50C7F35D71442">Art/Icons/Building Icons/buildingatlasFour360.dds</File>
-    <File md5="68AE09EDDC49D0D9D1D2DB13AD2ABECC">Art/Icons/Building Icons/buildingatlasFour512.dds</File>
-    <File md5="00D473DC18694DA975DFADCF6D7FD0AD">Art/Icons/Building Icons/buildingatlasFour640.dds</File>
-    <File md5="FCD572C5B946B230A5D9C53754D3D08F">Art/Icons/Building Icons/buildingatlasThree.dds</File>
-    <File md5="3D75FEF86AF0C6AD9CCD35A4BC6DAAD6">Art/Icons/Building Icons/buildingatlasThree1024.dds</File>
-    <File md5="70A3975E3E443BDE66ADBE7FF88649EB">Art/Icons/Building Icons/buildingatlasThree360.dds</File>
-    <File md5="0A350CD99C7F944E2407F43BB4E84BAB">Art/Icons/Building Icons/buildingatlasThree512.dds</File>
-    <File md5="0090BB33FAD5A9205385FE8DA05F033C">Art/Icons/Building Icons/buildingatlasThree640.dds</File>
-    <File md5="333D455863E65430BC93BC5CD5386E7C">Art/Icons/Building Icons/buildingatlasTwo.dds</File>
-    <File md5="BF12646F483E98FAFECDF35369FCDCD0">Art/Icons/Building Icons/buildingatlasTwo1024.dds</File>
-    <File md5="91A10D133F9911CCBB2E2C811D84E461">Art/Icons/Building Icons/buildingatlasTwo360.dds</File>
-    <File md5="FDBE472597631DA88518877327F4C0EB">Art/Icons/Building Icons/buildingatlasTwo512.dds</File>
-    <File md5="24668B8066B4D1112B33132D3D3B0B02">Art/Icons/Building Icons/buildingatlasTwo640.dds</File>
-    <File md5="A7CC2D8FDF8621DAB03828DDE39F8C2C">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive.dds</File>
-    <File md5="24AB51AC391B9B28AD34BF6336581050">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive1024.dds</File>
-    <File md5="6BC46E5CD0FA974577FC4790171F689A">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive360.dds</File>
-    <File md5="6B341879AB590FE58C99144D46288308">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive512.dds</File>
-    <File md5="352794FF9C3A24EE7ACE242A35F0D83B">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive640.dds</File>
-    <File md5="BA7DF0BF53316F88D867B3240F16407D">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour.dds</File>
-    <File md5="7155F9FD78EC8426E89CD6277B791610">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour1024.dds</File>
-    <File md5="A4F07F207E8322709BBEB0048F2E781F">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour360.dds</File>
-    <File md5="E02E0CB35756ECC72F010CC2384C19D8">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour512.dds</File>
-    <File md5="5864A4560218990C42A0895535F96227">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour640.dds</File>
-    <File md5="D69926932729BA98261474A85D3BE69B">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne.dds</File>
-    <File md5="CF44F77570959FCAA84D6A78D1A4FFE2">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne1024.dds</File>
-    <File md5="987E95A1EC0005F81E949A915C211425">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne360.dds</File>
-    <File md5="95F29AC8B7EFDFE6C6D79442906CA105">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne512.dds</File>
-    <File md5="2BAE72782DBE9623C78071A849C7E37A">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne640.dds</File>
-    <File md5="77F7144DA035BE97018524FC498F2E5C">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree.dds</File>
-    <File md5="EBF1F30CC09BD409348C4FCE68DBB42B">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree1024.dds</File>
-    <File md5="B7D4F23D7C6BEEC93ACF063E0110F89B">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree360.dds</File>
-    <File md5="7988A8B4883892C0B62EBD7379138FA2">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree512.dds</File>
-    <File md5="685C1B6D981D9AA9F172F1EE64B64269">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree640.dds</File>
-    <File md5="6714A46CFE9B74F5E1C14819150009FC">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo.dds</File>
-    <File md5="6EBEDD2A018DEDCAD103B990557991A2">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo1024.dds</File>
-    <File md5="5C114C68B1AF3CC5E60C4CE7DD2C4967">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo360.dds</File>
-    <File md5="18D1BCEA88F809BA885C6B69394EB20D">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo512.dds</File>
-    <File md5="43E47D87B3AE8781C158CD3D0A2EBFDB">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo640.dds</File>
-    <File md5="BE75CD540648D0DB169E6CFDECD110E7">Art/Icons/Resource Icons/resourcesTwo2048.dds</File>
-    <File md5="5B5DE5C3DA0B10650A31559DDB72CCD3">Art/Icons/Resource Icons/resourcesTwo360.dds</File>
-    <File md5="25F63B4C4CECAAB5DC098D6008E22DC8">Art/Icons/Resource Icons/resourcesTwo512.dds</File>
-    <File md5="31F47F9D226D38023E51280984124D44">Art/Icons/Resource Icons/resourcesTwo640.dds</File>
-    <File md5="1EC4D9AE42F33919404F8F1C5AD756D7">Art/Icons/Tech Icons/technologyatlasFive.dds</File>
-    <File md5="C92C0DE7C69A03AAD481B3FBE176F2B2">Art/Icons/Tech Icons/technologyatlasFive1024.dds</File>
-    <File md5="67C171252D1D42A32548162A16557362">Art/Icons/Tech Icons/technologyatlasFive1712.dds</File>
-    <File md5="6D057ED53230FE2FCD4C681D22EDDDF5">Art/Icons/Tech Icons/technologyatlasFive360.dds</File>
-    <File md5="75AAB61C43E0E6E762FE628CBEEECC05">Art/Icons/Tech Icons/technologyatlasFive512.dds</File>
-    <File md5="FB494B02C5B1053727DEC2D2DDDCE67E">Art/Icons/Tech Icons/technologyatlasFive640.dds</File>
-    <File md5="6C55EC0C25CDE2A542FAB2D8CCD059DF">Art/Icons/Tech Icons/technologyatlasFour.dds</File>
-    <File md5="C8BFB6153CEBCA3F9DDBCED903E63AFF">Art/Icons/Tech Icons/technologyatlasFour1024.dds</File>
-    <File md5="D77E20526EC0E45E47C43B0DF20EF2C2">Art/Icons/Tech Icons/technologyatlasFour1712.dds</File>
-    <File md5="5ECC8263E4E79813A1E3552B904A01F8">Art/Icons/Tech Icons/technologyatlasFour360.dds</File>
-    <File md5="4E3D6D466AEE97A4778F81FC90774865">Art/Icons/Tech Icons/technologyatlasFour512.dds</File>
-    <File md5="D0846C4E69C275F939E2768B3BBA7611">Art/Icons/Tech Icons/technologyatlasFour640.dds</File>
-    <File md5="23EA1AC530400A372BED728305574A7A">Art/Icons/Tech Icons/technologyatlasThree.dds</File>
-    <File md5="6132AC83C6AE2F910F6FD9D1D70A56C0">Art/Icons/Tech Icons/technologyatlasThree1024.dds</File>
-    <File md5="B164AA77C02A127976A4C61F940BDE07">Art/Icons/Tech Icons/technologyatlasThree1712.dds</File>
-    <File md5="A32592981AFA51E01A09FB7F8A2912E5">Art/Icons/Tech Icons/technologyatlasThree360.dds</File>
-    <File md5="9EB3BBC21DC78C394FBA25E7EACE1BED">Art/Icons/Tech Icons/technologyatlasThree512.dds</File>
-    <File md5="A12A9734A4A2A14BAE4B1CE91F998252">Art/Icons/Tech Icons/technologyatlasThree640.dds</File>
-    <File md5="90BDCCCE41EC9D99F328D1B34B071210">Art/Icons/Unit Icons/unitportraitsPower.dds</File>
-    <File md5="EC31EF13749F812B039576BC8BDE0822">Art/Icons/Unit Icons/unitportraitsPower1024.dds</File>
-    <File md5="337FF941C2674607D1DE1BF545724DE2">Art/Icons/Unit Icons/unitportraitsPower360.dds</File>
-    <File md5="5A7A62D6CD178A362FAD002A06EEA19D">Art/Icons/Unit Icons/unitportraitsPower512.dds</File>
-    <File md5="04DF7AC4A875A7F3DA19D12543E8C8E3">Art/Icons/Unit Icons/unitportraitsPower640.dds</File>
-    <File md5="2D5DBBBAF8C4D4FCABAEA3429A05B0CE">Art/MPMButtonAtlas256.dds</File>
-    <File md5="1C86A6452D810724696F9F2E754CC78C">Art/Policy/Governments/SocialPoliciesCommunism.dds</File>
-    <File md5="3F9CDA3A1670BB31771ABEE1DB9E5E65">Art/Policy/Governments/SocialPoliciesCorporate.dds</File>
-    <File md5="80379B38459AB2D636DD793724041253">Art/Policy/Governments/SocialPoliciesDemocracy.dds</File>
-    <File md5="5136D7357AC70D23209153B6CCA9B402">Art/Policy/Governments/SocialPoliciesEcotopia.dds</File>
-    <File md5="02557716282539900D6CEB2F5F192568">Art/Policy/Governments/SocialPoliciesFascism.dds</File>
-    <File md5="544F301B6C69AF6E83B5BBD00A3043C8">Art/Policy/Governments/SocialPoliciesMonarchy.dds</File>
-    <File md5="130399FE49CA95FF317CC36AB59C0B37">Art/Policy/Governments/SocialPoliciesRepublic.dds</File>
-    <File md5="EB3E253869D89DCED02574BA5D4AD7DF">Art/Policy/Governments/SocialPoliciesTechnocracy.dds</File>
-    <File md5="FDDD60D1BA2C3C0360474612DF637CDA">Art/Policy/Governments/SocialPoliciesTheocracy.dds</File>
-    <File md5="C287E079E1950E34AF52EFD47C3AB38A">Art/Policy/Governments/SocialPoliciesVirtualDemocracy.dds</File>
-    <File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesAnarchism.dds</File>
-    <File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesCapitalism.dds</File>
-    <File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesConservatism.dds</File>
-    <File md5="F9AD035A3C9980CCC2197EBC537EFFAD">Art/Policy/GovIdeologies/SocialPoliciesEnviromentalism.dds</File>
-    <File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesImperialism.dds</File>
-    <File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesLiberalism.dds</File>
-    <File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesNationalism.dds</File>
-    <File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesPacifism.dds</File>
-    <File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesPopulism.dds</File>
-    <File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesSocialism.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesAristocracy.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesAutocracy.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesConstitutional.dds</File>
-    <File md5="3B9CB92980D7CD517752A8FBA82B0EBC">Art/Policy/GovSystems/SocialPoliciesElectoral.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesFederalism.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesFeudalism.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesParliamentary.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesPluralism.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesPlutocracy.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesTotalitarianism.dds</File>
-    <File md5="B497461EBB395911A3071B5FA3226275">Art/Unit Flags/unitflagatlaswhiteTwo.dds</File>
-    <File md5="DAADEE071F9E3A53EBA57371F646EF8D">Art/Wonder Splash/SplashAlJabr.dds</File>
-    <File md5="028721E1A8C4C7C3C0979330B0D280CE">Art/Wonder Splash/SplashBachCathedral.dds</File>
-    <File md5="D0E1044102511291FD5E500DD7765F09">Art/Wonder Splash/SplashBrainMap.dds</File>
-    <File md5="3F3611783539510EC409D1097C256780">Art/Wonder Splash/SplashCommunistManifesto.dds</File>
-    <File md5="AD12A3840760968A369267FFE55FAACD">Art/Wonder Splash/SplashCopernicus.dds</File>
-    <File md5="C2BF0E07FE5CFB9064A779DD3EFACCF2">Art/Wonder Splash/SplashCureForCancer.dds</File>
-    <File md5="BC8FFD97F7E5B8F891B7FCEB1EECB8FE">Art/Wonder Splash/SplashDinosaurPark.dds</File>
-    <File md5="A17604CD71CE761BD2BE773E5F5E6020">Art/Wonder Splash/SplashEdisonLab.dds</File>
-    <File md5="9D4052CB70E4D98FF747AFC09D9D3B19">Art/Wonder Splash/SplashGalileoTelescope.dds</File>
-    <File md5="32CCD658822789919EEAB3E803467F04">Art/Wonder Splash/SplashGreatMosque.dds</File>
-    <File md5="C5E4EC9352AED0D3EA976F5B1A3A2846">Art/Wonder Splash/SplashGutenberg_bible.dds</File>
-    <File md5="60ED01337181B8BEF812BCB335D91B14">Art/Wonder Splash/SplashHollywood.dds</File>
-    <File md5="4DD6224F1F79CDC972ED5929ACE893BE">Art/Wonder Splash/SplashHumanGenomeProject.dds</File>
-    <File md5="E95E39E40A1A1A80D2AB4DC151825855">Art/Wonder Splash/SplashInternet.dds</File>
-    <File md5="152242E560CBFB8B8808E0458ACC261F">Art/Wonder Splash/SplashKongMiao.dds</File>
-    <File md5="1C4C5CB92E023F0826DD3BEF9EB98243">Art/Wonder Splash/SplashLabyrinth.dds</File>
-    <File md5="473FBD8FC4EA170124F5AB23FD820EAF">Art/Wonder Splash/SplashLeonardoWorkshop.dds</File>
-    <File md5="7C72D39F8C9A6AE88EE8E1A3A262117D">Art/Wonder Splash/SplashLHC.dds</File>
-    <File md5="1579FC55C3B5B20C9FEB440DF966E285">Art/Wonder Splash/SplashMagellanVoyage.dds</File>
-    <File md5="6B91C8854ED074A9E0C7579FD0B6F37D">Art/Wonder Splash/SplashMahabodhi.dds</File>
-    <File md5="8AC916DFB381B192F97C21606FE3D626">Art/Wonder Splash/SplashMausoleum.dds</File>
-    <File md5="32283E83357D25BE5919C225D4D3D234">Art/Wonder Splash/SplashMTheory.dds</File>
-    <File md5="6728DBD5F1E20726639EEFFDA25FFAF8">Art/Wonder Splash/SplashNazcaLines.dds</File>
-    <File md5="627FD1CCFDA92CA35344CAFE3ADD1079">Art/Wonder Splash/SplashParthenon.dds</File>
-    <File md5="2BBA1CFAC297832AFE71E4CADB069364">Art/Wonder Splash/SplashPetra.dds</File>
-    <File md5="C68CD0E44C0A033B04ACCE380D62BFA9">Art/Wonder Splash/SplashPrincipaMathematica.dds</File>
-    <File md5="FDF62AFD97B0753E854BBE414DEB4712">Art/Wonder Splash/SplashShakespearTheater.dds</File>
-    <File md5="44B5EDE8F6AEBC83B6CC23637D03C5EC">Art/Wonder Splash/SplashSphinx.dds</File>
-    <File md5="2A368064DDF2D5D26C7B0088AA8F54C3">Art/Wonder Splash/SplashSunTzuArtofWar.dds</File>
-    <File md5="8F4FEB04896D165225161C91340F9604">Art/Wonder Splash/SplashTemple_of_heaven.dds</File>
-    <File md5="91728F861DC534CCBF82F41CA1A5A7EA">Art/Wonder Splash/SplashTemple_of_sollomon.dds</File>
-    <File md5="BCF6C546C571A76CBE76D450154CA668">Art/Wonder Splash/SplashTerracottaArmy.dds</File>
-    <File md5="0E8C25CC319C54C2694D19C949FDB399">Art/Wonder Splash/SplashTheoryOfEvolution.dds</File>
-    <File md5="9023F9B6B2ACCD88F57A853E4EFE9DA7">Art/Wonder Splash/SplashVirtualSecuritiesExchange.dds</File>
-    <File md5="63442591DA5A07FBBBA5491E5B3B16D9">Art/Wonder Splash/SplashWealthOfNations.dds</File>
-    <File md5="0FD2B19C5FF08DA168714C2CD5347DD4">Art/Wonder Splash/SplashZeus.dds</File>
-    <File md5="0A0D119DD3824FFFA1D66799A28A7E35">Art/Wonder Splash/SplashZiggurat.dds</File>
-    <File md5="C801DEF2571C257B0E60675077F606FD">Art/yieldatlas.dds</File>
-    <File md5="7F010E1058FB415F37B6759BCA420BA3">Art/YieldIconManager.lua</File>
-    <File md5="8D2666AED225413F5C44902DC3D35950">AssignStartingPlots.lua</File>
-    <File md5="D8A0C5B7C134ED497B5757089A3BEE74">Buildings/CIV5BuildingClasses.xml</File>
-    <File md5="E4B6E8BAF59C57490AB9C7E01B8439E2">Buildings/CIV5BuildingIcons.xml</File>
-    <File md5="6DF36160BBFED610F7D14511DBADD20F">Buildings/CIV5Buildings.xml</File>
-    <File md5="60D1248B24CEBAE4C8789D83EDA5B566">Buildings/CIV5ProjectIcons.xml</File>
-    <File md5="D2CD318FF6F61578800A1C303D3380A1">Buildings/CIV5Projects.xml</File>
-    <File md5="931087272CE3E43AAC59388A0699AA95">Buildings/CIV5Specialists.xml</File>
-    <File md5="9A6ACAAA380887C7637609F242790C37">Buildings/MonopolyBuildingClasses.xml</File>
-    <File md5="CB07B43C0B88C1F32CF798757E509B79">Buildings/MonopolyBuildingIcons.xml</File>
-    <File md5="16B2EA28F55790E31B72D5DE5F2FFCDB">Buildings/MonopolyBuildings.xml</File>
-    <File md5="1828B15DAB35A22E2C87FC284D602A07">CIV5ArtDefines_Landmarks.xml</File>
-    <File md5="440FE11EF9ABE6AE9B33051315B38089">CIV5IconTextureAtlases.xml</File>
-    <File md5="149044EB2E8D341C39063E4C7692EEDE">CIV5PolicyBranch.xml</File>
-    <File md5="C7637F96C31DB8685642F2ABE27D93C3">FreePolicies.xml</File>
-    <File md5="24CA4790273EBD7645C991608ABC09AA">Game Pace Rules.sql</File>
-    <File md5="180950B6F1BEE1C80C156B370F5389C8">Governments.xml</File>
-    <File md5="1880F03498104E3A93EA50A769AB9E46">GovIdeology.xml</File>
-    <File md5="5E4DBF8CA8367CC14B284171E12C127A">GovSystems.xml</File>
-    <File md5="E234F5E97AA89130AA109F8504901E05">PolicyCategories.xml</File>
-    <File md5="A2901CA2F5BFED6939C22F4D46137B6C">PolicyTableAdds.sql</File>
-    <File md5="5450CA077CB96242A5CF0484953DD3B4">Policy/SocialPolicyPopup.lua</File>
-    <File md5="9AA9AD7CAF3E20BBB159549D59FF2349">Policy/SocialPolicyPopup.xml</File>
-    <File md5="430DF983499FB15C440B6D9F93DD149E">Community Call to Power Project.modinfo</File>
-    <File md5="56BF887EF7CC0F95486E4FCC34C684F9">Religions.xml</File>
-    <File md5="AFBE3093D9715324F43C480FA8A7A653">ReligiousIdeology.xml</File>
-    <File md5="2F73C4FBAB22D97AC89651A58A64EB67">Tech/CIV5Eras.xml</File>
-    <File md5="51507F1D93A66EB833B066C5E3CC3CC0">Tech/CIV5TechIcons.xml</File>
-    <File md5="A1B1128517EF32FC1C451BAFF5C3EA28">Tech/EconomicsTech.xml</File>
-    <File md5="446587BFCE90D551D72F51A1686C3CB9">Tech/EngineeringTech.xml</File>
-    <File md5="4892E7B8C375BB8360EF18E12947ACF3">Tech/MilitaryTech.xml</File>
-    <File md5="E0011C4B4CC5B8D07E671BA8D16E4556">Tech/PrereqTech.xml</File>
-    <File md5="C5CAFFF3709D570D22664EDFEDC55F70">Tech/SciencesTech.xml</File>
-    <File md5="FE6C2E2F00F5851F5350FABED0D2BD95">Tech/SocialTech.xml</File>
-    <File md5="20281F3973245077C469BD0E66C81E95">Tech/TechCategories.xml</File>
-    <File md5="F9D2A48E55191DEA051FD6508AC956D7">Tech/TechHelpInclude.lua</File>
-    <File md5="D72D3806D6F8024F0FFEE11EB855CFA6">Tech/TechTableAdds.sql</File>
-    <File md5="4A1B3075A9E75323278D311C5C6EABE9">Tech/TechTree.lua</File>
-    <File md5="8E5DA33B189E5225DC439B85EA426EB3">Tech/TechTree.xml</File>
-    <File md5="733AAF07E81B5C39BB5E77F1D9378B9D">Tech/TechTreeBFTT.lua</File>
-    <File md5="2A4344E1AA47EB78E43985CC9AB0BBD6">Tech/TechTreeBFTT.xml</File>
-    <File md5="1441243D18427F3F51DACD75A42CE3A0">Tech/TechTreeText.xml</File>
-    <File md5="B2260607988F95873DB16E28B540FE2A">Terrain/CIV5Features.xml</File>
-    <File md5="82184813FC8573DFB5026A354B0749B7">Terrain/CIV5Improvements.xml</File>
-    <File md5="86A61956DA6B7DA7CD09A5ABD07110F3">Terrain/CIV5Improvements3.xml</File>
-    <File md5="D4A3989601B0D4581519ECB670775363">Terrain/CIV5Resources.xml</File>
-    <File md5="5C07B41A1C9813278CF6B79E506AC5AA">Terrain/CIV5Routes.xml</File>
-    <File md5="6884FB18D613BE66A3A0187A131F27EC">Terrain/CIV5Terrains.xml</File>
-    <File md5="E4207DB708BAEA89BF7CCE82366437CE">Terrain/New Resource/CIV5ResourceIcons.xml</File>
-    <File md5="913B83B0B5A999667C471925929732F2">Terrain/New Resource/ResourceIconManager.lua</File>
-    <File md5="E871367BA8E29DFE8C400FF685058913">Terrain/New Resource/ResourceNew.xml</File>
-    <File md5="DCB5FD82FE5B562840F7B282C8FC61DC">Text/CIV5GameText.xml</File>
-    <File md5="FA8DE521E7F89FFB9E5B453FD95A0021">Text/MonopolyText.xml</File>
-    <File md5="F5F672E8E18976F579A2018780CADFF3">Text/PolicyText.xml</File>
-    <File md5="8F7169883BC33B1AA388F548BC436A0B">Units/CIV5Builds.xml</File>
-    <File md5="35D00DB7FE05378A4CC68647EACEE143">Units/CIV5UnitClasses.xml</File>
-    <File md5="2F3FB12DDBF11B2F3047C2631D2C0DFE">Units/CIV5UnitIcons.xml</File>
-    <File md5="FC5F92958F237BC4E47421EFAE748645">Units/CIV5Units.xml</File>
-    <File md5="1A8DC47010CE0572492F8E2E1C5E0543">Z - Global/CIV5GlobalDefines.xml</File>
-    <File md5="19D9DB2D4E6D283A314F138AAC87B728">Z - Global/CIV5HurryInfos.xml</File>
-    <File md5="30DB7FFAF27AC9637DF3791881ED9339">Z - Global/CIV5Worlds.xml</File>
-    <File md5="5F9A3697D67D549D92E5BA90843C59C1">Z - Global/HandicapInfos.xml</File>
-    <File md5="7A47BFE4AA9DC532FBBB0C785A15DA11">Z-Unused/CIV5GameSpeeds.xml</File>
-    <File md5="EED7D8D999D9FFD3A86FDFDECF3202F5">Z-Unused/FinalIDReordering.sql</File>
-    <File md5="57BCC9A30DD9004AC93CC5694E736CA1">Z-Unused/Tweaks.sql</File>
-		<File md5="9309774C33232FFC6E47E09F56BDD3C5" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_attack_city_to_run.dge</File>
-    <File md5="FA9CE373BB700CFCD8F0FA3A955B1E69" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_attack_to_run_graph.dge</File>
-    <File md5="BA4F6AEB27527AB47CC284B27C8288A8" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_bombard_defend_loop_graph.dge</File>
-    <File md5="933E4A224EFE615D537517EFE06B34BC" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_civilian_activate_captured.dge</File>
-    <File md5="87476FD4384999BCCBF43AEEF9B3A652" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_civilian_death_final.dge</File>
-    <File md5="9AB143ED19D8B61A7794C90D5D65EE97" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_civilian_enter_bombard_defend.dge</File>
-    <File md5="7BCAF33AE57FA6E4F56F767E1799955E" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_civilian_state_01.fsmxml</File>
-    <File md5="CD02EC91E73F396297C2B3434A8BA034" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_combat_ready_graph.dge</File>
-    <File md5="6B4338103039DFBD431A44C89DA198D6" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_death_final_graph.dge</File>
-    <File md5="F9F109E1E43FD75DFC765D9B3A43CE48" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_death_graph.dge</File>
-    <File md5="014FBFBCB17012BEC0B32D9FFDBF721E" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_enter_bombard_defend_graph.dge</File>
-    <File md5="7A5A0ADFBBB05D6E4FB126383988B264" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_enter_combat_ready_graph.dge</File>
-    <File md5="34488A641F9D948D865BBECF8B3878DF" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_enter_fortify.dge</File>
-    <File md5="ADAECB630FF73EEFBBE3EE3661F1819C" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_enter_sleep_civilian.dge</File>
-    <File md5="F245B80AAC985C0011FEE5CBF3FB25DF" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_fidgets_graph.dge</File>
-    <File md5="65FED4E2E20D7512D6B5E92C1CD37EF7" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_fortify_fidget_graph.dge</File>
-    <File md5="F758D65157483D32C6763F817B216937" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_fortify_graph.dge</File>
-    <File md5="C2C8D0ADFA388980A03E814BF2B335F5" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_fortify_leave_graph.dge</File>
-    <File md5="AD4E2A013238410D8FCE2666AEB1DC08" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_fortify_to_idle_a.dge</File>
-    <File md5="EF6168FF0903555EDCBB9FD626CFB00F" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_idle_graph.dge</File>
-    <File md5="268797759660DA55A0F792A966EB586B" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_idle_offset_continue_true_graph.dge</File>
-    <File md5="C4D8B3EB164B5525B92514645521D0C3" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_leave_bombard_defend_trans_idle_a_graph.dge</File>
-    <File md5="189E34C23C7A19F2C190E1ACB4212C91" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_leave_combat_ready.dge</File>
-    <File md5="225D164523FE1270306005CCD71B075A" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_melee_attacks.dge</File>
-    <File md5="71E511A38054110B5D9A23B311AC0104" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_modern_ship_attacks.dge</File>
-    <File md5="BA0D234DE017F5CEB6DEF37CE7DFE384" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_attack_city_to_run.dge</File>
-    <File md5="75D8FBC3A2C4D56B1089F20A2E9D9DA1" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_attack_to_run_graph.dge</File>
-    <File md5="82C3CE94F7827159DEA80CCF8AAF5D9E" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_bombard_defend_loop_graph.dge</File>
-    <File md5="FF8A929D15C8ECE5089A806AFBC80C8E" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_civilian_activate_captured.dge</File>
-    <File md5="1AE83D5303F9671277D4FEC7F327A2BB" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_civilian_death_final.dge</File>
-    <File md5="0021307C276C3516A57BBADDAC07ACE7" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_civilian_enter_bombard_defend.dge</File>
-    <File md5="C3686411D2E96A715267F9A5C72A5EB1" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_combat_ready_graph.dge</File>
-    <File md5="FE5B902745DEE0860ECEE5BA421D141F" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_death_final_graph.dge</File>
-    <File md5="21659FCED7A08D6FB464A693D0E82597" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_death_graph.dge</File>
-    <File md5="B66FF4B10706BE666A916B917D14AC83" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_enter_bombard_defend_graph.dge</File>
-    <File md5="9B18015ACB470CD66C3294FDA203C27E" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_enter_combat_ready_graph.dge</File>
-    <File md5="FD1B5EABA624344B944CD37BD71DE110" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_enter_fortify.dge</File>
-    <File md5="2470ABA98F462C27DD3C1AC013BD3AC6" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_enter_sleep_civilian.dge</File>
-    <File md5="04680D47D3519A5FFB950F1147D7B1D4" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_fidgets_graph.dge</File>
-    <File md5="327CB90C3BCF5BAC71F77DA677997631" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_fortify_fidget_graph.dge</File>
-    <File md5="998F9D5F9FCAFE31E97022C5C50C67E8" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_fortify_graph.dge</File>
-    <File md5="39370F05801D7D017D605CE224EE11E7" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_fortify_leave_graph.dge</File>
-    <File md5="7BC464D9DF686D87145362DEE0F68A04" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_fortify_to_idle_a.dge</File>
-    <File md5="EF3E7C919600B18CDC0D6F1BCDD45F64" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_idle_graph.dge</File>
-    <File md5="2F7C2570D10BD4E5879F105F9BB3BC53" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_idle_offset_continue_true_graph.dge</File>
-    <File md5="7AAA31587E2E15A0B887A31C861D4B45" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_leave_bombard_defend_trans_idle_a_graph.dge</File>
-    <File md5="4BB9881AAB8B9F3571AA787BB89B4FF1" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_leave_combat_ready.dge</File>
-    <File md5="2937CE1A002CB18C85FA2E3E63221139" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_melee_attacks.dge</File>
-    <File md5="E538938BAD81B88082C8DF076514653E" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_modern_ship_attacks.dge</File>
-    <File md5="DBFC96AE4406957395EC439CEFF8584A" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_running_loop.dge</File>
-    <File md5="BD96EBE9953A41BD78D450DC26561AFC" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_run_no_charge_loop.dge</File>
-    <File md5="91A772D3D07C64329ED801632EB689C7" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_run_start_civilian.dge</File>
-    <File md5="C017AA3F2D83AAB3B6B939B6418071A3" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_start_running.dge</File>
-    <File md5="34D584D857E6CBA51D87EE2FD6950EC6" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_stop_running.dge</File>
-    <File md5="8D3450B63AF23F48CF9DEDC3B586B022" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_stop_running_civilian.dge</File>
-    <File md5="500F6DEDBDB767CAE8C964DBEE647459" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_ms_transitions_for_idles.dge</File>
-    <File md5="A64E86033B61613B4F39979D5603E65F" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_running_loop.dge</File>
-    <File md5="E38EAF3E95C835B93C7E7849A7F4F23B" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_run_no_charge_loop.dge</File>
-    <File md5="9432853873B222F5AEF1CE53C1CD98DA" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_run_start_civilian.dge</File>
-    <File md5="BCF1F945C0CBE7A1C9F62E5B46F84F99" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_start_running.dge</File>
-    <File md5="7B0232A8BE345EB899FF221FBD7BDCFB" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_stop_running.dge</File>
-    <File md5="38B813F99CCD01B77FB798D2AFE91571" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_stop_running_civilian.dge</File>
-    <File md5="2506D6C118D6A9FB915723F731C95FD4" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_aim_transitions_for_idles.dge</File>
-    <File md5="AB180DC6BFF8E18757D23D554F80784A" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_fx_triggers_battleship.ftsxml</File>
-    <File md5="15D16F16B2DA12C59E1DB7565EBAC0ED" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_fx_triggers_battleship_4turret.ftsxml</File>
-    <File md5="57E688AF2606E958CA088BD229D43F5B" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_fx_triggers_infantry.ftsxml</File>
-    <File md5="A08730646EFA18C9E3385EE7D59EA9DC" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_fx_triggers_modernarmor.ftsxml</File>
-    <File md5="108FD3B4BAAB4A605BF70CCD44F20E8B" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_fx_triggers_tank.ftsxml</File>
-    <File md5="B233D27FC1FA1DB1127E263DC20D30DB" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_mechanized_aim_state_01.fsmxml</File>
-    <File md5="75C5BA4CEC139C9EAFA47AE912EAB3EC" import="1">Units/Art/Animations_and_Effects/Edited_Animations/edited_modern_ship_aim_state_01.fsmxml</File>
-	<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/Animations_and_Effects/Civ5ArtDefines_UnitMembers.xml</File>
-    <File md5="E7AF0D12FA35C1878CF92934798C129F" import="1">Units/Art/Animations_and_Effects/Civ5ArtDefines_Units.xml</File>
-    <File md5="D64DCAA35C2AE38C76E2FE9E2EE05899" import="1">Units/Art/Animations_and_Effects/civ5artdefines_viseffects.xml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/AntiTank/ZiS-30_China/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/AntiTank/ZiS-30_China/ZiS-30_China.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/AntiTank/ZiS-30_China/ZiS-30_China.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/AntiTank/ZiS-30_China/ZiS-30_China.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Bombers/Tupolev_SB-2/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Bombers/Tupolev_SB-2/Tupolev_SB-2.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Bombers/Tupolev_SB-2/Tupolev_SB-2.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Bombers/Tupolev_SB-2/Tupolev_SB-2.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Early Tank/Renault_FT-17_China/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Early Tank/Renault_FT-17_China/Renault_FT-17_China.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Early Tank/Renault_FT-17_China/Renault_FT-17_China.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Early Tank/Renault_FT-17_China/Renault_FT-17_China.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Fighters/Polikarpov_I-16_China/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Fighters/Polikarpov_I-16_China/Polikarpov_I-16_China.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Fighters/Polikarpov_I-16_China/Polikarpov_I-16_China.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Fighters/Polikarpov_I-16_China/Polikarpov_I-16_China.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Infantry/Infantry_China/Infantry_China.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Infantry/Infantry_China/Infantry_China.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Infantry/Infantry_China/Infantry_China.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Infantry/Infantry_China/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Tanks/T-26B/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Tanks/T-26B/T-26B.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Tanks/T-26B/T-26B.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/China/Tanks/T-26B/T-26B.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiAircraft/Hotchkiss_25mm_AA_Half-Track/Hotchkiss_25mm_AA_Half-Track.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiAircraft/Hotchkiss_25mm_AA_Half-Track/Hotchkiss_25mm_AA_Half-Track.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiAircraft/Hotchkiss_25mm_AA_Half-Track/Hotchkiss_25mm_AA_Half-Track.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiAircraft/Hotchkiss_25mm_AA_Half-Track/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiTank/Somua_SAU-40/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiTank/Somua_SAU-40/Somua_SAU-40.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiTank/Somua_SAU-40/Somua_SAU-40.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/AntiTank/Somua_SAU-40/Somua_SAU-40.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Battleships/Dunkerque_Class/Dunkerque_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Battleships/Dunkerque_Class/Dunkerque_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Battleships/Dunkerque_Class/Dunkerque_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Battleships/Dunkerque_Class/Dunkerque_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Bombers/Amiot_350/Amiot_350.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Bombers/Amiot_350/Amiot_350.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Bombers/Amiot_350/Amiot_350.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Bombers/Amiot_350/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Capital Ship/Richelieu_Class/Richelieu_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Capital Ship/Richelieu_Class/Richelieu_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Capital Ship/Richelieu_Class/Richelieu_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Capital Ship/Richelieu_Class/Richelieu_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Carriers/Joffre_Class/Joffre_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Carriers/Joffre_Class/Joffre_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Carriers/Joffre_Class/Joffre_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Carriers/Joffre_Class/Joffre_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Cruiser/La_Galissonniere_Class/La_Galissonniere_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Cruiser/La_Galissonniere_Class/La_Galissonniere_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Cruiser/La_Galissonniere_Class/La_Galissonniere_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Cruiser/La_Galissonniere_Class/La_Galissonniere_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Destroyer/Fantasque_Class/Fantasque_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Destroyer/Fantasque_Class/Fantasque_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Destroyer/Fantasque_Class/Fantasque_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Destroyer/Fantasque_Class/Fantasque_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Fighter/Nieuport_17/Nieuport_17.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Fighter/Nieuport_17/Nieuport_17.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Fighter/Nieuport_17/Nieuport_17.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Fighter/Nieuport_17/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Tank/Renault_FT-17/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Tank/Renault_FT-17/Renault_FT-17.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Tank/Renault_FT-17/Renault_FT-17.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Early Tank/Renault_FT-17/Renault_FT-17.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Fighters/Morane-Saulnier_M.S.406/Morane-Saulnier_M.S.406.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Fighters/Morane-Saulnier_M.S.406/Morane-Saulnier_M.S.406.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Fighters/Morane-Saulnier_M.S.406/Morane-Saulnier_M.S.406.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Fighters/Morane-Saulnier_M.S.406/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Infantry/Infantry_France/Infantry_France.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Infantry/Infantry_France/Infantry_France.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Infantry/Infantry_France/Infantry_France.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Infantry/Infantry_France/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Paratroopers/Paratrooper_France/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Paratroopers/Paratrooper_France/Paratrooper_France.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Paratroopers/Paratrooper_France/Paratrooper_France.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Paratroopers/Paratrooper_France/Paratrooper_France.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Submarines/Redoutable_Class/Redoutable_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Submarines/Redoutable_Class/Redoutable_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Submarines/Redoutable_Class/Redoutable_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Submarines/Redoutable_Class/Redoutable_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Tanks/Char_D2/Char_D2.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Tanks/Char_D2/Char_D2.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Tanks/Char_D2/Char_D2.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/France/Tanks/Char_D2/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Capital Ship/Dreadnought_Generic/Dreadnought_Generic.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Capital Ship/Dreadnought_Generic/Dreadnought_Generic.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Capital Ship/Dreadnought_Generic/Dreadnought_Generic.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Capital Ship/Dreadnought_Generic/Dreadnought_Generic_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Cruiser/Cruiser_Generic/Cruiser_Generic.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Cruiser/Cruiser_Generic/Cruiser_Generic.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Cruiser/Cruiser_Generic/Cruiser_Generic.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Cruiser/Cruiser_Generic/Cruiser_Generic_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Destroyer/Destroyer_Generic/Destroyer_Generic.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Destroyer/Destroyer_Generic/Destroyer_Generic.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Destroyer/Destroyer_Generic/Destroyer_Generic.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Destroyer/Destroyer_Generic/Destroyer_Generic_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Fighter/EarlyFighter_Generic/EarlyFighter_Generic.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Fighter/EarlyFighter_Generic/EarlyFighter_Generic.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Fighter/EarlyFighter_Generic/EarlyFighter_Generic.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Fighter/EarlyFighter_Generic/EarlyFighter_Generic_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Tank/EarlyTank_Generic/EarlyTank_Generic.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Tank/EarlyTank_Generic/EarlyTank_Generic.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Tank/EarlyTank_Generic/EarlyTank_Generic.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Early Tank/EarlyTank_Generic/EarlyTank_Generic_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Paratroopers/Paratrooper_Generic/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Paratroopers/Paratrooper_Generic/Paratrooper_Generic.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Paratroopers/Paratrooper_Generic/Paratrooper_Generic.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Generic/Paratroopers/Paratrooper_Generic/Paratrooper_Generic.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiAircraft/Flakpanzer_38(t)/Flakpanzer_38(t).fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiAircraft/Flakpanzer_38(t)/Flakpanzer_38(t).gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiAircraft/Flakpanzer_38(t)/Flakpanzer_38(t).dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiAircraft/Flakpanzer_38(t)/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiTank/Sdkfz162_Jagdpanzer IV_L-70/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiTank/Sdkfz162_Jagdpanzer IV_L-70/Sdkfz162_Jagdpanzer IV_L-70.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiTank/Sdkfz162_Jagdpanzer IV_L-70/Sdkfz162_Jagdpanzer IV_L-70.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/AntiTank/Sdkfz162_Jagdpanzer IV_L-70/Sdkfz162_Jagdpanzer_IV_L-70.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Battleships/Scharnhorst_Class/Scharnhorst_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Battleships/Scharnhorst_Class/Scharnhorst_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Battleships/Scharnhorst_Class/Scharnhorst_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Battleships/Scharnhorst_Class/Scharnhorst_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Bombers/Junkers_Ju-88/Junkers_Ju-88.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Bombers/Junkers_Ju-88/Junkers_Ju-88.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Bombers/Junkers_Ju-88/Junkers_Ju-88.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Bombers/Junkers_Ju-88/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Capital Ship/Bismark_Class/Bismark_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Capital Ship/Bismark_Class/Bismark_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Capital Ship/Bismark_Class/Bismark_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Capital Ship/Bismark_Class/Bismark_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Carriers/Graf_Zeppelin_Class/Graf_Zeppelin_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Carriers/Graf_Zeppelin_Class/Graf_Zeppelin_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Carriers/Graf_Zeppelin_Class/Graf_Zeppelin_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Carriers/Graf_Zeppelin_Class/Graf_Zeppelin_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Cruiser/Deutschland_Class/Deutschland_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Cruiser/Deutschland_Class/Deutschland_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Cruiser/Deutschland_Class/Deutschland_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Cruiser/Deutschland_Class/Deutschland_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Destroyer/Z_Class/Z_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Destroyer/Z_Class/Z_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Destroyer/Z_Class/Z_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Destroyer/Z_Class/Z_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Fighter/Fokker_Dr.1/Fokker_Dr.1.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Fighter/Fokker_Dr.1/Fokker_Dr.1.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Fighter/Fokker_Dr.1/Fokker_Dr.1.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Fighter/Fokker_Dr.1/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Tank/A7V/A7V.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Tank/A7V/A7V.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Tank/A7V/A7V.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Early Tank/A7V/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Fighters/Messerschmitt_Bf-109E/Messerschmitt_Bf-109E.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Fighters/Messerschmitt_Bf-109E/Messerschmitt_Bf-109E.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Fighters/Messerschmitt_Bf-109E/Messerschmitt_Bf-109E.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Fighters/Messerschmitt_Bf-109E/Messerschmitt_Bf-109E_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Infantry/Infantry_German_v2/Infantry_German_v2.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Infantry/Infantry_German_v2/Infantry_German_v2.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Infantry/Infantry_German_v2/Infantry_German_v2.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Infantry/Infantry_German_v2/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Paratroopers/Paratrooper_German/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Paratroopers/Paratrooper_German/Paratrooper_German.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Paratroopers/Paratrooper_German/Paratrooper_German.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Paratroopers/Paratrooper_German/Paratrooper_German.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Submarines/U-Boat_Type_XXIII/U-Boat_Type_XXIII.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Submarines/U-Boat_Type_XXIII/U-Boat_Type_XXIII.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Submarines/U-Boat_Type_XXIII/U-Boat_Type_XXIII.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Submarines/U-Boat_Type_XXIII/U-Boat_Type_XXIII_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Tanks/Panzer_VI_Tiger/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Tanks/Panzer_VI_Tiger/Panzer_VI_Tiger.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Tanks/Panzer_VI_Tiger/Panzer_VI_Tiger.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Germany/Tanks/Panzer_VI_Tiger/Panzer_VI_Tiger.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Bombers/Bristol_Blenheim/Bristol_Blenheim.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Bombers/Bristol_Blenheim/Bristol_Blenheim.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Bombers/Bristol_Blenheim/Bristol_Blenheim.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Bombers/Bristol_Blenheim/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Cruiser/Pisa_Class/Pisa_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Cruiser/Pisa_Class/Pisa_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Cruiser/Pisa_Class/Pisa_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Cruiser/Pisa_Class/Pisa_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Destroyer/Vasilefs_Georgios_Class/Vasilefs_Georgios_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Destroyer/Vasilefs_Georgios_Class/Vasilefs_Georgios_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Destroyer/Vasilefs_Georgios_Class/Vasilefs_Georgios_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Destroyer/Vasilefs_Georgios_Class/Vasilefs_Georgios_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Fighter/PZL_P.24/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Fighter/PZL_P.24/PZL_P.24.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Fighter/PZL_P.24/PZL_P.24.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Fighter/PZL_P.24/PZL_P.24.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Tank/Renault_FT-17/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Tank/Renault_FT-17/Renault_FT-17_Greece.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Tank/Renault_FT-17/Renault_FT-17_Greece.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Early Tank/Renault_FT-17/Renault_FT-17_Greece.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Fighters/Supermarine_Spitfire_Greece/Supermarine_Spitfire_Greece.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Fighters/Supermarine_Spitfire_Greece/Supermarine_Spitfire_Greece.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Fighters/Supermarine_Spitfire_Greece/Supermarine_Spitfire_Greece.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Fighters/Supermarine_Spitfire_Greece/Supermarine_Spitfire_Greece_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Infantry/Infantry_Greece/Infantry_Greece.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Infantry/Infantry_Greece/Infantry_Greece.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Infantry/Infantry_Greece/Infantry_Greece.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Infantry/Infantry_Greece/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Paratroopers/Paratrooper_Greece/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Paratroopers/Paratrooper_Greece/Paratrooper_Greece.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Paratroopers/Paratrooper_Greece/Paratrooper_Greece.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Paratroopers/Paratrooper_Greece/Paratrooper_Greece.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Submarines/Katsonis_Class/Katsonis_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Submarines/Katsonis_Class/Katsonis_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Submarines/Katsonis_Class/Katsonis_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Submarines/Katsonis_Class/Katsonis_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Tanks/Vickers_MK_II/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Tanks/Vickers_MK_II/Vickers_MK_II.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Tanks/Vickers_MK_II/Vickers_MK_II.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Greek/Tanks/Vickers_MK_II/Vickers_MK_II.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiAircraft/Autocannone_90-53/Autocannone_90-53.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiAircraft/Autocannone_90-53/Autocannone_90-53.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiAircraft/Autocannone_90-53/Autocannone_90-53.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiAircraft/Autocannone_90-53/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiTank/Semovente_M42M-75-34/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiTank/Semovente_M42M-75-34/Semovente_M42M-75-34.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiTank/Semovente_M42M-75-34/Semovente_M42M-75-34.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/AntiTank/Semovente_M42M-75-34/Semovente_M42M-75-34.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Battleships/Conte_Di_Cavour_Class/Conte_Di_Cavour_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Battleships/Conte_Di_Cavour_Class/Conte_Di_Cavour_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Battleships/Conte_Di_Cavour_Class/Conte_Di_Cavour_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Battleships/Conte_Di_Cavour_Class/Conte_Di_Cavour_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Bombers/Savoia-Marchetti_SM.84/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Bombers/Savoia-Marchetti_SM.84/Savoia-Marchetti_SM.84.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Bombers/Savoia-Marchetti_SM.84/Savoia-Marchetti_SM.84.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Bombers/Savoia-Marchetti_SM.84/Savoia-Marchetti_SM.84.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Capital Ship/Littorio_Class/Littorio_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Capital Ship/Littorio_Class/Littorio_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Capital Ship/Littorio_Class/Littorio_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Capital Ship/Littorio_Class/Littorio_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Carriers/Aquila_Class/Aquila_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Carriers/Aquila_Class/Aquila_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Carriers/Aquila_Class/Aquila_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Carriers/Aquila_Class/Aquila_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Cruiser/Zara_Class/Zara_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Cruiser/Zara_Class/Zara_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Cruiser/Zara_Class/Zara_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Cruiser/Zara_Class/Zara_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Destroyer/Soldati_Class/Soldati_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Destroyer/Soldati_Class/Soldati_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Destroyer/Soldati_Class/Soldati_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Destroyer/Soldati_Class/Soldati_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Fighter/Ansaldo_SVA-5/Ansaldo_SVA-5.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Fighter/Ansaldo_SVA-5/Ansaldo_SVA-5.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Fighter/Ansaldo_SVA-5/Ansaldo_SVA-5.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Fighter/Ansaldo_SVA-5/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Tank/Fiat_3000/Fiat_3000.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Tank/Fiat_3000/Fiat_3000.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Tank/Fiat_3000/Fiat_3000.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Early Tank/Fiat_3000/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Fighters/Macchi_C.200_Saetta/Macchi_C.200_Saetta.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Fighters/Macchi_C.200_Saetta/Macchi_C.200_Saetta.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Fighters/Macchi_C.200_Saetta/Macchi_C.200_Saetta.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Fighters/Macchi_C.200_Saetta/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Infantry/Infantry_Italy_v2/Infantry_Italy_v2.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Infantry/Infantry_Italy_v2/Infantry_Italy_v2.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Infantry/Infantry_Italy_v2/Infantry_Italy_v2.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Infantry/Infantry_Italy_v2/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Paratroopers/Paratrooper_Italy/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Paratroopers/Paratrooper_Italy/Paratrooper_Italy.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Paratroopers/Paratrooper_Italy/Paratrooper_Italy.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Paratroopers/Paratrooper_Italy/Paratrooper_Italy.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Submarines/Marcello_Class/Marcello_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Submarines/Marcello_Class/Marcello_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Submarines/Marcello_Class/Marcello_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Submarines/Marcello_Class/Marcello_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Tanks/M15-42/M15-42.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Tanks/M15-42/M15-42.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Tanks/M15-42/M15-42_2.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Italy/Tanks/M15-42/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiAircraft/Type98_Ko-Hi/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiAircraft/Type98_Ko-Hi/Type98_Ko-Hi.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiAircraft/Type98_Ko-Hi/Type98_Ko-Hi.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiAircraft/Type98_Ko-Hi/Type98_Ko-Hi.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiTank/Type1_Ho-Ni_II/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiTank/Type1_Ho-Ni_II/Type1_Ho-Ni_II.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiTank/Type1_Ho-Ni_II/Type1_Ho-Ni_II.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/AntiTank/Type1_Ho-Ni_II/Type1_Ho-Ni_II.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Battleships/Kongo_Class/Kongo_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Battleships/Kongo_Class/Kongo_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Battleships/Kongo_Class/Kongo_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Battleships/Kongo_Class/Kongo_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Bombers/Mitsubishi_G4M_Betty/Mitsubishi_G4M_Betty.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Bombers/Mitsubishi_G4M_Betty/Mitsubishi_G4M_Betty.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Bombers/Mitsubishi_G4M_Betty/Mitsubishi_G4M_Betty.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Bombers/Mitsubishi_G4M_Betty/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Capital Ship/Yamato_Class/Yamato_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Capital Ship/Yamato_Class/Yamato_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Capital Ship/Yamato_Class/Yamato_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Capital Ship/Yamato_Class/Yamato_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Carriers/Shokaku_Class/Shokaku_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Carriers/Shokaku_Class/Shokaku_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Carriers/Shokaku_Class/Shokaku_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Carriers/Shokaku_Class/Shokaku_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Cruiser/Takao_Class/Takao_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Cruiser/Takao_Class/Takao_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Cruiser/Takao_Class/Takao_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Cruiser/Takao_Class/Takao_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Destroyer/Kagero_Class/Kagero_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Destroyer/Kagero_Class/Kagero_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Destroyer/Kagero_Class/Kagero_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Destroyer/Kagero_Class/Kagero_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Fighter/Kawasaki_Ki-10_Perry/Kawasaki_Ki-10_Perry.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Fighter/Kawasaki_Ki-10_Perry/Kawasaki_Ki-10_Perry.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Fighter/Kawasaki_Ki-10_Perry/Kawasaki_Ki-10_Perry.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Fighter/Kawasaki_Ki-10_Perry/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Tank/Type79_Ko-Gata/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Tank/Type79_Ko-Gata/Type79_Ko-Gata.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Tank/Type79_Ko-Gata/Type79_Ko-Gata.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Early Tank/Type79_Ko-Gata/Type79_Ko-Gata.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Fighters/Mitsubishi_A6M5_Zero/Mitsubishi_A6M5_Zero.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Fighters/Mitsubishi_A6M5_Zero/Mitsubishi_A6M5_Zero.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Fighters/Mitsubishi_A6M5_Zero/Mitsubishi_A6M5_Zero.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Fighters/Mitsubishi_A6M5_Zero/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Infantry/Infantry_Japan/Infantry_Japan.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Infantry/Infantry_Japan/Infantry_Japan.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Infantry/Infantry_Japan/Infantry_Japan.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Infantry/Infantry_Japan/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Paratroopers/Paratrooper_Japan/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Paratroopers/Paratrooper_Japan/Paratrooper_Japan.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Paratroopers/Paratrooper_Japan/Paratrooper_Japan.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Paratroopers/Paratrooper_Japan/Paratrooper_Japan.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Submarines/B1_Type/B1_Type.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Submarines/B1_Type/B1_Type.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Submarines/B1_Type/B1_Type.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Submarines/B1_Type/B1_Type_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Tanks/Type3_Chi-Nu/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Tanks/Type3_Chi-Nu/Type3_Chi-Nu.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Tanks/Type3_Chi-Nu/Type3_Chi-Nu.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Japan/Tanks/Type3_Chi-Nu/Type3_Chi-Nu.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiAircraft/ZSU-37/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiAircraft/ZSU-37/ZSU-37.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiAircraft/ZSU-37/ZSU-37.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiAircraft/ZSU-37/ZSU-37.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiTank/SU-100/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiTank/SU-100/SU-100.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiTank/SU-100/SU-100.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/AntiTank/SU-100/SU-100.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Battleships/Gangut_Class/Gangut_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Battleships/Gangut_Class/Gangut_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Battleships/Gangut_Class/Gangut_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Battleships/Gangut_Class/Gangut_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Bombers/Petlyakov_Pe-8/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Bombers/Petlyakov_Pe-8/Petlyakov_Pe-8.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Bombers/Petlyakov_Pe-8/Petlyakov_Pe-8.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Bombers/Petlyakov_Pe-8/Petlyakov_Pe-8.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Capital Ship/Sovetsky_Soyuz_Class/Sovetsky_Soyuz_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Capital Ship/Sovetsky_Soyuz_Class/Sovetsky_Soyuz_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Capital Ship/Sovetsky_Soyuz_Class/Sovetsky_Soyuz_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Capital Ship/Sovetsky_Soyuz_Class/Sovetsky_Soyuz_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Carriers/Project_71/Project_71.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Carriers/Project_71/Project_71.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Carriers/Project_71/Project_71.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Carriers/Project_71/Project_71_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Cruiser/Kirov_Class/Kirov_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Cruiser/Kirov_Class/Kirov_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Cruiser/Kirov_Class/Kirov_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Cruiser/Kirov_Class/Kirov_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Destroyer/Gnevny_Class/Gnevny_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Destroyer/Gnevny_Class/Gnevny_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Destroyer/Gnevny_Class/Gnevny_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Destroyer/Gnevny_Class/Gnevny_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Fighter/Polikarpov_Po-2/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Fighter/Polikarpov_Po-2/Polikarpov_Po-2.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Fighter/Polikarpov_Po-2/Polikarpov_Po-2.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Fighter/Polikarpov_Po-2/Polikarpov_Po-2.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Tank/Renault_FT-17_Russia/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Tank/Renault_FT-17_Russia/Renault_FT-17_Russia.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Tank/Renault_FT-17_Russia/Renault_FT-17_Russia.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Early Tank/Renault_FT-17_Russia/Renault_FT-17_Russia.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Fighters/Yakovlev_Yak-9/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Fighters/Yakovlev_Yak-9/Yakovlev_Yak-9.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Fighters/Yakovlev_Yak-9/Yakovlev_Yak-9.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Fighters/Yakovlev_Yak-9/Yakovlev_Yak-9.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Infantry/Infantry_Russia/Infantry_Russia.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Infantry/Infantry_Russia/Infantry_Russia.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Infantry/Infantry_Russia/Infantry_Russia.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Infantry/Infantry_Russia/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Paratroopers/Paratrooper_Russia/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Paratroopers/Paratrooper_Russia/Paratrooper_Russia.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Paratroopers/Paratrooper_Russia/Paratrooper_Russia.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Paratroopers/Paratrooper_Russia/Paratrooper_Russia.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Submarines/Shchuka_Class/Shchuka_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Submarines/Shchuka_Class/Shchuka_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Submarines/Shchuka_Class/Shchuka_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Submarines/Shchuka_Class/Shchuka_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Tanks/T-34-85/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Tanks/T-34-85/T-34-85.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Tanks/T-34-85/T-34-85.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/Russia/Tanks/T-34-85/T-34-85.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiAircraft/Crusader_III_AA/Crusader_III_AA.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiAircraft/Crusader_III_AA/Crusader_III_AA.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiAircraft/Crusader_III_AA/Crusader_III_AA.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiAircraft/Crusader_III_AA/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiTank/M10_Achilles/M10_Achilles.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiTank/M10_Achilles/M10_Achilles.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiTank/M10_Achilles/M10_Achilles.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/AntiTank/M10_Achilles/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Battleships/King_George_V_Class/King_George_V_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Battleships/King_George_V_Class/King_George_V_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Battleships/King_George_V_Class/King_George_V_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Battleships/King_George_V_Class/King_George_V_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Bombers/HP_Halifax/HP_Halifax.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Bombers/HP_Halifax/HP_Halifax.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Bombers/HP_Halifax/HP_Halifax.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Bombers/HP_Halifax/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Capital Ship/Admiral_Class/Admiral_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Capital Ship/Admiral_Class/Admiral_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Capital Ship/Admiral_Class/Admiral_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Capital Ship/Admiral_Class/Admiral_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Carriers/Ark_Royal_Class/Ark_Royal_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Carriers/Ark_Royal_Class/Ark_Royal_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Carriers/Ark_Royal_Class/Ark_Royal_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Carriers/Ark_Royal_Class/Ark_Royal_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Cruiser/Dido_Class/Dido_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Cruiser/Dido_Class/Dido_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Cruiser/Dido_Class/Dido_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Cruiser/Dido_Class/Dido_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Destroyer/Triba_Class/Triba_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Destroyer/Triba_Class/Triba_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Destroyer/Triba_Class/Triba_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Destroyer/Triba_Class/Triba_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Fighter/Spowith_Camel/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Fighter/Spowith_Camel/Spowith_Camel.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Fighter/Spowith_Camel/Spowith_Camel.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Fighter/Spowith_Camel/Spowith_Camel.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Tank/MK_A_Whippet/MK_A_Whippet.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Tank/MK_A_Whippet/MK_A_Whippet.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Tank/MK_A_Whippet/MK_A_Whippet.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Early Tank/MK_A_Whippet/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Fighters/Supermarine_Spitfire_MK_V/Supermarine_Spitfire_MK_V.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Fighters/Supermarine_Spitfire_MK_V/Supermarine_Spitfire_MK_V.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Fighters/Supermarine_Spitfire_MK_V/Supermarine_Spitfire_MK_V.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Fighters/Supermarine_Spitfire_MK_V/Supermarine_Spitfire_MK_V_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Infantry/Infantry_UK/Infantry_UK.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Infantry/Infantry_UK/Infantry_UK.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Infantry/Infantry_UK/Infantry_UK.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Infantry/Infantry_UK/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Paratroopers/Paratrooper_UK/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Paratroopers/Paratrooper_UK/Paratrooper_UK.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Paratroopers/Paratrooper_UK/Paratrooper_UK.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Paratroopers/Paratrooper_UK/Paratrooper_UK.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Submarines/U_Class/U_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Submarines/U_Class/U_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Submarines/U_Class/U_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Submarines/U_Class/U_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Tanks/A27M_Cromwell/A27M_Cromwell.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Tanks/A27M_Cromwell/A27M_Cromwell.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Tanks/A27M_Cromwell/A27M_Cromwell.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/UK/Tanks/A27M_Cromwell/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiAircraft/M16A1_MGMC/M16A1_MGMC.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiAircraft/M16A1_MGMC/M16A1_MGMC.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiAircraft/M16A1_MGMC/M16A1_MGMC.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiAircraft/M16A1_MGMC/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiTank/M18_Hellcat/M18_Hellcat.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiTank/M18_Hellcat/M18_Hellcat.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiTank/M18_Hellcat/M18_Hellcat.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/AntiTank/M18_Hellcat/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Battleships/South_Dakota_Class/South_Dakota_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Battleships/South_Dakota_Class/South_Dakota_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Battleships/South_Dakota_Class/South_Dakota_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Battleships/South_Dakota_Class/South_Dakota_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Bombers/B-17_Flying_Fortress/B-17_Flying_Fortress.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Bombers/B-17_Flying_Fortress/B-17_Flying_Fortress.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Bombers/B-17_Flying_Fortress/B-17_Flying_Fortress.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Bombers/B-17_Flying_Fortress/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Capital Ship/Iowa_Class/Iowa_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Capital Ship/Iowa_Class/Iowa_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Capital Ship/Iowa_Class/Iowa_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Capital Ship/Iowa_Class/Iowa_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Carriers/Yorktown_Class/Yorktown_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Carriers/Yorktown_Class/Yorktown_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Carriers/Yorktown_Class/Yorktown_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Carriers/Yorktown_Class/Yorktown_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Cruiser/Baltimore_Class/Baltimore_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Cruiser/Baltimore_Class/Baltimore_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Cruiser/Baltimore_Class/Baltimore_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Cruiser/Baltimore_Class/Baltimore_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Destroyer/Fletcher_Class/Fletcher_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Destroyer/Fletcher_Class/Fletcher_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Destroyer/Fletcher_Class/Fletcher_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Destroyer/Fletcher_Class/Fletcher_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Fighter/SPAD S.XIII/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Fighter/SPAD S.XIII/SPAD_S.XIII.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Fighter/SPAD S.XIII/SPAD_S.XIII.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Fighter/SPAD S.XIII/SPAD_S.XIII.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Tank/M1917/M1917.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Tank/M1917/M1917.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Tank/M1917/M1917.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Early Tank/M1917/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Fighters/P-40_Warhawk/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Fighters/P-40_Warhawk/P-40_Warhawk.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Fighters/P-40_Warhawk/P-40_Warhawk.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Fighters/P-40_Warhawk/P-40_Warhawk.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Infantry/Infantry_USA/Infantry_USA.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Infantry/Infantry_USA/Infantry_USA.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Infantry/Infantry_USA/Infantry_USA.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Infantry/Infantry_USA/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Paratroopers/Paratrooper_USA/no_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Paratroopers/Paratrooper_USA/Paratrooper_USA.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Paratroopers/Paratrooper_USA/Paratrooper_USA.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Paratroopers/Paratrooper_USA/Paratrooper_USA.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Submarines/Gato_Class/Gato_Class.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Submarines/Gato_Class/Gato_Class.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Submarines/Gato_Class/Gato_Class.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Submarines/Gato_Class/Gato_Class_gloss.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Tanks/M4A3_Sherman_IV/M4A3_Sherman_IV.dds</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Tanks/M4A3_Sherman_IV/M4A3_Sherman_IV.fxsxml</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Tanks/M4A3_Sherman_IV/M4A3_Sherman_IV.gr2</File>
-<File md5="074433F4DAE64330A5AD1EFFA5F55819" import="1">Units/Art/WW2/USA/Tanks/M4A3_Sherman_IV/no_gloss.dds</File>
-	<File md5="57BCC9A30DD9004AC93CC5694E736CA1" import="0">Units/NewUnits/WW2UnitsText.xml</File>
-	<File md5="57BCC9A30DD9004AC93CC5694E736CA1" import="0">Units/NewUnits/China/WW2China.xml</File>
-	<File md5="57BCC9A30DD9004AC93CC5694E736CA1" import="0">Units/NewUnits/England/WW2England.xml</File>
-	<File md5="57BCC9A30DD9004AC93CC5694E736CA1" import="0">Units/NewUnits/France/WW2France.xml</File>
-	<File md5="57BCC9A30DD9004AC93CC5694E736CA1" import="0">Units/NewUnits/Germany/WW2Germany.xml</File>
-	<File md5="57BCC9A30DD9004AC93CC5694E736CA1" import="0">Units/NewUnits/Greek/WW2Greece.xml</File>
-	<File md5="57BCC9A30DD9004AC93CC5694E736CA1" import="0">Units/NewUnits/Italy/WW2Rome.xml</File>
-	<File md5="57BCC9A30DD9004AC93CC5694E736CA1" import="0">Units/NewUnits/Japan/WW2Japan.xml</File>
-	<File md5="57BCC9A30DD9004AC93CC5694E736CA1" import="0">Units/NewUnits/Russia/WW2Russia.xml</File>
-	<File md5="57BCC9A30DD9004AC93CC5694E736CA1" import="0">Units/NewUnits/USA/WW2America.xml</File>
-	
+    	<File md5="2A4344E1AA47EB78E43985CC9AB0BBD6" import="1">Tech/TechTreeSelectbg.dds</File>
+   	<File md5="12E7317D1B2B9454957258B07CE34165">AI/CIV5GlobalAIDefines.xml</File>
+   	<File md5="CBBE4715F1EF26777BDE6B793E26467E">AI/CIV5Leaders.xml</File>
+   	<File md5="986A4E3DAAC617A22D2EA3DEF334B893">Art/Icons/Building Icons/buildingatlasFour.dds</File>
+    	<File md5="2DD1EEE65692F1429C07373DE1E0372D">Art/Icons/Building Icons/buildingatlasFour1024.dds</File>
+    	<File md5="1E5D1976EFEBAE8CADE50C7F35D71442">Art/Icons/Building Icons/buildingatlasFour360.dds</File>
+    	<File md5="68AE09EDDC49D0D9D1D2DB13AD2ABECC">Art/Icons/Building Icons/buildingatlasFour512.dds</File>
+    	<File md5="00D473DC18694DA975DFADCF6D7FD0AD">Art/Icons/Building Icons/buildingatlasFour640.dds</File>
+    	<File md5="FCD572C5B946B230A5D9C53754D3D08F">Art/Icons/Building Icons/buildingatlasThree.dds</File>
+    	<File md5="3D75FEF86AF0C6AD9CCD35A4BC6DAAD6">Art/Icons/Building Icons/buildingatlasThree1024.dds</File>
+    	<File md5="70A3975E3E443BDE66ADBE7FF88649EB">Art/Icons/Building Icons/buildingatlasThree360.dds</File>
+    	<File md5="0A350CD99C7F944E2407F43BB4E84BAB">Art/Icons/Building Icons/buildingatlasThree512.dds</File>
+    	<File md5="0090BB33FAD5A9205385FE8DA05F033C">Art/Icons/Building Icons/buildingatlasThree640.dds</File>
+    	<File md5="333D455863E65430BC93BC5CD5386E7C">Art/Icons/Building Icons/buildingatlasTwo.dds</File>
+    	<File md5="BF12646F483E98FAFECDF35369FCDCD0">Art/Icons/Building Icons/buildingatlasTwo1024.dds</File>
+    	<File md5="91A10D133F9911CCBB2E2C811D84E461">Art/Icons/Building Icons/buildingatlasTwo360.dds</File>
+    	<File md5="FDBE472597631DA88518877327F4C0EB">Art/Icons/Building Icons/buildingatlasTwo512.dds</File>
+	<File md5="24668B8066B4D1112B33132D3D3B0B02">Art/Icons/Building Icons/buildingatlasTwo640.dds</File>
+	<File md5="A7CC2D8FDF8621DAB03828DDE39F8C2C">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive.dds</File>
+	<File md5="24AB51AC391B9B28AD34BF6336581050">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive1024.dds</File>
+	<File md5="6BC46E5CD0FA974577FC4790171F689A">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive360.dds</File>
+	<File md5="6B341879AB590FE58C99144D46288308">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive512.dds</File>
+	<File md5="352794FF9C3A24EE7ACE242A35F0D83B">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive640.dds</File>
+	<File md5="BA7DF0BF53316F88D867B3240F16407D">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour.dds</File>
+	<File md5="7155F9FD78EC8426E89CD6277B791610">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour1024.dds</File>
+	<File md5="A4F07F207E8322709BBEB0048F2E781F">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour360.dds</File>
+	<File md5="E02E0CB35756ECC72F010CC2384C19D8">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour512.dds</File>
+	<File md5="5864A4560218990C42A0895535F96227">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour640.dds</File>
+	<File md5="D69926932729BA98261474A85D3BE69B">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne.dds</File>
+	<File md5="CF44F77570959FCAA84D6A78D1A4FFE2">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne1024.dds</File>
+	<File md5="987E95A1EC0005F81E949A915C211425">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne360.dds</File>
+	<File md5="95F29AC8B7EFDFE6C6D79442906CA105">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne512.dds</File>
+	<File md5="2BAE72782DBE9623C78071A849C7E37A">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne640.dds</File>
+	<File md5="77F7144DA035BE97018524FC498F2E5C">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree.dds</File>
+	<File md5="EBF1F30CC09BD409348C4FCE68DBB42B">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree1024.dds</File>
+	<File md5="B7D4F23D7C6BEEC93ACF063E0110F89B">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree360.dds</File>
+	<File md5="7988A8B4883892C0B62EBD7379138FA2">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree512.dds</File>
+	<File md5="685C1B6D981D9AA9F172F1EE64B64269">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree640.dds</File>
+	<File md5="6714A46CFE9B74F5E1C14819150009FC">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo.dds</File>
+	<File md5="6EBEDD2A018DEDCAD103B990557991A2">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo1024.dds</File>
+	<File md5="5C114C68B1AF3CC5E60C4CE7DD2C4967">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo360.dds</File>
+	<File md5="18D1BCEA88F809BA885C6B69394EB20D">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo512.dds</File>
+	<File md5="43E47D87B3AE8781C158CD3D0A2EBFDB">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo640.dds</File>
+	<File md5="BE75CD540648D0DB169E6CFDECD110E7">Art/Icons/Resource Icons/resourcesTwo2048.dds</File>
+	<File md5="5B5DE5C3DA0B10650A31559DDB72CCD3">Art/Icons/Resource Icons/resourcesTwo360.dds</File>
+	<File md5="25F63B4C4CECAAB5DC098D6008E22DC8">Art/Icons/Resource Icons/resourcesTwo512.dds</File>
+	<File md5="31F47F9D226D38023E51280984124D44">Art/Icons/Resource Icons/resourcesTwo640.dds</File>
+	<File md5="1EC4D9AE42F33919404F8F1C5AD756D7">Art/Icons/Tech Icons/technologyatlasFive.dds</File>
+	<File md5="C92C0DE7C69A03AAD481B3FBE176F2B2">Art/Icons/Tech Icons/technologyatlasFive1024.dds</File>
+	<File md5="67C171252D1D42A32548162A16557362">Art/Icons/Tech Icons/technologyatlasFive1712.dds</File>
+	<File md5="6D057ED53230FE2FCD4C681D22EDDDF5">Art/Icons/Tech Icons/technologyatlasFive360.dds</File>
+	<File md5="75AAB61C43E0E6E762FE628CBEEECC05">Art/Icons/Tech Icons/technologyatlasFive512.dds</File>
+	<File md5="FB494B02C5B1053727DEC2D2DDDCE67E">Art/Icons/Tech Icons/technologyatlasFive640.dds</File>
+	<File md5="6C55EC0C25CDE2A542FAB2D8CCD059DF">Art/Icons/Tech Icons/technologyatlasFour.dds</File>
+	<File md5="C8BFB6153CEBCA3F9DDBCED903E63AFF">Art/Icons/Tech Icons/technologyatlasFour1024.dds</File>
+	<File md5="D77E20526EC0E45E47C43B0DF20EF2C2">Art/Icons/Tech Icons/technologyatlasFour1712.dds</File>
+	<File md5="5ECC8263E4E79813A1E3552B904A01F8">Art/Icons/Tech Icons/technologyatlasFour360.dds</File>
+	<File md5="4E3D6D466AEE97A4778F81FC90774865">Art/Icons/Tech Icons/technologyatlasFour512.dds</File>
+	<File md5="D0846C4E69C275F939E2768B3BBA7611">Art/Icons/Tech Icons/technologyatlasFour640.dds</File>
+	<File md5="23EA1AC530400A372BED728305574A7A">Art/Icons/Tech Icons/technologyatlasThree.dds</File>
+	<File md5="6132AC83C6AE2F910F6FD9D1D70A56C0">Art/Icons/Tech Icons/technologyatlasThree1024.dds</File>
+	<File md5="B164AA77C02A127976A4C61F940BDE07">Art/Icons/Tech Icons/technologyatlasThree1712.dds</File>
+	<File md5="A32592981AFA51E01A09FB7F8A2912E5">Art/Icons/Tech Icons/technologyatlasThree360.dds</File>
+	<File md5="9EB3BBC21DC78C394FBA25E7EACE1BED">Art/Icons/Tech Icons/technologyatlasThree512.dds</File>
+	<File md5="A12A9734A4A2A14BAE4B1CE91F998252">Art/Icons/Tech Icons/technologyatlasThree640.dds</File>
+	<File md5="90BDCCCE41EC9D99F328D1B34B071210">Art/Icons/Unit Icons/unitportraitsPower.dds</File>
+	<File md5="EC31EF13749F812B039576BC8BDE0822">Art/Icons/Unit Icons/unitportraitsPower1024.dds</File>
+	<File md5="337FF941C2674607D1DE1BF545724DE2">Art/Icons/Unit Icons/unitportraitsPower360.dds</File>
+	<File md5="5A7A62D6CD178A362FAD002A06EEA19D">Art/Icons/Unit Icons/unitportraitsPower512.dds</File>
+	<File md5="04DF7AC4A875A7F3DA19D12543E8C8E3">Art/Icons/Unit Icons/unitportraitsPower640.dds</File>
+	<File md5="2D5DBBBAF8C4D4FCABAEA3429A05B0CE">Art/MPMButtonAtlas256.dds</File>
+	<File md5="1C86A6452D810724696F9F2E754CC78C">Art/Policy/Governments/SocialPoliciesCommunism.dds</File>
+	<File md5="3F9CDA3A1670BB31771ABEE1DB9E5E65">Art/Policy/Governments/SocialPoliciesCorporate.dds</File>
+	<File md5="80379B38459AB2D636DD793724041253">Art/Policy/Governments/SocialPoliciesDemocracy.dds</File>
+	<File md5="5136D7357AC70D23209153B6CCA9B402">Art/Policy/Governments/SocialPoliciesEcotopia.dds</File>
+	<File md5="02557716282539900D6CEB2F5F192568">Art/Policy/Governments/SocialPoliciesFascism.dds</File>
+	<File md5="544F301B6C69AF6E83B5BBD00A3043C8">Art/Policy/Governments/SocialPoliciesMonarchy.dds</File>
+	<File md5="130399FE49CA95FF317CC36AB59C0B37">Art/Policy/Governments/SocialPoliciesRepublic.dds</File>
+	<File md5="EB3E253869D89DCED02574BA5D4AD7DF">Art/Policy/Governments/SocialPoliciesTechnocracy.dds</File>
+	<File md5="FDDD60D1BA2C3C0360474612DF637CDA">Art/Policy/Governments/SocialPoliciesTheocracy.dds</File>
+	<File md5="C287E079E1950E34AF52EFD47C3AB38A">Art/Policy/Governments/SocialPoliciesVirtualDemocracy.dds</File>
+	<File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesAnarchism.dds</File>
+	<File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesCapitalism.dds</File>
+	<File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesConservatism.dds</File>
+	<File md5="F9AD035A3C9980CCC2197EBC537EFFAD">Art/Policy/GovIdeologies/SocialPoliciesEnviromentalism.dds</File>
+	<File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesImperialism.dds</File>
+	<File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesLiberalism.dds</File>
+	<File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesNationalism.dds</File>
+	<File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesPacifism.dds</File>
+	<File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesPopulism.dds</File>
+	<File md5="E1DFBB415FAB5BFC96E53D00B8C3D7D1">Art/Policy/GovIdeologies/SocialPoliciesSocialism.dds</File>
+	<File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesAristocracy.dds</File>
+	<File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesAutocracy.dds</File>
+	<File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesConstitutional.dds</File>
+	<File md5="3B9CB92980D7CD517752A8FBA82B0EBC">Art/Policy/GovSystems/SocialPoliciesElectoral.dds</File>
+	<File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesFederalism.dds</File>
+	<File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesFeudalism.dds</File>
+	<File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesParliamentary.dds</File>
+	<File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesPluralism.dds</File>
+	<File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesPlutocracy.dds</File>
+	<File md5="DEB1106D0B721D904F57A788274BFFA2">Art/Policy/GovSystems/SocialPoliciesTotalitarianism.dds</File>
+	<File md5="B497461EBB395911A3071B5FA3226275">Art/Unit Flags/unitflagatlaswhiteTwo.dds</File>
+	<File md5="DAADEE071F9E3A53EBA57371F646EF8D">Art/Wonder Splash/SplashAlJabr.dds</File>
+	<File md5="028721E1A8C4C7C3C0979330B0D280CE">Art/Wonder Splash/SplashBachCathedral.dds</File>
+	<File md5="D0E1044102511291FD5E500DD7765F09">Art/Wonder Splash/SplashBrainMap.dds</File>
+	<File md5="3F3611783539510EC409D1097C256780">Art/Wonder Splash/SplashCommunistManifesto.dds</File>
+	<File md5="AD12A3840760968A369267FFE55FAACD">Art/Wonder Splash/SplashCopernicus.dds</File>
+	<File md5="C2BF0E07FE5CFB9064A779DD3EFACCF2">Art/Wonder Splash/SplashCureForCancer.dds</File>
+	<File md5="BC8FFD97F7E5B8F891B7FCEB1EECB8FE">Art/Wonder Splash/SplashDinosaurPark.dds</File>
+	<File md5="A17604CD71CE761BD2BE773E5F5E6020">Art/Wonder Splash/SplashEdisonLab.dds</File>
+	<File md5="9D4052CB70E4D98FF747AFC09D9D3B19">Art/Wonder Splash/SplashGalileoTelescope.dds</File>
+	<File md5="32CCD658822789919EEAB3E803467F04">Art/Wonder Splash/SplashGreatMosque.dds</File>
+	<File md5="C5E4EC9352AED0D3EA976F5B1A3A2846">Art/Wonder Splash/SplashGutenberg_bible.dds</File>
+	<File md5="60ED01337181B8BEF812BCB335D91B14">Art/Wonder Splash/SplashHollywood.dds</File>
+	<File md5="4DD6224F1F79CDC972ED5929ACE893BE">Art/Wonder Splash/SplashHumanGenomeProject.dds</File>
+	<File md5="E95E39E40A1A1A80D2AB4DC151825855">Art/Wonder Splash/SplashInternet.dds</File>
+	<File md5="152242E560CBFB8B8808E0458ACC261F">Art/Wonder Splash/SplashKongMiao.dds</File>
+	<File md5="1C4C5CB92E023F0826DD3BEF9EB98243">Art/Wonder Splash/SplashLabyrinth.dds</File>
+	<File md5="473FBD8FC4EA170124F5AB23FD820EAF">Art/Wonder Splash/SplashLeonardoWorkshop.dds</File>
+	<File md5="7C72D39F8C9A6AE88EE8E1A3A262117D">Art/Wonder Splash/SplashLHC.dds</File>
+	<File md5="1579FC55C3B5B20C9FEB440DF966E285">Art/Wonder Splash/SplashMagellanVoyage.dds</File>
+	<File md5="6B91C8854ED074A9E0C7579FD0B6F37D">Art/Wonder Splash/SplashMahabodhi.dds</File>
+	<File md5="8AC916DFB381B192F97C21606FE3D626">Art/Wonder Splash/SplashMausoleum.dds</File>
+	<File md5="32283E83357D25BE5919C225D4D3D234">Art/Wonder Splash/SplashMTheory.dds</File>
+	<File md5="6728DBD5F1E20726639EEFFDA25FFAF8">Art/Wonder Splash/SplashNazcaLines.dds</File>
+	<File md5="627FD1CCFDA92CA35344CAFE3ADD1079">Art/Wonder Splash/SplashParthenon.dds</File>
+	<File md5="2BBA1CFAC297832AFE71E4CADB069364">Art/Wonder Splash/SplashPetra.dds</File>
+	<File md5="C68CD0E44C0A033B04ACCE380D62BFA9">Art/Wonder Splash/SplashPrincipaMathematica.dds</File>
+	<File md5="FDF62AFD97B0753E854BBE414DEB4712">Art/Wonder Splash/SplashShakespearTheater.dds</File>
+	<File md5="44B5EDE8F6AEBC83B6CC23637D03C5EC">Art/Wonder Splash/SplashSphinx.dds</File>
+	<File md5="2A368064DDF2D5D26C7B0088AA8F54C3">Art/Wonder Splash/SplashSunTzuArtofWar.dds</File>
+	<File md5="8F4FEB04896D165225161C91340F9604">Art/Wonder Splash/SplashTemple_of_heaven.dds</File>
+	<File md5="91728F861DC534CCBF82F41CA1A5A7EA">Art/Wonder Splash/SplashTemple_of_sollomon.dds</File>
+	<File md5="BCF6C546C571A76CBE76D450154CA668">Art/Wonder Splash/SplashTerracottaArmy.dds</File>
+	<File md5="0E8C25CC319C54C2694D19C949FDB399">Art/Wonder Splash/SplashTheoryOfEvolution.dds</File>
+	<File md5="9023F9B6B2ACCD88F57A853E4EFE9DA7">Art/Wonder Splash/SplashVirtualSecuritiesExchange.dds</File>
+	<File md5="63442591DA5A07FBBBA5491E5B3B16D9">Art/Wonder Splash/SplashWealthOfNations.dds</File>
+	<File md5="0FD2B19C5FF08DA168714C2CD5347DD4">Art/Wonder Splash/SplashZeus.dds</File>
+	<File md5="0A0D119DD3824FFFA1D66799A28A7E35">Art/Wonder Splash/SplashZiggurat.dds</File>
+	<File md5="C801DEF2571C257B0E60675077F606FD">Art/yieldatlas.dds</File>
+	<File md5="7F010E1058FB415F37B6759BCA420BA3">Art/YieldIconManager.lua</File>
+	<File md5="8D2666AED225413F5C44902DC3D35950">AssignStartingPlots.lua</File>
+	<File md5="D8A0C5B7C134ED497B5757089A3BEE74">Buildings/CIV5BuildingClasses.xml</File>
+	<File md5="E4B6E8BAF59C57490AB9C7E01B8439E2">Buildings/CIV5BuildingIcons.xml</File>
+	<File md5="6DF36160BBFED610F7D14511DBADD20F">Buildings/CIV5Buildings.xml</File>
+	<File md5="60D1248B24CEBAE4C8789D83EDA5B566">Buildings/CIV5ProjectIcons.xml</File>
+	<File md5="D2CD318FF6F61578800A1C303D3380A1">Buildings/CIV5Projects.xml</File>
+	<File md5="931087272CE3E43AAC59388A0699AA95">Buildings/CIV5Specialists.xml</File>
+	<File md5="9A6ACAAA380887C7637609F242790C37">Buildings/MonopolyBuildingClasses.xml</File>
+	<File md5="CB07B43C0B88C1F32CF798757E509B79">Buildings/MonopolyBuildingIcons.xml</File>
+	<File md5="16B2EA28F55790E31B72D5DE5F2FFCDB">Buildings/MonopolyBuildings.xml</File>
+	<File md5="1828B15DAB35A22E2C87FC284D602A07">CIV5ArtDefines_Landmarks.xml</File>
+	<File md5="440FE11EF9ABE6AE9B33051315B38089">CIV5IconTextureAtlases.xml</File>
+	<File md5="149044EB2E8D341C39063E4C7692EEDE">CIV5PolicyBranch.xml</File>
+	<File md5="C7637F96C31DB8685642F2ABE27D93C3">FreePolicies.xml</File>
+	<File md5="24CA4790273EBD7645C991608ABC09AA">Game Pace Rules.sql</File>
+	<File md5="180950B6F1BEE1C80C156B370F5389C8">Governments.xml</File>
+	<File md5="1880F03498104E3A93EA50A769AB9E46">GovIdeology.xml</File>
+	<File md5="5E4DBF8CA8367CC14B284171E12C127A">GovSystems.xml</File>
+	<File md5="E234F5E97AA89130AA109F8504901E05">PolicyCategories.xml</File>
+	<File md5="A2901CA2F5BFED6939C22F4D46137B6C">PolicyTableAdds.sql</File>
+	<File md5="5450CA077CB96242A5CF0484953DD3B4">Policy/SocialPolicyPopup.lua</File>
+	<File md5="9AA9AD7CAF3E20BBB159549D59FF2349">Policy/SocialPolicyPopup.xml</File>
+	<File md5="430DF983499FB15C440B6D9F93DD149E">Community Call to Power Project.modinfo</File>
+	<File md5="56BF887EF7CC0F95486E4FCC34C684F9">Religions.xml</File>
+	<File md5="AFBE3093D9715324F43C480FA8A7A653">ReligiousIdeology.xml</File>
+	<File md5="2F73C4FBAB22D97AC89651A58A64EB67">Tech/CIV5Eras.xml</File>
+	<File md5="51507F1D93A66EB833B066C5E3CC3CC0">Tech/CIV5TechIcons.xml</File>
+	<File md5="A1B1128517EF32FC1C451BAFF5C3EA28">Tech/EconomicsTech.xml</File>
+	<File md5="446587BFCE90D551D72F51A1686C3CB9">Tech/EngineeringTech.xml</File>
+	<File md5="4892E7B8C375BB8360EF18E12947ACF3">Tech/MilitaryTech.xml</File>
+	<File md5="E0011C4B4CC5B8D07E671BA8D16E4556">Tech/PrereqTech.xml</File>
+	<File md5="C5CAFFF3709D570D22664EDFEDC55F70">Tech/SciencesTech.xml</File>
+	<File md5="FE6C2E2F00F5851F5350FABED0D2BD95">Tech/SocialTech.xml</File>
+	<File md5="20281F3973245077C469BD0E66C81E95">Tech/TechCategories.xml</File>
+	<File md5="F9D2A48E55191DEA051FD6508AC956D7">Tech/TechHelpInclude.lua</File>
+	<File md5="D72D3806D6F8024F0FFEE11EB855CFA6">Tech/TechTableAdds.sql</File>
+	<File md5="4A1B3075A9E75323278D311C5C6EABE9">Tech/TechTree.lua</File>
+	<File md5="8E5DA33B189E5225DC439B85EA426EB3">Tech/TechTree.xml</File>
+	<File md5="733AAF07E81B5C39BB5E77F1D9378B9D">Tech/TechTreeBFTT.lua</File>
+	<File md5="2A4344E1AA47EB78E43985CC9AB0BBD6">Tech/TechTreeBFTT.xml</File>
+	<File md5="1441243D18427F3F51DACD75A42CE3A0">Tech/TechTreeText.xml</File>
+	<File md5="B2260607988F95873DB16E28B540FE2A">Terrain/CIV5Features.xml</File>
+	<File md5="82184813FC8573DFB5026A354B0749B7">Terrain/CIV5Improvements.xml</File>
+	<File md5="86A61956DA6B7DA7CD09A5ABD07110F3">Terrain/CIV5Improvements3.xml</File>
+	<File md5="D4A3989601B0D4581519ECB670775363">Terrain/CIV5Resources.xml</File>
+	<File md5="5C07B41A1C9813278CF6B79E506AC5AA">Terrain/CIV5Routes.xml</File>
+	<File md5="6884FB18D613BE66A3A0187A131F27EC">Terrain/CIV5Terrains.xml</File>
+	<File md5="E4207DB708BAEA89BF7CCE82366437CE">Terrain/New Resource/CIV5ResourceIcons.xml</File>
+	<File md5="913B83B0B5A999667C471925929732F2">Terrain/New Resource/ResourceIconManager.lua</File>
+	<File md5="E871367BA8E29DFE8C400FF685058913">Terrain/New Resource/ResourceNew.xml</File>
+	<File md5="DCB5FD82FE5B562840F7B282C8FC61DC">Text/CIV5GameText.xml</File>
+	<File md5="FA8DE521E7F89FFB9E5B453FD95A0021">Text/MonopolyText.xml</File>
+	<File md5="F5F672E8E18976F579A2018780CADFF3">Text/PolicyText.xml</File>
+	<File md5="8F7169883BC33B1AA388F548BC436A0B">Units/CIV5Builds.xml</File>
+	<File md5="35D00DB7FE05378A4CC68647EACEE143">Units/CIV5UnitClasses.xml</File>
+	<File md5="2F3FB12DDBF11B2F3047C2631D2C0DFE">Units/CIV5UnitIcons.xml</File>
+	<File md5="FC5F92958F237BC4E47421EFAE748645">Units/CIV5Units.xml</File>
+	<File md5="1A8DC47010CE0572492F8E2E1C5E0543">Z - Global/CIV5GlobalDefines.xml</File>
+	<File md5="19D9DB2D4E6D283A314F138AAC87B728">Z - Global/CIV5HurryInfos.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339">Z - Global/CIV5Worlds.xml</File>
+	<File md5="5F9A3697D67D549D92E5BA90843C59C1">Z - Global/HandicapInfos.xml</File>
+	<File md5="7A47BFE4AA9DC532FBBB0C785A15DA11">Z-Unused/CIV5GameSpeeds.xml</File>
+	<File md5="EED7D8D999D9FFD3A86FDFDECF3202F5">Z-Unused/FinalIDReordering.sql</File>
+	<File md5="57BCC9A30DD9004AC93CC5694E736CA1">Z-Unused/Tweaks.sql</File>	
   </Files>
   <Actions>
 	  <OnModActivated>
-	  <UpdateDatabase>CCTPMaps/MapMenuTXT.xml</UpdateDatabase>
+	  	<UpdateDatabase>CCTPMaps/MapMenuTXT.xml</UpdateDatabase>
 		<UpdateDatabase>LuaReqs/LuaReqAdds.sql</UpdateDatabase>
 		<UpdateDatabase>LuaReqs/LuaReqBuildings.xml</UpdateDatabase>  
 		<UpdateDatabase>LuaReqs/LuaReqUnits.xml</UpdateDatabase> 
-		  <UpdateDatabase>Tech/TechTableAdds.sql</UpdateDatabase>
-		  <UpdateDatabase>PolicyTableAdds.sql</UpdateDatabase>
-		  <UpdateDatabase>Tech/CIV5Eras.xml</UpdateDatabase>
-		  <UpdateDatabase>Tech/TechCategories.xml</UpdateDatabase>
-		  <UpdateDatabase>Tech/TechTreeText.xml</UpdateDatabase>
-		  <UpdateDatabase>PolicyCategories.xml</UpdateDatabase>
-		  <UpdateDatabase>Units/CIV5Builds.xml</UpdateDatabase>
-		  <UpdateDatabase>Terrain/CIV5Features.xml</UpdateDatabase>
-		  <UpdateDatabase>Text/CIV5GameText.xml</UpdateDatabase>
-		  <UpdateDatabase>Buildings/CIV5Projects.xml</UpdateDatabase>
-		  <UpdateDatabase>Terrain/CIV5Resources.xml</UpdateDatabase>
-		  <UpdateDatabase>Terrain/CIV5Routes.xml</UpdateDatabase>
-		  <UpdateDatabase>Units/CIV5UnitClasses.xml</UpdateDatabase>
-		  <UpdateDatabase>Z - Global/CIV5Worlds.xml</UpdateDatabase>
-		  <UpdateDatabase>AI/CIV5GlobalAIDefines.xml</UpdateDatabase>
-		  <UpdateDatabase>Z - Global/CIV5HurryInfos.xml</UpdateDatabase>
-		  <UpdateDatabase>AI/CIV5Leaders.xml</UpdateDatabase>
-		  <UpdateDatabase>Z - Global/CIV5GlobalDefines.xml</UpdateDatabase>
-		  <UpdateDatabase>Terrain/CIV5Improvements.xml</UpdateDatabase>
-		  <UpdateDatabase>Terrain/CIV5Resources.xml</UpdateDatabase>
-		  <UpdateDatabase>Terrain/CIV5Terrains.xml</UpdateDatabase>
-		  <UpdateDatabase>Units/CIV5Units.xml</UpdateDatabase>
-		  <UpdateDatabase>Z - Global/HandicapInfos.xml</UpdateDatabase>
-		  <UpdateDatabase>CIV5PolicyBranch.xml</UpdateDatabase>
-		  <UpdateDatabase>CIV5IconTextureAtlases.xml</UpdateDatabase>
-		  <UpdateDatabase>Units/CIV5UnitIcons.xml</UpdateDatabase>
-		  <UpdateDatabase>Buildings/CIV5ProjectIcons.xml</UpdateDatabase>
-		  <UpdateDatabase>Tech/EconomicsTech.xml</UpdateDatabase>
-		  <UpdateDatabase>Tech/EngineeringTech.xml</UpdateDatabase>
-		  <UpdateDatabase>Tech/MilitaryTech.xml</UpdateDatabase>
-		  <UpdateDatabase>Tech/SciencesTech.xml</UpdateDatabase>
-		  <UpdateDatabase>Tech/SocialTech.xml</UpdateDatabase>
-		  <UpdateDatabase>Tech/CIV5TechIcons.xml</UpdateDatabase>
-		  <UpdateDatabase>Tech/PrereqTech.xml</UpdateDatabase>
-		  <UpdateDatabase>Text/PolicyText.xml</UpdateDatabase>
-		  <UpdateDatabase>Buildings/CIV5Buildings.xml</UpdateDatabase>
-		  <UpdateDatabase>Buildings/CIV5BuildingClasses.xml</UpdateDatabase>
-		  <UpdateDatabase>Buildings/CIV5BuildingIcons.xml</UpdateDatabase>
-		  <UpdateDatabase>Buildings/CIV5Specialists.xml</UpdateDatabase>
-		  <UpdateDatabase>FreePolicies.xml</UpdateDatabase>
-		  <UpdateDatabase>Governments.xml</UpdateDatabase>
-		  <UpdateDatabase>GovIdeology.xml</UpdateDatabase>
-		  <UpdateDatabase>GovSystems.xml</UpdateDatabase>
-		  <UpdateDatabase>CIV5ArtDefines_Landmarks.xml</UpdateDatabase>
-		  <UpdateDatabase>Terrain/New Resource/ResourceNew.xml</UpdateDatabase>
-		  <UpdateDatabase>Terrain/New Resource/CIV5ResourceIcons.xml</UpdateDatabase>
-		  <UpdateDatabase>Buildings/MonopolyBuildingClasses.xml</UpdateDatabase>
-		  <UpdateDatabase>Buildings/MonopolyBuildings.xml</UpdateDatabase>
-		  <UpdateDatabase>Text/MonopolyText.xml</UpdateDatabase>
-		  <UpdateDatabase>Buildings/MonopolyBuildingIcons.xml</UpdateDatabase>
-		  <UpdateDatabase>Game Pace Rules.sql</UpdateDatabase>
-		  	<UpdateDatabase>Units/Art/Animations_and_Effects/Civ5ArtDefines_UnitMembers.xml</UpdateDatabase>
-			<UpdateDatabase>Units/Art/Animations_and_Effects/Civ5ArtDefines_Units.xml</UpdateDatabase>
-			<UpdateDatabase>Units/NewUnits/WW2UnitsText.xml</UpdateDatabase>
-			<UpdateDatabase>Units/NewUnits/China/WW2China.xml</UpdateDatabase>
-			<UpdateDatabase>Units/NewUnits/England/WW2England.xml</UpdateDatabase>
-			<UpdateDatabase>Units/NewUnits/France/WW2France.xml</UpdateDatabase>
-			<UpdateDatabase>Units/NewUnits/Germany/WW2Germany.xml</UpdateDatabase>
-			<UpdateDatabase>Units/NewUnits/Greek/WW2Greece.xml</UpdateDatabase>
-			<UpdateDatabase>Units/NewUnits/Italy/WW2Rome.xml</UpdateDatabase>
-			<UpdateDatabase>Units/NewUnits/Japan/WW2Japan.xml</UpdateDatabase>
-			<UpdateDatabase>Units/NewUnits/Russia/WW2Russia.xml</UpdateDatabase>
-			<UpdateDatabase>Units/NewUnits/USA/WW2America.xml</UpdateDatabase>
+		<UpdateDatabase>Tech/TechTableAdds.sql</UpdateDatabase>
+		<UpdateDatabase>PolicyTableAdds.sql</UpdateDatabase>
+		<UpdateDatabase>Tech/CIV5Eras.xml</UpdateDatabase>
+		<UpdateDatabase>Tech/TechCategories.xml</UpdateDatabase>
+		<UpdateDatabase>Tech/TechTreeText.xml</UpdateDatabase>
+		<UpdateDatabase>PolicyCategories.xml</UpdateDatabase>
+		<UpdateDatabase>Units/CIV5Builds.xml</UpdateDatabase>
+		<UpdateDatabase>Terrain/CIV5Features.xml</UpdateDatabase>
+		<UpdateDatabase>Text/CIV5GameText.xml</UpdateDatabase>
+		<UpdateDatabase>Buildings/CIV5Projects.xml</UpdateDatabase>
+		<UpdateDatabase>Terrain/CIV5Resources.xml</UpdateDatabase>
+		<UpdateDatabase>Terrain/CIV5Routes.xml</UpdateDatabase>
+		<UpdateDatabase>Units/CIV5UnitClasses.xml</UpdateDatabase>
+		<UpdateDatabase>Z - Global/CIV5Worlds.xml</UpdateDatabase>
+		<UpdateDatabase>AI/CIV5GlobalAIDefines.xml</UpdateDatabase>
+		<UpdateDatabase>Z - Global/CIV5HurryInfos.xml</UpdateDatabase>
+		<UpdateDatabase>AI/CIV5Leaders.xml</UpdateDatabase>
+		<UpdateDatabase>Z - Global/CIV5GlobalDefines.xml</UpdateDatabase>
+		<UpdateDatabase>Terrain/CIV5Improvements.xml</UpdateDatabase>
+		<UpdateDatabase>Terrain/CIV5Resources.xml</UpdateDatabase>
+		<UpdateDatabase>Terrain/CIV5Terrains.xml</UpdateDatabase>
+		<UpdateDatabase>Units/CIV5Units.xml</UpdateDatabase>
+		<UpdateDatabase>Z - Global/HandicapInfos.xml</UpdateDatabase>
+		<UpdateDatabase>CIV5PolicyBranch.xml</UpdateDatabase>
+		<UpdateDatabase>CIV5IconTextureAtlases.xml</UpdateDatabase>
+		<UpdateDatabase>Units/CIV5UnitIcons.xml</UpdateDatabase>
+		<UpdateDatabase>Buildings/CIV5ProjectIcons.xml</UpdateDatabase>
+		<UpdateDatabase>Tech/EconomicsTech.xml</UpdateDatabase>
+		<UpdateDatabase>Tech/EngineeringTech.xml</UpdateDatabase>
+		<UpdateDatabase>Tech/MilitaryTech.xml</UpdateDatabase>
+		<UpdateDatabase>Tech/SciencesTech.xml</UpdateDatabase>
+		<UpdateDatabase>Tech/SocialTech.xml</UpdateDatabase>
+		<UpdateDatabase>Tech/CIV5TechIcons.xml</UpdateDatabase>
+		<UpdateDatabase>Tech/PrereqTech.xml</UpdateDatabase>
+		<UpdateDatabase>Text/PolicyText.xml</UpdateDatabase>
+		<UpdateDatabase>Buildings/CIV5Buildings.xml</UpdateDatabase>
+		<UpdateDatabase>Buildings/CIV5BuildingClasses.xml</UpdateDatabase>
+		<UpdateDatabase>Buildings/CIV5BuildingIcons.xml</UpdateDatabase>
+		<UpdateDatabase>Buildings/CIV5Specialists.xml</UpdateDatabase>
+		<UpdateDatabase>FreePolicies.xml</UpdateDatabase>
+		<UpdateDatabase>Governments.xml</UpdateDatabase>
+		<UpdateDatabase>GovIdeology.xml</UpdateDatabase>
+		<UpdateDatabase>GovSystems.xml</UpdateDatabase>
+		<UpdateDatabase>CIV5ArtDefines_Landmarks.xml</UpdateDatabase>
+		<UpdateDatabase>Terrain/New Resource/ResourceNew.xml</UpdateDatabase>
+		<UpdateDatabase>Terrain/New Resource/CIV5ResourceIcons.xml</UpdateDatabase>
+		<UpdateDatabase>Buildings/MonopolyBuildingClasses.xml</UpdateDatabase>
+		<UpdateDatabase>Buildings/MonopolyBuildings.xml</UpdateDatabase>
+		<UpdateDatabase>Text/MonopolyText.xml</UpdateDatabase>
+		<UpdateDatabase>Buildings/MonopolyBuildingIcons.xml</UpdateDatabase>
+	 	<UpdateDatabase>Game Pace Rules.sql</UpdateDatabase>
 	  </OnModActivated>
   </Actions>
   <EntryPoints>
