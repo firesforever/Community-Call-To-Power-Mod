@@ -6,6 +6,7 @@
     <Description>Thread: http://forums.civfanatics.com/showthread.php?t=432802</Description>
     <Authors>chrome-rome</Authors>
     <SpecialThanks>Everyone who helped make this mod playable!!!!! !</SpecialThanks>
+    <HideSetupGame>1</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
@@ -19,15 +20,39 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="0">Frontiers/BuildingTableAdds.sql</File>
-    <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="1">Frontiers/CityView.lua</File>
-    <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="1">Frontiers/CityView.xml</File>
-    <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="0">LuaReqs/LuaReqAdds.sql</File>
-    <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="1">LuaReqs/LuaReqInclude.lua</File>
-    <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="1">LuaReqs/LuaReqBuildings.xml</File>
-
-    <File md5="CD06AE745B5C51C2D7B599B3E0DBE807" import="1">LuaReqs/LuaReqUnits.xml</File>
-
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/MapFiles/LEMMapPic.dds</File>
+	<File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/CCTPMainBG.dds</File>
+	<File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/RTPPics/Assassin.dds</File>
+	<File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/RTPPics/ElPresidente.dds</File>
+	<File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/RTPPics/GodKing.dds</File>
+	<File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/RTPPics/Heir.dds</File>
+	<File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/RTPPics/Wanderer.dds</File>
+	<File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/RTPPics/WarLord.dds</File>
+	<File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/RTPPics/RTPBookBG.dds</File>
+	<File md5="C8F6CE90622D47D30042EA449212D014" import="1">CCTPMaps/CCTP/PlotHelpManager.lua</File>
+    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/MapFiles/MasterMapInfo.lua</File>
+    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/MapFiles/LEMMapInfo.lua</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/MapFiles/RNEMapInfo.lua</File>
+    <File md5="D646F8270F8F58D10EE59CBC28B2CD8A" import="1">CCTPMaps/BasicCCTPSetup.lua</File>
+    <File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/BasicCCTPSetup.xml</File>
+	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/SelectCCTPCivilization.lua</File>
+	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/SelectCCTPCivilization.xml</File>
+	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/AdvancedCCTPSetup.lua</File>
+	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/AdvancedCCTPSetup.xml</File>
+	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/SelectRTP.lua</File>
+	<File md5="A97907E87AC085554427D59169646287" import="1">CCTPMaps/SelectRTP.xml</File>
+    <File md5="4F02D0E484606713FE7C7049F2E19199" import="0">CCTPMaps/SelectCCTPMapVersion.xml</File>
+    <File md5="76BB768A8039808F96FAE975931366D2" import="0">CCTPMaps/SelectCCTPMapVersion.lua</File>
+    <File md5="6E462B9A2CA3A3C165EC094F967E2881" import="1">CCTPMaps/CCTPMapManager.lua</File>
+    <File md5="90EC885289800940F993E1E88264D863" import="0">CCTPMaps/MapMenuTXT.xml</File>	
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsAdvancedSetup.lua</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsAdvancedSetup.xml</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsGameSetupScreen.lua</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsGameSetupScreen.xml</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsSelectCivilization.lua</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsSelectCivilization.xml</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsSelectMapType.lua</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">CCTPMaps/RMaps/RMapsSelectMapType.xml</File>
     <File md5="2A4344E1AA47EB78E43985CC9AB0BBD6" import="1">Tech/TechTreeSelectbg.dds</File>
     <File md5="12E7317D1B2B9454957258B07CE34165">AI/CIV5GlobalAIDefines.xml</File>
     <File md5="CBBE4715F1EF26777BDE6B793E26467E">AI/CIV5Leaders.xml</File>
@@ -828,6 +853,7 @@
   </Files>
   <Actions>
 	  <OnModActivated>
+	  <UpdateDatabase>CCTPMaps/MapMenuTXT.xml</UpdateDatabase>
 		<UpdateDatabase>LuaReqs/LuaReqAdds.sql</UpdateDatabase>
 		<UpdateDatabase>LuaReqs/LuaReqBuildings.xml</UpdateDatabase>  
 		<UpdateDatabase>LuaReqs/LuaReqUnits.xml</UpdateDatabase> 
@@ -896,5 +922,14 @@
 			<UpdateDatabase>Units/NewUnits/USA/WW2America.xml</UpdateDatabase>
 	  </OnModActivated>
   </Actions>
-  <EntryPoints />
+  <EntryPoints>
+    <EntryPoint type="Custom" file="CCTPMaps/SelectCCTPMapVersion.xml">
+      <Name>TXT_KEY_CCTP_TITLE</Name>
+      <Description>TXT_KEY_CCTP_DESC</Description>
+    </EntryPoint>
+    <EntryPoint type="MapScript" file="CCTPMaps/CCTPMapManager.lua">
+      <Name>MapManager</Name>
+      <Description>MapManager</Description>
+    </EntryPoint>
+  </EntryPoints>
 </Mod> 

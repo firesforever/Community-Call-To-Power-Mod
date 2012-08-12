@@ -1307,7 +1307,7 @@
 			<Where Type="UNIT_INFANTRY" />
 		</Update>
 		<Update>
-			<Set Cost="885" PrereqTech="TECH_TRACKED_VEHICLES" />
+			<Set Cost="885" PrereqTech="TECH_TRACKED_VEHICLES" ObsoleteTech="TECH_BLITZKRIEG"/>
 			<Where Type="UNIT_WWI_TANK" />
 		</Update>
 		<Update>
@@ -1535,6 +1535,7 @@
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_DDX_DESTROYER_TEXT</Civilopedia>
 			<Help>TXT_KEY_UNIT_HELP_DDX_DESTROYER</Help>
 			<Combat>65</Combat>
+			<RangedCombat>45</RangedCombat>
 			<Cost>25000</Cost>
 			<Moves>10</Moves>
 			<Range>3</Range>

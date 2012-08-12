@@ -1,0 +1,43 @@
+<GameData>
+
+	<Table name="CTPMapResourceList">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="resource" type="text"/>
+		<Column name="yield" type="integer"/>
+		<Column name="x" type="integer"/>
+		<Column name="y" type="integer"/>
+	</Table>
+
+	<CTPMapResourceList>
+		<Row>
+			<ID>0</ID>
+			<resource>RESOURCE_MARBLE</resource>
+			<yield>6</yield>
+			<x>0</x>
+			<y>0</y>
+		</Row>
+		<Row>
+			<resource>RESOURCE_TEA</resource>
+			<yield>6</yield>
+			<x>1</x>
+			<y>0</y>
+		</Row>
+		<!-- danielshannon: Add new Resource Locations Below This line (See above Tea placement example)************************************************** -->
+		
+		
+		
+		<!-- Dont Type Below Here************************************************** -->
+		
+		<!-- DocBuchanan: Add new Resource Locations Below This line (See above Tea placement example)************************************************** -->
+		
+		
+		
+		<!-- Dont Type Below Here************************************************** -->
+		
+	</CTPMapResourceList>
+
+</GameData>
+
+
+
+	

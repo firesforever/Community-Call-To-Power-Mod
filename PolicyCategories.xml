@@ -38,31 +38,31 @@
 			 <Type>POLICYTREECAT_GOVERNMENTS</Type>
 			 <Description>TXT_KEY_POLICYTREECAT_GOVERNMENTS</Description>
 			 <PortraitIndex>0</PortraitIndex>
-			 <IconAtlas>POLICYTREECAT_ATLAS</IconAtlas>
+			 <IconAtlas>MSP_ATLAS_1</IconAtlas>
 		 </Row>
 		<Row>
 			<Type>POLICYTREECAT_GOVERNMENTIDEOLOGIES</Type>
 			<Description>TXT_KEY_POLICYTREECAT_GOVERNMENTIDEOLOGIES</Description>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>POLICYTREECAT_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>MSP_ATLAS_1</IconAtlas>
 		</Row>
 		<Row>
 			<Type>POLICYTREECAT_GOVERNMENTSYSTEMS</Type>
 			<Description>TXT_KEY_POLICYTREECAT_GOVERNMENTSYSTEMS</Description>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>POLICYTREECAT_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>MSP_ATLAS_1</IconAtlas>
 		</Row>
 		<Row>
 			<Type>POLICYTREECAT_RELIGIONS</Type>
 			<Description>TXT_KEY_POLICYTREECAT_RELIGIONS</Description>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>POLICYTREECAT_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>MSP_ATLAS_1</IconAtlas>
 		</Row>
 		<Row>
 			<Type>POLICYTREECAT_RELIGIOUSIDEOLOGIES</Type>
 			<Description>TXT_KEY_POLICYTREECAT_RELIGIOUSIDEOLOGIES</Description>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>POLICYTREECAT_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>MSP_ATLAS_1</IconAtlas>
 		</Row>
 	</PolicyTreeCat>
 
