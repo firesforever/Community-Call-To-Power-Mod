@@ -900,7 +900,6 @@
 		  <UpdateDatabase>Governments.xml</UpdateDatabase>
 		  <UpdateDatabase>GovIdeology.xml</UpdateDatabase>
 		  <UpdateDatabase>GovSystems.xml</UpdateDatabase>
-		  <UpdateDatabase>CIV5ArtDefines_Landmarks.xml</UpdateDatabase>
 		  <UpdateDatabase>Terrain/New Resource/ResourceNew.xml</UpdateDatabase>
 		  <UpdateDatabase>Terrain/New Resource/CIV5ResourceIcons.xml</UpdateDatabase>
 		  <UpdateDatabase>Buildings/MonopolyBuildingClasses.xml</UpdateDatabase>
