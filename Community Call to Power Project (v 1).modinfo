@@ -204,7 +204,6 @@
 	<File md5="9A6ACAAA380887C7637609F242790C37">Buildings/MonopolyBuildingClasses.xml</File>
 	<File md5="CB07B43C0B88C1F32CF798757E509B79">Buildings/MonopolyBuildingIcons.xml</File>
 	<File md5="16B2EA28F55790E31B72D5DE5F2FFCDB">Buildings/MonopolyBuildings.xml</File>
-	<File md5="1828B15DAB35A22E2C87FC284D602A07">CIV5ArtDefines_Landmarks.xml</File>
 	<File md5="440FE11EF9ABE6AE9B33051315B38089">CIV5IconTextureAtlases.xml</File>
 	<File md5="149044EB2E8D341C39063E4C7692EEDE">CIV5PolicyBranch.xml</File>
 	<File md5="C7637F96C31DB8685642F2ABE27D93C3">FreePolicies.xml</File>
@@ -308,7 +307,6 @@
 		<UpdateDatabase>Governments.xml</UpdateDatabase>
 		<UpdateDatabase>GovIdeology.xml</UpdateDatabase>
 		<UpdateDatabase>GovSystems.xml</UpdateDatabase>
-		<UpdateDatabase>CIV5ArtDefines_Landmarks.xml</UpdateDatabase>
 		<UpdateDatabase>Terrain/New Resource/ResourceNew.xml</UpdateDatabase>
 		<UpdateDatabase>Terrain/New Resource/CIV5ResourceIcons.xml</UpdateDatabase>
 		<UpdateDatabase>Buildings/MonopolyBuildingClasses.xml</UpdateDatabase>
