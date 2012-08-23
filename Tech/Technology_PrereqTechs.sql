@@ -76,6 +76,8 @@ INSERT INTO "Technology_PrereqTechs" VALUES('TECH_OPTICS','TECH_IRON_WORKING');
 
 --**Links Between Classical and Medieval**
 
+
+
 -- Polulate the table, Medieval Techs 
 -- Exotic Goods
 
@@ -106,6 +108,9 @@ INSERT INTO "Technology_PrereqTechs" VALUES('TECH_PHYSICS','TECH_COMPASS');
 INSERT INTO "Technology_PrereqTechs" VALUES('TECH_ALGEBRA','TECH_PHYSICS');
 INSERT INTO "Technology_PrereqTechs" VALUES('TECH_SIEGE_ENGINES','TECH_ALGEBRA');
 
+--**Links Between Medieval and Renassiance**
+
+
 
 -- Populate the table, Renassiance Techs 
 -- Homo Universalis
@@ -132,6 +137,9 @@ INSERT INTO "Technology_PrereqTechs" VALUES('TECH_MILITARY_TRADITION','TECH_BLAS
 INSERT INTO "Technology_PrereqTechs" VALUES('TECH_CHEMISTRY','TECH_GUNPOWDER');
 INSERT INTO "Technology_PrereqTechs" VALUES('TECH_FERTILIZER','TECH_CHEMISTRY');
 INSERT INTO "Technology_PrereqTechs" VALUES('TECH_RIFLING','TECH_CHEMISTRY');
+
+--**Links Between Renassiance and Industrial**
+
 
 
 -- Populate the table, Industrial Techs 
@@ -177,6 +185,9 @@ INSERT INTO "Technology_PrereqTechs" VALUES('TECH_SUBMERSIBLES','TECH_TORPEDOES'
 
 INSERT INTO "Technology_PrereqTechs" VALUES('TECH_FLIGHT','TECH_MILITARY_SCIENCE');
 
+--**Links Between Industrial and Modern**
+
+
 
 -- Populate the table, Modern Techs 
 -- ELECTRICAL PHENOMENA
@@ -216,6 +227,8 @@ INSERT INTO "Technology_PrereqTechs" VALUES('TECH_UNMANNED_AIRCRAFT','TECH_ADVAN
 
 INSERT INTO "Technology_PrereqTechs" VALUES('TECH_EXTREME_SPORTS','TECH_MEGA_ENGINEERING');
 
+--**Links Between Modern and Digital**
+
 
 -- Populate the table, Digital Techs 
 -- DIGITAL REVOLUTION
@@ -245,6 +258,9 @@ INSERT INTO "Technology_PrereqTechs" VALUES('TECH_METAMATERIALS','TECH_ADVANCED_
 INSERT INTO "Technology_PrereqTechs" VALUES('TECH_MAGNETICS_MINIATURIZATION','TECH_METAMATERIALS');
 INSERT INTO "Technology_PrereqTechs" VALUES('TECH_ADVANCED_LASERS','TECH_MAGNETICS_MINIATURIZATION');
 INSERT INTO "Technology_PrereqTechs" VALUES('TECH_UNIFIED_FIELD_THEORY','TECH_ADVANCED_LASERS');
+
+--**Links Between Digital and Information**
+
 
 
 -- Populate the table, Information Techs 
