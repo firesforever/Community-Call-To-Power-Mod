@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="0"/>
+			<Where Type="BUILDING_MAHABODHI_TEMPLE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="2"/>
+			<Where Type="BUILDING_ZIGGURAT_OF_MARDUK"/>
+		</Update>
+		<!--<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="3"/>
+			<Where Type="BUILDING_PETRA"/>
+		</Update>-->
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="4"/>
+			<Where Type="BUILDING_THE_LABYRNTH"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="5"/>
+			<Where Type="BUILDING_PARTHENON"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="6"/>
+			<Where Type="BUILDING_TEMPLE_OF_HEAVEN"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="9"/>
+			<Where Type="BUILDING_TEMPLE_OF_SOLOMON"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="11"/>
+			<Where Type="BUILDING_KONG_MIAO"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="12"/>
+			<Where Type="BUILDING_AQUARIUM"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="7"/>
+			<Where Type="BUILDING_SPHINX"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="8"/>
+			<Where Type="BUILDING_STATUE_OF_ZEUS"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="13"/>
+			<Where Type="BUILDING_MAUSOLEUM_OF_MAUSOLUS"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="14"/>
+			<Where Type="BUILDING_NAZCA_LINES"/>
+		</Update>
+		<!--<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="16"/>
+			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
+		</Update>-->
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="17"/>
+			<Where Type="BUILDING_LITERARY_EPIC"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="18"/>
+			<Where Type="BUILDING_GALILEO_TELESCOPE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="19"/>
+			<Where Type="BUILDING_SHAKESPEARE_THEATER"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="21"/>
+			<Where Type="BUILDING_SUN_TZU_ART_OF_WAR"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="22"/>
+			<Where Type="BUILDING_LEONARDO_WORKSHOP"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="23"/>
+			<Where Type="BUILDING_THE_GRAND_MOSQUE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="24"/>
+			<Where Type="BUILDING_BACH_CATHEDRAL"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="25"/>
+			<Where Type="BUILDING_AL_JABR"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="28"/>
+			<Where Type="BUILDING_EAST_INDIA_COMPANY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="29"/>
+			<Where Type="BUILDING_COPERNICUS_OBSERVATORY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="31"/>
+			<Where Type="BUILDING_GUTENBERG_BIBLE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="34"/>
+			<Where Type="BUILDING_CONSTITUTION"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="35"/>
+			<Where Type="BUILDING_PRINCIPIA_MATHEMATICA"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="36"/>
+			<Where Type="BUILDING_MAGELLAN_VOYAGE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="38"/>
+			<Where Type="BUILDING_DECLARATION_OF_INDEPENDENCE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="39"/>
+			<Where Type="BUILDING_HORSE_DERBY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="40"/>
+			<Where Type="BUILDING_THEORY_OF_EVOLUTION"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="41"/>
+			<Where Type="BUILDING_WALL_STREET"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="42"/>
+			<Where Type="BUILDING_WEALTH_OF_NATIONS"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="43"/>
+			<Where Type="BUILDING_COMMUNIST_MANIFESTO"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="44"/>
+			<Where Type="BUILDING_WAR_COLLEGE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="46"/>
+			<Where Type="BUILDING_EDISON_LAB"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="52"/>
+			<Where Type="BUILDING_TRANSCONTINENTAL_RAILROAD"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="45"/>
+			<Where Type="BUILDING_MEGA_DAM"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="57"/>
+			<Where Type="BUILDING_CONTRACEPTION"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="1"/>
+			<Where Type="BUILDING_INTERNATIONAL_AID_ORGANIZATION"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="2"/>
+			<Where Type="BUILDING_SMALLPOX_ERADICATION"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="4"/>
+			<Where Type="BUILDING_HOLLYWOOD"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="5"/>
+			<Where Type="BUILDING_SEMICONDUCTOR_PLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="6"/>
+			<Where Type="BUILDING_HUMAN_GENOME_PROJECT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="7"/>
+			<Where Type="BUILDING_SUPERCOMPUTER"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="9"/>
+			<Where Type="BUILDING_BIOTECH_INDUSTRIAL_PARK"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="11"/>
+			<Where Type="BUILDING_NATIONAL_LABORATORY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="13"/>
+			<Where Type="BUILDING_GPS_SATELLITES"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="14"/>
+			<Where Type="BUILDING_CURE_FOR_CANCER"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="17"/>
+			<Where Type="BUILDING_INTERNET"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="18"/>
+			<Where Type="BUILDING_LARGE_HADRON_COLLIDER"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="19"/>
+			<Where Type="BUILDING_HUMAN_BRAIN_MAP"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="26"/>
+			<Where Type="BUILDING_FUSION_POWER_PLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="29"/>
+			<Where Type="BUILDING_DINOSAUR_PARK"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="31"/>
+			<Where Type="BUILDING_CYBER_COMMAND"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="30"/>
+			<Where Type="BUILDING_QUANTUM_SUPERCOMPUTER"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="35"/>
+			<Where Type="BUILDING_AI_CORE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="36"/>
+			<Where Type="BUILDING_3_LAWS"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="37"/>
+			<Where Type="BUILDING_M_THEORY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="40"/>
+			<Where Type="BUILDING_IMAGINARIUM"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="41"/>
+			<Where Type="BUILDING_VIRTUAL_SECURITIES_EXCHANGE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="44"/>
+			<Where Type="BUILDING_GIGA_TOWER"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="53"/>
+			<Where Type="BUILDING_SPACE_ELEVATOR"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="56"/>
+			<Where Type="BUILDING_SPACE_MANIPULATION_TESTING_STATION"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="57"/>
+			<Where Type="BUILDING_EMPATHIC_NETWORK"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="59"/>
+			<Where Type="BUILDING_ROBOTIC_EGALITARIAN_ACT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="60"/>
+			<Where Type="BUILDING_OCEAN_HABITAT_PROTOTYPE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="1"/>
+			<Where Type="BUILDING_ARCHIMEDES_LAB"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="10"/>
+			<Where Type="BUILDING_ABBEY"/>
+		</Update>
+		<!--<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="12"/>
+			<Where Type="BUILDING_AQUEDUCT"/>
+		</Update>-->
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="15"/>
+			<Where Type="BUILDING_ARTILLERY_RANGE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="20"/>
+			<Where Type="BUILDING_SEWER_SYSTEM"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="26"/>
+			<Where Type="BUILDING_CITY_CLOCK"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="27"/>
+			<Where Type="BUILDING_GUILD_HALL"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="30"/>
+			<Where Type="BUILDING_PUBLISHING_HOUSE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="32"/>
+			<Where Type="BUILDING_FOUNDRY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="33"/>
+			<Where Type="BUILDING_PRISON"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="37"/>
+			<Where Type="BUILDING_RANCH"/>
+		</Update>
+		<!--<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="47"/>
+			<Where Type="BUILDING_POLICE_STATION"/>
+		</Update>-->
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="48"/>
+			<Where Type="BUILDING_OIL_REFINERY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="49"/>
+			<Where Type="BUILDING_NAVAL_BASE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="50"/>
+			<Where Type="BUILDING_SUPERMARKET"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="51"/>
+			<Where Type="BUILDING_INDUSTRIAL_SHIPYARD"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="53"/>
+			<Where Type="BUILDING_AUTO_PLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="54"/>
+			<Where Type="BUILDING_RECYCLING_PLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="55"/>
+			<Where Type="BUILDING_MASS_TRANSIT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="56"/>
+			<Where Type="BUILDING_DRUG_STORE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="58"/>
+			<Where Type="BUILDING_PUBLIC_BATHS"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="59"/>
+			<Where Type="BUILDING_AIRCRAFT_PLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="60"/>
+			<Where Type="BUILDING_AIRBASE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="61"/>
+			<Where Type="BUILDING_CHEMICAL_PLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="62"/>
+			<Where Type="BUILDING_TEXTILE_MILL"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_3" PortraitIndex="63"/>
+			<Where Type="BUILDING_FOOD_PROCESSING_PLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="0"/>
+			<Where Type="BUILDING_INDUSTRIAL_WAREHOUSE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="3"/>
+			<Where Type="BUILDING_TELEVISION"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="8"/>
+			<Where Type="BUILDING_AIRPORT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="10"/>
+			<Where Type="BUILDING_INDUSTRIAL_ROBOTICS"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="12"/>
+			<Where Type="BUILDING_ADVANCED_AIRCRAFT_PLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="15"/>
+			<Where Type="BUILDING_CELL_TOWERS"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="16"/>
+			<Where Type="BUILDING_SERVER_FARM"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="23"/>
+			<Where Type="BUILDING_BODY_EXCHANGE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="24"/>
+			<Where Type="BUILDING_OPTICAL_INTERCONNECTS"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="25"/>
+			<Where Type="BUILDING_GRID_ENERGY_STORAGE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="20"/>
+			<Where Type="BUILDING_CLOUD_COMPUTING_NETWORK"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="22"/>
+			<Where Type="BUILDING_ADVANCED_SHIPYARD"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="21"/>
+			<Where Type="BUILDING_LASER_PERIMETER_DEFENSE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="27"/>
+			<Where Type="BUILDING_ADVANCED_AUTO_PLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="28"/>
+			<Where Type="BUILDING_ROBOTIC_OPERATING_ROOM"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="32"/>
+			<Where Type="BUILDING_BIO_MEMORY_IMPLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="33"/>
+			<Where Type="BUILDING_LASER_MANUFACTURING_MODULE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="34"/>
+			<Where Type="BUILDING_MECHA_PLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="38"/>
+			<Where Type="BUILDING_IMMUNITY_CHIP"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="39"/>
+			<Where Type="BUILDING_VR_INTERFACE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="42"/>
+			<Where Type="BUILDING_AI_SECURITY_CENTER"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="43"/>
+			<Where Type="BUILDING_NANO_FORGE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="45"/>
+			<Where Type="BUILDING_FORCE_FIELD"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="46"/>
+			<Where Type="BUILDING_BEEF_VAT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="47"/>
+			<Where Type="BUILDING_IMPLANT_STATION"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="48"/>
+			<Where Type="BUILDING_BEHAVIORAL_MOD_CHIP"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="49"/>
+			<Where Type="BUILDING_AI_COURT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="50"/>
+			<Where Type="BUILDING_MOLECULAR_FABRICATION_PLANT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="51"/>
+			<Where Type="BUILDING_BEAM_FOUNDRY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="52"/>
+			<Where Type="BUILDING_MIND_CONTROL_NETWORK"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="54"/>
+			<Where Type="BUILDING_ARCOLOGY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="55"/>
+			<Where Type="BUILDING_VACUUM_DRYDOCK"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="58"/>
+			<Where Type="BUILDING_ROBOT_DISTRICT"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="61"/>
+			<Where Type="BUILDING_WINERY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="62"/>
+			<Where Type="BUILDING_BREWERY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_4" PortraitIndex="63"/>
+			<Where Type="BUILDING_OLYMPICS"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="0"/>
+			<Where Type="BUILDING_BOND_MARKET"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="1"/>
+			<Where Type="BUILDING_BURIAL_MOUND"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="2"/>
+			<Where Type="BUILDING_JEWELRY_STORE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="3"/>
+			<Where Type="BUILDING_NATIONAL_ACADEMY"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="4"/>
+			<Where Type="BUILDING_REGIONAL_FAIR"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="5"/>
+			<Where Type="BUILDING_TOWN_HALL"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="6"/>
+			<Where Type="BUILDING_INTERSTATE_HIGHWAY_SYSTEM"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="7"/>
+			<Where Type="BUILDING_MISSIONARY_CHURCH"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="8"/>
+			<Where Type="BUILDING_MEGACHURCH"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="9"/>
+			<Where Type="BUILDING_CRYSTAL_CATHEDRAL"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="10"/>
+			<Where Type="BUILDING_SHOPPING_MALL"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="11"/>
+			<Where Type="BUILDING_NATIONAL_PARK_SERVICE"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="12"/>
+			<Where Type="BUILDING_X_GAMES"/>
+		</Update>
+		<Update>
+			<Set IconAtlas="BW_ATLAS_5" PortraitIndex="13"/>
+			<Where Type="BUILDING_FACEBOOK"/>
+		</Update>
+	</Buildings>
+</GameData>

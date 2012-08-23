@@ -1,0 +1,67 @@
+-- Version History
+
+Version 2 
+
+    New Load screen complete with new compatible maps for CCTP (Huge thanks to Fires)
+    New (and if I may say so myself, much improved) Foundry Building icon
+	New Tech: Oral Tradition (Writing Prereq). Comes with Shaman Hut building.
+	New Building: Shaman Hut gives extra healing to units in City. +1 Gold to Incense and Wine.
+	New Tech: Military Training. Reqs Bronze Working and Archery. Iron Working Prereq. Comes with Barracks and Artillery Range. This wasn't "needed" exactly, but it does flesh out the early Military (and the icon is awesome ). This also extends the usage of the Spearman unit.
+	New Icon for Publishing House
+	New Buiding: Dock, 180h, +1g to all sea tiles. Reqs Sailing. Don't like the icon here at all, so it will hopefully be changed in the near future
+	New Woodworking Tech. Composite Bow, Catapult, and Oak reveal moved to this tech, Woodworking needs Military Training.
+
+	Fixed civilopedia entries that weren’t showing for many
+	Fixed Economic Freedom (gave 5fo/ 5g instead of 1fo/1g)
+	Fixed Traditional Institutions (gave 5fo to farms, fishing boats, and plantations in addition to the production to Stone Works)
+	Fixed Lobbyist, Top 1%, and Interest Groups, and State Owed Enterprise giving more than they should (some were 25x what they should have been.)
+	Fixed Nationalism and Socialism displays
+	Fixed bad Tech Flavors
+	Fixed Destroyer line where units were melee but couldn’t melee attack
+    Fixed many, many little Database errors so logs will be clearer (Huge thanks to Horem)
+    Fixed Tin Monopoly (should be +10g, not science)
+	Fixed bad text strings on Great Monuments and Raw Materials Techs
+	Fixed Old Money giving 50g instead of 10g
+	Fixed some text strings
+
+	Optics moved to Classical. Lighthouse cost 300h, Great Lighthouse cost 540. Galileo moved to Physics (I know, doesn’t make much sense). Prereq to Compass and Rudder
+	Rudder reqs Division of labor
+	Hagia Sophia no longer gives Great Artist (still gives Great Prophet though)
+	Polder moved to Trade Fairs (from Guilds). Base improvement is 4f, 1g (from 4f)
+	Polder gains +1f from Penicilin and 1g from Coorporations
+    Truffles bonus moved to Circus and is +1g.
+    Diplo Marriage cost 2500g (instead of 500g)
+    City State gold gifts give 25, 50, and 105 influence for gifts of 500g, 1000g, or 2000g (instead of other values which were higher)
+    Tile Improvement for CS is 400g (was 200g)
+    Railroads don’t give production bonus (from 25%). This one might be a little controversial, so it's not set in stone. I just figured that the movement bonus is enough (just connect the main road) and that production is already high enough as is.
+	Machine Gun upgrades to Combat Constroller
+
+	Workshop moved to Construction (from Division of Labor)
+	Artillery Range moved to Archery (from Ballistics). Cost 100h, 2 maintenance (from 340h, 3 maint)
+	Ballistics moved to Industrial. Rocket Launcher, Machine Gun, and AntiAircraft moved over.
+	Statue of Zeus cost 375h (from 175?)
+	Barracks and Artillery Range moved to Military Training
+	Temple moved to Priesthood (from Mysticism) cost 275 (from 160)
+	Shrine and UU moved to Mysticism (from Priesthood).
+	Knights obsolete at Calvalry (was Military Tradition and Lancer)
+	Amphitheater moved to Philosophy (from Drama)
+	Drama moved to Medieval.
+	Theater moved to Drama (from Lit)
+	National Epic cost 900h (from 480). Moves with Drama
+	Cathedral now properly gives 3c.
+	East India Cost 1400 (from 865). Gives 30g (from 100), Req Ocean Pioneering (from Banking).
+	Harbor gives +4g and +1p to Sea Resources (from 4p)
+	Garden moved to Literature (from Theology)
+	Manhattan Project cost reduced to 4,000h (from 30,000)
+	3335d’s Beef Vat recommendation (40f, -1p per pop, 5f from merchants)
+	Riflemen obsolete at WWI Infantry
+	Amber now spawns in Forest (to help with the low frequency). When improved in forest or jungle, it gives +1s (from +0s)
+	Salt gives 1g when improved (from 2g)
+	Landmark culture yields increased by 2 from each of these techs: Poetry, Drama, and Radio
+	Holy Site faith yields increased by 2 from each of these techs: Theology, Priesthood, Evangelism
+	Banana improved yield changed to +1f,-2p,+2g (from +1g). On plains, that means improved Banana is 4f,2g (from 3f,2p,1g).
+	Units embark on Shipbuilding (from Sailing)
+
+Version 1
+
+	Initial Workshop Release.

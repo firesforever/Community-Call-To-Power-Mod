@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/29/2010 4:16:29 PM -->
+<GameData>
+	<Technologies>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="0"/>
+			<Where Type="TECH_MYSTICISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="1"/>
+			<Where Type="TECH_POLYTHEISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="2"/>
+			<Where Type="TECH_MEDITATION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="3"/>
+			<Where Type="TECH_MONOTHEISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="4"/>
+			<Where Type="TECH_PRIESTHOOD" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="5"/>
+			<Where Type="TECH_CODE_OF_LAWS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="6"/>
+			<Where Type="TECH_CARRIAGES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="7"/>
+			<Where Type="TECH_WOODWORKING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="8"/>
+			<Where Type="TECH_POETRY" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="9"/>
+			<Where Type="TECH_LITERATURE" />
+		</Update>
+		<!--<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="10"/>
+			<Where Type="TECH_DRAMA" />
+		</Update>-->
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="11"/>
+			<Where Type="TECH_FEUDALISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="12"/>
+			<Where Type="TECH_FUNDAMENTALISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="13"/>
+			<Where Type="TECH_ALGEBRA" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="14"/>
+			<Where Type="TECH_PUBLIC_WORKS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="15"/>
+			<Where Type="TECH_BLAST_FURNACE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="16"/>
+			<Where Type="TECH_CONSTITUTION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="17"/>
+			<Where Type="TECH_MILITARY_TRADITION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="18"/>
+			<Where Type="TECH_CALCULUS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="19"/>
+			<Where Type="TECH_NATIONALISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="20"/>
+			<Where Type="TECH_MARXISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="21"/>
+			<Where Type="TECH_CORPORATIONS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="22"/>
+			<Where Type="TECH_SOCIALISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="23"/>
+			<Where Type="TECH_REFINING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="24"/>
+			<Where Type="TECH_PHARMACEUTICALS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="25"/>
+			<Where Type="TECH_TELEPHONE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="26"/>
+			<Where Type="TECH_INDUSTRIAL_PROCESSES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="27"/>
+			<Where Type="TECH_VACCINES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="28"/>
+			<Where Type="TECH_GENETICS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="29"/>
+			<Where Type="TECH_SOLAR_POWER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="30"/>
+			<Where Type="TECH_ADVANCED_FLIGHT" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="31"/>
+			<Where Type="TECH_BIOTECH_INDUSTRY" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="32"/>
+			<Where Type="TECH_MANNED_SPACEFLIGHT" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="33"/>
+			<Where Type="TECH_GENETIC_ENGINEERING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="34"/>
+			<Where Type="TECH_MOBILE_PHONES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="35"/>
+			<Where Type="TECH_INTERNET" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="36"/>
+			<Where Type="TECH_UNMANNED_AIRCRAFT" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="37"/>
+			<Where Type="TECH_SUPERCONDUCTORS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="38"/>
+			<Where Type="TECH_FUNCTIONAL_MRI" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="39"/>
+			<Where Type="TECH_VIRTUALIZATION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="40"/>
+			<Where Type="TECH_ADVANCED_LASERS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="41"/>
+			<Where Type="TECH_ADVANCED_MAGNETICS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="42"/>
+			<Where Type="TECH_CLONING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="43"/>
+			<Where Type="TECH_OPTICAL_COMPUTING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="44"/>
+			<Where Type="TECH_SUPER_BATTERIES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="45"/>
+			<Where Type="TECH_METAMATERIALS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="46"/>
+			<Where Type="TECH_SCRAMJET_ENGINES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="47"/>
+			<Where Type="TECH_MAGNETICS_MINIATURIZATION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="48"/>
+			<Where Type="TECH_ROBOTIC_SURGERY" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="49"/>
+			<Where Type="TECH_GENETIC_SYNTHESIS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="50"/>
+			<Where Type="TECH_QUANTUM_COMPUTERS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="51"/>
+			<Where Type="TECH_DIGITAL_DEFENSE_DOCTRINE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="52"/>
+			<Where Type="TECH_EXOSKELETONS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="53"/>
+			<Where Type="TECH_HYBRID_SCRAMJETS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="54"/>
+			<Where Type="TECH_REACTOR_MINIATURIZATION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="55"/>
+			<Where Type="TECH_BIOCOMPUTER_INTERFACE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="56"/>
+			<Where Type="TECH_ARTIFICIAL_INTELLIGENCE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="57"/>
+			<Where Type="TECH_LASER_MANUFACTURING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="58"/>
+			<Where Type="TECH_EXTREME_MECHANIZATION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="59"/>
+			<Where Type="TECH_UNIFIED_FIELD_THEORY" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="60"/>
+			<Where Type="TECH_BIOLOGICAL_NANITES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="61"/>
+			<Where Type="TECH_VIRTUAL_REALITY" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="62"/>
+			<Where Type="TECH_AI_SURVEILLANCE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_3" PortraitIndex="63"/>
+			<Where Type="TECH_NANO_MASS_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="0"/>
+			<Where Type="TECH_LEVITATION_MOTORS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="1"/>
+			<Where Type="TECH_2D_ENERGY_FIELDS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="2"/>
+			<Where Type="TECH_BIOLOGICAL_SYNTHESIS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="3"/>
+			<Where Type="TECH_MECHANICAL_BODY_GRAFTING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="4"/>
+			<Where Type="TECH_NEURAL_REPROGRAMMING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="5"/>
+			<Where Type="TECH_AI_EVOLUTION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="6"/>
+			<Where Type="TECH_SMART_MATERIALS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="7"/>
+			<Where Type="TECH_PARTICLE_BEAMS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="8"/>
+			<Where Type="TECH_SUBLIMINAL_MIND_CONTROL" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="9"/>
+			<Where Type="TECH_EXTREME_ENGINEERING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="10"/>
+			<Where Type="TECH_ARCOLOGIES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="11"/>
+			<Where Type="TECH_ULTRA_PRESSURE_MACHINERY" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="12"/>
+			<Where Type="TECH_WARP_FIELD_THEORY" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="13"/>
+			<Where Type="TECH_CYBERNETIC_ORGANISMS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="14"/>
+			<Where Type="TECH_MIND_MELDING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="15"/>
+			<Where Type="TECH_SENTIENT_ROBOTS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="16"/>
+			<Where Type="TECH_UNDERWATER_HABITATION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="17"/>
+			<Where Type="TECH_WORMHOLE_DETECTION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="18"/>
+			<Where Type="TECH_SHIPBUILDING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="19"/>
+			<Where Type="TECH_RUDDER" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="20"/>
+			<Where Type="TECH_SIEGE_ENGINES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="21"/>
+			<Where Type="TECH_NAVAL_ARMOR" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="22"/>
+			<Where Type="TECH_SHELLS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="23"/>
+			<Where Type="TECH_TORPEDOES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="24"/>
+			<Where Type="TECH_SUBMERSIBLES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="25"/>
+			<Where Type="TECH_BIG_GUNS_DOCTRINE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="26"/>
+			<Where Type="TECH_TRACKED_VEHICLES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="27"/>
+			<Where Type="TECH_ORAL_TRADITION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="28"/>
+			<Where Type="TECH_INFANTRY_FIGHTING_VEHICLES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="29"/>
+			<Where Type="TECH_CRUISE_MISSILES" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="30"/>
+			<Where Type="TECH_COMPOSITE_ARMOR" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="31"/>
+			<Where Type="TECH_COMBINED_ARMS_DOCTRINE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="32"/>
+			<Where Type="TECH_SPACE_WEAPONIZATION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="33"/>
+			<Where Type="TECH_FREE_SPACE_SATURATION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="34"/>
+			<Where Type="TECH_ECONOMY_OF_SCALE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="35"/>
+			<Where Type="TECH_FERMENTATION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="36"/>
+			<Where Type="TECH_SPORTS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="37"/>
+			<Where Type="TECH_AGRICULTURAL_REVOLUTION" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="38"/>
+			<Where Type="TECH_BONDS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="39"/>
+			<Where Type="TECH_BUREAUCRACY" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="40"/>
+			<Where Type="TECH_CEREMONIAL_BURIAL" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="41"/>
+			<Where Type="TECH_DIVISION_OF_LABOR" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="42"/>
+			<Where Type="TECH_ENLIGHTENMENT" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="43"/>
+			<Where Type="TECH_TRADE_FAIRS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="44"/>
+			<Where Type="TECH_TRADING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="45"/>
+			<Where Type="TECH_MEGA_ENGINEERING" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="46"/>
+			<Where Type="TECH_EVANGELISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="47"/>
+			<Where Type="TECH_TELEVANGELISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="48"/>
+			<Where Type="TECH_CONSUMERISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="49"/>
+			<Where Type="TECH_CONSERVATIONISM" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="50"/>
+			<Where Type="TECH_EXTREME_SPORTS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="51"/>
+			<Where Type="TECH_SOCIAL_NETWORKS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="52"/>
+			<Where Type="TECH_BLITZKRIEG" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="53"/>
+			<Where Type="TECH_CARVING" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="54"/>
+			<Where Type="TECH_COFFEE_TRADE" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="55"/>
+			<Where Type="TECH_AGRICULTURAL_SCIENCES" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="56"/>
+			<Where Type="TECH_ANIMAL_MARKETS" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="57"/>
+			<Where Type="TECH_APOTHECARY" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="58"/>
+			<Where Type="TECH_FARMERS_MARKETS" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="59"/>
+			<Where Type="TECH_FISH_MARKETS" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="60"/>
+			<Where Type="TECH_GREAT_MONUMENTS" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="61"/>
+			<Where Type="TECH_HERBAL_SCIENCE" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="62"/>
+			<Where Type="TECH_HERDING" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_4" PortraitIndex="63"/>
+			<Where Type="TECH_INTERNATIONAL_TRADE" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="0"/>
+			<Where Type="TECH_LIVESTOCK_DISTRIBUTION" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="1"/>
+			<Where Type="TECH_OCEAN_PIONEERING" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="2"/>
+			<Where Type="TECH_RAW_MATERIALS" />
+		</Update>
+
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="3"/>
+			<Where Type="TECH_STONE_MASONS" />
+		</Update>
+		<Update>
+			<Set IconAtlas="TECH_ATLAS_5" PortraitIndex="4"/>
+			<Where Type="TECH_MILITARY_TRAINING" />
+		</Update>
+
+	</Technologies>
+</GameData>

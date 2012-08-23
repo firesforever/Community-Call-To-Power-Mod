@@ -5,18 +5,35 @@ include( "IconSupport" );
 include( "InstanceManager" );
 include( "TechHelpInclude" );
 
-local g_CultureInstanceManager3 = InstanceManager:new( "NotificationButton2", "Button", Controls.NotificationButton3Stack );
-local g_EconomicsManager = InstanceManager:new( "EconomicsButton", "OpenEconomics", Controls.EconomicsButtonStack );
-local g_ScienceManager = InstanceManager:new( "ScienceButton", "OpenScience", Controls.ScienceButtonStack );
-local g_MilitaryManager = InstanceManager:new( "MilitaryButton", "OpenMilitary", Controls.MilitaryButtonStack );
-local g_SocialManager = InstanceManager:new( "SocialButton", "OpenSocial", Controls.SocialButtonStack );
-local g_EngineeringManager = InstanceManager:new( "EngineeringButton", "OpenEngineering", Controls.EngineeringButtonStack );
+local g_InfoButtonManager1 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.AncientButtonStack );
+local g_TechPageButtonManager1 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.AncientButtonStack );
+
+local g_InfoButtonManager2 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.Classical1ButtonStack );
+local g_TechPageButtonManager2 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.Classical1ButtonStack );
+
+local g_InfoButtonManager3 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.MedievalButtonStack );
+local g_TechPageButtonManager3 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.MedievalButtonStack );
+
+local g_InfoButtonManager4 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.RenaissanceButtonStack );
+local g_TechPageButtonManager4 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.RenaissanceButtonStack );
+
+local g_InfoButtonManager5 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.IndustrialButtonStack );
+local g_TechPageButtonManager5 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.IndustrialButtonStack );
+
+local g_InfoButtonManager6 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.ModernButtonStack );
+local g_TechPageButtonManager6 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.ModernButtonStack );
+
+local g_InfoButtonManager7 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.DigitalButtonStack );
+local g_TechPageButtonManager7 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.DigitalButtonStack );
+
+local g_InfoButtonManager8 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.InformationButtonStack );
+local g_TechPageButtonManager8 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.InformationButtonStack );
 
 local m_PopupInfo = nil;
 
 local Cat1=0;
 local ButtonCount=1;
-local portraitSize = 256;
+local portraitSize = 128;
 
 
 
@@ -27,107 +44,493 @@ local portraitSize = 256;
 
 function InitialSetup()
 
+	AddAncientButton( );
+	AddClassicalButton( );
+	AddMedievalButton( );
+	AddRenaissanceButton( );
+	AddIndustrialButton( );	
+	AddModernButton( );	
+	AddDigitalButton( );
+	AddInformationButton( );
 	
-	AddEconomicsButton( );
-	AddScienceButton( );
-	AddMilitaryButton( );
-	AddSocialButton( );
-	AddEngineeringButton( );
-
-
 end
 
-function AddEconomicsButton( )	
+function AddAncientButton( )	
 
 	--This adds buttons to the right side of the box, Firesforever 15/10/2010
 	
-	local controlTable = g_EconomicsManager:GetInstance();
-	
-	IconHookup( 17, portraitSize, "TECH_ATLAS_1", controlTable.EconomicsIcon );
-	
-	controlTable.OpenEconomics:SetToolTipString("Economics");
-    controlTable.OpenEconomics:SetVoid1( 901 ); -- indicates type
-    controlTable.OpenEconomics:SetVoid2( void );
- 
-    
-	controlTable.EconomicsIcon:SetHide( false );
 
-    controlTable.OpenEconomics:RegisterCallback( Mouse.eLClick, NotificationSelected );
+	local TechPage = 901
+	local xx = -10
+	local yy = -10
+	while TechPage ~= 904 do
+		local controlTable1 = g_InfoButtonManager1:GetInstance();
+		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenInfo:SetVoid2( void );
+		
+		IconHookup( 33, portraitSize, "TECH_ATLAS_1", controlTable1.Classical1Icon );
+	
+		controlTable1.OpenInfo:SetToolTipString(TechPage);
+		
+		controlTable1.OpenInfo:SetOffsetVal( xx,yy );
+		
+		controlTable1.Classical1Icon:SetHide( false );
+
+		controlTable1.OpenInfo:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		xx = xx + 310
+		yy = -10
+		yy = yy - 118
+		TechPage = TechPage + 1
+	end
+	TechPage = 901
+	xx = 50
+	yy = 325
+	while TechPage ~= 904 do
+		
+		local TechPageDesc
+		if TechPage == 901 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_LAND" );
+		elseif TechPage == 902 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_SEA" );
+		elseif TechPage == 903 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_SPIRIT" );
+		end
+		
+		local controlTable1 = g_TechPageButtonManager1:GetInstance();
+		controlTable1.OpenTechPageButton:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenTechPageButton:SetVoid2( void );
+	
+		controlTable1.OpenTechPageButton:SetToolTipString(TechPageDesc);
+		controlTable1.TechText:SetText( TechPageDesc );
+		
+		controlTable1.OpenTechPageButton:SetOffsetVal( xx,yy );
+
+		controlTable1.OpenTechPageButton:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		
+		xx = xx + 310
+		yy = 325
+		yy = yy - 361
+		TechPage = TechPage + 1
+	end
 end
-function AddScienceButton( )	
+
+function AddClassicalButton( )	
 
 	--This adds buttons to the right side of the box, Firesforever 15/10/2010
 	
-	local controlTable2 = g_ScienceManager:GetInstance();
-	
-	IconHookup( 24, portraitSize, "TECH_ATLAS_1", controlTable2.ScienceIcon );
-	
-	controlTable2.OpenScience:SetToolTipString("Science");
-    controlTable2.OpenScience:SetVoid1( 902 ); -- indicates type
-    controlTable2.OpenScience:SetVoid2( void );
-    
-	controlTable2.ScienceIcon:SetHide( false );
 
-    controlTable2.OpenScience:RegisterCallback( Mouse.eLClick, NotificationSelected );
+	local TechPage = 904
+	local xx = -10
+	local yy = -10
+	while TechPage ~= 907 do
+		local controlTable1 = g_InfoButtonManager2:GetInstance();
+		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenInfo:SetVoid2( void );
+		
+		IconHookup( 33, portraitSize, "TECH_ATLAS_1", controlTable1.Classical1Icon );
+	
+		controlTable1.OpenInfo:SetToolTipString(TechPage);
+		
+		controlTable1.OpenInfo:SetOffsetVal( xx,yy );
+		
+		controlTable1.Classical1Icon:SetHide( false );
+
+		controlTable1.OpenInfo:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		xx = xx + 310
+		yy = -10
+		yy = yy - 118
+		TechPage = TechPage + 1
+	end
+	TechPage = 904
+	xx = 50
+	yy = 325
+	while TechPage ~= 907 do
+		
+		local TechPageDesc
+		if TechPage == 904 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_NUMBERTHEORY" );
+		elseif TechPage == 905 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ALPHABET" );
+		elseif TechPage == 906 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ARTISANS" );
+		end
+		
+		local controlTable1 = g_TechPageButtonManager2:GetInstance();
+		controlTable1.OpenTechPageButton:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenTechPageButton:SetVoid2( void );
+	
+		controlTable1.OpenTechPageButton:SetToolTipString(TechPageDesc);
+		controlTable1.TechText:SetText( TechPageDesc );
+		
+		controlTable1.OpenTechPageButton:SetOffsetVal( xx,yy );
+
+		controlTable1.OpenTechPageButton:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		
+		xx = xx + 310
+		yy = 325
+		yy = yy - 361
+		TechPage = TechPage + 1
+	end
 end
-function AddMilitaryButton( )	
+
+function AddMedievalButton( )	
 
 	--This adds buttons to the right side of the box, Firesforever 15/10/2010
 	
-	local controlTable3 = g_MilitaryManager:GetInstance();
-	
-	IconHookup( 33, portraitSize, "TECH_ATLAS_1", controlTable3.MilitaryIcon );
-	
-	controlTable3.OpenMilitary:SetToolTipString("Military");
-    controlTable3.OpenMilitary:SetVoid1( 903 ); -- indicates type
-    controlTable3.OpenMilitary:SetVoid2( void );
-    
-	controlTable3.MilitaryIcon:SetHide( false );
 
-    controlTable3.OpenMilitary:RegisterCallback( Mouse.eLClick, NotificationSelected );
+	local TechPage = 907
+	local xx = -10
+	local yy = -10
+	while TechPage ~= 910 do
+		local controlTable1 = g_InfoButtonManager3:GetInstance();
+		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenInfo:SetVoid2( void );
+		
+		IconHookup( 33, portraitSize, "TECH_ATLAS_1", controlTable1.Classical1Icon );
+	
+		controlTable1.OpenInfo:SetToolTipString(TechPage);
+		
+		controlTable1.OpenInfo:SetOffsetVal( xx,yy );
+		
+		controlTable1.Classical1Icon:SetHide( false );
+
+		controlTable1.OpenInfo:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		xx = xx + 310
+		yy = -10
+		yy = yy - 118
+		TechPage = TechPage + 1
+	end
+	TechPage = 907
+	xx = 50
+	yy = 325
+	while TechPage ~= 910 do
+		
+		local TechPageDesc
+		if TechPage == 907 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_EXOTIC_GOODS" );
+		elseif TechPage == 908 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_MEDIEVAL_UNIVERSITY" );
+		elseif TechPage == 909 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_EMPIRICISM" );
+		end
+		
+		local controlTable1 = g_TechPageButtonManager3:GetInstance();
+		controlTable1.OpenTechPageButton:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenTechPageButton:SetVoid2( void );
+	
+		controlTable1.OpenTechPageButton:SetToolTipString(TechPageDesc);
+		controlTable1.TechText:SetText( TechPageDesc );
+		
+		controlTable1.OpenTechPageButton:SetOffsetVal( xx,yy );
+
+		controlTable1.OpenTechPageButton:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		
+		xx = xx + 310
+		yy = 325
+		yy = yy - 361
+		TechPage = TechPage + 1
+	end
 end
-function AddSocialButton( )	
+
+function AddRenaissanceButton( )	
 
 	--This adds buttons to the right side of the box, Firesforever 15/10/2010
 	
-	local controlTable4 = g_SocialManager:GetInstance();
+
+	local TechPage = 910
+	local xx = -10
+	local yy = -10
+	while TechPage ~= 913 do
+		local controlTable1 = g_InfoButtonManager4:GetInstance();
+		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenInfo:SetVoid2( void );
+		
+		IconHookup( 33, portraitSize, "TECH_ATLAS_1", controlTable1.Classical1Icon );
 	
-	IconHookup( 16, portraitSize, "TECH_ATLAS_1", controlTable4.SocialIcon );
+		controlTable1.OpenInfo:SetToolTipString(TechPage);
+		
+		controlTable1.OpenInfo:SetOffsetVal( xx,yy );
+		
+		controlTable1.Classical1Icon:SetHide( false );
 
+		controlTable1.OpenInfo:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		xx = xx + 310
+		yy = -10
+		yy = yy - 118
+		TechPage = TechPage + 1
+	end
+	TechPage = 910
+	xx = 50
+	yy = 325
+	while TechPage ~= 913 do
+		
+		local TechPageDesc
+		if TechPage == 910 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_HOMO_UNIVERSALIS" );
+		elseif TechPage == 911 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_GEOCENTRISM" );
+		elseif TechPage == 912 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ALCHEMY" );
+		end
+		
+		local controlTable1 = g_TechPageButtonManager4:GetInstance();
+		controlTable1.OpenTechPageButton:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenTechPageButton:SetVoid2( void );
 	
-	controlTable4.OpenSocial:SetToolTipString("Social");
-    controlTable4.OpenSocial:SetVoid1( 904 ); -- indicates type
-    controlTable4.OpenSocial:SetVoid2( void );
+		controlTable1.OpenTechPageButton:SetToolTipString(TechPageDesc);
+		controlTable1.TechText:SetText( TechPageDesc );
+		
+		controlTable1.OpenTechPageButton:SetOffsetVal( xx,yy );
 
-    
-	controlTable4.SocialIcon:SetHide( false );
-
-    controlTable4.OpenSocial:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		controlTable1.OpenTechPageButton:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		
+		xx = xx + 310
+		yy = 325
+		yy = yy - 361
+		TechPage = TechPage + 1
+	end
 end
-function AddEngineeringButton( )	
+
+function AddIndustrialButton( )	
 
 	--This adds buttons to the right side of the box, Firesforever 15/10/2010
 	
-	local controlTable5 = g_EngineeringManager:GetInstance();
+
+	local TechPage = 913
+	local xx = -10
+	local yy = -10
+	while TechPage ~= 916 do
+		local controlTable1 = g_InfoButtonManager5:GetInstance();
+		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenInfo:SetVoid2( void );
+		
+		IconHookup( 33, portraitSize, "TECH_ATLAS_1", controlTable1.Classical1Icon );
 	
-	IconHookup( 6, portraitSize, "TECH_ATLAS_1", controlTable5.EngineeringIcon );
+		controlTable1.OpenInfo:SetToolTipString(TechPage);
+		
+		controlTable1.OpenInfo:SetOffsetVal( xx,yy );
+		
+		controlTable1.Classical1Icon:SetHide( false );
 
+		controlTable1.OpenInfo:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		xx = xx + 310
+		yy = -10
+		yy = yy - 118
+		TechPage = TechPage + 1
+	end
+	TechPage = 913
+	xx = 50
+	yy = 325
+	while TechPage ~= 916 do
+		
+		local TechPageDesc
+		if TechPage == 913 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_INDUSTRIAL_REVOLUTION" );
+		elseif TechPage == 914 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_SCIENCE" );
+		elseif TechPage == 915 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_SOCIAL_CLASSES" );
+		end
+		
+		local controlTable1 = g_TechPageButtonManager5:GetInstance();
+		controlTable1.OpenTechPageButton:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenTechPageButton:SetVoid2( void );
 	
-	controlTable5.OpenEngineering:SetToolTipString("Engineering");
-    controlTable5.OpenEngineering:SetVoid1( 905 ); -- indicates type
-    controlTable5.OpenEngineering:SetVoid2( void );
+		controlTable1.OpenTechPageButton:SetToolTipString(TechPageDesc);
+		controlTable1.TechText:SetText( TechPageDesc );
+		
+		controlTable1.OpenTechPageButton:SetOffsetVal( xx,yy );
 
-    
-	controlTable5.EngineeringIcon:SetHide( false );
+		controlTable1.OpenTechPageButton:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		
+		xx = xx + 310
+		yy = 325
+		yy = yy - 361
+		TechPage = TechPage + 1
+	end
+end
 
-    controlTable5.OpenEngineering:RegisterCallback( Mouse.eLClick, NotificationSelected );
+function AddModernButton( )	
+
+	--This adds buttons to the right side of the box, Firesforever 15/10/2010
+	
+
+	local TechPage = 916
+	local xx = -10
+	local yy = -10
+	while TechPage ~= 919 do
+		local controlTable1 = g_InfoButtonManager6:GetInstance();
+		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenInfo:SetVoid2( void );
+		
+		IconHookup( 33, portraitSize, "TECH_ATLAS_1", controlTable1.Classical1Icon );
+	
+		controlTable1.OpenInfo:SetToolTipString(TechPage);
+		
+		controlTable1.OpenInfo:SetOffsetVal( xx,yy );
+		
+		controlTable1.Classical1Icon:SetHide( false );
+
+		controlTable1.OpenInfo:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		xx = xx + 310
+		yy = -10
+		yy = yy - 118
+		TechPage = TechPage + 1
+	end
+	TechPage = 916
+	xx = 50
+	yy = 325
+	while TechPage ~= 919 do
+		
+		local TechPageDesc
+		if TechPage == 916 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ELECTRICAL_PHENOMENA" );
+		elseif TechPage == 917 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_MOLECULES" );
+		elseif TechPage == 918 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_AERODYNAMICS" );
+		end
+		
+		local controlTable1 = g_TechPageButtonManager6:GetInstance();
+		controlTable1.OpenTechPageButton:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenTechPageButton:SetVoid2( void );
+	
+		controlTable1.OpenTechPageButton:SetToolTipString(TechPageDesc);
+		controlTable1.TechText:SetText( TechPageDesc );
+		
+		controlTable1.OpenTechPageButton:SetOffsetVal( xx,yy );
+
+		controlTable1.OpenTechPageButton:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		
+		xx = xx + 310
+		yy = 325
+		yy = yy - 361
+		TechPage = TechPage + 1
+	end
+end
+
+function AddDigitalButton( )	
+
+	--This adds buttons to the right side of the box, Firesforever 15/10/2010
+	
+
+	local TechPage = 919
+	local xx = -10
+	local yy = -10
+	while TechPage ~= 922 do
+		local controlTable1 = g_InfoButtonManager7:GetInstance();
+		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenInfo:SetVoid2( void );
+		
+		IconHookup( 33, portraitSize, "TECH_ATLAS_1", controlTable1.Classical1Icon );
+	
+		controlTable1.OpenInfo:SetToolTipString(TechPage);
+		
+		controlTable1.OpenInfo:SetOffsetVal( xx,yy );
+		
+		controlTable1.Classical1Icon:SetHide( false );
+
+		controlTable1.OpenInfo:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		xx = xx + 310
+		yy = -10
+		yy = yy - 118
+		TechPage = TechPage + 1
+	end
+	TechPage = 919
+	xx = 50
+	yy = 325
+	while TechPage ~= 922 do
+		
+		local TechPageDesc
+		if TechPage == 919 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_DIGITAL_REVOLUTION" );
+		elseif TechPage == 920 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_HUMAN_AUGMENTATION" );
+		elseif TechPage == 921 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ADVANCED_ASSEMBLY" );
+		end
+		
+		local controlTable1 = g_TechPageButtonManager7:GetInstance();
+		controlTable1.OpenTechPageButton:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenTechPageButton:SetVoid2( void );
+	
+		controlTable1.OpenTechPageButton:SetToolTipString(TechPageDesc);
+		controlTable1.TechText:SetText( TechPageDesc );
+		
+		controlTable1.OpenTechPageButton:SetOffsetVal( xx,yy );
+
+		controlTable1.OpenTechPageButton:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		
+		xx = xx + 310
+		yy = 325
+		yy = yy - 361
+		TechPage = TechPage + 1
+	end
+end
+
+function AddInformationButton( )	
+
+	--This adds buttons to the right side of the box, Firesforever 15/10/2010
+	
+
+	local TechPage = 922
+	local xx = -10
+	local yy = -10
+	while TechPage ~= 925 do
+		local controlTable1 = g_InfoButtonManager8:GetInstance();
+		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenInfo:SetVoid2( void );
+		
+		IconHookup( 33, portraitSize, "TECH_ATLAS_1", controlTable1.Classical1Icon );
+	
+		controlTable1.OpenInfo:SetToolTipString(TechPage);
+		
+		controlTable1.OpenInfo:SetOffsetVal( xx,yy );
+		
+		controlTable1.Classical1Icon:SetHide( false );
+
+		controlTable1.OpenInfo:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		xx = xx + 310
+		yy = -10
+		yy = yy - 118
+		TechPage = TechPage + 1
+	end
+	TechPage = 922
+	xx = 50
+	yy = 325
+	while TechPage ~= 925 do
+		
+		local TechPageDesc
+		if TechPage == 922 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_NEW_LIFE" );
+		elseif TechPage == 923 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ATOM_MANIPULATION" );
+		elseif TechPage == 924 then
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_FRINGE_SCIENCE" );
+		end
+		
+		local controlTable1 = g_TechPageButtonManager8:GetInstance();
+		controlTable1.OpenTechPageButton:SetVoid1( TechPage ); -- indicates type
+		controlTable1.OpenTechPageButton:SetVoid2( void );
+	
+		controlTable1.OpenTechPageButton:SetToolTipString(TechPageDesc);
+		controlTable1.TechText:SetText( TechPageDesc );
+		
+		controlTable1.OpenTechPageButton:SetOffsetVal( xx,yy );
+
+		controlTable1.OpenTechPageButton:RegisterCallback( Mouse.eLClick, NotificationSelected );
+		
+		xx = xx + 310
+		yy = 325
+		yy = yy - 361
+		TechPage = TechPage + 1
+	end
 end
 
 function NotificationSelected (id)
-    
+    print (id)
 	--The id of the button indicates which technology tree the user wants to view, Firesforever 15/10/2010
-		g_CultureInstanceManager3:ResetInstances();
-		UIManager:DequeuePopup( ContextPtr );
+		--UIManager:DequeuePopup( ContextPtr );
 		Events.SerialEventGameMessagePopup( { Type = ButtonPopupTypes.BUTTONPOPUP_TECH_TREE, Data1=id  } );
 
 	--OnClose();
@@ -143,83 +546,6 @@ function OnPopup( popupInfo )
 	if (popupInfo.Data1 > 900) then
 		return;
 	end
-	local randomquote = math.random(34)
-	local description;
-	
-	if randomquote == 1 then
-		description = "TXT_KEY_TECH_DQUOTE1";
-	elseif randomquote == 2 then
-		description = "TXT_KEY_TECH_DQUOTE2";
-	elseif randomquote == 3 then
-		description = "TXT_KEY_TECH_DQUOTE3";
-	elseif randomquote == 4 then
-		description = "TXT_KEY_TECH_DQUOTE4";
-	elseif randomquote == 5 then
-		description = "TXT_KEY_TECH_DQUOTE5";
-	elseif randomquote == 6 then
-		description = "TXT_KEY_TECH_DQUOTE6";
-	elseif randomquote == 7 then
-		description = "TXT_KEY_TECH_DQUOTE7";
-	elseif randomquote == 8 then
-		description = "TXT_KEY_TECH_DQUOTE8";
-	elseif randomquote == 9 then
-		description = "TXT_KEY_TECH_DQUOTE9";
-	elseif randomquote == 10 then
-		description = "TXT_KEY_TECH_DQUOTE10";
-	elseif randomquote == 11 then
-		description = "TXT_KEY_TECH_DQUOTE11";
-	elseif randomquote == 12 then
-		description = "TXT_KEY_TECH_DQUOTE12";
-	elseif randomquote == 13 then
-		description = "TXT_KEY_TECH_DQUOTE13";
-	elseif randomquote == 14 then
-		description = "TXT_KEY_TECH_DQUOTE14";
-	elseif randomquote == 15 then
-		description = "TXT_KEY_TECH_DQUOTE15";
-	elseif randomquote == 16 then
-		description = "TXT_KEY_TECH_DQUOTE16";
-	elseif randomquote == 17 then
-		description = "TXT_KEY_TECH_DQUOTE17";
-	elseif randomquote == 18 then
-		description = "TXT_KEY_TECH_DQUOTE18";
-	elseif randomquote == 19 then
-		description = "TXT_KEY_TECH_DQUOTE19";
-	elseif randomquote == 20 then
-		description = "TXT_KEY_TECH_DQUOTE20";
-	elseif randomquote == 21 then
-		description = "TXT_KEY_TECH_DQUOTE21";
-	elseif randomquote == 22 then
-		description = "TXT_KEY_TECH_DQUOTE22";
-	elseif randomquote == 23 then
-		description = "TXT_KEY_TECH_DQUOTE23";
-	elseif randomquote == 24 then
-		description = "TXT_KEY_TECH_DQUOTE24";
-	elseif randomquote == 25 then
-		description = "TXT_KEY_TECH_DQUOTE25";
-	elseif randomquote == 26 then
-		description = "TXT_KEY_TECH_DQUOTE26";
-	elseif randomquote == 27 then
-		description = "TXT_KEY_TECH_DQUOTE27";
-	elseif randomquote == 28 then
-		description = "TXT_KEY_TECH_DQUOTE28";
-	elseif randomquote == 29 then
-		description = "TXT_KEY_TECH_DQUOTE29";
-	elseif randomquote == 30 then
-		description = "TXT_KEY_TECH_DQUOTE30";
-	elseif randomquote == 31 then
-		description = "TXT_KEY_TECH_DQUOTE31";
-	elseif randomquote == 32 then
-		description = "TXT_KEY_TECH_DQUOTE32";
-	elseif randomquote == 33 then
-		description = "TXT_KEY_TECH_DQUOTE33";
-	elseif randomquote == 34 then
-		description = "TXT_KEY_TECH_DQUOTE34";
-	end
-
-	--"TXT_KEY_TECH_DQUOTE1";
-
-	AddNotificationButton3(description);
-
 
 	-- Set Civ Icon
 	CivIconHookup( Game.GetActivePlayer(), 64, Controls.CivIcon, Controls.CivIconBG, Controls.CivIconShadow, false, true );
@@ -240,29 +566,200 @@ function OnPopup( popupInfo )
 end
 Events.SerialEventGameMessagePopup.Add( OnPopup );
 
-function AddNotificationButton3( description )	
 
-	--This adds buttons to the right side of the box, Firesforever 15/10/2010
-	
-	local controlTable = g_CultureInstanceManager3:GetInstance();
-	controlTable.NotificationText:SetText(Locale.ConvertTextKey(description));
-	
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+function OnAncientTechs( )
 
-    controlTable.Button:SetVoid2( void );
-   -- controlTable.Button:SetDisabled( dismissed );
-    
-    controlTable.TextStack:CalculateSize();
-    controlTable.TextStack:ReprocessAnchoring();
-    
+	Controls.EraAncientSelectHighlight:SetHide(false);
+	Controls.EraClassicalSelectHighlight:SetHide(true);
+	Controls.EraMedievalSelectHighlight:SetHide(true);
+	Controls.EraRenaissanceSelectHighlight:SetHide(true);
+	Controls.EraIndustrialSelectHighlight:SetHide(true);
+	Controls.EraModernSelectHighlight:SetHide(true);
+	Controls.EraDigitalSelectHighlight:SetHide(true);
+	Controls.EraInformationSelectHighlight:SetHide(true);
 
-    
-    controlTable.Button:RegisterCallback( Mouse.eLClick, NotificationSelected );
+	-- Show the selected policies and hide the rest
+	Controls.EraAncientScrollPanel:SetHide( false );	
+	Controls.EraClassicalScrollPanel:SetHide( true );
+	Controls.EraMedievalScrollPanel:SetHide( true );
+	Controls.EraRenaissanceScrollPanel:SetHide( true );
+	Controls.EraIndustrialScrollPanel:SetHide( true );
+	Controls.EraModernScrollPanel:SetHide( true );
+	Controls.EraDigitalScrollPanel:SetHide( true );
+	Controls.EraInformationScrollPanel:SetHide( true );
+
 end
--------------------------------------------------------------------------------
--------------------------------------------------------------------------------
+Controls.EraAncient:RegisterCallback( Mouse.eLClick, OnAncientTechs );
 
+function OnClassicalTechs( )
 
+	Controls.EraAncientSelectHighlight:SetHide(true);
+	Controls.EraClassicalSelectHighlight:SetHide(false);
+	Controls.EraMedievalSelectHighlight:SetHide(true);
+	Controls.EraRenaissanceSelectHighlight:SetHide(true);
+	Controls.EraIndustrialSelectHighlight:SetHide(true);
+	Controls.EraModernSelectHighlight:SetHide(true);
+	Controls.EraDigitalSelectHighlight:SetHide(true);
+	Controls.EraInformationSelectHighlight:SetHide(true);
 
+	-- Show the selected policies and hide the rest
+	Controls.EraAncientScrollPanel:SetHide( true );	
+	Controls.EraClassicalScrollPanel:SetHide( false );
+	Controls.EraMedievalScrollPanel:SetHide( true );
+	Controls.EraRenaissanceScrollPanel:SetHide( true );
+	Controls.EraIndustrialScrollPanel:SetHide( true );
+	Controls.EraModernScrollPanel:SetHide( true );
+	Controls.EraDigitalScrollPanel:SetHide( true );
+	Controls.EraInformationScrollPanel:SetHide( true );
+	
+end
+Controls.EraClassical:RegisterCallback( Mouse.eLClick, OnClassicalTechs );
+
+function OnMedievalTechs( )
+
+	Controls.EraAncientSelectHighlight:SetHide(true);
+	Controls.EraClassicalSelectHighlight:SetHide(true);
+	Controls.EraMedievalSelectHighlight:SetHide(false);
+	Controls.EraRenaissanceSelectHighlight:SetHide(true);
+	Controls.EraIndustrialSelectHighlight:SetHide(true);
+	Controls.EraModernSelectHighlight:SetHide(true);
+	Controls.EraDigitalSelectHighlight:SetHide(true);
+	Controls.EraInformationSelectHighlight:SetHide(true);
+
+	-- Show the selected policies and hide the rest
+	Controls.EraAncientScrollPanel:SetHide( true );	
+	Controls.EraClassicalScrollPanel:SetHide( true );
+	Controls.EraMedievalScrollPanel:SetHide( false );
+	Controls.EraRenaissanceScrollPanel:SetHide( true );
+	Controls.EraIndustrialScrollPanel:SetHide( true );
+	Controls.EraModernScrollPanel:SetHide( true );
+	Controls.EraDigitalScrollPanel:SetHide( true );
+	Controls.EraInformationScrollPanel:SetHide( true );
+	
+end
+Controls.EraMedieval:RegisterCallback( Mouse.eLClick, OnMedievalTechs );
+
+function OnRenaissanceTechs( )
+
+	Controls.EraAncientSelectHighlight:SetHide(true);
+	Controls.EraClassicalSelectHighlight:SetHide(true);
+	Controls.EraMedievalSelectHighlight:SetHide(true);
+	Controls.EraRenaissanceSelectHighlight:SetHide(false);
+	Controls.EraIndustrialSelectHighlight:SetHide(true);
+	Controls.EraModernSelectHighlight:SetHide(true);
+	Controls.EraDigitalSelectHighlight:SetHide(true);
+	Controls.EraInformationSelectHighlight:SetHide(true);
+
+	-- Show the selected policies and hide the rest
+	Controls.EraAncientScrollPanel:SetHide( true );	
+	Controls.EraClassicalScrollPanel:SetHide( true );
+	Controls.EraMedievalScrollPanel:SetHide( true );
+	Controls.EraRenaissanceScrollPanel:SetHide( false );
+	Controls.EraIndustrialScrollPanel:SetHide( true );
+	Controls.EraModernScrollPanel:SetHide( true );
+	Controls.EraDigitalScrollPanel:SetHide( true );
+	Controls.EraInformationScrollPanel:SetHide( true );
+
+end
+Controls.EraRenaissance:RegisterCallback( Mouse.eLClick, OnRenaissanceTechs );
+
+function OnIndustrialTechs( )
+
+	Controls.EraAncientSelectHighlight:SetHide(true);
+	Controls.EraClassicalSelectHighlight:SetHide(true);
+	Controls.EraMedievalSelectHighlight:SetHide(true);
+	Controls.EraRenaissanceSelectHighlight:SetHide(true);
+	Controls.EraIndustrialSelectHighlight:SetHide(false);
+	Controls.EraModernSelectHighlight:SetHide(true);
+	Controls.EraDigitalSelectHighlight:SetHide(true);
+	Controls.EraInformationSelectHighlight:SetHide(true);
+
+	-- Show the selected policies and hide the rest
+	Controls.EraAncientScrollPanel:SetHide( true );	
+	Controls.EraClassicalScrollPanel:SetHide( true );
+	Controls.EraMedievalScrollPanel:SetHide( true );
+	Controls.EraRenaissanceScrollPanel:SetHide( true );
+	Controls.EraIndustrialScrollPanel:SetHide( false );
+	Controls.EraModernScrollPanel:SetHide( true );
+	Controls.EraDigitalScrollPanel:SetHide( true );
+	Controls.EraInformationScrollPanel:SetHide( true );
+
+end
+Controls.EraIndustrial:RegisterCallback( Mouse.eLClick, OnIndustrialTechs );
+
+function OnModernTechs( )
+
+	Controls.EraAncientSelectHighlight:SetHide(true);
+	Controls.EraClassicalSelectHighlight:SetHide(true);
+	Controls.EraMedievalSelectHighlight:SetHide(true);
+	Controls.EraRenaissanceSelectHighlight:SetHide(true);
+	Controls.EraIndustrialSelectHighlight:SetHide(true);
+	Controls.EraModernSelectHighlight:SetHide(false);
+	Controls.EraDigitalSelectHighlight:SetHide(true);
+	Controls.EraInformationSelectHighlight:SetHide(true);
+
+	-- Show the selected policies and hide the rest
+	Controls.EraAncientScrollPanel:SetHide( true );	
+	Controls.EraClassicalScrollPanel:SetHide( true );
+	Controls.EraMedievalScrollPanel:SetHide( true );
+	Controls.EraRenaissanceScrollPanel:SetHide( true );
+	Controls.EraIndustrialScrollPanel:SetHide( true );
+	Controls.EraModernScrollPanel:SetHide( false );
+	Controls.EraDigitalScrollPanel:SetHide( true );
+	Controls.EraInformationScrollPanel:SetHide( true );
+	
+end
+Controls.EraModern:RegisterCallback( Mouse.eLClick, OnModernTechs );
+
+function OnDigitalTechs( )
+
+	Controls.EraAncientSelectHighlight:SetHide(true);
+	Controls.EraClassicalSelectHighlight:SetHide(true);
+	Controls.EraMedievalSelectHighlight:SetHide(true);
+	Controls.EraRenaissanceSelectHighlight:SetHide(true);
+	Controls.EraIndustrialSelectHighlight:SetHide(true);
+	Controls.EraModernSelectHighlight:SetHide(true);
+	Controls.EraDigitalSelectHighlight:SetHide(false);
+	Controls.EraInformationSelectHighlight:SetHide(true);
+
+	-- Show the selected policies and hide the rest
+	Controls.EraAncientScrollPanel:SetHide( true );	
+	Controls.EraClassicalScrollPanel:SetHide( true );
+	Controls.EraMedievalScrollPanel:SetHide( true );
+	Controls.EraRenaissanceScrollPanel:SetHide( true );
+	Controls.EraIndustrialScrollPanel:SetHide( true );
+	Controls.EraModernScrollPanel:SetHide( true );
+	Controls.EraDigitalScrollPanel:SetHide( false );
+	Controls.EraInformationScrollPanel:SetHide( true );
+	
+end
+Controls.EraDigital:RegisterCallback( Mouse.eLClick, OnDigitalTechs );
+
+function OnInformationTechs( )
+
+	Controls.EraAncientSelectHighlight:SetHide(true);
+	Controls.EraClassicalSelectHighlight:SetHide(true);
+	Controls.EraMedievalSelectHighlight:SetHide(true);
+	Controls.EraRenaissanceSelectHighlight:SetHide(true);
+	Controls.EraIndustrialSelectHighlight:SetHide(true);
+	Controls.EraModernSelectHighlight:SetHide(true);
+	Controls.EraDigitalSelectHighlight:SetHide(true);
+	Controls.EraInformationSelectHighlight:SetHide(false);
+
+	-- Show the selected policies and hide the rest
+	Controls.EraAncientScrollPanel:SetHide( true );	
+	Controls.EraClassicalScrollPanel:SetHide( true );
+	Controls.EraMedievalScrollPanel:SetHide( true );
+	Controls.EraRenaissanceScrollPanel:SetHide( true );
+	Controls.EraIndustrialScrollPanel:SetHide( true );
+	Controls.EraModernScrollPanel:SetHide( true );
+	Controls.EraDigitalScrollPanel:SetHide( true );
+	Controls.EraInformationScrollPanel:SetHide( false );
+	
+end
+Controls.EraInformation:RegisterCallback( Mouse.eLClick, OnInformationTechs );
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 
@@ -270,7 +767,6 @@ end
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 function OnClose ()
-    g_CultureInstanceManager3:ResetInstances();
 	UIManager:DequeuePopup( ContextPtr );
 end
 Controls.CloseButton:RegisterCallback( Mouse.eLClick, OnClose );
@@ -281,7 +777,7 @@ Controls.CloseButton:RegisterCallback( Mouse.eLClick, OnClose );
 function InputHandler( uiMsg, wParam, lParam )
     if uiMsg == KeyEvents.KeyDown then
         if wParam == Keys.VK_ESCAPE or wParam == Keys.VK_RETURN then
-            OnClose();
+           -- OnClose();
             return true;
         end
     end

@@ -23,43 +23,153 @@
 		<Column name="TechTreeCat" type="text"/>
 		<Column name="BuildingType" type="text"/>
 	</Table>
-	
+
 	<TechTreeCat>
 		<Row>
 			<ID>0</ID>
-			<Type>TECHTREE_ENGINEERING</Type>
-			<Description>TXT_KEY_TECHTREE_ENGINEERING</Description>
+			<Type>TECHTREE_LAND</Type>
+			<Description>TXT_KEY_TECHTREE_LAND</Description>
 			<PortraitIndex>41</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_4</IconAtlas>
 		</Row>
 		<Row>
-			<Type>TECHTREE_MILITARY</Type>
-			<Description>TXT_KEY_TECHTREE_MILITARY</Description>
+			<Type>TECHTREE_SEA</Type>
+			<Description>TXT_KEY_TECHTREE_SEA</Description>
 			<PortraitIndex>24</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_4</IconAtlas>
 		</Row>
 		<Row>
-			<Type>TECHTREE_ECONOMICS</Type>
-			<Description>TXT_KEY_TECHTREE_ECONOMICS</Description>
+			<Type>TECHTREE_SPIRIT</Type>
+			<Description>TXT_KEY_TECHTREE_SPIRIT</Description>
 			<PortraitIndex>21</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_3</IconAtlas>
 		</Row>
 		<Row>
-			<Type>TECHTREE_SCIENCES</Type>
-			<Description>TXT_KEY_TECHTREE_SCIENCES</Description>
+			<Type>TECHTREE_NUMBERTHEORY</Type>
+			<Description>TXT_KEY_TECHTREE_NUMBERTHEORY</Description>
 			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_4</IconAtlas>
 		</Row>
 		<Row>
-			<Type>TECHTREE_SOCIAL</Type>
-			<Description>TXT_KEY_TECHTREE_SOCIAL</Description>
+			<Type>TECHTREE_ALPHABET</Type>
+			<Description>TXT_KEY_TECHTREE_ALPHABET</Description>
 			<PortraitIndex>34</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_3</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_ARTISANS</Type>
+			<Description>TXT_KEY_TECHTREE_ARTISANS</Description>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_EXOTIC_GOODS</Type>
+			<Description>TXT_KEY_TECHTREE_EXOTIC_GOODS</Description>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_3</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_MEDIEVAL_UNIVERSITY</Type>
+			<Description>TXT_KEY_TECHTREE_MEDIEVAL_UNIVERSITY</Description>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_EMPIRICISM</Type>
+			<Description>TXT_KEY_TECHTREE_EMPIRICISM</Description>
+			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_3</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_HOMO_UNIVERSALIS</Type>
+			<Description>TXT_KEY_TECHTREE_HOMO_UNIVERSALIS</Description>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_GEOCENTRISM</Type>
+			<Description>TXT_KEY_TECHTREE_GEOCENTRISM</Description>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_3</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_ALCHEMY</Type>
+			<Description>TXT_KEY_TECHTREE_ALCHEMY</Description>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_INDUSTRIAL_REVOLUTION</Type>
+			<Description>TXT_KEY_TECHTREE_INDUSTRIAL_REVOLUTION</Description>
+			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_3</IconAtlas>
+		</Row>	
+		<Row>
+			<Type>TECHTREE_SCIENCE</Type>
+			<Description>TXT_KEY_TECHTREE_SCIENCE</Description>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_SOCIAL_CLASSES</Type>
+			<Description>TXT_KEY_TECHTREE_SOCIAL_CLASSES</Description>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_3</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_ELECTRICAL_PHENOMENA</Type>
+			<Description>TXT_KEY_TECHTREE_ELECTRICAL_PHENOMENA</Description>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_MOLECULES</Type>
+			<Description>TXT_KEY_TECHTREE_MOLECULES</Description>
+			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_3</IconAtlas>
+		</Row>	
+		<Row>
+			<Type>TECHTREE_AERODYNAMICS</Type>
+			<Description>TXT_KEY_TECHTREE_AERODYNAMICS</Description>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_DIGITAL_REVOLUTION</Type>
+			<Description>TXT_KEY_TECHTREE_DIGITAL_REVOLUTION</Description>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_3</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_HUMAN_AUGMENTATION</Type>
+			<Description>TXT_KEY_TECHTREE_HUMAN_AUGMENTATION</Description>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_ADVANCED_ASSEMBLY</Type>
+			<Description>TXT_KEY_TECHTREE_ADVANCED_ASSEMBLY</Description>
+			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_3</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_NEW_LIFE</Type>
+			<Description>TXT_KEY_TECHTREE_NEW_LIFE</Description>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_ATOM_MANIPULATION</Type>
+			<Description>TXT_KEY_TECHTREE_ATOM_MANIPULATION</Description>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_3</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TECHTREE_FRINGE_SCIENCE</Type>
+			<Description>TXT_KEY_TECHTREE_FRINGE_SCIENCE</Description>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_4</IconAtlas>
 		</Row>
 	</TechTreeCat>
 
 </GameData>
-
-
-
-	

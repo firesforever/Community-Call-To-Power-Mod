@@ -2,643 +2,1281 @@
 <!-- FiresForever 2011 - "Procylon's Call to Power Project" -->
 <GameData>
 	<Language_en_US>
-		<!-- Added Missing _TEXT entries, blank for now to remove them from logs -->
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MONARCHY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_THEOCRACY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_REPUBLIC_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_DEMOCRACY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FASCISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMUNISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CORPORATE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TECHNOCRACY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ECOTOPIA_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_VIRTUALDEMOCRACY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PACIFISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_IMPERIALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POPULISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CAPITALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LIBERALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CONSERVATISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NATIONALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SOCIALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANARCHISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENVIRONMENTALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ARISTOCRACY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_AUTOCRACY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PLUTOCRACY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PLURALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEUDALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PARLIAMENTARY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CONSTITUTIONAL_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEDERALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ELECTORAL_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TOTALITARIANISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_TRIBAL_KINGSHIP_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_DYNASTY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_ABSOLUTE_MONARCHY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_DIVINE_RIGHT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_CROWN_LOYALTY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_RELIGIOUS_LAW_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_IMPERIAL_CULT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_CLERGY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_STATE_CHURCH_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_PAPISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_CONTRACT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_CIVIC_VIRTUE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_RULE_OF_LAW_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_MIXED_GOVERNMENT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_CONSENSUS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_EQUALITY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_DIRECT_VOTE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_REPRESENTATION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_SEPARATION_OF_POWERS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_ACTION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_DISCIPLINE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_SPIRIT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_HIERARCHY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_WILL_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_COMINTERN_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALIZATION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_PROLETARIAN_DICTATORSHIP_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY3_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_UTOPIAN_SOCIALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_CHARTER_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_SHAREHOLDER_VIEW_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_BOARD_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_BYLAWS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_MANAGEMENT_CLASS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_MODES_OF_ACTION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_INFORMATION_SOCIETY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_ENERGY_ACCOUNTING_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ENGINEERING_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_POST_SCARCITY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_ECO_FANATACISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_PRECAUTIONARY_PRINCIPLE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_GAIA_HYPOTHESIS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_SUSTAINABILITY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_HOMO_ILLUMINATUS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_OPEN_SOURCE_GOVERNANCE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_INSTANT_REFERENDUM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_PURE_DEMOCRACY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_RECALL_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_RADICAL_TRANSPARENCY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRINCIPLED_PACIFISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRAGMATIC_PACIFISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NON_VIOLENCE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NON_AGGRESSION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PEACE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POLITICAL_EXPANSION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FORCIBLE_IMPOSITION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMAND_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANNEXATION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_EMPIRE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POLITICAL_POPULISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_AGRARIAN_POPULISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POPULAR_REFERENDUM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANTI_ELITISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_REFORM_MOVEMENT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRIVATIZATION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ECONOMIC_FREEDOM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LABOR_MARKET_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MARKET_ECONOMY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MONOPOLY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NATURAL_RIGHTS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INDEPENDENT_JUDICIARY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FREE_TRADE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_HUMAN_RIGHTS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_GLOBALIZATION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TRADITIONAL_INSTITUTIONS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NATURAL_LAW_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FISCAL_CONSERVATISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SOCIAL_ORDER_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LIBERTARIANISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PATRIOTISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ETHNOCENTRISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POPULAR_SOVEREIGNTY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_JINGOISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_EXCEPTIONALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MEANS_OF_PRODUCTION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PLANNED_ECONOMY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_REDISTRIBUTION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_OWNED_ENTERPRISE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_WELFARE_STATE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INDIVIDUALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PARTICIPATORY_ECONOMICS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SPONTANEOUS_ORDER_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COLLECTIVISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATELESS_SOCIETY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENDANGERED_SPECIES_ACT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENVIRONMENTAL_MOVEMENT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANIMAL_RIGHTS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CLEAN_AIR_ACT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_DEEP_ECOLOGY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_OLD_MONEY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ELITISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PROMINANT_COUNCIL_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CLASS_WARFARE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NOBILITY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CULT_OF_PERSONALITY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SINGLE_PARTY_STATE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ABSOLUTISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POWER_STRUCTURES_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_UNLIMITED_POWER_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LOBBYISTS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ECONOMIC_INEQUALITY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SHADOW_PARTY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_BOURGEOIS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TOP_1_PERCENT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_DIVERSITY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMPROMISE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INTEREST_GROUPS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POWER_SHARING_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMON_GOOD_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MANORIALISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_WARRIOR_NOBILITY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEUDAL_SOCIETY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_VASSALAGE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_OATH_OF_FEALTY_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_HYBRID_MODEL_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PROPORTIONAL_REPRESENTATION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_HEAD_OF_STATE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CHAMBERS_OF_PARLIAMENT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMONWEALTH_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ARTICLES_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_BASIC_LAW_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_AMENDMENTS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_JUDICIAL_REVIEW_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FUNDAMENTAL_RIGHTS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_GOVERNMENTS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENUMERATED_POWERS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_RESERVED_POWERS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEDERAL_COURTS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEDERATION_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INDIRECT_ELECTIONS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CENSUS_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRIMARIES_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_GERRYMANDERING_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENFRANCHISEMENT_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_MEDIA_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SECRET_POLICE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_TERRORISM_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MASS_SURVEILLANCE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_BIG_BROTHER_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_SENATE_TEXT">
-			<Text>Oops No Text!</Text>
-		</Row>
 
-		
-		<!-- Added Missing _HELP Entries, blank for now to remove them from logs -->
-		<Row Tag="TXT_KEY_NEWPOLICY_MONARCHY_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_THEOCRACY_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_REPUBLIC_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_DEMOCRACY_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_FASCISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_COMMUNISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_TECHNOCRACY_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_ECOTOPIA_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_VIRTUALDEMOCRACY_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_PACIFISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_IMPERIALISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_POPULISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_CAPITALISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_LIBERALISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_CONSERVATISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_SOCIALISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_ANARCHISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_ENVIRONMENTALISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_ARISTOCRACY_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_AUTOCRACY_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_PLUTOCRACY_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_PLURALISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_FEUDALISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_TOTALITARIANISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_PARLIAMENTARY_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_CONSTITUTIONAL_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_FEDERALISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_NEWPOLICY_ELECTORAL_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_POLICY_BRANCH_FASCISM_HELP">
-			<Text>Oops No Text!</Text>
-		</Row>
+		<!-- Added Missing _TEXT entries, blank for now to remove them from logs -->
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MONARCHY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_THEOCRACY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_REPUBLIC_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_DEMOCRACY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FASCISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMUNISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CORPORATE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TECHNOCRACY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ECOTOPIA_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_VIRTUALDEMOCRACY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PACIFISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_IMPERIALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POPULISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CAPITALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LIBERALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CONSERVATISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NATIONALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SOCIALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANARCHISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENVIRONMENTALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ARISTOCRACY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_AUTOCRACY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PLUTOCRACY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PLURALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEUDALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PARLIAMENTARY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CONSTITUTIONAL_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEDERALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ELECTORAL_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TOTALITARIANISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_TRIBAL_KINGSHIP_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_DYNASTY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_ABSOLUTE_MONARCHY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_DIVINE_RIGHT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_CROWN_LOYALTY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_RELIGIOUS_LAW_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_IMPERIAL_CULT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_CLERGY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_STATE_CHURCH_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_PAPISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_CONTRACT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_CIVIC_VIRTUE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_RULE_OF_LAW_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_MIXED_GOVERNMENT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_CONSENSUS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_EQUALITY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_DIRECT_VOTE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_REPRESENTATION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_SEPARATION_OF_POWERS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_ACTION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_DISCIPLINE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_SPIRIT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_HIERARCHY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_WILL_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_COMINTERN_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALIZATION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_PROLETARIAN_DICTATORSHIP_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY3_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_UTOPIAN_SOCIALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_CHARTER_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_SHAREHOLDER_VIEW_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_BOARD_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_BYLAWS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_MANAGEMENT_CLASS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_MODES_OF_ACTION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_INFORMATION_SOCIETY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_ENERGY_ACCOUNTING_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ENGINEERING_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_POST_SCARCITY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_ECO_FANATACISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_PRECAUTIONARY_PRINCIPLE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_GAIA_HYPOTHESIS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_SUSTAINABILITY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_HOMO_ILLUMINATUS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_OPEN_SOURCE_GOVERNANCE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_INSTANT_REFERENDUM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_PURE_DEMOCRACY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_RECALL_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_RADICAL_TRANSPARENCY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRINCIPLED_PACIFISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRAGMATIC_PACIFISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NON_VIOLENCE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NON_AGGRESSION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PEACE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POLITICAL_EXPANSION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FORCIBLE_IMPOSITION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMAND_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANNEXATION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_EMPIRE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POLITICAL_POPULISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_AGRARIAN_POPULISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POPULAR_REFERENDUM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANTI_ELITISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_REFORM_MOVEMENT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRIVATIZATION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ECONOMIC_FREEDOM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LABOR_MARKET_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MARKET_ECONOMY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MONOPOLY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NATURAL_RIGHTS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INDEPENDENT_JUDICIARY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FREE_TRADE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_HUMAN_RIGHTS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_GLOBALIZATION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TRADITIONAL_INSTITUTIONS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NATURAL_LAW_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FISCAL_CONSERVATISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SOCIAL_ORDER_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LIBERTARIANISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PATRIOTISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ETHNOCENTRISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POPULAR_SOVEREIGNTY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_JINGOISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_EXCEPTIONALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MEANS_OF_PRODUCTION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PLANNED_ECONOMY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_REDISTRIBUTION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_OWNED_ENTERPRISE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_WELFARE_STATE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INDIVIDUALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PARTICIPATORY_ECONOMICS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SPONTANEOUS_ORDER_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COLLECTIVISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATELESS_SOCIETY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENDANGERED_SPECIES_ACT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENVIRONMENTAL_MOVEMENT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANIMAL_RIGHTS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CLEAN_AIR_ACT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_DEEP_ECOLOGY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_OLD_MONEY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ELITISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PROMINANT_COUNCIL_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CLASS_WARFARE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NOBILITY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CULT_OF_PERSONALITY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SINGLE_PARTY_STATE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ABSOLUTISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POWER_STRUCTURES_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_UNLIMITED_POWER_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LOBBYISTS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ECONOMIC_INEQUALITY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SHADOW_PARTY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_BOURGEOIS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TOP_1_PERCENT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_DIVERSITY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMPROMISE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INTEREST_GROUPS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POWER_SHARING_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMON_GOOD_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MANORIALISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_WARRIOR_NOBILITY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEUDAL_SOCIETY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_VASSALAGE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_OATH_OF_FEALTY_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_HYBRID_MODEL_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PROPORTIONAL_REPRESENTATION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_HEAD_OF_STATE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CHAMBERS_OF_PARLIAMENT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMONWEALTH_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ARTICLES_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_BASIC_LAW_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_AMENDMENTS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_JUDICIAL_REVIEW_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FUNDAMENTAL_RIGHTS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_GOVERNMENTS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENUMERATED_POWERS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_RESERVED_POWERS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEDERAL_COURTS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEDERATION_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INDIRECT_ELECTIONS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CENSUS_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRIMARIES_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_GERRYMANDERING_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENFRANCHISEMENT_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_MEDIA_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SECRET_POLICE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_TERRORISM_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MASS_SURVEILLANCE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_BIG_BROTHER_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_SENATE_TEXT">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
+ 
+
++		
+
++		<!-- Added Missing _HELP Entries, blank for now to remove them from logs -->
+
++		<Row Tag="TXT_KEY_NEWPOLICY_MONARCHY_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_THEOCRACY_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_REPUBLIC_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_DEMOCRACY_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_FASCISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_COMMUNISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_TECHNOCRACY_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_ECOTOPIA_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_VIRTUALDEMOCRACY_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_PACIFISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_IMPERIALISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_POPULISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_CAPITALISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_LIBERALISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_CONSERVATISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_SOCIALISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_ANARCHISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_ENVIRONMENTALISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_ARISTOCRACY_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_AUTOCRACY_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_PLUTOCRACY_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_PLURALISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_FEUDALISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_TOTALITARIANISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_PARLIAMENTARY_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_CONSTITUTIONAL_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_FEDERALISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_NEWPOLICY_ELECTORAL_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_POLICY_BRANCH_FASCISM_HELP">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
 		<!-- Make changes directly to the txt_Key_ entries in this xml file, do not use the update command-->
 
 		<!--Quotes For Main Page Will be added later to make them different to the tech tree quotes, but feel free to add some now so they are ready to go-->

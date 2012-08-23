@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<Leader_Flavors>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_ASKIA" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_AUGUSTUS" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_AUGUSTUS" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_AUGUSTUS" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_AUGUSTUS" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_AUGUSTUS" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_BISMARK" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_BISMARK" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_BISMARK" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_BISMARK" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_BISMARK" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_DARIUS" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_DARIUS" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_DARIUS" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_DARIUS" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_DARIUS" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ELIZABETH" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ELIZABETH" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ELIZABETH" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_ELIZABETH" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_ELIZABETH" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_GENGHIS_KHAN" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_GENGHIS_KHAN" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_GENGHIS_KHAN" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_GENGHIS_KHAN" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_GENGHIS_KHAN" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_HARUN_AL_RASHID" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_HARUN_AL_RASHID" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_HARUN_AL_RASHID" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_HARUN_AL_RASHID" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_HARUN_AL_RASHID" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_HIAWATHA" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ISABELLA" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_ISABELLA" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ISABELLA" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_ISABELLA" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_ISABELLA" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_MONTEZUMA" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_NAPOLEON" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_NAPOLEON" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_NAPOLEON" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_NAPOLEON" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_NAPOLEON" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_NEBUCHADNEZZAR" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_NEBUCHADNEZZAR" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_NEBUCHADNEZZAR" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_NEBUCHADNEZZAR" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_NEBUCHADNEZZAR" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ODA_NOBUNAGA" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_ODA_NOBUNAGA" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_ODA_NOBUNAGA" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_ODA_NOBUNAGA" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_ODA_NOBUNAGA" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_PACHACUTI" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_PACHACUTI" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_PACHACUTI" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_PACHACUTI" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_PACHACUTI" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_RAMESSES" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_RAMESSES" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_RAMESSES" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_RAMESSES" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_RAMESSES" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_SULEIMAN" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_SULEIMAN" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_SULEIMAN" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_SULEIMAN" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_SULEIMAN" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+		<Update>
+			<Set Flavor="9" />
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_GOLD" />
+		</Update>
+		<Update>
+			<Set Flavor="14" />
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_HAPPINESS" />
+		</Update>
+		<Update>
+			<Set Flavor="7" />
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_OFFENSE" />
+		</Update>
+		
+	</Leader_Flavors>
+	<Traits>
+		<Update>
+			<Where Type="TRAIT_LAND_TRADE_GOLD" />
+			<Set TradeRouteChange="3"/>
+		</Update>
+	</Traits>
+	<Trait_YieldChangesStrategicResources>
+		<Update>
+			<Where TraitType="TRAIT_STRATEGIC_RICHES" />
+			<Set Yield="1" />
+		</Update>
+	</Trait_YieldChangesStrategicResources>
+</GameData>

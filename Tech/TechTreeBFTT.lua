@@ -10,26 +10,54 @@ include( "TechHelpInclude" );
 
 local m_PopupInfo = nil;
 
-local g_PipeEconomics = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.ECOTechTreeScrollPanel );
-local g_EraEconomics = InstanceManager:new( "EraBlockInstance", "EraBlock", Controls.ECOEraStack );
-local g_TechInstanceEconomics = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.ECOTechTreeScrollPanel );
-
-local g_PipeEngineering = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.ENGTechTreeScrollPanel );
-local g_EraEngineering = InstanceManager:new( "EraBlockInstance", "EraBlock", Controls.ENGEraStack );
-local g_TechInstanceEngineering = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.ENGTechTreeScrollPanel );
-
-local g_PipeMilitary = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.MILTechTreeScrollPanel );
-local g_EraMilitary = InstanceManager:new( "EraBlockInstance", "EraBlock", Controls.MILEraStack );
-local g_TechInstanceMilitary = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.MILTechTreeScrollPanel );
-
-local g_PipeScience = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.SCITechTreeScrollPanel );
-local g_EraScience = InstanceManager:new( "EraBlockInstance", "EraBlock", Controls.SCIEraStack );
-local g_TechInstanceScience = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.SCITechTreeScrollPanel );
-
-local g_PipeSocial = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.SOCTechTreeScrollPanel );
-local g_EraSocial = InstanceManager:new( "EraBlockInstance", "EraBlock", Controls.SOCEraStack );
-local g_TechInstanceSocial = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.SOCTechTreeScrollPanel );
-
+local g_PipeLand = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.LandTechTreeScrollPanel );
+local g_TechInstanceLand = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.LandTechTreeScrollPanel );
+local g_PipeSea = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.SeaTechTreeScrollPanel );
+local g_TechInstanceSea = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.SeaTechTreeScrollPanel );
+local g_PipeSpirit = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.SpiritTechTreeScrollPanel );
+local g_TechInstanceSpirit = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.SpiritTechTreeScrollPanel );
+local g_PipeNumber = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.NumberTechTreeScrollPanel );
+local g_TechInstanceNumber = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.NumberTechTreeScrollPanel );
+local g_PipeAlphabet = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.AlphabetTechTreeScrollPanel );
+local g_TechInstanceAlphabet = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.AlphabetTechTreeScrollPanel );
+local g_PipeArtisans = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.ArtisansTechTreeScrollPanel );
+local g_TechInstanceArtisans = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.ArtisansTechTreeScrollPanel );
+local g_PipeExoticG = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.ExoticGTechTreeScrollPanel );
+local g_TechInstanceExoticG = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.ExoticGTechTreeScrollPanel );
+local g_PipeMedievalU = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.MedievalUTechTreeScrollPanel );
+local g_TechInstanceMedievalU = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.MedievalUTechTreeScrollPanel );
+local g_PipeEmpiricism = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.EmpiricismTechTreeScrollPanel );
+local g_TechInstanceEmpiricism = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.EmpiricismTechTreeScrollPanel );
+local g_PipeHomo = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.HomoTechTreeScrollPanel );
+local g_TechInstanceHomo = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.HomoTechTreeScrollPanel );
+local g_PipeGeocentrism = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.GeocentrismTechTreeScrollPanel );
+local g_TechInstanceGeocentrism = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.GeocentrismTechTreeScrollPanel );
+local g_PipeAlchemy = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.AlchemyTechTreeScrollPanel );
+local g_TechInstanceAlchemy = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.AlchemyTechTreeScrollPanel );
+local g_PipeIndustrialR = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.IndustrialRTechTreeScrollPanel );
+local g_TechInstanceIndustrialR = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.IndustrialRTechTreeScrollPanel );
+local g_PipeScience = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.ScienceTechTreeScrollPanel );
+local g_TechInstanceScience = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.ScienceTechTreeScrollPanel );
+local g_PipeSocialC = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.SocialCTechTreeScrollPanel );
+local g_TechInstanceSocialC = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.SocialCTechTreeScrollPanel );
+local g_PipeElectrical = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.ElectricalTechTreeScrollPanel );
+local g_TechInstanceElectrical = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.ElectricalTechTreeScrollPanel );
+local g_PipeMolecules = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.MoleculesTechTreeScrollPanel );
+local g_TechInstanceMolecules = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.MoleculesTechTreeScrollPanel );
+local g_PipeAerodynamics = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.AerodynamicsTechTreeScrollPanel );
+local g_TechInstanceAerodynamics = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.AerodynamicsTechTreeScrollPanel );
+local g_PipeDigitalR = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.DigitalRTechTreeScrollPanel );
+local g_TechInstanceDigitalR = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.DigitalRTechTreeScrollPanel );
+local g_PipeHumanA = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.HumanATechTreeScrollPanel );
+local g_TechInstanceHumanA = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.HumanATechTreeScrollPanel );
+local g_PipeAdvancedA = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.AdvancedATechTreeScrollPanel );
+local g_TechInstanceAdvancedA = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.AdvancedATechTreeScrollPanel );
+local g_PipeNewLife = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.NewLifeTechTreeScrollPanel );
+local g_TechInstanceNewLife = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.NewLifeTechTreeScrollPanel );
+local g_PipeAtomM = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.AtomMTechTreeScrollPanel );
+local g_TechInstanceAtomM = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.AtomMTechTreeScrollPanel );
+local g_PipeFringe = InstanceManager:new( "TechPipeInstance", "TechPipeIcon", Controls.FringeTechTreeScrollPanel );
+local g_TechInstanceFringe = InstanceManager:new( "TechButtonInstance", "TechButton", Controls.FringeTechTreeScrollPanel );
 
 local g_PipeManager
 local g_EraManager
@@ -84,23 +112,38 @@ local maxTechNameLength = 22 - Locale.Length(Locale.Lookup("TXT_KEY_TURNS"));
 -------------------------------------------------
 
 local techButtons = {};
-local eraBlocks = {};
 local eraColumns = {};
 
 function InitialSetup()
 
 	-- make the scroll bar the correct size for the display size
-	Controls.ECOTechTreeScrollBar:SetSizeX( Controls.ECOTechTreeScrollPanel:GetSize().x - 150 );
-	Controls.ENGTechTreeScrollBar:SetSizeX( Controls.ENGTechTreeScrollPanel:GetSize().x - 150 );
-	Controls.MILTechTreeScrollBar:SetSizeX( Controls.MILTechTreeScrollPanel:GetSize().x - 150 );
-	Controls.SCITechTreeScrollBar:SetSizeX( Controls.SCITechTreeScrollPanel:GetSize().x - 150 );
-	Controls.SOCTechTreeScrollBar:SetSizeX( Controls.SOCTechTreeScrollPanel:GetSize().x - 150 );
-	
+	Controls.LandTechTreeScrollBar:SetSizeX( Controls.LandTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.SeaTechTreeScrollBar:SetSizeX( Controls.SeaTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.SpiritTechTreeScrollBar:SetSizeX( Controls.SpiritTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.NumberTechTreeScrollBar:SetSizeX( Controls.NumberTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.AlphabetTechTreeScrollBar:SetSizeX( Controls.AlphabetTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.ArtisansTechTreeScrollBar:SetSizeX( Controls.ArtisansTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.ExoticGTechTreeScrollBar:SetSizeX( Controls.ExoticGTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.MedievalUTechTreeScrollBar:SetSizeX( Controls.MedievalUTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.EmpiricismTechTreeScrollBar:SetSizeX( Controls.EmpiricismTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.HomoTechTreeScrollBar:SetSizeX( Controls.HomoTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.GeocentrismTechTreeScrollBar:SetSizeX( Controls.GeocentrismTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.AlchemyTechTreeScrollBar:SetSizeX( Controls.AlchemyTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.IndustrialRTechTreeScrollBar:SetSizeX( Controls.IndustrialRTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.ScienceTechTreeScrollBar:SetSizeX( Controls.ScienceTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.SocialCTechTreeScrollBar:SetSizeX( Controls.SocialCTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.ElectricalTechTreeScrollBar:SetSizeX( Controls.ElectricalTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.MoleculesTechTreeScrollBar:SetSizeX( Controls.MoleculesTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.AerodynamicsTechTreeScrollBar:SetSizeX( Controls.AerodynamicsTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.DigitalRTechTreeScrollBar:SetSizeX( Controls.DigitalRTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.HumanATechTreeScrollBar:SetSizeX( Controls.HumanATechTreeScrollPanel:GetSize().x - 150 );
+	Controls.AdvancedATechTreeScrollBar:SetSizeX( Controls.AdvancedATechTreeScrollPanel:GetSize().x - 150 );
+	Controls.NewLifeTechTreeScrollBar:SetSizeX( Controls.NewLifeTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.AtomMTechTreeScrollBar:SetSizeX( Controls.AtomMTechTreeScrollPanel:GetSize().x - 150 );
+	Controls.FringeTechTreeScrollBar:SetSizeX( Controls.FringeTechTreeScrollPanel:GetSize().x - 150 );
+
 	-- gather info about this player's unique units and buldings
 	GatherInfoAboutUniqueStuff( civType );
-
-	-- add the Era panels to the background
-	AddEraPanels();
 
 	-- add the pipes
 	local techPipes = {};
@@ -178,22 +221,82 @@ function InitialSetup()
 			
 			local PCat = NULL
 			
-			if tech.TechCat == "TECHTREE_ECONOMICS" and prereq.TechCat == "TECHTREE_ECONOMICS" then
-				g_PipeManager = g_PipeEconomics
-				PCat = "TECHTREE_ECONOMICS"
-			elseif tech.TechCat == "TECHTREE_ENGINEERING" and prereq.TechCat == "TECHTREE_ENGINEERING" then
-				g_PipeManager = g_PipeEngineering
-				PCat = "TECHTREE_ENGINEERING"
-			elseif tech.TechCat == "TECHTREE_MILITARY" and prereq.TechCat == "TECHTREE_MILITARY" then
-				g_PipeManager = g_PipeMilitary
-				PCat = "TECHTREE_MILITARY"
-			elseif tech.TechCat == "TECHTREE_SCIENCES" and prereq.TechCat == "TECHTREE_SCIENCES" then
+			if tech.TechCat == "TECHTREE_LAND" and prereq.TechCat == "TECHTREE_LAND" then
+				g_PipeManager = g_PipeLand
+				PCat = "TECHTREE_LAND"
+			elseif tech.TechCat == "TECHTREE_SEA" and prereq.TechCat == "TECHTREE_SEA" then
+				g_PipeManager = g_PipeSea
+				PCat = "TECHTREE_SEA"
+			elseif tech.TechCat == "TECHTREE_SPIRIT" and prereq.TechCat == "TECHTREE_SPIRIT" then
+				g_PipeManager = g_PipeSpirit
+				PCat = "TECHTREE_SPIRIT"
+			elseif tech.TechCat == "TECHTREE_NUMBERTHEORY" and prereq.TechCat == "TECHTREE_NUMBERTHEORY" then
+				g_PipeManager = g_PipeNumber
+				PCat = "TECHTREE_NUMBERTHEORY"
+			elseif tech.TechCat == "TECHTREE_ALPHABET" and prereq.TechCat == "TECHTREE_ALPHABET" then
+				g_PipeManager = g_PipeAlphabet
+				PCat = "TECHTREE_ALPHABET"	
+			elseif tech.TechCat == "TECHTREE_ARTISANS" and prereq.TechCat == "TECHTREE_ARTISANS" then
+				g_PipeManager = g_PipeArtisans
+				PCat = "TECHTREE_ARTISANS"
+			elseif tech.TechCat == "TECHTREE_EXOTIC_GOODS" and prereq.TechCat == "TECHTREE_EXOTIC_GOODS" then
+				g_PipeManager = g_PipeExoticG
+				PCat = "TECHTREE_EXOTIC_GOODS"
+			elseif tech.TechCat == "TECHTREE_MEDIEVAL_UNIVERSITY" and prereq.TechCat == "TECHTREE_MEDIEVAL_UNIVERSITY" then
+				g_PipeManager = g_PipeMedievalU
+				PCat = "TECHTREE_MEDIEVAL_UNIVERSITY"
+			elseif tech.TechCat == "TECHTREE_EMPIRICISM" and prereq.TechCat == "TECHTREE_EMPIRICISM" then
+				g_PipeManager = g_PipeEmpiricism
+				PCat = "TECHTREE_EMPIRICISM"	
+			elseif tech.TechCat == "TECHTREE_HOMO_UNIVERSALIS" and prereq.TechCat == "TECHTREE_HOMO_UNIVERSALIS" then
+				g_PipeManager = g_PipeHomo
+				PCat = "TECHTREE_HOMO_UNIVERSALIS"
+			elseif tech.TechCat == "TECHTREE_GEOCENTRISM" and prereq.TechCat == "TECHTREE_GEOCENTRISM" then
+				g_PipeManager = g_PipeGeocentrism
+				PCat = "TECHTREE_GEOCENTRISM"
+			elseif tech.TechCat == "TECHTREE_ALCHEMY" and prereq.TechCat == "TECHTREE_ALCHEMY" then
+				g_PipeManager = g_PipeAlchemy
+				PCat = "TECHTREE_ALCHEMY"
+			elseif tech.TechCat == "TECHTREE_INDUSTRIAL_REVOLUTION" and prereq.TechCat == "TECHTREE_INDUSTRIAL_REVOLUTION" then
+				g_PipeManager = g_PipeIndustrialR
+				PCat = "TECHTREE_INDUSTRIAL_REVOLUTION"	
+			elseif tech.TechCat == "TECHTREE_SCIENCE" and prereq.TechCat == "TECHTREE_SCIENCE" then
 				g_PipeManager = g_PipeScience
-				PCat = "TECHTREE_SCIENCES"
-			elseif tech.TechCat == "TECHTREE_SOCIAL" and prereq.TechCat == "TECHTREE_SOCIAL" then
-				g_PipeManager = g_PipeSocial
-				PCat = "TECHTREE_SOCIAL"
+				PCat = "TECHTREE_SCIENCE"
+			elseif tech.TechCat == "TECHTREE_SOCIAL_CLASSES" and prereq.TechCat == "TECHTREE_SOCIAL_CLASSES" then
+				g_PipeManager = g_PipeSocialC
+				PCat = "TECHTREE_SOCIAL_CLASSES"
+			elseif tech.TechCat == "TECHTREE_ELECTRICAL_PHENOMENA" and prereq.TechCat == "TECHTREE_ELECTRICAL_PHENOMENA" then
+				g_PipeManager = g_PipeElectrical
+				PCat = "TECHTREE_ELECTRICAL_PHENOMENA"
+			elseif tech.TechCat == "TECHTREE_MOLECULES" and prereq.TechCat == "TECHTREE_MOLECULES" then
+				g_PipeManager = g_PipeMolecules
+				PCat = "TECHTREE_MOLECULES"	
+			elseif tech.TechCat == "TECHTREE_AERODYNAMICS" and prereq.TechCat == "TECHTREE_AERODYNAMICS" then
+				g_PipeManager = g_PipeAerodynamics
+				PCat = "TECHTREE_AERODYNAMICS"
+			elseif tech.TechCat == "TECHTREE_DIGITAL_REVOLUTION" and prereq.TechCat == "TECHTREE_DIGITAL_REVOLUTION" then
+				g_PipeManager = g_PipeDigitalR
+				PCat = "TECHTREE_DIGITAL_REVOLUTION"
+			elseif tech.TechCat == "TECHTREE_HUMAN_AUGMENTATION" and prereq.TechCat == "TECHTREE_HUMAN_AUGMENTATION" then
+				g_PipeManager = g_PipeHumanA
+				PCat = "TECHTREE_HUMAN_AUGMENTATION"
+			elseif tech.TechCat == "TECHTREE_ADVANCED_ASSEMBLY" and prereq.TechCat == "TECHTREE_ADVANCED_ASSEMBLY" then
+				g_PipeManager = g_PipeAdvancedA
+				PCat = "TECHTREE_ADVANCED_ASSEMBLY"	
+			elseif tech.TechCat == "TECHTREE_NEW_LIFE" and prereq.TechCat == "TECHTREE_NEW_LIFE" then
+				g_PipeManager = g_PipeNewLife
+				PCat = "TECHTREE_NEW_LIFE"
+			elseif tech.TechCat == "TECHTREE_ATOM_MANIPULATION" and prereq.TechCat == "TECHTREE_ATOM_MANIPULATION" then
+				g_PipeManager = g_PipeAtomM
+				PCat = "TECHTREE_ATOM_MANIPULATION"
+			elseif tech.TechCat == "TECHTREE_FRINGE_SCIENCE" and prereq.TechCat == "TECHTREE_FRINGE_SCIENCE" then
+				g_PipeManager = g_PipeFringe
+				PCat = "TECHTREE_FRINGE_SCIENCE"
+			else
+				g_PipeManager = g_PipeLand
 			end
+			
 		
 			if tech.TechCat == PCat and prereq.TechCat == PCat then
 		
@@ -249,24 +352,80 @@ function InitialSetup()
 		
 		local PCat = NULL
 			
-		if tech.TechCat == "TECHTREE_ECONOMICS" then
-			g_PipeManager = g_PipeEconomics
-			PCat = "TECHTREE_ECONOMICS"
-		elseif tech.TechCat == "TECHTREE_ENGINEERING" then
-			g_PipeManager = g_PipeEngineering
-			PCat = "TECHTREE_ENGINEERING"
-		elseif tech.TechCat == "TECHTREE_MILITARY" then
-			g_PipeManager = g_PipeMilitary
-			PCat = "TECHTREE_MILITARY"
-		elseif tech.TechCat == "TECHTREE_SCIENCES" then
-			g_PipeManager = g_PipeScience
-			PCat = "TECHTREE_SCIENCES"
-		elseif tech.TechCat == "TECHTREE_SOCIAL" then
-			g_PipeManager = g_PipeSocial
-			PCat = "TECHTREE_SOCIAL"
-		end
-		
-		
+			if tech.TechCat == "TECHTREE_LAND" then
+				g_PipeManager = g_PipeLand
+				PCat = "TECHTREE_LAND"
+			elseif tech.TechCat == "TECHTREE_SEA" then
+				g_PipeManager = g_PipeSea
+				PCat = "TECHTREE_SEA"
+			elseif tech.TechCat == "TECHTREE_SPIRIT" then
+				g_PipeManager = g_PipeSpirit
+				PCat = "TECHTREE_SPIRIT"
+			elseif tech.TechCat == "TECHTREE_NUMBERTHEORY" then
+				g_PipeManager = g_PipeNumber
+				PCat = "TECHTREE_NUMBERTHEORY"
+			elseif tech.TechCat == "TECHTREE_ALPHABET" then
+				g_PipeManager = g_PipeAlphabet
+				PCat = "TECHTREE_ALPHABET"	
+			elseif tech.TechCat == "TECHTREE_ARTISANS" then
+				g_PipeManager = g_PipeArtisans
+				PCat = "TECHTREE_ARTISANS"
+			elseif tech.TechCat == "TECHTREE_EXOTIC_GOODS" then
+				g_PipeManager = g_PipeExoticG
+				PCat = "TECHTREE_EXOTIC_GOODS"
+			elseif tech.TechCat == "TECHTREE_MEDIEVAL_UNIVERSITY" then
+				g_PipeManager = g_PipeMedievalU
+				PCat = "TECHTREE_MEDIEVAL_UNIVERSITY"
+			elseif tech.TechCat == "TECHTREE_EMPIRICISM" then
+				g_PipeManager = g_PipeEmpiricism
+				PCat = "TECHTREE_EMPIRICISM"	
+			elseif tech.TechCat == "TECHTREE_HOMO_UNIVERSALIS" then
+				g_PipeManager = g_PipeHomo
+				PCat = "TECHTREE_HOMO_UNIVERSALIS"
+			elseif tech.TechCat == "TECHTREE_GEOCENTRISM" then
+				g_PipeManager = g_PipeGeocentrism
+				PCat = "TECHTREE_GEOCENTRISM"
+			elseif tech.TechCat == "TECHTREE_ALCHEMY" then
+				g_PipeManager = g_PipeAlchemy
+				PCat = "TECHTREE_ALCHEMY"
+			elseif tech.TechCat == "TECHTREE_INDUSTRIAL_REVOLUTION" then
+				g_PipeManager = g_PipeIndustrialR
+				PCat = "TECHTREE_INDUSTRIAL_REVOLUTION"	
+			elseif tech.TechCat == "TECHTREE_SCIENCE" then
+				g_PipeManager = g_PipeScience
+				PCat = "TECHTREE_SCIENCE"
+			elseif tech.TechCat == "TECHTREE_SOCIAL_CLASSES" then
+				g_PipeManager = g_PipeSocialC
+				PCat = "TECHTREE_SOCIAL_CLASSES"
+			elseif tech.TechCat == "TECHTREE_ELECTRICAL_PHENOMENA" then
+				g_PipeManager = g_PipeElectrical
+				PCat = "TECHTREE_ELECTRICAL_PHENOMENA"
+			elseif tech.TechCat == "TECHTREE_MOLECULES" then
+				g_PipeManager = g_PipeMolecules
+				PCat = "TECHTREE_MOLECULES"	
+			elseif tech.TechCat == "TECHTREE_AERODYNAMICS" then
+				g_PipeManager = g_PipeAerodynamics
+				PCat = "TECHTREE_AERODYNAMICS"
+			elseif tech.TechCat == "TECHTREE_DIGITAL_REVOLUTION" then
+				g_PipeManager = g_PipeDigitalR
+				PCat = "TECHTREE_DIGITAL_REVOLUTION"
+			elseif tech.TechCat == "TECHTREE_HUMAN_AUGMENTATION" then
+				g_PipeManager = g_PipeHumanA
+				PCat = "TECHTREE_HUMAN_AUGMENTATION"
+			elseif tech.TechCat == "TECHTREE_ADVANCED_ASSEMBLY" then
+				g_PipeManager = g_PipeAdvancedA
+				PCat = "TECHTREE_ADVANCED_ASSEMBLY"	
+			elseif tech.TechCat == "TECHTREE_NEW_LIFE" then
+				g_PipeManager = g_PipeNewLife
+				PCat = "TECHTREE_NEW_LIFE"
+			elseif tech.TechCat == "TECHTREE_ATOM_MANIPULATION" then
+				g_PipeManager = g_PipeAtomM
+				PCat = "TECHTREE_ATOM_MANIPULATION"
+			elseif tech.TechCat == "TECHTREE_FRINGE_SCIENCE" then
+				g_PipeManager = g_PipeFringe
+				PCat = "TECHTREE_FRINGE_SCIENCE"
+			end
+				
 		if thisPipe.rightConnectionType >= 1 then
 			
 			local startPipe = g_PipeManager:GetInstance();
@@ -427,373 +586,33 @@ function InitialSetup()
 	end
 
 	-- resize the panel to fit the contents
-	Controls.ECOEraStack:CalculateSize();
-	Controls.ECOEraStack:ReprocessAnchoring();
 	
-	Controls.ENGEraStack:CalculateSize();
-	Controls.ENGEraStack:ReprocessAnchoring();
-	
-	Controls.MILEraStack:CalculateSize();
-	Controls.MILEraStack:ReprocessAnchoring();
-	
-	Controls.SCIEraStack:CalculateSize();
-	Controls.SCIEraStack:ReprocessAnchoring();
-	
-	Controls.SOCEraStack:CalculateSize();
-	Controls.SOCEraStack:ReprocessAnchoring();
-	
-    Controls.ECOTechTreeScrollPanel:CalculateInternalSize();
-	Controls.ENGTechTreeScrollPanel:CalculateInternalSize();
-	Controls.MILTechTreeScrollPanel:CalculateInternalSize();
-	Controls.SCITechTreeScrollPanel:CalculateInternalSize();
-	Controls.SOCTechTreeScrollPanel:CalculateInternalSize();
+    Controls.LandTechTreeScrollPanel:CalculateInternalSize();
+	Controls.SeaTechTreeScrollPanel:CalculateInternalSize();
+	Controls.SpiritTechTreeScrollPanel:CalculateInternalSize();
+	Controls.NumberTechTreeScrollPanel:CalculateInternalSize();
+	Controls.AlphabetTechTreeScrollPanel:CalculateInternalSize();
+	Controls.ArtisansTechTreeScrollPanel:CalculateInternalSize();
+	Controls.ExoticGTechTreeScrollPanel:CalculateInternalSize();
+	Controls.MedievalUTechTreeScrollPanel:CalculateInternalSize();
+	Controls.EmpiricismTechTreeScrollPanel:CalculateInternalSize();
+	Controls.HomoTechTreeScrollPanel:CalculateInternalSize();	
+	Controls.GeocentrismTechTreeScrollPanel:CalculateInternalSize();
+	Controls.AlchemyTechTreeScrollPanel:CalculateInternalSize();
+	Controls.IndustrialRTechTreeScrollPanel:CalculateInternalSize();
+	Controls.ScienceTechTreeScrollPanel:CalculateInternalSize();
+	Controls.SocialCTechTreeScrollPanel:CalculateInternalSize();
+	Controls.ElectricalTechTreeScrollPanel:CalculateInternalSize();
+	Controls.MoleculesTechTreeScrollPanel:CalculateInternalSize();
+	Controls.AerodynamicsTechTreeScrollPanel:CalculateInternalSize();
+	Controls.DigitalRTechTreeScrollPanel:CalculateInternalSize();
+	Controls.HumanATechTreeScrollPanel:CalculateInternalSize();
+	Controls.AdvancedATechTreeScrollPanel:CalculateInternalSize();
+	Controls.NewLifeTechTreeScrollPanel:CalculateInternalSize();
+	Controls.AtomMTechTreeScrollPanel:CalculateInternalSize();
+	Controls.FringeTechTreeScrollPanel:CalculateInternalSize();
     
     --initialized = true;		
-end
-
-function AddEraPanels()
-	-- find the range of columns that each era takes
-	for tech in GameInfo.Technologies() do
-		local eraID = GameInfo.Eras[tech.Era].ID;
-		if not eraColumns[eraID] then
-			eraColumns[eraID] = { minGridX = tech.GridX; maxGridX = tech.GridX; researched = false; };
-		else
-			if tech.GridX < eraColumns[eraID].minGridX then
-				eraColumns[eraID].minGridX = tech.GridX;
-			end
-			if tech.GridX > eraColumns[eraID].maxGridX then
-				eraColumns[eraID].maxGridX = tech.GridX;
-			end
-		end
-	end
-
-	-- add the era panels
-	for era in GameInfo.Eras() do
-		g_EraManager = g_EraEconomics
-		local thisEraBlockInstance = g_EraManager:GetInstance();
-		-- store this panel off for later
-		eraBlocks[era.ID] = thisEraBlockInstance;
-		
-		-- add the correct text for this era panel
-		local textString = "TXT_KEY_ERA_"..tostring( era.ID );
-		local localizedLabel = Locale.ConvertTextKey( textString );
-		thisEraBlockInstance.OldLabel:SetText( localizedLabel );
-		thisEraBlockInstance.CurrentLabel:SetText( localizedLabel );
-		thisEraBlockInstance.FutureLabel:SetText( localizedLabel );
-		
-		-- adjust the sizes of the era panels
-		local blockWidth;
-		if (eraColumns[era.ID] ~= nil) then
-			blockWidth = (eraColumns[era.ID].maxGridX - eraColumns[era.ID].minGridX + 1);
-		else
-			blockWidth = 1;
-		end
-			
-		blockWidth = (blockWidth * blockSpacingX);
-		if era.ID == 0 then
-			blockWidth = blockWidth + 32;
-		end
-		local blockSize = thisEraBlockInstance.EraBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.EraBlock:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.FrameBottom:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.FrameBottom:SetSize( blockSize );	
-		
-		blockSize = thisEraBlockInstance.OldBar:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.OldBar:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.OldBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.OldBlock:SetSize( blockSize );
-		
-		blockSize = thisEraBlockInstance.CurrentBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentBlock1:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock1:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentBlock2:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock2:SetSize( blockSize );
-				
-		blockSize = thisEraBlockInstance.CurrentTop:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentTop1:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop1:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentTop2:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop2:SetSize( blockSize );
-				
-		blockSize = thisEraBlockInstance.FutureBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.FutureBlock:SetSize( blockSize );
-		
-	end
-	
-	for era in GameInfo.Eras() do
-		g_EraManager = g_EraEngineering
-		local thisEraBlockInstance = g_EraManager:GetInstance();
-		-- store this panel off for later
-		eraBlocks[era.ID] = thisEraBlockInstance;
-		
-		-- add the correct text for this era panel
-		local textString = "TXT_KEY_ERA_"..tostring( era.ID );
-		local localizedLabel = Locale.ConvertTextKey( textString );
-		thisEraBlockInstance.OldLabel:SetText( localizedLabel );
-		thisEraBlockInstance.CurrentLabel:SetText( localizedLabel );
-		thisEraBlockInstance.FutureLabel:SetText( localizedLabel );
-		
-		-- adjust the sizes of the era panels
-		local blockWidth;
-		if (eraColumns[era.ID] ~= nil) then
-			blockWidth = (eraColumns[era.ID].maxGridX - eraColumns[era.ID].minGridX + 1);
-		else
-			blockWidth = 1;
-		end
-			
-		blockWidth = (blockWidth * blockSpacingX);
-		if era.ID == 0 then
-			blockWidth = blockWidth + 32;
-		end
-		local blockSize = thisEraBlockInstance.EraBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.EraBlock:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.FrameBottom:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.FrameBottom:SetSize( blockSize );	
-		
-		blockSize = thisEraBlockInstance.OldBar:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.OldBar:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.OldBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.OldBlock:SetSize( blockSize );
-		
-		blockSize = thisEraBlockInstance.CurrentBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentBlock1:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock1:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentBlock2:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock2:SetSize( blockSize );
-				
-		blockSize = thisEraBlockInstance.CurrentTop:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentTop1:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop1:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentTop2:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop2:SetSize( blockSize );
-				
-		blockSize = thisEraBlockInstance.FutureBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.FutureBlock:SetSize( blockSize );
-		
-	end
-
-	for era in GameInfo.Eras() do
-		g_EraManager = g_EraMilitary
-		local thisEraBlockInstance = g_EraManager:GetInstance();
-		-- store this panel off for later
-		eraBlocks[era.ID] = thisEraBlockInstance;
-		
-		-- add the correct text for this era panel
-		local textString = "TXT_KEY_ERA_"..tostring( era.ID );
-		local localizedLabel = Locale.ConvertTextKey( textString );
-		thisEraBlockInstance.OldLabel:SetText( localizedLabel );
-		thisEraBlockInstance.CurrentLabel:SetText( localizedLabel );
-		thisEraBlockInstance.FutureLabel:SetText( localizedLabel );
-		
-		-- adjust the sizes of the era panels
-		local blockWidth;
-		if (eraColumns[era.ID] ~= nil) then
-			blockWidth = (eraColumns[era.ID].maxGridX - eraColumns[era.ID].minGridX + 1);
-		else
-			blockWidth = 1;
-		end
-			
-		blockWidth = (blockWidth * blockSpacingX);
-		if era.ID == 0 then
-			blockWidth = blockWidth + 32;
-		end
-		local blockSize = thisEraBlockInstance.EraBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.EraBlock:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.FrameBottom:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.FrameBottom:SetSize( blockSize );	
-		
-		blockSize = thisEraBlockInstance.OldBar:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.OldBar:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.OldBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.OldBlock:SetSize( blockSize );
-		
-		blockSize = thisEraBlockInstance.CurrentBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentBlock1:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock1:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentBlock2:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock2:SetSize( blockSize );
-				
-		blockSize = thisEraBlockInstance.CurrentTop:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentTop1:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop1:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentTop2:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop2:SetSize( blockSize );
-				
-		blockSize = thisEraBlockInstance.FutureBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.FutureBlock:SetSize( blockSize );
-		
-	end
-	
-	for era in GameInfo.Eras() do
-		g_EraManager = g_EraScience
-		local thisEraBlockInstance = g_EraManager:GetInstance();
-		-- store this panel off for later
-		eraBlocks[era.ID] = thisEraBlockInstance;
-		
-		-- add the correct text for this era panel
-		local textString = "TXT_KEY_ERA_"..tostring( era.ID );
-		local localizedLabel = Locale.ConvertTextKey( textString );
-		thisEraBlockInstance.OldLabel:SetText( localizedLabel );
-		thisEraBlockInstance.CurrentLabel:SetText( localizedLabel );
-		thisEraBlockInstance.FutureLabel:SetText( localizedLabel );
-		
-		-- adjust the sizes of the era panels
-		local blockWidth;
-		if (eraColumns[era.ID] ~= nil) then
-			blockWidth = (eraColumns[era.ID].maxGridX - eraColumns[era.ID].minGridX + 1);
-		else
-			blockWidth = 1;
-		end
-			
-		blockWidth = (blockWidth * blockSpacingX);
-		if era.ID == 0 then
-			blockWidth = blockWidth + 32;
-		end
-		local blockSize = thisEraBlockInstance.EraBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.EraBlock:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.FrameBottom:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.FrameBottom:SetSize( blockSize );	
-		
-		blockSize = thisEraBlockInstance.OldBar:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.OldBar:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.OldBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.OldBlock:SetSize( blockSize );
-		
-		blockSize = thisEraBlockInstance.CurrentBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentBlock1:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock1:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentBlock2:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock2:SetSize( blockSize );
-				
-		blockSize = thisEraBlockInstance.CurrentTop:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentTop1:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop1:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentTop2:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop2:SetSize( blockSize );
-				
-		blockSize = thisEraBlockInstance.FutureBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.FutureBlock:SetSize( blockSize );
-		
-	end
-	
-	for era in GameInfo.Eras() do
-		g_EraManager = g_EraSocial
-		local thisEraBlockInstance = g_EraManager:GetInstance();
-		-- store this panel off for later
-		eraBlocks[era.ID] = thisEraBlockInstance;
-		
-		-- add the correct text for this era panel
-		local textString = "TXT_KEY_ERA_"..tostring( era.ID );
-		local localizedLabel = Locale.ConvertTextKey( textString );
-		thisEraBlockInstance.OldLabel:SetText( localizedLabel );
-		thisEraBlockInstance.CurrentLabel:SetText( localizedLabel );
-		thisEraBlockInstance.FutureLabel:SetText( localizedLabel );
-		
-		-- adjust the sizes of the era panels
-		local blockWidth;
-		if (eraColumns[era.ID] ~= nil) then
-			blockWidth = (eraColumns[era.ID].maxGridX - eraColumns[era.ID].minGridX + 1);
-		else
-			blockWidth = 1;
-		end
-			
-		blockWidth = (blockWidth * blockSpacingX);
-		if era.ID == 0 then
-			blockWidth = blockWidth + 32;
-		end
-		local blockSize = thisEraBlockInstance.EraBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.EraBlock:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.FrameBottom:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.FrameBottom:SetSize( blockSize );	
-		
-		blockSize = thisEraBlockInstance.OldBar:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.OldBar:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.OldBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.OldBlock:SetSize( blockSize );
-		
-		blockSize = thisEraBlockInstance.CurrentBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentBlock1:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock1:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentBlock2:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentBlock2:SetSize( blockSize );
-				
-		blockSize = thisEraBlockInstance.CurrentTop:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentTop1:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop1:SetSize( blockSize );
-		blockSize = thisEraBlockInstance.CurrentTop2:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.CurrentTop2:SetSize( blockSize );
-				
-		blockSize = thisEraBlockInstance.FutureBlock:GetSize();
-		blockSize.x = blockWidth;
-		thisEraBlockInstance.FutureBlock:SetSize( blockSize );
-		
-	end
-	
-	
 end
 
 function TechSelected( eTech, iDiscover)
@@ -807,21 +626,80 @@ function AddTechButton( tech )
 
 		local PCat = NULL
 			
-		if tech.TechCat == "TECHTREE_ECONOMICS" then
-			g_TechInstanceManager = g_TechInstanceEconomics
-			PCat = "TECHTREE_ECONOMICS"
-		elseif tech.TechCat == "TECHTREE_ENGINEERING" then
-			g_TechInstanceManager = g_TechInstanceEngineering
-			PCat = "TECHTREE_ENGINEERING"
-		elseif tech.TechCat == "TECHTREE_MILITARY" then
-			g_TechInstanceManager = g_TechInstanceMilitary
-			PCat = "TECHTREE_MILITARY"
-		elseif tech.TechCat == "TECHTREE_SCIENCES" then
+		if tech.TechCat == "TECHTREE_LAND" then
+			g_TechInstanceManager = g_TechInstanceLand
+			PCat = "TECHTREE_LAND"
+		elseif tech.TechCat == "TECHTREE_SEA" then
+			g_TechInstanceManager = g_TechInstanceSea
+			PCat = "TECHTREE_SEA"
+		elseif tech.TechCat == "TECHTREE_SPIRIT" then
+			g_TechInstanceManager = g_TechInstanceSpirit
+			PCat = "TECHTREE_SPIRIT"
+		elseif tech.TechCat == "TECHTREE_NUMBERTHEORY" then
+			g_TechInstanceManager = g_TechInstanceNumber
+			PCat = "TECHTREE_NUMBERTHEORY"
+		elseif tech.TechCat == "TECHTREE_ALPHABET" then
+			g_TechInstanceManager = g_TechInstanceAlphabet
+			PCat = "TECHTREE_ALPHABET"	
+		elseif tech.TechCat == "TECHTREE_ARTISANS" then
+			g_TechInstanceManager = g_TechInstanceArtisans
+			PCat = "TECHTREE_ARTISANS"
+		elseif tech.TechCat == "TECHTREE_EXOTIC_GOODS" then
+			g_TechInstanceManager = g_TechInstanceExoticG
+			PCat = "TECHTREE_EXOTIC_GOODS"
+		elseif tech.TechCat == "TECHTREE_MEDIEVAL_UNIVERSITY" then
+			g_TechInstanceManager = g_TechInstanceMedievalU
+			PCat = "TECHTREE_MEDIEVAL_UNIVERSITY"
+		elseif tech.TechCat == "TECHTREE_EMPIRICISM" then
+			g_TechInstanceManager = g_TechInstanceEmpiricism
+			PCat = "TECHTREE_EMPIRICISM"	
+		elseif tech.TechCat == "TECHTREE_HOMO_UNIVERSALIS" then
+			g_TechInstanceManager = g_TechInstanceHomo
+			PCat = "TECHTREE_HOMO_UNIVERSALIS"
+		elseif tech.TechCat == "TECHTREE_GEOCENTRISM" then
+			g_TechInstanceManager = g_TechInstanceGeocentrism
+			PCat = "TECHTREE_GEOCENTRISM"
+		elseif tech.TechCat == "TECHTREE_ALCHEMY" then
+			g_TechInstanceManager = g_TechInstanceAlchemy
+			PCat = "TECHTREE_ALCHEMY"
+		elseif tech.TechCat == "TECHTREE_INDUSTRIAL_REVOLUTION" then
+			g_TechInstanceManager = g_TechInstanceIndustrialR
+			PCat = "TECHTREE_INDUSTRIAL_REVOLUTION"	
+		elseif tech.TechCat == "TECHTREE_SCIENCE" then
 			g_TechInstanceManager = g_TechInstanceScience
-			PCat = "TECHTREE_SCIENCES"
-		elseif tech.TechCat == "TECHTREE_SOCIAL" then
-			g_TechInstanceManager = g_TechInstanceSocial
-			PCat = "TECHTREE_SOCIAL"
+			PCat = "TECHTREE_SCIENCE"
+		elseif tech.TechCat == "TECHTREE_SOCIAL_CLASSES" then
+			g_TechInstanceManager = g_TechInstanceSocialC
+			PCat = "TECHTREE_SOCIAL_CLASSES"
+		elseif tech.TechCat == "TECHTREE_ELECTRICAL_PHENOMENA" then
+			g_TechInstanceManager = g_TechInstanceElectrical
+			PCat = "TECHTREE_ELECTRICAL_PHENOMENA"
+		elseif tech.TechCat == "TECHTREE_MOLECULES" then
+			g_TechInstanceManager = g_TechInstanceMolecules
+			PCat = "TECHTREE_MOLECULES"	
+		elseif tech.TechCat == "TECHTREE_AERODYNAMICS" then
+			g_TechInstanceManager = g_TechInstanceAerodynamics
+			PCat = "TECHTREE_AERODYNAMICS"
+		elseif tech.TechCat == "TECHTREE_DIGITAL_REVOLUTION" then
+			g_TechInstanceManager = g_TechInstanceDigitalR
+			PCat = "TECHTREE_DIGITAL_REVOLUTION"
+		elseif tech.TechCat == "TECHTREE_HUMAN_AUGMENTATION" then
+			g_TechInstanceManager = g_TechInstanceHumanA
+			PCat = "TECHTREE_HUMAN_AUGMENTATION"
+		elseif tech.TechCat == "TECHTREE_ADVANCED_ASSEMBLY" then
+			g_TechInstanceManager = g_TechInstanceAdvancedA
+			PCat = "TECHTREE_ADVANCED_ASSEMBLY"	
+		elseif tech.TechCat == "TECHTREE_NEW_LIFE" then
+			g_TechInstanceManager = g_TechInstanceNewLife
+			PCat = "TECHTREE_NEW_LIFE"
+		elseif tech.TechCat == "TECHTREE_ATOM_MANIPULATION" then
+			g_TechInstanceManager = g_TechInstanceAtomM
+			PCat = "TECHTREE_ATOM_MANIPULATION"
+		elseif tech.TechCat == "TECHTREE_FRINGE_SCIENCE" then
+			g_TechInstanceManager = g_TechInstanceFringe
+			PCat = "TECHTREE_FRINGE_SCIENCE"
+		else
+			g_TechInstanceManager = g_TechInstanceLand
 		end
 	
 	local thisTechButtonInstance = g_TechInstanceManager:GetInstance();
@@ -872,6 +750,13 @@ function AddTechButton( tech )
 	end
 end
 
+function whichPipeManager( tech )
+
+end
+
+function whichTechManager( tech )
+
+end
 
 -------------------------------------------------
 -- On Display
@@ -885,40 +770,659 @@ function OnDisplay( popupInfo )
 	end
 	
 	if (popupInfo.Data1 == 901) then
-		Controls.ECOTechTreeScrollPanel:SetHide(false);
-		Controls.ENGTechTreeScrollPanel:SetHide(true);
-		Controls.MILTechTreeScrollPanel:SetHide(true);
-		Controls.SCITechTreeScrollPanel:SetHide(true);
-		Controls.SOCTechTreeScrollPanel:SetHide(true);
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_LAND" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(false);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+		
 	elseif (popupInfo.Data1 == 902) then
-		Controls.ECOTechTreeScrollPanel:SetHide(true);
-		Controls.ENGTechTreeScrollPanel:SetHide(true);
-		Controls.MILTechTreeScrollPanel:SetHide(true);
-		Controls.SCITechTreeScrollPanel:SetHide(false);
-		Controls.SOCTechTreeScrollPanel:SetHide(true);
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_SEA" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(false);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
 	elseif (popupInfo.Data1 == 903) then
-		Controls.ECOTechTreeScrollPanel:SetHide(true);
-		Controls.ENGTechTreeScrollPanel:SetHide(true);
-		Controls.MILTechTreeScrollPanel:SetHide(false);
-		Controls.SCITechTreeScrollPanel:SetHide(true);
-		Controls.SOCTechTreeScrollPanel:SetHide(true);
+			TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_SPIRIT" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(false);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
 	elseif (popupInfo.Data1 == 904) then
-		Controls.ECOTechTreeScrollPanel:SetHide(true);
-		Controls.ENGTechTreeScrollPanel:SetHide(true);
-		Controls.MILTechTreeScrollPanel:SetHide(true);
-		Controls.SCITechTreeScrollPanel:SetHide(true);
-		Controls.SOCTechTreeScrollPanel:SetHide(false);
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_NUMBERTHEORY" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(false);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
 	elseif (popupInfo.Data1 == 905) then
-		Controls.ECOTechTreeScrollPanel:SetHide(true);
-		Controls.ENGTechTreeScrollPanel:SetHide(false);
-		Controls.MILTechTreeScrollPanel:SetHide(true);
-		Controls.SCITechTreeScrollPanel:SetHide(true);
-		Controls.SOCTechTreeScrollPanel:SetHide(true);
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ALPHABET" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(false);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 906) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ARTISANS" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(false);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 907) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_EXOTIC_GOODS" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(false);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 908) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_MEDIEVAL_UNIVERSITY" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(false);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 909) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_EMPIRICISM" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(false);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 910) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_HOMO_UNIVERSALIS" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(false);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 911) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_GEOCENTRISM" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(false);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 912) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ALCHEMY" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(false);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 913) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_INDUSTRIAL_REVOLUTION" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(false);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 914) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_SCIENCE" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(false);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 915) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_SOCIAL_CLASSES" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(false);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 916) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ELECTRICAL_PHENOMENA" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(false);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 917) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_MOLECULES" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(false);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 918) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_AERODYNAMICS" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(false);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 919) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_DIGITAL_REVOLUTION" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(false);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 920) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_HUMAN_AUGMENTATION" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(false);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 921) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ADVANCED_ASSEMBLY" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(false);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 922) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_NEW_LIFE" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(false);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 923) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_ATOM_MANIPULATION" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(false);
+		Controls.FringeTechTreeScrollPanel:SetHide(true);
+	elseif (popupInfo.Data1 == 924) then
+		TechPageDesc = Locale.ConvertTextKey( "TXT_KEY_CCTP_TECHPAGE_FRINGE_SCIENCE" );
+		Controls.Tech_Tree_Label:SetText( TechPageDesc );
+		Controls.LandTechTreeScrollPanel:SetHide(true);
+		Controls.SeaTechTreeScrollPanel:SetHide(true);
+		Controls.SpiritTechTreeScrollPanel:SetHide(true);
+		Controls.NumberTechTreeScrollPanel:SetHide(true);
+		Controls.AlphabetTechTreeScrollPanel:SetHide(true);
+		Controls.ArtisansTechTreeScrollPanel:SetHide(true);
+		Controls.ExoticGTechTreeScrollPanel:SetHide(true);
+		Controls.MedievalUTechTreeScrollPanel:SetHide(true);
+		Controls.EmpiricismTechTreeScrollPanel:SetHide(true);
+		Controls.HomoTechTreeScrollPanel:SetHide(true);
+		Controls.GeocentrismTechTreeScrollPanel:SetHide(true);
+		Controls.AlchemyTechTreeScrollPanel:SetHide(true);
+		Controls.IndustrialRTechTreeScrollPanel:SetHide(true);
+		Controls.ScienceTechTreeScrollPanel:SetHide(true);
+		Controls.SocialCTechTreeScrollPanel:SetHide(true);
+		Controls.ElectricalTechTreeScrollPanel:SetHide(true);
+		Controls.MoleculesTechTreeScrollPanel:SetHide(true);
+		Controls.AerodynamicsTechTreeScrollPanel:SetHide(true);
+		Controls.DigitalRTechTreeScrollPanel:SetHide(true);
+		Controls.HumanATechTreeScrollPanel:SetHide(true);
+		Controls.AdvancedATechTreeScrollPanel:SetHide(true);
+		Controls.NewLifeTechTreeScrollPanel:SetHide(true);
+		Controls.AtomMTechTreeScrollPanel:SetHide(true);
+		Controls.FringeTechTreeScrollPanel:SetHide(false);
 	else
 		return;
 	end
 	
-	
+	CivIconHookup( Game.GetActivePlayer(), 64, Controls.CivIcon, Controls.CivIconBG, Controls.CivIconShadow, false, true );
 
 	m_PopupInfo = popupInfo;
 
@@ -950,35 +1454,6 @@ function RefreshDisplay()
 
 	for tech in GameInfo.Technologies() do
 		RefreshDisplayOfSpecificTech( tech );
-	end
-	
-	-- update the era panels
-	local highestEra = 0;
-	for thisEra = 0, 6, 1  do
-		if eraColumns[thisEra] then
-			if eraColumns[thisEra].researched == true then
-				highestEra = thisEra;
-			end
-		end
-	end
-	for thisEra = 0, 6, 1  do
-		local thisEraBlockInstance = eraBlocks[thisEra];
-		if thisEra < highestEra then
-			thisEraBlockInstance.OldBar:SetHide( false );
-			thisEraBlockInstance.CurrentBlock:SetHide( true );
-			thisEraBlockInstance.CurrentTop:SetHide( true );
-			thisEraBlockInstance.FutureBlock:SetHide( true );
-		elseif thisEra == highestEra then
-			thisEraBlockInstance.OldBar:SetHide( true );
-			thisEraBlockInstance.CurrentBlock:SetHide( false );
-			thisEraBlockInstance.CurrentTop:SetHide( false );
-			thisEraBlockInstance.FutureBlock:SetHide( true );
-		else
-			thisEraBlockInstance.OldBar:SetHide( true );
-			thisEraBlockInstance.CurrentBlock:SetHide( true );
-			thisEraBlockInstance.CurrentTop:SetHide( true );
-			thisEraBlockInstance.FutureBlock:SetHide( false );
-		end
 	end
 	
 	g_NeedsFullRefresh = false;
@@ -1185,8 +1660,11 @@ end
 -------------------------------------------------------------------------------
 function OnCloseButtonClicked ()
 	UIManager:DequeuePopup( ContextPtr );
-    Events.SerialEventGameMessagePopupProcessed.CallImmediate(ButtonPopupTypes.BUTTONPOPUP_TECH_TREE, 0);
-    g_isOpen = false;	
+    --Events.SerialEventGameMessagePopupProcessed.CallImmediate(ButtonPopupTypes.BUTTONPOPUP_TECH_TREE, 0);
+	g_isOpen = false;
+	--Events.SerialEventGameMessagePopup( { Type = ButtonPopupTypes.BUTTONPOPUP_TECH_TREE, 0 } );
+    
+		
 end
 Controls.CloseButton:RegisterCallback( Mouse.eLClick, OnCloseButtonClicked );
 

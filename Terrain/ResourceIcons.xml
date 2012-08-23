@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>CCTP_RESOURCE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>resourcesTwo2048.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CCTP_RESOURCE_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>resourcesTwo640.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CCTP_RESOURCE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>resourcesTwo512.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CCTP_RESOURCE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>resourcesTwo360.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

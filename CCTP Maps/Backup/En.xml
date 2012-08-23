@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/26/2010 4:30:21 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+
+	<Language_en_US>
+		<!--options Menu-->
+		<Row Tag="TXT_KEY_RNE_LOAD_RESOURCES">
+			<Text>Use Real Resource Placement</Text>
+		</Row>	
+		
+		
+		<!-- Map -->
+		<Row Tag="TXT_KEY_RNE_TITLE">
+			<Text>Real Name Earth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_DESC">
+			<Text>Simulate the rise and fall of historical civilizations spread out the earth. Or conquer and dominate to the farthest place that one can see!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RNE_TITLE">
+			<Text>RealNameEarth v7</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RNE_O_HELP">
+			<Text>Need [COLOR_RED]DLC_01(Mongol)[ENDCOLOR].[NEWLINE]Need to enable same name Mod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RNE_HELP">
+			<Text>Need [COLOR_RED]All[ENDCOLOR] DLC.[NEWLINE]Need to enable same name Mod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_MAP_TITLE">
+			<Text>Select Map Version</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_SET_UP_MAP_TYPE">
+			<Text>Select Game Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_SET_UP_MAP_TYPE_DESC">
+			<Text>Game Mode: {1_GameMode}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_MAP_TYPE_FREE_FOR_ALL">
+			<Text>Free For All</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_MAP_TYPE_FREE_FOR_ALL_DESC">
+			<Text>The first 22 Civilizations will come on stage.[NEWLINE]But you can choose all DLC Civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_MAP_TYPE_ANCIENT">
+			<Text>Ancient Civilizations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_MAP_TYPE_ANCIENT_DESC">
+			<Text>The Civilizations originated in the Ancient Age will come on stage.[NEWLINE]You will be random assigned a civilization random by system if you choose a civilization out of the Ancient Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_MAP_TYPE_MODERN">
+			<Text>Modern Civilizations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_MAP_TYPE_MODERN_DESC">
+			<Text>The Civilizations originated in the Modern Age will come on stage.[NEWLINE]You will be random assigned a civilization by system if you choose a civilization out of the Modern Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_MAP_TYPE_RANDOM">
+			<Text>Fictional Universe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_MAP_TYPE_RANDOM_DESC">
+			<Text>There will appear 12 Random Civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_LOAD_SCENARIO">
+			<Text>Load Historical System</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_RANDOM_MAP_SETTING_DESC">
+			<Text>Map Size: {1_mapSize}[NEWLINE]{2_mapSizeDesc}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_MAP_SETTING_DESC">
+			<Text>Map Size: {1_mapSize}</Text>
+		</Row>
+		<!-- Map -->
+		
+		<!-- Promotions -->
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_HELP_NEW">
+			<Text>1 additional attack per turn. May heal damage [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR]. 2 HP healed per turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FIRST_SETTLER">
+			<Text>First Settler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FIRST_SETTLER_HELP">
+			<Text>2 Extra Movement and Ignores Terrain Cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SONG_OF_REGENBOGEN">
+			<Text>Song of Regenbogen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SONG_OF_REGENBOGEN_HELP">
+			<Text>+100% Defense[NEWLINE]Can Move After Attacking</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_HONNO_JI_HELP">
+			<Text>+15% Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SECOND_ATTACK_HELP_NEW">
+			<Text>May Attack Twice[NEWLINE]-25% strength when using Ranged Attacks</Text>
+		</Row>
+		
+		<!-- Promotions -->
+		
+		<!-- For Events -->
+		<Row Tag="TXT_KEY_BUILDING_NAVAL_MONUMENT_HELP">
+			<Text>All military naval units receive +100% defense and can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NAVAL_MONUMENT">
+			<Text>Monument of High Seas Fleet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NAVAL_MONUMENT_PEDIA">
+			<Text>The High Seas Fleet (German: Hochseeflotte) was the main battle fleet of the Imperial German Navy during World War I. The fleet was based at Wilhelmshaven in the Jade estuary, and commanded by Admirals Friedrich von Ingenohl (1913–1915), Hugo von Pohl (1915–1916), Reinhard Scheer (1916–1918), and Franz von Hipper (1918). It posed such a threat to the Royal Navy's control of the seas around Britain that the British Grand Fleet had to remain concentrated in the North Sea for the duration of the war, even as many urgent tasks in other theatres of war went undone for lack of ships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NAVAL_MONUMENT_STRATEGY">
+			<Text>The Monument of High Seas Fleet Wonder increases the defense of all military naval units by 100%. It also provides +1 culture. The Monument of High Seas Fleet only can be constructed when German control Scapa Flow by city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_EVENTS_NAVAL_MONUMENT">
+			<Text>The legacy of High Seas Fleet is immortal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_EVENTS_UNFAITHFULNESS">
+			<Text>In the waryear, a group of aspirants took the opportunity and organized their own army because they wanted to share power.But do not believe them. In fact, they just want to capture your authority when you are at the last gasp after you beat your enemy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_EVENTS_UNFAITHFULNESS_AWARD">
+			<Text>You beat the hypocritical schemers, and in the baptism of war, you got your own army which convinced by the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_PALACE_MUSEUM">
+			<Text>National Palace Museum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_PALACE_MUSEUM_HELP">
+			<Text>Defensive Buildings in all Cities are 25% more effective.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_PALACE_MUSEUM_PEDIA">
+			<Text>The National Palace Museum was originally established as the Palace Museum in Peking's Forbidden City on 10 October 1925, shortly after the expulsion of Puyi, the last emperor of Qing Dynasty, from the Forbidden City by warlord Feng Yuhsiang. The articles in the museum consisted of the valuables of the former Imperial family. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HONNO_JI">
+			<Text>Honno-Ji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HONNO_JI_HELP">
+			<Text>Increases the defense of all melee units by 15% and +5 Happiness. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HONNO_JI_PEDIA">
+			<Text>The Incident at Honno-ji (Honno-ji no Hen) refers to the forced suicide on June 21, 1582 of Japanese daimyo Oda Nobunaga at the hands of his samurai general Akechi Mitsuhide. This occurred in Honno-ji, a temple in Kyoto, ending Nobunaga's quest to consolidate centralized power in Japan under his authority.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HONNO_JI_STRATEGY">
+			<Text>The Honno-Ji Wonder increases the defense of all melee units by 15%. It also provides +5 Happiness. The Honno-Ji only can be constructed when Japan win the Incident at Honno-Ji.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_EVENTS_AKECHI_MITSUHIDE">
+			<Text>Akechi Mitsuhide</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_EVENTS_INICIDENT_AT_HONNO_JI">
+			<Text>One of our general revolt, the rebels surrounded the Kyoto layers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_EVENTS_INICIDENT_AT_HONNO_JI_AWARD">
+			<Text>The local potential enemy has been eliminated, the past battlefield has became a scenic spot.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_EVENTS_SEYDLITZ">
+			<Text>Seydlitz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_EVENTS_UNSINKABLE_SHIP">
+			<Text>The news which shocked the world was that a seriously injured warship returned to the homeport miraculously, our naval soldiers and officers were excited about it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_EVENTS_JEANNE_LA_PUCELLE">
+			<Text>There arose a heroine from our army in the battle of recapturing the lost territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_EVENTS_MARATHON">
+			<Text>A brave and hardy soldier has run over twenty-six miles on foot to warn of the invasion![NEWLINE]This heroic deed has inspired our entire army!</Text>
+		</Row>
+		<!-- For Events -->
+		
+		<!-- For Tech -->
+		<!--<Row Tag="TXT_KEY_YIELD_SCIENCE">
+			<Text>Science</Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_BUILD_LANDMARK_HELP_NEW">
+			<Text>Unit will be consumed.[NEWLINE][NEWLINE]+8 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<!-- For Tech -->
+
+		<!-- For Building Changes -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_INDUSTRIAL_PARK">
+			<Text>Industrial Park</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_INDUSTRIAL_PARK_HELP">
+			<Text>The Industrial Park can only be built on flatlands. Requires Replaceable Parts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_INDUSTRIAL_PARK_TEXT">
+			<Text>Although a relative latecomer to manufacturing, by the early twentieth century the German factories were among the most efficient. During the First and Second World Wars German plants built thousands of tanks, planes, and other war materiel under horrendous conditions and in the face of concentrated Allied bombing attacks. Moving into the twenty-first century the German factories remain among the best in the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_INDUSTRIAL_PARK">
+			<Text>Construct a [LINK=IMPROVEMENT_INDUSTRIAL_PARK]Industrial Park[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARSENAL_HELP_NEW">
+			<Text>+15 XP for all Armored or Helicopter Units.[NEWLINE][NEWLINE]City must have a Castle or Mughal Fort..</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEAPORT_HELP_NEW">
+			<Text>+2 [ICON_PRODUCTION] Production from Sea Resources worked by this City. +15 XP for all Naval Units.[NEWLINE][NEWLINE]City must have at least one Sea Resource with Fishing Boats nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SPACESHIP_FACTORY_HELP_NEW">
+			<Text>+50% [ICON_PRODUCTION] Production when building Spaceship Parts. +15 XP for all Air Units. Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]City must have a Factory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RNE_HARBOR_HELP">
+			<Text>Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land). +25% [ICON_PRODUCTION] Production and +10 XP when building Naval Units.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<!-- For Building Changes -->
+				
+		<!-- Historical Mission -->
+		<Row Tag="TXT_KEY_RNE_HM_SINO">
+			<Text>[ICON_HAPPINESS_1][COLOR_{1_color}]Built The Great Wall and The Porcelain Tower at the chinese city(s).[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE][COLOR_{2_color}]At least one non-combat units arrived in Rome before AD.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{3_color}]First to enter Medieval Era and first to complete Civil Service.[ENDCOLOR][NEWLINE][ICON_CAPITAL][COLOR_{4_color}]Recovery of the whole territory by 1368AD.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_ENGLAND">
+			<Text>[ICON_RANGE_STRENGTH][COLOR_{1_color}]First to set foot on the New World(North America), and to settle 4 cities by 1620AD and to keep them until 1945AD.[ENDCOLOR][NEWLINE][ICON_STRENGTH][COLOR_{2_color}]First to colonize Australia.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{3_color}]Declare war on India before 1600AD and until 1849 AD; have at least 4 cities in India by then.[ENDCOLOR][NEWLINE][ICON_CAPITAL][COLOR_{4_color}]No cultural influences from other main civilizations on the homeland.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_GERMANY">
+			<Text>[ICON_GREAT_PEOPLE][COLOR_{1_color}]Control Rome, Greece, France and Belgium by 1870 AD.[ENDCOLOR][NEWLINE][ICON_CULTURE][COLOR_{2_color}]Control England, Wales, Scotland and the European part of the Soviet Russia by 1940 AD.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{3_color}]Have at least three times the military power as the most powerful rival by 1940 AD.[ENDCOLOR][NEWLINE][ICON_STRENGTH][COLOR_{4_color}]Be the first to complete the future tech.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_JAPAN">
+			<Text>[ICON_RESEARCH][COLOR_{1_color}]Be 1st in score in 1500 AD.[ENDCOLOR][NEWLINE][ICON_CAPITAL][COLOR_{2_color}]No foreign culture in any plot of Japanese.[ENDCOLOR][NEWLINE][ICON_RANGE_STRENGTH][COLOR_{3_color}]Never lose a city before 1850 AD.[ENDCOLOR][NEWLINE][ICON_GOLD][COLOR_{4_color}]Control Corea, Manchuria, the north region of China, Southeast Asia and Indonesia in 1940 AD.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_MONGOL">
+			<Text>[ICON_GOLD][COLOR_{1_color}]Initiate the battle of Yamen and destroy the Chinese civilization before AD.[ENDCOLOR][NEWLINE][ICON_RANGE_STRENGTH][COLOR_{2_color}]Raze at least 7 cities.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{3_color}]Control 12% of world territory by 1260 AD.[ENDCOLOR][NEWLINE][ICON_STRENGTH][COLOR_{4_color}]Destroy at least 6 civilizations and 3 city states.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_RUSSIA">
+			<Text>[ICON_GOLDEN_AGE][COLOR_{1_color}]Control Siberia by 1700 AD.[ENDCOLOR][NEWLINE][ICON_CITIZEN][COLOR_{2_color}]Never lose a city until 1950 AD.[ENDCOLOR][NEWLINE][ICON_RANGE_STRENGTH][COLOR_{3_color}]Be the first to discover Horseback Riding,  Chivalry, Metallurgy and Military Science.[ENDCOLOR][NEWLINE][ICON_PRODUCTION][COLOR_{4_color}]Build the Apollo Program by 1950 AD.[ENDCOLOR][NEWLINE][ICON_CULTURE][COLOR_{5_color}]Make contact with the US before 1783 AD. All stats must remain higher than those of the US from 1783.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_USA">
+			<Text>[ICON_GOLD][COLOR_{1_color}]Allow no European colonies in the North and Central America and in the Caribbean in 1900 AD.[ENDCOLOR][NEWLINE][ICON_CULTURE][COLOR_{2_color}]Build the UN, the Statue of Liberty and the Pentagon by 1945 AD.[ENDCOLOR][NEWLINE][ICON_STRENGTH][COLOR_{3_color}]Capture Iraq by 2000 AD.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{4_color}]Build and launch the first two nuclear weapons.[ENDCOLOR][NEWLINE][ICON_STRENGTH][COLOR_{5_color}]Establish 3 naval bases in Asia before 1945.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_EGYPT">
+			<Text>[ICON_CULTURE][COLOR_{1_color}]Have more than 500 Culture in 850 BC.[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE][COLOR_{2_color}]Build the Pyramids, the Great Library, and the Great Lighthouse by 100 BC.[ENDCOLOR][NEWLINE][ICON_CAPITAL][COLOR_{3_color}]Have more than 5000 Culture in 800 AD.[ENDCOLOR][NEWLINE][ICON_CULTURE][COLOR_{4_color}]Always control the Suez after 1000 BC.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_PERSIA">
+			<Text>[ICON_GOLDEN_AGE][COLOR_{1_color}]Control 8% of world territory in 600 AD.[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE][COLOR_{2_color}]Control 9 world wonders in 350 AD.[ENDCOLOR][NEWLINE][ICON_HAPPINESS_1][COLOR_{3_color}]Secure through trade or take control of 5 Dye resources by 350 AD.[ENDCOLOR][COLOR_{4_color}][ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_ROME">
+			<Text>[ICON_GREAT_PEOPLE][COLOR_{1_color}]Build 5 Barracks, 5 Coliseum, 5 Monument and 5 Granary by 200 AD.[ENDCOLOR][NEWLINE][ICON_RANGE_STRENGTH][COLOR_{2_color}]Control in 470 AD all the area historically known as the Western Roman Empire.[ENDCOLOR][NEWLINE][ICON_GOLD][COLOR_{3_color}]Build Sistine Chapel.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{4_color}]Have an average city population of 5 or more in 1 AD.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_GREECE">
+			<Text>[ICON_RESEARCH][COLOR_{1_color}]Be the first to discover Construction, Printing Press and Philosophy.[ENDCOLOR][NEWLINE][ICON_CULTURE][COLOR_{2_color}]Build the Oracle and the Colossus by 500 BC.[ENDCOLOR][NEWLINE][ICON_PRODUCTION][COLOR_{3_color}]Control 7 coastal cities in the Mediterranean in 350 AD.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{4_color}]Build 6 world wonders at Athens.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_ARABIA">
+			<Text>[ICON_GREAT_PEOPLE][COLOR_{1_color}]Have 5000 gold in 1000 AD.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{2_color}]Control Egypt, Iberia and Carthage by 1300 AD.[ENDCOLOR][NEWLINE][ICON_GOLD][COLOR_{3_color}]Be the first to discover Biology and quickly secure 70 Oil resources.[ENDCOLOR][COLOR_{4_color}][ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_OTTOMANS">
+			<Text>[ICON_STRENGTH][COLOR_{1_color}]Be the first to have 9 Destroyer.[ENDCOLOR][NEWLINE][ICON_RESEARCH][COLOR_{2_color}]Control the Balkans, the Black Sea and Mesopotamia in 1450 AD.[ENDCOLOR][NEWLINE][ICON_RANGE_STRENGTH][COLOR_{3_color}]Secure or get by trade 7 Spices resources by 1200 AD.[ENDCOLOR][NEWLINE][ICON_RANGE_STRENGTH][COLOR_{4_color}]Sink 45 ships.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_INDIA">
+			<Text>[ICON_CITIZEN][COLOR_{1_color}]Destroy the England civilization before 1600.[ENDCOLOR][NEWLINE][ICON_GOLD][COLOR_{2_color}]To keep peace with African civilizations until secure 7 Ivory resources.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{3_color}]Have the world's highest population in 1200 AD.[ENDCOLOR][COLOR_{4_color}][ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_FRANCE">
+			<Text>[ICON_GOLDEN_AGE][COLOR_{1_color}]Make Paris the city with the highest culture in the world in 1700 AD.[ENDCOLOR][NEWLINE][ICON_STRENGTH][COLOR_{2_color}]Colonize Louisiana by 1600 AD.[ENDCOLOR][NEWLINE][ICON_RESEARCH][COLOR_{3_color}]Control Quebec and Hudson Bay by 1600 AD.[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE][COLOR_{4_color}]Build Notre Dame, the Statue of Liberty and the Eiffel Tower by 1889 AD.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_AZTEC">
+			<Text>[ICON_CULTURE][COLOR_{1_color}]Destroy 45 European military land units.[ENDCOLOR][NEWLINE][ICON_RESEARCH][COLOR_{2_color}]Allow no European colonies in Central America, Southern USA and the Caribbean in 1700 AD.[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE][COLOR_{3_color}]Enter the Modern era by 1820 AD.[ENDCOLOR][COLOR_{4_color}][ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_SIAM">
+			<Text>[ICON_CULTURE][COLOR_{1_color}]Have more than 12000 Culture in 1450 AD.[ENDCOLOR][NEWLINE][ICON_GOLD][COLOR_{2_color}]Have an average city size of 10 or more in 1450 AD.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{3_color}]8 city-state Allies.[ENDCOLOR][COLOR_{4_color}][ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_SONGHAI">
+			<Text>[ICON_GOLDEN_AGE][COLOR_{1_color}]Ensure there are no European colonies at South of the Mediterranean in 1500 AD.[ENDCOLOR][NEWLINE][ICON_GOLD][COLOR_{2_color}]Have 4000 gold in 1500 AD.[ENDCOLOR][NEWLINE][ICON_CULTURE][COLOR_{3_color}]Secure or get by trade 7 Gold resources by 1200 AD.[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE][COLOR_{4_color}]Have 16000 gold in 1700 AD.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_SPAIN">
+			<Text>[ICON_GOLD][COLOR_{1_color}]Be the first to found a city in America.[ENDCOLOR][NEWLINE][ICON_RANGE_STRENGTH][COLOR_{2_color}]Be the FirstFinder of a Natural Wonder thrice.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{3_color}]Be the first to find all Natural Wonder.[ENDCOLOR][NEWLINE][ICON_CAPITAL][COLOR_{4_color}]Control all Aztec and Incan territory in 1760 AD.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_INCA">
+			<Text>[ICON_GREAT_PEOPLE][COLOR_{1_color}]Have 10000 gold in 1700 AD.[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE][COLOR_{2_color}]Build 50 Improvement.[ENDCOLOR][NEWLINE][ICON_PRODUCTION][COLOR_{3_color}]Be the first to discover Penicillin.[ENDCOLOR][NEWLINE][ICON_CAPITAL][COLOR_{4_color}]Ensure there are no European settlements in South America.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_BABYLON">
+			<Text>[ICON_RESEARCH][COLOR_{1_color}]Be the first to discover Writing and Mathematics.[ENDCOLOR][NEWLINE][ICON_RANGE_STRENGTH][COLOR_{2_color}]Have 7 Archery Units by 700 BC.[ENDCOLOR][NEWLINE][ICON_CITIZEN][COLOR_{3_color}]Make Babylon the most populous city in the world in 500 BC.[ENDCOLOR][COLOR_{4_color}][ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_IROQUOIS">
+			<Text>Please contact the author if you know some memorable moments of this nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_POLYNESIA">
+			<Text>Please contact the author if you know some memorable moments of this nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_VIKING">
+			<Text>[ICON_RESEARCH][COLOR_{1_color}]Have 5000 gold in 1500 AD.[ENDCOLOR][NEWLINE][ICON_HAPPINESS_1][COLOR_{2_color}]First to found city on the New World(North America)[ENDCOLOR][NEWLINE][ICON_CULTURE][COLOR_{3_color}]Always control the Scotland after 1000 BC.[ENDCOLOR][NEWLINE][ICON_CAPITAL][COLOR_{4_color}]Always control the Jylland after AD.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COREA">
+			<Text>[ICON_GOLDEN_AGE][COLOR_{1_color}]Built 1 Landmark, 1 Academy, 1 Customs House, 1 Manufacture, 1 Citadel before get 5th city.[ENDCOLOR][NEWLINE][ICON_HAPPINESS_4][COLOR_{2_color}]Never allow troops from Sino, Mongolia and Japan into Korean Peninsula[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE][COLOR_{3_color}]Control 6 city which found by Sino, Mongolia or Japan.[ENDCOLOR][COLOR_{4_color}][ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED">
+			<Text>Congratulations! One of the most important Historical Mission is successfully completed!, Great Emperor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_GREAT_PERSON">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {@1_UnitName}} has been born near the capital!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_GOLDEN_AGE">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]The empire enters a [ICON_GOLDEN_AGE]Golden Age!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_FREE_TECH">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]A [ICON_RESEARCH]free technology may be selected!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_TECH">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]A [ICON_RESEARCH]great research achievement has been awarded!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_CULTURE">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]{1_Num} [ICON_CULTURE]Culture has been received!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_FREE_POLICY">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]{1_Num} [ICON_CULTURE]free Policy may be adopted!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_UNITS">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]{1_NumUnits} of [ICON_STRENGTH] {2_UnitType} have been enlisted to empire cause!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_CITIZENS">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]The City of {1_CityName} now expanded {2_Population} [ICON_CITIZEN] Citizens!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_PROMOTIONS">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]All empire {1_UnitType} will get [ICON_RANGE_STRENGTH]{2_PromotionsType} promotions!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_XPS">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE][ICON_RANGE_STRENGTH]All {1_UnitType} + {2_XPs} XPs!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_GOLD">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]{1_Num} [ICON_GOLD] has been received!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_CULTURE_PERCITY_EVERYTURN">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]{1_Num} [ICON_CULTURE]Culture will be received per city every turn until Mission failed or GameEnd!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_CULTURE_EVERYTURN">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]{1_Num} [ICON_CULTURE]Culture will be received every turn until Mission failed or GameEnd!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_FREE_BUILDING">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE][ICON_PRODUCTION]{1_Text} will be built every city!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RNE_HM_COMPLETED_HAPPINESS">
+			<Text>Congratulations, one of the Historical Mission is successfully completed![NEWLINE]Citizens of empire feel so good(+{1_Num} [ICON_HAPPINESS_1])!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_PRIDE">
+			<Text>National Pride</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_PRIDE_PEDIA">
+			<Text>One of the Historical Mission is successfully completed. People feel happy and proud.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DISSENT">
+			<Text>Dissent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DISSENT_PEDIA">
+			<Text>One of the Historical Mission has failed. People dissatisfied with the government.</Text>
+		</Row>
+		<!-- Historical Mission -->
+
+		<!-- For Rommel -->
+		<Row Tag="TXT_KEY_UNIT_DESERT_FOX">
+			<Text>Desert Fox</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_DESERT_FOX_HEADING">
+			<Text>Rommel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_DESERT_FOX_TEXT">
+			<Text>Erwin Johannes Eugen Rommel (15 November 1891 – 14 October 1944), popularly known as the Desert Fox, was a famous German Field Marshal of World War II.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GERMAN_DESERT_FOX_STRATEGY">
+			<Text>The Rommel is the German unique unit. He is very stronger and faster. And he also is a great battlefield commander.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_DESERT_FOX">
+			<Text>Fast and powerful Commander Unit. Receives a penalty when attacking Cities and on defense, but is incredibly effective in open ground.[NEWLINE][NEWLINE]Only the Germans may get it by mission. This Unit has 6 movement, all others in adjacent tiles [COLOR_POSITIVE_TEXT]Heal 2 Additional HP[ENDCOLOR] per turn.</Text>
+		</Row>
+		<!-- For Rommel -->
+	</Language_en_US>
+</GameData>

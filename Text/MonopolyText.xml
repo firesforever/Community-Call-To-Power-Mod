@@ -19,77 +19,147 @@
 			<Set Text="Low" />
 			<Where Tag="TXT_KEY_MAP_OPTION_SPARSE" />
 		</Update>
-		
+
 		<!-- Added Missing Strategy text, blank for now to remove from logs -->
-		<Row Tag="TXT_KEY_JADE_MARKET_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ALOE_VERA_DISTILLERY_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_AMBER_PURIFIER_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JADE_DISTRIBUTION_CENTER_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ALOE_VERA_DISTRIBUTION_CENTER_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OAK_DISTRIBUTION_CENTER_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_AMBER_DISTRIBUTION_CENTER_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SQUID_DISTRIBUTION_CENTER_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_MANGANESE_DISTRIBUTION_CENTER_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_STONE_CONGLOMERATE_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JADE_CONGLOMERATE_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ALOE_VERA_CONGLOMERATE_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OAK_CONGLOMERATE_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_AMBER_CONGLOMERATE_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SQUID_CONGLOMERATE_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_MANGANESE_CONGLOMERATE_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_JADE_MONOPOLY_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_ALOE_VERA_MONOPOLY_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_AMBER_MONOPOLY_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_SQUID_MONOPOLY_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OAK_DEPOT_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_OAK_MONOPOLY_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
-		<Row Tag="TXT_KEY_MANGANESE_MONOPOLY_STRATEGY">
-			<Text>Oops No Text!</Text>
-		</Row>
+
++		<Row Tag="TXT_KEY_JADE_MARKET_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_ALOE_VERA_DISTILLERY_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_AMBER_PURIFIER_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_JADE_DISTRIBUTION_CENTER_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_ALOE_VERA_DISTRIBUTION_CENTER_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_OAK_DISTRIBUTION_CENTER_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_AMBER_DISTRIBUTION_CENTER_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_SQUID_DISTRIBUTION_CENTER_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_MANGANESE_DISTRIBUTION_CENTER_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_BUILDING_STONE_CONGLOMERATE_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_JADE_CONGLOMERATE_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_ALOE_VERA_CONGLOMERATE_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_OAK_CONGLOMERATE_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_AMBER_CONGLOMERATE_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_SQUID_CONGLOMERATE_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_MANGANESE_CONGLOMERATE_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_JADE_MONOPOLY_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_ALOE_VERA_MONOPOLY_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_AMBER_MONOPOLY_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_SQUID_MONOPOLY_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_OAK_DEPOT_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_OAK_MONOPOLY_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
++		<Row Tag="TXT_KEY_MANGANESE_MONOPOLY_STRATEGY">
+
++			<Text>Oops No Text!</Text>
+
++		</Row>
+
 
 		<Row Tag="TXT_KEY_RESOURCE_COFFEE">
 			<Text>Coffee</Text>

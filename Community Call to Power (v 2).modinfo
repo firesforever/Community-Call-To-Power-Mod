@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d048269c-70a9-4ad0-b3ae-27478912b1c8" version="2">
+  <Properties>
+    <Name>Community Call to Power</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>A revamp of CiV to resemble Call to Power!</Teaser>
+    <Description>Updated Workshop version, see Version History.txt for details.
+
+[COLOR_YELLOW]
+Anyone that does NOT have the Polynesia DLC:-
+Once CCTP is installed, before you boot up CiV, navigate to the CCTP mod directory(...Documents\My Games\Sid Meier's Civilization 5\MODS\Community Call to Power (v 2)) and rename the DLC folder so it looks like[/COLOR][COLOR_RED] _DLC[/COLOR][COLOR_YELLOW].[/COLOR]
+
+Features:-
+
+13 New resources: Squid, Magnese, Jade, Poppy, Tobacco, Coffee, Titanium, Aloe Vera, Tin, Amber, Oak and Blockbuster.
+
+New Trade Monopoly System! With the addition of 17 technologies(Economic Page) and 200 buildings(5 per resource), resources will be more important than ever!
+-Each resource now has a line of buildings: Small, Medium, Large, Huge, and Monopoly.
+-Each building requires the smaller version that came before it in the city.
+-Each building requires 1 of it's resource, and provides 1-2 bonuses to it's city of origin.
+-Each Building provides an increase in trade income. Each Monopoly provides a greater bonus.
+-Monopoly buildings require 2 Huge buildings somewhere in the empire, and provide global bonuses.
+
+Multiple Tech Trees:- Technologies are now spread over 5 Catagories(Social, Science, Military, Engineering &amp; Economics).
+
+New Policy System:- Social policies are now spread over 3 Catagories(Goverments, Systems, Ideologies).
+
+Over 105 New Technologies to research.
+
+Over 34 New Units to destroy your enemies!
+
+Over a 100 new Buildings and Wonders!</Description>
+    <Authors>Chrome-Rome</Authors>
+    <SpecialThanks>Decimatus, FiresForever, Horem</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=432802</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A23C711914750FBA0EADB34CFB76F5FD" import="0">AI/BetterAI.xml</File>
+    <File md5="FC81F758CC3470C4420A8336EDBF2FCB" import="0">AI/GlobalAIDefines.xml</File>
+    <File md5="430E3324CCAE144AE5E0122AEC85D074" import="0">AI/Leaders.xml</File>
+    <File md5="81644D7E27AACD4671792FA34E2CB317" import="1">Art/Icons/Building Icons/buildingatlasFour.dds</File>
+    <File md5="DED849FF1C95A0877A8217943CE662A4" import="1">Art/Icons/Building Icons/buildingatlasFour1024.dds</File>
+    <File md5="8DFD02FBC795665FEAD4D0522391DAAE" import="1">Art/Icons/Building Icons/buildingatlasFour360.dds</File>
+    <File md5="FC7771EB3762F83A938B8B55E8E775AE" import="1">Art/Icons/Building Icons/buildingatlasFour512.dds</File>
+    <File md5="B4E7942AEFF0696B9E485CB0B5646C00" import="1">Art/Icons/Building Icons/buildingatlasFour640.dds</File>
+    <File md5="7B885D0FF7A5A743B42ED831933F63CF" import="1">Art/Icons/Building Icons/buildingatlasThree.dds</File>
+    <File md5="CACC421A6637B44E155A83500B4CAF5B" import="1">Art/Icons/Building Icons/buildingatlasThree1024.dds</File>
+    <File md5="0036C6ECA8DFAFEDE08D9B2B64F644E5" import="1">Art/Icons/Building Icons/buildingatlasThree360.dds</File>
+    <File md5="3565060EE869A1A69A5AD86425B0A98E" import="1">Art/Icons/Building Icons/buildingatlasThree512.dds</File>
+    <File md5="1B6E248D6209AEB30CAA4EF270978F6F" import="1">Art/Icons/Building Icons/buildingatlasThree640.dds</File>
+    <File md5="18914AB48367CC90DF3D3B058247F71D" import="1">Art/Icons/Building Icons/buildingatlasTwo.dds</File>
+    <File md5="58B74EDEB780FFBBBE60FDA0FD497541" import="1">Art/Icons/Building Icons/buildingatlasTwo1024.dds</File>
+    <File md5="CB2D78A77B1D3F8DB892B42B10F10A1D" import="1">Art/Icons/Building Icons/buildingatlasTwo360.dds</File>
+    <File md5="FECC5AD72BB43082BC8915CDB75EDFCF" import="1">Art/Icons/Building Icons/buildingatlasTwo512.dds</File>
+    <File md5="ED0D97A7FD2F61FE4ACD27E7DE70AA88" import="1">Art/Icons/Building Icons/buildingatlasTwo640.dds</File>
+    <File md5="20D248A7497685FEA277357707A84EF7" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive.dds</File>
+    <File md5="8BC536BE561D9C5680DE3ECD0CDFFB54" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive1024.dds</File>
+    <File md5="53AC89EA003CDC872B82D89EFD4BFD13" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive360.dds</File>
+    <File md5="A3B45F21708583928E1EDFA115F72A81" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive512.dds</File>
+    <File md5="4A6581E18ED332DC9C541D176C608729" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive640.dds</File>
+    <File md5="040C46573368044572CB80EFCD161BC9" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour.dds</File>
+    <File md5="FF467B70C109BE20B48D42CEA98A844D" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour1024.dds</File>
+    <File md5="342BA58B71368329166EB68E8E97BBBC" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour360.dds</File>
+    <File md5="3BFB6CCA453D3858594E0B775EB80B21" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour512.dds</File>
+    <File md5="6980A373804412060A42DAAEB0010728" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour640.dds</File>
+    <File md5="A006B15CBC9BD957E24493E7F939AA48" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne.dds</File>
+    <File md5="5644E2E855D9CCE80F62C2A95477541F" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne1024.dds</File>
+    <File md5="CF637FD003DA5F52D19DAB6D60FAF739" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne360.dds</File>
+    <File md5="F75B0EAB0F89C9DE56B70196F908D849" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne512.dds</File>
+    <File md5="4F265B19E6D7013248F84CCDE26520F6" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne640.dds</File>
+    <File md5="E36171C86EB73313E30CAC40C71768A2" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree.dds</File>
+    <File md5="98CBC539922E6017029B095DCF20B6D6" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree1024.dds</File>
+    <File md5="6CDF1733DA5E675A2C0167696C040423" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree360.dds</File>
+    <File md5="3E27ED7557EC77A3D97C4B12C795E5BB" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree512.dds</File>
+    <File md5="1B5B6CEDFED7F8E9C627ED1D6A4204A2" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree640.dds</File>
+    <File md5="07615B3FE0DB50A090C0C481023B916A" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo.dds</File>
+    <File md5="45576754226E1C07F885F9A763CEE6E2" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo1024.dds</File>
+    <File md5="72821BDB71ED14CA20250F4AE34E7A5A" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo360.dds</File>
+    <File md5="B20F8FE47F74E59632D1D76BFAF1C78E" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo512.dds</File>
+    <File md5="0F96C1B0D8772A30329DB93C1BEFF63E" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo640.dds</File>
+    <File md5="C7115DAFE31E51D2E8BB38DC269D02F0" import="1">Art/Icons/Resource Icons/resourcesTwo2048.dds</File>
+    <File md5="CBE0884C7470ACF5DDA61B4C3A5510D5" import="1">Art/Icons/Resource Icons/resourcesTwo360.dds</File>
+    <File md5="93E7F0A03675F3D5C12FFD5F31172525" import="1">Art/Icons/Resource Icons/resourcesTwo512.dds</File>
+    <File md5="1853B2385FCF69F2CCCDCF6CA8DF9754" import="1">Art/Icons/Resource Icons/resourcesTwo640.dds</File>
+    <File md5="4BB3245E64B013AF2279D3E03A295BC4" import="1">Art/Icons/Tech Icons/technologyatlasFive.dds</File>
+    <File md5="F300F840BA3D7B9DEF096B38026E63B6" import="1">Art/Icons/Tech Icons/technologyatlasFive1024.dds</File>
+    <File md5="113728754D3366FEEC88E5CA40CFEEE2" import="1">Art/Icons/Tech Icons/technologyatlasFive1712.dds</File>
+    <File md5="0774F0805ACEC1D445A80229C81EAAE5" import="1">Art/Icons/Tech Icons/technologyatlasFive360.dds</File>
+    <File md5="1B2D5F12FFAE4294958286F246B60C93" import="1">Art/Icons/Tech Icons/technologyatlasFive512.dds</File>
+    <File md5="2C248A9246D9D7DE6B80EF3C001C617D" import="1">Art/Icons/Tech Icons/technologyatlasFive640.dds</File>
+    <File md5="48229560BB3F5006B0024B739482A8C7" import="1">Art/Icons/Tech Icons/technologyatlasFour.dds</File>
+    <File md5="C0A9F353C966219312B2C909FA448A0F" import="1">Art/Icons/Tech Icons/technologyatlasFour1024.dds</File>
+    <File md5="F9EFD6E2AAE66821E4161D2423F1AEE6" import="1">Art/Icons/Tech Icons/technologyatlasFour1712.dds</File>
+    <File md5="A83E32EADAEEBC6DE59B24415BC1E75E" import="1">Art/Icons/Tech Icons/technologyatlasFour360.dds</File>
+    <File md5="667178B33181F57C6A597CCEAE0EE2E0" import="1">Art/Icons/Tech Icons/technologyatlasFour512.dds</File>
+    <File md5="43F86444383A94722084B4471C5B6542" import="1">Art/Icons/Tech Icons/technologyatlasFour640.dds</File>
+    <File md5="3471F0A9F279F8B39114FFC79A86902C" import="1">Art/Icons/Tech Icons/technologyatlasThree.dds</File>
+    <File md5="5CA357EE4E731BB1B31637ACFF9DB8DF" import="1">Art/Icons/Tech Icons/technologyatlasThree1024.dds</File>
+    <File md5="077B07634FF05F002B33142746E773BD" import="1">Art/Icons/Tech Icons/technologyatlasThree1712.dds</File>
+    <File md5="5F11688D73B8EA7D7F6B6EB828C1B51B" import="1">Art/Icons/Tech Icons/technologyatlasThree360.dds</File>
+    <File md5="2BB9CD83FC314680E1FF16CBD79742E3" import="1">Art/Icons/Tech Icons/technologyatlasThree512.dds</File>
+    <File md5="F31D4659B9D25302BEE6B82C53C1AA26" import="1">Art/Icons/Tech Icons/technologyatlasThree640.dds</File>
+    <File md5="90BDCCCE41EC9D99F328D1B34B071210" import="1">Art/Icons/Unit Icons/unitportraitsPower.dds</File>
+    <File md5="EC31EF13749F812B039576BC8BDE0822" import="1">Art/Icons/Unit Icons/unitportraitsPower1024.dds</File>
+    <File md5="337FF941C2674607D1DE1BF545724DE2" import="1">Art/Icons/Unit Icons/unitportraitsPower360.dds</File>
+    <File md5="5A7A62D6CD178A362FAD002A06EEA19D" import="1">Art/Icons/Unit Icons/unitportraitsPower512.dds</File>
+    <File md5="04DF7AC4A875A7F3DA19D12543E8C8E3" import="1">Art/Icons/Unit Icons/unitportraitsPower640.dds</File>
+    <File md5="2D5DBBBAF8C4D4FCABAEA3429A05B0CE" import="1">Art/MPMButtonAtlas256.dds</File>
+    <File md5="1C86A6452D810724696F9F2E754CC78C" import="1">Art/Policy/Governments/SocialPoliciesCommunism.dds</File>
+    <File md5="3F9CDA3A1670BB31771ABEE1DB9E5E65" import="1">Art/Policy/Governments/SocialPoliciesCorporate.dds</File>
+    <File md5="80379B38459AB2D636DD793724041253" import="1">Art/Policy/Governments/SocialPoliciesDemocracy.dds</File>
+    <File md5="5136D7357AC70D23209153B6CCA9B402" import="1">Art/Policy/Governments/SocialPoliciesEcotopia.dds</File>
+    <File md5="02557716282539900D6CEB2F5F192568" import="1">Art/Policy/Governments/SocialPoliciesFascism.dds</File>
+    <File md5="544F301B6C69AF6E83B5BBD00A3043C8" import="1">Art/Policy/Governments/SocialPoliciesMonarchy.dds</File>
+    <File md5="130399FE49CA95FF317CC36AB59C0B37" import="1">Art/Policy/Governments/SocialPoliciesRepublic.dds</File>
+    <File md5="EB3E253869D89DCED02574BA5D4AD7DF" import="1">Art/Policy/Governments/SocialPoliciesTechnocracy.dds</File>
+    <File md5="FDDD60D1BA2C3C0360474612DF637CDA" import="1">Art/Policy/Governments/SocialPoliciesTheocracy.dds</File>
+    <File md5="C287E079E1950E34AF52EFD47C3AB38A" import="1">Art/Policy/Governments/SocialPoliciesVirtualDemocracy.dds</File>
+    <File md5="B5FAD25265BD5D3187FAD0CB9A7A7C10" import="1">Art/Policy/GovIdeologies/SocialPoliciesAnarchism.dds</File>
+    <File md5="DDFE24084EC9255B5E34B7951A96E202" import="1">Art/Policy/GovIdeologies/SocialPoliciesCapitalism.dds</File>
+    <File md5="47ABC66AEE5B45DE568A3F6635482FCB" import="1">Art/Policy/GovIdeologies/SocialPoliciesConservatism.dds</File>
+    <File md5="F652E1E5F64A02EADD53B1D8476998AF" import="1">Art/Policy/GovIdeologies/SocialPoliciesEnviromentalism.dds</File>
+    <File md5="A8917F30CCB6A612607220A3AD9EC79A" import="1">Art/Policy/GovIdeologies/SocialPoliciesImperialism.dds</File>
+    <File md5="C75A786F4D39140378D8C2F7430E9D77" import="1">Art/Policy/GovIdeologies/SocialPoliciesLiberalism.dds</File>
+    <File md5="AF18AF20F5164F54E8BA489114541C0C" import="1">Art/Policy/GovIdeologies/SocialPoliciesNationalism.dds</File>
+    <File md5="1243F6F828DCDA24EE9AC1BAFF05AE5E" import="1">Art/Policy/GovIdeologies/SocialPoliciesPacifism.dds</File>
+    <File md5="0D71171A1A191BE8E7D86C65EFD9F0D7" import="1">Art/Policy/GovIdeologies/SocialPoliciesPopulism.dds</File>
+    <File md5="DC343E326036C46486A1782C16B7E00B" import="1">Art/Policy/GovIdeologies/SocialPoliciesSocialism.dds</File>
+    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesAristocracy.dds</File>
+    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesAutocracy.dds</File>
+    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesConstitutional.dds</File>
+    <File md5="3B9CB92980D7CD517752A8FBA82B0EBC" import="1">Art/Policy/GovSystems/SocialPoliciesElectoral.dds</File>
+    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesFederalism.dds</File>
+    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesFeudalism.dds</File>
+    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesParliamentary.dds</File>
+    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesPluralism.dds</File>
+    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesPlutocracy.dds</File>
+    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesTotalitarianism.dds</File>
+    <File md5="B497461EBB395911A3071B5FA3226275" import="1">Art/Units Flags/unitflagatlaswhiteTwo.dds</File>
+    <File md5="DAADEE071F9E3A53EBA57371F646EF8D" import="1">Art/Wonder Splash/SplashAlJabr.dds</File>
+    <File md5="028721E1A8C4C7C3C0979330B0D280CE" import="1">Art/Wonder Splash/SplashBachCathedral.dds</File>
+    <File md5="D0E1044102511291FD5E500DD7765F09" import="1">Art/Wonder Splash/SplashBrainMap.dds</File>
+    <File md5="3F3611783539510EC409D1097C256780" import="1">Art/Wonder Splash/SplashCommunistManifesto.dds</File>
+    <File md5="AD12A3840760968A369267FFE55FAACD" import="1">Art/Wonder Splash/SplashCopernicus.dds</File>
+    <File md5="C2BF0E07FE5CFB9064A779DD3EFACCF2" import="1">Art/Wonder Splash/SplashCureForCancer.dds</File>
+    <File md5="BC8FFD97F7E5B8F891B7FCEB1EECB8FE" import="1">Art/Wonder Splash/SplashDinosaurPark.dds</File>
+    <File md5="A17604CD71CE761BD2BE773E5F5E6020" import="1">Art/Wonder Splash/SplashEdisonLab.dds</File>
+    <File md5="9D4052CB70E4D98FF747AFC09D9D3B19" import="1">Art/Wonder Splash/SplashGalileoTelescope.dds</File>
+    <File md5="32CCD658822789919EEAB3E803467F04" import="1">Art/Wonder Splash/SplashGreatMosque.dds</File>
+    <File md5="C5E4EC9352AED0D3EA976F5B1A3A2846" import="1">Art/Wonder Splash/SplashGutenberg_bible.dds</File>
+    <File md5="60ED01337181B8BEF812BCB335D91B14" import="1">Art/Wonder Splash/SplashHollywood.dds</File>
+    <File md5="4DD6224F1F79CDC972ED5929ACE893BE" import="1">Art/Wonder Splash/SplashHumanGenomeProject.dds</File>
+    <File md5="E95E39E40A1A1A80D2AB4DC151825855" import="1">Art/Wonder Splash/SplashInternet.dds</File>
+    <File md5="152242E560CBFB8B8808E0458ACC261F" import="1">Art/Wonder Splash/SplashKongMiao.dds</File>
+    <File md5="1C4C5CB92E023F0826DD3BEF9EB98243" import="1">Art/Wonder Splash/SplashLabyrinth.dds</File>
+    <File md5="473FBD8FC4EA170124F5AB23FD820EAF" import="1">Art/Wonder Splash/SplashLeonardoWorkshop.dds</File>
+    <File md5="7C72D39F8C9A6AE88EE8E1A3A262117D" import="1">Art/Wonder Splash/SplashLHC.dds</File>
+    <File md5="1579FC55C3B5B20C9FEB440DF966E285" import="1">Art/Wonder Splash/SplashMagellanVoyage.dds</File>
+    <File md5="6B91C8854ED074A9E0C7579FD0B6F37D" import="1">Art/Wonder Splash/SplashMahabodhi.dds</File>
+    <File md5="8AC916DFB381B192F97C21606FE3D626" import="1">Art/Wonder Splash/SplashMausoleum.dds</File>
+    <File md5="32283E83357D25BE5919C225D4D3D234" import="1">Art/Wonder Splash/SplashMTheory.dds</File>
+    <File md5="6728DBD5F1E20726639EEFFDA25FFAF8" import="1">Art/Wonder Splash/SplashNazcaLines.dds</File>
+    <File md5="627FD1CCFDA92CA35344CAFE3ADD1079" import="1">Art/Wonder Splash/SplashParthenon.dds</File>
+    <File md5="2BBA1CFAC297832AFE71E4CADB069364" import="1">Art/Wonder Splash/SplashPetra.dds</File>
+    <File md5="C68CD0E44C0A033B04ACCE380D62BFA9" import="1">Art/Wonder Splash/SplashPrincipaMathematica.dds</File>
+    <File md5="FDF62AFD97B0753E854BBE414DEB4712" import="1">Art/Wonder Splash/SplashShakespearTheater.dds</File>
+    <File md5="44B5EDE8F6AEBC83B6CC23637D03C5EC" import="1">Art/Wonder Splash/SplashSphinx.dds</File>
+    <File md5="2A368064DDF2D5D26C7B0088AA8F54C3" import="1">Art/Wonder Splash/SplashSunTzuArtofWar.dds</File>
+    <File md5="8F4FEB04896D165225161C91340F9604" import="1">Art/Wonder Splash/SplashTemple_of_heaven.dds</File>
+    <File md5="91728F861DC534CCBF82F41CA1A5A7EA" import="1">Art/Wonder Splash/SplashTemple_of_sollomon.dds</File>
+    <File md5="BCF6C546C571A76CBE76D450154CA668" import="1">Art/Wonder Splash/SplashTerracottaArmy.dds</File>
+    <File md5="0E8C25CC319C54C2694D19C949FDB399" import="1">Art/Wonder Splash/SplashTheoryOfEvolution.dds</File>
+    <File md5="9023F9B6B2ACCD88F57A853E4EFE9DA7" import="1">Art/Wonder Splash/SplashVirtualSecuritiesExchange.dds</File>
+    <File md5="63442591DA5A07FBBBA5491E5B3B16D9" import="1">Art/Wonder Splash/SplashWealthOfNations.dds</File>
+    <File md5="0FD2B19C5FF08DA168714C2CD5347DD4" import="1">Art/Wonder Splash/SplashZeus.dds</File>
+    <File md5="0A0D119DD3824FFFA1D66799A28A7E35" import="1">Art/Wonder Splash/SplashZiggurat.dds</File>
+    <File md5="18ECD168B008D1433996C97DAA2CD30C" import="0">Buildings/BuildingClasses.xml</File>
+    <File md5="6A17DBE9689A7A3CB6C68A18C4203615" import="0">Buildings/Buildings.xml</File>
+    <File md5="F7B896F4F1AF295B229B1736D282A9D2" import="0">Buildings/BuildingIcons.xml</File>
+    <File md5="60D1248B24CEBAE4C8789D83EDA5B566" import="1">Buildings/ProjectIcons.xml</File>
+    <File md5="CB75FFF368AE2B214094A71287CB735A" import="0">Buildings/Projects.xml</File>
+    <File md5="876431E2F46D0D0BA9031BFEABEF5C9F" import="0">Buildings/Specialists.xml</File>
+    <File md5="5E4354EEDFAC704B2D46EF15C5C84C61" import="0">Buildings/MonopolyBuildingClasses.xml</File>
+    <File md5="EA09A04E39ECB49C4045CF4C653D5760" import="1">Buildings/MonopolyBuildingIcons.xml</File>
+    <File md5="FB728561BC3BAB71859BF30EA7BB3CD1" import="0">Buildings/MonopolyBuildings.xml</File>
+    <File md5="14349035BA08D690C3493842494D64C1" import="1">CCTP Maps/AdvancedCCTPSetup.lua</File>
+    <File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/AdvancedCCTPSetup.xml</File>
+    <File md5="E503D0FED699DA4AB2A9080255FDDE4B" import="0">CCTP Maps/Backup/En.xml</File>
+    <File md5="FB7D7F955C36558C0B84C987B3324D86" import="0">CCTP Maps/Backup/RNELoadScreen/SelectRNEMapVersion - Copy.lua</File>
+    <File md5="4F02D0E484606713FE7C7049F2E19199" import="0">CCTP Maps/Backup/RNELoadScreen/SelectRNEMapVersion - Copy.xml</File>
+    <File md5="C3EF28894D4B00C5AFB6AE038BDD9167" import="1">CCTP Maps/BasicCCTPSetup.lua</File>
+    <File md5="36315C38ECCDE903604AB7846C9123EA" import="1">CCTP Maps/BasicCCTPSetup.xml</File>
+    <File md5="BFFDC5547F024A04C0C3CF1E420FCF11" import="1">CCTP Maps/CCTPMainBG.dds</File>
+    <File md5="05E43FC5C0209755C91FF53048349C22" import="1">CCTP Maps/CCTPMapManager.lua</File>
+    <File md5="F699E5FF864A4EE00CD4568ECA3A9666" import="0">CCTP Maps/CCTP/Hex Details.docx</File>
+    <File md5="F6F84ED05C1EA2B2B85D59C05660BAED" import="1">CCTP Maps/CCTP/PlotHelpManager.lua</File>
+    <File md5="A4A7028CB7FCCFDD6C86BF77CA59AA6D" import="0">CCTP Maps/CCTP/ResourceLocations.xml</File>
+    <File md5="6C64622A34C9EA8800C30CE7DB33D4B3" import="1">CCTP Maps/MapFiles/LEMMapInfo.lua</File>
+    <File md5="4C479D409130641B5212A009D1E09CBE" import="1">CCTP Maps/MapFiles/LEMMapPic.dds</File>
+    <File md5="0BF8FD364E4BD6457AFB7C561982DA4D" import="1">CCTP Maps/MapFiles/MasterMapInfo.lua</File>
+    <File md5="8B3C02A2FBDAF8C9F19466989CC32B9F" import="1">CCTP Maps/MapFiles/RNEMapInfo.lua</File>
+    <File md5="16A25CFC5A2BB1FE05EFA2AF12DF705E" import="0">CCTP Maps/MapFiles/Used/Legendary Earth I.Civ5Map</File>
+    <File md5="B57D21BEC5EA32A0977688448A62825A" import="0">CCTP Maps/MapMenuTXT.xml</File>
+    <File md5="735D11947922A70C9F20DFC852D2E497" import="1">CCTP Maps/RMaps/RMapsAdvancedSetup.lua</File>
+    <File md5="76F1BBF4D0C63FDE9EE982F65D581F01" import="1">CCTP Maps/RMaps/RMapsAdvancedSetup.xml</File>
+    <File md5="83C4AEB2EC9F6E70EBF614FBE4919E56" import="1">CCTP Maps/RMaps/RMapsGameSetupScreen.lua</File>
+    <File md5="BD02F6C919CD04ACC050005A59FD78F5" import="1">CCTP Maps/RMaps/RMapsGameSetupScreen.xml</File>
+    <File md5="AE2E1880CC63C81E2100A0DB97A1A53A" import="1">CCTP Maps/RMaps/RMapsSelectCivilization.lua</File>
+    <File md5="139CD4F63C0796A0C5D2827C526C4012" import="1">CCTP Maps/RMaps/RMapsSelectCivilization.xml</File>
+    <File md5="D36E09121DDE6281EE44B366EA587599" import="1">CCTP Maps/RMaps/RMapsSelectMapType.lua</File>
+    <File md5="8DD50236AEAF9A9194726E32B8361AF7" import="1">CCTP Maps/RMaps/RMapsSelectMapType.xml</File>
+    <File md5="70C6149AAE6FEBB8989A1E9CA72B8A34" import="1">CCTP Maps/RTPPics/Assassin.dds</File>
+    <File md5="E3C676039984798C5886C80133E54086" import="1">CCTP Maps/RTPPics/ElPresidente.dds</File>
+    <File md5="00AD2BB0D0E3AAC13DF04F16E54B2C66" import="1">CCTP Maps/RTPPics/GodKing.dds</File>
+    <File md5="C132EFBF5A4ABD4F66C44F1754100CC8" import="1">CCTP Maps/RTPPics/Heir.dds</File>
+    <File md5="0199B3DE871139272BD445DEF3028EAC" import="1">CCTP Maps/RTPPics/RTPBookBG.dds</File>
+    <File md5="9A4492092E396EFC0F3A7F60C089D285" import="1">CCTP Maps/RTPPics/Wanderer.dds</File>
+    <File md5="3A2136AEA43563FDA5FC0C0B28C74552" import="1">CCTP Maps/RTPPics/WarLord.dds</File>
+    <File md5="A34365F927390048E3056321A4200779" import="1">CCTP Maps/SelectCCTPCivilization.lua</File>
+    <File md5="139CD4F63C0796A0C5D2827C526C4012" import="1">CCTP Maps/SelectCCTPCivilization.xml</File>
+    <File md5="28F63F7F9280A28275E7EA2631BDEE72" import="0">CCTP Maps/SelectCCTPMapVersion.lua</File>
+    <File md5="42FB6F32796CDCB38E8120716391EEAB" import="0">CCTP Maps/SelectCCTPMapVersion.xml</File>
+    <File md5="8D778F007A8144227F79EBD0EC4CEA14" import="1">CCTP Maps/SelectRTP.lua</File>
+    <File md5="63E8C11EB77FF819DB26873AA92B4FD2" import="1">CCTP Maps/SelectRTP.xml</File>
+    <File md5="78F45A79AEC79D2A9BA8B608636D279B" import="0">CCTP Readme.rtf</File>
+    <File md5="A914FF152C5434F435E4D2860F1EE3FC" import="0">DLC/Moai_Improvement.xml</File>
+    <File md5="4784FEF4BAA3514DE5977BA6483195FA" import="1">Policy/FreePolicies.xml</File>
+    <File md5="3591D133944C3DFE6CD7A2A97B6489AA" import="1">Policy/Governments.xml</File>
+    <File md5="BDD48FE05B3C7A8482A6EA062D35EE62" import="1">Policy/GovIdeology.xml</File>
+    <File md5="8576E2387C8C712873FAC43A69F71BC5" import="1">Policy/GovSystems.xml</File>
+    <File md5="CA735C40D69A10F31162D68AAFF8BF66" import="1">Policy/PolicyBranch.xml</File>
+    <File md5="62E106FFB8B946B7F3A7F9155902CE24" import="1">Policy/PolicyCategories.xml</File>
+    <File md5="A2901CA2F5BFED6939C22F4D46137B6C" import="1">Policy/PolicyTableAdds.sql</File>
+    <File md5="56BF887EF7CC0F95486E4FCC34C684F9" import="0">Policy/Religions.xml</File>
+    <File md5="AFBE3093D9715324F43C480FA8A7A653" import="0">Policy/ReligiousIdeology.xml</File>
+    <File md5="7788E308DE47488089A25D1C76CB23A6" import="1">Policy/SocialPolicyPopup.lua</File>
+    <File md5="9F9E854288E57F005D1F960E5BDD59A2" import="1">Policy/SocialPolicyPopup.xml</File>
+    <File md5="F83756136C4E6C071C5946565629C161" import="0">Tech/TechTableAdds.sql</File>
+	<File md5="8DD9F4ED280AB8D937E973FF0E5E88B9" import="0">Tech/Eras.xml</File>
+	<File md5="B2CB6831BCC41CEAAF077951C9A70B88" import="1">Tech/TechCategories.xml</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technologies.sql</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technology_PrereqTechs.sql</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/AncientTechs.dds</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/LandBG.dds</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/ClassicalTechs.dds</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/MedievalTechs2.dds</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/RenaissanceTechs.dds</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/IndustrialTechs.dds</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/ModernTechs.dds</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/DigitalTechs.dds</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/InformationTechs.dds</File>
+    <File md5="91383E5426E172886069034D636BAD4D" import="1">Tech/TechIcons.xml</File>
+    <File md5="F9D2A48E55191DEA051FD6508AC956D7" import="1">Tech/TechHelpInclude.lua</File>
+    <File md5="4A1B3075A9E75323278D311C5C6EABE9" import="1">Tech/TechTree.lua</File>
+    <File md5="783DBE94C1E12C78C00F8C8987532B3C" import="1">Tech/TechTree.xml</File>
+    <File md5="EDB463B4D066776BEF03949B920320C3" import="1">Tech/TechTreeBFTT.lua</File>
+    <File md5="0772C55D42AB6986B3D5332EE225457B" import="1">Tech/TechTreeBFTT.xml</File>
+    <File md5="1441243D18427F3F51DACD75A42CE3A0" import="0">Tech/TechTreeText.xml</File>
+	<File md5="1441243D18427F3F51DACD75A42CE3A0" import="0">Tech/TechTreeTXT.xml</File>
+    <File md5="E0832637F2E00AAB889BA28117262AE6" import="1">Terrain/AssignStartingPlots.lua</File>
+    <File md5="5E8970A2664D6AD11D788B07725CDE92" import="0">Terrain/Features.xml</File>
+    <File md5="11CA716A0B262FB75185085C7C35B1B8" import="0">Terrain/Improvements.xml</File>
+    <File md5="440164C6D53984A32CA5878A27C89C49" import="1">Terrain/ResourceIcons.xml</File>
+    <File md5="8A8317C745B33C398C7CB303F4A5D413" import="0">Terrain/Resources.xml</File>
+    <File md5="D8782BD8D658CF410E6AFEE39050806D" import="0">Terrain/Routes.xml</File>
+    <File md5="09F6BE76DF26FEDAE76A0B395F5BB8ED" import="0">Terrain/Terrains.xml</File>
+    <File md5="092CF3CD9739AADD88F108690FC2330A" import="0">Terrain/ResourceNew.xml</File>
+    <File md5="C42E7B997B29595B78A38F0C0D36F542" import="0">Text/GameText.xml</File>
+    <File md5="6243772D2DFD8E6CFDBA86122C8A75C6" import="0">Text/MonopolyText.xml</File>
+    <File md5="CB878F22A7533176DE96513BD444B394" import="0">Text/PolicyText.xml</File>
+    <File md5="D4EFE2CCE38861A59B58C6F47DB82D45" import="0">Thanks.txt</File>
+    <File md5="1E0897B59C4C16BBF3015B32BA6C57B5" import="0">Units/Builds.xml</File>
+    <File md5="01C9700306FE809E6D2197F887425459" import="0">Units/UnitClasses.xml</File>
+    <File md5="37DF8DBAA16957591B4DE31B7F256DED" import="0">Units/Units.xml</File>
+    <File md5="906BC8941A010CEF4A271A0136F29C3F" import="0">Version History.txt</File>
+    <File md5="997840CCD18E0165B522DAEE0BA78C2C" import="0">Z_Global/Game Pace Rules.sql</File>
+    <File md5="3E43AADB2F9FA34B5EC8374C2F927188" import="0">Z_Global/GlobalDefines.xml</File>
+    <File md5="19D9DB2D4E6D283A314F138AAC87B728" import="0">Z_Global/HurryInfos.xml</File>
+    <File md5="941F26525F448022CDA69F8512D05742" import="0">Z_Global/HandicapInfos.xml</File>
+    <File md5="F5890BEB4907642352571F8AC85365DD" import="0">Z_Global/IconTextureAtlases.xml</File>
+    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="0">Z_Global/Worlds.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>CCTP Maps/MapMenuTXT.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/TechTableAdds.sql</UpdateDatabase>
+	  <UpdateDatabase>Tech/Technologies.sql</UpdateDatabase>
+	  <UpdateDatabase>Tech/Technology_PrereqTechs.sql</UpdateDatabase>
+      <UpdateDatabase>Policy/PolicyTableAdds.sql</UpdateDatabase>
+      <UpdateDatabase>Tech/Eras.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/TechCategories.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/TechTreeText.xml</UpdateDatabase>
+	  <UpdateDatabase>Tech/TechTreeTXT.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/PolicyCategories.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Builds.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Features.xml</UpdateDatabase>
+      <UpdateDatabase>Text/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/Projects.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Resources.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Routes.xml</UpdateDatabase>
+      <UpdateDatabase>Units/UnitClasses.xml</UpdateDatabase>
+      <UpdateDatabase>AI/BetterAI.xml</UpdateDatabase>
+      <UpdateDatabase>AI/GlobalAIDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Z_Global/HurryInfos.xml</UpdateDatabase>
+      <UpdateDatabase>AI/Leaders.xml</UpdateDatabase>
+      <UpdateDatabase>Z_Global/GlobalDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>DLC/Moai_Improvement.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/Terrains.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/ProjectIcons.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/TechIcons.xml</UpdateDatabase>
+      <UpdateDatabase>Text/PolicyText.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/BuildingIcons.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/Specialists.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/PolicyBranch.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/FreePolicies.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/Governments.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/GovIdeology.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/GovSystems.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/ResourceNew.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/ResourceIcons.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/MonopolyBuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/MonopolyBuildings.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/MonopolyBuildingIcons.xml</UpdateDatabase>
+      <UpdateDatabase>Text/MonopolyText.xml</UpdateDatabase>
+      <UpdateDatabase>Z_Global/HandicapInfos.xml</UpdateDatabase>
+      <UpdateDatabase>Z_Global/IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Z_Global/Game Pace Rules.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="Custom" file="CCTP Maps/SelectCCTPMapVersion.xml">
+      <Name>TXT_KEY_CCTP_TITLE</Name>
+      <Description>TXT_KEY_CCTP_DESC</Description>
+    </EntryPoint>
+    <EntryPoint type="MapScript" file="CCTP Maps/CCTPMapManager.lua">
+      <Name>MapManager</Name>
+      <Description>MapManager</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

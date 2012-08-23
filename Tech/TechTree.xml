@@ -2,85 +2,35 @@
 <Context Font="TwCenMT14" FontStyle="Base" Color="Beige" Color1="Black" >
 
 
-	<Instance Offset="0,0" Name="NotificationButton2" Size="700,40"  >
-
-		<GridButton Anchor="L,T" Offset="0,0" Size="700,40" Color="255,255,255,200" StateOffsetIncrement="0,0" ID="Button">
-
-			<Stack ID="TextStack" Anchor="L,T" Padding="0">
-
-				<Label Anchor="L,C" Offset="0,5" ID="NotificationText" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
-				
-				<Label Anchor="L,C" Offset="0,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
-
-			</Stack>
-
-		</GridButton>
-
-	</Instance>
-
-	<Instance Offset="0,0" Name="EconomicsButton" Size="256,256"  >
-
-		<Button Anchor="L,T" Offset="0,0" StateOffsetIncrement="0,0"  Texture="256x256Frame.dds" Size="256,256" ID="OpenEconomics" Hidden="0" ConsumeMouseOver="1" >
+	<Instance Offset="0,0" Name="InfoButton" Size="128,128"  >
+		<Button Anchor="L,B" Offset="0,0" StateOffsetIncrement="0,0"  Size="128,128" ID="OpenInfo" Hidden="0" ConsumeMouseOver="1" >
 			<ShowOnMouseOver>
 				<Image Anchor="C,C" Size="128,128" Texture="assets\UI\Art\Notification\NotificationScienceGlow.dds"  />
 			</ShowOnMouseOver>
-			<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="EconomicsIcon"/>
+			<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="128,128" ID="Classical1Icon"/>
 
-			<ScrollAnim  Offset="0,0"  Size="256.256" Speed=".3" Texture="assets\UI\Art\Notification\NotificationScienceBubbles.dds"  MaskTexture="assets\UI\Art\Notification\NotificationScienceMask.dds"/>
+			<ScrollAnim  Offset="0,0"  Size="128.128" Speed=".3" Texture="assets\UI\Art\Notification\NotificationScienceBubbles.dds"  MaskTexture="assets\UI\Art\Notification\NotificationScienceMask.dds"/>
 			<Label Anchor="C,C" Offset="0,0" String="" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ScienceCount" />
 		</Button>
 
 	</Instance>
-	<Instance Offset="0,0" Name="ScienceButton" Size="256,256"  >
-		<Button Anchor="C,T" Offset="0,0" StateOffsetIncrement="0,0"  Texture="256x256Frame.dds" Size="256,256" ID="OpenScience" Hidden="0" ConsumeMouseOver="1" >
-			<ShowOnMouseOver>
-				<Image Anchor="C,C" Size="128,128" Texture="assets\UI\Art\Notification\NotificationScienceGlow.dds"  />
-			</ShowOnMouseOver>
-			<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="ScienceIcon"/>
-
-			<ScrollAnim  Offset="0,0"  Size="256.256" Speed=".3" Texture="assets\UI\Art\Notification\NotificationScienceBubbles.dds"  MaskTexture="assets\UI\Art\Notification\NotificationScienceMask.dds"/>
-			<Label Anchor="C,C" Offset="0,0" String="" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ScienceCount" />
-		</Button>
-
-	</Instance>
-	<Instance Offset="0,0" Name="MilitaryButton" Size="256,256"  >
-		<Button Anchor="R,T" Offset="0,0" StateOffsetIncrement="0,0"  Texture="256x256Frame.dds" Size="256,256" ID="OpenMilitary" Hidden="0" ConsumeMouseOver="1" >
-			<ShowOnMouseOver>
-				<Image Anchor="C,C" Size="128,128" Texture="assets\UI\Art\Notification\NotificationScienceGlow.dds"  />
-			</ShowOnMouseOver>
-			<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="MilitaryIcon"/>
-
-			<ScrollAnim  Offset="0,0"  Size="256.256" Speed=".3" Texture="assets\UI\Art\Notification\NotificationScienceBubbles.dds"  MaskTexture="assets\UI\Art\Notification\NotificationScienceMask.dds"/>
-			<Label Anchor="C,C" Offset="0,0" String="" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ScienceCount" />
-		</Button>
-
-	</Instance>
-	<Instance Offset="0,0" Name="SocialButton" Size="256,256"  >
-		<Button Anchor="L,B" Offset="0,0" StateOffsetIncrement="0,0"  Texture="256x256Frame.dds" Size="256,256" ID="OpenSocial" Hidden="0" ConsumeMouseOver="1" >
-			<ShowOnMouseOver>
-				<Image Anchor="C,C" Size="128,128" Texture="assets\UI\Art\Notification\NotificationScienceGlow.dds"  />
-			</ShowOnMouseOver>
-			<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="SocialIcon"/>
-
-			<ScrollAnim  Offset="0,0"  Size="256.256" Speed=".3" Texture="assets\UI\Art\Notification\NotificationScienceBubbles.dds"  MaskTexture="assets\UI\Art\Notification\NotificationScienceMask.dds"/>
-			<Label Anchor="C,C" Offset="0,0" String="" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ScienceCount" />
-		</Button>
-
-	</Instance>
-	<Instance Offset="0,0" Name="EngineeringButton" Size="256,256"  >
-		<Button Anchor="R,B" Offset="0,0" StateOffsetIncrement="0,0"  Texture="256x256Frame.dds" Size="256,256" ID="OpenEngineering" Hidden="0" ConsumeMouseOver="1" >
-			<ShowOnMouseOver>
-				<Image Anchor="C,C" Size="128,128" Texture="assets\UI\Art\Notification\NotificationScienceGlow.dds"  />
-			</ShowOnMouseOver>
-			<Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Size="256,256" ID="EngineeringIcon"/>
-
-			<ScrollAnim  Offset="0,0"  Size="256.256" Speed=".3" Texture="assets\UI\Art\Notification\NotificationScienceBubbles.dds"  MaskTexture="assets\UI\Art\Notification\NotificationScienceMask.dds"/>
-			<Label Anchor="C,C" Offset="0,0" String="" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="ScienceCount" />
-		</Button>
-
-	</Instance>
-
 	
+	<Instance Offset="0,0" Name="TechPageButton" Size="200,36"  >
+		<GridButton Style="BaseButton" Anchor="L,B" Size="200,36" Color="255,255,255,255"  Offset="0,0" StateOffsetIncrement="0,0" ID="OpenTechPageButton">
+			<ShowOnMouseOver>
+				<AlphaAnim  Anchor="C,C" Offset="0,0" Size="200,36" TextureOffset="0.0"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".25" AlphaEnd=".99" Hidden="0">
+					<Grid  Size="200,32" Anchor="C,C" Offset="0,0" Style="Grid9Science8" />
+					<ScrollAnim  Offset="12,0"  Size="200.36" Speed="0.25" Texture="assets\UI\Art\Notification\Bubbles256.dds" MaskTexture="assets\UI\Art\Notification\BubblesMask336x48.dds" />
+				</AlphaAnim>
+				<AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+				<AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+				<Image Anchor="R,C" Offset="0,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+				<Image Anchor="L,C" Offset="0,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+			</ShowOnMouseOver>
+			<Label Anchor="C,C" Offset="0,0" Font="TwCenMT20" ID="TechText"  ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+			<Label Anchor="L,C"  Offset="0,-1" Font="TwCenMT20" ID="FinishedTechText" Color0="111.51.0.222" Color1="255.222.22.255" Color2="229.118.22.255" FontStyle="SoftShadow" Hidden="1"/>
+		</GridButton>
+	</Instance>
 	
 	<Box Style="BGBlock_ClearTopBar" />
 
@@ -104,56 +54,165 @@
 		<!-- Panel Header Text ("string= TXT_*" name changed can be put back to make multilanguage) -->
 		<Label String="TXT_KEY_TECHTREEAVAILABLE"  ID="Notifications Label" Anchor="C,T" Offset="0,19" Font="TwCenMT20" Color0="30.50.80.255" Color1="133.184.186.255" Color2="133.184.186.255" FontStyle="SoftShadow"  />
 
-
-
-
-		<ScrollPanel Anchor="L,T" Offset="16,46" Size="1010,500" ID="NotificationScrollPanel" Vertical="1" >
-
-			<Stack Anchor="L,T" Size="256,256" Offset="0,0" StackGrowth="B" Padding="0" ID="EconomicsButtonStack" >
+		<!-- Ancient Page -->
+		<ScrollPanel Hidden="0" Anchor="L,T" Offset="16,46" Size="1010,500" ID="EraAncientScrollPanel" >		
+			<Image Anchor="L,T" Offset="0,-2" TextureOffset="0.0" Size="928,499" Texture="AncientTechs.dds"/>
+			<Stack Anchor="L,T" Size="128,128" Offset="0,0" Padding="0" ID="AncientButtonStack" >
 			</Stack>
-			<Stack Anchor="C,T" Size="256,256" Offset="80,0" StackGrowth="B" Padding="0" ID="ScienceButtonStack" >
-			</Stack>
-			<Stack Anchor="R,T" Size="256,256" Offset="-175,0" StackGrowth="B" Padding="0" ID="MilitaryButtonStack" >
-			</Stack>
-			<Stack Anchor="L,B" Size="256,256" Offset="175,0" StackGrowth="B" Padding="0" ID="SocialButtonStack" >
-			</Stack>
-			<Stack Anchor="R,B" Size="256,256" Offset="0,0" StackGrowth="B" Padding="0" ID="EngineeringButtonStack" >
-			</Stack>
+		</ScrollPanel>
 
+		<!-- Classical Page -->		
+		<ScrollPanel Hidden="1" Anchor="L,T" Offset="16,46" Size="1010,500" ID="EraClassicalScrollPanel" >			
+			<Image Anchor="L,T" Offset="0,-2" TextureOffset="0.0" Size="928,499" Texture="ClassicalTechs.dds"/>
 			
-
+			<Stack Anchor="L,T" Size="128,128" Offset="0,0" Padding="0" ID="Classical1ButtonStack" >
+			</Stack>
+		</ScrollPanel>
+		
+		<!-- Medieval Page -->		
+		<ScrollPanel Hidden="1" Anchor="L,T" Offset="16,46" Size="1010,500" ID="EraMedievalScrollPanel" >			
+			<Image Anchor="L,T" Offset="0,-2" TextureOffset="0.0" Size="928,499" Texture="MedievalTechs2.dds"/>
 			
-
+			<Stack Anchor="L,T" Size="128,128" Offset="0,0" Padding="0" ID="MedievalButtonStack" >
+			</Stack>
+		</ScrollPanel>
+		
+		<!-- Renaissance Page -->		
+		<ScrollPanel Hidden="1" Anchor="L,T" Offset="16,46" Size="1010,500" ID="EraRenaissanceScrollPanel" >			
+			<Image Anchor="L,T" Offset="0,-2" TextureOffset="0.0" Size="928,499" Texture="RenaissanceTechs.dds"/>
 			
-
+			<Stack Anchor="L,T" Size="128,128" Offset="0,0" Padding="0" ID="RenaissanceButtonStack" >
+			</Stack>
+		</ScrollPanel>
+		
+		<!-- Industrial Page -->		
+		<ScrollPanel Hidden="1" Anchor="L,T" Offset="16,46" Size="1010,500" ID="EraIndustrialScrollPanel" >			
+			<Image Anchor="L,T" Offset="0,-2" TextureOffset="0.0" Size="928,499" Texture="IndustrialTechs.dds"/>
 			
+			<Stack Anchor="L,T" Size="128,128" Offset="0,0" Padding="0" ID="IndustrialButtonStack" >
+			</Stack>
+		</ScrollPanel>
 
+		<!-- Modern Page -->		
+		<ScrollPanel Hidden="1" Anchor="L,T" Offset="16,46" Size="1010,500" ID="EraModernScrollPanel" >			
+			<Image Anchor="L,T" Offset="0,-2" TextureOffset="0.0" Size="928,499" Texture="ModernTechs.dds"/>
+			
+			<Stack Anchor="L,T" Size="128,128" Offset="0,0" Padding="0" ID="ModernButtonStack" >
+			</Stack>
+		</ScrollPanel>
+		
+		<!-- Digital Page -->		
+		<ScrollPanel Hidden="1" Anchor="L,T" Offset="16,46" Size="1010,500" ID="EraDigitalScrollPanel" >			
+			<Image Anchor="L,T" Offset="0,-2" TextureOffset="0.0" Size="928,499" Texture="DigitalTechs.dds"/>
+			
+			<Stack Anchor="L,T" Size="128,128" Offset="0,0" Padding="0" ID="DigitalButtonStack" >
+			</Stack>
+		</ScrollPanel>
 
-
-			<GridButton Anchor="R,B"  Style="SmallButton" Size="150,32"  Offset="100,10" StateOffsetIncrement="0,0" ID="CloseButton"  >
-				<Label Anchor="C,C"  Offset="0,0"  String="TXT_KEY_CLOSE" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"  />
-
-			</GridButton>
-
-
+		<!-- Information Page -->		
+		<ScrollPanel Hidden="1" Anchor="L,T" Offset="16,46" Size="1010,500" ID="EraInformationScrollPanel" >			
+			<Image Anchor="L,T" Offset="0,-2" TextureOffset="0.0" Size="928,499" Texture="InformationTechs.dds"/>
+			
+			<Stack Anchor="L,T" Size="128,128" Offset="0,0" Padding="0" ID="InformationButtonStack" >
+			</Stack>
 		</ScrollPanel>
 
 
-		<Box Anchor="C,B" AnchorSide="I.I" Offset="0,54"   Size="910,56" Color="255,255,255,0" >
+		<Box Anchor="C,B" AnchorSide="I.I" Offset="50,54"   Size="910,56" Color="255,255,255,0" >
+			<Stack Anchor="C,T" Size="971,32" Offset="-100,0" Padding="0" StackGrowth="Right">
 
+                <Button  Anchor="L,T" Size="200,24" Offset="0,0" String="TXT_KEY_ERA_0" ID="EraAncient" >
+                    <ShowOnMouseOver>
+                        <AlphaAnim Anchor="L,C" Size="200,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1"  >
+                            <Grid   Size="200,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL" />
+                        </AlphaAnim>
+                    </ShowOnMouseOver>
+                    <!-- Selected State  -->
+                    <Grid Anchor="C,C" Offset="0,1" Size="200,26"  Style="Grid9FrameTurns" Hidden="0" ID="EraAncientSelectHighlight" />
+                </Button>
 
+                <Button  Anchor="L,T" Size="200,24" Offset="0,0" String="TXT_KEY_ERA_1" ID="EraClassical" >
+                    <ShowOnMouseOver>
+                        <AlphaAnim Anchor="L,C" Size="200,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1"  >
+                            <Grid   Size="200,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL" />
+                        </AlphaAnim>
+                    </ShowOnMouseOver>
+                    <!-- Selected State  -->
+                    <Grid Anchor="C,C" Offset="0,1" Size="200,26"  Style="Grid9FrameTurns" Hidden="1" ID="EraClassicalSelectHighlight" />
+                </Button>
+                
+                <Button  Anchor="L,T" Size="200,24" Offset="0,0" String="TXT_KEY_ERA_2" ID="EraMedieval" >
+                    <ShowOnMouseOver>
+                        <AlphaAnim Anchor="L,C" Size="200,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1"  >
+                            <Grid   Size="200,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL" />
+                        </AlphaAnim>
+                    </ShowOnMouseOver>
+                    <!-- Selected State  -->
+                    <Grid Anchor="C,C" Offset="0,1" Size="200,26"  Style="Grid9FrameTurns" Hidden="1" ID="EraMedievalSelectHighlight" />
+                </Button>
+				
+				<Button  Anchor="L,T" Size="200,24" Offset="0,0" String="TXT_KEY_ERA_3" ID="EraRenaissance" >
+                    <ShowOnMouseOver>
+                        <AlphaAnim Anchor="L,C" Size="200,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1"  >
+                            <Grid   Size="200,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL" />
+                        </AlphaAnim>
+                    </ShowOnMouseOver>
+                    <!-- Selected State  -->
+                    <Grid Anchor="C,C" Offset="0,1" Size="200,26"  Style="Grid9FrameTurns" Hidden="1" ID="EraRenaissanceSelectHighlight" />
+                </Button>
+            </Stack>
+		</Box>
+		<Box Anchor="C,B" AnchorSide="I.I" Offset="50,20"   Size="910,56" Color="255,255,255,0" >
+			<Stack Anchor="C,T" Size="971,32" Offset="-100,0" Padding="0" StackGrowth="Right">
 
+                <Button  Anchor="L,T" Size="200,24" Offset="0,0" String="TXT_KEY_ERA_4" ID="EraIndustrial" >
+                    <ShowOnMouseOver>
+                        <AlphaAnim Anchor="L,C" Size="200,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1"  >
+                            <Grid   Size="200,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL" />
+                        </AlphaAnim>
+                    </ShowOnMouseOver>
+                    <!-- Selected State  -->
+                    <Grid Anchor="C,C" Offset="0,1" Size="200,26"  Style="Grid9FrameTurns" Hidden="1" ID="EraIndustrialSelectHighlight" />
+                </Button>
 
-			<Stack Anchor="L,T" Size="600,40" Offset="0,10" StackGrowth="B" Padding="0" ID="NotificationButton3Stack" >
-			</Stack>
-
-
+                <Button  Anchor="L,T" Size="200,24" Offset="0,0" String="TXT_KEY_ERA_5" ID="EraModern" >
+                    <ShowOnMouseOver>
+                        <AlphaAnim Anchor="L,C" Size="200,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1"  >
+                            <Grid   Size="200,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL" />
+                        </AlphaAnim>
+                    </ShowOnMouseOver>
+                    <!-- Selected State  -->
+                    <Grid Anchor="C,C" Offset="0,1" Size="200,26"  Style="Grid9FrameTurns" Hidden="1" ID="EraModernSelectHighlight" />
+                </Button>
+                
+                <Button  Anchor="L,T" Size="200,24" Offset="0,0" String="TXT_KEY_ERA_6" ID="EraDigital" >
+                    <ShowOnMouseOver>
+                        <AlphaAnim Anchor="L,C" Size="200,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1"  >
+                            <Grid   Size="200,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL" />
+                        </AlphaAnim>
+                    </ShowOnMouseOver>
+                    <!-- Selected State  -->
+                    <Grid Anchor="C,C" Offset="0,1" Size="200,26"  Style="Grid9FrameTurns" Hidden="1" ID="EraDigitalSelectHighlight" />
+                </Button>
+				
+				<Button  Anchor="L,T" Size="200,24" Offset="0,0" String="TXT_KEY_ERA_7" ID="EraInformation" >
+                    <ShowOnMouseOver>
+                        <AlphaAnim Anchor="L,C" Size="200,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1"  >
+                            <Grid   Size="200,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL" />
+                        </AlphaAnim>
+                    </ShowOnMouseOver>
+                    <!-- Selected State  -->
+                    <Grid Anchor="C,C" Offset="0,1" Size="200,26"  Style="Grid9FrameTurns" Hidden="1" ID="EraInformationSelectHighlight" />
+                </Button>
+            </Stack>
+			
 		</Box>
 
 		<Image Anchor="C,B" Offset="0,110" Texture="HorizontalTrim.dds" Size="926.5" />
+		<GridButton Anchor="R,B" AnchorSide="i,o" Size="100,32" Offset="25,-75" String="TXT_KEY_CLOSE" ID="CloseButton" Style="BaseButton" ConsumeMouse="1" />
 	</Grid>
 
-	<LuaContext FileName="Tech/TechTreeBFTT" ID="EconomicsTTPanel" Hidden="TRUE" />
+	<LuaContext FileName="TechTreeBFTT" ID="EconomicsTTPanel" Hidden="TRUE" />
 
 </Context>
 

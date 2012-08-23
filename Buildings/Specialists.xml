@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<SpecialistYields>
+		<Delete SpecialistType="SPECIALIST_CITIZEN" YieldType="YIELD_PRODUCTION" Yield="1" />
+		<Delete SpecialistType="SPECIALIST_MERCHANT" YieldType="YIELD_GOLD" Yield="2" />
+		<Delete SpecialistType="SPECIALIST_SCIENTIST" YieldType="YIELD_SCIENCE" Yield="3" />
+		<Delete SpecialistType="SPECIALIST_ENGINEER" YieldType="YIELD_PRODUCTION" Yield="2" />
+		<Row>
+			<SpecialistType>SPECIALIST_CITIZEN</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</SpecialistYields>
+
+	<Specialists>
+		<Update>
+			<Set GreatPeopleRateChange="1" />
+			<Where Type="SPECIALIST_ENGINEER" />
+		</Update>
+		<Update>
+			<Set GreatPeopleRateChange="1" />
+			<Where Type="SPECIALIST_SCIENTIST" />
+		</Update>
+		<Update>
+			<Set GreatPeopleRateChange="1" />
+			<Where Type="SPECIALIST_MERCHANT" />
+		</Update>
+		<Update>
+			<Set GreatPeopleRateChange="1" />
+			<Where Type="SPECIALIST_ARTIST" />
+		</Update>
+		
+	</Specialists>
+
+</GameData>

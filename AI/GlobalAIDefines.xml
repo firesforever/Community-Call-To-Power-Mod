@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/10/2010 3:26:14 PM -->
+<GameData>
+	<Defines>
+
+
+		<Update>
+			<Set Value="5" />
+			<Where Name="AI_VALUE_OF_YIELD_GOLD" />
+		</Update>
+		<Update>
+			<Set Value="18" />
+			<Where Name="AI_VALUE_OF_YIELD_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Value="10" />
+			<Where Name="AI_VALUE_OF_YIELD_SCIENCE" />
+		</Update>
+		<Update>
+			<Set Value=".95" />
+			<Where Name="AI_STRATEGY_NEED_IMPROVEMENT_CITY_RATIO" />
+		</Update>
+
+		<Update>
+			<Set Value="60" />
+			<Where Name="AI_GOLD_PRIORITY_UPGRADE_BASE" />
+		</Update>
+		<Update>
+			<Set Value="60" />
+			<Where Name="AI_PLOT_VALUE_STRATEGIC_RESOURCE" />
+		</Update>
+		<Update>
+			<Set Value="50" />
+			<Where Name="BUILDER_TASKING_BASELINE_BUILD_RESOURCE_IMPROVEMENTS" />
+		</Update>
+		<Update>
+			<Set Value="30" />
+			<Where Name="BUILDER_TASKING_BASELINE_BUILD_IMPROVEMENTS" />
+		</Update>
+		<Update>
+			<Set Value="7" />
+			<Where Name="BUILDER_TASKING_PLOT_EVAL_MULTIPLIER_FOOD" />
+		</Update>
+		<Update>
+			<Set Value="8" />
+			<Where Name="BUILDER_TASKING_PLOT_EVAL_MULTIPLIER_PRODUCTION" />
+		</Update>
+		<Update>
+			<Set Value="2" />
+			<Where Name="BUILDER_TASKING_PLOT_EVAL_MULTIPLIER_GOLD" />
+		</Update>
+		
+
+
+
+		<Update>
+			<Set Value="10" />
+			<Where Name="AI_CITYSTRATEGY_SMALL_CITY_POP_THRESHOLD" />
+		</Update>
+		<Update>
+			<Set Value="35" />
+			<Where Name="AI_CITYSTRATEGY_MEDIUM_CITY_POP_THRESHOLD" />
+		</Update>
+		<Update>
+			<Set Value="70" />
+			<Where Name="AI_CITYSTRATEGY_LARGE_CITY_POP_THRESHOLD" />
+		</Update>
+		
+		
+		<Update>
+			<Set Value="1" />
+			<Where Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_NUM_CITIES" />
+		</Update>
+		<Update>
+			<Set Value="1" />
+			<Where Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_NUM_SETTLERS" />
+		</Update>
+		<Update>
+			<Set Value="15" />
+			<Where Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_FLAVOR_EXPANSION" />
+		</Update>
+		<Update>
+			<Set Value="15" />
+			<Where Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_PERCENT_CONTINENT_UNOWNED" />
+		</Update>
+
+		<Update>
+			<Set Value="-100" />
+			<Where Name="MINOR_FRIENDSHIP_DROP_PER_TURN" />
+		</Update>
+		<Update>
+			<Set Value="-150" />
+			<Where Name="MINOR_FRIENDSHIP_DROP_PER_TURN_HOSTILE" />
+		</Update>
+		<Update>
+			<Set Value="-600" />
+			<Where Name="MINOR_FRIENDSHIP_DROP_PER_TURN_AGGRESSOR" />
+		</Update>
+		<Update>
+			<Set Value="100" />
+			<Where Name="MINOR_FRIENDSHIP_NEGATIVE_INCREASE_PER_TURN" />
+		</Update>
+		<Update>
+			<Set Value="0" />
+			<Where Name="ALLIES_CAPITAL_FOOD_BONUS_AMOUNT" />
+		</Update>
+		<Update>
+			<Set Value="400" />
+			<Where Name="ALLIES_OTHER_CITIES_FOOD_BONUS_AMOUNT" />
+		</Update>
+		<Update>
+			<Set Value="300" />
+			<Where Name="FRIENDS_CAPITAL_FOOD_BONUS_AMOUNT_POST_RENAISSANCE" />
+		</Update>
+		<Update>
+			<Set Value="200" />
+			<Where Name="FRIENDS_CAPITAL_FOOD_BONUS_AMOUNT_PRE_RENAISSANCE" />
+		</Update>
+		<Update>
+			<Set Value="0" />
+			<Where Name="FRIENDS_OTHER_CITIES_FOOD_BONUS_AMOUNT_PRE_RENAISSANCE" />
+		</Update>
+		<Update>
+			<Set Value="100" />
+			<Where Name="FRIENDS_OTHER_CITIES_FOOD_BONUS_AMOUNT_POST_RENAISSANCE" />
+		</Update>
+		<Update>
+			<Set Value="4" />
+			<Where Name="FRIENDS_CULTURE_BONUS_AMOUNT_ANCIENT" />
+		</Update>
+		<Update>
+			<Set Value="6" />
+			<Where Name="FRIENDS_CULTURE_BONUS_AMOUNT_MEDIEVAL" />
+		</Update>
+		<Update>
+			<Set Value="12" />
+			<Where Name="FRIENDS_CULTURE_BONUS_AMOUNT_INDUSTRIAL" />
+		</Update>
+		<Update>
+			<Set Value="4" />
+			<Where Name="ALLIES_CULTURE_BONUS_AMOUNT_ANCIENT" />
+		</Update>
+		<Update>
+			<Set Value="6" />
+			<Where Name="ALLIES_CULTURE_BONUS_AMOUNT_MEDIEVAL" />
+		</Update>
+		<Update>
+			<Set Value="12" />
+			<Where Name="ALLIES_CULTURE_BONUS_AMOUNT_INDUSTRIAL" />
+		</Update>
+		<Update>
+			<Set Value="24" />
+			<Where Name="FRIENDS_BASE_TURNS_UNIT_SPAWN" />
+		</Update>
+		<Update>
+			<Set Value="-5" />
+			<Where Name="ALLIES_EXTRA_TURNS_UNIT_SPAWN" />
+		</Update>
+		<Update>
+			<Set Value="12.6" />
+			<Where Name="GOLD_GIFT_FRIENDSHIP_DIVISOR" />
+		</Update>
+		<Update>
+			<Set Value="150" />
+			<Where Name="AI_GOLD_PRIORITY_DIPLOMACY_BASE" />
+		</Update>
+		<Update>
+			<Set Value="5" />
+			<Where Name="AI_GOLD_PRIORITY_DIPLOMACY_PER_FLAVOR_POINT" />
+		</Update>
+		<Update>
+			<Set Value="200" />
+			<Where Name="AI_GOLD_BALANCE_TO_HALVE_PLOT_BUY_MINIMUM" />
+		</Update>
+
+
+		<Update>
+			<Where Name="AI_CITYSTRATEGY_NEED_TILE_IMPROVERS_CITY_THRESHOLD" />
+			<Set Value="1" />
+		</Update>
+		<Update>
+			<Where Name="AI_CITYSTRATEGY_NEED_TILE_IMPROVERS_WORKER_MOD" />
+			<Set Value="1000" />
+		</Update>
+		<Update>
+			<Where Name="AI_CITYSTRATEGY_WANT_TILE_IMPROVERS_MINIMUM_SIZE" />
+			<Set Value="1" />
+		</Update>
+
+		<Update>
+			<Where Name="AI_CITIZEN_VALUE_GOLD" />
+			<Set Value="1" />
+		</Update>
+
+		<Update>
+			<Where Name="QUEST_DISABLED_KILL_CITY_STATE" />
+			<Set Value="1" />
+		</Update>
+	</Defines>
+
+
+	
+
+</GameData>

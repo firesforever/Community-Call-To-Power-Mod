@@ -1,0 +1,20 @@
+-- Thanks
+Decimatus. Thank you for creating the great mod that serves as the foundation for this new endeavor. I look forward to seeing you on these forums again.
+
+OrsonM for been a graphical genius. Thanks for the art, and I can't wait for more!
+Pouakai for allowing the use of the wonder icons/splash images from his More Wonders Mod.
+Kwadjh for the use some of his icons from his Game of Thrones Mod.
+nathanglevy for applying finishing touches on the Policy Pictures.
+Nuclear Dude for ideas and design for the Governments, Government Ideologies, and Government Systems.
+Leeuw01 art for the Social Policies.
+Horem bug fixing.
+
+FiresForever for the multiple tech pages mod.
+FiresForever for the multiple social pages mod.
+DeepBlue for the resource generator mod.
+DrBalthar for the wonder splash images.
+Feuteupool for 250+ icons and unit flags.
+knatte_Anka for unit flags.
+Kael, Dale, and other community members who have provided insight and knowledge into Civ 5 Modding.
+
+See http://forums.civfanatics.com/showthread.php?t=432802 for more details.

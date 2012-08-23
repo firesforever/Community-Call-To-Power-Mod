@@ -2503,10 +2503,6 @@
 			<ResourceType>RESOURCE_STONE</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_STONE_MONOPOLY</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_JADE_MONOPOLY</BuildingType>
 			<ResourceType>RESOURCE_JADE</ResourceType>
 		</Row>
@@ -3647,7 +3643,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TIN_MONOPOLY</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>10</Yield>
 		</Row>
 		<Row>

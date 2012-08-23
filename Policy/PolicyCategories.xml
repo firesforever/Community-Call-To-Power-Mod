@@ -1,0 +1,69 @@
+
+<GameData>
+	<Table name="PolicyTreeCat">
+
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text"/>
+		<Column name="Description" type="text" default="NULL"/>
+		<Column name="PortraitIndex" type="integer" default="0"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+	</Table>
+	
+	<Table name="Civilization_PolicyCatAccess">
+		<Column name="PolicyTreeCat" type="text"/>
+		<Column name="CivilizationType" type="text"/>
+		<Column name="CivilizationMainTree" type="text" default="NULL"/>
+	</Table>
+	
+	<Table name="Technology_PolicyCatAccess">
+		<Column name="PolicyTreeCat" type="text"/>
+		<Column name="TechnologyType" type="text"/>
+	</Table>
+	
+	<Table name="Building_PolicyCatAccess">
+		<Column name="PolicyTreeCat" type="text"/>
+		<Column name="BuildingType" type="text"/>	
+	</Table>
+
+	<Policies>
+		<Delete/>
+	</Policies>
+	<PolicyBranchTypes>
+		<Delete/>
+	</PolicyBranchTypes>
+	
+	<PolicyTreeCat>
+		<Row>
+			 <ID>0</ID>
+			 <Type>POLICYTREECAT_GOVERNMENTS</Type>
+			 <Description>TXT_KEY_POLICYTREECAT_GOVERNMENTS</Description>
+			 <PortraitIndex>0</PortraitIndex>
+			 <IconAtlas>MSP_ATLAS_1</IconAtlas>
+		 </Row>
+		<Row>
+			<Type>POLICYTREECAT_GOVERNMENTIDEOLOGIES</Type>
+			<Description>TXT_KEY_POLICYTREECAT_GOVERNMENTIDEOLOGIES</Description>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>MSP_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>POLICYTREECAT_GOVERNMENTSYSTEMS</Type>
+			<Description>TXT_KEY_POLICYTREECAT_GOVERNMENTSYSTEMS</Description>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>MSP_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>POLICYTREECAT_RELIGIONS</Type>
+			<Description>TXT_KEY_POLICYTREECAT_RELIGIONS</Description>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>MSP_ATLAS_1</IconAtlas>
+		</Row>
+		<Row>
+			<Type>POLICYTREECAT_RELIGIOUSIDEOLOGIES</Type>
+			<Description>TXT_KEY_POLICYTREECAT_RELIGIOUSIDEOLOGIES</Description>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>MSP_ATLAS_1</IconAtlas>
+		</Row>
+	</PolicyTreeCat>
+
+</GameData>

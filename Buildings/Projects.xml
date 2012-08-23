@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/10/2010 1:53:02 PM -->
+<GameData>
+	<Projects>
+		<Update>
+			<Set Cost="4000" />
+			<Where Type="PROJECT_MANHATTAN_PROJECT" />
+		</Update>
+		<Update>
+			<Set Cost="35000" TechPrereq="TECH_MANNED_SPACEFLIGHT" />
+			<Where Type="PROJECT_APOLLO_PROGRAM" />
+		</Update>
+		<Update>
+			<Set Cost="100000" />
+			<Where Type="PROJECT_UTOPIA_PROJECT" />
+		</Update>
+		<Row>
+			<Type>PROJECT_WORMHOLE_DETECTION_ARRAY</Type>
+			<Description>TXT_KEY_PROJECT_WORMHOLE_DETECTION_ARRAY</Description>
+			<Help>TXT_KEY_PROJECT_WORMHOLE_DETECTION_ARRAY_HELP</Help>
+			<Civilopedia>TXT_KEY_PROJECT_WORMHOLE_DETECTION_ARRAY_PEDIA</Civilopedia>
+			<TechPrereq>TECH_WORMHOLE_DETECTION</TechPrereq>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>1</MaxTeamInstances>
+			<Cost>300000</Cost>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
+		</Row>
+
+	</Projects>
+	<Project_VictoryThresholds>
+		<Row>
+			<ProjectType>PROJECT_WORMHOLE_DETECTION_ARRAY</ProjectType>
+			<VictoryType>VICTORY_SPACE_RACE</VictoryType>
+			<Threshold>1</Threshold>
+		</Row>
+	</Project_VictoryThresholds>
+	<Project_Flavors>
+		<Row>
+			<ProjectType>PROJECT_WORMHOLE_DETECTION_ARRAY</ProjectType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+	</Project_Flavors>
+
+
+	<Process_ProductionYields>
+		<Update>
+			<Set Yield="5"/>
+			<Where ProcessType="PROCESS_RESEARCH" YieldType="YIELD_SCIENCE"/>
+		</Update>
+	</Process_ProductionYields>
+
+
+</GameData>

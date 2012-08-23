@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<HurryInfos>
+		<Update>
+			<Set GoldPerProduction="7" />
+			<Where Type="HURRY_GOLD" />
+		</Update>
+	</HurryInfos>
+</GameData>
