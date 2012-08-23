@@ -9705,6 +9705,7 @@ function AssignStartingPlots:PrintFinalResourceTotalsToLog()
 	print("- Fish....: ", self.amounts_of_resources_placed[self.fish_ID + 1]);
 	print("- Stone...: ", self.amounts_of_resources_placed[self.stone_ID + 1]);
 	-- Added by CCTP
+	print("Map Generation - Placing CCTP Bonuses");
 	print("- Coffee..: ", self.amounts_of_resources_placed[self.coffee_ID + 1]);
 	print("- Poppy...: ", self.amounts_of_resources_placed[self.poppy_ID + 1]);
 	print("- Titanium: ", self.amounts_of_resources_placed[self.titanium_ID + 1]);
