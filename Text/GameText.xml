@@ -2,14 +2,22 @@
 <!-- Created by ModBuddy on 11/10/2010 1:49:15 PM -->
 <GameData>
 	<Language_en_US>
-		<!-- Update Mods Menu -->
+		<!-- Update Gamespeed Names -->
 		<Update>
-			<Set Text="START GAME"/>
-			<Where Tag="TXT_KEY_MODDING_CUSTOMGAME"/>
+			<Set Text="Fast"/>
+			<Where Tag="TXT_KEY_GAMESPEED_QUICK"/>
 		</Update>
 		<Update>
-			<Set Text="CCTP SINGLE PLAYER"/>
-			<Where Tag="TXT_KEY_MODDING_SINGLE_PLAYER"/>
+			<Set Text="Normal"/>
+			<Where Tag="TXT_KEY_GAMESPEED_STANDARD"/>
+		</Update>
+		<Update>
+			<Set Text="Slow"/>
+			<Where Tag="TXT_KEY_GAMESPEED_EPIC"/>
+		</Update>
+		<Update>
+			<Set Text="Crawl"/>
+			<Where Tag="TXT_KEY_GAMESPEED_MARATHON"/>
 		</Update>
 		<!-- Update Gamespeed Help -->
 		<Update>
@@ -28,7 +36,6 @@
 			<Set Text="A very slow paced game. Ideal for players that like to experience ALL an Era has to offer."/>
 			<Where Tag="TXT_KEY_GAMESPEED_MARATHON_HELP"/>
 		</Update>
-
 		<!--TECH TREES-->
 		<Row>
 			<Tag>TXT_KEY_TECHTREE_ENGINEERING</Tag>
@@ -100,7 +107,7 @@
 			<Text>The Burial Mound increases the Culture of a city, speeding the growth of the city's territory.</Text>
 		</Row>
 		<Update>
-			<Set Text="Each source of [ICON_RES_FUR] Fur,[ICON_RES_IVORY] Ivory, or [ICON_RES_TRUFFLES] Truffles worked by this City produce +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_TRUFFLES] Truffles, [ICON_RES_FUR] Fur, or [ICON_RES_IVORY] Ivory nearby."/>
+			<Set Text="Each source of [ICON_RES_FUR] Fur and [ICON_RES_IVORY] Ivory worked by this City produce +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_HORSE] Horses, [ICON_RES_FUR] Fur, or [ICON_RES_IVORY] Ivory nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_CIRCUS_HELP" />
 		</Update>
 		<Update>
@@ -123,11 +130,11 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ABBEY_HELP</Tag>
-			<Text>Each source of [ICON_RES_COTTON] Cotton and [ICON_RES_DYE] Dye worked by this City produces +1 [ICON_GOLD] Gold. Each source of [ICON_RES_SILK] Silk worked by this City produces +1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+			<Text>Each source of [ICON_RES_COTTON] Cotton, [ICON_RES_DYE] Dye, and [ICON_RES_SILK] Silk worked by this City produces +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ABBEY_STRATEGY</Tag>
-			<Text>The Abbey increases the Science in a city and provides a small boost to [ICON_HAPPINESS_1] Happiness. It also provides additional bonuses for many resources.</Text>
+			<Text>The Abbey increases the Faith in a city and provides a small boost to [ICON_HAPPINESS_1] Happiness. It also provides additional bonuses for many resources.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ARTILLERY_RANGE</Tag>
@@ -162,7 +169,7 @@
 			<Where Tag="TXT_KEY_BUILDING_PAPER_MAKER_HELP" />
 		</Update>
 		<Update>
-			<Set Text="Each sorce of [ICON_RES_HORSE] Horse worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_HORSE] Horse nearby."/>
+			<Set Text="Each sorce of [ICON_RES_HORSE] Horse or [ICON_RES_TRUFFLES] Truffles worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+15 XP for all Mounted Units.[NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_HORSE] Horse or [ICON_RES_TRUFFLES] Truffles nearby."/>
 			<Where Tag="TXT_KEY_BUILDING_STABLE_HELP" />
 		</Update>
 		<!--<Update>
@@ -227,19 +234,19 @@
 			<Text>[NEWLINE][TAB][TAB]"Therefore is the name of it called Babel; because the Lord did there confound the language of all the earth: and from thence did the Lord scatter them abroad upon the face of all the earth."[NEWLINE][TAB][TAB] - Old Testement[NEWLINE][TAB]</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_BUILDING_THE_LABYRNTH</Tag>
-			<Text>The Labyrnth</Text>
+			<Tag>TXT_KEY_BUILDING_THE_LABYRINTH</Tag>
+			<Text>The Labyrinth</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WONDER_THE_LABYRNTH_DESC</Tag>
-			<Text>In Greek mythology, the labyrinth of Crete was derived from the elaborate floor plan of the Palace of Knossos.  Daedalus the Athenian craftsman, was the architect and inventor who designed for King Minos of Crete the labyrinth in which was imprisoned the Minotaur, a man-eating monster that was half man and half bull.  The labyrinth was so skillfully designed that no one could escape from the maze or the Minotaur. Daedalus revealed the secret of the labyrinth only to Ariadne, daughter of Minos, and she aided her lover, the Athenian hero Theseus, to slay the monster and escape.</Text>
+			<Tag>TXT_KEY_WONDER_THE_LABYRINTH_DESC</Tag>
+			<Text>In Greek mythology, the Labyrinth of Crete was derived from the elaborate floor plan of the Palace of Knossos.  Daedalus the Athenian craftsman, was the architect and inventor who designed for King Minos of Crete the labyrinth in which was imprisoned the Minotaur, a man-eating monster that was half man and half bull.  The labyrinth was so skillfully designed that no one could escape from the maze or the Minotaur. Daedalus revealed the secret of the labyrinth only to Ariadne, daughter of Minos, and she aided her lover, the Athenian hero Theseus, to slay the monster and escape.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WONDER_THE_LABYRNTH_HELP</Tag>
+			<Tag>TXT_KEY_WONDER_THE_LABYRINTH_HELP</Tag>
 			<Text>+1 [ICON_PRODUCTION] Production from Engineer Specialist in every City.[NEWLINE][NEWLINE]A Great Engineer appears near this City.</Text>
 		</Row>
 		<Row>
-			<Tag>TXT_KEY_WONDER_THE_LABYRNTH_QUOTE</Tag>
+			<Tag>TXT_KEY_WONDER_THE_LABYRINTH_QUOTE</Tag>
 			<Text>[NEWLINE][TAB][TAB]"Indeed, what is there that does not appear marvelous when it comes to our knowledge for the first time? How many things, too, are looked upon as quite impossible until they have been actually effected?"[NEWLINE][TAB][TAB] - Pliny the Elder[NEWLINE][TAB][TAB]</Text>
 		</Row>
 		<Row>
@@ -697,6 +704,22 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_FOUNDRY_HELP</Tag>
 			<Text>Requires 1 [ICON_RES_IRON] Iron.[NEWLINE]City must have a Forge.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_RACE_TRACK</Tag>
+			<Text>Race Track</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_RACE_TRACK_PEDIA</Tag>
+			<Text>Horse racing is an equestrian sport that has a long history. Archaeological records indicate that horse racing occurred in ancient Babylon, Syria, and Egypt. Thoroughbred racing was, and is, popular with the aristocrats and royalty of British society, earning it the title "Sport of Kings."There are three major types of racing: flat racing, steeplechasing (racing over jumps), and harness racing, where horses trot or pace while pulling a driver in a sulky. A major part of horse racing's economic importance lies in the gambling associated with it, an activity that in 2008 generated a world-wide market worth around US$115 billion.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_RACE_TRACK_HELP</Tag>
+			<Text>Each source of [ICON_RES_HORSE] Horse worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have an improved source of Horse nearby.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_RACE_TRACK_STRATEGY</Tag>
+			<Text>The Race Track increases the [ICON_GOLD] Gold output of [ICON_RES_HORSE] Horse. It also increases a civilization's [ICON_HAPPINESS_1] Happiness.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PRISON</Tag>
@@ -4717,7 +4740,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_STONE_MASONS_HELP</Tag>
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Copper Depot[ENDCOLOR], [COLOR_POSITIVE_TEXT]Stone Depot[ENDCOLOR], and[COLOR_POSITIVE_TEXT] Jade Market[ENDCOLOR] Monopoly buildings.</Text>
+			<Text>Allows you to build the [COLOR_POSITIVE]Copper Depot[ENDCOLOR], [COLOR_POSITIVE]Stone Depot[ENDCOLOR], and[COLOR_POSITIVE] Jade Market[ENDCOLOR] Monopoly buildings.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_STONE_MASONS_QUOTE</Tag>
@@ -4733,7 +4756,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_HELP</Tag>
-			<Text>Allows construction of [COLOR_POSITIVE_TEXT]Cattle Distribution Center[ENDCOLOR], [COLOR_POSITIVE_TEXT]Sheep Distribution Center[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Deer Distribution Center[ENDCOLOR] Monopoly buildings.</Text>
+			<Text>Allows construction of [COLOR_POSITIVE]Cattle Distribution Center[ENDCOLOR], [COLOR_POSITIVE]Sheep Distribution Center[ENDCOLOR], and [COLOR_POSITIVE]Deer Distribution Center[ENDCOLOR] Monopoly buildings.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_LIVESTOCK_DISTRIBUTION_QUOTE</Tag>
@@ -4749,7 +4772,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_HELP</Tag>
-			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Seaport[ENDCOLOR] and the [COLOR_POSITIVE_TEXT]Fish Conglomerate[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Crab Conglomerate[ENDCOLOR] Monopoly buildings.</Text>
+			<Text>Allows construction of the [COLOR_POSSITIVE]Seaport[ENDCOLOR] and the [COLOR_POSSITIVE]Fish Conglomerate[ENDCOLOR] and [COLOR_POSSITIVE]Crab Conglomerate[ENDCOLOR] Monopoly buildings.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_OCEAN_PIONEERING_QUOTE</Tag>
@@ -4765,7 +4788,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_INTERNATIONAL_TRADE_HELP</Tag>
-			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Deer Conglomerate[ENDCOLOR], [COLOR_POSITIVE_TEXT]Cattle Conglomerate[ENDCOLOR],[COLOR_POSITIVE_TEXT] Coffee Conglomerate, [COLOR_POSITIVE_TEXT]Banana Conglomerate[ENDCOLOR], and [COLOR_POSITIVE_TEXT]Sheep Conglomerate[ENDCOLOR] Monopoly buildings.</Text>
+			<Text>Allows construction of the [COLOR_POSSITIVE]Deer Conglomerate[ENDCOLOR], [COLOR_POSSITIVE]Cattle Conglomerate[ENDCOLOR],[COLOR_POSSITIVE] Coffee Conglomerate, [COLOR_POSSITIVE]Banana Conglomerate[ENDCOLOR], and [COLOR_POSSITIVE]Sheep Conglomerate[ENDCOLOR] Monopoly buildings.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_INTERNATIONAL_TRADE_QUOTE</Tag>
@@ -4781,7 +4804,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_HELP</Tag>
-			<Text>Allows construction of the [COLOR_POSITIVE_TEXT]Wheat Monopoly[ENDCOLOR], [COLOR_POSITIVE_TEXT]Cattle Monopoly[ENDCOLOR],[COLOR_POSITIVE_TEXT] Sheep Monopoly, and [COLOR_POSITIVE_TEXT]Banana Monopoly[ENDCOLOR] buildings.</Text>
+			<Text>Allows construction of the [COLOR_POSSITIVE]Wheat Monopoly[ENDCOLOR], [COLOR_POSSITIVE]Cattle Monopoly[ENDCOLOR],[COLOR_POSSITIVE] Sheep Monopoly, and [COLOR_POSSITIVE]Banana Monopoly[ENDCOLOR] buildings.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_TECH_AGRICULTURAL_SCIENCES_QUOTE</Tag>
