@@ -295,6 +295,8 @@ Over a 100 new Buildings and Wonders!</Description>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/TopPanel/TopPanel.xml</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/TopPanel/TopPanel.lua</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/TopPanel/TopPanel_Clock.lua</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/CityBanner/CityBannerManager.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/CityBanner/CityBannerManager.lua</File>
   </Files>
   <Actions>
     <OnModActivated>
