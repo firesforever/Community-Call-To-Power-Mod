@@ -292,6 +292,9 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="941F26525F448022CDA69F8512D05742" import="0">Z_Global/HandicapInfos.xml</File>
     <File md5="F5890BEB4907642352571F8AC85365DD" import="0">Z_Global/IconTextureAtlases.xml</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="0">Z_Global/Worlds.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/TopPanel/TopPanel.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/TopPanel/TopPanel.lua</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/TopPanel/TopPanel_Clock.lua</File>
   </Files>
   <Actions>
     <OnModActivated>
