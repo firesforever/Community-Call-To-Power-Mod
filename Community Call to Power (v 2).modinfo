@@ -252,6 +252,7 @@ Over a 100 new Buildings and Wonders!</Description>
 	<File md5="B2CB6831BCC41CEAAF077951C9A70B88" import="1">Tech/TechCategories.xml</File>
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technologies.sql</File>
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technology_PrereqTechs.sql</File>
+	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technology_Flavors.sql</File>
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/AncientTechs.dds</File>
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/LandBG.dds</File>
 	<File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/ClassicalTechs.dds</File>
@@ -306,6 +307,7 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>CCTP Maps/MapMenuTXT.xml</UpdateDatabase>
       <UpdateDatabase>Tech/TechTableAdds.sql</UpdateDatabase>
 	  <UpdateDatabase>Tech/Technologies.sql</UpdateDatabase>
+	  <UpdateDatabase>Tech/Technology_Flavors.sql</UpdateDatabase>
 	  <UpdateDatabase>Tech/Technology_PrereqTechs.sql</UpdateDatabase>
       <UpdateDatabase>Policy/PolicyTableAdds.sql</UpdateDatabase>
       <UpdateDatabase>Tech/Eras.xml</UpdateDatabase>
