@@ -32,19 +32,21 @@ Over 34 New Units to destroy your enemies!
 Over a 100 new Buildings and Wonders!</Description>
     <Authors>Chrome-Rome</Authors>
     <SpecialThanks>Decimatus, FiresForever, Horem</SpecialThanks>
-    <HideSetupGame>0</HideSetupGame>
+    <HideSetupGame>1</HideSetupGame>
     <Homepage>http://forums.civfanatics.com/showthread.php?t=432802</Homepage>
     <AffectsSavedGames>1</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
-    <SupportsMultiplayer>1</SupportsMultiplayer>
-    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
     <SupportsMac>1</SupportsMac>
-    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
-    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>0</ReloadUnitSystem>
   </Properties>
-  <Dependencies />
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
   <References />
   <Blocks />
   <Files>
