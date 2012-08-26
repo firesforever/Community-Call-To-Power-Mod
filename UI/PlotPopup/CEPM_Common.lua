@@ -528,4 +528,22 @@ function GetPlotDefenseString(pPlot)
 end
 
 
+-- Pulled out of MT_Unit
+
+function Unit_GetXPStored(unit)
+	return unit:GetExperience() - GetExperienceForLevel(unit:GetLevel())
+end
+
+function Unit_GetXPNeeded(unit)
+	return unit:ExperienceNeeded() - GetExperienceForLevel(unit:GetLevel())
+end
+
+function GetExperienceForLevel(level)
+	local xpSum = 0
+	for i=1, level-1 do
+		xpSum = xpSum + i*GameDefines.EXPERIENCE_PER_LEVEL
+	end
+	return xpSum
+end
+
 
