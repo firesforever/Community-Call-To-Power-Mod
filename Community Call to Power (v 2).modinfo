@@ -200,6 +200,13 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="7BF4DD39DB4C69039C4DA13ADCB8562E" import="1">Art/Resources/Coffee/resource_coffee.gr2</File>
     <File md5="7ED9D0412A70AEB6EFDBB0EC9988BFEC" import="1">Art/Resources/Coffee/resource_coffee_diff.dds</File>
     <File md5="6649B224B5990B60E86E38D8838D3AF4" import="1">Art/Resources/Coffee/SV_CoffeeBean.dds</File>
+    <File md5="FDFDEBE9BB521781195C079688597EA1" import="1">Art/Resources/Aloe Vera/SV_Aloevera.dds</File>
+    <File md5="4AA7F48D7252B2C212B3357EDA39EC32" import="1">Art/Resources/Amber/SV_Amber.dds</File>
+    <File md5="558CD1735165AF1870048EFA07B19025" import="1">Art/Resources/Manganese/SV_Manganese.dds</File>
+    <File md5="EFC2ED044202B679BA7B3F3C91232AE5" import="1">Art/Resources/Poppy/SV_Poppy.dds</File>
+    <File md5="565D3D35C9818DAEF6EA393777077B29" import="1">Art/Resources/Tin/SV_Tin.dds</File>
+    <File md5="9BFE9E796DC86F0652403A2CEBB4ADEA" import="1">Art/Resources/Titanium/sv_titanium.dds</File>
+    <File md5="06E3CBA1BC80233FCDE52FE083386BBB" import="1">Art/Resources/Tobacco/SV_Tobacco.dds</File>
     <File md5="DFEDE1ED69BE2B93268FF0ABB89BAAA7" import="1">Art/Resources/Jade/hb_ind_luboric_mine.gr2</File>
     <File md5="805FD4F5A1BD6F18EEC54AFD8AF82466" import="1">Art/Resources/Jade/hb_med_luboric_mine.fxsxml</File>
     <File md5="F12D07FAAF873DB2E8DEA98B69F28587" import="1">Art/Resources/Jade/hb_med_luboric_mine.gr2</File>
