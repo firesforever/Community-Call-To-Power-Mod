@@ -33,7 +33,7 @@
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_COFFEE_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_COFFEE_HELP</Help>
 			<ResourceClassType>RESOURCECLASS_BONUS</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_COFFEE</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_RESOURCE_COFFEE_BEANS</ArtDefineTag>
 			<PlacementOrder>4</PlacementOrder>
 			<ConstAppearance>50</ConstAppearance>
 			<MinAreaSize>3</MinAreaSize>
@@ -150,7 +150,7 @@
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MANGANESE_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_MANGANESE_HELP</Help>
 			<ResourceClassType>RESOURCECLASS_BONUS</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_SALT</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_RESOURCE_MANGANESE</ArtDefineTag>
 			<PlacementOrder>4</PlacementOrder>
 			<ConstAppearance>50</ConstAppearance>
 			<MinAreaSize>3</MinAreaSize>
