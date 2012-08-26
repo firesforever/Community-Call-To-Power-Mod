@@ -12,7 +12,7 @@ Once CCTP is installed, before you boot up CiV, navigate to the CCTP mod directo
 
 Features:-
 
-13 New resources: Squid, Magnese, Jade, Poppy, Tobacco, Coffee, Titanium, Aloe Vera, Tin, Amber, Oak and Blockbuster.
+10 New Resources: Squid, Magnese, Jade, Poppy, Tobacco, Coffee, Titanium, Aloe Vera, Tin, Amber, Oak and Blockbuster.
 
 New Trade Monopoly System! With the addition of 17 technologies(Economic Page) and 200 buildings(5 per resource), resources will be more important than ever!
 -Each resource now has a line of buildings: Small, Medium, Large, Huge, and Monopoly.
@@ -225,6 +225,34 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="BC9C47E5E7B696CDC935151E16622042" import="1">Art/Resources/Jade/pl_med_mine_luboric.fxsxml</File>
     <File md5="5D9F34524E82426A3AE46DC6B24CB265" import="1">Art/Resources/Jade/pl_med_mine_luboric.gr2</File>
     <File md5="E28B0069A1F8FA97ED13585E947F6555" import="1">Art/Resources/Jade/pl_mine_luboric_decal_d.dds</File>
+    <File md5="242B5ADD613B4E9C7507A67372E37E55" import="1">Art/Resources/Oak/crop_ground_oak_d.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Oak/fx_triggers_pl_plantation_ind_oak.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Oak/fx_triggers_pl_plantation_mid_oak.ftsxml</File>
+    <File md5="604DBB13105AB6BBF0EE7BB371A31FB7" import="1">Art/Resources/Oak/hb_plantation_ind_oak.fxsxml</File>
+    <File md5="2B8FACC138BE660CFE5552585564B531" import="1">Art/Resources/Oak/hb_plantation_ind_oak.gr2</File>
+    <File md5="4A5F87A07206A0128E3B92FABA022D9F" import="1">Art/Resources/Oak/hb_plantation_mid_oak.fxsxml</File>
+    <File md5="3415512F6375E35375C0776698B8943E" import="1">Art/Resources/Oak/hb_plantation_mid_oak.gr2</File>
+    <File md5="6A7FFF163C9FE3E3D2459834AA19FD6B" import="1">Art/Resources/Oak/oakery_improved_idle.gr2</File>
+    <File md5="6A7FFF163C9FE3E3D2459834AA19FD6B" import="1">Art/Resources/Oak/oakery_improved_worked.gr2</File>
+    <File md5="3BA271BFEDFE803E6166F55CC85B71B7" import="1">Art/Resources/Oak/oak_diff.dds</File>
+    <File md5="2FF7571A479071BBF67D9E13400EAEE8" import="1">Art/Resources/Oak/oak_grnd_decal_diff.dds</File>
+    <File md5="17F304A29EBB0892BD62CF4502D7A4A5" import="1">Art/Resources/Oak/oak_improved.fxsxml</File>
+    <File md5="491EA26548D1AEF7509AE2DFB002B2AF" import="1">Art/Resources/Oak/oak_improved.gr2</File>
+    <File md5="152137585143527DEB6234CD2082172E" import="1">Art/Resources/Oak/oak_improved_idle.gr2</File>
+    <File md5="152137585143527DEB6234CD2082172E" import="1">Art/Resources/Oak/oak_improved_worked.gr2</File>
+    <File md5="6162341C01354BDF8C0D01BFE1F122A8" import="1">Art/Resources/Oak/oak_sref.dds</File>
+    <File md5="8941E16A89DD9486803FAC99E60ED764" import="1">Art/Resources/Oak/oak_vineyard_diff.dds</File>
+    <File md5="5C129471178C95318B004769458D7AF3" import="1">Art/Resources/Oak/oak_vineyard_sref.dds</File>
+    <File md5="3877FD7D5F0AFDDAD253C63552F78CDD" import="1">Art/Resources/Oak/plantation_ind_oak.fxsxml</File>
+    <File md5="7DE0B9AB6DFD2A7DC55FD870D9C79454" import="1">Art/Resources/Oak/plantation_ind_oak.gr2</File>
+    <File md5="174787ACC2C13BA4828A62D6EFDC483A" import="1">Art/Resources/Oak/plantation_mid_oak.fxsxml</File>
+    <File md5="4B463AED57AE78C1F8B05D4A30E76CAD" import="1">Art/Resources/Oak/plantation_mid_oak.gr2</File>
+    <File md5="F279CCE2C423ABC0D5777BEEBB062DB0" import="1">Art/Resources/Oak/pl_plantation_ind_oak.fxsxml</File>
+    <File md5="ECD6641FB9B17BB9FEDBD8674AD74027" import="1">Art/Resources/Oak/pl_plantation_ind_oak.gr2</File>
+    <File md5="DDEBA53994931661998E6426FD063218" import="1">Art/Resources/Oak/pl_plantation_mid_oak.fxsxml</File>
+    <File md5="3CBD9FC22B8F8264B1EEA1CDD7997113" import="1">Art/Resources/Oak/pl_plantation_mid_oak.gr2</File>
+    <File md5="45A8D830F2F617F540BFC29DAA8A2A8E" import="1">Art/Resources/Oak/resource_oak.fxsxml</File>
+    <File md5="8F4BF4560A6D76A5ADDA1FCB8AAA5BDE" import="1">Art/Resources/Oak/resource_oak.gr2</File>    
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Poppy/fx_triggers_pl_plantation_ind_poppy.ftsxml</File>
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Poppy/fx_triggers_pl_plantation_mid_poppy.ftsxml</File>
     <File md5="E125C040BC1D10CCF4389D3B404C01FC" import="1">Art/Resources/Poppy/hb_plantation_ind_poppy.fxsxml</File>
@@ -340,7 +368,28 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="39B5BB9B82EF081F68FC04C4C12CE1A2" import="1">Art/Resources/Tobacco/resource_tobacco.fxsxml</File>
     <File md5="8B9D6E7437A0F8F8C42E2B1861397869" import="1">Art/Resources/Tobacco/resource_tobacco.gr2</File>
     <File md5="4C7E64E4A84925F77CCB9B894F1B5A6A" import="1">Art/Resources/Tobacco/tobacco_diff.dds</File>
-    <File md5="BA8DA0CE69B5F6B34D459F1EA7A3135C" import="1">Art/Resources/Tobacco/tobacco_sref.dds</File>    
+    <File md5="BA8DA0CE69B5F6B34D459F1EA7A3135C" import="1">Art/Resources/Tobacco/tobacco_sref.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Wood/fx_triggers_pl_plantation_ind_wood.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Wood/fx_triggers_pl_plantation_mid_wood.ftsxml</File>
+    <File md5="52F13E4B4F442AE1D625557AD6F06805" import="1">Art/Resources/Wood/hb_plantation_ind_wood.fxsxml</File>
+    <File md5="F8AF327D225D0DD7F6F21F2BA9A83C91" import="1">Art/Resources/Wood/hb_plantation_ind_wood.gr2</File>
+    <File md5="E6755865412ACAB4100AD764F1F05FAB" import="1">Art/Resources/Wood/hb_plantation_mid_wood.fxsxml</File>
+    <File md5="288851D356AD5BC2E29970DAFB15D9E1" import="1">Art/Resources/Wood/hb_plantation_mid_wood.gr2</File>
+    <File md5="792ED24FA132B6B789338710D658DA9E" import="1">Art/Resources/Wood/plantation_ind_wood.fxsxml</File>
+    <File md5="79F6DA7FEFCF8448967512C1542FF4F5" import="1">Art/Resources/Wood/plantation_ind_wood.gr2</File>
+    <File md5="1D8B5FD4CD1560093DEF5CE5CE9FC6F6" import="1">Art/Resources/Wood/plantation_mid_wood.fxsxml</File>
+    <File md5="06FEA351F9245B46A64F30954303F640" import="1">Art/Resources/Wood/plantation_mid_wood.gr2</File>
+    <File md5="93B9137940090565DCF52CFE8D164C84" import="1">Art/Resources/Wood/pl_plantation_ind_wood.fxsxml</File>
+    <File md5="103671941620291319C0C25D5D8B96F4" import="1">Art/Resources/Wood/pl_plantation_ind_wood.gr2</File>
+    <File md5="9B507D80DED3950E5E09219C4F9216B4" import="1">Art/Resources/Wood/pl_plantation_mid_wood.fxsxml</File>
+    <File md5="64784463F89B87363990F736B42AC307" import="1">Art/Resources/Wood/pl_plantation_mid_wood.gr2</File>
+    <File md5="908357EB571037C84E041B0EF9B83E13" import="1">Art/Resources/Wood/pl_resource_wood_02_diff.dds</File>
+    <File md5="7944E3B81C796A119231EBF67BA94060" import="1">Art/Resources/Wood/resource_wood.fxsxml</File>
+    <File md5="4511EB563E3CEC24FBE91E09C21FE441" import="1">Art/Resources/Wood/resource_wood.gr2</File>
+    <File md5="E74E573E66B71CF1F6A5C1766F931351" import="1">Art/Resources/Wood/resource_wood_02_diff.dds</File>
+    <File md5="BCE1B6C98503B52E17322AC8E6557A7D" import="1">Art/Resources/Wood/resource_wood_02_sref.dds</File>
+    <File md5="CAE1685A6E1DAC63B5431AD424DA3A67" import="1">Art/Resources/Wood/wood_ground_d.dds</File>
+    <File md5="E1A5C5CCF127367795843A49CC77C1FF" import="1">Art/Resources/Wood/wood_ground_h.dds</File>    
     <File md5="B497461EBB395911A3071B5FA3226275" import="1">Art/Units Flags/unitflagatlaswhiteTwo.dds</File>
     <File md5="DAADEE071F9E3A53EBA57371F646EF8D" import="1">Art/Wonder Splash/SplashAlJabr.dds</File>
     <File md5="028721E1A8C4C7C3C0979330B0D280CE" import="1">Art/Wonder Splash/SplashBachCathedral.dds</File>

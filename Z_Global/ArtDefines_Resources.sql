@@ -310,3 +310,51 @@ VALUES ('Industrial','Pillaged','1','ART_DEF_IMPROVEMENT_MINE','SNAPSHOT','ART_D
 
 INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech)  
 VALUES ('Any','Any','1','ART_DEF_IMPROVEMENT_NONE','SNAPSHOT','ART_DEF_RESOURCE_MANGANESE','Art/Resources/Manganese/Manganese.fxsxml','1',null);
+-- Wood -------------------------------------------------------------------------------------------------------------------------------------------------------
+INSERT INTO ArtDefine_LandmarkTypes (Type, LandmarkType, FriendlyName)
+VALUES ('ART_DEF_RESOURCE_WOOD','Resource','Exotic Hardwood');
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Any','Any','1','ART_DEF_IMPROVEMENT_NONE','SNAPSHOT','ART_DEF_RESOURCE_WOOD','Art/Resources/Wood/Resource_Wood.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','UnderConstruction','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_WOOD','Art/Resources/Wood/HB_Plantation_MID_Wood.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','Constructed','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_WOOD','Art/Resources/Wood/Plantation_MID_Wood.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','Pillaged','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_WOOD','Art/Resources/Wood/PL_Plantation_MID_Wood.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','UnderConstruction','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_WOOD','Art/Resources/Wood/HB_Plantation_IND_Wood.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Constructed','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_WOOD','Art/Resources/Wood/Plantation_IND_Wood.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Pillaged','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_WOOD','Art/Resources/Wood/PL_Plantation_IND_Wood.fxsxml','1',null);
+-- Oak ---------------------------------------------------------------------------------------------------------------------------------------
+INSERT INTO ArtDefine_LandmarkTypes (Type, LandmarkType, FriendlyName)
+VALUES ('ART_DEF_RESOURCE_OAK','Resource','Oak');
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Any','Any','1','ART_DEF_IMPROVEMENT_NONE','SNAPSHOT','ART_DEF_RESOURCE_OAK','Art/Resources/Oak/Resource_Oak.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','UnderConstruction','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_OAK','Art/Resources/Oak/HB_Plantation_MID_Oak.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','Constructed','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_OAK','Art/Resources/Oak/Plantation_MID_Oak.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','Pillaged','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_OAK','Art/Resources/Oak/PL_Plantation_MID_Oak.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','UnderConstruction','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_OAK','Art/Resources/Oak/HB_Plantation_IND_Oak.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Constructed','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_OAK','Art/Resources/Oak/Plantation_IND_Oak.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Pillaged','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_OAK','Art/Resources/Oak/PL_Plantation_IND_Oak.fxsxml','1',null);
