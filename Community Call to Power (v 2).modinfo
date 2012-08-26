@@ -544,6 +544,7 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/CEPM_CommonPlotHelpers.lua</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/PlotHelpManager.lua</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Text/CsebExtendedPlotMouseover.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="0">Z_Global/ArtDefines_Resources.sql</File>
   </Files>
   <Actions>
     <OnModActivated>
