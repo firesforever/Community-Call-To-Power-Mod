@@ -545,6 +545,15 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/PlotHelpManager.lua</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Text/CsebExtendedPlotMouseover.xml</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="0">Z_Global/ArtDefines_Resources.sql</File>
+	<File md5="155E43834C7767803378678E974CD312" import="1">Events/CustomNotifications/ClassUtils.lua</File>
+    <File md5="406E93642C7B0BE3EEF66DD114CE0C74" import="1">Events/CustomNotifications/CustomNotification.lua</File>
+    <File md5="2F2947CD72FC50AF9A7FBC76464BAF22" import="1">Events/CustomNotifications/NotificationPanel.lua</File>
+    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/ActivePlayerTurn/PlotCycle.lua</File>
+    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/ActivePlayerTurn/PlotCycle.xml</File>
+	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/TreeGrowth/TreeGrowth.lua</File>
+	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/Emigration.lua</File>
+    <File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/ScriptDataManager.lua</File>
+	<File md5="BB71DAA7AFAFE3B17C43ED981D782663" import="0">Text/TreeGrowthText.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -598,6 +607,7 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>Z_Global/IconTextureAtlases.xml</UpdateDatabase>
       <UpdateDatabase>Z_Global/Game Pace Rules.sql</UpdateDatabase>
       <UpdateDatabase>Text/CsebExtendedPlotMouseover.xml</UpdateDatabase>
+	  <UpdateDatabase>Text/TreeGrowthText.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
@@ -608,6 +618,10 @@ Over a 100 new Buildings and Wonders!</Description>
     <EntryPoint type="MapScript" file="CCTP Maps/CCTPMapManager.lua">
       <Name>MapManager</Name>
       <Description>MapManager</Description>
+    </EntryPoint>
+	<EntryPoint type="NotificationAddin" file="Events/ActivePlayerTurn/PlotCycle.lua">
+      <Name>PlotCycle.lua</Name>
+      <Description>PlotCycle.lua</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>
