@@ -8,8 +8,11 @@
 	<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOREST">
 		<Text>A nearby forest has expanded into a new location.</Text>
 	</Row>
-	<Row Tag="CNOTIFICATION_TREEGROWTH">
-		<Text>Tree Growth</Text>
+	<Row Tag="CNOTIFICATION_TREEGROWTHFOREST">
+		<Text>Tree Growth Forest</Text>
+	</Row>
+		<Row Tag="CNOTIFICATION_JUNGLEGROWTH">
+		<Text>Tree Growth Jungle</Text>
 	</Row>
 	<Row Tag="TXT_KEY_NOTIFICATION_JUNGLE">
 		<Text>A new Jungle has grown.</Text>

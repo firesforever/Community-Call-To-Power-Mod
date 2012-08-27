@@ -7,7 +7,8 @@ include( "TreeGrowth.lua" );
 include( "Emigration.lua" );
 include( "CustomNotification.lua" );
 
-LuaEvents.NotificationAddin({ name = "TreeGrowth", type = "CNOTIFICATION_TREEGROWTH" })
+LuaEvents.NotificationAddin({ name = "TreeGrowthForest", type = "CNOTIFICATION_TREEGROWTHFOREST" })
+LuaEvents.NotificationAddin({ name = "TreeGrowthJungle", type = "CNOTIFICATION_TREEGROWTHJUNGLE" })
 LuaEvents.NotificationAddin({ name = "Emigration", type = "CNOTIFICATION_EMIGRATION"})
 LuaEvents.NotificationAddin({ name = "Immigration", type = "CNOTIFICATION_IMMIGRATION"})
 
@@ -73,9 +74,9 @@ end
 function sendPlotNotification(ntype, plot)
 	print (ntype)
 	if ntype == "Forest" then
-		CustomNotification("TreeGrowth", Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_SUMMARY_FOREST"), Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_FOREST"), plot, 0, "Green", 0);
+		CustomNotification("TreeGrowthForest", Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_SUMMARY_FOREST"), Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_FOREST"), plot, 0, "Green", 0);
 	elseif ntype == "Jungle" then
-		CustomNotification("TreeGrowth", Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_SUMMARY_JUNGLE"), Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_JUNGLE"), plot, 0, "Green", 0);
+		CustomNotification("TreeGrowthJungle", Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_SUMMARY_JUNGLE"), Locale.ConvertTextKey("TXT_KEY_NOTIFICATION_JUNGLE"), plot, 0, "Green", 0);
 	end
 	
 end

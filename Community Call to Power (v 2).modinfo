@@ -545,6 +545,10 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/PlotHelpManager.lua</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Text/CsebExtendedPlotMouseover.xml</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="0">Z_Global/ArtDefines_Resources.sql</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Jungle.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Jungle_Glow.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Forest.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Forest_Glow.dds</File>
 	<File md5="155E43834C7767803378678E974CD312" import="1">Events/CustomNotifications/ClassUtils.lua</File>
     <File md5="406E93642C7B0BE3EEF66DD114CE0C74" import="1">Events/CustomNotifications/CustomNotification.lua</File>
     <File md5="2F2947CD72FC50AF9A7FBC76464BAF22" import="1">Events/CustomNotifications/NotificationPanel.lua</File>
