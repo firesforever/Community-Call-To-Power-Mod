@@ -39,7 +39,7 @@
 		
 		<!-- Map Select Page -->
 		<Row Tag="TXT_KEY_CCTP_TITLE">
-			<Text>CCTP Maps </Text>
+			<Text>Community Call to Power Map Pack</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CCTP_DESC">
 			<Text>Community Call to Power Mod compatible maps, including TSL Earth maps.</Text>

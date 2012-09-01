@@ -1,7 +1,7 @@
+
 <!-- FiresForever 2011 - "Procylon's Call to Power Project" -->
 <GameData>
 	<Language_en_US>
-
 		<!-- Added Missing _TEXT entries, blank for now to remove them from logs -->
 		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MONARCHY_TEXT">
 			<Text>Oops No Text!</Text>
@@ -638,7 +638,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_FASCISM_HELP">
 			<Text>Oops No Text!</Text>
-
+		</Row>
 
 		<!-- Make changes directly to the txt_Key_ entries in this xml file, do not use the update command-->
 
@@ -873,10 +873,10 @@
 			<Text>[COLOR_POSITIVE_TEXT]Theocracy[ENDCOLOR] is best for empires focusing on [ICON_CULTURE] Culture [ICON_HAPPINESS_1] and Happiness.[NEWLINE][NEWLINE]+15% [ICON_FOOD] Food empire wide.[NEWLINE]+0% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+20% [ICON_GOLD] Gold empire wide.[NEWLINE]+0% [ICON_RESEARCH] Science empire wide.[NEWLINE]-20% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_REPUBLIC_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Republic[ENDCOLOR] is best for empires emphasizing Specialist.[NEWLINE][NEWLINE]+5% [ICON_FOOD] Food empire wide.[NEWLINE]+15% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+10% [ICON_GOLD] Gold empire wide.[NEWLINE]+15% [ICON_RESEARCH] Science empire wide.[NEWLINE]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN ]Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Republic[ENDCOLOR] is best for empires emphasizing Specialist.[NEWLINE][NEWLINE]+5% [ICON_FOOD] Food empire wide.[NEWLINE]+15% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+10% [ICON_GOLD] Gold empire wide.[NEWLINE]+7.5% [ICON_RESEARCH] Science empire wide.[NEWLINE]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN ]Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_DEMOCRACY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR] is grants many bonuses for having a solid infrastructure.[NEWLINE][NEWLINE]+30% [ICON_FOOD] Food empire wide.[NEWLINE]+0% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+10% [ICON_GOLD] Gold empire wide.[NEWLINE]+20% [ICON_RESEARCH] Science empire wide.[NEWLINE]-20% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Autocracy, Feudalism, and Totalitarianism.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR] is grants many bonuses for having a solid infrastructure.[NEWLINE][NEWLINE]+30% [ICON_FOOD] Food empire wide.[NEWLINE]+0% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+10% [ICON_GOLD] Gold empire wide.[NEWLINE]+10% [ICON_RESEARCH] Science empire wide.[NEWLINE]-20% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Autocracy, Feudalism, and Totalitarianism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FASCISM_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Fascism[ENDCOLOR] is perfect for subjugating neighbors with your military superiority.[NEWLINE][NEWLINE]+0% [ICON_FOOD] Food empire wide.[NEWLINE]+15% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+0% [ICON_GOLD] Gold empire wide.[NEWLINE]+0% [ICON_RESEARCH] Science empire wide.[NEWLINE]-30% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+5 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Pacifism, Liberalism, Socialism, Anarchism, Pluralism, Constitutional, and Electoral.</Text>
@@ -885,16 +885,16 @@
 			<Text>[COLOR_POSITIVE_TEXT]Communism[ENDCOLOR] captures the essense of the Industrial Revolution by granting massive bonuses to [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+5% [ICON_FOOD] Food empire wide.[NEWLINE]+30% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+10% [ICON_GOLD] Gold empire wide.[NEWLINE]+0% [ICON_RESEARCH] Science empire wide.[NEWLINE]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+3 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Electoral, and Plutocracy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CORPORATE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Corporate[ENDCOLOR] is perfect for empires looking to generate more [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+20% [ICON_FOOD] Food empire wide.[NEWLINE]+10% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+40% [ICON_GOLD] Gold empire wide.[NEWLINE]+10% [ICON_RESEARCH] Science empire wide.[NEWLINE]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments and Populism.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Corporate[ENDCOLOR] is perfect for empires looking to generate more [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+20% [ICON_FOOD] Food empire wide.[NEWLINE]+10% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+40% [ICON_GOLD] Gold empire wide.[NEWLINE]+5% [ICON_RESEARCH] Science empire wide.[NEWLINE]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments and Populism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_TECHNOCRACY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Technocracy[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science and boosts productivity of Great People.[NEWLINE][NEWLINE]+10% [ICON_FOOD] Food empire wide.[NEWLINE]+15% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+25% [ICON_GOLD] Gold empire wide.[NEWLINE]+40% [ICON_RESEARCH] Science empire wide.[NEWLINE]-0% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Populism, and Anarchism.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Technocracy[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science and boosts productivity of Great People.[NEWLINE][NEWLINE]+10% [ICON_FOOD] Food empire wide.[NEWLINE]+15% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+25% [ICON_GOLD] Gold empire wide.[NEWLINE]+10% [ICON_RESEARCH] Science empire wide.[NEWLINE]-0% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Populism, and Anarchism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ECOTOPIA_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Ecotopia[ENDCOLOR] is great for empires looking to expand, both peacefully and not-so-peacefully.[NEWLINE][NEWLINE]+50% [ICON_FOOD] Food empire wide.[NEWLINE]+5% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+15% [ICON_GOLD] Gold empire wide.[NEWLINE]+20% [ICON_RESEARCH] Science empire wide.[NEWLINE]-15% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Ecotopia[ENDCOLOR] is great for empires looking to expand, both peacefully and not-so-peacefully.[NEWLINE][NEWLINE]+50% [ICON_FOOD] Food empire wide.[NEWLINE]+5% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+15% [ICON_GOLD] Gold empire wide.[NEWLINE]+10% [ICON_RESEARCH] Science empire wide.[NEWLINE]-15% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_VIRTUALDEMOCRACY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Virtual Democracy[ENDCOLOR] is a great Government for improving [ICON_HAPPINESS_1] Happiness and gereral prosperity.[NEWLINE][NEWLINE]+25% [ICON_FOOD] Food empire wide.[NEWLINE]+15% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+30% [ICON_GOLD] Gold empire wide.[NEWLINE]+5% [ICON_RESEARCH] Science empire wide.[NEWLINE]-30% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Aristocracy, Autocracy, Feudalism, and Totalitarianism..</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Virtual Democracy[ENDCOLOR] is a great Government for improving [ICON_HAPPINESS_1] Happiness and gereral prosperity.[NEWLINE][NEWLINE]+25% [ICON_FOOD] Food empire wide.[NEWLINE]+15% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+30% [ICON_GOLD] Gold empire wide.[NEWLINE]+2.5% [ICON_RESEARCH] Science empire wide.[NEWLINE]-30% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Aristocracy, Autocracy, Feudalism, and Totalitarianism..</Text>
 		</Row>
 
 		<!--Government Ideologies-->
@@ -1373,7 +1373,7 @@
 			<Text>Mixed Government</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MIXED_GOVERNMENT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Mixed Government[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from Specialist in every City.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Mixed Government[ENDCOLOR][NEWLINE]+0.5 [ICON_RESEARCH] Science from Specialist in every City.</Text>
 		</Row>
 
 		<!--Democracy-->
@@ -1393,7 +1393,7 @@
 			<Text>Direct Vote</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_DIRECT_VOTE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Direct Vote[ENDCOLOR][NEWLINE]+6 [ICON_RESEARCH] Science from every Theatre.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Direct Vote[ENDCOLOR][NEWLINE]+3 [ICON_RESEARCH] Science from every Theatre.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_REPRESENTATION">
 			<Text>Representation</Text>
@@ -1445,7 +1445,7 @@
 			<Text>Comintern</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_COMINTERN_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Comintern[ENDCOLOR][NEWLINE]All City-States which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 25% of what they produce for themselves.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Comintern[ENDCOLOR][NEWLINE]All City-States which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 12.5% of what they produce for themselves.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALIZATION">
 			<Text>Nationalization</Text>
@@ -1509,7 +1509,7 @@
 			<Text>Modes of Action</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MODES_OF_ACTION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Modes of Action[ENDCOLOR][NEWLINE]+20 [ICON_RESEARCH] Science from every Great Person Improvement.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Modes of Action[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Great Person Improvement.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_INFORMATION_SOCIETY">
 			<Text>Information Society</Text>
@@ -1521,7 +1521,7 @@
 			<Text>Energy Accounting</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ENERGY_ACCOUNTING_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Energy Accounting[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every improvement.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Energy Accounting[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every improvement.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ENGINEERING">
 			<Text>Social Engineering</Text>
@@ -1724,7 +1724,7 @@
 			<Text>Market Economy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MARKET_ECONOMY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Market Economy[ENDCOLOR][NEWLINE]+5 [ICON_RESEARCH] Science from every Bank.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Market Economy[ENDCOLOR][NEWLINE]+2.5 [ICON_RESEARCH] Science from every Bank.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MONOPOLY">
 			<Text>Monopoly</Text>
@@ -1808,7 +1808,7 @@
 			<Text>Ethnocentrism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ETHNOCENTRISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Ethnocentrism[ENDCOLOR][NEWLINE]+4 [ICON_RESEARCH] Science from every Museum.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Ethnocentrism[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Museum.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_POPULAR_SOVEREIGNTY">
 			<Text>Popular Sovereignty</Text>
@@ -1834,13 +1834,13 @@
 			<Text>Means of Production</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_MEANS_OF_PRODUCTION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Means of Production[ENDCOLOR][NEWLINE]+5 [ICON_RESEARCH] Science from every Workshop.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Means of Production[ENDCOLOR][NEWLINE]+2.5 [ICON_RESEARCH] Science from every Workshop.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY">
 			<Text>Planned Economy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+4 [ICON_RESEARCH] Science from every Market.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Market.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_REDISTRIBUTION">
 			<Text>Redistribution</Text>
@@ -1872,7 +1872,7 @@
 			<Text>Participatory Economics</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PARTICIPATORY_ECONOMICS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Participatory Economics[ENDCOLOR][NEWLINE]+6 [ICON_RESEARCH] Science from every Theatre.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Participatory Economics[ENDCOLOR][NEWLINE]+3 [ICON_RESEARCH] Science from every Theatre.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_SPONTANEOUS_ORDER">
 			<Text>Spontaneous Order</Text>
@@ -1904,7 +1904,7 @@
 			<Text>Environmental Movement</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ENVIRONMENTAL_MOVEMENT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Environmental Movement[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Lumbermill.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Environmental Movement[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Lumbermill.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_ANIMAL_RIGHTS">
 			<Text>Animal Rights</Text>
@@ -1922,7 +1922,7 @@
 			<Text>Deep Ecology</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_DEEP_ECOLOGY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Deep Ecology[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Recycling Plant.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Deep Ecology[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Recycling Plant.</Text>
 		</Row>
 
 
@@ -1948,7 +1948,7 @@
 			<Text>Prominant Council</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PROMINANT_COUNCIL_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Prominant Council[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Prominant Council[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_CLASS_WARFARE">
 			<Text>Class Warfare</Text>
@@ -2050,7 +2050,7 @@
 			<Text>Power Sharing</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_POWER_SHARING_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Power Sharing[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Temple.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Power Sharing[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Temple.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_COMMON_GOOD">
 			<Text>Common Good</Text>
@@ -2140,7 +2140,7 @@
 			<Text>Amendments</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_AMENDMENTS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Amendments[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Plantation.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Amendments[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Plantation.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_JUDICIAL_REVIEW">
 			<Text>Judicial Review</Text>
@@ -2204,7 +2204,7 @@
 			<Text>Primaries</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_PRIMARIES_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Primaries[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every City.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Primaries[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_GERRYMANDERING">
 			<Text>Gerrymandering</Text>

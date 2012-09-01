@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/31/2011 12:12:44 PM -->
+<GameData>
+	<Language_en_US>
+	<Row Tag="TXT_KEY_NOTIFICATION_FOREST">
+		<Text>A new forest has grown.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOREST">
+		<Text>A nearby forest has expanded into a new location.</Text>
+	</Row>
+	<Row Tag="CNOTIFICATION_TREEGROWTHFOREST">
+		<Text>Tree Growth Forest</Text>
+	</Row>
+		<Row Tag="CNOTIFICATION_JUNGLEGROWTH">
+		<Text>Tree Growth Jungle</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_JUNGLE">
+		<Text>A new Jungle has grown.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_JUNGLE">
+		<Text>A nearby Jungle has expanded into a new location.</Text>
+	</Row>
+	</Language_en_US>
+</GameData>
