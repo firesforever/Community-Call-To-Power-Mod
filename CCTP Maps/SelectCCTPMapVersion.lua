@@ -80,7 +80,30 @@ function OnMapScriptSelected(modeID)
 		end
 	end
 	
-
+	local DefaultMap = nil;
+	if MChosen == 0 then
+		for row in GameInfo.MapScripts{ SupportsSinglePlayer = 1, Hidden = 0} do
+			if string.find(row.FileName ,"Continents.lua" ,1) then
+				DefaultMap = row;
+			end
+		end
+		if DefaultMap == nil then
+			print("Error - Random Map script missing");
+			return;
+		end	
+		PreGame.SetMapScript(DefaultMap.FileName);
+	else
+		for row in GameInfo.MapScripts{ SupportsSinglePlayer = 1, Hidden = 0} do
+			if string.find(row.FileName ,"CCTPMapManager.lua" ,1) then
+				DefaultMap = row;
+			end
+		end
+		if DefaultMap == nil then
+			print("Error - CCTP true world map script missing");
+			return;
+		end	
+		PreGame.SetMapScript(DefaultMap.FileName);
+	end
 	
 	--lets determine how many civs the chosen world has by default
 	if WorldSize == 5 then
