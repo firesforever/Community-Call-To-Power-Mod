@@ -1128,7 +1128,7 @@
 			<NumUnits>1</NumUnits>
 		</Row>-->
 		<Row>
-			<BuildingType>BUILDING_THE_LABYRNTH</BuildingType>
+			<BuildingType>BUILDING_THE_LABYRINTH</BuildingType>
 			<UnitType>UNIT_ENGINEER</UnitType>
 			<NumUnits>1</NumUnits>
 		</Row>
@@ -1703,6 +1703,25 @@
 			<IconAtlas>BW_ATLAS_3</IconAtlas>
 			<PortraitIndex>37</PortraitIndex>
 		</Row>-->
+		<Row>
+			<Type>BUILDING_RACE_TRACK</Type>
+			<Description>TXT_KEY_BUILDING_RACE_TRACK</Description>
+			<Civilopedia>TXT_KEY_BUILDING_RACE_TRACK_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_RACE_TRACK_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_RACE_TRACK_STRATEGY</Strategy>
+			<Happiness>2</Happiness>
+			<Cost>720</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>35</ConquestProb>
+			<BuildingClass>BUILDINGCLASS_RACE_TRACK</BuildingClass>
+			<PrereqTech>TECH_NATIONALISM</PrereqTech>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<GreatPeopleRateChange>0</GreatPeopleRateChange>
+			<IconAtlas>BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>37</PortraitIndex>
+		</Row>
 		<Update>
 			<Set GoldMaintenance="0" Cost="720" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="1" PrereqTech="TECH_OCEAN_PIONEERING"/>
 			<Where Type="BUILDING_SEAPORT"/>
@@ -3098,17 +3117,17 @@
 			<Where Type="BUILDING_KREMLIN"/>
 		</Update>
 		<Row>
-			<Type>BUILDING_THE_LABYRNTH</Type>
-			<Description>TXT_KEY_BUILDING_THE_LABYRNTH</Description>
-			<Civilopedia>TXT_KEY_WONDER_THE_LABYRNTH_DESC</Civilopedia>
-			<Help>TXT_KEY_WONDER_THE_LABYRNTH_HELP</Help>
-			<Quote>TXT_KEY_WONDER_THE_LABYRNTH_QUOTE</Quote>
+			<Type>BUILDING_THE_LABYRINTH</Type>
+			<Description>TXT_KEY_BUILDING_THE_LABYRINTH</Description>
+			<Civilopedia>TXT_KEY_WONDER_THE_LABYRINTH_DESC</Civilopedia>
+			<Help>TXT_KEY_WONDER_THE_LABYRINTH_HELP</Help>
+			<Quote>TXT_KEY_WONDER_THE_LABYRINTH_QUOTE</Quote>
 			<NukeImmune>true</NukeImmune>
 			<Cost>380</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<BuildingClass>BUILDINGCLASS_THE_LABYRNTH</BuildingClass>
+			<BuildingClass>BUILDINGCLASS_THE_LABYRINTH</BuildingClass>
 			<ArtDefineTag>STONEHENGE</ArtDefineTag>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<PrereqTech>TECH_GREAT_MONUMENTS</PrereqTech>
@@ -4998,6 +5017,21 @@
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>-->
+		<Row>
+			<BuildingType>BUILDING_RACE_TRACK</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RACE_TRACK</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RACE_TRACK</BuildingType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
 		<Update>
 			<Where BuildingType="BUILDING_SATRAPS_COURT" FlavorType="FLAVOR_GOLD" />
 			<Set Flavor="100" />
@@ -6246,17 +6280,17 @@
 			<Set Flavor="15" />
 		</Update>
 		<Row>
-			<BuildingType>BUILDING_THE_LABYRNTH</BuildingType>
+			<BuildingType>BUILDING_THE_LABYRINTH</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>49</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_THE_LABYRNTH</BuildingType>
+			<BuildingType>BUILDING_THE_LABYRINTH</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>38</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_THE_LABYRNTH</BuildingType>
+			<BuildingType>BUILDING_THE_LABYRINTH</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
@@ -7056,6 +7090,10 @@
 			<ResourceType>RESOURCE_IVORY</ResourceType>
 		</Row>-->
 		<Row>
+			<BuildingType>BUILDING_RACE_TRACK</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
@@ -7177,7 +7215,7 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_THE_LABYRNTH</BuildingType>
+			<BuildingType>BUILDING_THE_LABYRINTH</BuildingType>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
@@ -7920,13 +7958,6 @@
 			<ResourceType>RESOURCE_IVORY</ResourceType>
 		</Row>
 	</Building_LocalResourceOrs>
-	<Building_ResourceCultureChanges>
-		<Row>
-			<BuildingType>BUILDING_ABBEY</BuildingType>
-			<ResourceType>RESOURCE_SILK</ResourceType>
-			<CultureChange>1</CultureChange>
-		</Row>
-	</Building_ResourceCultureChanges>
 	<Building_ResourceYieldChanges>
 		<Delete/>
 		<Row>
@@ -8014,6 +8045,12 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_ABBEY</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
 			<ResourceType>RESOURCE_CITRUS</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -8037,12 +8074,12 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<!--<Row>
-			<BuildingType>BUILDING_RANCH</BuildingType>
+		<Row>
+			<BuildingType>BUILDING_RACE_TRACK</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
-		</Row>-->
+		</Row>
 		<!--<Row>
 			<BuildingType>BUILDING_HORSE_DERBY</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>

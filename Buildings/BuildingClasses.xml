@@ -11,6 +11,11 @@
 			<DefaultBuilding>BUILDING_DOCK</DefaultBuilding>
 		</Row>
 		<Row>
+			<Type>BUILDINGCLASS_RACE_TRACK</Type>
+			<Description>TXT_KEY_BUILDING_RACE_TRACK</Description>
+			<DefaultBuilding>BUILDING_RACE_TRACK</DefaultBuilding>
+		</Row>
+		<Row>
 			<Type>BUILDINGCLASS_SHAMAN_HUT</Type>
 			<Description>TXT_KEY_BUILDING_SHAMAN_HUT</Description>
 			<DefaultBuilding>BUILDING_SHAMAN_HUT</DefaultBuilding>
@@ -33,9 +38,9 @@
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_THE_LABYRNTH</Type>
-			<Description>TXT_KEY_THE_LABYRNTH</Description>
-			<DefaultBuilding>BUILDING_THE_LABYRNTH</DefaultBuilding>
+			<Type>BUILDINGCLASS_THE_LABYRINTH</Type>
+			<Description>TXT_KEY_THE_LABYRINTH</Description>
+			<DefaultBuilding>BUILDING_THE_LABYRINTH</DefaultBuilding>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
 		<Row>
