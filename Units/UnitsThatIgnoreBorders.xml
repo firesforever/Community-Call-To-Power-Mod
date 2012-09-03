@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Update>
+			<Where Type="UNIT_SUBMARINE"/>
+			<Set RivalTerritory="1"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_NUCLEAR_SUBMARINE"/>
+			<Set RivalTerritory="1"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_STEALTH_SUBMARINE"/>
+			<Set RivalTerritory="1"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SUPERCAVITATING_SUBMARINE"/>
+			<Set RivalTerritory="1"/>
+		</Update>
+	</Units>
+</GameData>
