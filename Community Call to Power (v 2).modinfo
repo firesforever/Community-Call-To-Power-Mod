@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="d048269c-70a9-4ad0-b3ae-27478912b1c8" version="2">
+<Mod id="d048269c-70a9-4ad0-b3ae-27478912b1c8" version="3">
   <Properties>
     <Name>Community Call to Power</Name>
     <Stability>Alpha</Stability>
@@ -544,6 +544,9 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/CEPM_Common.lua</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/CEPM_CommonPlotHelpers.lua</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/PlotHelpManager.lua</File>
+    <File md5="BFF0C25D8A7184B4D8B067B80FEC5A85" import="1">UI/UnitPanel/UnitPanel.lua</File>
+    <File md5="F3C290F22DA06048277053FA025CDB44" import="1">UI/UnitPanel/UnitPanel.xml</File>
+    <File md5="E48F92A0880DF181013BFEEFFCD1561D" import="1">UI/UnitPanel/UnitPanel_small.xml</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Text/CsebExtendedPlotMouseover.xml</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="0">Z_Global/ArtDefines_Resources.sql</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Jungle.dds</File>
