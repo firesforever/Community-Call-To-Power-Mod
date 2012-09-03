@@ -553,11 +553,16 @@ Over a 100 new Buildings and Wonders!</Description>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Jungle_Glow.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Forest.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Forest_Glow.dds</File>
-	<File md5="155E43834C7767803378678E974CD312" import="1">Events/CustomNotifications/ClassUtils.lua</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Emigration.dds</File>	
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Emigration_Glow.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Immigration.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Immigration_Glow.dds</File>
+    <File md5="155E43834C7767803378678E974CD312" import="1">Events/CustomNotifications/ClassUtils.lua</File>
     <File md5="406E93642C7B0BE3EEF66DD114CE0C74" import="1">Events/CustomNotifications/CustomNotification.lua</File>
     <File md5="2F2947CD72FC50AF9A7FBC76464BAF22" import="1">Events/CustomNotifications/NotificationPanel.lua</File>
-    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/ActivePlayerTurn/PlotCycle.lua</File>
-    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/ActivePlayerTurn/PlotCycle.xml</File>
+    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/CCTPEventManager.lua</File>
+    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/CCTPEventManager.xml</File>
+	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/APSPlotEvents.lua</File>
 	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/TreeGrowth/TreeGrowth.lua</File>
 	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/Emigration.lua</File>
     <File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/ScriptDataManager.lua</File>
@@ -628,9 +633,9 @@ Over a 100 new Buildings and Wonders!</Description>
       <Name>MapManager</Name>
       <Description>MapManager</Description>
     </EntryPoint>
-	<EntryPoint type="NotificationAddin" file="Events/ActivePlayerTurn/PlotCycle.lua">
-      <Name>PlotCycle.lua</Name>
-      <Description>PlotCycle.lua</Description>
+    <EntryPoint type="NotificationAddin" file="Events/CCTPEventManager.lua">
+      <Name>CCTPEventManager.lua</Name>
+      <Description>CCTPEventManager.lua</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>

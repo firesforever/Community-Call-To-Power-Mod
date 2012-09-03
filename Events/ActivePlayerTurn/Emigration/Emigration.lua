@@ -142,7 +142,6 @@ function MovePopulation(fromPlayer, fromCity, toPlayer)
 				local PlayerName = GetPlayerName(fromPlayer)
 				local etype = "Emigration"
 				CustomNotification("Emigration", summary, "Emigration to " .. GetPlayerName(toPlayer), 0, fromCity, 0, 0);
-				--sendEmiNotification(etype, summary, PlayerName, fromCity)
 				
 			elseif (toPlayer:IsHuman()) then
 				local summary = 
@@ -151,7 +150,6 @@ function MovePopulation(fromPlayer, fromCity, toPlayer)
 				local PlayerName = GetPlayerName(fromPlayer)
 				local etype = "Immigration"
 				CustomNotification("Immigration", summary, "Immigration from " .. GetPlayerName(fromPlayer), 0, toCity, 0, 0);
-				--sendEmiNotification(etype, summary, PlayerName, toCity)
 				
 			end
 
