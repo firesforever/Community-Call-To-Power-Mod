@@ -602,6 +602,16 @@ Over a 100 new Buildings and Wonders!</Description>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPacifism.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPopulism.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesSocialism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesAristocracy.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesAutocracy.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesConstitutional.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesElectoral.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesFederalism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesFeudalism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesParliamentary.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPluralism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPlutocracy.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesTotalitarianism.dds</File>
   </Files>
   <Actions>
     <OnModActivated>
