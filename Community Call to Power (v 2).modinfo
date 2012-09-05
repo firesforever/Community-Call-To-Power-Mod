@@ -612,6 +612,14 @@ Over a 100 new Buildings and Wonders!</Description>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPluralism.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPlutocracy.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesTotalitarianism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/AncientTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/InformationTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/MedievalTechs2.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/ClassicalTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/DigitalTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/IndustrialTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/ModernTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/RenaissanceTechs.dds</File>
   </Files>
   <Actions>
     <OnModActivated>

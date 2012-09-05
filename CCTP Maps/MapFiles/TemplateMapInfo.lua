@@ -1,30 +1,29 @@
--- MapInfo
--- Author: FiresForever
--- Map: original map author details
--- DateCreated: ??/??/20??
+-- MapInfo File
+-- Template Author: FiresForever
+-- Author: YOUR NAME HERE
+-- Map Author: AUTHOR NAME HERE
 --------------------------------------------------------------
-TempWorldSize = {
+WorldSize = {
 0,0
 }
 
-TempMapPoint = {
-
+MapPoint = {
 
 }
 
-TempMapOptions = {
+MapOptions = {
 --Notes:
 --(0/1) option where 1 = Available and 0 = not available
 -- World size determines the default number of civs and city states, where '5' is the max and represents a huge world
 -- Order:
 -- True Start Locations (0/1) , Real Resource Placement (0/1), World Size,
  
-0,0,5,
+0,0,0,
 
 }
 
 
-TempCivInfo = {
+CivInfo = {
 --Sets the True Starting Location of civs
 --Add new Civs before the "end" entry at the end of this list
 --{Civ, x location, y location)
@@ -49,32 +48,26 @@ TempCivInfo = {
 --{10,30}, {10,31}, {10,32}, {10,33},
 --{10,33},
 
-{"CIVILIZATION_AMERICA",0,0}, {"CIVILIZATION_ARABIA",0,0}, {"CIVILIZATION_AZTEC",0,0}, {"CIVILIZATION_CHINA",0,0}, {"CIVILIZATION_ENGLAND",0,0}, 
-{"CIVILIZATION_FRANCE",0,0}, {"CIVILIZATION_GERMANY",0,0}, {"CIVILIZATION_GREECE",0,0}, {"CIVILIZATION_INDIA",0,0}, {"CIVILIZATION_IROQUOIS",0,0}, 
-{"CIVILIZATION_JAPAN",0,0}, {"CIVILIZATION_OTTOMAN",0,0}, {"CIVILIZATION_PERSIA",0,0}, {"CIVILIZATION_ROME",0,0}, {"CIVILIZATION_RUSSIA",0,0}, 
-{"CIVILIZATION_SIAM",0,0}, {"CIVILIZATION_SONGHAI",0,0}, 
-{"CIVILIZATION_SPAIN",0,0}, {"CIVILIZATION_INCA",0,0}, {"CIVILIZATION_BABYLON",0,0}, {"CIVILIZATION_POLYNESIA",0,0}, {"CIVILIZATION_DENMARK",0,0}, 
-{"CIVILIZATION_KOREA",0,0}, {"CIVILIZATION_MONGOL",0,0},
-{"CIVILIZATION_AUSTRIA",0,0}, {"CIVILIZATION_BYZANTIUM",0,0}, {"CIVILIZATION_CARTHAGE",0,0}, {"CIVILIZATION_CELTS",0,0}, {"CIVILIZATION_ETHIOPIA",0,0}, 
-{"CIVILIZATION_HUNS",0,0}, {"CIVILIZATION_MAYA",0,0}, {"CIVILIZATION_NETHERLANDS",0,0}, {"CIVILIZATION_SWEDEN",0,0},
-{"CIVILIZATION_EGYPT",0,0},{"end",0,0}
+{"end",0,0}
+
 }
 
-TempScenario1 = {
+Scenario1 = {
 -- These are the civs that will be used in the first scenario for the LEM Map
 -- max number of civs, civs in this scenario, The civs allowed in this scenario
 34,0,
 
 }
 
-TempScenario1Details = {
+Scenario1Details = {
 --This sets up the txt and pictures for this
 --Order: Title, Description, Picture
-"Title", "Description", "Picture.dds"
+
+
 }
 
 
-TempStateInfo = {
+StateInfo = {
 
 --This is a list of the possible city states for this map and their TSL's
 --Order: {MinorCiv, x cord, y cord}
@@ -96,7 +89,7 @@ TempStateInfo = {
 
 }
 
-TempNaturalWonders = {
+NaturalWonders = {
 --This is the list of possible wonders with their starting positions
 --Add new Civs before the "end" entry at the end of this list
 -- Order: {Wonder Type, x coord, y coord}
@@ -109,7 +102,7 @@ TempNaturalWonders = {
 
 }
 
-TempGoodyInfo = {
+GoodyInfo = {
 
 --Where goody huts should be placed - - These are not correct for LEM and need replacing
 --Order: {x coord, y coord}
