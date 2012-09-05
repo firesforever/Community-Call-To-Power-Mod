@@ -273,6 +273,7 @@ function UpdateDisplay()
 		return;
     end
     
+	local playerHas1City = player:GetNumCities() > 0;
     Controls.AnarchyBlock:SetHide( not player:IsAnarchy() );
 
     local bShowAll = OptionsManager.GetPolicyInfo();
@@ -355,12 +356,22 @@ function UpdateDisplay()
 			local backName = "BranchBack"..numString;
 			local DisabledBoxName = "DisabledBox"..numString;
 			local LockedBoxName = "LockedBox"..numString;
+			local ImageMaskName = "ImageMask"..numString;
+			local DisabledMaskName = "DisabledMask"..numString;
 			--local EraLabelName = "EraLabel"..numString;
 			
 			local thisButton = Controls[buttonName];
 			local thisBack = Controls[backName];
 			local thisDisabledBox = Controls[DisabledBoxName];
 			local thisLockedBox = Controls[LockedBoxName];
+			
+			local thisImageMask = Controls[ImageMaskName];
+			local thisDisabledMask = Controls[DisabledMaskName];
+			
+			
+			if(thisImageMask == nil) then
+				print(ImageMaskName);
+			end
 			--local thisEraLabel = Controls[EraLabelName];
 			
 			local strToolTip = Locale.ConvertTextKey(policyBranchInfo.Help);
@@ -419,9 +430,16 @@ function UpdateDisplay()
 					thisButton:SetText( Locale.ConvertTextKey( "TXT_KEY_POP_ADOPT_BUTTON" ) );
 				end
 				
+				if(not playerHas1City) then
+					thisButton:SetDisabled(true);
+				end
 				thisBack:SetColor( fadeColor );
 				thisLockedBox:SetHide(false);
 			
+				
+				thisImageMask:SetHide(true);
+				thisDisabledMask:SetHide(false);
+	
 			-- Branch is unlocked, but blocked by another branch
 			elseif (player:IsPolicyBranchBlocked(i)) then
 				thisButton:SetHide( false );
@@ -436,6 +454,8 @@ function UpdateDisplay()
 				thisButton:SetHide( true );
 				thisBack:SetColor( fullColor );
 				thisLockedBox:SetHide(true);
+				thisImageMask:SetHide(false);
+				thisDisabledMask:SetHide(true);
 			end
 			
 			-- Update tooltips
@@ -501,7 +521,18 @@ function UpdateDisplay()
 				--thisPolicyIcon.PolicyIcon:SetVoid1( -1 );
 				thisPolicyIcon.PolicyImage:SetColor( fullColor );
 				IconHookup( policyInfo.PortraitIndex, 64, policyInfo.IconAtlasAchieved, thisPolicyIcon.PolicyImage );
-				
+			elseif(not playerHas1City) then
+				--thisPolicyIcon.Lock:SetTexture( lockTexture ); 
+				thisPolicyIcon.MouseOverContainer:SetHide( true );
+				--thisPolicyIcon.Lock:SetHide( true ); 
+				thisPolicyIcon.PolicyIcon:SetDisabled( true );
+				--thisPolicyIcon.Lock:SetHide( false ); 
+				--thisPolicyIcon.PolicyIcon:SetVoid1( -1 );
+				thisPolicyIcon.PolicyImage:SetColor( fadeColorRV );
+				IconHookup( policyInfo.PortraitIndex, 64, policyInfo.IconAtlas, thisPolicyIcon.PolicyImage );
+				-- Tooltip
+				strTooltip = strTooltip .. "[NEWLINE][NEWLINE]"
+	
 			-- Can adopt the Policy right now
 			elseif player:CanAdoptPolicy( i ) then
 				--thisPolicyIcon.Lock:SetHide( true ); 
