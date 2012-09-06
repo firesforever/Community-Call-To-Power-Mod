@@ -106,7 +106,7 @@ WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_POSTMODER
 
 --Modern
 UPDATE Buildings
-SET GoldMaintenance = GoldMaintenance8 1.5 -- was * 3.15
+SET GoldMaintenance = GoldMaintenance * 1.5 -- was * 3.15
 WHERE ( PrereqTech IN ( SELECT Type FROM Technologies WHERE Era = 'ERA_MODERN' ) );
 
 --Industrial

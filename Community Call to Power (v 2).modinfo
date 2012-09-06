@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="d048269c-70a9-4ad0-b3ae-27478912b1c8" version="2">
+<Mod id="d048269c-70a9-4ad0-b3ae-27478912b1c8" version="3">
   <Properties>
     <Name>Community Call to Power</Name>
     <Stability>Alpha</Stability>
@@ -439,7 +439,9 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="5E4354EEDFAC704B2D46EF15C5C84C61" import="0">Buildings/MonopolyBuildingClasses.xml</File>
     <File md5="EA09A04E39ECB49C4045CF4C653D5760" import="1">Buildings/MonopolyBuildingIcons.xml</File>
     <File md5="FB728561BC3BAB71859BF30EA7BB3CD1" import="0">Buildings/MonopolyBuildings.xml</File>
-    <File md5="14349035BA08D690C3493842494D64C1" import="1">CCTP Maps/AdvancedCCTPSetup.lua</File>
+    <File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/ModsSinglePlayer.xml</File>
+	<File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/CustomMod.xml</File>
+	<File md5="14349035BA08D690C3493842494D64C1" import="1">CCTP Maps/AdvancedCCTPSetup.lua</File>
     <File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/AdvancedCCTPSetup.xml</File>
     <File md5="E503D0FED699DA4AB2A9080255FDDE4B" import="0">CCTP Maps/Backup/En.xml</File>
     <File md5="FB7D7F955C36558C0B84C987B3324D86" import="0">CCTP Maps/Backup/RNELoadScreen/SelectRNEMapVersion - Copy.lua</File>
@@ -528,6 +530,7 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="1E0897B59C4C16BBF3015B32BA6C57B5" import="0">Units/Builds.xml</File>
     <File md5="01C9700306FE809E6D2197F887425459" import="0">Units/UnitClasses.xml</File>
     <File md5="37DF8DBAA16957591B4DE31B7F256DED" import="0">Units/Units.xml</File>
+	<File md5="37DF8DBAA16957591B4DE31B7F256DED" import="0">Units/UnitsThatIgnoreBorders.xml</File>
     <File md5="906BC8941A010CEF4A271A0136F29C3F" import="0">Version History.txt</File>
     <File md5="997840CCD18E0165B522DAEE0BA78C2C" import="0">Z_Global/Game Pace Rules.sql</File>
     <File md5="3E43AADB2F9FA34B5EC8374C2F927188" import="0">Z_Global/GlobalDefines.xml</File>
@@ -543,17 +546,25 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/CEPM_Common.lua</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/CEPM_CommonPlotHelpers.lua</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/PlotHelpManager.lua</File>
+    <File md5="BFF0C25D8A7184B4D8B067B80FEC5A85" import="1">UI/UnitPanel/UnitPanel.lua</File>
+    <File md5="F3C290F22DA06048277053FA025CDB44" import="1">UI/UnitPanel/UnitPanel.xml</File>
+    <File md5="E48F92A0880DF181013BFEEFFCD1561D" import="1">UI/UnitPanel/UnitPanel_small.xml</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Text/CsebExtendedPlotMouseover.xml</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="0">Z_Global/ArtDefines_Resources.sql</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Jungle.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Jungle_Glow.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Forest.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Forest_Glow.dds</File>
-	<File md5="155E43834C7767803378678E974CD312" import="1">Events/CustomNotifications/ClassUtils.lua</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Emigration.dds</File>	
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Emigration_Glow.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Immigration.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Immigration_Glow.dds</File>
+    <File md5="155E43834C7767803378678E974CD312" import="1">Events/CustomNotifications/ClassUtils.lua</File>
     <File md5="406E93642C7B0BE3EEF66DD114CE0C74" import="1">Events/CustomNotifications/CustomNotification.lua</File>
     <File md5="2F2947CD72FC50AF9A7FBC76464BAF22" import="1">Events/CustomNotifications/NotificationPanel.lua</File>
-    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/ActivePlayerTurn/PlotCycle.lua</File>
-    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/ActivePlayerTurn/PlotCycle.xml</File>
+    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/CCTPEventManager.lua</File>
+    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/CCTPEventManager.xml</File>
+	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/APSPlotEvents.lua</File>
 	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/TreeGrowth/TreeGrowth.lua</File>
 	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/Emigration.lua</File>
     <File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/ScriptDataManager.lua</File>
@@ -589,6 +600,7 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>DLC/Moai_Improvement.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/Terrains.xml</UpdateDatabase>
       <UpdateDatabase>Units/Units.xml</UpdateDatabase>
+	  <UpdateDatabase>Units/UnitsThatIgnoreBorders.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/ProjectIcons.xml</UpdateDatabase>
       <UpdateDatabase>Tech/TechIcons.xml</UpdateDatabase>
       <UpdateDatabase>Text/PolicyText.xml</UpdateDatabase>
@@ -623,9 +635,9 @@ Over a 100 new Buildings and Wonders!</Description>
       <Name>MapManager</Name>
       <Description>MapManager</Description>
     </EntryPoint>
-	<EntryPoint type="NotificationAddin" file="Events/ActivePlayerTurn/PlotCycle.lua">
-      <Name>PlotCycle.lua</Name>
-      <Description>PlotCycle.lua</Description>
+    <EntryPoint type="NotificationAddin" file="Events/CCTPEventManager.lua">
+      <Name>CCTPEventManager.lua</Name>
+      <Description>CCTPEventManager.lua</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>
