@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="d048269c-70a9-4ad0-b3ae-27478912b1c8" version="3">
+<Mod id="d048269c-70a9-4ad0-b3ae-27478912b1c9" version="3">
   <Properties>
-    <Name>Community Call to Power</Name>
+    <Name>Community Call to Power (White Rabbit)</Name>
     <Stability>Alpha</Stability>
-    <Teaser>A revamp of CiV to resemble Call to Power!</Teaser>
+    <Teaser>Restart civilization 5 before playing!! Play a not so serious version of CCTP!</Teaser>
     <Description>Updated Workshop version, see Version History.txt for details.
 
 [COLOR_YELLOW]
@@ -121,36 +121,6 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="5A7A62D6CD178A362FAD002A06EEA19D" import="1">Art/Icons/Unit Icons/unitportraitsPower512.dds</File>
     <File md5="04DF7AC4A875A7F3DA19D12543E8C8E3" import="1">Art/Icons/Unit Icons/unitportraitsPower640.dds</File>
     <File md5="2D5DBBBAF8C4D4FCABAEA3429A05B0CE" import="1">Art/MPMButtonAtlas256.dds</File>
-    <File md5="1C86A6452D810724696F9F2E754CC78C" import="1">Art/Policy/Governments/SocialPoliciesCommunism.dds</File>
-    <File md5="3F9CDA3A1670BB31771ABEE1DB9E5E65" import="1">Art/Policy/Governments/SocialPoliciesCorporate.dds</File>
-    <File md5="80379B38459AB2D636DD793724041253" import="1">Art/Policy/Governments/SocialPoliciesDemocracy.dds</File>
-    <File md5="5136D7357AC70D23209153B6CCA9B402" import="1">Art/Policy/Governments/SocialPoliciesEcotopia.dds</File>
-    <File md5="02557716282539900D6CEB2F5F192568" import="1">Art/Policy/Governments/SocialPoliciesFascism.dds</File>
-    <File md5="544F301B6C69AF6E83B5BBD00A3043C8" import="1">Art/Policy/Governments/SocialPoliciesMonarchy.dds</File>
-    <File md5="130399FE49CA95FF317CC36AB59C0B37" import="1">Art/Policy/Governments/SocialPoliciesRepublic.dds</File>
-    <File md5="EB3E253869D89DCED02574BA5D4AD7DF" import="1">Art/Policy/Governments/SocialPoliciesTechnocracy.dds</File>
-    <File md5="FDDD60D1BA2C3C0360474612DF637CDA" import="1">Art/Policy/Governments/SocialPoliciesTheocracy.dds</File>
-    <File md5="C287E079E1950E34AF52EFD47C3AB38A" import="1">Art/Policy/Governments/SocialPoliciesVirtualDemocracy.dds</File>
-    <File md5="B5FAD25265BD5D3187FAD0CB9A7A7C10" import="1">Art/Policy/GovIdeologies/SocialPoliciesAnarchism.dds</File>
-    <File md5="DDFE24084EC9255B5E34B7951A96E202" import="1">Art/Policy/GovIdeologies/SocialPoliciesCapitalism.dds</File>
-    <File md5="47ABC66AEE5B45DE568A3F6635482FCB" import="1">Art/Policy/GovIdeologies/SocialPoliciesConservatism.dds</File>
-    <File md5="F652E1E5F64A02EADD53B1D8476998AF" import="1">Art/Policy/GovIdeologies/SocialPoliciesEnviromentalism.dds</File>
-    <File md5="A8917F30CCB6A612607220A3AD9EC79A" import="1">Art/Policy/GovIdeologies/SocialPoliciesImperialism.dds</File>
-    <File md5="C75A786F4D39140378D8C2F7430E9D77" import="1">Art/Policy/GovIdeologies/SocialPoliciesLiberalism.dds</File>
-    <File md5="AF18AF20F5164F54E8BA489114541C0C" import="1">Art/Policy/GovIdeologies/SocialPoliciesNationalism.dds</File>
-    <File md5="1243F6F828DCDA24EE9AC1BAFF05AE5E" import="1">Art/Policy/GovIdeologies/SocialPoliciesPacifism.dds</File>
-    <File md5="0D71171A1A191BE8E7D86C65EFD9F0D7" import="1">Art/Policy/GovIdeologies/SocialPoliciesPopulism.dds</File>
-    <File md5="DC343E326036C46486A1782C16B7E00B" import="1">Art/Policy/GovIdeologies/SocialPoliciesSocialism.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesAristocracy.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesAutocracy.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesConstitutional.dds</File>
-    <File md5="3B9CB92980D7CD517752A8FBA82B0EBC" import="1">Art/Policy/GovSystems/SocialPoliciesElectoral.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesFederalism.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesFeudalism.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesParliamentary.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesPluralism.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesPlutocracy.dds</File>
-    <File md5="DEB1106D0B721D904F57A788274BFFA2" import="1">Art/Policy/GovSystems/SocialPoliciesTotalitarianism.dds</File>
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Aloe Vera/fx_triggers_pl_plantation_ind_aloevera.ftsxml</File>
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Aloe Vera/fx_triggers_pl_plantation_mid_aloevera.ftsxml</File>
     <File md5="F22D434B719D61D09E1C7ADAC807DD2B" import="1">Art/Resources/Aloe Vera/hb_plantation_ind_aloevera.fxsxml</File>
@@ -498,15 +468,6 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technologies.sql</File>
     <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technology_PrereqTechs.sql</File>
     <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technology_Flavors.sql</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/AncientTechs.dds</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/LandBG.dds</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/ClassicalTechs.dds</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/MedievalTechs2.dds</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/RenaissanceTechs.dds</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/IndustrialTechs.dds</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/ModernTechs.dds</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/DigitalTechs.dds</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/TechPagePics/InformationTechs.dds</File>
     <File md5="91383E5426E172886069034D636BAD4D" import="1">Tech/TechIcons.xml</File>
     <File md5="F9D2A48E55191DEA051FD6508AC956D7" import="1">Tech/TechHelpInclude.lua</File>
     <File md5="4A1B3075A9E75323278D311C5C6EABE9" import="1">Tech/TechTree.lua</File>
@@ -569,6 +530,59 @@ Over a 100 new Buildings and Wonders!</Description>
 	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/Emigration.lua</File>
     <File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/ScriptDataManager.lua</File>
 	<File md5="BB71DAA7AFAFE3B17C43ED981D782663" import="0">Text/TreeGrowthText.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/CCTPMainBG.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/CivilzationV_Logo.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorEconomic001.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorEconomic002.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorEconomic003.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorForeign001.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorForeign002.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorForeign003.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorMilitary001.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorMilitary002.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorMilitary003.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorScience001.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorScience002.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorScience003.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Popup/Victory_Defeat.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesCommunism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesCorporate.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesDemocracy.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesEcotopia.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesFascism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesMonarchy.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesRepublic.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesTheocracy.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesTechnocracy.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesVirtualDemocracy.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesAnarchism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesCapitalism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesConservatism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesEnviromentalism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesImperialism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesLiberalism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesNationalism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPacifism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPopulism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesSocialism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesAristocracy.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesAutocracy.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesConstitutional.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesElectoral.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesFederalism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesFeudalism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesParliamentary.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPluralism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPlutocracy.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesTotalitarianism.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/AncientTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/InformationTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/MedievalTechs2.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/ClassicalTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/DigitalTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/IndustrialTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/ModernTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/RenaissanceTechs.dds</File>
   </Files>
   <Actions>
     <OnModActivated>
