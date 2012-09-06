@@ -439,7 +439,9 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="5E4354EEDFAC704B2D46EF15C5C84C61" import="0">Buildings/MonopolyBuildingClasses.xml</File>
     <File md5="EA09A04E39ECB49C4045CF4C653D5760" import="1">Buildings/MonopolyBuildingIcons.xml</File>
     <File md5="FB728561BC3BAB71859BF30EA7BB3CD1" import="0">Buildings/MonopolyBuildings.xml</File>
-    <File md5="14349035BA08D690C3493842494D64C1" import="1">CCTP Maps/AdvancedCCTPSetup.lua</File>
+    <File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/ModsSinglePlayer.xml</File>
+	<File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/CustomMod.xml</File>
+	<File md5="14349035BA08D690C3493842494D64C1" import="1">CCTP Maps/AdvancedCCTPSetup.lua</File>
     <File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/AdvancedCCTPSetup.xml</File>
     <File md5="E503D0FED699DA4AB2A9080255FDDE4B" import="0">CCTP Maps/Backup/En.xml</File>
     <File md5="FB7D7F955C36558C0B84C987B3324D86" import="0">CCTP Maps/Backup/RNELoadScreen/SelectRNEMapVersion - Copy.lua</File>
