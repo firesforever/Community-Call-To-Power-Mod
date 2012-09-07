@@ -1,0 +1,2267 @@
+
+<!-- FiresForever 2011 - "Procylon's Call to Power Project" -->
+<GameData>
+	<Language_en_US>
+		<!-- Added Missing _TEXT entries, blank for now to remove them from logs -->
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MONARCHY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_THEOCRACY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_REPUBLIC_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_DEMOCRACY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FASCISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMUNISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CORPORATE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TECHNOCRACY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ECOTOPIA_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_VIRTUALDEMOCRACY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PACIFISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_IMPERIALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POPULISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CAPITALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LIBERALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CONSERVATISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NATIONALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SOCIALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANARCHISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENVIRONMENTALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ARISTOCRACY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_AUTOCRACY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PLUTOCRACY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PLURALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEUDALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PARLIAMENTARY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CONSTITUTIONAL_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEDERALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ELECTORAL_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TOTALITARIANISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_TRIBAL_KINGSHIP_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DYNASTY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ABSOLUTE_MONARCHY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DIVINE_RIGHT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CROWN_LOYALTY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_RELIGIOUS_LAW_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_IMPERIAL_CULT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CLERGY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATE_CHURCH_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PAPISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_CONTRACT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CIVIC_VIRTUE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_RULE_OF_LAW_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MIXED_GOVERNMENT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CONSENSUS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EQUALITY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DIRECT_VOTE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_REPRESENTATION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SEPARATION_OF_POWERS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ACTION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DISCIPLINE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SPIRIT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HIERARCHY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_WILL_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMINTERN_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALIZATION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PROLETARIAN_DICTATORSHIP_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY3_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_UTOPIAN_SOCIALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_CHARTER_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SHAREHOLDER_VIEW_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_BOARD_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_BYLAWS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MANAGEMENT_CLASS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MODES_OF_ACTION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INFORMATION_SOCIETY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENERGY_ACCOUNTING_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ENGINEERING_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POST_SCARCITY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ECO_FANATACISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PRECAUTIONARY_PRINCIPLE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_GAIA_HYPOTHESIS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SUSTAINABILITY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HOMO_ILLUMINATUS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_OPEN_SOURCE_GOVERNANCE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INSTANT_REFERENDUM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PURE_DEMOCRACY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_RECALL_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_RADICAL_TRANSPARENCY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRINCIPLED_PACIFISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRAGMATIC_PACIFISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NON_VIOLENCE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NON_AGGRESSION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PEACE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POLITICAL_EXPANSION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FORCIBLE_IMPOSITION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMAND_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANNEXATION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_EMPIRE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POLITICAL_POPULISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_AGRARIAN_POPULISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POPULAR_REFERENDUM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANTI_ELITISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_REFORM_MOVEMENT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRIVATIZATION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ECONOMIC_FREEDOM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LABOR_MARKET_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MARKET_ECONOMY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MONOPOLY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NATURAL_RIGHTS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INDEPENDENT_JUDICIARY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FREE_TRADE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_HUMAN_RIGHTS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_GLOBALIZATION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TRADITIONAL_INSTITUTIONS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NATURAL_LAW_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FISCAL_CONSERVATISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SOCIAL_ORDER_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LIBERTARIANISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PATRIOTISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ETHNOCENTRISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POPULAR_SOVEREIGNTY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_JINGOISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_EXCEPTIONALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MEANS_OF_PRODUCTION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PLANNED_ECONOMY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_REDISTRIBUTION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_OWNED_ENTERPRISE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_WELFARE_STATE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INDIVIDUALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PARTICIPATORY_ECONOMICS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SPONTANEOUS_ORDER_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COLLECTIVISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATELESS_SOCIETY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENDANGERED_SPECIES_ACT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENVIRONMENTAL_MOVEMENT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ANIMAL_RIGHTS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CLEAN_AIR_ACT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_DEEP_ECOLOGY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_OLD_MONEY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ELITISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PROMINANT_COUNCIL_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CLASS_WARFARE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_NOBILITY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CULT_OF_PERSONALITY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SINGLE_PARTY_STATE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ABSOLUTISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POWER_STRUCTURES_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_UNLIMITED_POWER_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_LOBBYISTS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ECONOMIC_INEQUALITY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SHADOW_PARTY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_BOURGEOIS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_TOP_1_PERCENT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_DIVERSITY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMPROMISE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INTEREST_GROUPS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_POWER_SHARING_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMON_GOOD_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MANORIALISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_WARRIOR_NOBILITY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEUDAL_SOCIETY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_VASSALAGE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_OATH_OF_FEALTY_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_HYBRID_MODEL_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PROPORTIONAL_REPRESENTATION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_HEAD_OF_STATE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CHAMBERS_OF_PARLIAMENT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_COMMONWEALTH_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ARTICLES_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_BASIC_LAW_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_AMENDMENTS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_JUDICIAL_REVIEW_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FUNDAMENTAL_RIGHTS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_GOVERNMENTS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENUMERATED_POWERS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_RESERVED_POWERS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEDERAL_COURTS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_FEDERATION_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_INDIRECT_ELECTIONS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_CENSUS_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_PRIMARIES_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_GERRYMANDERING_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_ENFRANCHISEMENT_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_MEDIA_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_SECRET_POLICE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_STATE_TERRORISM_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_MASS_SURVEILLANCE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEWPOLICY_BIG_BROTHER_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SENATE_TEXT">
+			<Text>Oops No Text!</Text>
+		</Row>
+
+
+		<!-- Added Missing _HELP Entries, blank for now to remove them from logs -->
+		<Row Tag="TXT_KEY_NEWPOLICY_MONARCHY_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_THEOCRACY_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_REPUBLIC_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DEMOCRACY_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FASCISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMMUNISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_TECHNOCRACY_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ECOTOPIA_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_VIRTUALDEMOCRACY_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PACIFISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_IMPERIALISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POPULISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CAPITALISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_LIBERALISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CONSERVATISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SOCIALISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ANARCHISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENVIRONMENTALISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ARISTOCRACY_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_AUTOCRACY_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PLUTOCRACY_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PLURALISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FEUDALISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_TOTALITARIANISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PARLIAMENTARY_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CONSTITUTIONAL_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FEDERALISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ELECTORAL_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_FASCISM_HELP">
+			<Text>Oops No Text!</Text>
+		</Row>
+
+		<!-- Make changes directly to the txt_Key_ entries in this xml file, do not use the update command-->
+
+		<!--Quotes For Main Page Will be added later to make them different to the tech tree quotes, but feel free to add some now so they are ready to go-->
+
+		<Row Tag="TXT_KEY_TECH_SPQUOTE1">
+			<Text>"" [NEWLINE] [COLOR_GREEN][/COLOR]</Text>
+		</Row>
+
+		<!--The Screen Titles-->
+		<Row Tag="TXT_KEY_GOVERNMENTS_SCREEN_TITLE">
+			<Text>Available Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENTIDEOLOGIES_SCREEN_TITLE">
+			<Text>Available Government Ideologies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENTSYSTEMS_SCREEN_TITLE">
+			<Text>Available Government Systems</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOCIALPOLICYTREESAVAILABLE">
+			<Text>Available Policies</Text>
+		</Row>
+
+		<!--Policy Select Buttons-->
+		<Row Tag="TXT_KEY_CCTP_GOVERNMENTS">
+			<Text>Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CCTP_GOVERNMENTIDE">
+			<Text>Government Ideologies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CCTP_GOVERNMENTSYS">
+			<Text>Government Systems</Text>
+		</Row>
+
+
+		<!--Box Titles-->
+		<!--Governments-->
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_MONARCHY_CAP">
+			<Text>Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_THEOCRACY_CAP">
+			<Text>Theocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_REPUBLIC_CAP">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_DEMOCRACY_CAP">
+			<Text>Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FASCISM_CAP">
+			<Text>Fascism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_COMMUNISM_CAP">
+			<Text>Communism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CORPORATE_CAP">
+			<Text>Corporate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_TECHNOCRACY_CAP">
+			<Text>Technocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ECOTOPIA_CAP">
+			<Text>Ecotopia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_VIRTUALDEMOCRACY_CAP">
+			<Text>Virtual Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_MONARCHY">
+			<Text>Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_THEOCRACY">
+			<Text>Theocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_REPUBLIC">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_DEMOCRACY">
+			<Text>Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FASCISM">
+			<Text>Fascism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_COMMUNISM">
+			<Text>Communism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CORPORATE">
+			<Text>Corporate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_TECHNOCRACY">
+			<Text>Technocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ECOTOPIA">
+			<Text>Ecotopia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_VIRTUALDEMOCRACY">
+			<Text>Virtual Democracy</Text>
+		</Row>
+
+		<!--Governement Ideologies-->
+
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PACIFISM_CAP">
+			<Text>Pacifism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_IMPERIALISM_CAP">
+			<Text>Imperialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_POPULISM_CAP">
+			<Text>Populism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CAPITALISM_CAP">
+			<Text>Capitalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_LIBERALISM_CAP">
+			<Text>Liberalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CONSERVATISM_CAP">
+			<Text>Conservatism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_NATIONALISM_CAP">
+			<Text>Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_SOCIALISM_CAP">
+			<Text>Socialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ANARCHISM_CAP">
+			<Text>Anarchism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ENVIRONMENTALISM_CAP">
+			<Text>Environmentalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PACIFISM">
+			<Text>Pacifism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_IMPERIALISM">
+			<Text>Imperialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_POPULISM">
+			<Text>Populism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CAPITALISM">
+			<Text>Capitalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_LIBERALISM">
+			<Text>Liberalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CONSERVATISM">
+			<Text>Conservatism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_NATIONALISM">
+			<Text>Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_SOCIALISM">
+			<Text>Socialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ANARCHISM">
+			<Text>Anarchism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ENVIRONMENTALISM">
+			<Text>Environmentalism</Text>
+		</Row>
+
+		<!--Governement Systems-->
+
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FEDERALISM_CAP">
+			<Text>Federalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_AUTOCRACY_CAP">
+			<Text>Autocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ARISTOCRACY_CAP">
+			<Text>Aristocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FEUDALISM_CAP">
+			<Text>Feudalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PLURALISM_CAP">
+			<Text>Pluralism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PARLIAMENTARY_CAP">
+			<Text>Parliamentary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CONSTITUTIONAL_CAP">
+			<Text>Constitutional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PLUTOCRACY_CAP">
+			<Text>Plutocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_TOTALITARIANISM_CAP">
+			<Text>Totalitarianism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ELECTORAL_CAP">
+			<Text>Electoral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FEDERALISM">
+			<Text>Federalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_AUTOCRACY">
+			<Text>Autocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ARISTOCRACY">
+			<Text>Aristocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FEUDALISM">
+			<Text>Feudalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PLURALISM">
+			<Text>Pluralism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PARLIAMENTARY">
+			<Text>Parliamentary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CONSTITUTIONAL">
+			<Text>Constitutional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PLUTOCRACY">
+			<Text>Plutocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_TOTALITARIANISM">
+			<Text>Totalitarianism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ELECTORAL">
+			<Text>Electoral</Text>
+		</Row>
+
+
+		<!--ToolTips Information-->
+		<!--Governments-->
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_MONARCHY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR] is good for empires looking to expand through military might.[NEWLINE][NEWLINE]+0% [ICON_FOOD] Food empire wide.[NEWLINE]+5% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+10% [ICON_GOLD] Gold empire wide.[NEWLINE]+0% [ICON_RESEARCH] Science empire wide.[NEWLINE]-0% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+3 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments and Anarchism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_THEOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Theocracy[ENDCOLOR] is best for empires focusing on [ICON_CULTURE] Culture [ICON_HAPPINESS_1] and Happiness.[NEWLINE][NEWLINE]+15% [ICON_FOOD] Food empire wide.[NEWLINE]+0% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+20% [ICON_GOLD] Gold empire wide.[NEWLINE]+0% [ICON_RESEARCH] Science empire wide.[NEWLINE]-20% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_REPUBLIC_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Republic[ENDCOLOR] is best for empires emphasizing Specialist.[NEWLINE][NEWLINE]+5% [ICON_FOOD] Food empire wide.[NEWLINE]+15% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+10% [ICON_GOLD] Gold empire wide.[NEWLINE]+7.5% [ICON_RESEARCH] Science empire wide.[NEWLINE]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN ]Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_DEMOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR] is grants many bonuses for having a solid infrastructure.[NEWLINE][NEWLINE]+30% [ICON_FOOD] Food empire wide.[NEWLINE]+0% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+10% [ICON_GOLD] Gold empire wide.[NEWLINE]+10% [ICON_RESEARCH] Science empire wide.[NEWLINE]-20% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Autocracy, Feudalism, and Totalitarianism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FASCISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Fascism[ENDCOLOR] is perfect for subjugating neighbors with your military superiority.[NEWLINE][NEWLINE]+0% [ICON_FOOD] Food empire wide.[NEWLINE]+15% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+0% [ICON_GOLD] Gold empire wide.[NEWLINE]+0% [ICON_RESEARCH] Science empire wide.[NEWLINE]-30% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+5 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Pacifism, Liberalism, Socialism, Anarchism, Pluralism, Constitutional, and Electoral.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_COMMUNISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Communism[ENDCOLOR] captures the essense of the Industrial Revolution by granting massive bonuses to [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+5% [ICON_FOOD] Food empire wide.[NEWLINE]+30% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+10% [ICON_GOLD] Gold empire wide.[NEWLINE]+0% [ICON_RESEARCH] Science empire wide.[NEWLINE]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+3 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Electoral, and Plutocracy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CORPORATE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Corporate[ENDCOLOR] is perfect for empires looking to generate more [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+20% [ICON_FOOD] Food empire wide.[NEWLINE]+10% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+40% [ICON_GOLD] Gold empire wide.[NEWLINE]+5% [ICON_RESEARCH] Science empire wide.[NEWLINE]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments and Populism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_TECHNOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Technocracy[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science and boosts productivity of Great People.[NEWLINE][NEWLINE]+10% [ICON_FOOD] Food empire wide.[NEWLINE]+15% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+25% [ICON_GOLD] Gold empire wide.[NEWLINE]+10% [ICON_RESEARCH] Science empire wide.[NEWLINE]-0% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Populism, and Anarchism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ECOTOPIA_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Ecotopia[ENDCOLOR] is great for empires looking to expand, both peacefully and not-so-peacefully.[NEWLINE][NEWLINE]+50% [ICON_FOOD] Food empire wide.[NEWLINE]+5% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+15% [ICON_GOLD] Gold empire wide.[NEWLINE]+10% [ICON_RESEARCH] Science empire wide.[NEWLINE]-15% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_VIRTUALDEMOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Virtual Democracy[ENDCOLOR] is a great Government for improving [ICON_HAPPINESS_1] Happiness and gereral prosperity.[NEWLINE][NEWLINE]+25% [ICON_FOOD] Food empire wide.[NEWLINE]+15% [ICON_PRODUCTION] Production empire wide.[NEWLINE]+30% [ICON_GOLD] Gold empire wide.[NEWLINE]+2.5% [ICON_RESEARCH] Science empire wide.[NEWLINE]-30% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population.[NEWLINE]+0 [ICON_HAPPINESS_1] Happiness from garrisoned Cities.[NEWLINE][NEWLINE]Incompatible with other Governments, Aristocracy, Autocracy, Feudalism, and Totalitarianism..</Text>
+		</Row>
+
+		<!--Government Ideologies-->
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PACIFISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Pacifism[ENDCOLOR] is best for improving [ICON_INFLUENCE] Influence with [ICON_CITY_STATE] City-States.[NEWLINE][NEWLINE]Increases [ICON_HAPPINESS_1] Happiness in the empire by 2.[NEWLINE][NEWLINE]Incompatible with Imperialism, Nationalism, Totalitarianism, and Fascism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_IMPERIALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Imperialism[ENDCOLOR] is great for empires looking to quickly expand.[NEWLINE][NEWLINE]Reduces [ICON_HAPPINESS_4] Unhappiness from number of cities by 20%.[NEWLINE][NEWLINE]Incompatible with Pacifism and Anarchism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_POPULISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Populism[ENDCOLOR] is great for increasing the empire's [ICON_HAPPINESS_1] Happiness and [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Monument.[NEWLINE][NEWLINE]Incompatible with Aristocracy, Plutocracy, Feudalism, Totalitarianism, Corporate and Technocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CAPITALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Capitalism[ENDCOLOR] greatly improves the empire's abiltiy to generate [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+2 [ICON_GOLD] Gold in every City.[NEWLINE][NEWLINE]Incompatible with Socialism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_LIBERALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Liberalism[ENDCOLOR] greatly increases the empire's [ICON_HAPPINESS_1] Happiness and [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]+2 [ICON_CULTURE] Culture from every Temple.[NEWLINE][NEWLINE]Incompatible with Autocracy, Feudalism, Totalitarianism, and Fascism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CONSERVATISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Conservatism[ENDCOLOR] rewards you for keeping your empire [ICON_HAPPINESS_1] happy.[NEWLINE][NEWLINE]+100% of excess [ICON_HAPPINESS_1] Happiness is added to [ICON_CULTURE] to be used for earning [ICON_CULTURE] Social Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_NATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR] equips the empire with many military bonuses.[NEWLINE][NEWLINE]A Great General appears outside the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Incompatible with Pacifism and Anarchism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_SOCIALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Socialism[ENDCOLOR] grants bonuses for having the many developed Cities.[NEWLINE][NEWLINE]+2 [ICON_PRODUCTION] Production from every Mine.[NEWLINE][NEWLINE]Incompatible with Aristocracy, Plutocracy, Capitalism and Fascism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ANARCHISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Anarchism[ENDCOLOR] grants many bonuses designed to keep your empire [ICON_HAPPINESS_1] happy.[NEWLINE][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness from every Courthouse.[NEWLINE][NEWLINE]Incompatible with Imperialism, Nationalism, Autocracy, Feudalism, Parliamentary, Federalism, Totalitarianism, Monarchy, Fascism, and Technocracy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ENVIRONMENTALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Environmentalism[ENDCOLOR] rewards the empire for maintaining natural features and protecting the environmnent.[NEWLINE][NEWLINE]The empire immediately enters a 4-turn [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+
+		<!--Government Systems-->
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ARISTOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Aristocracy[ENDCOLOR] is best for small empires.[NEWLINE][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness in each city.[NEWLINE][NEWLINE]Incompatible with Electoral, Populism, Socialism, and Virtual Democracy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_AUTOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Autocracy[ENDCOLOR] grants many bonuses for the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Increases [ICON_HAPPINESS_1] Happiness in the empire by 4.[NEWLINE][NEWLINE]Incompatible with Pluralism, Constitutional, Electoral, Liberalism, Anarchism, Democracy, and Virtual Democracy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PLUTOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Plutocracy[ENDCOLOR] emphasizes the power of [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture from every Market.[NEWLINE][NEWLINE]Incompatible with Populism, Socialism, and Communism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PLURALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Pluralism[ENDCOLOR] grants many bonuses for a diverse empire.[NEWLINE][NEWLINE]+2 [ICON_CULTURE] Culture in every City.[NEWLINE][NEWLINE]Incompatible with Autocracy, Totalitarianism, and Fascism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FEUDALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] improves many domestic aspects of the empire.[NEWLINE][NEWLINE]2 Workers appear near the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Incompatible with Federalism, Electoral, Populism, Liberalism, Anarchism, Democracy, and Virtual Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_PARLIAMENTARY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Parliamentary[ENDCOLOR] enhanses the [ICON_CAPITAL] Capital through many peaceful bonuses.[NEWLINE][NEWLINE]The empire gains +3 [ICON_HAPPINESS_1] Happiness.[NEWLINE][NEWLINE]Incompatible with Anarchism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_CONSTITUTIONAL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Constitutional[ENDCOLOR] enhanses the empire's [ICON_CULTURE] Culture and [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness for every Courthouse.[NEWLINE][NEWLINE]Incompatible with Autocracy, Totalitarianism, and Fascism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_FEDERALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Federalism[ENDCOLOR] greatly improves the [ICON_CULTURE] Cultural output of the empire.[NEWLINE][NEWLINE]+5 [ICON_FOOD] Food in every City.[NEWLINE][NEWLINE]Incompatible with Feudalism and Anarchism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ELECTORAL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Electoral[ENDCOLOR] improves the empire's [ICON_GOLD] Gold and [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness from every University.[NEWLINE][NEWLINE]Incompatible with Aristocracy, Feudalism, Autocracy, Totalitarianism, Fascism, Feudalism, and Communism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_TOTALITARIANISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Totalitarianism[ENDCOLOR] keepes the empire [ICON_HAPPINESS_1] happy through a series of strict military procedures.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] Production in every City.[NEWLINE][NEWLINE]Incompatible with Pluralism, Constitutional, Electoral, Pacifism, Populism, Liberalism, Anarchism, Democracy, and Virtual Democracy.</Text>
+		</Row>
+
+
+		<!--PolicyBranchTypes TXT-->
+		<!--Governments-->
+		<Row Tag="TXT_KEY_NEWPOLICY_MONARCHY">
+			<Text>Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MONARCHY_NEWTITLE">
+			<Text>Monarch {1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_THEOCRACY">
+			<Text>Theocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEOCRACY_NEWTITLE">
+			<Text>Theocratic {1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_REPUBLIC">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REPUBLIC_NEWTITLE">
+			<Text>Republican {1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DEMOCRACY">
+			<Text>Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DEMOCRACY_NEWTITLE">
+			<Text>Democratic {1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FASCISM">
+			<Text>Fascism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FASCISM_NEWTITLE">
+			<Text>Fascist {1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMMUNISM">
+			<Text>Communism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMUNISM_NEWTITLE">
+			<Text>Communist {1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE">
+			<Text>Corporate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CORPORATE_NEWTITLE">
+			<Text>Corporate {1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_TECHNOCRACY">
+			<Text>Technocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECHNOCRACY_NEWTITLE">
+			<Text>Technocratic {1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ECOTOPIA">
+			<Text>Ecotopia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECOTOPIA_NEWTITLE">
+			<Text>Ecotpian {1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_VIRTUALDEMOCRACY">
+			<Text>Virtual Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VIRTUALDEMOCRACY_NEWTITLE">
+			<Text>Virtual Democratic {1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+
+
+		<!--Governement Ideologies-->
+
+		<Row Tag="TXT_KEY_NEWPOLICY_SOCIALISM">
+			<Text>Socialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOCIALISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CAPITALISM">
+			<Text>Capitalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CAPITALISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_LIBERALISM">
+			<Text>Liberalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LIBERALISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CONSERVATISM">
+			<Text>Conservatism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONSERVATISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENVIRONMENTALISM">
+			<Text>Environmentalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENVIRONMENTALISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALISM">
+			<Text>Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NATIONALISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POPULISM">
+			<Text>Populism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPULISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PACIFISM">
+			<Text>Pacifism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PACIFISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_IMPERIALISM">
+			<Text>Imperialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPERIALISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ANARCHISM">
+			<Text>Anarchism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANARCHISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+
+		<!--Governement Systems-->
+
+		<Row Tag="TXT_KEY_NEWPOLICY_FEDERALISM">
+			<Text>Federalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEDERALISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_AUTOCRACY">
+			<Text>Autocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AUTOCRACY_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ARISTOCRACY">
+			<Text>Aristocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARISTOCRACY_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FEUDALISM">
+			<Text>Feudalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEUDALISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PLURALISM">
+			<Text>Pluralism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLURALISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PARLIAMENTARY">
+			<Text>Parliamentary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PARLIAMENTARY_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CONSTITUTIONAL">
+			<Text>Constitutional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONSTITUTIONAL_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PLUTOCRACY">
+			<Text>Plutocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLUTOCRACY_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_TOTALITARIANISM">
+			<Text>Totalitarianism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOTALITARIANISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ELECTORAL">
+			<Text>Electoral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ELECTORAL_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+
+		<!--Religions-->
+
+		<Row Tag="TXT_KEY_NEWPOLICY_BUDDHISM">
+			<Text>Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUDDHISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HINDUISM">
+			<Text>Theocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HINDUISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_JUDAISM">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JUDAISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ZOROASTRIANISM">
+			<Text>Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ZOROASTRIANISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CONFUCIANISM">
+			<Text>Fascism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONFUCIANISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CHRISTIANITY">
+			<Text>Communism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHRISTIANITY_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ISLAM">
+			<Text>Corporate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ISLAM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_TAOISM">
+			<Text>Technocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TAOISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATEDIVINITY">
+			<Text>Ecotopia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STATEDIVINITY_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NOSTATERELIGION">
+			<Text>Virtual Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOSTATERELIGION_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+
+		<!--Religious Ideologies-->
+
+		<Row Tag="TXT_KEY_NEWPOLICY_FUNDAMENTALISM">
+			<Text>Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FUNDAMENTALISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SECULARISM">
+			<Text>Theocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SECULARISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ATHEISM">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ATHEISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PIETY">
+			<Text>Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PIETY_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INQUISITION">
+			<Text>Fascism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INQUISITION_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_TOLERANCE">
+			<Text>Communism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOLERANCE_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ORGANIZED">
+			<Text>Corporate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ORGANIZED_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EVANGELICAL">
+			<Text>Technocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EVANGELICAL_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SHAMANISM">
+			<Text>Ecotopia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHAMANISM_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_OCULT">
+			<Text>Virtual Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OCULT_NEWTITLE">
+			<Text>{1_PlayerName:textkey} the Wise of {2_CivName:textkey}</Text>
+		</Row>
+
+		<!--Government Text-->
+
+		<!--Monarchy-->
+		<Row Tag="TXT_KEY_NEWPOLICY_TRIBAL_KINGSHIP">
+			<Text>Tribal Kingship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_TRIBAL_KINGSHIP_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Tribal Kingship[ENDCOLOR][NEWLINE]Military Units gain 1.5 times XP from combat.[NEWLINE][NEWLINE][ICON_GOLD] Maintenance paid on units reduced by 30%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DYNASTY">
+			<Text>Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DYNASTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Dynasty[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Barracks.[NEWLINE][NEWLINE]A Great General appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ABSOLUTE_MONARCHY">
+			<Text>Absolute Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ABSOLUTE_MONARCHY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Absolute Monarchy[ENDCOLOR][NEWLINE][ICON_HAPPINESS_4] Unhappiness in [ICON_OCCUPIED] Occupied Cities reduced by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DIVINE_RIGHT">
+			<Text>Divine Right</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DIVINE_RIGHT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Divine Right[ENDCOLOR][NEWLINE]New Military Units start with an additional 10XP.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CROWN_LOYALTY">
+			<Text>Crown Loyalty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CROWN_LOYALTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Crown Loyalty[ENDCOLOR][NEWLINE]+20% [ICON_STRENGTH] combat strength for military Units.</Text>
+		</Row>
+
+		<!--Theocracy-->
+		<Row Tag="TXT_KEY_NEWPOLICY_RELIGIOUS_LAW">
+			<Text>Religious Law</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_RELIGIOUS_LAW_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Religious Law[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] Culture from every Monument.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_IMPERIAL_CULT">
+			<Text>Imperial Cult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_IMPERIAL_CULT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Imperial Cult[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness for each city you own [ICON_CONNECTED] connected to the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATE_CHURCH">
+			<Text>State Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATE_CHURCH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]State Church[ENDCOLOR][NEWLINE]50% of excess [ICON_HAPPINESS_1] Happiness added each turn to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CLERGY">
+			<Text>Clergy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CLERGY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Clergy[ENDCOLOR][NEWLINE]+4 [ICON_GOLD] Gold from every Temple.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PAPISM">
+			<Text>Papism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PAPISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Papism[ENDCOLOR][NEWLINE]2 free [ICON_CULTURE] Social Policies</Text>
+		</Row>
+
+		<!--Republic-->
+		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_CONTRACT">
+			<Text>Social Contract</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_CONTRACT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Social Contract[ENDCOLOR][NEWLINE]+4 [ICON_PRODUCTION] Production from every Colosseum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CIVIC_VIRTUE">
+			<Text>Civic Virtue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CIVIC_VIRTUE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Civic Virtue[ENDCOLOR][NEWLINE]Workers build improvements 25% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SENATE">
+			<Text>Senate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SENATE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Senate[ENDCOLOR][NEWLINE]Specialist consume half the normal amount of [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_RULE_OF_LAW">
+			<Text>Rule of Law</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_RULE_OF_LAW_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Rule of Law[ENDCOLOR][NEWLINE]Specialist Population in Cities produce half the normal amount of [ICON_HAPPINESS_4] Unhappiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MIXED_GOVERNMENT">
+			<Text>Mixed Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MIXED_GOVERNMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mixed Government[ENDCOLOR][NEWLINE]+0.5 [ICON_RESEARCH] Science from Specialist in every City.</Text>
+		</Row>
+
+		<!--Democracy-->
+		<Row Tag="TXT_KEY_NEWPOLICY_CONSENSUS">
+			<Text>Consensus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CONSENSUS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Consensus[ENDCOLOR][NEWLINE]+6 [ICON_FOOD] Food from every Garden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EQUALITY">
+			<Text>Equality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EQUALITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Equality[ENDCOLOR][NEWLINE]Increases [ICON_HAPPINESS_1] Happiness in the empire by 2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DIRECT_VOTE">
+			<Text>Direct Vote</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DIRECT_VOTE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Direct Vote[ENDCOLOR][NEWLINE]+3 [ICON_RESEARCH] Science from every Theatre.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_REPRESENTATION">
+			<Text>Representation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_REPRESENTATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Representation[ENDCOLOR][NEWLINE]Amount of [ICON_HAPPINESS_1] Happiness required to start a [ICON_GOLDEN_AGE] Golden Age reduced by 33%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SEPARATION_OF_POWERS">
+			<Text>Separation of Powers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SEPARATION_OF_POWERS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Separation of Powers[ENDCOLOR][NEWLINE]The empire immediately enters a 12-turn [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+
+		<!--Fascism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_ACTION">
+			<Text>Action</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ACTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Action[ENDCOLOR][NEWLINE]+100% Great General appearance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DISCIPLINE">
+			<Text>Discipline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DISCIPLINE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Discipline[ENDCOLOR][NEWLINE]Quantity of Strategic Resources produced by the empire increased by 100%.[NEWLINE][NEWLINE][ICON_GOLD] Maintenance paid on units reduced by 66%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SPIRIT">
+			<Text>Spirit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SPIRIT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Spirit[ENDCOLOR][NEWLINE]+30% [ICON_STRENGTH] combat strength for attacking Military Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HIERARCHY">
+			<Text>Hierarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HIERARCHY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Hierarchy[ENDCOLOR][NEWLINE]Military Units gain 3 times XP from combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_WILL">
+			<Text>Will</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_WILL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Will[ENDCOLOR][NEWLINE]Military Units always heal, even after moving or attacking.</Text>
+		</Row>
+
+		<!--Communism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_COMINTERN">
+			<Text>Comintern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMINTERN_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Comintern[ENDCOLOR][NEWLINE]All City-States which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 12.5% of what they produce for themselves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALIZATION">
+			<Text>Nationalization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NATIONALIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Nationalization[ENDCOLOR][NEWLINE]+5 [ICON_GOLD] Gold from every Workshop and +15 [ICON_GOLD] Gold from every Factory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PROLETARIAN_DICTATORSHIP">
+			<Text>Proletarian Dictatorship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PROLETARIAN_DICTATORSHIP_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Proletarian Dictatorship[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production from every Specialist.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY3">
+			<Text>Planed Economy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY3_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+15 [ICON_FOOD] Food from every Supermarket.[NEWLINE]+10 [ICON_PRODUCTION] Production from every Factory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_UTOPIAN_SOCIALISM">
+			<Text>Uopian Socialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_UTOPIAN_SOCIALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Utopian Socialism[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production from every Improvement.[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Luxury resource.</Text>
+		</Row>
+
+		<!--Corporate-->
+		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_CHARTER">
+			<Text>Corporate Charter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_CHARTER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Corporate Charter[ENDCOLOR][NEWLINE]+170 [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SHAREHOLDER_VIEW">
+			<Text>Shareholder View</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SHAREHOLDER_VIEW_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Shareholder View[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] from every improvement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_BOARD">
+			<Text>Executive Board</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_BOARD_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Executive Board[ENDCOLOR][NEWLINE]Purchasing items in Cities requires 25% less [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_BYLAWS">
+			<Text>Corporate Bylaws</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CORPORATE_BYLAWS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Corporate Bylaws[ENDCOLOR][NEWLINE]A Great Merchant appears outside the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MANAGEMENT_CLASS">
+			<Text>Management Class</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MANAGEMENT_CLASS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Management Class[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Gold from every Specialist. </Text>
+		</Row>
+
+		<!--Technocracy-->
+		<Row Tag="TXT_KEY_NEWPOLICY_MODES_OF_ACTION">
+			<Text>Modes of Action</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MODES_OF_ACTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Modes of Action[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Great Person Improvement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INFORMATION_SOCIETY">
+			<Text>Information Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INFORMATION_SOCIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Information Society[ENDCOLOR][NEWLINE]A Great Scientist appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENERGY_ACCOUNTING">
+			<Text>Energy Accounting</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENERGY_ACCOUNTING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Energy Accounting[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every improvement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ENGINEERING">
+			<Text>Social Engineering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ENGINEERING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Social Engineering[ENDCOLOR][NEWLINE]1 free [ICON_RESEARCH] Technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POST_SCARCITY">
+			<Text>Post Scarcity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POST_SCARCITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Post Scarcity[ENDCOLOR][NEWLINE]Rate at which [ICON_GREAT_PEOPLE] Great People are born increased by 100%.</Text>
+		</Row>
+
+		<!--Ecotopia-->
+		<Row Tag="TXT_KEY_NEWPOLICY_ECO_FANATACISM">
+			<Text>Eco Fanatacism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ECO_FANATACISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Eco Fanatacism[ENDCOLOR][NEWLINE]Units no longer use [ICON_MOVES] Movement points when pillaging, and they Ignore Terrain Cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PRECAUTIONARY_PRINCIPLE">
+			<Text>Precautionary Principle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PRECAUTIONARY_PRINCIPLE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Precautionary Principle[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness from Mass Transit and Recycling Plants.[NEWLINE][NEWLINE] Amount of [ICON_HAPPINESS_1] Happiness  required to start a [ICON_GOLDEN_AGE] Golden Age reduced by 30%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_GAIA_HYPOTHESIS">
+			<Text>Gaia Hypothesis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_GAIA_HYPOTHESIS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Gaia Hypothesis[ENDCOLOR][NEWLINE]+2 [ICON_FOOD] Food from every improvement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SUSTAINABILITY">
+			<Text>Sustainability</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SUSTAINABILITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Sustainability[ENDCOLOR][NEWLINE]Quantity of Strategic Resources produced by the empire increased by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HOMO_ILLUMINATUS">
+			<Text>Homo Illuminatus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HOMO_ILLUMINATUS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Homo Illuminatus[ENDCOLOR][NEWLINE]30% [ICON_FOOD] Food carried over after a [ICON_CITIZEN] Citizen is born.</Text>
+		</Row>
+
+		<!--Virtual Democracy-->
+		<Row Tag="TXT_KEY_NEWPOLICY_OPEN_SOURCE_GOVERNANCE">
+			<Text>Open Source Governance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_OPEN_SOURCE_GOVERNANCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Open Source Governance[ENDCOLOR][NEWLINE]+1 [ICON_FOOD] Food from every Farm, Fishing Boat, and Pasture.[NEWLINE]+1 [ICON_PRODUCTION] Production from every Mine, Lumbermill, and Manufactory.[NEWLINE]+1 [ICON_GOLD] Gold from every Trading Post, Plantation, Camp, Quarry, Well, Offshore Platform, and Custom House.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INSTANT_REFERENDUM">
+			<Text>Instant Referendum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INSTANT_REFERENDUM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Instant Referendum[ENDCOLOR][NEWLINE]Purchasing items in Cities requires 35% less [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PURE_DEMOCRACY">
+			<Text>Pure Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PURE_DEMOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Pure Democracy[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production from every Specialist.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_RECALL">
+			<Text>Executive Recall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EXECUTIVE_RECALL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Executive Recall[ENDCOLOR][NEWLINE]Amount of [ICON_HAPPINESS_1] Happiness required to start a [ICON_GOLDEN_AGE] Golden Age reduced by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_RADICAL_TRANSPARENCY">
+			<Text>Radical Transparency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_RADICAL_TRANSPARENCY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Radical Transparency[ENDCOLOR][NEWLINE]The empire immediately enters a 20-turn [ICON_GOLDEN_AGE] Age.</Text>
+		</Row>
+
+
+
+		<!--Government Ideologies Text-->
+
+		<!--Pacifism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_PRINCIPLED_PACIFISM">
+			<Text>Principled Pacifism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PRINCIPLED_PACIFISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Principled Pacifism[ENDCOLOR][NEWLINE]Minimum [ICON_INFLUENCE] Influence with [ICON_CITY_STATE] City-States is 20.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PRAGMATIC_PACIFISM">
+			<Text>Pragmatic Pacifism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PRAGMATIC_PACIFISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Pragmatic Pacifism[ENDCOLOR][NEWLINE]Quest completed for [ICON_CITY_STATE] City-States produce 25% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NON_VIOLENCE">
+			<Text>Non-Violence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NON_VIOLENCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Non-Violence[ENDCOLOR][NEWLINE][ICON_GOLD] Gold gifts to [ICON_CITY_STATE] City-States produce 25% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NON_AGGRESSION">
+			<Text>Non-Aggression</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NON_AGGRESSION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Non-Aggression[ENDCOLOR][NEWLINE]-30% [ICON_INFLUENCE] Influence Decay with [ICON_CITY_STATE] City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PEACE">
+			<Text>Peace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PEACE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Peace[ENDCOLOR][NEWLINE]Allied [ICON_CITY_STATE] City-States will occassionally gift you [ICON_GREAT_PEOPLE] Great People.</Text>
+		</Row>
+
+
+		<!--Imperialism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_POLITICAL_EXPANSION">
+			<Text>Political Expansion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POLITICAL_EXPANSION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Political Expansion[ENDCOLOR][NEWLINE] +1 [ICON_HAPPINESS_1] Happiness from every Market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FORCIBLE_IMPOSITION">
+			<Text>Forcible Imposition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FORCIBLE_IMPOSITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Forcible Imposition[ENDCOLOR][NEWLINE]A Settler appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMMAND">
+			<Text>Command</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMMAND_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Command[ENDCOLOR][NEWLINE]Each City with a garrison increases empire [ICON_HAPPINESS_1] Happiness by 1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ANNEXATION">
+			<Text>Annexation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ANNEXATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Annexation[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production from every Granary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EMPIRE">
+			<Text>Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EMPIRE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Empire[ENDCOLOR][NEWLINE]New Cities start with 2 extra [ICON_CITIZEN] Citizens.</Text>
+		</Row>
+
+		<!--Populism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_POLITICAL_POPULISM">
+			<Text>Political Populism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POLITICAL_POPULISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Political Populism[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] Culture from every Colosseum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_AGRARIAN_POPULISM">
+			<Text>Agrarian Populism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_AGRARIAN_POPULISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Agrarian Populism[ENDCOLOR][NEWLINE]+2 [ICON_FOOD] from every Granary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POPULAR_REFERENDUM">
+			<Text>Popular Referendum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POPULAR_REFERENDUM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Popular Referendum[ENDCOLOR][NEWLINE]A Great Artist appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ANTI_ELITISM">
+			<Text>Anti Elitism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ANTI_ELITISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Anti Elitism[ENDCOLOR][NEWLINE]Increases [ICON_HAPPINESS_1] Happiness in the empire by 4.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_REFORM_MOVEMENT">
+			<Text>Reform Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_REFORM_MOVEMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Reform Movement[ENDCOLOR][NEWLINE]The empire immediately enters a 10-turn [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+
+		<!--Capitalism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_PRIVATIZATION">
+			<Text>Privatization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PRIVATIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Privatization[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Gold from every Trading Post.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ECONOMIC_FREEDOM">
+			<Text>Economic Freedom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ECONOMIC_FREEDOM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Economic Freedom[ENDCOLOR][NEWLINE]+1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold from every Plantation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_LABOR_MARKET">
+			<Text>Labor Market</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_LABOR_MARKET_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Labor Market[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production from every Quarry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MARKET_ECONOMY">
+			<Text>Market Economy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MARKET_ECONOMY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Market Economy[ENDCOLOR][NEWLINE]+2.5 [ICON_RESEARCH] Science from every Bank.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MONOPOLY">
+			<Text>Monopoly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MONOPOLY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold from every Improvement.</Text>
+		</Row>
+
+		<!--Liberalism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_NATURAL_RIGHTS">
+			<Text>Natural Rights</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NATURAL_RIGHTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Natural Rights[ENDCOLOR][NEWLINE]Increases [ICON_HAPPINESS_1] Happiness in the empire by 2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INDEPENDENT_JUDICIARY">
+			<Text>Independent Judiciary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INDEPENDENT_JUDICIARY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Independent Judiciary[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] Culture from every Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FREE_TRADE">
+			<Text>Free Trade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FREE_TRADE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Free Trade[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] from every University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HUMAN_RIGHTS">
+			<Text>Human Rights</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HUMAN_RIGHTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Human Rights[ENDCOLOR][NEWLINE]The empire immediately enters a 7-turn [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_GLOBALIZATION">
+			<Text>Globalization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_GLOBALIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Globalization[ENDCOLOR][NEWLINE]+4 [ICON_CULTURE] Culture in every City.</Text>
+		</Row>
+
+		<!--Conservatism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_TRADITIONAL_INSTITUTIONS">
+			<Text>Traditional Institutions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_TRADITIONAL_INSTITUTIONS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Traditional Institutions[ENDCOLOR][NEWLINE]+4 [ICON_PRODUCTION] Production from every Stone Works.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NATURAL_LAW">
+			<Text>Natural Law</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NATURAL_LAW_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Natural Law[ENDCOLOR][NEWLINE]Each City with a garrison increases empire [ICON_HAPPINESS_1] Happiness by 1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FISCAL_CONSERVATISM">
+			<Text>Fiscal Conservatism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FISCAL_CONSERVATISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Fiscal Conservatism[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold from every Lumbermill.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ORDER">
+			<Text>Social Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SOCIAL_ORDER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Social Order[ENDCOLOR][NEWLINE]+10 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_LIBERTARIANISM">
+			<Text>Libertarianism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_LIBERTARIANISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Libertarianism[ENDCOLOR][NEWLINE]The empire immediately enters a 10-turn [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+
+		<!--Nationalism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_PATRIOTISM">
+			<Text>Patriotism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PATRIOTISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Patriotism[ENDCOLOR][NEWLINE]Gains [ICON_CULTURE] Culture for the empire from every enemy unit killed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ETHNOCENTRISM">
+			<Text>Ethnocentrism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ETHNOCENTRISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Ethnocentrism[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Museum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POPULAR_SOVEREIGNTY">
+			<Text>Popular Sovereignty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POPULAR_SOVEREIGNTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Popular Sovereignty[ENDCOLOR][NEWLINE]Cities with a garrison gain +100% City [ICON_RANGE_STRENGTH] Ranged Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_JINGOISM">
+			<Text>Jingoism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_JINGOISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Jingoism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Barracks, Armory, or Military Academy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EXCEPTIONALISM">
+			<Text>Exceptionalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_EXCEPTIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Exceptionalism[ENDCOLOR][NEWLINE]Every enemy killed earns [ICON_GOLD] Gold for the empire equal to 5x the enemy's [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+
+		<!--Socialism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_MEANS_OF_PRODUCTION">
+			<Text>Means of Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MEANS_OF_PRODUCTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Means of Production[ENDCOLOR][NEWLINE]+2.5 [ICON_RESEARCH] Science from every Workshop.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY">
+			<Text>Planned Economy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PLANNED_ECONOMY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_REDISTRIBUTION">
+			<Text>Redistribution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_REDISTRIBUTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Redistribution[ENDCOLOR][NEWLINE]+10 [ICON_FOOD] Food from every Hospital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATE_OWNED_ENTERPRISE">
+			<Text>State Owned Enterprise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATE_OWNED_ENTERPRISE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]State Owned Enterprise[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production from every Public School.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_WELFARE_STATE">
+			<Text>Welfare State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_WELFARE_STATE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Welfare State[ENDCOLOR][NEWLINE]The empire immediately enters a 15-turn [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+
+		<!--Anarchism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_INDIVIDUALISM">
+			<Text>Individualism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INDIVIDUALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Individualism[ENDCOLOR][NEWLINE]A Great Artist appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PARTICIPATORY_ECONOMICS">
+			<Text>Participatory Economics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PARTICIPATORY_ECONOMICS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Participatory Economics[ENDCOLOR][NEWLINE]+3 [ICON_RESEARCH] Science from every Theatre.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SPONTANEOUS_ORDER">
+			<Text>Spontaneous Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SPONTANEOUS_ORDER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Spontaneous Order[ENDCOLOR][NEWLINE]Each City with a garrison increase [ICON_HAPPINESS_1] Happiness in the empire by 2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COLLECTIVISM">
+			<Text>Collectivism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COLLECTIVISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Collectivism[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] Culture from every Stadium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATELESS_SOCIETY">
+			<Text>Stateless Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATELESS_SOCIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Stateless Society[ENDCOLOR][NEWLINE]-75% [ICON_HAPPINESS_1] Happiness required for Golden Ages.</Text>
+		</Row>
+
+		<!--Environmentalism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_ENDANGERED_SPECIES_ACT">
+			<Text>Endangered Species Act</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENDANGERED_SPECIES_ACT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Endangered Species Act[ENDCOLOR][NEWLINE]+10 [ICON_FOOD] Food from every Windmill.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENVIRONMENTAL_MOVEMENT">
+			<Text>Environmental Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENVIRONMENTAL_MOVEMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Environmental Movement[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Lumbermill.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ANIMAL_RIGHTS">
+			<Text>Animal Rights</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ANIMAL_RIGHTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Animal Rights[ENDCOLOR][NEWLINE]+2 [ICON_FOOD] Food from every Farm.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CLEAN_AIR_ACT">
+			<Text>Clean Air Act</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CLEAN_AIR_ACT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Clean Air Act[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness from every Factory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DEEP_ECOLOGY">
+			<Text>Deep Ecology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DEEP_ECOLOGY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Deep Ecology[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Recycling Plant.</Text>
+		</Row>
+
+
+
+
+
+		<!--Government Systems Text-->
+
+		<!--Aristocracy-->
+		<Row Tag="TXT_KEY_NEWPOLICY_OLD_MONEY">
+			<Text>Old Money</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_OLD_MONEY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Old Money[ENDCOLOR][NEWLINE]+10 [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ELITISM">
+			<Text>Elitism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ELITISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Elitism[ENDCOLOR][NEWLINE]-50% [ICON_HAPPINESS_4] Unhappiness from the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PROMINANT_COUNCIL">
+			<Text>Prominant Council</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PROMINANT_COUNCIL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Prominant Council[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CLASS_WARFARE">
+			<Text>Class Warfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CLASS_WARFARE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Class Warfare[ENDCOLOR][NEWLINE]Gains [ICON_CULTURE] Culture for the empire from each enemy unit killed equal to one-half of the enemy's [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NOBILITY">
+			<Text>Nobility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_NOBILITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Nobility[ENDCOLOR][NEWLINE]A Great Scientist appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+
+		<!--Autocracy-->
+		<Row Tag="TXT_KEY_NEWPOLICY_CULT_OF_PERSONALITY">
+			<Text>Cult of Personality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CULT_OF_PERSONALITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Cult of Personality[ENDCOLOR][NEWLINE]A Worker appearns near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SINGLE_PARTY_STATE">
+			<Text>Single Party State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SINGLE_PARTY_STATE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Single Party State[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ABSOLUTISM">
+			<Text>Absolutism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ABSOLUTISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Absolutism[ENDCOLOR][NEWLINE]+6 [ICON_CULTURE]Culture in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POWER_STRUCTURES">
+			<Text>Power Structures</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POWER_STRUCTURES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Power Structures[ENDCOLOR][NEWLINE]+4 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_UNLIMITED_POWER">
+			<Text>Unlimited Power</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_UNLIMITED_POWER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Unlimited Power[ENDCOLOR][NEWLINE]The empire immediately enters a 12-turn [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+
+		<!--Plutocracy-->
+		<Row Tag="TXT_KEY_NEWPOLICY_LOBBYISTS">
+			<Text>Lobbyists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_LOBBYISTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Lobbyists[ENDCOLOR][NEWLINE]+10 [ICON_GOLD] Gold from every Courthouse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ECONOMIC_INEQUALITY">
+			<Text>Economic Inequality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ECONOMIC_INEQUALITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Economic Inequality[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SHADOW_PARTY">
+			<Text>Shadow Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SHADOW_PARTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Shadow Party[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold from Specialist in every City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BOURGEOIS">
+			<Text>Bourgeois</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BOURGEOIS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Bourgeois[ENDCOLOR][NEWLINE]Purchasing items in Cities requires 20% less [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_TOP_1_PERCENT">
+			<Text>Top 1 Percent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_TOP_1_PERCENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Top 1 Percent[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production from every Mint.</Text>
+		</Row>
+
+		<!--Pluralism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_DIVERSITY">
+			<Text>Diversity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_DIVERSITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Diversity[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Library.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMPROMISE">
+			<Text>Compromise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMPROMISE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Compromise[ENDCOLOR][NEWLINE]+100% [ICON_HAPPINESS_1] Happiness to [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INTEREST_GROUPS">
+			<Text>Interest Groups</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INTEREST_GROUPS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Interest Groups[ENDCOLOR][NEWLINE]+1 [ICON_FOOD] Food from every Market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POWER_SHARING">
+			<Text>Power Sharing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_POWER_SHARING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Power Sharing[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Temple.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMMON_GOOD">
+			<Text>Common Good</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMMON_GOOD_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Common Good[ENDCOLOR][NEWLINE]A Great Scientist appears near the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]1 free [ICON_CULTURE] Social Policy.</Text>
+		</Row>
+
+		<!--Feudalism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_MANORIALISM">
+			<Text>Manorialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MANORIALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Manorialism[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold from every Plantation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_WARRIOR_NOBILITY">
+			<Text>Warrior Nobility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_WARRIOR_NOBILITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Warrior Nobility[ENDCOLOR][NEWLINE]A Great General appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FEUDAL_SOCIETY">
+			<Text>Feudal Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FEUDAL_SOCIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Feudal Society[ENDCOLOR][NEWLINE]+2 [ICON_FOOD] Food from every Farm.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_VASSALAGE">
+			<Text>Vassalage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_VASSALAGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Vassalage[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production from every Trading Post.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_OATH_OF_FEALTY">
+			<Text>Oath of Fealty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_OATH_OF_FEALTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Oath of Fealty[ENDCOLOR][NEWLINE]+4 [ICON_HAPPINESS_1] Happiness from every Castle.</Text>
+		</Row>
+
+		<!--Parliamentary-->
+		<Row Tag="TXT_KEY_NEWPOLICY_HYBRID_MODEL">
+			<Text>Hybrid Model</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HYBRID_MODEL_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Hybrid Model[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production from every Mine.[NEWLINE]+1 [ICON_FOOD] Food from every Farm.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PROPORTIONAL_REPRESENTATION">
+			<Text>Proportional Representation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PROPORTIONAL_REPRESENTATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Proportional Representation[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness for every City [ICON_CONNECTED] Connected to the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HEAD_OF_STATE">
+			<Text>Head of State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_HEAD_OF_STATE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Head of State[ENDCOLOR][NEWLINE]+12 [ICON_CULTURE] Culture in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CHAMBERS_OF_PARLIAMENT">
+			<Text>Chambers of Parliament</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CHAMBERS_OF_PARLIAMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Chambers of Parliament[ENDCOLOR][NEWLINE]A Great Artist appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMMONWEALTH">
+			<Text>Commonwealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_COMMONWEALTH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Commonwealth[ENDCOLOR][NEWLINE]The empire immediately enters a 12-turn [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+
+		<!--Constitutional-->
+		<Row Tag="TXT_KEY_NEWPOLICY_ARTICLES">
+			<Text>Articles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ARTICLES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Articles[ENDCOLOR][NEWLINE]For every Technology researched, the empire gains [ICON_CULTURE] Culture equal to 5% of the Technology Cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BASIC_LAW">
+			<Text>Basic Law</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BASIC_LAW_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Basic Law[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] from every garrisoned City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_AMENDMENTS">
+			<Text>Amendments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_AMENDMENTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Amendments[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Plantation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_JUDICIAL_REVIEW">
+			<Text>Judicial Review</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_JUDICIAL_REVIEW_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Judicial Review[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] Culture from every Library, University, and Public School.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FUNDAMENTAL_RIGHTS">
+			<Text>Fundamental Rights</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FUNDAMENTAL_RIGHTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Fundamental Rights[ENDCOLOR][NEWLINE]2 free [ICON_CULTURE] Social Policies.</Text>
+		</Row>
+
+		<!--Federalism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_STATE_GOVERNMENTS">
+			<Text>State Governments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATE_GOVERNMENTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]State Governments[ENDCOLOR][NEWLINE]+6 [ICON_CULTURE] Culture from every Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENUMERATED_POWERS">
+			<Text>Enumerated Powers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENUMERATED_POWERS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Enumerated Powers[ENDCOLOR][NEWLINE]+20 [ICON_GOLD] Gold in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_RESERVED_POWERS">
+			<Text>Reserved Powers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_RESERVED_POWERS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Reserved Powers[ENDCOLOR][NEWLINE]3 Musketmen appear near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FEDERAL_COURTS">
+			<Text>Federal Courts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FEDERAL_COURTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Federal Courts[ENDCOLOR][NEWLINE]+5 [ICON_CULTURE] Culture from every Courthouse.[NEWLINE]+5 [ICON_CULTURE] Culture from every Publishing House.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FEDERATION">
+			<Text>Federation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_FEDERATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Federation[ENDCOLOR][NEWLINE]-30% [ICON_CULTURE] Culture Policy Cost.</Text>
+		</Row>
+
+		<!--Electoral-->
+		<Row Tag="TXT_KEY_NEWPOLICY_INDIRECT_ELECTIONS">
+			<Text>Indirect Elections</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_INDIRECT_ELECTIONS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Indirect Elections[ENDCOLOR][NEWLINE]Increases [ICON_HAPPINESS_1] Happiness in the empire by 3.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CENSUS">
+			<Text>Census</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_CENSUS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Census[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Gold from every City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PRIMARIES">
+			<Text>Primaries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_PRIMARIES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Primaries[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_GERRYMANDERING">
+			<Text>Gerrymandering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_GERRYMANDERING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Gerrymandering[ENDCOLOR][NEWLINE]+3 [ICON_HAPPINESS_1] Happiness from every Bank.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENFRANCHISEMENT">
+			<Text>Enfranchisement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_ENFRANCHISEMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Enfranchisement[ENDCOLOR][NEWLINE]2 free [ICON_RESEARCH] Technologies.</Text>
+		</Row>
+
+		<!--Totalitarianism-->
+		<Row Tag="TXT_KEY_NEWPOLICY_STATE_MEDIA">
+			<Text>State Media</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATE_MEDIA_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]State Media[ENDCOLOR][NEWLINE]A Great General appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SECRET_POLICE">
+			<Text>Secret Police</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_SECRET_POLICE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Secret Police[ENDCOLOR][NEWLINE]3 Infantry appear near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATE_TERRORISM">
+			<Text>State Terrorism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_STATE_TERRORISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]State Terrorism[ENDCOLOR][NEWLINE]+4 [ICON_CULTURE] Culture and +3 [ICON_HAPPINESS_1] Happiness from every Police Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MASS_SURVEILLANCE">
+			<Text>Mass Surveillance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_MASS_SURVEILLANCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mass Surveillance[ENDCOLOR][NEWLINE]+4 [ICON_HAPPINESS_1] Happiness from every City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BIG_BROTHER">
+			<Text>Big Brother</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEWPOLICY_BIG_BROTHER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Big Brother[ENDCOLOR][NEWLINE]Grants vision of every player's [ICON_CAPITAL] Capital.[NEWLINE]For 20 turns, Military Units gain a 30% [ICON_STRENGTH] attacking bonus.</Text>
+		</Row>
+
+
+		<Update>
+			<Where Tag="TXT_KEY_SWITCH_POLICY_BRANCHES"/>
+			<Set Text="Would you like to adopt {1_NewBranchName:textkey}? Doing so will abandon {2_OldBranches}, and all benefits provided. It will also cause your empire to enter [COLOR_WARNING_TEXT]Anarchy[ENDCOLOR] for 2 turns, during which it will not collect [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science or [ICON_GOLD] Gold."/>
+		</Update>
+
+
+
+
+
+
+	</Language_en_US>
+  
+</GameData>

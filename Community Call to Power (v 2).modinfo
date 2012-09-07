@@ -453,11 +453,12 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="F699E5FF864A4EE00CD4568ECA3A9666" import="0">CCTP Maps/CCTP/Hex Details.docx</File>
     <File md5="A4A7028CB7FCCFDD6C86BF77CA59AA6D" import="0">CCTP Maps/CCTP/ResourceLocations.xml</File>
     <File md5="6C64622A34C9EA8800C30CE7DB33D4B3" import="1">CCTP Maps/MapFiles/LEMMapInfo.lua</File>
-    <File md5="4C479D409130641B5212A009D1E09CBE" import="1">CCTP Maps/MapFiles/LEMMapPic.dds</File>
+	<File md5="6C64622A34C9EA8800C30CE7DB33D4B3" import="1">CCTP Maps/MapFiles/YNAEMEHMapInfo.lua</File>
+	<File md5="4C479D409130641B5212A009D1E09CBE" import="1">Art/MapPics/LEMMapPic.dds</File>
+	<File md5="4C479D409130641B5212A009D1E09CBE" import="1">Art/MapPics/YNAEMMapPic.dds</File>
     <File md5="0BF8FD364E4BD6457AFB7C561982DA4D" import="1">CCTP Maps/MapFiles/MasterMapInfo.lua</File>
     <File md5="8B3C02A2FBDAF8C9F19466989CC32B9F" import="1">CCTP Maps/MapFiles/RNEMapInfo.lua</File>
     <File md5="16A25CFC5A2BB1FE05EFA2AF12DF705E" import="0">CCTP Maps/MapFiles/Used/Legendary Earth I.Civ5Map</File>
-    <File md5="B57D21BEC5EA32A0977688448A62825A" import="0">CCTP Maps/MapMenuTXT.xml</File>
     <File md5="735D11947922A70C9F20DFC852D2E497" import="1">CCTP Maps/RMaps/RMapsAdvancedSetup.lua</File>
     <File md5="76F1BBF4D0C63FDE9EE982F65D581F01" import="1">CCTP Maps/RMaps/RMapsAdvancedSetup.xml</File>
     <File md5="83C4AEB2EC9F6E70EBF614FBE4919E56" import="1">CCTP Maps/RMaps/RMapsGameSetupScreen.lua</File>
@@ -513,8 +514,6 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="783DBE94C1E12C78C00F8C8987532B3C" import="1">Tech/TechTree.xml</File>
     <File md5="EDB463B4D066776BEF03949B920320C3" import="1">Tech/TechTreeBFTT.lua</File>
     <File md5="0772C55D42AB6986B3D5332EE225457B" import="1">Tech/TechTreeBFTT.xml</File>
-    <File md5="1441243D18427F3F51DACD75A42CE3A0" import="0">Tech/TechTreeText.xml</File>
-    <File md5="1441243D18427F3F51DACD75A42CE3A0" import="0">Tech/TechTreeTXT.xml</File>
     <File md5="E0832637F2E00AAB889BA28117262AE6" import="1">Terrain/AssignStartingPlots.lua</File>
     <File md5="5E8970A2664D6AD11D788B07725CDE92" import="0">Terrain/Features.xml</File>
     <File md5="11CA716A0B262FB75185085C7C35B1B8" import="0">Terrain/Improvements.xml</File>
@@ -523,10 +522,15 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="D8782BD8D658CF410E6AFEE39050806D" import="0">Terrain/Routes.xml</File>
     <File md5="09F6BE76DF26FEDAE76A0B395F5BB8ED" import="0">Terrain/Terrains.xml</File>
     <File md5="092CF3CD9739AADD88F108690FC2330A" import="0">Terrain/ResourceNew.xml</File>
-    <File md5="C42E7B997B29595B78A38F0C0D36F542" import="0">Text/GameText.xml</File>
-    <File md5="6243772D2DFD8E6CFDBA86122C8A75C6" import="0">Text/MonopolyText.xml</File>
-    <File md5="CB878F22A7533176DE96513BD444B394" import="0">Text/PolicyText.xml</File>
-    <File md5="D4EFE2CCE38861A59B58C6F47DB82D45" import="0">Thanks.txt</File>
+    <File md5="C42E7B997B29595B78A38F0C0D36F542" import="0">Text/en_US/GameText.xml</File>
+    <File md5="6243772D2DFD8E6CFDBA86122C8A75C6" import="0">Text/en_US/MonopolyText.xml</File>
+    <File md5="CB878F22A7533176DE96513BD444B394" import="0">Text/en_US/PolicyText.xml</File>
+    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Text/en_US/CsebExtendedPlotMouseover.xml</File>
+	<File md5="BB71DAA7AFAFE3B17C43ED981D782663" import="0">Text/en_US/TreeGrowthText.xml</File>
+	<File md5="B57D21BEC5EA32A0977688448A62825A" import="0">Text/en_US/MapMenuTXT.xml</File>
+	<File md5="1441243D18427F3F51DACD75A42CE3A0" import="0">Text/en_US/TechTreeText.xml</File>
+    <File md5="1441243D18427F3F51DACD75A42CE3A0" import="0">Text/en_US/TechTreeTXT.xml</File>
+	<File md5="D4EFE2CCE38861A59B58C6F47DB82D45" import="0">Thanks.txt</File>
     <File md5="1E0897B59C4C16BBF3015B32BA6C57B5" import="0">Units/Builds.xml</File>
     <File md5="01C9700306FE809E6D2197F887425459" import="0">Units/UnitClasses.xml</File>
     <File md5="37DF8DBAA16957591B4DE31B7F256DED" import="0">Units/Units.xml</File>
@@ -549,7 +553,6 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="BFF0C25D8A7184B4D8B067B80FEC5A85" import="1">UI/UnitPanel/UnitPanel.lua</File>
     <File md5="F3C290F22DA06048277053FA025CDB44" import="1">UI/UnitPanel/UnitPanel.xml</File>
     <File md5="E48F92A0880DF181013BFEEFFCD1561D" import="1">UI/UnitPanel/UnitPanel_small.xml</File>
-    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Text/CsebExtendedPlotMouseover.xml</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="0">Z_Global/ArtDefines_Resources.sql</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Jungle.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Jungle_Glow.dds</File>
@@ -568,12 +571,10 @@ Over a 100 new Buildings and Wonders!</Description>
 	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/TreeGrowth/TreeGrowth.lua</File>
 	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/Emigration.lua</File>
     <File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/ScriptDataManager.lua</File>
-	<File md5="BB71DAA7AFAFE3B17C43ED981D782663" import="0">Text/TreeGrowthText.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
       <UpdateDatabase>Z_Global/ArtDefines_Resources.sql</UpdateDatabase>
-      <UpdateDatabase>CCTP Maps/MapMenuTXT.xml</UpdateDatabase>
       <UpdateDatabase>Tech/TechTableAdds.sql</UpdateDatabase>
       <UpdateDatabase>Tech/Technologies.sql</UpdateDatabase>
       <UpdateDatabase>Tech/Technology_Flavors.sql</UpdateDatabase>
@@ -581,12 +582,9 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>Policy/PolicyTableAdds.sql</UpdateDatabase>
       <UpdateDatabase>Tech/Eras.xml</UpdateDatabase>
       <UpdateDatabase>Tech/TechCategories.xml</UpdateDatabase>
-      <UpdateDatabase>Tech/TechTreeText.xml</UpdateDatabase>
-      <UpdateDatabase>Tech/TechTreeTXT.xml</UpdateDatabase>
       <UpdateDatabase>Policy/PolicyCategories.xml</UpdateDatabase>
       <UpdateDatabase>Units/Builds.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/Features.xml</UpdateDatabase>
-      <UpdateDatabase>Text/GameText.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/Projects.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/Resources.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/Routes.xml</UpdateDatabase>
@@ -603,7 +601,6 @@ Over a 100 new Buildings and Wonders!</Description>
 	  <UpdateDatabase>Units/UnitsThatIgnoreBorders.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/ProjectIcons.xml</UpdateDatabase>
       <UpdateDatabase>Tech/TechIcons.xml</UpdateDatabase>
-      <UpdateDatabase>Text/PolicyText.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/Buildings.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/BuildingClasses.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/BuildingIcons.xml</UpdateDatabase>
@@ -618,12 +615,17 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>Buildings/MonopolyBuildingClasses.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/MonopolyBuildings.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/MonopolyBuildingIcons.xml</UpdateDatabase>
-      <UpdateDatabase>Text/MonopolyText.xml</UpdateDatabase>
       <UpdateDatabase>Z_Global/HandicapInfos.xml</UpdateDatabase>
       <UpdateDatabase>Z_Global/IconTextureAtlases.xml</UpdateDatabase>
       <UpdateDatabase>Z_Global/Game Pace Rules.sql</UpdateDatabase>
-      <UpdateDatabase>Text/CsebExtendedPlotMouseover.xml</UpdateDatabase>
-	  <UpdateDatabase>Text/TreeGrowthText.xml</UpdateDatabase>
+      <UpdateDatabase>Text/en_US/CsebExtendedPlotMouseover.xml</UpdateDatabase>
+	  <UpdateDatabase>Text/en_US/TreeGrowthText.xml</UpdateDatabase>
+	  <UpdateDatabase>Text/en_US/GameText.xml</UpdateDatabase>
+	  <UpdateDatabase>Text/en_US/TechTreeText.xml</UpdateDatabase>
+      <UpdateDatabase>Text/en_US/TechTreeTXT.xml</UpdateDatabase>
+	  <UpdateDatabase>Text/en_US/PolicyText.xml</UpdateDatabase>
+	  <UpdateDatabase>Text/en_US/MapMenuTXT.xml</UpdateDatabase>
+	  <UpdateDatabase>Text/en_US/MonopolyText.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

@@ -2632,7 +2632,7 @@ YNAEMEHScenario1 = {
 YNAEMEHScenario1Details = {
 --This sets up the txt and pictures for this
 --Order: Title, Description, Picture
-"TXT_KEY_CCTP_MAP_TYPE_YNAEMEH_1", "TXT_KEY_CCTP_MAP_TYPE_YNAEMEH_1_DESC", "YNAEMEHMapPic.dds"
+"TXT_KEY_CCTP_MAP_TYPE_YNAEMEH_1", "TXT_KEY_CCTP_MAP_TYPE_YNAEMEH_1_DESC", "YNAEMMapPic.dds"
 
 }
 
