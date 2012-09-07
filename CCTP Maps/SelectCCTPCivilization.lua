@@ -217,7 +217,19 @@ function InitCivSelection()
 		AddRandomCivilizationEntry();
 					
 		local civEntries = {}; 
-			
+		
+		local WorldChosen = modUserData.GetValue ("MapSelected")
+		local scenarios = {}
+		local scenario = {}
+
+		-- Identifies which map data the chosen world uses
+		for k, v in ipairs(CCTPScenarios) do
+			scenarios = CCTPScenarios [k]
+			if WorldChosen == scenarios [1] then
+				scenario = scenarios [2]
+			end
+		end
+		
 		local sql = [[	SELECT 
 						Civilizations.ID, 
 						Civilizations.Type, 
@@ -234,29 +246,7 @@ function InitCivSelection()
 						Leaders.Type = Civilization_Leaders.LeaderheadType AND
 						Civilizations.Playable = 1
 					]];
-		
-		local WorldChosen = modUserData.GetValue ("MapSelected")
-		local scenario = {}
-		
-		-- This will let us know which list of playable civs we should be checking against for this world
-		if WorldChosen == 1 then
-			scenario = LEMScenario1
-		elseif WorldChosen == 2 then
-			scenario = LEMScenario1
-		elseif WorldChosen == 3 then
-			scenario = LEMScenario1
-		elseif WorldChosen == 4 then
-			scenario = LEMScenario1
-		elseif WorldChosen == 5 then
-			scenario = LEMScenario1
-		elseif WorldChosen == 6 then
-			scenario = LEMScenario2
-		elseif WorldChosen == 7 then
-			scenario = LEMScenario3
-		else
-			print ("no world chosen")
-		end
-		
+			
 		for row in DB.Query(sql) do
 			
 			local i = 3
