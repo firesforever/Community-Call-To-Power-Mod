@@ -314,6 +314,16 @@ function SetMapTypeForScript()
 	local mapScriptFileName = PreGame.GetMapScript();
 	local WorldChosen = modUserData.GetValue ("MapSelected")
 	local mapScript = nil;
+	local mapOptions = {}
+	local mapOption = {}
+	
+	-- Identifies which map data the chosen world uses
+	for k, v in ipairs(CCTPScenarios) do
+		mapOptions = CCTPScenarios [k]
+		if WorldChosen == mapOptions [1] then
+			mapOption = mapOptions [9]
+		end
+	end
 	
 	for row in GameInfo.MapScripts() do
 		if(row.FileName == mapScriptFileName) then
@@ -326,10 +336,15 @@ function SetMapTypeForScript()
 		IconHookup( info.PortraitIndex, 128, info.IconAtlas, Controls.SizeIcon );
 		
 		--This needs to be set for every map that has True start locations
-		if WorldChosen == 5 then
+		if mapOption[1] == 1 then
 			Controls.TypeHelp:SetText( Locale.ConvertTextKey( "TXT_KEY_CCTP_TSL_DESC" ) );
-		else
+			Controls.ScenarioCheck:SetDisabled(false);
+		elseif mapOption[1] == 0 then
 			Controls.TypeHelp:SetText( Locale.ConvertTextKey( "TXT_KEY_CCTP_NO_TSL_DESC" ) );
+			Controls.ScenarioCheck:SetDisabled(true);
+			Controls.ScenarioCheck:SetCheck( false );
+		else
+			print ("Error: No TSL map option or incorrect value set")
 		end
 		Controls.TypeName:SetText( Locale.ConvertTextKey( "TXT_KEY_CCTP_TSL_NAME" ) );
 	else
@@ -345,11 +360,25 @@ function SetMapSizeForScript()
 	Controls.MapSizeButton:SetDisabled(false);
 	IconHookup( 3, 128, "WORLDTYPE_ATLAS", Controls.TypeIcon ); 
 	
+	local mapOptions = {}
+	local mapOption = {}
+	
+	-- Identifies which map data the chosen world uses
+	for k, v in ipairs(CCTPScenarios) do
+		mapOptions = CCTPScenarios [k]
+		if WorldChosen == mapOptions [1] then
+			mapOption = mapOptions [9]
+		end
+	end
+	
 	--This needs to be set for every map that has real resource placement
-	if WorldChosen == 0 then
+	if mapOption[2] == 1 then
 		Controls.SizeHelp:SetText( Locale.ConvertTextKey( "TXT_KEY_CCTP_TRL_DESC" ) );
-	else
+		Controls.ResourcesCheck:SetDisabled(false);
+	elseif mapOption[2] == 0 then
 		Controls.SizeHelp:SetText( Locale.ConvertTextKey( "TXT_KEY_CCTP_NO_TRL_DESC" ) );
+		Controls.ResourcesCheck:SetDisabled(true);
+		Controls.ResourcesCheck:SetCheck( false );
 	end
 	Controls.SizeName:SetText( Locale.ConvertTextKey( "TXT_KEY_CCTP_RRL_NAME" ) );
 	
