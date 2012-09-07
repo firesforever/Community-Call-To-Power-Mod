@@ -454,6 +454,7 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="A4A7028CB7FCCFDD6C86BF77CA59AA6D" import="0">CCTP Maps/CCTP/ResourceLocations.xml</File>
     <File md5="6C64622A34C9EA8800C30CE7DB33D4B3" import="1">CCTP Maps/MapFiles/LEMMapInfo.lua</File>
 	<File md5="6C64622A34C9EA8800C30CE7DB33D4B3" import="1">CCTP Maps/MapFiles/YNAEMEHMapInfo.lua</File>
+	<File md5="6C64622A34C9EA8800C30CE7DB33D4B3" import="1">CCTP Maps/MapFiles/YNAEMESMapInfo.lua</File>
 	<File md5="4C479D409130641B5212A009D1E09CBE" import="1">Art/MapPics/LEMMapPic.dds</File>
 	<File md5="4C479D409130641B5212A009D1E09CBE" import="1">Art/MapPics/YNAEMMapPic.dds</File>
     <File md5="0BF8FD364E4BD6457AFB7C561982DA4D" import="1">CCTP Maps/MapFiles/MasterMapInfo.lua</File>

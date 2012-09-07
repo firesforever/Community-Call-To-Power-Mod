@@ -339,10 +339,13 @@ function SetMapTypeForScript()
 		if mapOption[1] == 1 then
 			Controls.TypeHelp:SetText( Locale.ConvertTextKey( "TXT_KEY_CCTP_TSL_DESC" ) );
 			Controls.ScenarioCheck:SetDisabled(false);
+			Controls.ScenarioCheck:SetCheck( true );
+			PreGame.SetMapOption(10, 1);
 		elseif mapOption[1] == 0 then
 			Controls.TypeHelp:SetText( Locale.ConvertTextKey( "TXT_KEY_CCTP_NO_TSL_DESC" ) );
 			Controls.ScenarioCheck:SetDisabled(true);
 			Controls.ScenarioCheck:SetCheck( false );
+			PreGame.SetMapOption(10, 0);
 		else
 			print ("Error: No TSL map option or incorrect value set")
 		end
@@ -375,10 +378,13 @@ function SetMapSizeForScript()
 	if mapOption[2] == 1 then
 		Controls.SizeHelp:SetText( Locale.ConvertTextKey( "TXT_KEY_CCTP_TRL_DESC" ) );
 		Controls.ResourcesCheck:SetDisabled(false);
+		Controls.ResourcesCheck:SetCheck( true );
+		PreGame.SetMapOption(11, 1);
 	elseif mapOption[2] == 0 then
 		Controls.SizeHelp:SetText( Locale.ConvertTextKey( "TXT_KEY_CCTP_NO_TRL_DESC" ) );
 		Controls.ResourcesCheck:SetDisabled(true);
 		Controls.ResourcesCheck:SetCheck( false );
+		PreGame.SetMapOption(11, 0);
 	end
 	Controls.SizeName:SetText( Locale.ConvertTextKey( "TXT_KEY_CCTP_RRL_NAME" ) );
 	
@@ -522,12 +528,6 @@ ContextPtr:SetInputHandler( InputHandler );
 function Initialization()
 	local maps = Modding.GetMapFiles();
 	local DefaultMap = nil;
-	
-	-- Set check options to default
-	Controls.ScenarioCheck:SetCheck( true );
-	PreGame.SetMapOption(10, 1);
-	Controls.ResourcesCheck:SetCheck( true );
-	PreGame.SetMapOption(11, 1);
 	
 	modver = 1;
 	modid = "CCTP";

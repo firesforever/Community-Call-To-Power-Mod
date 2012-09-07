@@ -287,7 +287,7 @@ function StartPlotSystem()
 	end
 	
 	print("CCTP - Placing Units of Barbarian.");
-	CCTPPlaceBarbarianUnits()
+	--CCTPPlaceBarbarianUnits()
 	
 	local TSLorRSL = modUserData.GetValue ("TSLorRSL")
 	print ("TSL Option", TSLorRSL)

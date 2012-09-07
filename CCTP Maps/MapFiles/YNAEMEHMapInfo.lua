@@ -1,6 +1,7 @@
 -- MapInfo File
 -- Template Author: FiresForever
 -- Author: FiresForever
+-- Map Name: YNAEM Earth Huge
 -- Map Author: Dale and Gedemon
 --------------------------------------------------------------
 YNAEMEHWorldSize = {
@@ -2575,8 +2576,10 @@ YNAEMEHMapOptions = {
 --Notes:
 --(0/1) option where 1 = Available and 0 = not available
 -- World size determines the default number of civs and city states, where '5' is the max and represents a huge world
+-- World Sizes: 0 =  Duel, 1 = Tiny, 2 = Small, 3 = Standard, 4 = Large, 5 = Huge
 -- Order:
 -- True Start Locations (0/1) , Real Resource Placement (0/1), World Size,
+
  
 1,0,5,
 
@@ -2598,8 +2601,6 @@ YNAEMEHCivInfo = {
 --{"CIVILIZATION_AUSTRIA",0,0}, {"CIVILIZATION_BYZANTIUM",0,0}, {"CIVILIZATION_CARTHAGE",0,0}, {"CIVILIZATION_CELTS",0,0}, {"CIVILIZATION_ETHIOPIA",0,0}, 
 --{"CIVILIZATION_HUNS",0,0}, {"CIVILIZATION_MAYA",0,0}, {"CIVILIZATION_NETHERLANDS",0,0}, {"CIVILIZATION_SWEDEN",0,0},
 --{"CIVILIZATION_EGYPT",0,0},
-
--- Huge
 
 {"CIVILIZATION_AMERICA",30,54}, {"CIVILIZATION_ARABIA",75,42}, {"CIVILIZATION_AZTEC",21,44}, {"CIVILIZATION_CHINA",105,52}, {"CIVILIZATION_ENGLAND",56,63}, 
 {"CIVILIZATION_FRANCE",59,60}, {"CIVILIZATION_GERMANY",64,61}, {"CIVILIZATION_GREECE",66,51}, {"CIVILIZATION_INDIA",89,47}, {"CIVILIZATION_IROQUOIS",28,59}, 
