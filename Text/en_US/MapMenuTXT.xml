@@ -13,19 +13,19 @@
 			<Text>Real Start Locations</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CCTP_TSL_DESC">
-			<Text>Civilizations will start in historically accurate locations.</Text>
+			<Text>Civilizations can start in historically accurate locations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CCTP_NO_TSL_DESC">
-			<Text>This map does not yet support True Start Locations, please disable this option. </Text>
+			<Text>This map does not yet support True Start Locations. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CCTP_RRL_NAME">
 			<Text>Real Resource Placement</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CCTP_TRL_DESC">
-			<Text>Resources will start in historically accurate locations.</Text>
+			<Text>Resources can be placed in historically accurate locations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CCTP_NO_TRL_DESC">
-			<Text>This map does not yet support True Resource Locations, please disable this option.</Text>
+			<Text>This map does not yet support True Resource Locations.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MAP_CCTP_TITLE">
 			<Text>CCTP Compatible Map</Text>
@@ -45,18 +45,8 @@
 			<Text>Community Call to Power Mod compatible maps, including TSL Earth maps.</Text>
 		</Row>
 		
-		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_RNE_FREE_FOR_ALL">
-			<Text>RNE - Free For All</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_RNE_ANCIENT">
-			<Text>RNE - Ancient Civs</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_RNE_MODERN">
-			<Text>RNE - Modern Civs</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_RNE_RANDOM">
-			<Text>RNE - Random Civs</Text>
-		</Row>
+		<!-- Map Info Text-->
+		
 		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_LEM_1">
 			<Text>Legendary Earth Mod I</Text>
 		</Row>
@@ -66,28 +56,30 @@
 		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_LEM_3">
 			<Text>Legendary Earth Mod - FFA</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_YNAEMEH_1">
+			<Text>YNAEM - Huge Earth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_YNAEMES_1">
+			<Text>YNAEM - Standard Earth</Text>
+		</Row>
 		
-		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_RNE_FREE_FOR_ALL_DESC">
-			<Text>A Huge Earth Map, this version allows for all civs. Map Maker: Seraphim </Text>
-		</Row>
-		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_RNE_ANCIENT_DESC">
-			<Text>A Huge Earth Map, this version limits the available civs to Ancient Era ones only, eg. You cannot play as America here. Map Maker: Seraphim </Text>
-		</Row>
-		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_RNE_MODERN_DESC">
-			<Text>A Huge Earth Map, this version limits the available civs to Modern Era ones only, eg. You cannot play as Egypt here. Map Maker: Seraphim</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_RNE_RANDOM_DESC">
-			<Text>A Huge Earth Map, this version chooses random civs. Map Maker: Seraphim</Text>
-		</Row>
 		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_LEM_1_DESC">
-			<Text>One of Civilization V's most popular Earth maps returns for the Gods & Kings Expansion! Accruing nearly 50,000 downloads, the original version for vanilla Civilization V was widely popular and often credited as being one of the most accurate Earth maps while still maintaining the importance of gameplay balance.  Map Maker: Dark_Jedi06</Text>
+			<Text>One of Civilization V's most popular Earth maps returns for the Gods & Kings Expansion! Accruing nearly 50,000 downloads, the original version for vanilla Civilization V was widely popular and often credited as being one of the most accurate Earth maps while still maintaining the importance of gameplay balance.  [NEWLINE][NEWLINE]Map Maker: Dark_Jedi06</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_LEM_2_DESC">
-			<Text>Same as LEM I but with a different selection of civs to choose from. Map Maker: Dark_Jedi06</Text>
+			<Text>Same as LEM I but with a different selection of civs to choose from. [NEWLINE][NEWLINE]Map Maker: Dark_Jedi06</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_LEM_3_DESC">
-			<Text>Same as LEM I but you can choose from all civilizations. Map Maker: Dark_Jedi06</Text>
+			<Text>Same as LEM I but you can choose from all civilizations. [NEWLINE][NEWLINE]Map Maker: Dark_Jedi06</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_YNAEMEH_1_DESC">
+			<Text>Yet Another Huge Earth Map (120x80): Dale's huge Earth edited with Europe and Japan upscaled. [NEWLINE][NEWLINE]YNAEM by Gedemon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_YNAEMES_1_DESC">
+			<Text>Standard Earth Map (80x52): A cordiform projection version made by smellymummy.  [NEWLINE][NEWLINE]YNAEM by Gedemon</Text>
+		</Row>
+		
+		
 		<!-- Rise to Power Text-->
 		
 		<Row Tag="TXT_KEY_CCTP_CHOOSE_RTP">
