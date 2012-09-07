@@ -52,6 +52,7 @@ function OnMapScriptSelected(modeID)
 	local found = 0
 	local scenarios = {}
 	local World = {}
+	local mapOption = {}
 	
 	
 	if modeID == 0 then
@@ -65,12 +66,13 @@ function OnMapScriptSelected(modeID)
 			scenarios = CCTPScenarios [i]
 			if scenarios[1] ~= "end" then
 				World = scenarios [8]
+				mapOption = scenarios [9]
 				if modeID == scenarios[1] then
 					print ("found")
 					MChosen = scenarios[1]
 					MDesc = World[2]
 					MBg = World[3]
-					WorldSize = 5
+					WorldSize = mapOption[3]
 					--found = 1
 					i = i + 1
 				else
