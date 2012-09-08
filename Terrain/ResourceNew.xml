@@ -2,6 +2,140 @@
 <!-- Created by ModBuddy on 6/22/2012 12:53:11 PM -->
 <GameData>
 	<Resources>
+		<!-- New Unassigned -->
+		<Row>
+			<Type>RESOURCE_CACAO</Type>
+			<TechCityTrade>TECH_POTTERY</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_CACAO</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_CACAO_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_CACAO_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_BONUS</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_CACAO</ArtDefineTag>
+			<PlacementOrder>4</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Unique>1</Unique>
+			<TilesPer>5</TilesPer>
+			<Hills>true</Hills>
+			<Normalize>true</Normalize>
+			<IconString>[ICON_RES_NO]</IconString>
+			<PortraitIndex>15</PortraitIndex>
+			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>RESOURCE_BARLEY</Type>
+			<TechCityTrade>TECH_POTTERY</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_BARLEY</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_BARLEY_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_BARLEY_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_BONUS</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_BARLEY</ArtDefineTag>
+			<PlacementOrder>4</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Unique>1</Unique>
+			<TilesPer>5</TilesPer>
+			<Hills>true</Hills>
+			<Normalize>true</Normalize>
+			<IconString>[ICON_RES_NO]</IconString>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>RESOURCE_BERRIES</Type>
+			<TechCityTrade>TECH_POTTERY</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_BERRIES</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_BERRIES_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_BERRIES_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_BONUS</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_BERRIES</ArtDefineTag>
+			<PlacementOrder>4</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Unique>1</Unique>
+			<TilesPer>5</TilesPer>
+			<Hills>true</Hills>
+			<Normalize>true</Normalize>
+			<IconString>[ICON_RES_NO]</IconString>
+			<PortraitIndex>16</PortraitIndex>
+			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>RESOURCE_MANGO</Type>
+			<TechCityTrade>TECH_POTTERY</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_MANGO</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MANGO_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_MANGO_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_BONUS</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_MANGO</ArtDefineTag>
+			<PlacementOrder>4</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Unique>1</Unique>
+			<TilesPer>5</TilesPer>
+			<Hills>true</Hills>
+			<Normalize>true</Normalize>
+			<IconString>[ICON_RES_NO]</IconString>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>RESOURCE_FLAX</Type>
+			<TechCityTrade>TECH_POTTERY</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_FLAX</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_FLAX_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_FLAX_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_BONUS</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_FLAX</ArtDefineTag>
+			<PlacementOrder>4</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Unique>1</Unique>
+			<TilesPer>5</TilesPer>
+			<Hills>true</Hills>
+			<Normalize>true</Normalize>
+			<IconString>[ICON_RES_NO]</IconString>
+			<PortraitIndex>23</PortraitIndex>
+			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>RESOURCE_WOOD</Type>
+			<TechCityTrade>TECH_SAILING</TechCityTrade>
+			<!-- <TechReveal>TECH_SAILING</TechReveal>-->
+			<Description>TXT_KEY_RESOURCE_WOOD</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_WOOD_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_WOOD_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_BONUS</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_WOOD</ArtDefineTag>
+			<PlacementOrder>4</PlacementOrder>
+			<ConstAppearance>50</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>25</RandApp1>
+			<RandApp2>25</RandApp2>
+			<Unique>1</Unique>
+			<TilesPer>5</TilesPer>
+			<Normalize>true</Normalize>
+			<IconString>[ICON_RES_OAK]</IconString>
+			<PortraitIndex>20</PortraitIndex>
+			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<!-- Monopolies/Wonders -->
 		<Row>
 			<Type>RESOURCE_BLOCKBUSTER</Type>
 			<Happiness>4</Happiness>
@@ -285,6 +419,31 @@
 
 	<Resource_YieldChanges>
 		<Row>
+			<ResourceType>RESOURCE_BERRIES</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MANGO</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_CACAO</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FLAX</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_BARLEY</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
@@ -339,9 +498,18 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Resource_YieldChanges>
 
 	<Resource_TerrainBooleans>
+		<Row>
+			<ResourceType>RESOURCE_FLAX</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
 		<Row>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<TerrainType>TERRAIN_HILL</TerrainType>
@@ -409,6 +577,14 @@
 	</Resource_TerrainBooleans>
 
 	<Resource_FeatureBooleans>
+		<Row>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_CACAO</ResourceType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
 		<Row>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -482,6 +658,26 @@
 	<Improvement_ResourceTypes>
 		<Row>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_MANGO</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_BERRIES</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_FLAX</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_CACAO</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_BARLEY</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 		</Row>
 		<Row>
@@ -527,6 +723,10 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
 		</Row>
 	</Improvement_ResourceTypes>
 
@@ -599,6 +799,11 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<ResourceType>RESOURCE_SQUID</ResourceType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
@@ -636,6 +841,31 @@
 		<Row>
 			<ResourceType>RESOURCE_TIN</ResourceType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_BERRIES</ResourceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_CACAO</ResourceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FLAX</ResourceType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MANGO</ResourceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_BARLEY</ResourceType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 	</Resource_Flavors>

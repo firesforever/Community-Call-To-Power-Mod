@@ -1,0 +1,19 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <triggers>
+	  <trigger type="FTimedTriggerEffect" id="1" time="0.562963" duration="0" repeat="0" ec="1100" track="2" tier="0" event="ART_DEF_VEFFECT_LASGUN_MUZBLAST_01" bone="marker_muzzle" />
+	  <trigger type="FTimedTriggerEffect" id="2" time="0.674074" duration="0" repeat="0" ec="2100" track="2" tier="0" event="ART_DEF_VEFFECT_LASGUN_MUZBLAST_01" bone="marker_muzzle" />
+	  <trigger type="FTimedTriggerEffect" id="5" time="0.666667" duration="0" repeat="0" ec="1140" track="2" tier="0" event="ART_DEF_VEFFECT_LASGUN_MUZBLAST_01" bone="marker_muzzle" />
+	  <trigger type="FTimedTriggerEffect" id="6" time="0.562963" duration="0" repeat="0" ec="1160" track="2" tier="0" event="ART_DEF_VEFFECT_LASGUN_MUZBLAST_01" bone="marker_muzzle" />
+	  <trigger type="FTimedTriggerEffect" id="10" time="0.562963" duration="0" repeat="0" ec="1180" track="2" tier="0" event="ART_DEF_VEFFECT_LASGUN_MUZBLAST_01" bone="marker_muzzle" />
+	  <trigger type="FTimedTriggerAction" id="52" time="0.6129629" duration="0" repeat="0" ec="1180" track="4" tier="0" action="1" />
+	  <trigger type="FTimedTriggerAction" id="53" time="0.612962961" duration="0" repeat="0" ec="1160" track="4" tier="0" action="1" />
+	  <trigger type="FTimedTriggerAction" id="54" time="0.594444454" duration="0" repeat="0" ec="1100" track="4" tier="0" action="1" />
+	  <trigger type="FTimedTriggerAction" id="55" time="0.711111069" duration="0" repeat="0" ec="1140" track="4" tier="0" action="1" />
+	  <trigger type="FTimedTriggerAction" id="56" time="0.705555558" duration="0" repeat="0" ec="2100" track="4" tier="0" action="1" />
+	  <trigger type="FTimedTriggerSound" id="28" time="0.562963" duration="0" repeat="0" ec="1180" track="1" tier="-1" event="AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="24" time="0.562963" duration="0" repeat="0" ec="1160" track="1" tier="-1" event="AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="19" time="0.562963" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="17" time="0.666667" duration="0" repeat="0" ec="1140" track="1" tier="-1" event="AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="21" time="0.674074" duration="0" repeat="0" ec="2100" track="1" tier="-1" event="AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON" bone=""/>
+  </triggers>
+</trigger_system>

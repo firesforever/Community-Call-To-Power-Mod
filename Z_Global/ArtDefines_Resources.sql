@@ -358,3 +358,139 @@ VALUES ('Industrial','Constructed','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHO
 
 INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
 VALUES ('Industrial','Pillaged','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_OAK','Art/Resources/Oak/PL_Plantation_IND_Oak.fxsxml','1',null);
+
+-- 11 Berries ---------------------------------------------------------------------------------------------------------------------------------------
+INSERT INTO ArtDefine_LandmarkTypes (Type, LandmarkType, FriendlyName)
+VALUES ('ART_DEF_RESOURCE_BERRIES','Resource','Berries');
+
+INSERT INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset)
+VALUES ('ART_DEF_RESOURCE_BERRIES','Resource','Art/Resources/Berries/SV_Berries.dds');
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Any','Any','1','ART_DEF_IMPROVEMENT_NONE','SNAPSHOT','ART_DEF_RESOURCE_BERRIES','Art/Resources/Berries/Resource_Berries.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','UnderConstruction','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BERRIES','Art/Resources/Berries/HB_Plantation_MID_Berries.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','Constructed','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BERRIES','Art/Resources/Berries/Plantation_MID_Berries.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','Pillaged','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BERRIES','Art/Resources/Berries/PL_Plantation_MID_Berries.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','UnderConstruction','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BERRIES','Art/Resources/Berries/HB_Plantation_IND_Berries.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Constructed','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BERRIES','Art/Resources/Berries/Plantation_IND_Berries.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Pillaged','1','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BERRIES','Art/Resources/Berries/PL_Plantation_IND_Berries.fxsxml','1',null);
+-- 12 Mango ---------------------------------------------------------------------------------------------------------------------------------------
+INSERT INTO ArtDefine_LandmarkTypes (Type, LandmarkType, FriendlyName)
+VALUES	('ART_DEF_RESOURCE_MANGO', 'Resource', 'Mango Trees');
+
+INSERT INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset)
+VALUES ('ART_DEF_RESOURCE_MANGO','Resource','Art/Resources/Mango/SV_Mango.dds');
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour)
+VALUES	('Any', 'Any', 0.9399999976158142, 'ART_DEF_IMPROVEMENT_NONE', 'SNAPSHOT', 'ART_DEF_RESOURCE_MANGO', 'Art/Resources/Mango/Resource_Mango.fxsxml', 1);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour)
+VALUES	('Ancient', 'UnderConstruction', 0.9599999785423279, 'ART_DEF_IMPROVEMENT_PLANTATION', 'SNAPSHOT', 'ART_DEF_RESOURCE_MANGO', 'Art/Resources/Mango/HB_Plantation_MID_Mango.fxsxml', 1);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour)
+VALUES	('Ancient', 'Constructed', 0.9599999785423279, 'ART_DEF_IMPROVEMENT_PLANTATION', 'SNAPSHOT', 'ART_DEF_RESOURCE_MANGO', 'Art/Resources/Mango/Plantation_MID_Mango.fxsxml', 1);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour)
+VALUES	('Ancient', 'Pillaged', 0.9599999785423279, 'ART_DEF_IMPROVEMENT_PLANTATION', 'SNAPSHOT', 'ART_DEF_RESOURCE_MANGO', 'Art/Resources/Mango/PL_Plantation_MID_Mango.fxsxml', 1);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour)
+VALUES	('Industrial', 'UnderConstruction', 0.9599999785423279, 'ART_DEF_IMPROVEMENT_PLANTATION', 'SNAPSHOT', 'ART_DEF_RESOURCE_MANGO', 'Art/Resources/Mango/HB_Plantation_IND_Mango.fxsxml', 1);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour)
+VALUES	('Industrial', 'Constructed', 0.9599999785423279, 'ART_DEF_IMPROVEMENT_PLANTATION', 'SNAPSHOT', 'ART_DEF_RESOURCE_MANGO', 'Art/Resources/Mango/Plantation_IND_Mango.fxsxml', 1);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour)
+VALUES	('Industrial', 'Pillaged', 0.9599999785423279, 'ART_DEF_IMPROVEMENT_PLANTATION', 'SNAPSHOT', 'ART_DEF_RESOURCE_MANGO', 'Art/Resources/Mango/PL_Plantation_IND_Mango.fxsxml', 1);
+-- 13 Flax ---------------------------------------------------------------------------------------------------------------------------------------
+INSERT INTO ArtDefine_LandmarkTypes (Type, LandmarkType, FriendlyName)
+VALUES ('ART_DEF_RESOURCE_FLAX','Resource','Flax');
+
+INSERT INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset)
+VALUES ('ART_DEF_RESOURCE_FLAX','Resource','Art/Resources/Flax/SV_Flax.dds');
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Any','Any','0.9399999976158142','ART_DEF_IMPROVEMENT_NONE','SNAPSHOT','ART_DEF_RESOURCE_FLAX','Art/Resources/Flax/Resource_Flax.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','UnderConstruction','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_FLAX','Art/Resources/Flax/HB_Plantation_MID_Flax.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','Constructed','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_FLAX','Art/Resources/Flax/Plantation_MID_Flax.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','Pillaged','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_FLAX','Art/Resources/Flax/PL_Plantation_MID_Flax.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','UnderConstruction','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_FLAX','Art/Resources/Flax/HB_Plantation_IND_Flax.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Constructed','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_FLAX','Art/Resources/Flax/Plantation_IND_Flax.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Pillaged','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_FLAX','Art/Resources/Flax/PL_Plantation_IND_Flax.fxsxml','1',null);
+-- 14 Cacao ---------------------------------------------------------------------------------------------------------------------------------------
+INSERT INTO ArtDefine_LandmarkTypes (Type, LandmarkType, FriendlyName)
+VALUES ('ART_DEF_RESOURCE_CACAO','Resource','Cacao Trees');
+
+INSERT INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset)
+VALUES ('ART_DEF_RESOURCE_CACAO','Resource','Art/Resources/Cacao/SV_Cacao.dds');
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Any','Any','0.9399999976158142','ART_DEF_IMPROVEMENT_NONE','SNAPSHOT','ART_DEF_RESOURCE_CACAO','Art/Resources/Cacao/Cacao.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','UnderConstruction','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_CACAO','Art/Resources/Cacao/Plantation_MID_Cacao_HB.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','Constructed','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_CACAO','Art/Resources/Cacao/Plantation_MID_Cacao.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech)  
+VALUES ('Ancient','Pillaged','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_CACAO','Art/Resources/Cacao/Plantation_MID_Cacao_PIL.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','UnderConstruction','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_CACAO','Art/Resources/Cacao/Plantation_IND_Cacao_HB.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Constructed','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_CACAO','Art/Resources/Cacao/Plantation_IND_Cacao.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Pillaged','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_CACAO','Art/Resources/Cacao/Plantation_IND_Cacao_PIL.fxsxml','1',null);
+-- 15 Barley ---------------------------------------------------------------------------------------------------------------------------------------
+INSERT INTO ArtDefine_LandmarkTypes (Type, LandmarkType, FriendlyName)
+VALUES ('ART_DEF_RESOURCE_BARLEY','Resource','Barley');
+
+INSERT INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset)
+VALUES ('ART_DEF_RESOURCE_BARLEY','Resource','Art/Resources/Barley/SV_Barley.dds');
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Any','Any','0.9800000190734863','ART_DEF_IMPROVEMENT_NONE','SNAPSHOT','ART_DEF_RESOURCE_BARLEY','Art/Resources/Barley/Resource_Barley.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','UnderConstruction','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BARLEY','Art/Resources/Barley/HB_Plantation_MID_Barley.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','Constructed','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BARLEY','Art/Resources/Barley/Plantation_MID_Barley.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Ancient','Pillaged','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BARLEY','Art/Resources/Barley/PL_Plantation_MID_Barley.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','UnderConstruction','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BARLEY','Art/Resources/Barley/HB_Plantation_IND_Barley.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Constructed','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BARLEY','Art/Resources/Barley/Plantation_IND_Barley.fxsxml','1',null);
+
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour, Tech) 
+VALUES ('Industrial','Pillaged','0.9599999785423279','ART_DEF_IMPROVEMENT_PLANTATION','SNAPSHOT','ART_DEF_RESOURCE_BARLEY','Art/Resources/Barley/PL_Plantation_IND_Barley.fxsxml','1',null);
