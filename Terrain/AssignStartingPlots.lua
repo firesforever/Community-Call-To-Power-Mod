@@ -10011,31 +10011,31 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	print("Map Generation - Placing CCTP Additions");
 	local resources_to_place = {
 	{self.berries_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(18 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(19 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
 	
 	local resources_to_place = {
 	{self.berries_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(18 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(20 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.cacao_ID, 1, 100, 2, 3} };
-	self:ProcessResourceList(21 * bonus_multiplier, 3, self.jungle_flat_list, resources_to_place)
+	self:ProcessResourceList(20 * bonus_multiplier, 3, self.jungle_flat_list, resources_to_place)
 
 	local resources_to_place = {
 	{self.cacao_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(19 * bonus_multiplier, 3, self.hills_jungle_list, resources_to_place)
+	self:ProcessResourceList(18 * bonus_multiplier, 3, self.hills_jungle_list, resources_to_place)
 
 	local resources_to_place = {
 	{self.flax_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(10 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(14 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.barley_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(21 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(22 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
 
 	local resources_to_place = {
 	{self.barley_ID, 1, 100, 2, 3} };
-	self:ProcessResourceList(18 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	self:ProcessResourceList(19 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
 		
 	local resources_to_place = {
 	{self.mango_ID, 1, 100, 2, 3} };
@@ -10047,11 +10047,11 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 
 	local resources_to_place = {
 	{self.wood_ID, 1, 100, 2, 3} };
-	self:ProcessResourceList(21 * bonus_multiplier, 3, self.jungle_flat_list, resources_to_place)
+	self:ProcessResourceList(20 * bonus_multiplier, 3, self.jungle_flat_list, resources_to_place)
 
 	local resources_to_place = {
 	{self.wood_ID, 1, 100, 1, 1} };
-	self:ProcessResourceList(19 * bonus_multiplier, 3, self.hills_jungle_list, resources_to_place)
+	self:ProcessResourceList(18 * bonus_multiplier, 3, self.hills_jungle_list, resources_to_place)
 end
 ------------------------------------------------------------------------------
 function AssignStartingPlots:PlaceResourcesAndCityStates()
