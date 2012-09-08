@@ -243,10 +243,10 @@ function AssignStartingPlots.Create()
 		-- Resources variables
 		resources = {},                 -- Stores all resource data, pulled from the XML
 		resource_setting,				-- User selection for Resource Setting, chosen on game launch (when applicable)
-		amounts_of_resources_placed = table.fill(0, 56), -- Stores amounts of each resource ID placed. WARNING: This table uses adjusted resource ID (+1) to account for Lua indexing. Add 1 to all IDs to index this table.
-		luxury_assignment_count = table.fill(0, 56), -- Stores amount of each luxury type assigned to regions. WARNING: current implementation will crash if a Luxury is attached to resource ID 0 (default = iron), because this table uses unadjusted resource ID as table index.
-		luxury_low_fert_compensation = table.fill(0, 56), -- Stores number of times each resource ID had extras handed out at civ starts. WARNING: Indexed by resource ID.
-		region_low_fert_compensation = table.fill(0, 28); -- Stores number of luxury compensation each region received
+		amounts_of_resources_placed = table.fill(0, 62), -- Stores amounts of each resource ID placed. WARNING: This table uses adjusted resource ID (+1) to account for Lua indexing. Add 1 to all IDs to index this table.
+		luxury_assignment_count = table.fill(0, 62), -- Stores amount of each luxury type assigned to regions. WARNING: current implementation will crash if a Luxury is attached to resource ID 0 (default = iron), because this table uses unadjusted resource ID as table index.
+		luxury_low_fert_compensation = table.fill(0, 62), -- Stores number of times each resource ID had extras handed out at civ starts. WARNING: Indexed by resource ID.
+		region_low_fert_compensation = table.fill(0, 31); -- Stores number of luxury compensation each region received
 		luxury_region_weights = {},		-- Stores weighted assignments for the types of regions
 		luxury_fallback_weights = {},	-- In case all options for a given region type got assigned or disabled, also used for Undefined regions
 		luxury_city_state_weights = {},	-- Stores weighted assignments for city state exclusive luxuries
@@ -372,10 +372,11 @@ function AssignStartingPlots.Create()
 		gold_ID, silver_ID, gems_ID, marble_ID,
 		-- Expansion luxuries
 		copper_ID, salt_ID, citrus_ID, truffles_ID, crab_ID,
-		-- CCTP Bonus Resources
+		-- CCTP Monopoly Resources
 		coffee_ID, poppy_ID, titanium_ID, aloe_vera_ID, jade_ID, 
 		manganese_ID, oak_ID, squid_ID, amber_ID, tobacco_ID, tin_ID,
-		
+		--Additional Bonus Resources
+		berries_ID, flax_ID, cacao_ID, barley_ID, mango_ID, wood_ID,
 		-- Local arrays for storing Natural Wonder Placement XML data
 		EligibilityMethodNumber = {},
 		OccurrenceFrequency = {},
@@ -617,6 +618,19 @@ function AssignStartingPlots:__Init()
 			self.tobacco_ID = resourceID;
 		elseif resourceType == "RESOURCE_TIN" then
 			self.tin_ID = resourceID;
+		-- Additional Bonus Resources
+		elseif resourceType == "RESOURCE_FLAX" then
+			self.flax_ID = resourceID;
+		elseif resourceType == "RESOURCE_BERRIES" then
+			self.berries_ID = resourceID;
+		elseif resourceType == "RESOURCE_BARLEY" then
+			self.barley_ID = resourceID;
+		elseif resourceType == "RESOURCE_CACAO" then
+			self.cacao_ID = resourceID;
+		elseif resourceType == "RESOURCE_MANGO" then
+			self.mango_ID = resourceID;
+		elseif resourceType == "RESOURCE_WOOD" then
+			self.wood_ID = resourceID;
 		end
 	end
 end
@@ -9705,7 +9719,7 @@ function AssignStartingPlots:PrintFinalResourceTotalsToLog()
 	print("- Fish....: ", self.amounts_of_resources_placed[self.fish_ID + 1]);
 	print("- Stone...: ", self.amounts_of_resources_placed[self.stone_ID + 1]);
 	-- Added by CCTP
-	print("Map Generation - Placing CCTP Bonuses");
+	print("- Placing CCTP Monopoly");
 	print("- Coffee..: ", self.amounts_of_resources_placed[self.coffee_ID + 1]);
 	print("- Poppy...: ", self.amounts_of_resources_placed[self.poppy_ID + 1]);
 	print("- Titanium: ", self.amounts_of_resources_placed[self.titanium_ID + 1]);
@@ -9717,6 +9731,13 @@ function AssignStartingPlots:PrintFinalResourceTotalsToLog()
 	print("- Amber...: ", self.amounts_of_resources_placed[self.amber_ID + 1]);
 	print("- Tobacco.: ", self.amounts_of_resources_placed[self.tobacco_ID + 1]);
 	print("- Tin.....: ", self.amounts_of_resources_placed[self.tin_ID + 1]);
+	print("- Placing CCTP Additional Bonuses");
+	print("- Berries.: ", self.amounts_of_resources_placed[self.berries_ID + 1]);
+	print("- Flax....: ", self.amounts_of_resources_placed[self.flax_ID + 1]);
+	print("- Cacao...: ", self.amounts_of_resources_placed[self.cacao_ID + 1]);
+	print("- Barley..: ", self.amounts_of_resources_placed[self.barley_ID + 1]);
+	print("- Mango...: ", self.amounts_of_resources_placed[self.mango_ID + 1]);
+	print("- Mango...: ", self.amounts_of_resources_placed[self.wood_ID + 1]);
 	print("-");
 	print("-----------------------------------------------------");
 end
@@ -9986,6 +10007,51 @@ function AssignStartingPlots:PlaceStrategicAndBonusResources()
 	local resources_to_place = {
 	{self.tobacco_ID, 1, 100, 1, 1} };
 	self:ProcessResourceList(18 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	-- Additional Bonus Resources
+	print("Map Generation - Placing CCTP Additions");
+	local resources_to_place = {
+	{self.berries_ID, 1, 100, 1, 1} };
+	self:ProcessResourceList(18 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+	
+	local resources_to_place = {
+	{self.berries_ID, 1, 100, 1, 1} };
+	self:ProcessResourceList(18 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
+
+	local resources_to_place = {
+	{self.cacao_ID, 1, 100, 2, 3} };
+	self:ProcessResourceList(21 * bonus_multiplier, 3, self.jungle_flat_list, resources_to_place)
+
+	local resources_to_place = {
+	{self.cacao_ID, 1, 100, 1, 1} };
+	self:ProcessResourceList(19 * bonus_multiplier, 3, self.hills_jungle_list, resources_to_place)
+
+	local resources_to_place = {
+	{self.flax_ID, 1, 100, 1, 1} };
+	self:ProcessResourceList(10 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
+
+	local resources_to_place = {
+	{self.barley_ID, 1, 100, 1, 1} };
+	self:ProcessResourceList(21 * bonus_multiplier, 3, self.grass_flat_no_feature, resources_to_place)
+
+	local resources_to_place = {
+	{self.barley_ID, 1, 100, 2, 3} };
+	self:ProcessResourceList(18 * bonus_multiplier, 3, self.plains_flat_no_feature, resources_to_place)
+		
+	local resources_to_place = {
+	{self.mango_ID, 1, 100, 2, 3} };
+	self:ProcessResourceList(21 * bonus_multiplier, 3, self.jungle_flat_list, resources_to_place)
+
+	local resources_to_place = {
+	{self.mango_ID, 1, 100, 1, 1} };
+	self:ProcessResourceList(19 * bonus_multiplier, 3, self.hills_jungle_list, resources_to_place)
+
+	local resources_to_place = {
+	{self.wood_ID, 1, 100, 2, 3} };
+	self:ProcessResourceList(21 * bonus_multiplier, 3, self.jungle_flat_list, resources_to_place)
+
+	local resources_to_place = {
+	{self.wood_ID, 1, 100, 1, 1} };
+	self:ProcessResourceList(19 * bonus_multiplier, 3, self.hills_jungle_list, resources_to_place)
 end
 ------------------------------------------------------------------------------
 function AssignStartingPlots:PlaceResourcesAndCityStates()
