@@ -1,0 +1,3 @@
+-- Member Combat Weapons
+INSERT INTO ArtDefine_UnitMemberCombatWeapons	(UnitMemberType,				"Index", SubIndex, ID,   VisKillStrengthMin, VisKillStrengthMax,   ProjectileSpeed, ProjectileTurnRateMin, ProjectileTurnRateMax, HitEffect,											HitEffectScale, HitRadius, ProjectileChildEffectScale, AreaDamageDelay, ContinuousFire, WaitForEffectCompletion, TargetGround, IsDropped, WeaponTypeTag, WeaponTypeSoundOverrideTag)
+VALUES											('ART_DEF_UNIT_MEMBER_',		'0',   '0',      null, null,               null,				 null,			  null,					 null,					'INSERT VISSUAL EFFECT HERE',						null,			null,	   null,					   null,			null,			null,					 null,		   null,	  null,			 null);

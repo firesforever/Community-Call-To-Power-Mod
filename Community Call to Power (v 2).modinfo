@@ -42,7 +42,8 @@ Over a 100 new Buildings and Wonders!</Description>
     <SupportsMac>1</SupportsMac>
     <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
-    <ReloadUnitSystem>0</ReloadUnitSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+    <DisableLoadGameOption>1</DisableLoadGameOption>
   </Properties>
   <Dependencies>
     <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
@@ -50,6 +51,611 @@ Over a 100 new Buildings and Wonders!</Description>
   <References />
   <Blocks />
   <Files>
+    <File md5="DC55A829CCA9A6AE2E5DAA51A38FB673" import="1">Art/Resources/Barley/barley_diff.dds</File>
+    <File md5="4EA66BD2EC23C9DDB0AEDAA6A666CD1D" import="1">Art/Resources/Barley/barley_sref.dds</File>
+    <File md5="002BCDAD4CA368A54F272B72A210A3F2" import="1">Art/Resources/Barley/crop_ground_barley_d.dds</File>
+    <File md5="32A1909758F150360D462BD73527CC23" import="1">Art/Resources/Barley/crop_ground_barley_h.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Barley/fx_triggers_pl_plantation_ind_barley.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Barley/fx_triggers_pl_plantation_mid_barley.ftsxml</File>
+    <File md5="4E988CC6BA456013BCF14A6E56DF4399" import="1">Art/Resources/Barley/hb_plantation_ind_barley.fxsxml</File>
+    <File md5="7790CE0FADA4DEF4510F8B491142420D" import="1">Art/Resources/Barley/hb_plantation_ind_barley.gr2</File>
+    <File md5="E589AFA76838B94CA7D6A35EF9FAC3E1" import="1">Art/Resources/Barley/hb_plantation_mid_barley.fxsxml</File>
+    <File md5="C01C1A856BBCA8FA2249B4F8503A5903" import="1">Art/Resources/Barley/hb_plantation_mid_barley.gr2</File>
+    <File md5="2CF3D5F04C17CB0F38313BD58CA08841" import="1">Art/Resources/Barley/plantation_ind_barley.fxsxml</File>
+    <File md5="0384DED4F7E9C17B7DB69FBB45E0D7F1" import="1">Art/Resources/Barley/plantation_ind_barley.gr2</File>
+    <File md5="DA2AA289147C1559B17ED500F209E8DD" import="1">Art/Resources/Barley/plantation_mid_barley.fxsxml</File>
+    <File md5="FCF370096E93AD8FE5DB29C10E7487FA" import="1">Art/Resources/Barley/plantation_mid_barley.gr2</File>
+    <File md5="8DC0909617A42FBA9F17740A985B9975" import="1">Art/Resources/Barley/pl_barley_diff.dds</File>
+    <File md5="606FCA8F8088832879AB05188DDBBB86" import="1">Art/Resources/Barley/pl_crop_ground_barley_d.dds</File>
+    <File md5="E546ABD7F840C6412FDB6255A15BFC10" import="1">Art/Resources/Barley/pl_plantation_ind_barley.fxsxml</File>
+    <File md5="98F5695286572F021FCFF46D5F9CF952" import="1">Art/Resources/Barley/pl_plantation_ind_barley.gr2</File>
+    <File md5="EA42A42F2CEE0EAA64C9FAAFC5B14EDC" import="1">Art/Resources/Barley/pl_plantation_mid_barley.fxsxml</File>
+    <File md5="AF3DCB8EF33ED75C7A029FC4F9E50672" import="1">Art/Resources/Barley/pl_plantation_mid_barley.gr2</File>
+    <File md5="33733C9B82544189329B946613701884" import="1">Art/Resources/Barley/resource_barley.fxsxml</File>
+    <File md5="C2BA2A78BD598C1D71FE844B0DA61BCF" import="1">Art/Resources/Barley/resource_barley.gr2</File>
+    <File md5="E7B051FDF1DF19B1ABC254B5EBE2E8C5" import="1">Art/Resources/Barley/sv_barley.dds</File>
+    <File md5="916A0A1815E8B14EB4819779304F3220" import="1">Art/Resources/Berries/berries_diff.dds</File>
+    <File md5="9441CFCE7020D5F19CBF20BF8F3BDCF3" import="1">Art/Resources/Berries/berries_grnd_decal_diff.dds</File>
+    <File md5="B396975B76ABA4CA37BCADDE957DBE79" import="1">Art/Resources/Berries/berries_improved.fxsxml</File>
+    <File md5="491EA26548D1AEF7509AE2DFB002B2AF" import="1">Art/Resources/Berries/berries_improved.gr2</File>
+    <File md5="152137585143527DEB6234CD2082172E" import="1">Art/Resources/Berries/berries_improved_idle.gr2</File>
+    <File md5="152137585143527DEB6234CD2082172E" import="1">Art/Resources/Berries/berries_improved_worked.gr2</File>
+    <File md5="D2B74E318C473B56DC4A8881B934DF22" import="1">Art/Resources/Berries/berries_sref.dds</File>
+    <File md5="E8A2332042C63E50C63B3B52436D5AA9" import="1">Art/Resources/Berries/berries_vineyard_diff.dds</File>
+    <File md5="4AFB39BBF40521804EE7E459C6EC7463" import="1">Art/Resources/Berries/berries_vineyard_sref.dds</File>
+    <File md5="6A7FFF163C9FE3E3D2459834AA19FD6B" import="1">Art/Resources/Berries/berry_improved_idle.gr2</File>
+    <File md5="6A7FFF163C9FE3E3D2459834AA19FD6B" import="1">Art/Resources/Berries/berry_improved_worked.gr2</File>
+    <File md5="7993198DF3FF81468FEC6A67C8118024" import="1">Art/Resources/Berries/crop_ground_berries_d.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Berries/fx_triggers_pl_plantation_ind_berries.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Berries/fx_triggers_pl_plantation_mid_berries.ftsxml</File>
+    <File md5="797AD7CA63931151642DA5C1C90B0EE1" import="1">Art/Resources/Berries/hb_plantation_ind_berries.fxsxml</File>
+    <File md5="B4B96758BF6C5E2635D971DE7BFEAAFB" import="1">Art/Resources/Berries/hb_plantation_ind_berries.gr2</File>
+    <File md5="CC661F836C6A97B5DECB72FA7E055395" import="1">Art/Resources/Berries/hb_plantation_mid_berries.fxsxml</File>
+    <File md5="D1B1436A0699E7C51EA042E256712152" import="1">Art/Resources/Berries/hb_plantation_mid_berries.gr2</File>
+    <File md5="29935841A4BDA968DE209189ABE8AA65" import="1">Art/Resources/Berries/plantation_ind_berries.fxsxml</File>
+    <File md5="D49D204B8C4DFC1811BC1F52DB3C252B" import="1">Art/Resources/Berries/plantation_ind_berries.gr2</File>
+    <File md5="4C53118F586A8F5F42EF8B199A08FEBB" import="1">Art/Resources/Berries/plantation_mid_berries.fxsxml</File>
+    <File md5="8D1A7E9B42A375A7EB71E59602D3D9BF" import="1">Art/Resources/Berries/plantation_mid_berries.gr2</File>
+    <File md5="954986855507CBB803931B08274B3068" import="1">Art/Resources/Berries/pl_plantation_ind_berries.fxsxml</File>
+    <File md5="ECD6641FB9B17BB9FEDBD8674AD74027" import="1">Art/Resources/Berries/pl_plantation_ind_berries.gr2</File>
+    <File md5="DC0ECF46AED108D4BF2767BE8822640D" import="1">Art/Resources/Berries/pl_plantation_mid_berries.fxsxml</File>
+    <File md5="3CBD9FC22B8F8264B1EEA1CDD7997113" import="1">Art/Resources/Berries/pl_plantation_mid_berries.gr2</File>
+    <File md5="03EF5275047707E99709D30379DFB9A6" import="1">Art/Resources/Berries/resource_berries.fxsxml</File>
+    <File md5="64C60D567543DA36132001BD56DBDCFE" import="1">Art/Resources/Berries/resource_berries.gr2</File>
+    <File md5="2E2E38B85DC5C48333826B88DA210642" import="1">Art/Resources/Cacao/cacao.fxsxml</File>
+    <File md5="597816E302ACE68C4034D86BA52ED57B" import="1">Art/Resources/Cacao/cacao.gr2</File>
+    <File md5="F88413060FF14F577244CE6D88B956D6" import="1">Art/Resources/Cacao/cacao_trees_diff.dds</File>
+    <File md5="AAF103CBEF9F0D55A83F4F30A045101A" import="1">Art/Resources/Cacao/cacao_trees_pil_diff.dds</File>
+    <File md5="7E6937E578F45DCBFECD766CFFB5763C" import="1">Art/Resources/Cacao/cacao_trees_sref.dds</File>
+    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Cacao/fx_triggers_plantation_ind_cacao_pil.ftsxml</File>
+    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Cacao/fx_triggers_plantation_mid_cacao_pil.ftsxml</File>
+    <File md5="6C867EB8AD5867465AB3B553DDD2ACB3" import="1">Art/Resources/Cacao/plantation_cacao_grnd_h_hb.dds</File>
+    <File md5="23AE2CE627785339D8777B7DE87D61DE" import="1">Art/Resources/Cacao/plantation_cacao_grnd_pil.dds</File>
+    <File md5="3A88F8BDA3797B948F2118812D0B541C" import="1">Art/Resources/Cacao/plantation_ind_cacao.fxsxml</File>
+    <File md5="080811CD344A5C15BF461D6EEBB9250A" import="1">Art/Resources/Cacao/plantation_ind_cacao.gr2</File>
+    <File md5="3A2D41F6F8AB06623AC6DD51B2CB395C" import="1">Art/Resources/Cacao/plantation_ind_cacao_hb.fxsxml</File>
+    <File md5="12E788E92419C2A67150AE6335956961" import="1">Art/Resources/Cacao/plantation_ind_cacao_hb.gr2</File>
+    <File md5="7E6772E929CE67B99FD7092CB30B9574" import="1">Art/Resources/Cacao/plantation_ind_cacao_pil.fxsxml</File>
+    <File md5="B6E604E0A9A9F44906A468BFE0EA82BC" import="1">Art/Resources/Cacao/plantation_ind_cacao_pil.gr2</File>
+    <File md5="4EFE3EC5013FD37F99F3685B8D9435B8" import="1">Art/Resources/Cacao/plantation_mid_cacao.fxsxml</File>
+    <File md5="9ABD628B0A02A02ACA71CA674290A0DB" import="1">Art/Resources/Cacao/plantation_mid_cacao.gr2</File>
+    <File md5="325E5206436444164B47F30FC0571832" import="1">Art/Resources/Cacao/plantation_mid_cacao_hb.fxsxml</File>
+    <File md5="D3FBFD0830372445483A01057858DF58" import="1">Art/Resources/Cacao/plantation_mid_cacao_hb.gr2</File>
+    <File md5="B93C692C41EFB6170373EA48254814EF" import="1">Art/Resources/Cacao/plantation_mid_cacao_pil.fxsxml</File>
+    <File md5="7E480ABFA2E2D317D0B95839D15D29B0" import="1">Art/Resources/Cacao/plantation_mid_cacao_pil.gr2</File>
+    <File md5="8DE07CA68440BEE5A5E17655D2010ED0" import="1">Art/Resources/Flax/flax_diff.dds</File>
+    <File md5="1FE41A9C8AB764E118E0D544ECE4DE43" import="1">Art/Resources/Flax/flax_sref.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Flax/fx_triggers_pl_plantation_ind_flax.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Flax/fx_triggers_pl_plantation_mid_flax.ftsxml</File>
+    <File md5="BBB9D7439471509DDDC7C7B7D3D6D09E" import="1">Art/Resources/Flax/hb_plantation_ind_flax.fxsxml</File>
+    <File md5="E642A4611DAB8693B6C0EBDA7DA47EF7" import="1">Art/Resources/Flax/hb_plantation_ind_flax.gr2</File>
+    <File md5="1011AB4DBA7607ECC0374EF895950B69" import="1">Art/Resources/Flax/hb_plantation_mid_flax.fxsxml</File>
+    <File md5="459FF183B7522E353635157EAC6893FC" import="1">Art/Resources/Flax/hb_plantation_mid_flax.gr2</File>
+    <File md5="3A5A4D74D23126BACA7825E2044EFEDB" import="1">Art/Resources/Flax/plantation_ind_flax.fxsxml</File>
+    <File md5="34AB2BB05701772C605341A09EF1F353" import="1">Art/Resources/Flax/plantation_ind_flax.gr2</File>
+    <File md5="FFF6F2926EE7DAFCABFFB313DEE11FE1" import="1">Art/Resources/Flax/plantation_mid_flax.fxsxml</File>
+    <File md5="9AF1EDEF38B0DD7261F9EB9C6135BDE6" import="1">Art/Resources/Flax/plantation_mid_flax.gr2</File>
+    <File md5="8946BDAF6256EAB834BA924F2A6B90FD" import="1">Art/Resources/Flax/pl_flax_diff.dds</File>
+    <File md5="6655566FBC3D6AF9B43C241CAFD3F24D" import="1">Art/Resources/Flax/pl_plantation_ind_flax.fxsxml</File>
+    <File md5="59D1A015C14E3F3E076368334221A9E0" import="1">Art/Resources/Flax/pl_plantation_ind_flax.gr2</File>
+    <File md5="6EA2998F8AC547CB8391216291DDB09C" import="1">Art/Resources/Flax/pl_plantation_mid_flax.fxsxml</File>
+    <File md5="2903F1A09FC1158F24E25D5D3A0920A3" import="1">Art/Resources/Flax/pl_plantation_mid_flax.gr2</File>
+    <File md5="449A354D6B9479BD6B7EB7D515705FD6" import="1">Art/Resources/Flax/resource_flax.fxsxml</File>
+    <File md5="3E98CA6FF6AB57F929E3B9F31B56641B" import="1">Art/Resources/Flax/resource_flax.gr2</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Mango/fx_triggers_pl_plantation_ind_mango.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Mango/fx_triggers_pl_plantation_mid_mango.ftsxml</File>
+    <File md5="338075CF06BB51D942B5169854CB7C7D" import="1">Art/Resources/Mango/hb_plantation_ind_mango.fxsxml</File>
+    <File md5="DE0AA7E3FA6BD4AB9C4B832CA056E45F" import="1">Art/Resources/Mango/hb_plantation_ind_mango.gr2</File>
+    <File md5="F301C6F53F813D1ABE8A571F2A7C8D45" import="1">Art/Resources/Mango/hb_plantation_mid_mango.fxsxml</File>
+    <File md5="9B7BE3A80540EEB6DFF62D7563BD8C93" import="1">Art/Resources/Mango/hb_plantation_mid_mango.gr2</File>
+    <File md5="A38629EF37A0B3F7C538B3729898B6EB" import="1">Art/Resources/Mango/mango_diff.dds</File>
+    <File md5="74D19D2C72AA09F29748B422D681861D" import="1">Art/Resources/Mango/mango_sref.dds</File>
+    <File md5="DFFB22DA75ED7DF8BDEFD78163FE432A" import="1">Art/Resources/Mango/plantation_ind_mango.fxsxml</File>
+    <File md5="9D4B3E3A0183DFE3AE44A7A8B9510551" import="1">Art/Resources/Mango/plantation_ind_mango.gr2</File>
+    <File md5="940456EC8B0BC747773B03945F029B0F" import="1">Art/Resources/Mango/plantation_mid_mango.fxsxml</File>
+    <File md5="953AD375F7D6F1DF92F3EF5891D50B3D" import="1">Art/Resources/Mango/plantation_mid_mango.gr2</File>
+    <File md5="48D756AE759D6EF6EC55CDAFBA154CA7" import="1">Art/Resources/Mango/pl_mango_diff.dds</File>
+    <File md5="BB8A0AD26AE32463811470E05EBD40F3" import="1">Art/Resources/Mango/pl_plantation_ind_mango.fxsxml</File>
+    <File md5="028C5EDB52C03B5E6E60F9821EFF7597" import="1">Art/Resources/Mango/pl_plantation_ind_mango.gr2</File>
+    <File md5="C03CAD88A4F452AA0B5C2A5250921CC1" import="1">Art/Resources/Mango/pl_plantation_mid_mango.fxsxml</File>
+    <File md5="8E8952A63F8A4BC34B997F9C11F061F7" import="1">Art/Resources/Mango/pl_plantation_mid_mango.gr2</File>
+    <File md5="63EA5C22C0C26A6575CBA464A547B06D" import="1">Art/Resources/Mango/resource_mango.fxsxml</File>
+    <File md5="F7667A1389747E0F37D684295EB435B1" import="1">Art/Resources/Mango/resource_mango.gr2</File> 
+    <File md5="6C47CB47977F424C54A8F8955D33577D" import="1">Art/Units/Effects/fx_ig_heavy.ftsxml</File>
+    <File md5="3D03BB8B12A861E9E919A8ECF96635EB" import="1">Art/Units/Effects/fx_ig_soldier.ftsxml</File>
+    <File md5="7C9B3B60F920B85AD94747A739EB0B3E" import="1">Art/Units/Effects/fx_triggers_baneblade.ftsxml</File>
+    <File md5="43E2415A4A8A788971465BE4D270B3F3" import="1">Art/Units/Effects/fx_triggers_banewolf.ftsxml</File>
+    <File md5="D296E524A45B74419D935043ACBBDCDA" import="1">Art/Units/Effects/fx_triggers_chimera.ftsxml</File>
+    <File md5="230266B54B4DA8EF3D54E2D7F1EFF128" import="1">Art/Units/Effects/fx_triggers_dread.ftsxml</File>
+    <File md5="73E67860F3E5D367545AE186B9170987" import="1">Art/Units/Effects/fx_triggers_hellfire_dread.ftsxml</File>
+    <File md5="D53DF44316F9335E28C9912AD4393787" import="1">Art/Units/Effects/fx_triggers_leman_russ.ftsxml</File>
+    <File md5="D661AA771F2EF3508B8D9024E67FF803" import="1">Art/Units/Effects/fx_triggers_leman_russ_exec.ftsxml</File>
+    <File md5="0486D12539315BD2F7F3073AFDE614CA" import="1">Art/Units/Effects/fx_triggers_manticore.ftsxml</File>
+    <File md5="B21E0E3D626ACF41C33167BBEB64E1EB" import="1">Art/Units/Effects/fx_triggers_ven_dread.ftsxml</File>
+    <File md5="DD3AB7C6E8EFE84CD9B2C74D57601F41" import="1">Art/Units/W40K/Baneblade/baneblade_spc.dds</File>
+    <File md5="EBBCD30CDE2D55746933407283B06DDE" import="1">Art/Units/W40K/Baneblade/baneblade_treads_dif.dds</File>
+    <File md5="561D1E4F2BF0398F5A884DB7AAB9915B" import="1">Art/Units/W40K/Baneblade/baneblade_treads_spc.dds</File>
+    <File md5="C86F270F07564D8680AEBC701D836569" import="1">Art/Units/W40K/Baneblade/edited_baneblade_dif.dds</File>
+    <File md5="2778056486C62CB1616E7FD007AC87DA" import="1">Art/Units/W40K/Baneblade/ig_baneblade.fxsxml</File>
+    <File md5="644C75CCEA7A817EE433D3E0DD11053C" import="1">Art/Units/W40K/Baneblade/ig_baneblade.gr2</File>
+    <File md5="3599F498A26FF59F7E51A54FFE30CAD9" import="1">Art/Units/W40K/Baneblade/ig_banebladeAimH.gr2</File>
+    <File md5="94E307503C7E2E17412F00EFF54B95E4" import="1">Art/Units/W40K/Baneblade/ig_banebladeAimV.gr2</File>
+    <File md5="7FE8EC5993F33B41846F9DCC3B4DE43E" import="1">Art/Units/W40K/Baneblade/ig_banebladeAttack.gr2</File>
+    <File md5="90DD48A09670B39D1EF8B24B764B8BE5" import="1">Art/Units/W40K/Baneblade/ig_banebladeDeath.gr2</File>
+    <File md5="5A43A880C468DB3DDDD9BE54205D7DB5" import="1">Art/Units/W40K/Baneblade/ig_banebladeDrive.gr2</File>
+    <File md5="FACED5C62CDA79DE3DA7F94808AD4C50" import="1">Art/Units/W40K/Baneblade/ig_banebladeIdle.gr2</File>
+    <File md5="B8C0BDDD1577834D1ACECCA3C0FADC98" import="1">Art/Units/W40K/Banewolf Sgt/banewolf_spc.dds</File>
+    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Banewolf Sgt/chimera_spc.dds</File>
+    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Banewolf Sgt/chimera_treads_dif.dds</File>
+    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Banewolf Sgt/chimera_treads_spc.dds</File>
+    <File md5="7F9D9CF14A24EA35CEDCFFA5A1DCAD7B" import="1">Art/Units/W40K/Banewolf Sgt/chimera_turret_multilaser_spc.dds</File>
+    <File md5="BC48525135906C1E072D96C6985CC8AF" import="1">Art/Units/W40K/Banewolf Sgt/edited_banewolf_dif.dds</File>
+    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="1">Art/Units/W40K/Banewolf Sgt/edited_chimera_dif.dds</File>
+    <File md5="41F1346943A6F7380A87FEC05735079E" import="1">Art/Units/W40K/Banewolf Sgt/edited_chimera_turret_multilaser_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Banewolf Sgt/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="1E9539B228F687D611662C5B1DB904F4" import="1">Art/Units/W40K/Banewolf Sgt/edited_leman_russ_dozer_dif.dds</File>
+    <File md5="F9F0760EE2818C3CD7F10DCFE5C6DF39" import="1">Art/Units/W40K/Banewolf Sgt/edited_tank_unlocks_dif.dds</File>
+    <File md5="EE601688BE99747DF41B1F062AB1C322" import="1">Art/Units/W40K/Banewolf Sgt/edited_vehicle_unlock_decor_dif1a.dds</File>
+    <File md5="3FD66514F51984D3DC39C98D5956D86C" import="1">Art/Units/W40K/Banewolf Sgt/ig_banewolf_sgt.fxsxml</File>
+    <File md5="8227C69F60F3F2CC5F9EE69AC908514D" import="1">Art/Units/W40K/Banewolf Sgt/ig_banewolf_sgt.gr2</File>
+    <File md5="A4F48FC2177B35665AD63D8BB62C4646" import="1">Art/Units/W40K/Banewolf Sgt/ig_banewolf_sgtAimH.gr2</File>
+    <File md5="ADD4AE4F66D1C8A0B2D304010F30479E" import="1">Art/Units/W40K/Banewolf Sgt/ig_banewolf_sgtAimV.gr2</File>
+    <File md5="285460D4D712528B5DE489760D090E33" import="1">Art/Units/W40K/Banewolf Sgt/ig_banewolf_sgtAttackA.gr2</File>
+    <File md5="D20BA31AB70012F1D2A8709AF4B97E54" import="1">Art/Units/W40K/Banewolf Sgt/ig_banewolf_sgtAttackB.gr2</File>
+    <File md5="CA32C157A247DF86F0038D059154DBD1" import="1">Art/Units/W40K/Banewolf Sgt/ig_banewolf_sgtDeath.gr2</File>
+    <File md5="89DFA2AA3C78BAFA03622A6EA15AB4D4" import="1">Art/Units/W40K/Banewolf Sgt/ig_banewolf_sgtDrive.gr2</File>
+    <File md5="2943E7DDD90999528E72FD492341518E" import="1">Art/Units/W40K/Banewolf Sgt/ig_banewolf_sgtIdle.gr2</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Banewolf Sgt/leman_russ_chassis_spc.dds</File>
+    <File md5="2F47E7B12D8AC9ABA49BF04B1C900C15" import="1">Art/Units/W40K/Banewolf Sgt/leman_russ_dozer_spc.dds</File>
+    <File md5="2B2BF068F28DC8F5EDB0B9440A73C87C" import="1">Art/Units/W40K/Banewolf Sgt/tank_unlocks_spc.dds</File>
+    <File md5="8184B13A0A0074F65292FC07C63EB2C4" import="1">Art/Units/W40K/Banewolf Sgt/vehicle_unlock_decor_spc.dds</File>
+    <File md5="B8C0BDDD1577834D1ACECCA3C0FADC98" import="1">Art/Units/W40K/Banewolf Vetran/banewolf_spc.dds</File>
+    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Banewolf Vetran/chimera_spc.dds</File>
+    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Banewolf Vetran/chimera_treads_dif.dds</File>
+    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Banewolf Vetran/chimera_treads_spc.dds</File>
+    <File md5="7F9D9CF14A24EA35CEDCFFA5A1DCAD7B" import="1">Art/Units/W40K/Banewolf Vetran/chimera_turret_multilaser_spc.dds</File>
+    <File md5="BC48525135906C1E072D96C6985CC8AF" import="1">Art/Units/W40K/Banewolf Vetran/edited_banewolf_dif.dds</File>
+    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="1">Art/Units/W40K/Banewolf Vetran/edited_chimera_dif.dds</File>
+    <File md5="41F1346943A6F7380A87FEC05735079E" import="1">Art/Units/W40K/Banewolf Vetran/edited_chimera_turret_multilaser_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Banewolf Vetran/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="F9F0760EE2818C3CD7F10DCFE5C6DF39" import="1">Art/Units/W40K/Banewolf Vetran/edited_tank_unlocks_dif.dds</File>
+    <File md5="E4E4E9E7FC2A93856E86DC5B74C89CE6" import="1">Art/Units/W40K/Banewolf Vetran/ig_banewolf_vet.fxsxml</File>
+    <File md5="F7F69D2FE82D8A3978A31A1DE11500E8" import="1">Art/Units/W40K/Banewolf Vetran/ig_banewolf_vet.gr2</File>
+    <File md5="143BC7234374815304D676A571362068" import="1">Art/Units/W40K/Banewolf Vetran/ig_banewolf_vetAimH.gr2</File>
+    <File md5="2E59256D3A1D9D2B2BDB3A74BA487185" import="1">Art/Units/W40K/Banewolf Vetran/ig_banewolf_vetAimV.gr2</File>
+    <File md5="3CBB0797613CB507924A7A62118A42FB" import="1">Art/Units/W40K/Banewolf Vetran/ig_banewolf_vetAttackA.gr2</File>
+    <File md5="A21A9D5BB63AFFE7847AB7228AEC8957" import="1">Art/Units/W40K/Banewolf Vetran/ig_banewolf_vetAttackB.gr2</File>
+    <File md5="DDA6082D7FA4423AA4941B3E4A6F4515" import="1">Art/Units/W40K/Banewolf Vetran/ig_banewolf_vetDeath.gr2</File>
+    <File md5="058DB8CF758B34F2F1B1DE6D78DFDB4E" import="1">Art/Units/W40K/Banewolf Vetran/ig_banewolf_vetDrive.gr2</File>
+    <File md5="3CEE245030F718CD2570F6F2C1F7687E" import="1">Art/Units/W40K/Banewolf Vetran/ig_banewolf_vetIdle.gr2</File>
+    <File md5="2B2BF068F28DC8F5EDB0B9440A73C87C" import="1">Art/Units/W40K/Banewolf Vetran/tank_unlocks_spc.dds</File>
+    <File md5="B8C0BDDD1577834D1ACECCA3C0FADC98" import="1">Art/Units/W40K/Banewolf/banewolf_spc.dds</File>
+    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Banewolf/chimera_spc.dds</File>
+    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Banewolf/chimera_treads_dif.dds</File>
+    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Banewolf/chimera_treads_spc.dds</File>
+    <File md5="BC48525135906C1E072D96C6985CC8AF" import="1">Art/Units/W40K/Banewolf/edited_banewolf_dif.dds</File>
+    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="1">Art/Units/W40K/Banewolf/edited_chimera_dif.dds</File>
+    <File md5="2F76CFC4ECB7549F361976197E63770A" import="1">Art/Units/W40K/Banewolf/ig_banewolf.fxsxml</File>
+    <File md5="9FC1B2E65E88435E29DBA438EFE3C71D" import="1">Art/Units/W40K/Banewolf/ig_banewolf.gr2</File>
+    <File md5="8F5F8FCA0B67D8CFD906053FC32A2665" import="1">Art/Units/W40K/Banewolf/ig_banewolfAimH.gr2</File>
+    <File md5="BEF2BB8BADB856FE67EB40D37A069CCB" import="1">Art/Units/W40K/Banewolf/ig_banewolfAimV.gr2</File>
+    <File md5="7CA3AE4CB18B7818ACCBDF5C397CE856" import="1">Art/Units/W40K/Banewolf/ig_banewolfAttackA.gr2</File>
+    <File md5="95F20A6E21E96C73C25B7B6E56B28826" import="1">Art/Units/W40K/Banewolf/ig_banewolfAttackB.gr2</File>
+    <File md5="2E8B76BC863C07FA126CD52FC8AFE96E" import="1">Art/Units/W40K/Banewolf/ig_banewolfDeath.gr2</File>
+    <File md5="8B515D40DFF8084583FF187899F90602" import="1">Art/Units/W40K/Banewolf/ig_banewolfDrive.gr2</File>
+    <File md5="1B63740D584822D8D930FD391471EF21" import="1">Art/Units/W40K/Banewolf/ig_banewolfIdle.gr2</File>
+    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Chimera Dozer/chimera_spc.dds</File>
+    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Chimera Dozer/chimera_treads_dif.dds</File>
+    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Chimera Dozer/chimera_treads_spc.dds</File>
+    <File md5="7F9D9CF14A24EA35CEDCFFA5A1DCAD7B" import="1">Art/Units/W40K/Chimera Dozer/chimera_turret_multilaser_spc.dds</File>
+    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="1">Art/Units/W40K/Chimera Dozer/edited_chimera_dif.dds</File>
+    <File md5="41F1346943A6F7380A87FEC05735079E" import="1">Art/Units/W40K/Chimera Dozer/edited_chimera_turret_multilaser_dif.dds</File>
+    <File md5="1E9539B228F687D611662C5B1DB904F4" import="1">Art/Units/W40K/Chimera Dozer/edited_leman_russ_dozer_dif.dds</File>
+    <File md5="A4F2BF5E0D4189DAFE0FAD38D64473F9" import="1">Art/Units/W40K/Chimera Dozer/ig_chimera_dozer.fxsxml</File>
+    <File md5="470D46EB79CF126B3EECB421E1EF9C73" import="1">Art/Units/W40K/Chimera Dozer/ig_chimera_dozer.gr2</File>
+    <File md5="79B33721AFF8F1BAE539C455B868E0FF" import="1">Art/Units/W40K/Chimera Dozer/ig_chimera_dozerAimH.gr2</File>
+    <File md5="F9E16B268879E372BB8D4EDB3AD6FD55" import="1">Art/Units/W40K/Chimera Dozer/ig_chimera_dozerAimV.gr2</File>
+    <File md5="D5B57B5347236A251A71EB9FFAC90A5A" import="1">Art/Units/W40K/Chimera Dozer/ig_chimera_dozerAttack.gr2</File>
+    <File md5="7F710E2972A1737F9EB3C17252EEB6A9" import="1">Art/Units/W40K/Chimera Dozer/ig_chimera_dozerDeath.gr2</File>
+    <File md5="BEF0D6B8AEF289910D65495EF9B13EDA" import="1">Art/Units/W40K/Chimera Dozer/ig_chimera_dozerDrive.gr2</File>
+    <File md5="80B7759172F563F311A736417BBDC0DF" import="1">Art/Units/W40K/Chimera Dozer/ig_chimera_dozerFidget.gr2</File>
+    <File md5="A5DE0AD69B6AEB4C22B2AE5912CD7A35" import="1">Art/Units/W40K/Chimera Dozer/ig_chimera_dozerIdle.gr2</File>
+    <File md5="2F47E7B12D8AC9ABA49BF04B1C900C15" import="1">Art/Units/W40K/Chimera Dozer/leman_russ_dozer_spc.dds</File>
+    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Chimera Vetran/chimera_spc.dds</File>
+    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Chimera Vetran/chimera_treads_dif.dds</File>
+    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Chimera Vetran/chimera_treads_spc.dds</File>
+    <File md5="7F9D9CF14A24EA35CEDCFFA5A1DCAD7B" import="1">Art/Units/W40K/Chimera Vetran/chimera_turret_multilaser_spc.dds</File>
+    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="1">Art/Units/W40K/Chimera Vetran/edited_chimera_dif.dds</File>
+    <File md5="41F1346943A6F7380A87FEC05735079E" import="1">Art/Units/W40K/Chimera Vetran/edited_chimera_turret_multilaser_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Chimera Vetran/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="1E9539B228F687D611662C5B1DB904F4" import="1">Art/Units/W40K/Chimera Vetran/edited_leman_russ_dozer_dif.dds</File>
+    <File md5="F9F0760EE2818C3CD7F10DCFE5C6DF39" import="1">Art/Units/W40K/Chimera Vetran/edited_tank_unlocks_dif.dds</File>
+    <File md5="EE601688BE99747DF41B1F062AB1C322" import="1">Art/Units/W40K/Chimera Vetran/edited_vehicle_unlock_decor_dif1a.dds</File>
+    <File md5="9A3146C4AA6FDA0A7AEB2E50E5785B11" import="1">Art/Units/W40K/Chimera Vetran/ig_chimera_vet.fxsxml</File>
+    <File md5="1B8A629816C21E207AC65B9583F055CE" import="1">Art/Units/W40K/Chimera Vetran/ig_chimera_vet.gr2</File>
+    <File md5="640A5ABDCED239389239DF5D36FF4CE7" import="1">Art/Units/W40K/Chimera Vetran/ig_chimera_vetAimH.gr2</File>
+    <File md5="269352246504A732F12036B2E21C572F" import="1">Art/Units/W40K/Chimera Vetran/ig_chimera_vetAimV.gr2</File>
+    <File md5="AFC56C3308B19789162C4C739871BA46" import="1">Art/Units/W40K/Chimera Vetran/ig_chimera_vetAttack.gr2</File>
+    <File md5="6AF341BFB9ADB3B14185A8850A3E0EEF" import="1">Art/Units/W40K/Chimera Vetran/ig_chimera_vetDeath.gr2</File>
+    <File md5="214E49BFA5F62242B83EF3715D89DEC1" import="1">Art/Units/W40K/Chimera Vetran/ig_chimera_vetDrive.gr2</File>
+    <File md5="0383A664BAA5A6677AE6B4A46DEF6D71" import="1">Art/Units/W40K/Chimera Vetran/ig_chimera_vetFidget.gr2</File>
+    <File md5="346ED98324EBEA2E88E8B725D2A2DE3E" import="1">Art/Units/W40K/Chimera Vetran/ig_chimera_vetIdle.gr2</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Chimera Vetran/leman_russ_chassis_spc.dds</File>
+    <File md5="2F47E7B12D8AC9ABA49BF04B1C900C15" import="1">Art/Units/W40K/Chimera Vetran/leman_russ_dozer_spc.dds</File>
+    <File md5="2B2BF068F28DC8F5EDB0B9440A73C87C" import="1">Art/Units/W40K/Chimera Vetran/tank_unlocks_spc.dds</File>
+    <File md5="8184B13A0A0074F65292FC07C63EB2C4" import="1">Art/Units/W40K/Chimera Vetran/vehicle_unlock_decor_spc.dds</File>
+    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Chimera/chimera_spc.dds</File>
+    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Chimera/chimera_treads_dif.dds</File>
+    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Chimera/chimera_treads_spc.dds</File>
+    <File md5="7F9D9CF14A24EA35CEDCFFA5A1DCAD7B" import="1">Art/Units/W40K/Chimera/chimera_turret_multilaser_spc.dds</File>
+    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="1">Art/Units/W40K/Chimera/edited_chimera_dif.dds</File>
+    <File md5="41F1346943A6F7380A87FEC05735079E" import="1">Art/Units/W40K/Chimera/edited_chimera_turret_multilaser_dif.dds</File>
+    <File md5="CB46C34A5BB577059C2D6B4462095969" import="1">Art/Units/W40K/Chimera/ig_chimera.fxsxml</File>
+    <File md5="734E877B094119B18128C543A20BA8F9" import="1">Art/Units/W40K/Chimera/ig_chimera.gr2</File>
+    <File md5="80DE6C640666E3B5C58D1B36DAD00571" import="1">Art/Units/W40K/Chimera/ig_chimeraAimH.gr2</File>
+    <File md5="63317345119BA3A6924C3D26F4760B50" import="1">Art/Units/W40K/Chimera/ig_chimeraAimV.gr2</File>
+    <File md5="0F6F0CDAF3A1A6CB775131EB27425C8B" import="1">Art/Units/W40K/Chimera/ig_chimeraAttack.gr2</File>
+    <File md5="2833CC48A3935F921DAEAFFDE84D05D8" import="1">Art/Units/W40K/Chimera/ig_chimeraDeath.gr2</File>
+    <File md5="45560CF16587055540A768693B8EE8BA" import="1">Art/Units/W40K/Chimera/ig_chimeraDrive.gr2</File>
+    <File md5="4C7507BD052BC8F10C2BB95971711A66" import="1">Art/Units/W40K/Chimera/ig_chimeraFidget.gr2</File>
+    <File md5="6938398C696B8E4FD37C178DCA76CB99" import="1">Art/Units/W40K/Chimera/ig_chimeraIdle.gr2</File>
+    <File md5="29D2A09F1A25D923AF289634302350D9" import="1">Art/Units/W40K/Dread/dread.fxsxml</File>
+    <File md5="E9F665675705A066A5CBAB3A7887990B" import="1">Art/Units/W40K/Dread/dread.gr2</File>
+    <File md5="1B7BC5DB4A847C5C80A45F2617EFED62" import="1">Art/Units/W40K/Dread/dreadAttackA.gr2</File>
+    <File md5="70723AAABAB22790B84FCB6A33EDE229" import="1">Art/Units/W40K/Dread/dreadAttackB.gr2</File>
+    <File md5="D937898653F179D2A94C9BED0A2FFA26" import="1">Art/Units/W40K/Dread/dreadDieA.gr2</File>
+    <File md5="1EF498784273F9EDC3F4FFCC3F4B362A" import="1">Art/Units/W40K/Dread/dreadDieB.gr2</File>
+    <File md5="B955BF7149730B91CEA4E5A8E5224D98" import="1">Art/Units/W40K/Dread/dreadIdleA.gr2</File>
+    <File md5="8ED4C00EA708761A501EE131E66215AD" import="1">Art/Units/W40K/Dread/dreadIdleB.gr2</File>
+    <File md5="6E8FF5F68E836BF33B2A089C206F0241" import="1">Art/Units/W40K/Dread/dreadnought_arms_spc.dds</File>
+    <File md5="E1772267F35FCCA540FBCAC1FA3CDFFC" import="1">Art/Units/W40K/Dread/dreadnought_assault_cannon_spc.dds</File>
+    <File md5="4ABE92D275249F500CD0E039E84247B6" import="1">Art/Units/W40K/Dread/dreadnought_spc.dds</File>
+    <File md5="D7BE6C448F26C0C1FE75898C5BA09CD3" import="1">Art/Units/W40K/Dread/dreadRun.gr2</File>
+    <File md5="DC2AFF85435BBA3F1473933330A733D6" import="1">Art/Units/W40K/Dread/edited_dreadnought_arms_dif.dds</File>
+    <File md5="0466C6D5BA32B93E346A73164D666BEC" import="1">Art/Units/W40K/Dread/edited_dreadnought_assault_cannon_dif.dds</File>
+    <File md5="20A9A4870DB97EF35BA227E58800F307" import="1">Art/Units/W40K/Dread/edited_dreadnought_dif.dds</File>
+    <File md5="C04EA895AB52219FD1306543C06FBD14" import="1">Art/Units/W40K/Dread/hellfire_dreadAttackCityA.gr2</File>
+    <File md5="7D3A4286FB58059DB0D91F4749C9E127" import="1">Art/Units/W40K/Dread/hellfire_dreadAttackCityB.gr2</File>
+    <File md5="71427DC5656F998ED72EDB3452AB0E20" import="1">Art/Units/W40K/Heavy/edited2_ig_armour_dif.dds</File>
+    <File md5="443A67DFFE4D0EBE7DC884EA2FC8F767" import="1">Art/Units/W40K/Heavy/edited_hellgun_dif.dds</File>
+    <File md5="22B9354E9C9824B0CC43DE2B58CB1CE8" import="1">Art/Units/W40K/Heavy/edited_ig_trooper_common_a_dif.dds</File>
+    <File md5="ED67EC25333C9E2302926FF5594E028C" import="1">Art/Units/W40K/Heavy/hellgun_spc.dds</File>
+    <File md5="8C5EEA4F4C9B6EE14B9F7FDB50E8ABDA" import="1">Art/Units/W40K/Heavy/ig_armour_spc.dds</File>
+    <File md5="AE1C4F0A62E1E8A9E74DB2C72AADB0F5" import="1">Art/Units/W40K/Heavy/ig_heavy.fxsxml</File>
+    <File md5="4B9BE5CC2058F0E6AA5C92989B3A82C0" import="1">Art/Units/W40K/Heavy/ig_heavy.gr2</File>
+    <File md5="9BB879B2ABB4514468C2E87C7E6E4D3B" import="1">Art/Units/W40K/Heavy/ig_heavyAttackCItyA.gr2</File>
+    <File md5="90168A124F2DCC6479B5F7046C9C836E" import="1">Art/Units/W40K/Heavy/ig_heavyAttackCityB.gr2</File>
+    <File md5="E539E689F4D687A3763B09DE24810CB0" import="1">Art/Units/W40K/Heavy/ig_heavyCharge.gr2</File>
+    <File md5="579BB495C93879EDADD5744BFA137A64" import="1">Art/Units/W40K/Heavy/ig_heavyCombatReady.gr2</File>
+    <File md5="17B0CF04FEA278487134E45601CA6324" import="1">Art/Units/W40K/Heavy/ig_heavyDieA.gr2</File>
+    <File md5="6617BF31193342AF55EE124775DC9E22" import="1">Art/Units/W40K/Heavy/ig_heavyDieB.gr2</File>
+    <File md5="42A8A2283CD3A38626EFDE520D9AC51D" import="1">Art/Units/W40K/Heavy/ig_heavyFidgetA.gr2</File>
+    <File md5="0F562F220E09A4AC2F680A0DF83C6FC8" import="1">Art/Units/W40K/Heavy/ig_heavyFidgetB.gr2</File>
+    <File md5="5C28FD1765A5FE41ADC08E8846B8D68F" import="1">Art/Units/W40K/Heavy/ig_heavyFortifyCR.gr2</File>
+    <File md5="750548FFE550AB5725EA00E84D5EADEB" import="1">Art/Units/W40K/Heavy/ig_heavyFortifyFidget.gr2</File>
+    <File md5="156A6B8B944B696A502CAC828C8CA905" import="1">Art/Units/W40K/Heavy/ig_heavyFortifyIdle.gr2</File>
+    <File md5="CC6EB7673C8639C611BE74AB67AD521F" import="1">Art/Units/W40K/Heavy/ig_heavyIdleA.gr2</File>
+    <File md5="579967419B8649357BD1865977F2CD17" import="1">Art/Units/W40K/Heavy/ig_heavyIdleB.gr2</File>
+    <File md5="650AB8AEC10C370AD9B7ECE387EB2B88" import="1">Art/Units/W40K/Heavy/ig_heavyRun.gr2</File>
+    <File md5="6DCDE0063D445384B37B9F77ACFB5640" import="1">Art/Units/W40K/Heavy/ig_trooper_common_a_spc.dds</File>
+    <File md5="6E8FF5F68E836BF33B2A089C206F0241" import="1">Art/Units/W40K/Hellfire Dread/dreadnought_arms_spc.dds</File>
+    <File md5="64CCD800653AC51C3D4C826263BBB7FB" import="1">Art/Units/W40K/Hellfire Dread/dreadnought_assault_cannon_epic_spc.dds</File>
+    <File md5="E7E640895607749F73C5795F725C92DE" import="1">Art/Units/W40K/Hellfire Dread/dreadnought_assault_cannon_e_accessories_spc.dds</File>
+    <File md5="157399EACF3B1520E7DFE075A46D2211" import="1">Art/Units/W40K/Hellfire Dread/dreadnought_flamer_spc.dds</File>
+    <File md5="4D1CEC25A239FB52C44B61C1735440BF" import="1">Art/Units/W40K/Hellfire Dread/dreadnought_grenade_launcher_spc.dds</File>
+    <File md5="4ABE92D275249F500CD0E039E84247B6" import="1">Art/Units/W40K/Hellfire Dread/dreadnought_spc.dds</File>
+    <File md5="624C30EF6C5B3F8ADC3340F6943FA9F3" import="1">Art/Units/W40K/Hellfire Dread/dreadnought_venerable_spc.dds</File>
+    <File md5="51CB0A3640924DEAFBBD59205ADB43EC" import="1">Art/Units/W40K/Hellfire Dread/edited_dreadnought_arms_dif.dds</File>
+    <File md5="4189850D26D432D1D31ECB41DCB31BED" import="1">Art/Units/W40K/Hellfire Dread/edited_dreadnought_assault_cannon_epic_dif.dds</File>
+    <File md5="2B973E46D437D6EECAA76D9B88D2173C" import="1">Art/Units/W40K/Hellfire Dread/edited_dreadnought_assault_cannon_e_accessories_dif.dds</File>
+    <File md5="FBAC1ACB61D58BDD86C95C29DFD6C783" import="1">Art/Units/W40K/Hellfire Dread/edited_dreadnought_dif.dds</File>
+    <File md5="4528CC47697ED1956A4DFDAE232AACFC" import="1">Art/Units/W40K/Hellfire Dread/edited_dreadnought_flamer_dif.dds</File>
+    <File md5="96FE190D2195BD9F7030433B21F297E1" import="1">Art/Units/W40K/Hellfire Dread/edited_dreadnought_grenade_launcher_dif.dds</File>
+    <File md5="E303E92AAA9A181A90A096327C431324" import="1">Art/Units/W40K/Hellfire Dread/edited_dreadnought_venerable_dif.dds</File>
+    <File md5="AD872B9BE213C45611FD33B7A33D535B" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dread.fxsxml</File>
+    <File md5="F43F1D743EAE68BAC90A92EDC39B94AE" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dread.gr2</File>
+    <File md5="FCBFE7A123153486D62D893FCF5E4CE9" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dreadAttackA.gr2</File>
+    <File md5="96C492EDE6FBB8FD2B83F088D98488D6" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dreadAttackB.gr2</File>
+    <File md5="3F787248122E1A975A5A976413427219" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dreadAttackC.gr2</File>
+    <File md5="C04EA895AB52219FD1306543C06FBD14" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dreadAttackCityA.gr2</File>
+    <File md5="7D3A4286FB58059DB0D91F4749C9E127" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dreadAttackCityB.gr2</File>
+    <File md5="902F1A4313E9B62C570C51BD1CE3F572" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dreadDieA.gr2</File>
+    <File md5="D59B2FF5E49530614DF8678EA2F7773A" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dreadDieB.gr2</File>
+    <File md5="B92D4B8A36371FF67D23DDAC891CB29A" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dreadIdleA.gr2</File>
+    <File md5="8B989EB712EFCDE2B87A1BF2876301F2" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dreadIdleB.gr2</File>
+    <File md5="034425AB08FF489179CAFC884AB798D3" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dreadIdleC.gr2</File>
+    <File md5="4EC7A8607C25B51386B72DFC7C0B1CE9" import="1">Art/Units/W40K/Hellfire Dread/hellfire_dreadRun.gr2</File>
+    <File md5="A366F49558252C93F1D84A0F295CDEB6" import="1">Art/Units/W40K/Leman Dozer/edited_leman_russ_battlecannon_turret_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Leman Dozer/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="1E9539B228F687D611662C5B1DB904F4" import="1">Art/Units/W40K/Leman Dozer/edited_leman_russ_dozer_dif.dds</File>
+    <File md5="E11353BB5DEEF186871FF230A592658B" import="1">Art/Units/W40K/Leman Dozer/ig_leman_russ_dozer.fxsxml</File>
+    <File md5="3CB2E94725E4A93D05195A19CFF1DB50" import="1">Art/Units/W40K/Leman Dozer/ig_leman_russ_dozer.gr2</File>
+    <File md5="8AC52C3E0A78E0E489AA0A0D06EE987E" import="1">Art/Units/W40K/Leman Dozer/ig_leman_russ_dozerAimH.gr2</File>
+    <File md5="362A26AE4D335FB85FD4EA3FA170AFF9" import="1">Art/Units/W40K/Leman Dozer/ig_leman_russ_dozerAimV.gr2</File>
+    <File md5="6F2FD4BA963D8E9CF67552D48A08AA90" import="1">Art/Units/W40K/Leman Dozer/ig_leman_russ_dozerAttackA.gr2</File>
+    <File md5="41D59E0633A1246B6629A3106072836C" import="1">Art/Units/W40K/Leman Dozer/ig_leman_russ_dozerAttackB.gr2</File>
+    <File md5="2E05EA6C4B0FC1977AFEB8F006FCD2D4" import="1">Art/Units/W40K/Leman Dozer/ig_leman_russ_dozerDeath.gr2</File>
+    <File md5="F08190EBFFCDB76953B6A8AA86B28DD5" import="1">Art/Units/W40K/Leman Dozer/ig_leman_russ_dozerDrive.gr2</File>
+    <File md5="655EECE2D776CD2FC2D2EAFC48425445" import="1">Art/Units/W40K/Leman Dozer/ig_leman_russ_dozerIdle.gr2</File>
+    <File md5="27E32E05D1F5465EC43A4DD02956457A" import="1">Art/Units/W40K/Leman Dozer/leman_russ_battlecannon_turret_spc.dds</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Leman Dozer/leman_russ_chassis_spc.dds</File>
+    <File md5="2F47E7B12D8AC9ABA49BF04B1C900C15" import="1">Art/Units/W40K/Leman Dozer/leman_russ_dozer_spc.dds</File>
+    <File md5="DCBF9915B9CB0BBE388253BD1BC6378D" import="1">Art/Units/W40K/Leman Dozer/leman_russ_treads_dif.dds</File>
+    <File md5="D221DD01762BDF7BD8F91511143C7952" import="1">Art/Units/W40K/Leman Dozer/leman_russ_treads_spc.dds</File>
+    <File md5="A366F49558252C93F1D84A0F295CDEB6" import="1">Art/Units/W40K/Leman Sgt Dozer/edited_leman_russ_battlecannon_turret_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Leman Sgt Dozer/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="1E9539B228F687D611662C5B1DB904F4" import="1">Art/Units/W40K/Leman Sgt Dozer/edited_leman_russ_dozer_dif.dds</File>
+    <File md5="493996F69740499F93BAF2DDEEF10E4E" import="1">Art/Units/W40K/Leman Sgt Dozer/edited_leman_russ_executioner_dif.dds</File>
+    <File md5="316F656FE140088CB1DA291F7BA47886" import="1">Art/Units/W40K/Leman Sgt Dozer/ig_leman_russ_exec_dozer.fxsxml</File>
+    <File md5="B3B28CC8E589E0993E27A9EA47EC4B3E" import="1">Art/Units/W40K/Leman Sgt Dozer/ig_leman_russ_exec_dozer.gr2</File>
+    <File md5="58F542AA33712BBB3895CC7F9319BB3A" import="1">Art/Units/W40K/Leman Sgt Dozer/ig_leman_russ_exec_dozerAimH.gr2</File>
+    <File md5="EAA378848B066D786DDF7DD59B248D99" import="1">Art/Units/W40K/Leman Sgt Dozer/ig_leman_russ_exec_dozerAimV.gr2</File>
+    <File md5="AFE2A2BDB25EB3950B75281CC7F66417" import="1">Art/Units/W40K/Leman Sgt Dozer/ig_leman_russ_exec_dozerAttackA.gr2</File>
+    <File md5="CFD83B21419C66E21B11BBFEB8581F2D" import="1">Art/Units/W40K/Leman Sgt Dozer/ig_leman_russ_exec_dozerAttackB.gr2</File>
+    <File md5="BEA5F7CA64B7407E959FB1F3A9F02F67" import="1">Art/Units/W40K/Leman Sgt Dozer/ig_leman_russ_exec_dozerDeath.gr2</File>
+    <File md5="B0FDBC086B71D0183769599A6ACB084C" import="1">Art/Units/W40K/Leman Sgt Dozer/ig_leman_russ_exec_dozerDrive.gr2</File>
+    <File md5="4A827FCCA59258B8C6E1B85F4A874CA5" import="1">Art/Units/W40K/Leman Sgt Dozer/ig_leman_russ_exec_dozerIdle.gr2</File>
+    <File md5="27E32E05D1F5465EC43A4DD02956457A" import="1">Art/Units/W40K/Leman Sgt Dozer/leman_russ_battlecannon_turret_spc.dds</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Leman Sgt Dozer/leman_russ_chassis_spc.dds</File>
+    <File md5="2F47E7B12D8AC9ABA49BF04B1C900C15" import="1">Art/Units/W40K/Leman Sgt Dozer/leman_russ_dozer_spc.dds</File>
+    <File md5="BC64AF47151C7A45A729A6CF897B1BD5" import="1">Art/Units/W40K/Leman Sgt Dozer/leman_russ_executioner_spc.dds</File>
+    <File md5="DCBF9915B9CB0BBE388253BD1BC6378D" import="1">Art/Units/W40K/Leman Sgt Dozer/leman_russ_treads_dif.dds</File>
+    <File md5="D221DD01762BDF7BD8F91511143C7952" import="1">Art/Units/W40K/Leman Sgt Dozer/leman_russ_treads_spc.dds</File>
+    <File md5="A366F49558252C93F1D84A0F295CDEB6" import="1">Art/Units/W40K/Leman Sgt/edited_leman_russ_battlecannon_turret_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Leman Sgt/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="493996F69740499F93BAF2DDEEF10E4E" import="1">Art/Units/W40K/Leman Sgt/edited_leman_russ_executioner_dif.dds</File>
+    <File md5="809E211807EB296AA88BF97998DB0780" import="1">Art/Units/W40K/Leman Sgt/ig_leman_russ_exec.fxsxml</File>
+    <File md5="869E6CF2EF2B1B632FFFCEAA30BBA90D" import="1">Art/Units/W40K/Leman Sgt/ig_leman_russ_exec.gr2</File>
+    <File md5="348275EDF81399DC66C8538F5F360ED7" import="1">Art/Units/W40K/Leman Sgt/ig_leman_russ_execAimH.gr2</File>
+    <File md5="F57FEB1F3767264D1FDC978DF79BF917" import="1">Art/Units/W40K/Leman Sgt/ig_leman_russ_execAimV.gr2</File>
+    <File md5="4DF1EC7212D01046FD570930C11289D5" import="1">Art/Units/W40K/Leman Sgt/ig_leman_russ_execAttackA.gr2</File>
+    <File md5="D282031D20EE6C860DF2B55A94A15FD9" import="1">Art/Units/W40K/Leman Sgt/ig_leman_russ_execAttackB.gr2</File>
+    <File md5="2B46BD833BB160BD5B043856770A0618" import="1">Art/Units/W40K/Leman Sgt/ig_leman_russ_execDeath.gr2</File>
+    <File md5="8BE3F55A6772E27D094F1D258F588C9C" import="1">Art/Units/W40K/Leman Sgt/ig_leman_russ_execDrive.gr2</File>
+    <File md5="4AEE86EE90C271FC89BB5F8701449808" import="1">Art/Units/W40K/Leman Sgt/ig_leman_russ_execIdle.gr2</File>
+    <File md5="27E32E05D1F5465EC43A4DD02956457A" import="1">Art/Units/W40K/Leman Sgt/leman_russ_battlecannon_turret_spc.dds</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Leman Sgt/leman_russ_chassis_spc.dds</File>
+    <File md5="BC64AF47151C7A45A729A6CF897B1BD5" import="1">Art/Units/W40K/Leman Sgt/leman_russ_executioner_spc.dds</File>
+    <File md5="DCBF9915B9CB0BBE388253BD1BC6378D" import="1">Art/Units/W40K/Leman Sgt/leman_russ_treads_dif.dds</File>
+    <File md5="D221DD01762BDF7BD8F91511143C7952" import="1">Art/Units/W40K/Leman Sgt/leman_russ_treads_spc.dds</File>
+    <File md5="A366F49558252C93F1D84A0F295CDEB6" import="1">Art/Units/W40K/Leman Vanquisher Dozer/edited_leman_russ_battlecannon_turret_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Leman Vanquisher Dozer/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="1E9539B228F687D611662C5B1DB904F4" import="1">Art/Units/W40K/Leman Vanquisher Dozer/edited_leman_russ_dozer_dif.dds</File>
+    <File md5="C65CC5B58AEE4414420DCDF88EB1F6BF" import="1">Art/Units/W40K/Leman Vanquisher Dozer/ig_leman_russ_vanq_dozer.fxsxml</File>
+    <File md5="88308C0538B0D0185D10A111CD4D750B" import="1">Art/Units/W40K/Leman Vanquisher Dozer/ig_leman_russ_vanq_dozer.gr2</File>
+    <File md5="0F2B8338EEF4257108935CDDB5BB3B4D" import="1">Art/Units/W40K/Leman Vanquisher Dozer/ig_leman_russ_vanq_dozerAimH.gr2</File>
+    <File md5="AC0C2C5220796B21ACC77B0F304AE92F" import="1">Art/Units/W40K/Leman Vanquisher Dozer/ig_leman_russ_vanq_dozerAimV.gr2</File>
+    <File md5="7A04ABE4388195C9C215308942B441CA" import="1">Art/Units/W40K/Leman Vanquisher Dozer/ig_leman_russ_vanq_dozerAttackA.gr2</File>
+    <File md5="6C5E3C37A554DC25A00146E6D0FDEDB2" import="1">Art/Units/W40K/Leman Vanquisher Dozer/ig_leman_russ_vanq_dozerAttackB.gr2</File>
+    <File md5="2015467CA494D33832616B1D430FECA4" import="1">Art/Units/W40K/Leman Vanquisher Dozer/ig_leman_russ_vanq_dozerDeath.gr2</File>
+    <File md5="4E10C10AF05C392BBB517D7E6AB4E952" import="1">Art/Units/W40K/Leman Vanquisher Dozer/ig_leman_russ_vanq_dozerDrive.gr2</File>
+    <File md5="A96188675922AB77A83EEE0995FFAADF" import="1">Art/Units/W40K/Leman Vanquisher Dozer/ig_leman_russ_vanq_dozerIdle.gr2</File>
+    <File md5="27E32E05D1F5465EC43A4DD02956457A" import="1">Art/Units/W40K/Leman Vanquisher Dozer/leman_russ_battlecannon_turret_spc.dds</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Leman Vanquisher Dozer/leman_russ_chassis_spc.dds</File>
+    <File md5="2F47E7B12D8AC9ABA49BF04B1C900C15" import="1">Art/Units/W40K/Leman Vanquisher Dozer/leman_russ_dozer_spc.dds</File>
+    <File md5="DCBF9915B9CB0BBE388253BD1BC6378D" import="1">Art/Units/W40K/Leman Vanquisher Dozer/leman_russ_treads_dif.dds</File>
+    <File md5="D221DD01762BDF7BD8F91511143C7952" import="1">Art/Units/W40K/Leman Vanquisher Dozer/leman_russ_treads_spc.dds</File>
+    <File md5="A366F49558252C93F1D84A0F295CDEB6" import="1">Art/Units/W40K/Leman Vanquisher/edited_leman_russ_battlecannon_turret_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Leman Vanquisher/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="06A5EF9C8FDC696E3209263320FEA275" import="1">Art/Units/W40K/Leman Vanquisher/ig_leman_russ_vanq.fxsxml</File>
+    <File md5="818977987998F45677DCB847336A77C5" import="1">Art/Units/W40K/Leman Vanquisher/ig_leman_russ_vanq.gr2</File>
+    <File md5="14CA3FD124C35EF6DCBA34BFB0AA30DE" import="1">Art/Units/W40K/Leman Vanquisher/ig_leman_russ_vanqAimH.gr2</File>
+    <File md5="C9A2CF81A8C16553C7044497ED7759A5" import="1">Art/Units/W40K/Leman Vanquisher/ig_leman_russ_vanqAimV.gr2</File>
+    <File md5="8E83CFCF8659CCC97397DF5BD22E6B25" import="1">Art/Units/W40K/Leman Vanquisher/ig_leman_russ_vanqAttackA.gr2</File>
+    <File md5="AEA3AE6CADCD8573EC91731551CE9E41" import="1">Art/Units/W40K/Leman Vanquisher/ig_leman_russ_vanqAttackB.gr2</File>
+    <File md5="4A8A6C64963C2E7FDD482CE0C6607976" import="1">Art/Units/W40K/Leman Vanquisher/ig_leman_russ_vanqDeath.gr2</File>
+    <File md5="719616DD2FFDEC0D88E3714AA71D54D3" import="1">Art/Units/W40K/Leman Vanquisher/ig_leman_russ_vanqDrive.gr2</File>
+    <File md5="043469357FC73B73C659D06B06A46D85" import="1">Art/Units/W40K/Leman Vanquisher/ig_leman_russ_vanqIdle.gr2</File>
+    <File md5="27E32E05D1F5465EC43A4DD02956457A" import="1">Art/Units/W40K/Leman Vanquisher/leman_russ_battlecannon_turret_spc.dds</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Leman Vanquisher/leman_russ_chassis_spc.dds</File>
+    <File md5="DCBF9915B9CB0BBE388253BD1BC6378D" import="1">Art/Units/W40K/Leman Vanquisher/leman_russ_treads_dif.dds</File>
+    <File md5="D221DD01762BDF7BD8F91511143C7952" import="1">Art/Units/W40K/Leman Vanquisher/leman_russ_treads_spc.dds</File>
+    <File md5="A366F49558252C93F1D84A0F295CDEB6" import="1">Art/Units/W40K/Leman/edited_leman_russ_battlecannon_turret_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Leman/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="A9D2A8C80F40A6DED3712F3D65B6D067" import="1">Art/Units/W40K/Leman/ig_leman_russ.fxsxml</File>
+    <File md5="70E21330C0E03EA8634BA37CEDE839CD" import="1">Art/Units/W40K/Leman/ig_leman_russ.gr2</File>
+    <File md5="ADE2BB06FFFFBE307380E30226906F69" import="1">Art/Units/W40K/Leman/ig_leman_russAimH.gr2</File>
+    <File md5="3EB03C1F00FCA8E35B446CFC69EC3F35" import="1">Art/Units/W40K/Leman/ig_leman_russAimV.gr2</File>
+    <File md5="6BEC0E88B8D96E2AC8EF053072373A91" import="1">Art/Units/W40K/Leman/ig_leman_russAttackA.gr2</File>
+    <File md5="A7C2FAEFAF4C026B8C57057E025B0035" import="1">Art/Units/W40K/Leman/ig_leman_russAttackB.gr2</File>
+    <File md5="84AF66EDEF1328EC0261F2B28E370BF7" import="1">Art/Units/W40K/Leman/ig_leman_russDeath.gr2</File>
+    <File md5="2B7BA031403D0949DE4E21DBCF746A53" import="1">Art/Units/W40K/Leman/ig_leman_russDrive.gr2</File>
+    <File md5="DBD4D4ED56B79672927BE102A2D3C1AD" import="1">Art/Units/W40K/Leman/ig_leman_russIdle.gr2</File>
+    <File md5="27E32E05D1F5465EC43A4DD02956457A" import="1">Art/Units/W40K/Leman/leman_russ_battlecannon_turret_spc.dds</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Leman/leman_russ_chassis_spc.dds</File>
+    <File md5="DCBF9915B9CB0BBE388253BD1BC6378D" import="1">Art/Units/W40K/Leman/leman_russ_treads_dif.dds</File>
+    <File md5="D221DD01762BDF7BD8F91511143C7952" import="1">Art/Units/W40K/Leman/leman_russ_treads_spc.dds</File>
+    <File md5="E2A51C6AD4A2435E5EF2B2AA69BCC1EA" import="1">Art/Units/W40K/Lictor/edited2_lictor_body_df.dds</File>
+    <File md5="F6F7A25F7EAA084EAABF9B24DDC97C87" import="1">Art/Units/W40K/Lictor/edited2_lictor_head_df.dds</File>
+    <File md5="0AA25C0242BD5B155C76A1DC17658C84" import="1">Art/Units/W40K/Lictor/edited2_lictor_rending_claws_dif.dds</File>
+    <File md5="7CF0DD60A69153E94E1923EBFDAAEB9B" import="1">Art/Units/W40K/Lictor/edited2_lictor_scything_talon_dif.dds</File>
+    <File md5="1846588B52AED811CD3BB1EBFA6B10F8" import="1">Art/Units/W40K/Lictor/edited_lictor_body_spc.dds</File>
+    <File md5="CF8FA1E92F6E3E41E0B82AD7451954BD" import="1">Art/Units/W40K/Lictor/edited_lictor_head_spc.dds</File>
+    <File md5="0B362A7E9BB2E6E7CB364E846F7D024C" import="1">Art/Units/W40K/Lictor/edited_lictor_rending_claws_spc.dds</File>
+    <File md5="E10FCA6FDE7CB8DC57E526E0E65B5A2A" import="1">Art/Units/W40K/Lictor/edited_lictor_scything_talon_spc.dds</File>
+    <File md5="342BC17BC30F142404F71B1D803C2EC4" import="1">Art/Units/W40K/Lictor/lictor.fxsxml</File>
+    <File md5="975961E7190FE6F5267A6C00990454FC" import="1">Art/Units/W40K/Lictor/lictor.gr2</File>
+    <File md5="258D53685F3400E273BEEAD76F9BAC13" import="1">Art/Units/W40K/Lictor/lictorAttackA.gr2</File>
+    <File md5="25A332BA8D7B161342F0D28FB3667A08" import="1">Art/Units/W40K/Lictor/lictorAttackB.gr2</File>
+    <File md5="724DD5860FCEC6707C4A5AF5D8A51E29" import="1">Art/Units/W40K/Lictor/lictorCharge.gr2</File>
+    <File md5="7E5E027E10CE614FC0B93E1AC06924BC" import="1">Art/Units/W40K/Lictor/lictorDieA.gr2</File>
+    <File md5="738F942F541ED0994DD29DB3406D1DAC" import="1">Art/Units/W40K/Lictor/lictorDieB.gr2</File>
+    <File md5="6AAD075E903DEFC6086F01DBB4204799" import="1">Art/Units/W40K/Lictor/lictorIdleA.gr2</File>
+    <File md5="03CF9B5930FF137CF20ECF0CD88D601A" import="1">Art/Units/W40K/Lictor/lictorIdleB.gr2</File>
+    <File md5="D79E4ACE67B587B4F5713245B39D1CF0" import="1">Art/Units/W40K/Lictor/lictorRun.gr2</File>
+    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Manticore Dozer/chimera_spc.dds</File>
+    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Manticore Dozer/chimera_treads_dif.dds</File>
+    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Manticore Dozer/chimera_treads_spc.dds</File>
+    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="1">Art/Units/W40K/Manticore Dozer/edited_chimera_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Manticore Dozer/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="1E9539B228F687D611662C5B1DB904F4" import="1">Art/Units/W40K/Manticore Dozer/edited_leman_russ_dozer_dif.dds</File>
+    <File md5="F2B708482173D4C1E1AA05B791A7E689" import="1">Art/Units/W40K/Manticore Dozer/edited_manticore_dif.dds</File>
+    <File md5="F9F0760EE2818C3CD7F10DCFE5C6DF39" import="1">Art/Units/W40K/Manticore Dozer/edited_tank_unlocks_dif.dds</File>
+    <File md5="98AF62B15C6DF527C4F98F0DE2D38550" import="1">Art/Units/W40K/Manticore Dozer/ig_manticore_dozer.fxsxml</File>
+    <File md5="99C3E62F46006271EA4600F858D40729" import="1">Art/Units/W40K/Manticore Dozer/ig_manticore_dozer.gr2</File>
+    <File md5="B6C9A8FAAF49E3A8B35CB3A641FEF8E6" import="1">Art/Units/W40K/Manticore Dozer/ig_manticore_dozerAttackA.gr2</File>
+    <File md5="23D61255BCFC532C722DC040368C03CF" import="1">Art/Units/W40K/Manticore Dozer/ig_manticore_dozerAttackB.gr2</File>
+    <File md5="C9DA78E3245E1F210626750C4E511778" import="1">Art/Units/W40K/Manticore Dozer/ig_manticore_dozerDeath.gr2</File>
+    <File md5="C88874A60546C4DEABAD233676A7DFD1" import="1">Art/Units/W40K/Manticore Dozer/ig_manticore_dozerDrive.gr2</File>
+    <File md5="9754D51304B0F3590120A2AE781C68C1" import="1">Art/Units/W40K/Manticore Dozer/ig_manticore_dozerFidget.gr2</File>
+    <File md5="FECCFB69C5843CBB238DA532A311CF27" import="1">Art/Units/W40K/Manticore Dozer/ig_manticore_dozerIdle.gr2</File>
+    <File md5="9158229F2A29D193602C99BEA4075EBB" import="1">Art/Units/W40K/Manticore Dozer/ig_manticore_dozerReload.gr2</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Manticore Dozer/leman_russ_chassis_spc.dds</File>
+    <File md5="2F47E7B12D8AC9ABA49BF04B1C900C15" import="1">Art/Units/W40K/Manticore Dozer/leman_russ_dozer_spc.dds</File>
+    <File md5="374ABD4895074553370B19DC1DA1578B" import="1">Art/Units/W40K/Manticore Dozer/manticore_spc.dds</File>
+    <File md5="2B2BF068F28DC8F5EDB0B9440A73C87C" import="1">Art/Units/W40K/Manticore Dozer/tank_unlocks_spc.dds</File>
+    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Manticore Vetran/chimera_spc.dds</File>
+    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Manticore Vetran/chimera_treads_dif.dds</File>
+    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Manticore Vetran/chimera_treads_spc.dds</File>
+    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="1">Art/Units/W40K/Manticore Vetran/edited_chimera_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Manticore Vetran/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="F2B708482173D4C1E1AA05B791A7E689" import="1">Art/Units/W40K/Manticore Vetran/edited_manticore_dif.dds</File>
+    <File md5="F9F0760EE2818C3CD7F10DCFE5C6DF39" import="1">Art/Units/W40K/Manticore Vetran/edited_tank_unlocks_dif.dds</File>
+    <File md5="D2A918A59BD8F88D77277EDF33669E18" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vet.fxsxml</File>
+    <File md5="2251096DCE0458E467C8B1E4EBAA2848" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vet.gr2</File>
+    <File md5="00577B77BB66919CD5AD2C536E232CDA" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetAttackA.gr2</File>
+    <File md5="0629D26A8FDBC3AC44E9DEEB4A44FEEF" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetAttackB.gr2</File>
+    <File md5="3B5435F8BDA1AB66F45C6D74FC793E43" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetDeath.gr2</File>
+    <File md5="91004C91E2A3060AD5F564C635F21A33" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetDrive.gr2</File>
+    <File md5="E32CFE77D912D63F6BF737E8C828387F" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetFidget.gr2</File>
+    <File md5="05F32BC96A25CEDB4A27E41355FFC5EE" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetIdle.gr2</File>
+    <File md5="0D9AAE08D854AA99DCDB8BB0D393DD41" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetReload.gr2</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Manticore Vetran/leman_russ_chassis_spc.dds</File>
+    <File md5="374ABD4895074553370B19DC1DA1578B" import="1">Art/Units/W40K/Manticore Vetran/manticore_spc.dds</File>
+    <File md5="2B2BF068F28DC8F5EDB0B9440A73C87C" import="1">Art/Units/W40K/Manticore Vetran/tank_unlocks_spc.dds</File>
+    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Manticore/chimera_spc.dds</File>
+    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Manticore/chimera_treads_dif.dds</File>
+    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Manticore/chimera_treads_spc.dds</File>
+    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="1">Art/Units/W40K/Manticore/edited_chimera_dif.dds</File>
+    <File md5="F2B708482173D4C1E1AA05B791A7E689" import="1">Art/Units/W40K/Manticore/edited_manticore_dif.dds</File>
+    <File md5="15C6A8E3BD100742E73A273B7B66BFFC" import="1">Art/Units/W40K/Manticore/ig_manticore.fxsxml</File>
+    <File md5="A90D3FBD22450BAD2BEC8BF4CEFA8854" import="1">Art/Units/W40K/Manticore/ig_manticore.gr2</File>
+    <File md5="A961714A4F7CB3C9B82EFB00BDCDDDB0" import="1">Art/Units/W40K/Manticore/ig_manticoreAttackA.gr2</File>
+    <File md5="7A65EA1E1BE992CA3CFBB738B9581C46" import="1">Art/Units/W40K/Manticore/ig_manticoreAttackB.gr2</File>
+    <File md5="7EBF2FD607393E2C09BC255954A5260C" import="1">Art/Units/W40K/Manticore/ig_manticoreDeath.gr2</File>
+    <File md5="60A4A5D49A640D92FBA93C03F2B9D881" import="1">Art/Units/W40K/Manticore/ig_manticoreDrive.gr2</File>
+    <File md5="C55012DE4D4C78B5051DE822A81CB291" import="1">Art/Units/W40K/Manticore/ig_manticoreFidget.gr2</File>
+    <File md5="53B7F6672E2BCC903A94424B27D39429" import="1">Art/Units/W40K/Manticore/ig_manticoreIdle.gr2</File>
+    <File md5="7EE728AD629AFE89FC532B224366BA8C" import="1">Art/Units/W40K/Manticore/ig_manticoreReload.gr2</File>
+    <File md5="374ABD4895074553370B19DC1DA1578B" import="1">Art/Units/W40K/Manticore/manticore_spc.dds</File>
+    <File md5="71427DC5656F998ED72EDB3452AB0E20" import="1">Art/Units/W40K/Sgt/edited2_ig_armour_dif.dds</File>
+    <File md5="E1BA26703F802BB2A5DAEF34D2E943E1" import="1">Art/Units/W40K/Sgt/edited_ig_chainsword_common_dif.dds</File>
+    <File md5="22B9354E9C9824B0CC43DE2B58CB1CE8" import="1">Art/Units/W40K/Sgt/edited_ig_trooper_common_a_dif.dds</File>
+    <File md5="D558513C04730CB60C1EB4EA87294384" import="1">Art/Units/W40K/Sgt/edited_laspistol_dif.dds</File>
+    <File md5="8C5EEA4F4C9B6EE14B9F7FDB50E8ABDA" import="1">Art/Units/W40K/Sgt/ig_armour_spc.dds</File>
+    <File md5="95B6A9B512021AB0A07CC8FE2CC80229" import="1">Art/Units/W40K/Sgt/ig_chainsword_common_spc.dds</File>
+    <File md5="01A7F65C1C8F69245A20E5F0C44E82B0" import="1">Art/Units/W40K/Sgt/ig_sgt.fxsxml</File>
+    <File md5="5CB4EFBC5676EEE7728FADA3F13CF9D0" import="1">Art/Units/W40K/Sgt/ig_sgt.gr2</File>
+    <File md5="88E91479A349797A3A583CB9FF91EF7C" import="1">Art/Units/W40K/Sgt/ig_sgtAttackA.gr2</File>
+    <File md5="BB147266D0424276A9A049215175ED84" import="1">Art/Units/W40K/Sgt/ig_sgtAttackB.gr2</File>
+    <File md5="1561B3E7E77E357CD82C0CE46363DD8E" import="1">Art/Units/W40K/Sgt/ig_sgtAttackCityA.gr2</File>
+    <File md5="9E7D12D60FE4B270FF36E69D2EAFF248" import="1">Art/Units/W40K/Sgt/ig_sgtAttackCityB.gr2</File>
+    <File md5="926699E94A3EF02423CAFCD814DC113B" import="1">Art/Units/W40K/Sgt/ig_sgtCharge.gr2</File>
+    <File md5="574A0D0B6F41E1C39427C23EEC3993A0" import="1">Art/Units/W40K/Sgt/ig_sgtCombatReady.gr2</File>
+    <File md5="390991BC9218AC58C8E81D7712A389F5" import="1">Art/Units/W40K/Sgt/ig_sgtDieA.gr2</File>
+    <File md5="E05AE76E400FF10F95AC08E44F39F9B8" import="1">Art/Units/W40K/Sgt/ig_sgtDieB.gr2</File>
+    <File md5="09F958645A66B9DDE5F256D94963D882" import="1">Art/Units/W40K/Sgt/ig_sgtFidgetA.gr2</File>
+    <File md5="0E48A54CD4C7B40B658F7090630D2690" import="1">Art/Units/W40K/Sgt/ig_sgtFidgetB.gr2</File>
+    <File md5="092CF0E425BB9FA4AA1B1E17F857FF7C" import="1">Art/Units/W40K/Sgt/ig_sgtFortifyCombatReady.gr2</File>
+    <File md5="A11D313307260E743F6B23AD1BCC673D" import="1">Art/Units/W40K/Sgt/ig_sgtFortifyFidget.gr2</File>
+    <File md5="7125A746EF25248634A39A28E1C980B0" import="1">Art/Units/W40K/Sgt/ig_sgtFortifyIdle.gr2</File>
+    <File md5="872CC0DC07F3A572DFEDDE09C03BA805" import="1">Art/Units/W40K/Sgt/ig_sgtIdle.gr2</File>
+    <File md5="5C4404BBB90FDE71DA09591047099735" import="1">Art/Units/W40K/Sgt/ig_sgtIdleShort.gr2</File>
+    <File md5="B1ED3EEE14354999B23A8DC2D70B5772" import="1">Art/Units/W40K/Sgt/ig_sgtRun.gr2</File>
+    <File md5="6DCDE0063D445384B37B9F77ACFB5640" import="1">Art/Units/W40K/Sgt/ig_trooper_common_a_spc.dds</File>
+    <File md5="861D7266D3ADCFDFE1A41F71DBC0CC8C" import="1">Art/Units/W40K/Sgt/laspistol_spc.dds</File>
+    <File md5="71427DC5656F998ED72EDB3452AB0E20" import="1">Art/Units/W40K/Soldier/edited2_ig_armour_dif.dds</File>
+    <File md5="22B9354E9C9824B0CC43DE2B58CB1CE8" import="1">Art/Units/W40K/Soldier/edited_ig_trooper_common_a_dif.dds</File>
+    <File md5="78E5159161E4EA5902CAC6B7A2813055" import="1">Art/Units/W40K/Soldier/edited_lasgun_dif.dds</File>
+    <File md5="8C5EEA4F4C9B6EE14B9F7FDB50E8ABDA" import="1">Art/Units/W40K/Soldier/ig_armour_spc.dds</File>
+    <File md5="6237C537AC87478DF0E83687065AA49F" import="1">Art/Units/W40K/Soldier/ig_soldier.fxsxml</File>
+    <File md5="A71E6F0A811D6120EAA4C2398E9F8249" import="1">Art/Units/W40K/Soldier/ig_soldier.gr2</File>
+    <File md5="3650CD332458182BD81C879D2550BD15" import="1">Art/Units/W40K/Soldier/ig_soldierAttack.gr2</File>
+    <File md5="C84BD81773D6DBF439FA25EE72799AE9" import="1">Art/Units/W40K/Soldier/ig_soldierAttackCityA.gr2</File>
+    <File md5="FE6B142608CA28EF8E778B160339D816" import="1">Art/Units/W40K/Soldier/ig_soldierAttackCityB.gr2</File>
+    <File md5="EBC37BCC64771D59215E56E7EE52C84F" import="1">Art/Units/W40K/Soldier/ig_soldierCharge.gr2</File>
+    <File md5="55B2C2E827C632DD30D576ED4D569301" import="1">Art/Units/W40K/Soldier/ig_soldierCombatReady.gr2</File>
+    <File md5="60C5CC94D46EE5E6A8EA6CD662700ED8" import="1">Art/Units/W40K/Soldier/ig_soldierDieA.gr2</File>
+    <File md5="1CFF365DE4CFC9092A11BCE4F0B89E7A" import="1">Art/Units/W40K/Soldier/ig_soldierDieB.gr2</File>
+    <File md5="391ED04AE7138827B6F47F00469E80B9" import="1">Art/Units/W40K/Soldier/ig_soldierFidgetA.gr2</File>
+    <File md5="4B9F27910197F9EE82581C46F9329ED7" import="1">Art/Units/W40K/Soldier/ig_soldierFidgetB.gr2</File>
+    <File md5="ED4C0E80B82700678A9FD7324E90AE87" import="1">Art/Units/W40K/Soldier/ig_soldierFortifyCombatReady.gr2</File>
+    <File md5="85C1C6297C613E647297C202725F92C5" import="1">Art/Units/W40K/Soldier/ig_soldierFortifyEnter.gr2</File>
+    <File md5="E1853C8B7F840F451D9F391A8B36A4B9" import="1">Art/Units/W40K/Soldier/ig_soldierFortifyFidget.gr2</File>
+    <File md5="8F897A6F70F7E0C9F7DF5BE661E918CD" import="1">Art/Units/W40K/Soldier/ig_soldierFortifyIdle.gr2</File>
+    <File md5="B0DA25739C32BAE55B3DE62C5D39374B" import="1">Art/Units/W40K/Soldier/ig_soldierIdle.gr2</File>
+    <File md5="E84DDCDC1D943E32E84C53A074792B4B" import="1">Art/Units/W40K/Soldier/ig_soldierIdleShort.gr2</File>
+    <File md5="68026C7777B0D3702451B12108506805" import="1">Art/Units/W40K/Soldier/ig_soldierRun.gr2</File>
+    <File md5="6DCDE0063D445384B37B9F77ACFB5640" import="1">Art/Units/W40K/Soldier/ig_trooper_common_a_spc.dds</File>
+    <File md5="F4C9C8B0E05EDCB3C1C6517F1AC9EB4F" import="1">Art/Units/W40K/Soldier/lasgun_spc.dds</File>
+    <File md5="71427DC5656F998ED72EDB3452AB0E20" import="1">Art/Units/W40K/Trooper/edited_ig_armour_dif.dds</File>
+    <File md5="B7E6107CD6E4DB3D0C872032DDB6DEBA" import="1">Art/Units/W40K/Trooper/edited_ig_trooper_common_b_dif.dds</File>
+    <File md5="78E5159161E4EA5902CAC6B7A2813055" import="1">Art/Units/W40K/Trooper/edited_lasgun_dif.dds</File>
+    <File md5="8C5EEA4F4C9B6EE14B9F7FDB50E8ABDA" import="1">Art/Units/W40K/Trooper/ig_armour_spc.dds</File>
+    <File md5="E3A0CEE7503CD5E30AE6517F83AF5FAE" import="1">Art/Units/W40K/Trooper/ig_trooper.fxsxml</File>
+    <File md5="0819C98B5AE7E97CD0B4B38199BD624C" import="1">Art/Units/W40K/Trooper/ig_trooper.gr2</File>
+    <File md5="9FFE0C2845CF333F19D5FD636351E0FD" import="1">Art/Units/W40K/Trooper/ig_trooperAttack.gr2</File>
+    <File md5="C077C5017C344098E5B48DC50BA8FCD5" import="1">Art/Units/W40K/Trooper/ig_trooperAttackCityA.gr2</File>
+    <File md5="666B9DC06F41F5AB2B4B1EAB5313E3A6" import="1">Art/Units/W40K/Trooper/ig_trooperAttackCityB.gr2</File>
+    <File md5="1BE68E333E7D1CA2153A8EFDF5F35F02" import="1">Art/Units/W40K/Trooper/ig_trooperCharge.gr2</File>
+    <File md5="336666176C382CC62E824CE73EE835A7" import="1">Art/Units/W40K/Trooper/ig_trooperCombatReady.gr2</File>
+    <File md5="94DFAB83FC7BB6870C2BF4093177803F" import="1">Art/Units/W40K/Trooper/ig_trooperDieA.gr2</File>
+    <File md5="4BCB6A688D40F107122496B56A750DA7" import="1">Art/Units/W40K/Trooper/ig_trooperDieB.gr2</File>
+    <File md5="209C99EA9690CAA809621BD6FA312302" import="1">Art/Units/W40K/Trooper/ig_trooperFidgetA.gr2</File>
+    <File md5="E743DC418274741D54C2A9D7F0A4AD82" import="1">Art/Units/W40K/Trooper/ig_trooperFidgetB.gr2</File>
+    <File md5="37BB8BE82DFA9CCD3FEA75E0DF825E20" import="1">Art/Units/W40K/Trooper/ig_trooperFortifyCombatReady.gr2</File>
+    <File md5="0B2472839996590BA12F39CB20D47CBA" import="1">Art/Units/W40K/Trooper/ig_trooperFortifyEnter.gr2</File>
+    <File md5="3B42E72ECE1224C45AF31D10C2D5B453" import="1">Art/Units/W40K/Trooper/ig_trooperFortifyFidget.gr2</File>
+    <File md5="BD908BA7F1404639F2270BE9A20ED9E8" import="1">Art/Units/W40K/Trooper/ig_trooperFortifyIdle.gr2</File>
+    <File md5="E082F2AF8057D91C364EA0A662753AFC" import="1">Art/Units/W40K/Trooper/ig_trooperIdleA.gr2</File>
+    <File md5="7C9DDA4C21197EC5FDC32D15FE59099C" import="1">Art/Units/W40K/Trooper/ig_trooperIdleB.gr2</File>
+    <File md5="CB0B233C24EC10398A90A8FAC3D05C09" import="1">Art/Units/W40K/Trooper/ig_trooperIdleShort.gr2</File>
+    <File md5="BC3F9FBFFF0D6DD8AD7BFEA0668A65D2" import="1">Art/Units/W40K/Trooper/ig_trooperRun.gr2</File>
+    <File md5="D9A85BCFBD9FBAB5013AF34D75512A1F" import="1">Art/Units/W40K/Trooper/ig_trooper_common_b_spc.dds</File>
+    <File md5="F4C9C8B0E05EDCB3C1C6517F1AC9EB4F" import="1">Art/Units/W40K/Trooper/lasgun_spc.dds</File>
+    <File md5="B99778BF83F037D905F2BC51DEC4583D" import="1">Art/Units/W40K/Ven Dread/dreadnought_arms_epic_spc.dds</File>
+    <File md5="6E8FF5F68E836BF33B2A089C206F0241" import="1">Art/Units/W40K/Ven Dread/dreadnought_arms_spc.dds</File>
+    <File md5="624C30EF6C5B3F8ADC3340F6943FA9F3" import="1">Art/Units/W40K/Ven Dread/dreadnought_venerable_spc.dds</File>
+    <File md5="1EED959E4A28BD441627DCF91CF15817" import="1">Art/Units/W40K/Ven Dread/edited_dreadnought_arms_dif.dds</File>
+    <File md5="80EF850811E84BEB3D4368973177B81B" import="1">Art/Units/W40K/Ven Dread/edited_dreadnought_arms_epic_dif.dds</File>
+    <File md5="20A9A4870DB97EF35BA227E58800F307" import="1">Art/Units/W40K/Ven Dread/edited_dreadnought_dif.dds</File>
+    <File md5="E4513DACAE31A0D2C45030DB6B83C326" import="1">Art/Units/W40K/Ven Dread/edited_dreadnought_venerable_dif.dds</File>
+    <File md5="7C8E56A8C3997FBF1B9AA5E5E71A394B" import="1">Art/Units/W40K/Ven Dread/ven_dread.fxsxml</File>
+    <File md5="EC04CBB4D52A7397834B55C7FA6D02BE" import="1">Art/Units/W40K/Ven Dread/ven_dread.gr2</File>
+    <File md5="AC5B9AAD1C80A81E4E02F6C250AC51A8" import="1">Art/Units/W40K/Ven Dread/ven_dreadAttackA.gr2</File>
+    <File md5="2DCCC8FDF8E408C4C42BF3247CE5267C" import="1">Art/Units/W40K/Ven Dread/ven_dreadAttackB.gr2</File>
+    <File md5="70EC1FCD9E6F75196748C30BF050E6FC" import="1">Art/Units/W40K/Ven Dread/ven_dreadDieA.gr2</File>
+    <File md5="D4AC4E8CD5CA2E55AB6E49CE58DC22D4" import="1">Art/Units/W40K/Ven Dread/ven_dreadDieB.gr2</File>
+    <File md5="B63315B2AA177F2C1B16D00D282CAE2C" import="1">Art/Units/W40K/Ven Dread/ven_dreadIdleA.gr2</File>
+    <File md5="76C22DD7FF77A8EDA1E3E6A9C15F6FE0" import="1">Art/Units/W40K/Ven Dread/ven_dreadIdleB.gr2</File>
+    <File md5="31157B268C2EFF8C485B3DFCC51D6E25" import="1">Art/Units/W40K/Ven Dread/ven_dreadIdleC.gr2</File>
+    <File md5="16B92D3E8573F683B1DE53EC3A3C8C7C" import="1">Art/Units/W40K/Ven Dread/ven_dreadRun.gr2</File>
+    <File md5="71427DC5656F998ED72EDB3452AB0E20" import="1">Art/Units/W40K/Vetran/edited_ig_armour_dif.dds</File>
+    <File md5="E1BA26703F802BB2A5DAEF34D2E943E1" import="1">Art/Units/W40K/Vetran/edited_ig_chainsword_common_dif.dds</File>
+    <File md5="0A2665BBE505372272C63FA7A51C26FE" import="1">Art/Units/W40K/Vetran/edited_ig_sergeant_a_dif.dds</File>
+    <File md5="D558513C04730CB60C1EB4EA87294384" import="1">Art/Units/W40K/Vetran/edited_laspistol_dif.dds</File>
+    <File md5="8C5EEA4F4C9B6EE14B9F7FDB50E8ABDA" import="1">Art/Units/W40K/Vetran/ig_armour_spc.dds</File>
+    <File md5="95B6A9B512021AB0A07CC8FE2CC80229" import="1">Art/Units/W40K/Vetran/ig_chainsword_common_spc.dds</File>
+    <File md5="80835606231ED6050B568D0044FAE402" import="1">Art/Units/W40K/Vetran/ig_sergeant_a_spc.dds</File>
+    <File md5="01A8B6EC137465A0F28F0A6B0098A65C" import="1">Art/Units/W40K/Vetran/ig_vet.fxsxml</File>
+    <File md5="0E48DB193F1D5591137BFCE5EC7E5682" import="1">Art/Units/W40K/Vetran/ig_vet.gr2</File>
+    <File md5="DF8351BAC30A335712B9E1C8F9CE5399" import="1">Art/Units/W40K/Vetran/ig_vetAttackA.gr2</File>
+    <File md5="681218EBCD33F59B6710984021F340A4" import="1">Art/Units/W40K/Vetran/ig_vetAttackB.gr2</File>
+    <File md5="1D2C281595260EB8C85F92801C03E6AE" import="1">Art/Units/W40K/Vetran/ig_vetAttackCityA.gr2</File>
+    <File md5="2C55942CFDB272F07B94A3E9895CAE40" import="1">Art/Units/W40K/Vetran/ig_vetAttackCityB.gr2</File>
+    <File md5="74AD6C329333D3C4EBC687F04C2A6BDC" import="1">Art/Units/W40K/Vetran/ig_vetCharge.gr2</File>
+    <File md5="A4E63E2CB57D8318499D66CD14B1C36F" import="1">Art/Units/W40K/Vetran/ig_vetCombatReady.gr2</File>
+    <File md5="DE07CA15E97A496AAB58D35380186249" import="1">Art/Units/W40K/Vetran/ig_vetDieA.gr2</File>
+    <File md5="8CE443AE7C168CFC05FC1E0BDD45254A" import="1">Art/Units/W40K/Vetran/ig_vetDieB.gr2</File>
+    <File md5="BE35FA669FD92088ABCDEFBBA8255E5A" import="1">Art/Units/W40K/Vetran/ig_vetFidgetA.gr2</File>
+    <File md5="F5CDF323F2023969F2274B4847B2CA37" import="1">Art/Units/W40K/Vetran/ig_vetFidgetB.gr2</File>
+    <File md5="BA9EB1CC31E97AFC0D3059EFC65798EA" import="1">Art/Units/W40K/Vetran/ig_vetFortifyCombatReady.gr2</File>
+    <File md5="E4482ABA88F4ED8B54F9535B3CD06368" import="1">Art/Units/W40K/Vetran/ig_vetFortifyFidget.gr2</File>
+    <File md5="15CCDDEB9DF3B499A150E1BD7884170B" import="1">Art/Units/W40K/Vetran/ig_vetFortifyIdle.gr2</File>
+    <File md5="253CB703387CF437D9FB5A6D957C4E7E" import="1">Art/Units/W40K/Vetran/ig_vetIdle.gr2</File>
+    <File md5="E96150EBF99980912C4C481A717A8A28" import="1">Art/Units/W40K/Vetran/ig_vetIdleShort.gr2</File>
+    <File md5="ED4CEAABFBA735A5E51DCC11F2292B73" import="1">Art/Units/W40K/Vetran/ig_vetRun.gr2</File>
+    <File md5="861D7266D3ADCFDFE1A41F71DBC0CC8C" import="1">Art/Units/W40K/Vetran/laspistol_spc.dds</File>
     <File md5="A23C711914750FBA0EADB34CFB76F5FD" import="0">AI/BetterAI.xml</File>
     <File md5="FC81F758CC3470C4420A8336EDBF2FCB" import="0">AI/GlobalAIDefines.xml</File>
     <File md5="430E3324CCAE144AE5E0122AEC85D074" import="0">AI/Leaders.xml</File>
@@ -572,9 +1178,26 @@ Over a 100 new Buildings and Wonders!</Description>
 	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/TreeGrowth/TreeGrowth.lua</File>
 	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/Emigration.lua</File>
     <File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/ScriptDataManager.lua</File>
+    <File md5="B6FF3D47E3F3DDC881014A8DFAE91C89" import="0">SQL/Templates/ArtDefines_Units_Infos.sql</File>
+    <File md5="F8A60FEF876F09138DF7541FBDC21F6F" import="0">SQL/Templates/ArtDefines_Units_Members_Combats.sql</File>
+    <File md5="4718009A5B07D730F1D4B58C619BA247" import="0">SQL/Templates/ArtDefines_Units_Members_Weapons.sql</File>
+    <File md5="1BD4A6C561ADDD9D107B6AF1060B8AD1" import="0">SQL/Templates/ArtDefines_Units_Member_Infos.sql</File>
+    <File md5="168EC236701825F860C883CD6DD644EB" import="0">SQL/Templates/ArtDefines_Units_Info_Member_Infos.sql</File>
+    <File md5="4D4440FFCD1B2C629A98CA63015C403F" import="0">SQL/UnitDefines/MemberCombats.sql</File>
+    <File md5="B6053A71AA3EC6322D0196245E2D6656" import="0">SQL/UnitDefines/MemberCombatWeapons.sql</File>
+    <File md5="3AB86B231208CDD03310C8DEFEBDCCAA" import="0">SQL/UnitDefines/UnitInfos.sql</File>
+    <File md5="F2B3CE294FBBE85D0B567FBDBC2452E2" import="0">SQL/UnitDefines/UnitInfoMemberInfos.sql</File>
+    <File md5="86C770B7EB54B8BFF07AF367B59DC22C" import="0">SQL/UnitDefines/UnitMemberInfos.sql</File>
+    <File md5="D9A21C9C4A8111940034DD5F30BC5395" import="0">XML/Temp.xml</File>
+    <File md5="E14041A6162C83F3D400252307A19864" import="0">XML/Units/Update_UnitArtDefines.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
+      <UpdateDatabase>SQL/UnitDefines/UnitInfos.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/UnitDefines/UnitInfoMemberInfos.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/UnitDefines/UnitMemberInfos.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/UnitDefines/MemberCombats.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/UnitDefines/MemberCombatWeapons.sql</UpdateDatabase>
       <UpdateDatabase>Z_Global/ArtDefines_Resources.sql</UpdateDatabase>
       <UpdateDatabase>Tech/TechTableAdds.sql</UpdateDatabase>
       <UpdateDatabase>Tech/Technologies.sql</UpdateDatabase>
@@ -599,7 +1222,7 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>DLC/Moai_Improvement.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/Terrains.xml</UpdateDatabase>
       <UpdateDatabase>Units/Units.xml</UpdateDatabase>
-	  <UpdateDatabase>Units/UnitsThatIgnoreBorders.xml</UpdateDatabase>
+      <UpdateDatabase>Units/UnitsThatIgnoreBorders.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/ProjectIcons.xml</UpdateDatabase>
       <UpdateDatabase>Tech/TechIcons.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/Buildings.xml</UpdateDatabase>
@@ -620,13 +1243,14 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>Z_Global/IconTextureAtlases.xml</UpdateDatabase>
       <UpdateDatabase>Z_Global/Game Pace Rules.sql</UpdateDatabase>
       <UpdateDatabase>Text/en_US/CsebExtendedPlotMouseover.xml</UpdateDatabase>
-	  <UpdateDatabase>Text/en_US/TreeGrowthText.xml</UpdateDatabase>
-	  <UpdateDatabase>Text/en_US/GameText.xml</UpdateDatabase>
-	  <UpdateDatabase>Text/en_US/TechTreeText.xml</UpdateDatabase>
+      <UpdateDatabase>Text/en_US/TreeGrowthText.xml</UpdateDatabase>
+      <UpdateDatabase>Text/en_US/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Text/en_US/TechTreeText.xml</UpdateDatabase>
       <UpdateDatabase>Text/en_US/TechTreeTXT.xml</UpdateDatabase>
-	  <UpdateDatabase>Text/en_US/PolicyText.xml</UpdateDatabase>
-	  <UpdateDatabase>Text/en_US/MapMenuTXT.xml</UpdateDatabase>
-	  <UpdateDatabase>Text/en_US/MonopolyText.xml</UpdateDatabase>
+      <UpdateDatabase>Text/en_US/PolicyText.xml</UpdateDatabase>
+      <UpdateDatabase>Text/en_US/MapMenuTXT.xml</UpdateDatabase>
+      <UpdateDatabase>Text/en_US/MonopolyText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Update_UnitArtDefines.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
