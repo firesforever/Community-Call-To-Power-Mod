@@ -24,6 +24,7 @@
 include( "IconSupport" );
 include( "UniqueBonuses" );
 include( "InstanceManager" );
+include("MasterMapInfo");
 
 -------------------------------------------------
 -- Globals
@@ -291,6 +292,7 @@ function RefreshPlayerList()
 						print ("civ was deleted")
 						local numCivs = modUserData.GetValue ("numCivs")
 						numCivs = numCivs - 1
+						print (numCivs)
 						modUserData.SetValue ("numCivs", numCivs)
 					
 					end);
@@ -325,6 +327,16 @@ function RefreshPlayerList()
 				count = count + 1;
 			end
 		end
+	end
+	
+	local numCivs = modUserData.GetValue ("numCivs")
+	local maxCivs = modUserData.GetValue ("maxCivs")
+	print (maxCivs) 
+	print (numCivs)
+	if numCivs >= maxCivs or numCivs >= 22 then
+		Controls.AddAIButton:SetDisabled(true);
+	elseif numCivs < maxCivs then
+		Controls.AddAIButton:SetDisabled(false);
 	end
 	
 	Controls.CivCount:SetText(  Locale.ConvertTextKey("TXT_KEY_AD_SETUP_CIVILIZATION", count) );
@@ -397,7 +409,21 @@ ScreenOptions = {
 	
 		function GetPlayableCivInfo()
 			local civs = {};
+			
+			local WorldChosen = modUserData.GetValue ("MapSelected")
+			local scenarios = {}
+			local scenario = {}
+
+			-- Identifies which map data the chosen world uses
+			for k, v in ipairs(CCTPScenarios) do
+				scenarios = CCTPScenarios [k]
+				if WorldChosen == scenarios [1] then
+					scenario = scenarios [2]
+				end
+			end
+			
 			local sql = [[Select	Civilizations.ID as CivID, 
+									Civilizations.Type as Type, 
 									Leaders.ID as LeaderID, 
 									Civilizations.Description, 
 									Civilizations.ShortDescription, 
@@ -406,13 +432,29 @@ ScreenOptions = {
 									where Civilizations.Playable = 1 and CivilizationType = Civilizations.Type and LeaderheadType = Leaders.Type]];
 	
 			for row in DB.Query(sql) do
-				table.insert(civs, {
-					CivID = row.CivID,
-					LeaderID = row.LeaderID,
-					LeaderDescription = Locale.Lookup(row.LeaderDescription),
-					ShortDescription = Locale.Lookup(row.ShortDescription),
-					Description = row.Description,
-				});
+				local i = 3
+				local found = 0
+			
+				repeat 
+					local CivAllowed = scenario [i]
+					--print (CivAllowed)
+				
+					if row.Type == CivAllowed then
+						--print (CivAllowed,": civ is allowed in this scenario")
+						table.insert(civs, {
+									CivID = row.CivID,
+									LeaderID = row.LeaderID,
+									LeaderDescription = Locale.Lookup(row.LeaderDescription),
+									ShortDescription = Locale.Lookup(row.ShortDescription),
+									Description = row.Description,
+									});
+						found = 1
+					else
+						--print ("civ not found")
+						--print (i)
+						i = i + 1
+					end
+				until found == 1 or CivAllowed == nil
 			end
 			
 			table.sort(civs, function(a,b) return Locale.Compare(a.LeaderDescription, b.LeaderDescription) == -1; end);
@@ -905,7 +947,9 @@ ContextPtr:SetInputHandler( InputHandler );
 function ShowHideHandler( bIsHide )
 	-- Note: Must be called even when bIsHide == true due to the 
 	-- way the edit player details screen works.
-	PerformPartialSync();
+	PerformFullSync()
+	ScreenOptions["Teams"].FullSync();
+    PerformPartialSync();
 	PerformValidation();
 end
 ContextPtr:SetShowHideHandler( ShowHideHandler );

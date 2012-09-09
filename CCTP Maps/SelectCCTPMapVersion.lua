@@ -47,12 +47,14 @@ function OnMapScriptSelected(modeID)
 	local MBg	 -- The Backgroud picture on the description box to use
 	local MChosen -- This allows us to know what map has been chosen
 	local WorldSize
+	local MaxCivs
 	
 	local i = 1
 	local found = 0
 	local scenarios = {}
 	local World = {}
 	local mapOption = {}
+	local Civs = {}
 	
 	
 	if modeID == 0 then
@@ -67,12 +69,14 @@ function OnMapScriptSelected(modeID)
 			if scenarios[1] ~= "end" then
 				World = scenarios [8]
 				mapOption = scenarios [9]
+				Civs = scenarios [2]
 				if modeID == scenarios[1] then
 					print ("found")
 					MChosen = scenarios[1]
 					MDesc = World[2]
 					MBg = World[3]
 					WorldSize = mapOption[3]
+					MaxCivs = Civs[2]
 					--found = 1
 					i = i + 1
 				else
@@ -108,15 +112,26 @@ function OnMapScriptSelected(modeID)
 	end
 	
 	--lets determine how many civs the chosen world has by default
-	if WorldSize == 5 then
-		modUserData.SetValue ("numCivs", 12)
-	end
-	
+	modUserData.SetValue ("maxCivs", MaxCivs)
 	PreGame.SetWorldSize( WorldSize );
 	modUserData.SetValue ("MapSelected", MChosen)
 	Controls.MapDesc:SetText( Locale.ConvertTextKey( MDesc ) );
 	--Controls.DetailsBackgroundImage:UnloadTexture();
 	Controls.DetailsBackgroundImage:SetTexture(MBg);
+	
+	if WorldSize == 0 then
+		modUserData.SetValue ("numCivs", 2)
+	elseif WorldSize == 1 then
+		modUserData.SetValue ("numCivs", 4)
+	elseif WorldSize == 2 then
+		modUserData.SetValue ("numCivs", 6)
+	elseif WorldSize == 3 then
+		modUserData.SetValue ("numCivs", 8)
+	elseif WorldSize == 4 then
+		modUserData.SetValue ("numCivs", 10)
+	elseif WorldSize == 5 then
+		modUserData.SetValue ("numCivs", 12)
+	end
 	
 	Controls.StartButton:SetDisabled(false);
 	--OnBack();
