@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2012 11:52:06 AM -->
+<GameData>
+	<Leader_Flavors>
+		<Delete LeaderType="Pachacuti" />
+		
+		<Row><Flavor>2</Flavor><FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>       <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>2</Flavor><FlavorType>FLAVOR_OFFENSE</FlavorType>                 <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>2</Flavor><FlavorType>FLAVOR_DEFENSE</FlavorType>                 <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>2</Flavor><FlavorType>FLAVOR_RECON</FlavorType>                   <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>8</Flavor><FlavorType>FLAVOR_RANGED</FlavorType>                  <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>2</Flavor><FlavorType>FLAVOR_MOBILE</FlavorType>                  <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>4</Flavor><FlavorType>FLAVOR_NAVAL</FlavorType>                   <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>4</Flavor><FlavorType>FLAVOR_NAVAL_RECON</FlavorType>             <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>4</Flavor><FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>            <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>4</Flavor><FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>  <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>2</Flavor><FlavorType>FLAVOR_AIR</FlavorType>                     <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>4</Flavor><FlavorType>FLAVOR_NUKE</FlavorType>                    <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>8</Flavor><FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>            <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>6</Flavor><FlavorType>FLAVOR_EXPANSION</FlavorType>               <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>6</Flavor><FlavorType>FLAVOR_SCIENCE</FlavorType>                 <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>8</Flavor><FlavorType>FLAVOR_CULTURE</FlavorType>                 <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>6</Flavor><FlavorType>FLAVOR_HAPPINESS</FlavorType>               <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>6</Flavor><FlavorType>FLAVOR_GROWTH</FlavorType>                  <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>4</Flavor><FlavorType>FLAVOR_PRODUCTION</FlavorType>              <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>4</Flavor><FlavorType>FLAVOR_GOLD</FlavorType>                    <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>4</Flavor><FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>            <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>4</Flavor><FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>        <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>4</Flavor><FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>          <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>4</Flavor><FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>        <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>8</Flavor><FlavorType>FLAVOR_DIPLOMACY</FlavorType>               <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>8</Flavor><FlavorType>FLAVOR_WONDER</FlavorType>                  <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>8</Flavor><FlavorType>FLAVOR_SPACESHIP</FlavorType>               <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		<Row><Flavor>2</Flavor><FlavorType>FLAVOR_RELIGION</FlavorType>                <LeaderType>LEADER_PACHACUTI</LeaderType></Row>	
+		
+	</Leader_Flavors>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_PACHACUTI" />
+			<Set 
+				VictoryCompetitiveness="5"
+				WonderCompetitiveness="5"
+				MinorCivCompetitiveness="5"
+				Boldness="0"
+				DiploBalance="4"
+				WarmongerHate="3"
+				DenounceWillingness="3"
+				DoFWillingness="7"
+				Loyalty="8"
+				Neediness="6"
+				Forgiveness="5"
+				Chattiness="7"
+				Meanness="3"
+				/>
+		</Update>
+	</Leaders>
+	<Leader_MajorCivApproachBiases>
+		<Update><Where LeaderType="LEADER_PACHACUTI"          MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"         /> <Set Bias="-75" /></Update>
+		<Update><Where LeaderType="LEADER_PACHACUTI"          MajorCivApproachType="MAJOR_CIV_APPROACH_HOSTILE"     /> <Set Bias=  "4" /></Update>
+		<Update><Where LeaderType="LEADER_PACHACUTI"          MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"   /> <Set Bias=  "1" /></Update>
+		<Update><Where LeaderType="LEADER_PACHACUTI"          MajorCivApproachType="MAJOR_CIV_APPROACH_GUARDED"     /> <Set Bias=  "4" /></Update>
+		<Update><Where LeaderType="LEADER_PACHACUTI"          MajorCivApproachType="MAJOR_CIV_APPROACH_AFRAID"      /> <Set Bias=  "8" /></Update>
+		<Update><Where LeaderType="LEADER_PACHACUTI"          MajorCivApproachType="MAJOR_CIV_APPROACH_FRIENDLY"    /> <Set Bias=  "6" /></Update>
+		<Update><Where LeaderType="LEADER_PACHACUTI"          MajorCivApproachType="MAJOR_CIV_APPROACH_NEUTRAL"     /> <Set Bias=  "6" /></Update>
+	</Leader_MajorCivApproachBiases>
+	<Leader_MinorCivApproachBiases>
+		<Update><Where LeaderType="LEADER_PACHACUTI"          MinorCivApproachType="MINOR_CIV_APPROACH_IGNORE"      /> <Set Bias=  "50" /></Update>
+		<Update><Where LeaderType="LEADER_PACHACUTI"          MinorCivApproachType="MINOR_CIV_APPROACH_FRIENDLY"    /> <Set Bias=   "0" /></Update>
+		<Update><Where LeaderType="LEADER_PACHACUTI"          MinorCivApproachType="MINOR_CIV_APPROACH_PROTECTIVE"  /> <Set Bias=  "50" /></Update>
+		<Update><Where LeaderType="LEADER_PACHACUTI"          MinorCivApproachType="MINOR_CIV_APPROACH_CONQUEST"    /> <Set Bias="-500" /></Update>
+	</Leader_MinorCivApproachBiases>
+</GameData>
