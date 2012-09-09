@@ -1489,7 +1489,7 @@ YNAEMEULCivInfo = {
 YNAEMEULScenario1 = {
 -- These are the civs that will be used in the first scenario for the LEM Map
 -- max number of civs, civs in this scenario, The civs allowed in this scenario
-19,0,
+34,19,
 "CIVILIZATION_ARABIA", "CIVILIZATION_ENGLAND", 
 "CIVILIZATION_FRANCE", "CIVILIZATION_GERMANY", "CIVILIZATION_GREECE",
 "CIVILIZATION_OTTOMAN", "CIVILIZATION_ROME", "CIVILIZATION_RUSSIA",
