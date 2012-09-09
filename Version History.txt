@@ -1,4 +1,8 @@
 -- Version History
+Version 3
+
+	New 3D Resource Art
+	New 3d Models for the Land units in Digital and Information Eras.
 
 Version 2 
 
