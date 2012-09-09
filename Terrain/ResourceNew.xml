@@ -21,7 +21,7 @@
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_NO]</IconString>
+			<IconString>[ICON_CACAO]</IconString>
 			<PortraitIndex>15</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -43,7 +43,7 @@
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_NO]</IconString>
+			<IconString>[ICON_BARLEY]</IconString>
 			<PortraitIndex>22</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -65,7 +65,7 @@
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_NO]</IconString>
+			<IconString>[ICON_WILDBERRIES]</IconString>
 			<PortraitIndex>16</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -87,7 +87,7 @@
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_NO]</IconString>
+			<IconString>[ICON_MANGO]</IconString>
 			<PortraitIndex>21</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -109,7 +109,7 @@
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_NO]</IconString>
+			<IconString>[ICON_FLAX]</IconString>
 			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -131,7 +131,7 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_OAK]</IconString>
+			<IconString>[ICON_EXOTICHARDWOOD]</IconString>
 			<PortraitIndex>20</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -178,7 +178,7 @@
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_COFFEE]</IconString>
+			<IconString>[ICON_COFFEE]</IconString>
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -201,7 +201,7 @@
 			<TilesPer>5</TilesPer>
 			<Flatlands>true</Flatlands>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_POPPY]</IconString>
+			<IconString>[ICON_POPPY]</IconString>
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -224,7 +224,7 @@
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_TITANIUM]</IconString>
+			<IconString>[ICON_TITANIUM]</IconString>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -248,7 +248,7 @@
 			<Flatlands>true</Flatlands>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_ALOE_VERA]</IconString>
+			<IconString>[ICON_ALOEVERA]</IconString>
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -272,7 +272,7 @@
 			<Flatlands>true</Flatlands>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_JADE]</IconString>
+			<IconString>[ICON_JADE]</IconString>
 			<PortraitIndex>10</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -296,7 +296,7 @@
 			<Flatlands>true</Flatlands>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_MANGANESE]</IconString>
+			<IconString>[ICON_MANGANESE]</IconString>
 			<PortraitIndex>12</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -320,7 +320,7 @@
 			<Flatlands>true</Flatlands>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_OAK]</IconString>
+			<IconString>[ICON_OAK]</IconString>
 			<PortraitIndex>7</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -342,7 +342,7 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_SQUID]</IconString>
+			<IconString>[ICON_SQUID]</IconString>
 			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -366,7 +366,7 @@
 			<Flatlands>true</Flatlands>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_AMBER]</IconString>
+			<IconString>[ICON_AMBER]</IconString>
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -389,7 +389,7 @@
 			<TilesPer>5</TilesPer>
 			<Flatlands>true</Flatlands>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_TOBBACO]</IconString>
+			<IconString>[ICON_TOBACCO]</IconString>
 			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
@@ -411,7 +411,7 @@
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
 			<Normalize>true</Normalize>
-			<IconString>[ICON_RES_TIN]</IconString>
+			<IconString>[ICON_TIN]</IconString>
 			<PortraitIndex>13</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
