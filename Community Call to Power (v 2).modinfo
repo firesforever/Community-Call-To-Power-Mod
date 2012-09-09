@@ -51,6 +51,24 @@ Over a 100 new Buildings and Wonders!</Description>
   <References />
   <Blocks />
   <Files>
+    <File md5="3F060C8F7E24C5F85955DBA1745129FE" import="0">GEM AI/AIAttackForces.xml</File>
+    <File md5="FAA045B9988777454698B9F77446253E" import="0">GEM AI/CIV5AIMilitaryStrategies.xml</File>
+    <File md5="7293BD05D7F4D077BD04FBC1A51717D0" import="0">GEM AI/GEAI_Armies.xml</File>
+    <File md5="7EE4CDCA1BB2C70717154C027498AA53" import="0">GEM AI/GEAI_Cities.xml</File>
+    <File md5="123348F25EBD777649AA2DE7114B36A4" import="0">GEM AI/GEAI_End.sql</File>
+    <File md5="9D75CC2E243A9C505B6AB6E501DF078C" import="0">GEM AI/GEAI_Handicaps.xml</File>
+    <File md5="8F7B84ADA57BACE616590E802DE53922" import="0">GEM AI/GEAI_LeaderFlavors.xml</File>
+    <File md5="434DBB5AD1902859ABA7C7BEA82589EF" import="0">GEM AI/GEAI_LeaderPersonalities.xml</File>
+    <File md5="4BB278513BF6D8A82886A84D874740CB" import="0">GEM AI/GEAI_Middle.xml</File>
+    <File md5="D84B5A4F865B39363E166BEBDA91D26A" import="0">GEM AI/GlobalAIDefines.xml</File>
+    <File md5="91963480FAF7C38B4CDD28A172B60B9D" import="0">GEM AI/GlobalDiplomacyAIDefines.xml</File>
+    <File md5="68E1A4D96A396A120A0E3872D31060B9" import="0">GEM AI/GrandStrategy.xml</File>
+    <File md5="A288AC829A4404B676A563B3264C7BDE" import="0">GEM AI/GEAI_Leader_Flavors_DLC_Nebuchadnezzar.xml</File>
+    <File md5="C878A71F13770DB5D33D169D2D2D925F" import="0">GEM AI/GEAI_Leader_Flavors_DLC_Sejong.xml</File>
+    <File md5="CCD853FDD53D0CC10E1164EA347F0876" import="0">GEM AI/GEAI_Leader_Flavors_DLC_Pachacuti.xml</File>
+    <File md5="74BA9CDF173EE56AAD3DB522F7E76D7E" import="0">GEM AI/GEAI_Leader_Flavors_DLC_Kamehameha.xml</File>
+    <File md5="2A695574571D83746EEEFE626A32FE47" import="0">GEM AI/GEAI_Leader_Flavors_DLC_Harald.xml</File>
+    <File md5="ABBB3B91D2DCBEC0983706F1C5F439FD" import="0">GEM AI/MultiUnitFormations.xml</File>
     <File md5="AFF8949B929FC1394B121057910790E7" import="1">Art/Resources/Font Icons/CCTPFontIconAtlas.dds</File>
     <File md5="75D953AD8720CC650CBEF982BD13A86C" import="1">Art/Resources/Font Icons/CCTPFontIconAtlas.ggxml</File>
     <File md5="BD143769C848998FDE9416DDD26AFF21" import="0">Art/Resources/Font Icons/CCTPFontIconAtlas.xml</File>
@@ -1258,6 +1276,24 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>Text/en_US/MonopolyText.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/Update_UnitArtDefines.xml</UpdateDatabase>
       <UpdateDatabase>Art/Resources/Font Icons/CCTPFontIconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/AIAttackForces.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/CIV5AIMilitaryStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_Armies.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_Cities.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_End.sql</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_Handicaps.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_LeaderFlavors.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_LeaderPersonalities.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_Middle.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GlobalAIDefines.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GlobalDiplomacyAIDefines.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GrandStrategy.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/MultiUnitFormations.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Harald.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Kamehameha.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Nebuchadnezzar.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Pachacuti.xml</UpdateDatabase>
+      <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Sejong.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
