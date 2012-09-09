@@ -2,7 +2,6 @@
 <!-- Created by ModBuddy on 1/9/2011 3:25:46 PM -->
 <GameData>
 	<HandicapInfos>
-
 		<Update>
 			<Set BarbCampGold="100" AIGrowthPercent="140" AIBuildingCostPercent="70" AIUnhappinessPercent="80" />
 			<Where Type="HANDICAP_SETTLER" />
@@ -34,10 +33,48 @@
 		<Update>
 			<Set BarbCampGold="100" AIGrowthPercent="40" AIBuildingCostPercent="30" AIUnhappinessPercent="40" />
 			<Where Type="HANDICAP_DEITY" />
-		</Update>
-		
-		
-		
+		</Update>		
 	</HandicapInfos>
-
+	<HandicapInfo_AIFreeTechs>
+		<Update>
+			<Set TechType="TECH_ECONOMY_OF_SCALE"/>
+			<Where HandicapType="HANDICAP_KING" TechType="TECH_POTTERY"/>
+		</Update>
+		<Update>
+			<Set TechType="TECH_ECONOMY_OF_SCALE"/>
+			<Where HandicapType="HANDICAP_EMPEROR" TechType="TECH_POTTERY"/>
+		</Update>
+		<Update>
+			<Set TechType="TECH_TRAPPING"/>
+			<Where HandicapType="HANDICAP_EMPEROR" TechType="TECH_ANIMAL_HUSBANDRY"/>
+		</Update>
+		<Update>
+			<Set TechType="TECH_ECONOMY_OF_SCALE"/>
+			<Where HandicapType="HANDICAP_DEITY" TechType="TECH_POTTERY"/>
+		</Update>
+		<Update>
+			<Set TechType="TECH_TRAPPING"/>
+			<Where HandicapType="HANDICAP_DEITY" TechType="TECH_ANIMAL_HUSBANDRY"/>
+		</Update>
+		<Update>
+			<Set TechType="TECH_ORAL_TRADITION"/>
+			<Where HandicapType="HANDICAP_DEITY" TechType="TECH_MINING"/>
+		</Update>
+		<Update>
+			<Set TechType="TECH_SAILING"/>
+			<Where HandicapType="HANDICAP_DEITY" TechType="TECH_THE_WHEEL"/>
+		</Update>
+		<Update>
+			<Set TechType="TECH_ECONOMY_OF_SCALE"/>
+			<Where HandicapType="HANDICAP_IMMORTAL" TechType="TECH_POTTERY"/>
+		</Update>
+		<Update>
+			<Set TechType="TECH_TRAPPING"/>
+			<Where HandicapType="HANDICAP_IMMORTAL" TechType="TECH_ANIMAL_HUSBANDRY"/>
+		</Update>
+		<Update>
+			<Set TechType="TECH_ORAL_TRADITION"/>
+			<Where HandicapType="HANDICAP_IMMORTAL" TechType="TECH_MINING"/>
+		</Update>
+	</HandicapInfo_AIFreeTechs>
 </GameData>
