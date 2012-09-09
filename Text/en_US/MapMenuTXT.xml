@@ -62,6 +62,9 @@
 		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_YNAEMES_1">
 			<Text>YNAEM - Standard Earth</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_YNAEMEUL_1">
+			<Text>YNAEM - Standard Europe</Text>
+		</Row>
 		
 		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_LEM_1_DESC">
 			<Text>One of Civilization V's most popular Earth maps returns for the Gods & Kings Expansion! Accruing nearly 50,000 downloads, the original version for vanilla Civilization V was widely popular and often credited as being one of the most accurate Earth maps while still maintaining the importance of gameplay balance.  [NEWLINE][NEWLINE]Map Maker: Dark_Jedi06</Text>
@@ -77,6 +80,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_YNAEMES_1_DESC">
 			<Text>Standard Earth Map (80x52): A cordiform projection version made by smellymummy.  [NEWLINE][NEWLINE]YNAEM by Gedemon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CCTP_MAP_TYPE_YNAEMEUL_1_DESC">
+			<Text> Standard Europe Map (79x73) : Dieter's Europe CiV.   [NEWLINE][NEWLINE]YNAEM by Gedemon</Text>
 		</Row>
 		
 		

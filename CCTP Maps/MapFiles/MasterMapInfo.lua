@@ -3,6 +3,7 @@
 include("LEMMapInfo");
 include("YNAEMEHMapInfo");
 include("YNAEMESMapInfo");
+include("YNAEMEULMapInfo");
 
 CCTPScenarios = {
 -- This is the scenario data that each world should use. 
@@ -15,5 +16,6 @@ CCTPScenarios = {
 {3,LEMScenario3,LEMMapPoint,LEMWorldSize,LEMCivInfo,LEMStateInfo,LEMNaturalWonders,LEMScenario3Details,LEMMapOptions},
 {4,YNAEMEHScenario1,YNAEMEHMapPoint,YNAEMEHWorldSize,YNAEMEHCivInfo,YNAEMEHStateInfo,YNAEMEHNaturalWonders,YNAEMEHScenario1Details, YNAEMEHMapOptions},
 {5,YNAEMESScenario1,YNAEMESMapPoint,YNAEMESWorldSize,YNAEMESCivInfo,YNAEMESStateInfo,YNAEMESNaturalWonders,YNAEMESScenario1Details, YNAEMESMapOptions},
+{6,YNAEMEULScenario1,YNAEMEULMapPoint,YNAEMEULWorldSize,YNAEMEULCivInfo,YNAEMEULStateInfo,YNAEMEULNaturalWonders,YNAEMEULScenario1Details,YNAEMEULMapOptions},
 {"end",2,3,4,5,6,7,8,9},
 }
