@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>WR_LEADER_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>WRLeaderPortraits.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WR_LEADER_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>WRLeaderPortraits1024.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WR_LEADER_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>WRLeaderPortraits512.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<Leaders>
+		<Update>
+			<Set IconAtlas="WR_LEADER_ATLAS" PortraitIndex="0" />
+			<Where Type="LEADER_WASHINGTON" />
+		</Update>
+		<Update>
+			<Set IconAtlas="WR_LEADER_ATLAS" PortraitIndex="16" />
+			<Where Type="LEADER_CATHERINE" />
+		</Update>
+		<Update>
+			<Set IconAtlas="WR_LEADER_ATLAS" PortraitIndex="4" />
+			<Where Type="LEADER_ELIZABETH" />
+		</Update>
+		<Update>
+			<Set IconAtlas="WR_LEADER_ATLAS" PortraitIndex="9" />
+			<Where Type="LEADER_GANDHI" />
+		</Update>
+		<Update>
+			<Set IconAtlas="WR_LEADER_ATLAS" PortraitIndex="5" />
+			<Where Type="LEADER_NAPOLEON" />
+		</Update>
+		<Update>
+			<Set IconAtlas="WR_LEADER_ATLAS" PortraitIndex="1" />
+			<Where Type="LEADER_SELASSIE" />
+		</Update>
+		
+	</Leaders>
+</GameData>

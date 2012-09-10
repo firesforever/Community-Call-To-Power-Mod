@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- set leaders new names -->
+		<Update>
+			<Set Text="Cheburashka" />
+			<Where Tag="TXT_KEY_LEADER_CATHERINE" />
+		</Update>
+		<Update>
+			<Set Text="Wallace" />
+			<Where Tag="TXT_KEY_LEADER_ELIZABETH" />
+		</Update>
+		<Update>
+			<Set Gender="" />
+			<Where Tag="TXT_KEY_LEADER_ELIZABETH" />
+		</Update>
+		<Update>
+			<Set Text="Mowgli" />
+			<Where Tag="TXT_KEY_LEADER_GANDHI" />
+		</Update>
+		<Update>
+			<Set Text="The Beast" />
+			<Where Tag="TXT_KEY_LEADER_NAPOLEON" />
+		</Update>
+		<Update>
+			<Set Text="Mickey Mouse" />
+			<Where Tag="TXT_KEY_LEADER_WASHINGTON" />
+		</Update>
+		<Update>
+			<Set Text="Simba" />
+			<Where Tag="TXT_KEY_LEADER_SELASSIE" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="" />
+		</Update>
+		
+		<!-- Change the DOM Text -->
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_ARABIA_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_AZTECS_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_CHINA_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_EGYPT_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_ENGLAND_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_FRANCE_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_GERMANY_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_GREECE_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_INDIA_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_IROQUOIS_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_JAPAN_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_OTTOMANS_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_PERSIA_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_ROME_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_RUSSIA_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_SIAM_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_SONGHAI_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_UNITEDSTATES_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_AUSTRIA_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_BYZANTIUM_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_CARTHAGE_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_CELTS_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_ETHIOPIA_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_HUNS_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_MAYA_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_NETHERLANDS_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_SWEDEN_TEXT" />
+		</Update>
+
+	</Language_en_US>
+</GameData>

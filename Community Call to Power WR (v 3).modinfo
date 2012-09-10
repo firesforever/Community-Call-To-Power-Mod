@@ -1042,10 +1042,6 @@ Over a 100 new Buildings and Wonders!</Description>
 	<File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/CustomMod.xml</File>
 	<File md5="14349035BA08D690C3493842494D64C1" import="1">CCTP Maps/AdvancedCCTPSetup.lua</File>
     <File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/AdvancedCCTPSetup.xml</File>
-    <File md5="E503D0FED699DA4AB2A9080255FDDE4B" import="0">CCTP Maps/Backup/En.xml</File>
-    <File md5="FB7D7F955C36558C0B84C987B3324D86" import="0">CCTP Maps/Backup/RNELoadScreen/SelectRNEMapVersion - Copy.lua</File>
-    <File md5="4F02D0E484606713FE7C7049F2E19199" import="0">CCTP Maps/Backup/RNELoadScreen/SelectRNEMapVersion - Copy.xml</File>
-    <File md5="C3EF28894D4B00C5AFB6AE038BDD9167" import="1">CCTP Maps/BasicCCTPSetup.lua</File>
     <File md5="36315C38ECCDE903604AB7846C9123EA" import="1">CCTP Maps/BasicCCTPSetup.xml</File>
     <File md5="05E43FC5C0209755C91FF53048349C22" import="1">CCTP Maps/CCTPMapManager.lua</File>
     <File md5="F699E5FF864A4EE00CD4568ECA3A9666" import="0">CCTP Maps/CCTP/Hex Details.docx</File>
@@ -1061,7 +1057,6 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="16A25CFC5A2BB1FE05EFA2AF12DF705E" import="0">CCTP Maps/MapFiles/Used/Legendary Earth I.Civ5Map</File>
     <File md5="735D11947922A70C9F20DFC852D2E497" import="1">CCTP Maps/RMaps/RMapsAdvancedSetup.lua</File>
     <File md5="76F1BBF4D0C63FDE9EE982F65D581F01" import="1">CCTP Maps/RMaps/RMapsAdvancedSetup.xml</File>
-    <File md5="83C4AEB2EC9F6E70EBF614FBE4919E56" import="1">CCTP Maps/RMaps/RMapsGameSetupScreen.lua</File>
     <File md5="BD02F6C919CD04ACC050005A59FD78F5" import="1">CCTP Maps/RMaps/RMapsGameSetupScreen.xml</File>
     <File md5="AE2E1880CC63C81E2100A0DB97A1A53A" import="1">CCTP Maps/RMaps/RMapsSelectCivilization.lua</File>
     <File md5="139CD4F63C0796A0C5D2827C526C4012" import="1">CCTP Maps/RMaps/RMapsSelectCivilization.xml</File>
@@ -1226,9 +1221,49 @@ Over a 100 new Buildings and Wonders!</Description>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/IndustrialTechs.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/ModernTechs.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/RenaissanceTechs.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Russia_DiplomacyScene.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Catherine.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Catherine_Scene.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/England_DiplomacyScene.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Elizabeth.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Elizabeth_Scene.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/India_DiplomacyScene.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Gandhi.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Gandhi_Scene.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Ethiopia_DiplomacyScene.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Haile_Selassie.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Ethiopia_Selassie_Scene.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/France_DiplomacyScene.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Napoleon.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Napoleon_Scene.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/America_DiplomacyScene.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Washington.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Washington_Scene.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/England.mp3</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Ethiopia.mp3</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/France.mp3</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/India.mp3</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Russia.mp3</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/UnitedStates.mp3</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/RMapsGameSetupScreen.lua</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/BasicCCTPSetup.lua</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/LoadScreen.lua</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Text/Updates_Leaders.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Atlases/WRLeaderPortraits.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Atlases/WRLeaderPortraits1024.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Atlases/WRLeaderPortraits512.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/CivUpdates.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
+	<UpdateDatabase>Whiterabbit/Civs/CivUpdates.xml</UpdateDatabase>
+	<UpdateDatabase>Whiterabbit/Text/Updates_Leaders.xml</UpdateDatabase>
+	<UpdateDatabase>Whiterabbit/Civs/Elizabeth_Scene.xml</UpdateDatabase>
+	<UpdateDatabase>Whiterabbit/Civs/Catherine_Scene.xml</UpdateDatabase>
+	<UpdateDatabase>Whiterabbit/Civs/Gandhi_Scene.xml</UpdateDatabase>
+	<UpdateDatabase>Whiterabbit/Civs/Ethiopia_Selassie_Scene.xml</UpdateDatabase>
+	<UpdateDatabase>Whiterabbit/Civs/Napoleon_Scene.xml</UpdateDatabase>
+	<UpdateDatabase>Whiterabbit/Civs/Washington_Scene.xml</UpdateDatabase>
       <UpdateDatabase>SQL/UnitDefines/UnitInfos.sql</UpdateDatabase>
       <UpdateDatabase>SQL/UnitDefines/UnitInfoMemberInfos.sql</UpdateDatabase>
       <UpdateDatabase>SQL/UnitDefines/UnitMemberInfos.sql</UpdateDatabase>

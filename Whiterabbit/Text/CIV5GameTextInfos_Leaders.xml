@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+<!--File created by Paul Murphy-->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_ALEXANDER">
+			<Text>Alexander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ASKIA">
+			<Text>Askia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_AUGUSTUS">
+			<Text>Augustus Caesar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BARBARIAN">
+			<Text>Barbarian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BISMARCK">
+			<Text>Bismarck</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CATHERINE">
+			<Text>Catherine</Text>
+      		<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DARIUS">
+			<Text>Darius I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ELIZABETH">
+			<Text>Elizabeth</Text>
+      		<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GANDHI">
+			<Text>Gandhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HARUN">
+			<Text>Harun al-Rashid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_HIAWATHA">
+			<Text>Hiawatha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MONTEZUMA">
+			<Text>Montezuma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NAPOLEON">
+			<Text>Napoleon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ODA_NOBUNAGA">
+			<Text>Oda Nobunaga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMESSES">
+			<Text>Ramesses II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG">
+			<Text>Ramkhamhaeng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SULEIMAN">
+			<Text>Suleiman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_WASHINGTON">
+			<Text>Washington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_WU_ZETIAN">
+			<Text>Wu Zetian</Text>
+      		<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>
