@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Language_en_US>
-		<!-- set leaders new names -->
+		<!-- Change leader names -->
 		<Update>
 			<Set Text="Cheburashka" />
 			<Where Tag="TXT_KEY_LEADER_CATHERINE" />
@@ -30,12 +30,33 @@
 			<Set Text="Simba" />
 			<Where Tag="TXT_KEY_LEADER_SELASSIE" />
 		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="" />
-		</Update>
 		
 		<!-- Change the DOM Text -->
+		<Update>
+			<Set Text="Crickey Gromit! It says here that I am to lead and protect the celebrated maritime nation of England. England is an ancient land. Settled as early as 35,000 years ago, the island has seen countless waves of invaders, each in turn becoming a part of the fabric of the people. Although England is a small island, for many years your people dominated the world stage, their matchless navy, brilliant artists and shrewd merchants giving them power and influence far in excess of their mere numbers.[NEWLINE][NEWLINE]Wallace, will you bring about a new golden age for the English people? They look to you to return peace and prosperity to the nation.  Will you take up the mantle of greatness? Can you build a civilization that will stand the test of time? Get me all the Cheese you can find Gromit, we have work to do!!" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_ENGLAND_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="Long life and triumph to you, Beast, the new ruler of the French people.  France lies at the heart of Europe. Long has Paris been the world center of culture, arts and letters. Although surrounded by competitors - and often enemies - France has endured as a great nation. Its armies have marched triumphantly into battle from one end of the world to the other, its soldiers and generals among the best in history.[NEWLINE][NEWLINE]Beast, France yearns for you to rebuild this empire, to lead her once more to glory and greatness, to make France once more the epicenter of culture and refinement.  Will you ride once more against your foes?  Can you build a civilization that will stand the test of time? Fail and the people will once again rise against you!" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_FRANCE_TEXT" />
+		</Update>
+			<Update>
+			<Set Text="Greetings, Mowgli you ha...Look for the bare necessities, The simple bare necessities, Forget about your worries and your strife, I mean the bare necessities,Of mother natures recipies, That bring the bare necessities to life.[NEWLINE][NEWLINE]Mowgli, your people look to you to lead India to even greater heights of glory! Can you help your people realize their great potential, to once again become the world's center of arts, culture, and religion? Can you build a civilization that will stand the test of time?." />
+			<Where Tag="TXT_KEY_CIV5_DAWN_INDIA_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="Greetings upon thee, Cheburashka, wondrous being of the forest.  At your command lies the largest country in the world. Mighty Russia stretches from the Pacific Ocean in the east to the Baltic Sea in the west. Despite wars, droughts, and every manner of disaster the heroic Russian people survive and prosper, their artists and scientists among the best in the world. The Empire today remains one of the strongest ever seen in human history - a true superpower, with the greatest destructive force ever devised at her command.[NEWLINE][NEWLINE]Cheburashka, your people look to you to bring forth glorious days for Russia and her people, to revitalize the land and recapture the wonder of the Enlightenment. Will you lead your people once into greatness? Can you build a civilization that will stand the test of time?" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_RUSSIA_TEXT" />
+		</Update>
+		<Update>
+			<Set Text=" Oh Gosh looks like me, Mickey, has been chosen to lead the industrious American civilization!! Formed during some kind of revolution in the 18th century, within a hundred years this young nation became embroiled in a terrible Civil War, Aw, gee. In the 20th century, the United States reached the height of its power, emerging triumphant and mighty from the two terrible wars that destroyed so many other great nations.[NEWLINE][NEWLINE]The United States is a nation of immigrants, filled with optimism and determination which sure is swell!. I President Mickey Mouse, will lead the American people to greatness! I Can build a civilization that will stand the test of time, like me!" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_UNITEDSTATES_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="Blessings be upon you, honorable and righteous Simba son of Mufasa. You defeated Scar and became the King of the Pridelands and Leader of the Pack.  But now the people of Ethiopia look to you to be their ruler? [NEWLINE][NEWLINE]Revered Simba, will you lead the people with courage and authority, moving forward into a new age? Will you build a civilization that stands the test of time?" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_ETHIOPIA_TEXT" />
+		</Update>
+		<!--
 		<Update>
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_ARABIA_TEXT" />
@@ -52,14 +73,7 @@
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_EGYPT_TEXT" />
 		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_ENGLAND_TEXT" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_FRANCE_TEXT" />
-		</Update>
+
 		<Update>
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_GERMANY_TEXT" />
@@ -67,10 +81,6 @@
 		<Update>
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_GREECE_TEXT" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_INDIA_TEXT" />
 		</Update>
 		<Update>
 			<Set Text="" />
@@ -94,19 +104,11 @@
 		</Update>
 		<Update>
 			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_RUSSIA_TEXT" />
-		</Update>
-		<Update>
-			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_SIAM_TEXT" />
 		</Update>
 		<Update>
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_SONGHAI_TEXT" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_UNITEDSTATES_TEXT" />
 		</Update>
 		<Update>
 			<Set Text="" />
@@ -126,10 +128,6 @@
 		</Update>
 		<Update>
 			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_ETHIOPIA_TEXT" />
-		</Update>
-		<Update>
-			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_HUNS_TEXT" />
 		</Update>
 		<Update>
@@ -144,6 +142,118 @@
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_SWEDEN_TEXT" />
 		</Update>
-
+		-->
+		<!-- Civilopedia Updates -->
+		<!-- Chnage Leader Name-->
+		<Update>
+			<Set Text="Cheburashka" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CATHERINE_NAME" />
+		</Update>
+		<Update>
+			<Set Text="Wallace" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ELIZABETH_NAME" />
+		</Update>
+		<Update>
+			<Set Text="Mowgli" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GANDHI_NAME" />
+		</Update>
+		<Update>
+			<Set Text="Mickey Mouse" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GEORGE_NAME" />
+		</Update>
+		<Update>
+			<Set Text="The Beast" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NAPOLEON_NAME" />
+		</Update>
+		<Update>
+			<Set Text="Simba" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_NAME" />
+		</Update>
+		<!--
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DARIUS_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ALEXANDER_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ASKIA_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUGUSTUS_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BISMARCK_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HARUN_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HIAWATHA_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MONTEZUMA_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ODA_NAME" />
+		</Update>
+				<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RAMESSES_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RAMKHAMHAENG_NAME" />
+		</Update>		
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SULEIMAN_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_WUZETIAN_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ATTILA_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BOUDICCA_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DIDO_NAME" />
+		</Update>
+				<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GUSTAVUS_ADOLPHUS_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MARIA_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PACAL_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_THEODORA_NAME" />
+		</Update>
+		<Update>
+			<Set Text="" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_WILLIAM_NAME" />
+		</Update>
+		-->
 	</Language_en_US>
 </GameData>
