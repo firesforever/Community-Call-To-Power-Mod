@@ -48,6 +48,22 @@
 			<Set IconAtlas="WR_LEADER_ATLAS" PortraitIndex="1" />
 			<Where Type="LEADER_SELASSIE" />
 		</Update>
+				<Update>
+			<Set IconAtlas="WR_LEADER_ATLAS" PortraitIndex="6" />
+			<Where Type="LEADER_ALEXANDER" />
+		</Update>
+				<Update>
+			<Set IconAtlas="WR_LEADER_ATLAS" PortraitIndex="3" />
+			<Where Type="LEADER_BISMARCK" />
+		</Update>
+				<Update>
+			<Set IconAtlas="WR_LEADER_ATLAS" PortraitIndex="2" />
+			<Where Type="LEADER_HARUN_AL_RASHID" />
+		</Update>
+				<Update>
+			<Set IconAtlas="WR_LEADER_ATLAS" PortraitIndex="7" />
+			<Where Type="LEADER_ODA_NOBUNAGA" />
+		</Update>
 		
 	</Leaders>
 </GameData>

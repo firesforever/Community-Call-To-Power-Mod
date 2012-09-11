@@ -1239,14 +1239,32 @@ Over a 100 new Buildings and Wonders!</Description>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/America_DiplomacyScene.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Washington.dds</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Washington_Scene.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Arabia_DiplomacyScene.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Germany_DiplomacyScene.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Greek_DiplomacyScene.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Japan_DiplomacyScene.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Alex.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_AlRashid.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Bizmark.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Oda.dds</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Al_Rashid_Scene.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Alexander_Scene.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Bismark_Scene.xml</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/OdaNobunaga_Scene.xml</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/England.mp3</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Ethiopia.mp3</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/France.mp3</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/India.mp3</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Russia.mp3</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/UnitedStates.mp3</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Arabia.mp3</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Japan.mp3</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Germany.mp3</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Greece.mp3</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/RMapsGameSetupScreen.lua</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/BasicCCTPSetup.lua</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/AdvancedCCTPSetup.lua</File>
+	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/RMapsAdvancedSetup.lua</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/LoadScreen.lua</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Text/Updates_Leaders.xml</File>
 	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Atlases/WRLeaderPortraits.dds</File>

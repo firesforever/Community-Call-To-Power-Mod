@@ -7,11 +7,7 @@
 			<Where Tag="TXT_KEY_LEADER_CATHERINE" />
 		</Update>
 		<Update>
-			<Set Text="Wallace" />
-			<Where Tag="TXT_KEY_LEADER_ELIZABETH" />
-		</Update>
-		<Update>
-			<Set Gender="" />
+			<Set Text="Wallace" Gender="" />
 			<Where Tag="TXT_KEY_LEADER_ELIZABETH" />
 		</Update>
 		<Update>
@@ -29,6 +25,22 @@
 		<Update>
 			<Set Text="Simba" />
 			<Where Tag="TXT_KEY_LEADER_SELASSIE" />
+		</Update>
+		<Update>
+			<Set Text="Hercules" />
+			<Where Tag="TXT_KEY_LEADER_ALEXANDER" />
+		</Update>
+		<Update>
+			<Set Text="Snow White" Gender="feminine"/>
+			<Where Tag="TXT_KEY_LEADER_BISMARCK" />
+		</Update>
+		<Update>
+			<Set Text="Aladdin" />
+			<Where Tag="TXT_KEY_LEADER_HARUN" />
+		</Update>
+		<Update>
+			<Set Text="Pazu" />
+			<Where Tag="TXT_KEY_LEADER_ODA_NOBUNAGA" />
 		</Update>
 		
 		<!-- Change the DOM Text -->
