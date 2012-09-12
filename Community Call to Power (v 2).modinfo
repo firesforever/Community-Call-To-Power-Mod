@@ -12,7 +12,7 @@ Once CCTP is installed, before you boot up CiV, navigate to the CCTP mod directo
 
 Features:-
 
-10 New Resources: Squid, Magnese, Jade, Poppy, Tobacco, Coffee, Titanium, Aloe Vera, Tin, Amber, Oak and Blockbuster.
+15 New Resources: Squid, Magnese, Jade, Poppy, Tobacco, Coffee, Titanium, Aloe Vera, Tin, Amber, Oak, Flax, Berries, Coconut, Cacao, Tea and Blockbuster.
 
 New Trade Monopoly System! With the addition of 17 technologies(Economic Page) and 200 buildings(5 per resource), resources will be more important than ever!
 -Each resource now has a line of buildings: Small, Medium, Large, Huge, and Monopoly.
@@ -51,6 +51,14 @@ Over a 100 new Buildings and Wonders!</Description>
   <References />
   <Blocks />
   <Files>
+    <File md5="511BA347A0C8E6F7B24B655C16453589" import="1">Art/Icons/Religion/religioussymbolswhite128_expansion.dds</File>
+    <File md5="6A2B47C5E68361095CED087B471A5503" import="1">Art/Icons/Religion/religioussymbolswhite16_expansion.dds</File>
+    <File md5="BE720A462EF95D83D3B51F6ABCB4B2F4" import="1">Art/Icons/Religion/religioussymbolswhite24_expansion.dds</File>
+    <File md5="71874A8594A22C1132D94B4CC2D6DDBE" import="1">Art/Icons/Religion/religioussymbolswhite32_expansion.dds</File>
+    <File md5="9F273F96CBD7D4A13CFB43B4DC8E5DAD" import="1">Art/Icons/Religion/religioussymbolswhite48_expansion.dds</File>
+    <File md5="A54F4AC6B3B993BB3606AB592796FC4F" import="1">Art/Icons/Religion/religioussymbolswhite64_expansion.dds</File>
+    <File md5="5C0F1D9D7503C1ECCFA0FDB0B4A3D329" import="1">Art/Icons/Religion/religioussymbolswhite80_expansion.dds</File>
+    <File md5="34CAFA4318C11530FAB6F5A9EEB7F2F0" import="0">Religion/ActiveReligions.xml</File>
     <File md5="3F060C8F7E24C5F85955DBA1745129FE" import="0">GEM AI/AIAttackForces.xml</File>
     <File md5="FAA045B9988777454698B9F77446253E" import="0">GEM AI/CIV5AIMilitaryStrategies.xml</File>
     <File md5="7293BD05D7F4D077BD04FBC1A51717D0" import="0">GEM AI/GEAI_Armies.xml</File>
@@ -1294,6 +1302,7 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Nebuchadnezzar.xml</UpdateDatabase>
       <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Pachacuti.xml</UpdateDatabase>
       <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Sejong.xml</UpdateDatabase>
+      <UpdateDatabase>Religion/ActiveReligions.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
