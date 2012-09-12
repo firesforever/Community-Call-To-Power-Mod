@@ -42,6 +42,18 @@
 			<Set Text="Pazu" />
 			<Where Tag="TXT_KEY_LEADER_ODA_NOBUNAGA" />
 		</Update>
+		<Update>
+			<Set Text="Mario" />
+			<Where Tag="TXT_KEY_LEADER_AUGUSTUS" />
+		</Update>
+		<Update>
+			<Set Text="Duckula" Gender=""/>
+			<Where Tag="TXT_KEY_LEADER_MARIA" />
+		</Update>
+		<Update>
+			<Set Text="Ash" />
+			<Where Tag="TXT_KEY_LEADER_PACAL" />
+		</Update>
 		
 		<!-- Change the DOM Text -->
 		<Update>
@@ -68,11 +80,36 @@
 			<Set Text="Blessings be upon you, honorable and righteous Simba son of Mufasa. You defeated Scar and became the King of the Pridelands and Leader of the Pack.  But now the people of Ethiopia look to you to be their ruler? [NEWLINE][NEWLINE]Revered Simba, will you lead the people with courage and authority, moving forward into a new age? Will you build a civilization that stands the test of time?" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_ETHIOPIA_TEXT" />
 		</Update>
-		<!--
 		<Update>
-			<Set Text="" />
+			<Set Text="Ah, Salaam and good evening to you worthy friend.Please, please, come closer.  The Muslim Empire of the Caliphate was born in the turbulent years after the death of the Prophet Muhammad in 632 AD, as his followers sought to extend the rule of God to all of the people of the earth. The Caliphate grew mighty indeed, at the height of its power ruling Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, an empire as great - or even greater than - that of Rome. The arts and sciences flourished in Arabia during the Middle Ages, even as the countries of Europe descended into ignorance and chaos. The Caliphate survived for 600 years, until finally succumbing to attack from the Mongols, those destroyers of Empires.[NEWLINE][NEWLINE]Great Aladdin, your people look to you to return them to greatness. To make Arabia once again an enlightened land of arts and knowledge, a powerful nation who need fear no enemy. Oh Aladdin, will you take up the challenge? Can you build a civilization that will stand the test of time?" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_ARABIA_TEXT" />
 		</Update>
+		<Update>
+			<Set Text="Once upon a time there lived a lovely little princess named Snow White. Her vain and wicked stepmother, the Queen, tried numerous times to kill her through jealousy of her shear beauty.  Snow White you survived you stepmother, but can you now help the German people and lead them to greatness?  Germany is an upstart nation, fashioned from the ruins of the Holy Roman Empire and finally unified in 1871, a little more than a century ago. The German people have proven themselves to be creative, industrious, and ferocious warriors. Despite enduring great catastrophe in the first half of the 20th century, Germany remains a world-wide economic, artistic, and technological leader.[NEWLINE][NEWLINE]Snow White, the German people look to you to lead them to greater days of glory.  Their determination is strong and they turn to you, their beloved Snow, to guide them. Will you rule and conquer through blood and iron like your stepmother? or foster the Germanic arts and industry taught to you by the Drawfs? In short, can you build a civilization that will stand the test of time?" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_GERMANY_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="May the blessings of the gods be upon you, oh great and powerful Hercules son of Zeus! You are to be the ruler of the mighty Greek nation. Your people lived for many years in isolated city-states - legendary cities such as Athens, Sparta, Thebes - where they gave the world many great things, such as democracy, philosophy, tragedy, art and architecture, the very foundations of Western Civilization. Although few in number and often hostile to each other, in the 5th century BC they were able to defeat their much larger neighbor, Persia, on land and sea.[NEWLINE][NEWLINE]Hurcules, your people stand ready to march to war, to spread the great Greek culture to millions and to bring you everlasting glory. Are you ready to accept your destiny? Will you lead your people to triumph and greatness? Can you build a civilization that will stand the test of time?" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_GREECE_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="Blessings upon you Pazu, you were able to discover laputa and defeat Muska but now a new challange awaits you! The Japanese are an island people, proud and pious with a rich culture of arts and letters. Their civilization stretches back thousands of years, years of bloody warfare, expansion and isolation, great wealth and great poverty. In addition to their prowess on the field of battle, your people are also immensely industrious, and their technological innovation and mighty factories are the envy of lesser people everywhere.[NEWLINE][NEWLINE]Legendary Pazu, will you grab the reins of destiny once more?  Will you bring honor and glory to Japan? Can you build a civilization that will stand the test of time?" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_JAPAN_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="Mario! You have been chosen... no Pauline, Princess Peach, Princess Daisy, and Prince Pine are safe, this is something much bigger! Mario the roman empire, need you to lead them! ..yes they are Italians just like you! The Roman empire was the greatest and longest-lived of all in Western Civilization, and your people single-handedly have shaped its culture, law, art, and warfare like none other, before or since. Through years of glorious conquest, Rome came to dominate all the lands of the Mediterranean, from Spain in the west to Syria in the east, and her dominion would eventually expand to cover much of England and Northern Germany. Roman art and architecture still awe and inspire the world, and she remains the envy of all of the lesser civilizations who have followed.[NEWLINE][NEWLINE]O mighty Mario, your people turn to you once more to reclaim the glory of Rome. Will you see to it that the empire rises again, bringing peace and order to all?  Will you make Rome once again the center of the world? Can you build a civilization that will stand the test of time?" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_ROME_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="
+			In the heart of Transylvania, in the Vampire Hall of Fang-yia, there's not a vampire zanier than Duckula. He won't bite beast or man, Cos he's a vegetarian, and things never run to plan for Duckula. If you're looking for some fun, You can always count upon, The wild and wacky one they call Duckula. [NEWLINE][NEWLINE]Igor get me my coat it seems that the Austrain people have chosen me, Count duckula to lead them. Let it be known that I Count Duckula, on whatever day this is, will lead these people to greatness! I can build a civilization that stands the test of time!" />
+			<Where Tag="TXT_KEY_CIV5_DAWN_AUSTRIA_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="Alright you Primitive Screwheads, listen up! You see this? This... is my boomstick! The twelve-gauge double-barreled Remington. S-Mart's top of the line. You can find this in the sporting goods department. That's right, this sweet baby was made in Grand Rapids, Michigan. Retails for about a hundred and nine, ninety five. It's got a walnut stock, cobalt blue steel, and a hair trigger. That's right. Shop smart. Shop S-Mart. You got that? " />
+			<Where Tag="TXT_KEY_CIV5_DAWN_MAYA_TEXT" />
+		</Update>
+		<!--
 		<Update>
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_AZTECS_TEXT" />
@@ -85,22 +122,9 @@
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_EGYPT_TEXT" />
 		</Update>
-
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_GERMANY_TEXT" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_GREECE_TEXT" />
-		</Update>
 		<Update>
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_IROQUOIS_TEXT" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_JAPAN_TEXT" />
 		</Update>
 		<Update>
 			<Set Text="" />
@@ -112,19 +136,11 @@
 		</Update>
 		<Update>
 			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_ROME_TEXT" />
-		</Update>
-		<Update>
-			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_SIAM_TEXT" />
 		</Update>
 		<Update>
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_SONGHAI_TEXT" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_AUSTRIA_TEXT" />
 		</Update>
 		<Update>
 			<Set Text="" />
@@ -141,10 +157,6 @@
 		<Update>
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIV5_DAWN_HUNS_TEXT" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIV5_DAWN_MAYA_TEXT" />
 		</Update>
 		<Update>
 			<Set Text="" />
@@ -181,6 +193,35 @@
 			<Set Text="Simba" />
 			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_NAME" />
 		</Update>
+		
+		<Update>
+			<Set Text="Hercules" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ALEXANDER_NAME" />
+		</Update>
+		<Update>
+			<Set Text="Mario" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUGUSTUS_NAME" />
+		</Update>
+		<Update>
+			<Set Text="Snow White" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BISMARCK_NAME" />
+		</Update>
+		<Update>
+			<Set Text="Aladdin" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HARUN_NAME" />
+		</Update>
+		<Update>
+			<Set Text="Pazu" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ODA_NAME" />
+		</Update>
+		<Update>
+			<Set Text="Duckula" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MARIA_NAME" />
+		</Update>
+		<Update>
+			<Set Text="Ash" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PACAL_NAME" />
+		</Update>
 		<!--
 		<Update>
 			<Set Text="" />
@@ -188,23 +229,7 @@
 		</Update>
 		<Update>
 			<Set Text="" />
-			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ALEXANDER_NAME" />
-		</Update>
-		<Update>
-			<Set Text="" />
 			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ASKIA_NAME" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_AUGUSTUS_NAME" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BISMARCK_NAME" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_HARUN_NAME" />
 		</Update>
 		<Update>
 			<Set Text="" />
@@ -215,10 +240,6 @@
 			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MONTEZUMA_NAME" />
 		</Update>
 		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ODA_NAME" />
-		</Update>
-				<Update>
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RAMESSES_NAME" />
 		</Update>
@@ -246,17 +267,9 @@
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DIDO_NAME" />
 		</Update>
-				<Update>
+		Update>
 			<Set Text="" />
 			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GUSTAVUS_ADOLPHUS_NAME" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_MARIA_NAME" />
-		</Update>
-		<Update>
-			<Set Text="" />
-			<Where Tag="TXT_KEY_CIVILOPEDIA_LEADERS_PACAL_NAME" />
 		</Update>
 		<Update>
 			<Set Text="" />
