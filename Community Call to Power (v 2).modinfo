@@ -51,6 +51,14 @@ Over a 100 new Buildings and Wonders!</Description>
   <References />
   <Blocks />
   <Files>
+    <File md5="FEA156E3CACF647866989E17966DFC87" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons24.dds</File>
+    <File md5="90DB0F609F5BAEC1D60E0C07A30DBDEB" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons32.dds</File>
+    <File md5="689C7CB731D8204FA72A55C9F036557F" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons48.dds</File>
+    <File md5="4BD88F423858D2E8C26CC79001445481" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons64.dds</File>
+    <File md5="5E0D88129810401118B0870CF2D02985" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons80.dds</File>
+    <File md5="EB1DB416564C4ADD2F43425E3A76B766" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons128.dds</File>
+    <File md5="961FC64C0402FC1E33636AACAE11A622" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons16.dds</File>
+    <File md5="BA7428E66B9DC207741DA2057CA991E4" import="0">Religion/MythologyIconAtlas.xml</File>
     <File md5="511BA347A0C8E6F7B24B655C16453589" import="1">Art/Icons/Religion/religioussymbolswhite128_expansion.dds</File>
     <File md5="6A2B47C5E68361095CED087B471A5503" import="1">Art/Icons/Religion/religioussymbolswhite16_expansion.dds</File>
     <File md5="BE720A462EF95D83D3B51F6ABCB4B2F4" import="1">Art/Icons/Religion/religioussymbolswhite24_expansion.dds</File>
@@ -1303,6 +1311,7 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Pachacuti.xml</UpdateDatabase>
       <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Sejong.xml</UpdateDatabase>
       <UpdateDatabase>Religion/ActiveReligions.xml</UpdateDatabase>
+      <UpdateDatabase>Religion/MythologyIconAtlas.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
