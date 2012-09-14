@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Context ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" >
-    <Label Anchor="L,T" Offset="0,200" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="Preview"/>
-</Context>
-
