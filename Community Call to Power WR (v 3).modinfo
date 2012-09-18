@@ -4,32 +4,33 @@
     <Name>Community Call to Power (White Rabbit)</Name>
     <Stability>Alpha</Stability>
     <Teaser>Restart civilization 5 before playing!! Play a not so serious version of CCTP!</Teaser>
-    <Description>Updated Workshop version, see Version History.txt for details.
+    <Description>This mod Requires Gods and Kings Expansion.
+
+Emigration, Tree Growth, New Bonus Resources(CCTP Teaser) and some elements of CivUP are now INCLUDED  in this mod, do not use these mods with CCTP!
+
+Updated Workshop version, see Version History.txt for details.
 
 [COLOR_YELLOW]
-Anyone that does NOT have the Polynesia DLC:-
-Once CCTP is installed, before you boot up CiV, navigate to the CCTP mod directory(...Documents\My Games\Sid Meier's Civilization 5\MODS\Community Call to Power (v 2)) and rename the DLC folder so it looks like[/COLOR][COLOR_RED] _DLC[/COLOR][COLOR_YELLOW].[/COLOR]
+Anyone that  have the Polynesia DLC:-
+Once CCTP is installed, before you boot up CiV, navigate to the CCTP mod directory(...Documents\My Games\Sid Meier's Civilization 5\MODS\Community Call to Power (v 2)) and rename the _DLC folder so it looks like[/COLOR][COLOR_RED] DLC[/COLOR][COLOR_YELLOW].[/COLOR]
 
 Features:-
 
-10 New Resources: Squid, Magnese, Jade, Poppy, Tobacco, Coffee, Titanium, Aloe Vera, Tin, Amber, Oak and Blockbuster.
+New Bonus Resources(CCTP Teaser) is included in this mod. You can not use both.
 
-New Trade Monopoly System! With the addition of 17 technologies(Economic Page) and 200 buildings(5 per resource), resources will be more important than ever!
--Each resource now has a line of buildings: Small, Medium, Large, Huge, and Monopoly.
--Each building requires the smaller version that came before it in the city.
--Each building requires 1 of it's resource, and provides 1-2 bonuses to it's city of origin.
--Each Building provides an increase in trade income. Each Monopoly provides a greater bonus.
--Monopoly buildings require 2 Huge buildings somewhere in the empire, and provide global bonuses.
+17 New resources: Squid, Magnese, Jade, Poppy, Tobacco, Coffee, Titanium, Aloe Vera, Tin, Amber, Oak, Barley, Wild Berries, Mango, Flax, Cacao and Blockbuster.
 
-Multiple Tech Trees:- Technologies are now spread over 5 Catagories(Social, Science, Military, Engineering &amp; Economics).
+New Trade Monopoly System! 
 
-New Policy System:- Social policies are now spread over 3 Catagories(Goverments, Systems, Ideologies).
+NEW Multiple Tech Trees:- Technologies are now spread over 3 Catagories per Era.
 
-Over 105 New Technologies to research.
+New Policy System:- 180 Social policies are now spread over 3 Catagories(Goverments, Systems, Ideologies).
 
-Over 34 New Units to destroy your enemies!
+Over 220 Technologies to research.
 
-Over a 100 new Buildings and Wonders!</Description>
+Over 150 Units to destroy your enemies!
+
+Over 340 Buildings and Wonders!</Description>
     <Authors>FiresForever</Authors>
     <SpecialThanks>Decimatus, Chrome-Rome, Horem</SpecialThanks>
     <HideSetupGame>1</HideSetupGame>
@@ -72,8 +73,6 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="AFF8949B929FC1394B121057910790E7" import="1">Art/Resources/Font Icons/CCTPFontIconAtlas.dds</File>
     <File md5="75D953AD8720CC650CBEF982BD13A86C" import="1">Art/Resources/Font Icons/CCTPFontIconAtlas.ggxml</File>
     <File md5="BD143769C848998FDE9416DDD26AFF21" import="0">Art/Resources/Font Icons/CCTPFontIconAtlas.xml</File>
-    <File md5="E12255F94A3D9CDE7D6606CAB71BA070" import="0">Art/Resources/Font Icons/Preview_CCTPFontIconAtlas.lua</File>
-    <File md5="7D8F82C0580344622A6DF5138C1A2927" import="0">Art/Resources/Font Icons/Preview_CCTPFontIconAtlas.xml</File>
     <File md5="DC55A829CCA9A6AE2E5DAA51A38FB673" import="1">Art/Resources/Barley/barley_diff.dds</File>
     <File md5="4EA66BD2EC23C9DDB0AEDAA6A666CD1D" import="1">Art/Resources/Barley/barley_sref.dds</File>
     <File md5="002BCDAD4CA368A54F272B72A210A3F2" import="1">Art/Resources/Barley/crop_ground_barley_d.dds</File>
@@ -1088,7 +1087,6 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="AFBE3093D9715324F43C480FA8A7A653" import="0">Policy/ReligiousIdeology.xml</File>
     <File md5="7788E308DE47488089A25D1C76CB23A6" import="1">Policy/SocialPolicyPopup.lua</File>
     <File md5="9F9E854288E57F005D1F960E5BDD59A2" import="1">Policy/SocialPolicyPopup.xml</File>
-    <File md5="F83756136C4E6C071C5946565629C161" import="0">Tech/TechTableAdds.sql</File>
     <File md5="8DD9F4ED280AB8D937E973FF0E5E88B9" import="0">Tech/Eras.xml</File>
     <File md5="B2CB6831BCC41CEAAF077951C9A70B88" import="1">Tech/TechCategories.xml</File>
     <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technologies.sql</File>
@@ -1288,7 +1286,6 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>SQL/UnitDefines/MemberCombats.sql</UpdateDatabase>
       <UpdateDatabase>SQL/UnitDefines/MemberCombatWeapons.sql</UpdateDatabase>
       <UpdateDatabase>Z_Global/ArtDefines_Resources.sql</UpdateDatabase>
-      <UpdateDatabase>Tech/TechTableAdds.sql</UpdateDatabase>
       <UpdateDatabase>Tech/Technologies.sql</UpdateDatabase>
       <UpdateDatabase>Tech/Technology_Flavors.sql</UpdateDatabase>
       <UpdateDatabase>Tech/Technology_PrereqTechs.sql</UpdateDatabase>
@@ -1373,10 +1370,6 @@ Over a 100 new Buildings and Wonders!</Description>
     <EntryPoint type="NotificationAddin" file="Events/CCTPEventManager.lua">
       <Name>CCTPEventManager.lua</Name>
       <Description>CCTPEventManager.lua</Description>
-    </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Art/Resources/Font Icons/Preview_CCTPFontIconAtlas.xml">
-      <Name>Preview_CCTPFontIconAtlas</Name>
-      <Description>Text for Custom Font Icons</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>

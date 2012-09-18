@@ -31,11 +31,6 @@
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
@@ -43,7 +38,7 @@
 		<Row>
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<TerrainType>TERRAIN_TUNDRA</TerrainType>
@@ -96,11 +91,6 @@
 			<TerrainType>TERRAIN_GRASS</TerrainType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-1</Yield>
 		</Row>
 		<Row>
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
