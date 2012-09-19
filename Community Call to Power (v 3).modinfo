@@ -6,7 +6,7 @@
     <Teaser>A revamp of CiV to resemble Call to Power!</Teaser>
     <Description>This mod Requires Gods and Kings Expansion.
 
-Emigration, Tree Growth, New Bonus Resources(CCTP Teaser) and some elements of CivUP are now INCLUDED  in this mod, do not use these mods with CCTP!
+Emigration, Tree Growth, New Bonus Resources(CCTP Teaser) and some elements of CivUP are now INCLUDED  in this mod.
 
 Updated Workshop version, see Version History.txt for details.
 
@@ -49,7 +49,12 @@ Over 340 Buildings and Wonders!</Description>
     <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
   </Dependencies>
   <References />
-  <Blocks />
+  <Blocks>
+    <Mod id="bb0317db-2963-45ca-8a5d-844c76220a4e" minversion="0" maxversion="999" />
+    <Mod id="6654d7ec-1b0a-45b0-b7f5-307a2e30d833" minversion="0" maxversion="999" />
+    <Mod id="01127f62-3896-4897-b169-ecab445786cd" minversion="0" maxversion="999" />
+    <Mod id="5e509896-6ed1-4805-8163-71763190a545" minversion="0" maxversion="999" />
+  </Blocks>
   <Files>
     <File md5="A23C711914750FBA0EADB34CFB76F5FD" import="0">AI/BetterAI.xml</File>
     <File md5="FC81F758CC3470C4420A8336EDBF2FCB" import="0">AI/GlobalAIDefines.xml</File>
@@ -1173,7 +1178,6 @@ Over 340 Buildings and Wonders!</Description>
     <File md5="8D778F007A8144227F79EBD0EC4CEA14" import="1">CCTP Maps/SelectRTP.lua</File>
     <File md5="63E8C11EB77FF819DB26873AA92B4FD2" import="1">CCTP Maps/SelectRTP.xml</File>
     <File md5="78F45A79AEC79D2A9BA8B608636D279B" import="0">CCTP Readme.rtf</File>
-    <File md5="622ABE3591140FA8510CBF5234A841F7" import="0">Community Call to Power WR (v 3).modinfo</File>
     <File md5="590AAFA65D06AA465C584E375D167843" import="1">Events/Active Player Turn/APSPlotEvents.lua</File>
     <File md5="D41D8CD98F00B204E9800998ECF8427E" import="0">Events/Active Player Turn/Emigration/Emigration V3.txt</File>
     <File md5="EF07DEA89F8CB40A69996E1666A1FADF" import="1">Events/Active Player Turn/Emigration/Emigration.lua</File>
@@ -1218,13 +1222,13 @@ Over 340 Buildings and Wonders!</Description>
     <File md5="27A13190F2443DA4E5EC669C23E7D038" import="0">Units/UnitsThatIgnoreBorders.xml</File>
     <File md5="E14041A6162C83F3D400252307A19864" import="0">Units/Update_UnitArtDefines.xml</File>
     <File md5="A914FF152C5434F435E4D2860F1EE3FC" import="0">_DLC/Moai_Improvement.xml</File>
-    <File md5="4784FEF4BAA3514DE5977BA6483195FA" import="0">Policy/FreePolicies.xml</File>
-    <File md5="3591D133944C3DFE6CD7A2A97B6489AA" import="0">Policy/Governments.xml</File>
-    <File md5="BDD48FE05B3C7A8482A6EA062D35EE62" import="0">Policy/GovIdeology.xml</File>
-    <File md5="8576E2387C8C712873FAC43A69F71BC5" import="0">Policy/GovSystems.xml</File>
+    <File md5="4784FEF4BAA3514DE5977BA6483195FA" import="1">Policy/FreePolicies.xml</File>
+    <File md5="3591D133944C3DFE6CD7A2A97B6489AA" import="1">Policy/Governments.xml</File>
+    <File md5="BDD48FE05B3C7A8482A6EA062D35EE62" import="1">Policy/GovIdeology.xml</File>
+    <File md5="8576E2387C8C712873FAC43A69F71BC5" import="1">Policy/GovSystems.xml</File>
     <File md5="CA735C40D69A10F31162D68AAFF8BF66" import="1">Policy/PolicyBranch.xml</File>
     <File md5="62E106FFB8B946B7F3A7F9155902CE24" import="1">Policy/PolicyCategories.xml</File>
-    <File md5="A2901CA2F5BFED6939C22F4D46137B6C" import="1">Policy/PolicyTableAdds.sql</File>
+    <File md5="8911410786F425530F1E17F189EC012C" import="1">Policy/PolicyTableAdds.sql</File>
     <File md5="56BF887EF7CC0F95486E4FCC34C684F9" import="0">Policy/Religions.xml</File>
     <File md5="AFBE3093D9715324F43C480FA8A7A653" import="0">Policy/ReligiousIdeology.xml</File>
     <File md5="7388C7E662F3CDFBC670DFE7AD84E527" import="1">Policy/SocialPolicyPopup.lua</File>
@@ -1251,19 +1255,19 @@ Over 340 Buildings and Wonders!</Description>
   </Files>
   <Actions>
     <OnModActivated>
+      <UpdateDatabase>Policy/PolicyTableAdds.sql</UpdateDatabase>
+      <UpdateDatabase>Policy/PolicyCategories.xml</UpdateDatabase>
       <UpdateDatabase>Tech/TechCategories.xml</UpdateDatabase>
       <UpdateDatabase>Tech/TechIcons.xml</UpdateDatabase>
       <UpdateDatabase>Tech/Technologies.sql</UpdateDatabase>
       <UpdateDatabase>Tech/Technology_PrereqTechs.sql</UpdateDatabase>
       <UpdateDatabase>Tech/Technology_Flavors.sql</UpdateDatabase>
       <UpdateDatabase>Tech/Eras.xml</UpdateDatabase>
-      <UpdateDatabase>Policy/PolicyTableAdds.sql</UpdateDatabase>
-      <UpdateDatabase>Policy/PolicyCategories.xml</UpdateDatabase>
       <UpdateDatabase>Policy/PolicyBranch.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/FreePolicies.xml</UpdateDatabase>
       <UpdateDatabase>Policy/Governments.xml</UpdateDatabase>
       <UpdateDatabase>Policy/GovIdeology.xml</UpdateDatabase>
       <UpdateDatabase>Policy/GovSystems.xml</UpdateDatabase>
-      <UpdateDatabase>Policy/FreePolicies.xml</UpdateDatabase>
       <UpdateDatabase>Art Defines/Resources/ArtDefines_Resources.sql</UpdateDatabase>
       <UpdateDatabase>Art Defines/Units/MemberCombats.sql</UpdateDatabase>
       <UpdateDatabase>Art Defines/Units/MemberCombatWeapons.sql</UpdateDatabase>
