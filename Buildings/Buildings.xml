@@ -1432,6 +1432,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_PUBLIC_BATHS_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_PUBLIC_BATHS_HELP</Help>
 			<Strategy>TXT_KEY_BUILDING_PUBLIC_BATHS_STRATEGY</Strategy>
+			<GoldMaintenance>2</GoldMaintenance>
 			<Cost>300</Cost>
 			<Happiness>2</Happiness>
 			<FreshWater>true</FreshWater>

@@ -955,7 +955,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Federalism[ENDCOLOR] greatly improves the [ICON_CULTURE] Cultural output of the empire.[NEWLINE][NEWLINE]+5 [ICON_FOOD] Food in every City.[NEWLINE][NEWLINE]Incompatible with Feudalism and Anarchism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_ELECTORAL_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Electoral[ENDCOLOR] improves the empire's [ICON_GOLD] Gold and [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness from every University.[NEWLINE][NEWLINE]Incompatible with Aristocracy, Feudalism, Autocracy, Totalitarianism, Fascism, Feudalism, and Communism.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Electoral[ENDCOLOR] improves the empire's [ICON_GOLD] Gold and [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness from every University.[NEWLINE][NEWLINE]Incompatible with Aristocracy, Feudalism, Autocracy, Totalitarianism, Fascism, and Communism.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEWPOLICY_BRANCH_TOTALITARIANISM_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Totalitarianism[ENDCOLOR] keepes the empire [ICON_HAPPINESS_1] happy through a series of strict military procedures.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] Production in every City.[NEWLINE][NEWLINE]Incompatible with Pluralism, Constitutional, Electoral, Pacifism, Populism, Liberalism, Anarchism, Democracy, and Virtual Democracy.</Text>
