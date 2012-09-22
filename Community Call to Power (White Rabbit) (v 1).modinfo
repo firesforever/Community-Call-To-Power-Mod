@@ -1,39 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="d048269c-70a9-4ad0-b3ae-27478912b1c9" version="3">
+<Mod id="31fbb393-f67d-43a1-8af1-523022ebe6d4" version="1">
   <Properties>
     <Name>Community Call to Power (White Rabbit)</Name>
     <Stability>Alpha</Stability>
     <Teaser>Restart civilization 5 before playing!! Play a not so serious version of CCTP!</Teaser>
-    <Description>Updated Workshop version, see Version History.txt for details.
+    <Description>This mod Requires Gods and Kings Expansion.
+
+Emigration, Tree Growth, New Bonus Resources(CCTP Teaser) and some elements of CivUP are now INCLUDED  in this mod.
+
+Updated Workshop version, see Version History.txt for details.
 
 [COLOR_YELLOW]
-Anyone that does NOT have the Polynesia DLC:-
-Once CCTP is installed, before you boot up CiV, navigate to the CCTP mod directory(...Documents\My Games\Sid Meier's Civilization 5\MODS\Community Call to Power (v 2)) and rename the DLC folder so it looks like[/COLOR][COLOR_RED] _DLC[/COLOR][COLOR_YELLOW].[/COLOR]
+Anyone that  have the Polynesia DLC:-
+Once CCTP is installed, before you boot up CiV, navigate to the CCTP mod directory(...Documents\My Games\Sid Meier's Civilization 5\MODS\Community Call to Power (v 2)) and rename the _DLC folder so it looks like[/COLOR][COLOR_RED] DLC[/COLOR][COLOR_YELLOW].[/COLOR]
 
 Features:-
 
-10 New Resources: Squid, Magnese, Jade, Poppy, Tobacco, Coffee, Titanium, Aloe Vera, Tin, Amber, Oak and Blockbuster.
+17 New resources: Squid, Magnese, Jade, Poppy, Tobacco, Coffee, Titanium, Aloe Vera, Tin, Amber, Oak, Barley, Wild Berries, Mango, Flax, Cacao and Blockbuster.
 
-New Trade Monopoly System! With the addition of 17 technologies(Economic Page) and 200 buildings(5 per resource), resources will be more important than ever!
--Each resource now has a line of buildings: Small, Medium, Large, Huge, and Monopoly.
--Each building requires the smaller version that came before it in the city.
--Each building requires 1 of it's resource, and provides 1-2 bonuses to it's city of origin.
--Each Building provides an increase in trade income. Each Monopoly provides a greater bonus.
--Monopoly buildings require 2 Huge buildings somewhere in the empire, and provide global bonuses.
+New Trade Monopoly System! 
 
-Multiple Tech Trees:- Technologies are now spread over 5 Catagories(Social, Science, Military, Engineering &amp; Economics).
+NEW Multiple Tech Trees:- Technologies are now spread over 3 Catagories per Era.
 
-New Policy System:- Social policies are now spread over 3 Catagories(Goverments, Systems, Ideologies).
+New Policy System:- 180 Social policies are now spread over 3 Catagories(Goverments, Systems, Ideologies).
 
-Over 105 New Technologies to research.
+Over 220 Technologies to research.
 
-Over 34 New Units to destroy your enemies!
+Over 150 Units to destroy your enemies!
 
-Over a 100 new Buildings and Wonders!</Description>
+Over 340 Buildings and Wonders!</Description>
     <Authors>FiresForever</Authors>
     <SpecialThanks>Decimatus, Chrome-Rome, Horem</SpecialThanks>
     <HideSetupGame>1</HideSetupGame>
-    <Homepage>http://forums.civfanatics.com/showthread.php?t=432802</Homepage>
+    <Homepage>http://forums.civfanatics.com/forumdisplay.php?f=472</Homepage>
     <AffectsSavedGames>1</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
@@ -43,41 +42,170 @@ Over a 100 new Buildings and Wonders!</Description>
     <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
-    <DisableLoadGameOption>1</DisableLoadGameOption>
   </Properties>
   <Dependencies>
     <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
   </Dependencies>
   <References />
-  <Blocks />
+  <Blocks>
+    <Mod id="bb0317db-2963-45ca-8a5d-844c76220a4e" minversion="0" maxversion="999" />
+    <Mod id="6654d7ec-1b0a-45b0-b7f5-307a2e30d833" minversion="0" maxversion="999" />
+    <Mod id="01127f62-3896-4897-b169-ecab445786cd" minversion="0" maxversion="999" />
+    <Mod id="5e509896-6ed1-4805-8163-71763190a545" minversion="0" maxversion="999" />
+  </Blocks>
   <Files>
-    <File md5="3F060C8F7E24C5F85955DBA1745129FE" import="0">GEM AI/AIAttackForces.xml</File>
-    <File md5="FAA045B9988777454698B9F77446253E" import="0">GEM AI/CIV5AIMilitaryStrategies.xml</File>
-    <File md5="7293BD05D7F4D077BD04FBC1A51717D0" import="0">GEM AI/GEAI_Armies.xml</File>
-    <File md5="7EE4CDCA1BB2C70717154C027498AA53" import="0">GEM AI/GEAI_Cities.xml</File>
-    <File md5="123348F25EBD777649AA2DE7114B36A4" import="0">GEM AI/GEAI_End.sql</File>
-    <File md5="9D75CC2E243A9C505B6AB6E501DF078C" import="0">GEM AI/GEAI_Handicaps.xml</File>
-    <File md5="8F7B84ADA57BACE616590E802DE53922" import="0">GEM AI/GEAI_LeaderFlavors.xml</File>
-    <File md5="434DBB5AD1902859ABA7C7BEA82589EF" import="0">GEM AI/GEAI_LeaderPersonalities.xml</File>
-    <File md5="4BB278513BF6D8A82886A84D874740CB" import="0">GEM AI/GEAI_Middle.xml</File>
-    <File md5="D84B5A4F865B39363E166BEBDA91D26A" import="0">GEM AI/GlobalAIDefines.xml</File>
-    <File md5="91963480FAF7C38B4CDD28A172B60B9D" import="0">GEM AI/GlobalDiplomacyAIDefines.xml</File>
-    <File md5="68E1A4D96A396A120A0E3872D31060B9" import="0">GEM AI/GrandStrategy.xml</File>
-    <File md5="A288AC829A4404B676A563B3264C7BDE" import="0">GEM AI/GEAI_Leader_Flavors_DLC_Nebuchadnezzar.xml</File>
-    <File md5="C878A71F13770DB5D33D169D2D2D925F" import="0">GEM AI/GEAI_Leader_Flavors_DLC_Sejong.xml</File>
-    <File md5="CCD853FDD53D0CC10E1164EA347F0876" import="0">GEM AI/GEAI_Leader_Flavors_DLC_Pachacuti.xml</File>
-    <File md5="74BA9CDF173EE56AAD3DB522F7E76D7E" import="0">GEM AI/GEAI_Leader_Flavors_DLC_Kamehameha.xml</File>
-    <File md5="2A695574571D83746EEEFE626A32FE47" import="0">GEM AI/GEAI_Leader_Flavors_DLC_Harald.xml</File>
-    <File md5="ABBB3B91D2DCBEC0983706F1C5F439FD" import="0">GEM AI/MultiUnitFormations.xml</File>
-    <File md5="AFF8949B929FC1394B121057910790E7" import="1">Art/Resources/Font Icons/CCTPFontIconAtlas.dds</File>
-    <File md5="75D953AD8720CC650CBEF982BD13A86C" import="1">Art/Resources/Font Icons/CCTPFontIconAtlas.ggxml</File>
-    <File md5="BD143769C848998FDE9416DDD26AFF21" import="0">Art/Resources/Font Icons/CCTPFontIconAtlas.xml</File>
-    <File md5="E12255F94A3D9CDE7D6606CAB71BA070" import="0">Art/Resources/Font Icons/Preview_CCTPFontIconAtlas.lua</File>
-    <File md5="7D8F82C0580344622A6DF5138C1A2927" import="0">Art/Resources/Font Icons/Preview_CCTPFontIconAtlas.xml</File>
-    <File md5="DC55A829CCA9A6AE2E5DAA51A38FB673" import="1">Art/Resources/Barley/barley_diff.dds</File>
-    <File md5="4EA66BD2EC23C9DDB0AEDAA6A666CD1D" import="1">Art/Resources/Barley/barley_sref.dds</File>
-    <File md5="002BCDAD4CA368A54F272B72A210A3F2" import="1">Art/Resources/Barley/crop_ground_barley_d.dds</File>
-    <File md5="32A1909758F150360D462BD73527CC23" import="1">Art/Resources/Barley/crop_ground_barley_h.dds</File>
+    <File md5="A23C711914750FBA0EADB34CFB76F5FD" import="0">AI/BetterAI.xml</File>
+    <File md5="FC81F758CC3470C4420A8336EDBF2FCB" import="0">AI/GlobalAIDefines.xml</File>
+    <File md5="430E3324CCAE144AE5E0122AEC85D074" import="0">AI/Leaders.xml</File>
+    <File md5="A28E29FBD72E6D90386E6841A6E9CEE7" import="0">Art Defines/Resources/ArtDefines_Resources.sql</File>
+    <File md5="4D4440FFCD1B2C629A98CA63015C403F" import="0">Art Defines/Units/MemberCombats.sql</File>
+    <File md5="B6053A71AA3EC6322D0196245E2D6656" import="0">Art Defines/Units/MemberCombatWeapons.sql</File>
+    <File md5="F2B3CE294FBBE85D0B567FBDBC2452E2" import="0">Art Defines/Units/UnitInfoMemberInfos.sql</File>
+    <File md5="3AB86B231208CDD03310C8DEFEBDCCAA" import="0">Art Defines/Units/UnitInfos.sql</File>
+    <File md5="86C770B7EB54B8BFF07AF367B59DC22C" import="0">Art Defines/Units/UnitMemberInfos.sql</File>
+    <File md5="E449670185D8B2AC75E44C5416B26939" import="1">Art/Font Icons/CCTPFontIconAtlas.dds</File>
+    <File md5="75D953AD8720CC650CBEF982BD13A86C" import="1">Art/Font Icons/CCTPFontIconAtlas.ggxml</File>
+    <File md5="81644D7E27AACD4671792FA34E2CB317" import="1">Art/Icons/Building Icons/buildingatlasFour.dds</File>
+    <File md5="DED849FF1C95A0877A8217943CE662A4" import="1">Art/Icons/Building Icons/buildingatlasFour1024.dds</File>
+    <File md5="8DFD02FBC795665FEAD4D0522391DAAE" import="1">Art/Icons/Building Icons/buildingatlasFour360.dds</File>
+    <File md5="FC7771EB3762F83A938B8B55E8E775AE" import="1">Art/Icons/Building Icons/buildingatlasFour512.dds</File>
+    <File md5="B4E7942AEFF0696B9E485CB0B5646C00" import="1">Art/Icons/Building Icons/buildingatlasFour640.dds</File>
+    <File md5="7B885D0FF7A5A743B42ED831933F63CF" import="1">Art/Icons/Building Icons/buildingatlasThree.dds</File>
+    <File md5="CACC421A6637B44E155A83500B4CAF5B" import="1">Art/Icons/Building Icons/buildingatlasThree1024.dds</File>
+    <File md5="0036C6ECA8DFAFEDE08D9B2B64F644E5" import="1">Art/Icons/Building Icons/buildingatlasThree360.dds</File>
+    <File md5="3565060EE869A1A69A5AD86425B0A98E" import="1">Art/Icons/Building Icons/buildingatlasThree512.dds</File>
+    <File md5="1B6E248D6209AEB30CAA4EF270978F6F" import="1">Art/Icons/Building Icons/buildingatlasThree640.dds</File>
+    <File md5="18914AB48367CC90DF3D3B058247F71D" import="1">Art/Icons/Building Icons/buildingatlasTwo.dds</File>
+    <File md5="58B74EDEB780FFBBBE60FDA0FD497541" import="1">Art/Icons/Building Icons/buildingatlasTwo1024.dds</File>
+    <File md5="CB2D78A77B1D3F8DB892B42B10F10A1D" import="1">Art/Icons/Building Icons/buildingatlasTwo360.dds</File>
+    <File md5="FECC5AD72BB43082BC8915CDB75EDFCF" import="1">Art/Icons/Building Icons/buildingatlasTwo512.dds</File>
+    <File md5="ED0D97A7FD2F61FE4ACD27E7DE70AA88" import="1">Art/Icons/Building Icons/buildingatlasTwo640.dds</File>
+    <File md5="20D248A7497685FEA277357707A84EF7" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive.dds</File>
+    <File md5="8BC536BE561D9C5680DE3ECD0CDFFB54" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive1024.dds</File>
+    <File md5="53AC89EA003CDC872B82D89EFD4BFD13" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive360.dds</File>
+    <File md5="A3B45F21708583928E1EDFA115F72A81" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive512.dds</File>
+    <File md5="4A6581E18ED332DC9C541D176C608729" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive640.dds</File>
+    <File md5="040C46573368044572CB80EFCD161BC9" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour.dds</File>
+    <File md5="FF467B70C109BE20B48D42CEA98A844D" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour1024.dds</File>
+    <File md5="342BA58B71368329166EB68E8E97BBBC" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour360.dds</File>
+    <File md5="3BFB6CCA453D3858594E0B775EB80B21" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour512.dds</File>
+    <File md5="6980A373804412060A42DAAEB0010728" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour640.dds</File>
+    <File md5="A006B15CBC9BD957E24493E7F939AA48" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne.dds</File>
+    <File md5="5644E2E855D9CCE80F62C2A95477541F" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne1024.dds</File>
+    <File md5="CF637FD003DA5F52D19DAB6D60FAF739" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne360.dds</File>
+    <File md5="F75B0EAB0F89C9DE56B70196F908D849" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne512.dds</File>
+    <File md5="4F265B19E6D7013248F84CCDE26520F6" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne640.dds</File>
+    <File md5="E36171C86EB73313E30CAC40C71768A2" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree.dds</File>
+    <File md5="98CBC539922E6017029B095DCF20B6D6" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree1024.dds</File>
+    <File md5="6CDF1733DA5E675A2C0167696C040423" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree360.dds</File>
+    <File md5="3E27ED7557EC77A3D97C4B12C795E5BB" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree512.dds</File>
+    <File md5="1B5B6CEDFED7F8E9C627ED1D6A4204A2" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree640.dds</File>
+    <File md5="07615B3FE0DB50A090C0C481023B916A" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo.dds</File>
+    <File md5="45576754226E1C07F885F9A763CEE6E2" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo1024.dds</File>
+    <File md5="72821BDB71ED14CA20250F4AE34E7A5A" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo360.dds</File>
+    <File md5="B20F8FE47F74E59632D1D76BFAF1C78E" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo512.dds</File>
+    <File md5="0F96C1B0D8772A30329DB93C1BEFF63E" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo640.dds</File>
+    <File md5="EB1DB416564C4ADD2F43425E3A76B766" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons128.dds</File>
+    <File md5="961FC64C0402FC1E33636AACAE11A622" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons16.dds</File>
+    <File md5="FEA156E3CACF647866989E17966DFC87" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons24.dds</File>
+    <File md5="90DB0F609F5BAEC1D60E0C07A30DBDEB" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons32.dds</File>
+    <File md5="689C7CB731D8204FA72A55C9F036557F" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons48.dds</File>
+    <File md5="4BD88F423858D2E8C26CC79001445481" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons64.dds</File>
+    <File md5="5E0D88129810401118B0870CF2D02985" import="1">Art/Icons/Mythology/CCTP_Mythology_Icons80.dds</File>
+    <File md5="F220E1E6EFC93EF5DDFC7B2E9E198051" import="1">Art/Icons/Notification/Notification_Emigration.dds</File>
+    <File md5="B7D2FAD2256D052285EE57E9DEE24531" import="1">Art/Icons/Notification/Notification_Emigration_Glow.dds</File>
+    <File md5="E9F6118A1786CC6B7A19E65F5D9990E4" import="1">Art/Icons/Notification/Notification_Forest.dds</File>
+    <File md5="E3F6AD737B45F56CAB81DB9A646A9B89" import="1">Art/Icons/Notification/Notification_Forest_Glow.dds</File>
+    <File md5="DC930F71D2CD402640159FCF1FA5E4A4" import="1">Art/Icons/Notification/Notification_Immigration.dds</File>
+    <File md5="97FBE1CE8F491D69202223A3D8CAEC17" import="1">Art/Icons/Notification/Notification_Immigration_Glow.dds</File>
+    <File md5="7DCCDE40CEFF9B20F796DD779A7D546B" import="1">Art/Icons/Notification/Notification_Jungle.dds</File>
+    <File md5="B90AE9E4A3014183A45D1FFC3D4B0C2B" import="1">Art/Icons/Notification/Notification_Jungle_Glow.dds</File>
+    <File md5="511BA347A0C8E6F7B24B655C16453589" import="1">Art/Icons/Religion/religioussymbolswhite128_expansion.dds</File>
+    <File md5="6A2B47C5E68361095CED087B471A5503" import="1">Art/Icons/Religion/religioussymbolswhite16_expansion.dds</File>
+    <File md5="BE720A462EF95D83D3B51F6ABCB4B2F4" import="1">Art/Icons/Religion/religioussymbolswhite24_expansion.dds</File>
+    <File md5="71874A8594A22C1132D94B4CC2D6DDBE" import="1">Art/Icons/Religion/religioussymbolswhite32_expansion.dds</File>
+    <File md5="9F273F96CBD7D4A13CFB43B4DC8E5DAD" import="1">Art/Icons/Religion/religioussymbolswhite48_expansion.dds</File>
+    <File md5="A54F4AC6B3B993BB3606AB592796FC4F" import="1">Art/Icons/Religion/religioussymbolswhite64_expansion.dds</File>
+    <File md5="5C0F1D9D7503C1ECCFA0FDB0B4A3D329" import="1">Art/Icons/Religion/religioussymbolswhite80_expansion.dds</File>
+    <File md5="C72598F530A1E143EEAE40C1D936BDE5" import="1">Art/Icons/Resource Icons/resourcesTwo2048.dds</File>
+    <File md5="3D459B62C99DF55DDBF4517441640857" import="1">Art/Icons/Resource Icons/resourcesTwo360.dds</File>
+    <File md5="767F083B7E87EC2365EE48DDFC8A893D" import="1">Art/Icons/Resource Icons/resourcesTwo512.dds</File>
+    <File md5="A56D07CA61BB1F6175323000928293F6" import="1">Art/Icons/Resource Icons/resourcesTwo640.dds</File>
+    <File md5="4BB3245E64B013AF2279D3E03A295BC4" import="1">Art/Icons/Tech Icons/technologyatlasFive.dds</File>
+    <File md5="F300F840BA3D7B9DEF096B38026E63B6" import="1">Art/Icons/Tech Icons/technologyatlasFive1024.dds</File>
+    <File md5="113728754D3366FEEC88E5CA40CFEEE2" import="1">Art/Icons/Tech Icons/technologyatlasFive1712.dds</File>
+    <File md5="0774F0805ACEC1D445A80229C81EAAE5" import="1">Art/Icons/Tech Icons/technologyatlasFive360.dds</File>
+    <File md5="1B2D5F12FFAE4294958286F246B60C93" import="1">Art/Icons/Tech Icons/technologyatlasFive512.dds</File>
+    <File md5="2C248A9246D9D7DE6B80EF3C001C617D" import="1">Art/Icons/Tech Icons/technologyatlasFive640.dds</File>
+    <File md5="48229560BB3F5006B0024B739482A8C7" import="1">Art/Icons/Tech Icons/technologyatlasFour.dds</File>
+    <File md5="C0A9F353C966219312B2C909FA448A0F" import="1">Art/Icons/Tech Icons/technologyatlasFour1024.dds</File>
+    <File md5="F9EFD6E2AAE66821E4161D2423F1AEE6" import="1">Art/Icons/Tech Icons/technologyatlasFour1712.dds</File>
+    <File md5="A83E32EADAEEBC6DE59B24415BC1E75E" import="1">Art/Icons/Tech Icons/technologyatlasFour360.dds</File>
+    <File md5="667178B33181F57C6A597CCEAE0EE2E0" import="1">Art/Icons/Tech Icons/technologyatlasFour512.dds</File>
+    <File md5="43F86444383A94722084B4471C5B6542" import="1">Art/Icons/Tech Icons/technologyatlasFour640.dds</File>
+    <File md5="3471F0A9F279F8B39114FFC79A86902C" import="1">Art/Icons/Tech Icons/technologyatlasThree.dds</File>
+    <File md5="5CA357EE4E731BB1B31637ACFF9DB8DF" import="1">Art/Icons/Tech Icons/technologyatlasThree1024.dds</File>
+    <File md5="077B07634FF05F002B33142746E773BD" import="1">Art/Icons/Tech Icons/technologyatlasThree1712.dds</File>
+    <File md5="5F11688D73B8EA7D7F6B6EB828C1B51B" import="1">Art/Icons/Tech Icons/technologyatlasThree360.dds</File>
+    <File md5="2BB9CD83FC314680E1FF16CBD79742E3" import="1">Art/Icons/Tech Icons/technologyatlasThree512.dds</File>
+    <File md5="F31D4659B9D25302BEE6B82C53C1AA26" import="1">Art/Icons/Tech Icons/technologyatlasThree640.dds</File>
+    <File md5="90BDCCCE41EC9D99F328D1B34B071210" import="1">Art/Icons/Unit Icons/unitportraitsPower.dds</File>
+    <File md5="EC31EF13749F812B039576BC8BDE0822" import="1">Art/Icons/Unit Icons/unitportraitsPower1024.dds</File>
+    <File md5="337FF941C2674607D1DE1BF545724DE2" import="1">Art/Icons/Unit Icons/unitportraitsPower360.dds</File>
+    <File md5="5A7A62D6CD178A362FAD002A06EEA19D" import="1">Art/Icons/Unit Icons/unitportraitsPower512.dds</File>
+    <File md5="04DF7AC4A875A7F3DA19D12543E8C8E3" import="1">Art/Icons/Unit Icons/unitportraitsPower640.dds</File>
+    <File md5="4C479D409130641B5212A009D1E09CBE" import="1">Art/MapPics/LEMMapPic.dds</File>
+    <File md5="56D4D588018DFF0DC05E89F73D961953" import="1">Art/MapPics/YNAEMMapPic.dds</File>
+    <File md5="2D5DBBBAF8C4D4FCABAEA3429A05B0CE" import="1">Art/MPMButtonAtlas256.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Aloe Vera/fx_triggers_pl_plantation_ind_aloevera.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Aloe Vera/fx_triggers_pl_plantation_mid_aloevera.ftsxml</File>
+    <File md5="F22D434B719D61D09E1C7ADAC807DD2B" import="1">Art/Resources/Aloe Vera/hb_plantation_ind_aloevera.fxsxml</File>
+    <File md5="A877D6D2E233A50941FBEDC1334ED6F6" import="1">Art/Resources/Aloe Vera/hb_plantation_ind_aloevera.gr2</File>
+    <File md5="1E036E7DB06C2F93C7362C76D6C0935E" import="1">Art/Resources/Aloe Vera/hb_plantation_mid_aloevera.fxsxml</File>
+    <File md5="CEB09C3432B9F9B1CFB7BB13E8AB0E5E" import="1">Art/Resources/Aloe Vera/hb_plantation_mid_aloevera.gr2</File>
+    <File md5="C7405DB866611B5BC2EED5A332D92921" import="1">Art/Resources/Aloe Vera/plantation_ind_aloevera.fxsxml</File>
+    <File md5="2D211FB660E6CEC2C6E3A2F1FBDF0C6A" import="1">Art/Resources/Aloe Vera/plantation_ind_aloevera.gr2</File>
+    <File md5="74FE356DFA66D5AC1D605F928B8D8F0A" import="1">Art/Resources/Aloe Vera/plantation_mid_aloevera.fxsxml</File>
+    <File md5="5E4E600EFBCB21B93E1150B7F8770B0C" import="1">Art/Resources/Aloe Vera/plantation_mid_aloevera.gr2</File>
+    <File md5="8B583E6F629FC75C04EEC73C03B38D28" import="1">Art/Resources/Aloe Vera/pl_plantation_ind_aloevera.fxsxml</File>
+    <File md5="135F6DF9F4FDCA2B0FBA7C1710EDEB51" import="1">Art/Resources/Aloe Vera/pl_plantation_ind_aloevera.gr2</File>
+    <File md5="ED35D30C09E2A78E8E1EEC3CB02CBCD1" import="1">Art/Resources/Aloe Vera/pl_plantation_mid_aloevera.fxsxml</File>
+    <File md5="E4685C8655185BDD70ACB90B9E3D9758" import="1">Art/Resources/Aloe Vera/pl_plantation_mid_aloevera.gr2</File>
+    <File md5="384490E1F4454F718CB2D78E4E0983F9" import="1">Art/Resources/Aloe Vera/pl_resource_aloevera_diff.dds</File>
+    <File md5="854151A35CBAA3450156607597E30C0B" import="1">Art/Resources/Aloe Vera/resource_aloevera.fxsxml</File>
+    <File md5="94F6BF1561C6C1843D89398A5086655B" import="1">Art/Resources/Aloe Vera/resource_aloevera.gr2</File>
+    <File md5="D3188B554D78E567680CADB9F19566B2" import="1">Art/Resources/Aloe Vera/resource_aloevera_diff.dds</File>
+    <File md5="C8D92A47936A0B2B7E5947FE8F02058D" import="1">Art/Resources/Aloe Vera/resource_aloevera_sref.dds</File>
+    <File md5="19FAB3576490D322F7E06893C139BF8F" import="1">Art/Resources/Aloe Vera/SV_Aloevera.dds</File>
+    <File md5="F78C29E0A6B906A82F90AC72B0626572" import="1">Art/Resources/Amber/amber.fxsxml</File>
+    <File md5="86B125031834599D43247569919A20B8" import="1">Art/Resources/Amber/amber.gr2</File>
+    <File md5="25CEF7B91F29F47B27F8CFCA5DDB4636" import="1">Art/Resources/Amber/amber_decal_diff.dds</File>
+    <File md5="14EF1BCEF9A13548A4C5AC6171229B69" import="1">Art/Resources/Amber/amber_ore_diff.dds</File>
+    <File md5="779F11DEF78BA1903B838CA0870A0011" import="1">Art/Resources/Amber/amber_ore_sref.dds</File>
+    <File md5="85810E352B71AA44E3F4E96E9A74D964" import="1">Art/Resources/Amber/amber_rubble_diff.dds</File>
+    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Amber/fx_triggers_pl_ind_mine_amber.ftsxml</File>
+    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Amber/fx_triggers_pl_med_mine_amber.ftsxml</File>
+    <File md5="3DD42228C7C00EA658E3F4179BCD8A7F" import="1">Art/Resources/Amber/hb_ind_amber_mine.fxsxml</File>
+    <File md5="32E2D7DE503E4AECD5D6FD5A7807069E" import="1">Art/Resources/Amber/hb_ind_amber_mine.gr2</File>
+    <File md5="AD8C66EA287DF48484407BA6C37E360A" import="1">Art/Resources/Amber/hb_med_amber_mine.fxsxml</File>
+    <File md5="509FCBF587976B70F1B4C068B64A5861" import="1">Art/Resources/Amber/hb_med_amber_mine.gr2</File>
+    <File md5="8E0A9102F69DFC0FD871831B301908A7" import="1">Art/Resources/Amber/ind_mine_amber.fxsxml</File>
+    <File md5="68B7AB7EB0CFED4E1D78C9C3ACA86F73" import="1">Art/Resources/Amber/ind_mine_amber.gr2</File>
+    <File md5="C02576D0735178C5F607779404D5643E" import="1">Art/Resources/Amber/med_amber_mine.fxsxml</File>
+    <File md5="FDBFEB8F2346ACDCF0FEAE0253CC7057" import="1">Art/Resources/Amber/med_amber_mine.gr2</File>
+    <File md5="42EF9AC3B421A84E99DC56185F6CAFB3" import="1">Art/Resources/Amber/med_mine_amber.fxsxml</File>
+    <File md5="E75EFA730C94C3DFD17864A068ABA086" import="1">Art/Resources/Amber/med_mine_amber.gr2</File>
+    <File md5="BD1EF410DEE1022A24765096A764F0BF" import="1">Art/Resources/Amber/mine_amber_decal_d.dds</File>
+    <File md5="484851DC74A98A68887FD3D6EAB8E11C" import="1">Art/Resources/Amber/pl_ind_mine_amber.fxsxml</File>
+    <File md5="207D798FC2F701AA2B8A5BDBB38F1C2E" import="1">Art/Resources/Amber/pl_ind_mine_amber.gr2</File>
+    <File md5="AFFFB1D4EC8E78344915EDD63F0FC73C" import="1">Art/Resources/Amber/pl_med_mine_amber.fxsxml</File>
+    <File md5="1602B2DC5740FE74D71CBDE0B5F24B79" import="1">Art/Resources/Amber/pl_med_mine_amber.gr2</File>
+    <File md5="C2B1AB3E548E148359C965DF5EBF2EAC" import="1">Art/Resources/Amber/pl_mine_amber_decal_d.dds</File>
+    <File md5="70418406810887ECF83BA95BB713E991" import="1">Art/Resources/Amber/SV_Amber.dds</File>
+    <File md5="F8796AD1F50617784BE00A2D2C4512CE" import="1">Art/Resources/Barley/barley_diff.dds</File>
+    <File md5="9953E1463807CEB26A894CC576894FC4" import="1">Art/Resources/Barley/barley_sref.dds</File>
+    <File md5="DB68078FC6091FE297BCB2AECE09A2D9" import="1">Art/Resources/Barley/crop_ground_barley_d.dds</File>
+    <File md5="525D338631DDD51C6C89D843DDB9DEA2" import="1">Art/Resources/Barley/crop_ground_barley_h.dds</File>
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Barley/fx_triggers_pl_plantation_ind_barley.ftsxml</File>
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Barley/fx_triggers_pl_plantation_mid_barley.ftsxml</File>
     <File md5="4E988CC6BA456013BCF14A6E56DF4399" import="1">Art/Resources/Barley/hb_plantation_ind_barley.fxsxml</File>
@@ -88,27 +216,27 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="0384DED4F7E9C17B7DB69FBB45E0D7F1" import="1">Art/Resources/Barley/plantation_ind_barley.gr2</File>
     <File md5="DA2AA289147C1559B17ED500F209E8DD" import="1">Art/Resources/Barley/plantation_mid_barley.fxsxml</File>
     <File md5="FCF370096E93AD8FE5DB29C10E7487FA" import="1">Art/Resources/Barley/plantation_mid_barley.gr2</File>
-    <File md5="8DC0909617A42FBA9F17740A985B9975" import="1">Art/Resources/Barley/pl_barley_diff.dds</File>
-    <File md5="606FCA8F8088832879AB05188DDBBB86" import="1">Art/Resources/Barley/pl_crop_ground_barley_d.dds</File>
+    <File md5="7DD51B56F99ABC29825A21B2D8F7452D" import="1">Art/Resources/Barley/pl_barley_diff.dds</File>
+    <File md5="C725D32CC60B48E85024295538E64689" import="1">Art/Resources/Barley/pl_crop_ground_barley_d.dds</File>
     <File md5="E546ABD7F840C6412FDB6255A15BFC10" import="1">Art/Resources/Barley/pl_plantation_ind_barley.fxsxml</File>
     <File md5="98F5695286572F021FCFF46D5F9CF952" import="1">Art/Resources/Barley/pl_plantation_ind_barley.gr2</File>
     <File md5="EA42A42F2CEE0EAA64C9FAAFC5B14EDC" import="1">Art/Resources/Barley/pl_plantation_mid_barley.fxsxml</File>
     <File md5="AF3DCB8EF33ED75C7A029FC4F9E50672" import="1">Art/Resources/Barley/pl_plantation_mid_barley.gr2</File>
     <File md5="33733C9B82544189329B946613701884" import="1">Art/Resources/Barley/resource_barley.fxsxml</File>
     <File md5="C2BA2A78BD598C1D71FE844B0DA61BCF" import="1">Art/Resources/Barley/resource_barley.gr2</File>
-    <File md5="E7B051FDF1DF19B1ABC254B5EBE2E8C5" import="1">Art/Resources/Barley/sv_barley.dds</File>
-    <File md5="916A0A1815E8B14EB4819779304F3220" import="1">Art/Resources/Berries/berries_diff.dds</File>
-    <File md5="9441CFCE7020D5F19CBF20BF8F3BDCF3" import="1">Art/Resources/Berries/berries_grnd_decal_diff.dds</File>
+    <File md5="F60B3AEC2307389CFA4E1D7F5568DC3E" import="1">Art/Resources/Barley/sv_barley.dds</File>
+    <File md5="79EF6DECAA20E7BF1E9231C5C2C4B5BC" import="1">Art/Resources/Berries/berries_diff.dds</File>
+    <File md5="5D3EACCE08AA26BB75AA37DF67054FA1" import="1">Art/Resources/Berries/berries_grnd_decal_diff.dds</File>
     <File md5="B396975B76ABA4CA37BCADDE957DBE79" import="1">Art/Resources/Berries/berries_improved.fxsxml</File>
     <File md5="491EA26548D1AEF7509AE2DFB002B2AF" import="1">Art/Resources/Berries/berries_improved.gr2</File>
     <File md5="152137585143527DEB6234CD2082172E" import="1">Art/Resources/Berries/berries_improved_idle.gr2</File>
     <File md5="152137585143527DEB6234CD2082172E" import="1">Art/Resources/Berries/berries_improved_worked.gr2</File>
-    <File md5="D2B74E318C473B56DC4A8881B934DF22" import="1">Art/Resources/Berries/berries_sref.dds</File>
-    <File md5="E8A2332042C63E50C63B3B52436D5AA9" import="1">Art/Resources/Berries/berries_vineyard_diff.dds</File>
-    <File md5="4AFB39BBF40521804EE7E459C6EC7463" import="1">Art/Resources/Berries/berries_vineyard_sref.dds</File>
+    <File md5="8CD6384396C6A8E8B63C8278C1F18FC7" import="1">Art/Resources/Berries/berries_sref.dds</File>
+    <File md5="8F6D5D3019A08FCB1EC0799BB6D970CA" import="1">Art/Resources/Berries/berries_vineyard_diff.dds</File>
+    <File md5="D91F666C07C14B42A5C4A1F24FE0AA34" import="1">Art/Resources/Berries/berries_vineyard_sref.dds</File>
     <File md5="6A7FFF163C9FE3E3D2459834AA19FD6B" import="1">Art/Resources/Berries/berry_improved_idle.gr2</File>
     <File md5="6A7FFF163C9FE3E3D2459834AA19FD6B" import="1">Art/Resources/Berries/berry_improved_worked.gr2</File>
-    <File md5="7993198DF3FF81468FEC6A67C8118024" import="1">Art/Resources/Berries/crop_ground_berries_d.dds</File>
+    <File md5="6575324316F11CDAE4BB6C269A3BF79A" import="1">Art/Resources/Berries/crop_ground_berries_d.dds</File>
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Berries/fx_triggers_pl_plantation_ind_berries.ftsxml</File>
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Berries/fx_triggers_pl_plantation_mid_berries.ftsxml</File>
     <File md5="797AD7CA63931151642DA5C1C90B0EE1" import="1">Art/Resources/Berries/hb_plantation_ind_berries.fxsxml</File>
@@ -125,15 +253,16 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="3CBD9FC22B8F8264B1EEA1CDD7997113" import="1">Art/Resources/Berries/pl_plantation_mid_berries.gr2</File>
     <File md5="03EF5275047707E99709D30379DFB9A6" import="1">Art/Resources/Berries/resource_berries.fxsxml</File>
     <File md5="64C60D567543DA36132001BD56DBDCFE" import="1">Art/Resources/Berries/resource_berries.gr2</File>
+    <File md5="3E1E85AC29FE9936144514477E5BA05B" import="1">Art/Resources/Berries/SV_Berries.dds</File>
     <File md5="2E2E38B85DC5C48333826B88DA210642" import="1">Art/Resources/Cacao/cacao.fxsxml</File>
     <File md5="597816E302ACE68C4034D86BA52ED57B" import="1">Art/Resources/Cacao/cacao.gr2</File>
-    <File md5="F88413060FF14F577244CE6D88B956D6" import="1">Art/Resources/Cacao/cacao_trees_diff.dds</File>
-    <File md5="AAF103CBEF9F0D55A83F4F30A045101A" import="1">Art/Resources/Cacao/cacao_trees_pil_diff.dds</File>
-    <File md5="7E6937E578F45DCBFECD766CFFB5763C" import="1">Art/Resources/Cacao/cacao_trees_sref.dds</File>
+    <File md5="B601DA9D11C39632B893D6E660CCE3E4" import="1">Art/Resources/Cacao/cacao_trees_diff.dds</File>
+    <File md5="4CE02454AE28A3EADE618FA4C8FDB220" import="1">Art/Resources/Cacao/cacao_trees_pil_diff.dds</File>
+    <File md5="2349732A8A6E8B1E1572510C114AC768" import="1">Art/Resources/Cacao/cacao_trees_sref.dds</File>
     <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Cacao/fx_triggers_plantation_ind_cacao_pil.ftsxml</File>
     <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Cacao/fx_triggers_plantation_mid_cacao_pil.ftsxml</File>
-    <File md5="6C867EB8AD5867465AB3B553DDD2ACB3" import="1">Art/Resources/Cacao/plantation_cacao_grnd_h_hb.dds</File>
-    <File md5="23AE2CE627785339D8777B7DE87D61DE" import="1">Art/Resources/Cacao/plantation_cacao_grnd_pil.dds</File>
+    <File md5="D97A9EFA9132EA729C34E68E29475F9F" import="1">Art/Resources/Cacao/plantation_cacao_grnd_h_hb.dds</File>
+    <File md5="8B0597DF23C6E5E676E7C77AD1B9F6AA" import="1">Art/Resources/Cacao/plantation_cacao_grnd_pil.dds</File>
     <File md5="3A88F8BDA3797B948F2118812D0B541C" import="1">Art/Resources/Cacao/plantation_ind_cacao.fxsxml</File>
     <File md5="080811CD344A5C15BF461D6EEBB9250A" import="1">Art/Resources/Cacao/plantation_ind_cacao.gr2</File>
     <File md5="3A2D41F6F8AB06623AC6DD51B2CB395C" import="1">Art/Resources/Cacao/plantation_ind_cacao_hb.fxsxml</File>
@@ -146,8 +275,29 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="D3FBFD0830372445483A01057858DF58" import="1">Art/Resources/Cacao/plantation_mid_cacao_hb.gr2</File>
     <File md5="B93C692C41EFB6170373EA48254814EF" import="1">Art/Resources/Cacao/plantation_mid_cacao_pil.fxsxml</File>
     <File md5="7E480ABFA2E2D317D0B95839D15D29B0" import="1">Art/Resources/Cacao/plantation_mid_cacao_pil.gr2</File>
-    <File md5="8DE07CA68440BEE5A5E17655D2010ED0" import="1">Art/Resources/Flax/flax_diff.dds</File>
-    <File md5="1FE41A9C8AB764E118E0D544ECE4DE43" import="1">Art/Resources/Flax/flax_sref.dds</File>
+    <File md5="D26C5302E13261D29526B802526BAE3A" import="1">Art/Resources/Cacao/SV_Cacao.dds</File>
+    <File md5="520FD2D9004EF1490803A58A6E011C6A" import="1">Art/Resources/Coffee/coffee_diff.dds</File>
+    <File md5="0925BF0FCC784E9006D37A17667C7463" import="1">Art/Resources/Coffee/coffee_sref.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Coffee/fx_triggers_pl_plantation_ind_coffee.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Coffee/fx_triggers_pl_plantation_mid_coffee.ftsxml</File>
+    <File md5="975A3E67B14BF508645028C975F442B3" import="1">Art/Resources/Coffee/hb_plantation_ind_coffee.fxsxml</File>
+    <File md5="07FB4CDF2852DFDF79FAA85C47A4973F" import="1">Art/Resources/Coffee/hb_plantation_ind_coffee.gr2</File>
+    <File md5="96806A81A056899999547D19E2D89043" import="1">Art/Resources/Coffee/hb_plantation_mid_coffee.fxsxml</File>
+    <File md5="C2D20A3284D1365459F726AE2A2B9D2C" import="1">Art/Resources/Coffee/hb_plantation_mid_coffee.gr2</File>
+    <File md5="EA74BD0DBDE9AB6886266C2152FF4707" import="1">Art/Resources/Coffee/plantation_ind_coffee.fxsxml</File>
+    <File md5="ECFFB74AB394A878A04B4E4E46993494" import="1">Art/Resources/Coffee/plantation_ind_coffee.gr2</File>
+    <File md5="1DCA94A4E7E6F9297D4BBB1082F82010" import="1">Art/Resources/Coffee/plantation_mid_coffee.fxsxml</File>
+    <File md5="46A06C0F6B74352C7D034A0FE794B6ED" import="1">Art/Resources/Coffee/plantation_mid_coffee.gr2</File>
+    <File md5="ED7BD2CC0BF96BE0E91D1AD942BE513F" import="1">Art/Resources/Coffee/pl_coffee_diff.dds</File>
+    <File md5="3C7A8F670CBFECA80597DCA67B72FB54" import="1">Art/Resources/Coffee/pl_plantation_ind_coffee.fxsxml</File>
+    <File md5="8DA64635DB57D002BA0E050AACF781A0" import="1">Art/Resources/Coffee/pl_plantation_ind_coffee.gr2</File>
+    <File md5="B087142BFBD8141EFD0F229A3EECB721" import="1">Art/Resources/Coffee/pl_plantation_mid_coffee.fxsxml</File>
+    <File md5="57105522AF92D3AFAD061DC0F947BC95" import="1">Art/Resources/Coffee/pl_plantation_mid_coffee.gr2</File>
+    <File md5="05E995A77509237EDF1DD72BAAF9A5A8" import="1">Art/Resources/Coffee/resource_coffee.fxsxml</File>
+    <File md5="0BE5782A583F02C213BD8BF26163505D" import="1">Art/Resources/Coffee/resource_coffee.gr2</File>
+    <File md5="8CF0B92C28967E1E5C6A15CF4CBF88FA" import="1">Art/Resources/Coffee/SV_CoffeeBean.dds</File>
+    <File md5="269343C6E1F040175A1B3A4A8EAE3A5E" import="1">Art/Resources/Flax/flax_diff.dds</File>
+    <File md5="7A65FF423A9C86AA891C723B6014402D" import="1">Art/Resources/Flax/flax_sref.dds</File>
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Flax/fx_triggers_pl_plantation_ind_flax.ftsxml</File>
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Flax/fx_triggers_pl_plantation_mid_flax.ftsxml</File>
     <File md5="BBB9D7439471509DDDC7C7B7D3D6D09E" import="1">Art/Resources/Flax/hb_plantation_ind_flax.fxsxml</File>
@@ -158,32 +308,269 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="34AB2BB05701772C605341A09EF1F353" import="1">Art/Resources/Flax/plantation_ind_flax.gr2</File>
     <File md5="FFF6F2926EE7DAFCABFFB313DEE11FE1" import="1">Art/Resources/Flax/plantation_mid_flax.fxsxml</File>
     <File md5="9AF1EDEF38B0DD7261F9EB9C6135BDE6" import="1">Art/Resources/Flax/plantation_mid_flax.gr2</File>
-    <File md5="8946BDAF6256EAB834BA924F2A6B90FD" import="1">Art/Resources/Flax/pl_flax_diff.dds</File>
+    <File md5="A32DD58A66ABE235225DF8A43F53445F" import="1">Art/Resources/Flax/pl_flax_diff.dds</File>
     <File md5="6655566FBC3D6AF9B43C241CAFD3F24D" import="1">Art/Resources/Flax/pl_plantation_ind_flax.fxsxml</File>
     <File md5="59D1A015C14E3F3E076368334221A9E0" import="1">Art/Resources/Flax/pl_plantation_ind_flax.gr2</File>
     <File md5="6EA2998F8AC547CB8391216291DDB09C" import="1">Art/Resources/Flax/pl_plantation_mid_flax.fxsxml</File>
     <File md5="2903F1A09FC1158F24E25D5D3A0920A3" import="1">Art/Resources/Flax/pl_plantation_mid_flax.gr2</File>
     <File md5="449A354D6B9479BD6B7EB7D515705FD6" import="1">Art/Resources/Flax/resource_flax.fxsxml</File>
     <File md5="3E98CA6FF6AB57F929E3B9F31B56641B" import="1">Art/Resources/Flax/resource_flax.gr2</File>
+    <File md5="C9F189C38668A86E1DDFACF46A7CF430" import="1">Art/Resources/Flax/SV_Flax.dds</File>
+    <File md5="0362CC522C8AC2BF25BA86EE6F0F33FF" import="1">Art/Resources/Jade/hb_ind_luboric_mine.fxsxml</File>
+    <File md5="DFEDE1ED69BE2B93268FF0ABB89BAAA7" import="1">Art/Resources/Jade/hb_ind_luboric_mine.gr2</File>
+    <File md5="805FD4F5A1BD6F18EEC54AFD8AF82466" import="1">Art/Resources/Jade/hb_med_luboric_mine.fxsxml</File>
+    <File md5="F12D07FAAF873DB2E8DEA98B69F28587" import="1">Art/Resources/Jade/hb_med_luboric_mine.gr2</File>
+    <File md5="5FF5C53261864DCC93DE39874738213D" import="1">Art/Resources/Jade/ind_mine_luboric.fxsxml</File>
+    <File md5="87B96F920F20737EC36C17AA282AC292" import="1">Art/Resources/Jade/ind_mine_luboric.gr2</File>
+    <File md5="C5FDAF71AC0C92EB04BB9736B90D2619" import="1">Art/Resources/Jade/luboric.fxsxml</File>
+    <File md5="ACFF2487A190A54062FD2DBF40D6EFA2" import="1">Art/Resources/Jade/luboric.gr2</File>
+    <File md5="3A5F2E647F23BB5EBA6254B0C5E8811A" import="1">Art/Resources/Jade/luboric_decal_diff.dds</File>
+    <File md5="9AED20BC0267CEA0A62C802C618FCA85" import="1">Art/Resources/Jade/luboric_ore_diff.dds</File>
+    <File md5="9B49C60FAC2A4463FAC88EB4ABC8F849" import="1">Art/Resources/Jade/luboric_rubble_diff.dds</File>
+    <File md5="199A5BD9273223799E9B3E6377A1EEE3" import="1">Art/Resources/Jade/med_mine_luboric.fxsxml</File>
+    <File md5="E731D0B02C63F1E12C92C39CC3FE532C" import="1">Art/Resources/Jade/med_mine_luboric.gr2</File>
+    <File md5="B11D9B1F677161AE0D77653CC16CCE67" import="1">Art/Resources/Jade/mine_luboric_decal_d.dds</File>
+    <File md5="CD6FA42DE8FB78D9F20AEEAF33D12900" import="1">Art/Resources/Jade/pl_ind_mine_luboric.fxsxml</File>
+    <File md5="1B4135C2856F31B8C63F62A9E86DB0EA" import="1">Art/Resources/Jade/pl_ind_mine_luboric.gr2</File>
+    <File md5="BC9C47E5E7B696CDC935151E16622042" import="1">Art/Resources/Jade/pl_med_mine_luboric.fxsxml</File>
+    <File md5="5D9F34524E82426A3AE46DC6B24CB265" import="1">Art/Resources/Jade/pl_med_mine_luboric.gr2</File>
+    <File md5="426662CDBC5DF8D055C2C8BA50D00DE1" import="1">Art/Resources/Jade/pl_mine_luboric_decal_d.dds</File>
+    <File md5="C57987D15D3E59A4747A5F95A97FC411" import="1">Art/Resources/Manganese/fx_triggers_hb_ind_mine_manganese_01.ftsxml</File>
+    <File md5="EED20482965EB3C957D1C29E38A223A2" import="1">Art/Resources/Manganese/fx_triggers_hb_ind_mine_manganese_02.ftsxml</File>
+    <File md5="4C3B18E777A1876465E4A20A2F2E9BC1" import="1">Art/Resources/Manganese/fx_triggers_hb_ind_mine_manganese_03.ftsxml</File>
+    <File md5="8A95A5D365E2B8E3C147D66BCEE1CFF2" import="1">Art/Resources/Manganese/fx_triggers_hb_med_mine_manganese_01.ftsxml</File>
+    <File md5="EED20482965EB3C957D1C29E38A223A2" import="1">Art/Resources/Manganese/fx_triggers_hb_med_mine_manganese_02.ftsxml</File>
+    <File md5="4C3B18E777A1876465E4A20A2F2E9BC1" import="1">Art/Resources/Manganese/fx_triggers_hb_med_mine_manganese_03.ftsxml</File>
+    <File md5="53513209684B4BBDEBE8844945BFA011" import="1">Art/Resources/Manganese/fx_triggers_hb_med_mine_manganese_04.ftsxml</File>
+    <File md5="4D7774ACC9E31EF437D39ECBA1716654" import="1">Art/Resources/Manganese/fx_triggers_ind_mine_manganese_01.ftsxml</File>
+    <File md5="A5516604663D3C44DED47C547D671B6E" import="1">Art/Resources/Manganese/fx_triggers_ind_mine_manganese_03.ftsxml</File>
+    <File md5="DCA3227A28F33F4D4A761962E1DC9858" import="1">Art/Resources/Manganese/fx_triggers_ind_mine_manganese_04.ftsxml</File>
+    <File md5="E9D2F4B2FCCBD350DCB1A45AB30540B2" import="1">Art/Resources/Manganese/fx_triggers_ind_mine_manganese_05.ftsxml</File>
+    <File md5="8A95A5D365E2B8E3C147D66BCEE1CFF2" import="1">Art/Resources/Manganese/fx_triggers_manganese_01.ftsxml</File>
+    <File md5="EED20482965EB3C957D1C29E38A223A2" import="1">Art/Resources/Manganese/fx_triggers_manganese_02.ftsxml</File>
+    <File md5="4C3B18E777A1876465E4A20A2F2E9BC1" import="1">Art/Resources/Manganese/fx_triggers_manganese_03.ftsxml</File>
+    <File md5="53513209684B4BBDEBE8844945BFA011" import="1">Art/Resources/Manganese/fx_triggers_manganese_04.ftsxml</File>
+    <File md5="DCA3227A28F33F4D4A761962E1DC9858" import="1">Art/Resources/Manganese/fx_triggers_med_mine_manganese_04.ftsxml</File>
+    <File md5="E9D2F4B2FCCBD350DCB1A45AB30540B2" import="1">Art/Resources/Manganese/fx_triggers_med_mine_manganese_05.ftsxml</File>
+    <File md5="CC837EE1A3E08C47C9812B6BECE08AEC" import="1">Art/Resources/Manganese/fx_triggers_med_mine_manganese_06.ftsxml</File>
+    <File md5="BB3AE7DE141C4BCD75BA77DF86C23E84" import="1">Art/Resources/Manganese/fx_triggers_med_mine_manganese_08.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Manganese/fx_triggers_pl_ind_mine_manganese.ftsxml</File>
+    <File md5="4D7774ACC9E31EF437D39ECBA1716654" import="1">Art/Resources/Manganese/fx_triggers_pl_ind_mine_manganese_01.ftsxml</File>
+    <File md5="A5516604663D3C44DED47C547D671B6E" import="1">Art/Resources/Manganese/fx_triggers_pl_ind_mine_manganese_03.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Manganese/fx_triggers_pl_med_mine_manganese.ftsxml</File>
+    <File md5="DCA3227A28F33F4D4A761962E1DC9858" import="1">Art/Resources/Manganese/fx_triggers_pl_med_mine_manganese_04.ftsxml</File>
+    <File md5="2095865480822F3D505F346C6485B741" import="1">Art/Resources/Manganese/fx_triggers_pl_med_mine_manganese_05.ftsxml</File>
+    <File md5="C6054CA06EFDBEB159807885441C5CB6" import="1">Art/Resources/Manganese/hb_ind_mine_manganese.fxsxml</File>
+    <File md5="B68C10179F42824C628724BA16094171" import="1">Art/Resources/Manganese/hb_ind_mine_manganese.gr2</File>
+    <File md5="9EC45685A4E56CDC36017704A6B51446" import="1">Art/Resources/Manganese/hb_med_mine_manganese.fxsxml</File>
+    <File md5="45F7934514539908AA72D242FBF62937" import="1">Art/Resources/Manganese/hb_med_mine_manganese.gr2</File>
+    <File md5="BB2855C36B39FB433575244CADF5D2DC" import="1">Art/Resources/Manganese/ind_mine_manganese.fxsxml</File>
+    <File md5="47018D1DBF7DD5F065292EDF9F20CB3D" import="1">Art/Resources/Manganese/ind_mine_manganese.gr2</File>
+    <File md5="0DD872B8D7A27DD676AD5F9097CBD682" import="1">Art/Resources/Manganese/manganese.fxsxml</File>
+    <File md5="91726D99122A44EAA3E6F507755D283D" import="1">Art/Resources/Manganese/manganese.gr2</File>
+    <File md5="465F0E17603018ABC56539AA08F7BC28" import="1">Art/Resources/Manganese/manganese_decal_diff.dds</File>
+    <File md5="9285AD7483CDF1E34EFF3CF27C3002AE" import="1">Art/Resources/Manganese/manganese_ore_decal_h.dds</File>
+    <File md5="4E9C408C589A262EE5653E7C0A542E9A" import="1">Art/Resources/Manganese/manganese_ore_diff.dds</File>
+    <File md5="EB4E0F7C101C1636D48D633E595687C0" import="1">Art/Resources/Manganese/manganese_ore_sref.dds</File>
+    <File md5="F396639747718A448A0209E94C3CD800" import="1">Art/Resources/Manganese/manganese_rubble_diff.dds</File>
+    <File md5="1476FC27D2CD830786EF6031EF16ED3B" import="1">Art/Resources/Manganese/med_mine_manganese.fxsxml</File>
+    <File md5="135724F57771A739A5F073657DA52B87" import="1">Art/Resources/Manganese/med_mine_manganese.gr2</File>
+    <File md5="FBCED5ACFFA4E9AEA22F188E00470AC8" import="1">Art/Resources/Manganese/mine_manganese_decal_d.dds</File>
+    <File md5="AFFF6F5213193C2D7A2AD4A41693E089" import="1">Art/Resources/Manganese/pl_ind_mine_manganese.fxsxml</File>
+    <File md5="72055B03D34817342AC5F3071B3FC41D" import="1">Art/Resources/Manganese/pl_ind_mine_manganese.gr2</File>
+    <File md5="8E8E936F81B133F262EE310640C26FCF" import="1">Art/Resources/Manganese/pl_med_mine_manganese.fxsxml</File>
+    <File md5="2AA5FB7150598FA50DAF34220CFFECC2" import="1">Art/Resources/Manganese/pl_med_mine_manganese.gr2</File>
+    <File md5="8AE2814D1BFB57F7C2C086947E58126C" import="1">Art/Resources/Manganese/pl_mine_manganese_decal.dds</File>
+    <File md5="7DBD0708FBF06E93ED7443758E447A26" import="1">Art/Resources/Manganese/SV_Manganese.dds</File>
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Mango/fx_triggers_pl_plantation_ind_mango.ftsxml</File>
     <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Mango/fx_triggers_pl_plantation_mid_mango.ftsxml</File>
     <File md5="338075CF06BB51D942B5169854CB7C7D" import="1">Art/Resources/Mango/hb_plantation_ind_mango.fxsxml</File>
     <File md5="DE0AA7E3FA6BD4AB9C4B832CA056E45F" import="1">Art/Resources/Mango/hb_plantation_ind_mango.gr2</File>
     <File md5="F301C6F53F813D1ABE8A571F2A7C8D45" import="1">Art/Resources/Mango/hb_plantation_mid_mango.fxsxml</File>
     <File md5="9B7BE3A80540EEB6DFF62D7563BD8C93" import="1">Art/Resources/Mango/hb_plantation_mid_mango.gr2</File>
-    <File md5="A38629EF37A0B3F7C538B3729898B6EB" import="1">Art/Resources/Mango/mango_diff.dds</File>
-    <File md5="74D19D2C72AA09F29748B422D681861D" import="1">Art/Resources/Mango/mango_sref.dds</File>
+    <File md5="A5F820C48F0EED3B5D94AE317276AAEA" import="1">Art/Resources/Mango/mango_diff.dds</File>
+    <File md5="F3A708E168B8AAD0B05FF53BEB448835" import="1">Art/Resources/Mango/mango_sref.dds</File>
     <File md5="DFFB22DA75ED7DF8BDEFD78163FE432A" import="1">Art/Resources/Mango/plantation_ind_mango.fxsxml</File>
     <File md5="9D4B3E3A0183DFE3AE44A7A8B9510551" import="1">Art/Resources/Mango/plantation_ind_mango.gr2</File>
     <File md5="940456EC8B0BC747773B03945F029B0F" import="1">Art/Resources/Mango/plantation_mid_mango.fxsxml</File>
     <File md5="953AD375F7D6F1DF92F3EF5891D50B3D" import="1">Art/Resources/Mango/plantation_mid_mango.gr2</File>
-    <File md5="48D756AE759D6EF6EC55CDAFBA154CA7" import="1">Art/Resources/Mango/pl_mango_diff.dds</File>
+    <File md5="8EBE30AB68D2BA26D2A7930FE6185E23" import="1">Art/Resources/Mango/pl_mango_diff.dds</File>
     <File md5="BB8A0AD26AE32463811470E05EBD40F3" import="1">Art/Resources/Mango/pl_plantation_ind_mango.fxsxml</File>
     <File md5="028C5EDB52C03B5E6E60F9821EFF7597" import="1">Art/Resources/Mango/pl_plantation_ind_mango.gr2</File>
     <File md5="C03CAD88A4F452AA0B5C2A5250921CC1" import="1">Art/Resources/Mango/pl_plantation_mid_mango.fxsxml</File>
     <File md5="8E8952A63F8A4BC34B997F9C11F061F7" import="1">Art/Resources/Mango/pl_plantation_mid_mango.gr2</File>
     <File md5="63EA5C22C0C26A6575CBA464A547B06D" import="1">Art/Resources/Mango/resource_mango.fxsxml</File>
-    <File md5="F7667A1389747E0F37D684295EB435B1" import="1">Art/Resources/Mango/resource_mango.gr2</File> 
+    <File md5="F7667A1389747E0F37D684295EB435B1" import="1">Art/Resources/Mango/resource_mango.gr2</File>
+    <File md5="B9AAA3D47749EFCD2B61F09C4CD2803F" import="1">Art/Resources/Mango/SV_Mango.dds</File>
+    <File md5="0161191801CF62D46C5E7EC12F4C0BC8" import="1">Art/Resources/Oak/crop_ground_oak_d.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Oak/fx_triggers_pl_plantation_ind_oak.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Oak/fx_triggers_pl_plantation_mid_oak.ftsxml</File>
+    <File md5="604DBB13105AB6BBF0EE7BB371A31FB7" import="1">Art/Resources/Oak/hb_plantation_ind_oak.fxsxml</File>
+    <File md5="2B8FACC138BE660CFE5552585564B531" import="1">Art/Resources/Oak/hb_plantation_ind_oak.gr2</File>
+    <File md5="4A5F87A07206A0128E3B92FABA022D9F" import="1">Art/Resources/Oak/hb_plantation_mid_oak.fxsxml</File>
+    <File md5="3415512F6375E35375C0776698B8943E" import="1">Art/Resources/Oak/hb_plantation_mid_oak.gr2</File>
+    <File md5="6A7FFF163C9FE3E3D2459834AA19FD6B" import="1">Art/Resources/Oak/oakery_improved_idle.gr2</File>
+    <File md5="6A7FFF163C9FE3E3D2459834AA19FD6B" import="1">Art/Resources/Oak/oakery_improved_worked.gr2</File>
+    <File md5="3B5990533126FE0B6EC6D82549B3C4F0" import="1">Art/Resources/Oak/oak_diff.dds</File>
+    <File md5="F77266498543D75BE980913A038DBDE4" import="1">Art/Resources/Oak/oak_grnd_decal_diff.dds</File>
+    <File md5="17F304A29EBB0892BD62CF4502D7A4A5" import="1">Art/Resources/Oak/oak_improved.fxsxml</File>
+    <File md5="491EA26548D1AEF7509AE2DFB002B2AF" import="1">Art/Resources/Oak/oak_improved.gr2</File>
+    <File md5="152137585143527DEB6234CD2082172E" import="1">Art/Resources/Oak/oak_improved_idle.gr2</File>
+    <File md5="152137585143527DEB6234CD2082172E" import="1">Art/Resources/Oak/oak_improved_worked.gr2</File>
+    <File md5="171B812ABBA578A46BA6F07384A48798" import="1">Art/Resources/Oak/oak_sref.dds</File>
+    <File md5="BE3105825009C2C2A6B81C6CA2615B07" import="1">Art/Resources/Oak/oak_vineyard_diff.dds</File>
+    <File md5="D235CECB181D0C873AD87DF4A74BBAC2" import="1">Art/Resources/Oak/oak_vineyard_sref.dds</File>
+    <File md5="3877FD7D5F0AFDDAD253C63552F78CDD" import="1">Art/Resources/Oak/plantation_ind_oak.fxsxml</File>
+    <File md5="7DE0B9AB6DFD2A7DC55FD870D9C79454" import="1">Art/Resources/Oak/plantation_ind_oak.gr2</File>
+    <File md5="174787ACC2C13BA4828A62D6EFDC483A" import="1">Art/Resources/Oak/plantation_mid_oak.fxsxml</File>
+    <File md5="4B463AED57AE78C1F8B05D4A30E76CAD" import="1">Art/Resources/Oak/plantation_mid_oak.gr2</File>
+    <File md5="F279CCE2C423ABC0D5777BEEBB062DB0" import="1">Art/Resources/Oak/pl_plantation_ind_oak.fxsxml</File>
+    <File md5="ECD6641FB9B17BB9FEDBD8674AD74027" import="1">Art/Resources/Oak/pl_plantation_ind_oak.gr2</File>
+    <File md5="DDEBA53994931661998E6426FD063218" import="1">Art/Resources/Oak/pl_plantation_mid_oak.fxsxml</File>
+    <File md5="3CBD9FC22B8F8264B1EEA1CDD7997113" import="1">Art/Resources/Oak/pl_plantation_mid_oak.gr2</File>
+    <File md5="45A8D830F2F617F540BFC29DAA8A2A8E" import="1">Art/Resources/Oak/resource_oak.fxsxml</File>
+    <File md5="8F4BF4560A6D76A5ADDA1FCB8AAA5BDE" import="1">Art/Resources/Oak/resource_oak.gr2</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Poppy/fx_triggers_pl_plantation_ind_poppy.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Poppy/fx_triggers_pl_plantation_mid_poppy.ftsxml</File>
+    <File md5="E125C040BC1D10CCF4389D3B404C01FC" import="1">Art/Resources/Poppy/hb_plantation_ind_poppy.fxsxml</File>
+    <File md5="8A57C78A8777E68E463BF5C4E2EBCBE9" import="1">Art/Resources/Poppy/hb_plantation_ind_poppy.gr2</File>
+    <File md5="56C656D8DDFF71F10DC2B7AA66B3978D" import="1">Art/Resources/Poppy/hb_plantation_mid_poppy.fxsxml</File>
+    <File md5="69E75D4183979DCC027C0D2F894793C6" import="1">Art/Resources/Poppy/hb_plantation_mid_poppy.gr2</File>
+    <File md5="12DF3F50DB6A82E0C8371D28D7A46FEB" import="1">Art/Resources/Poppy/plantation_ind_poppy.fxsxml</File>
+    <File md5="E1E51889D8DC2F47891A6A799FCA5AF1" import="1">Art/Resources/Poppy/plantation_ind_poppy.gr2</File>
+    <File md5="B0D52FC7C699D0D8129E0A2DBFBBF50B" import="1">Art/Resources/Poppy/plantation_mid_poppy.fxsxml</File>
+    <File md5="D66D0EE4F910BF0D8294B532C44B5F5C" import="1">Art/Resources/Poppy/plantation_mid_poppy.gr2</File>
+    <File md5="A706342C69CDE1DD3E8008769EA01CF2" import="1">Art/Resources/Poppy/pl_plantation_ind_poppy.fxsxml</File>
+    <File md5="743894E6365BCC0774DD521DC79BFF4A" import="1">Art/Resources/Poppy/pl_plantation_ind_poppy.gr2</File>
+    <File md5="FA87B6CFC7B203230478AA5925CD8A2B" import="1">Art/Resources/Poppy/pl_plantation_mid_poppy.fxsxml</File>
+    <File md5="1740E350EFD70996BCC7363EF4996173" import="1">Art/Resources/Poppy/pl_plantation_mid_poppy.gr2</File>
+    <File md5="A5717AFA815BE0AF8C48D12B5ECD34DB" import="1">Art/Resources/Poppy/pl_poppy_diff.dds</File>
+    <File md5="2FCC9AC31987AB9A9A7FC87991D914AE" import="1">Art/Resources/Poppy/poppy_diff.dds</File>
+    <File md5="47859DD389079CE23A0F7841B12364B3" import="1">Art/Resources/Poppy/poppy_sref.dds</File>
+    <File md5="8533982C3A52734F4C3AE15568F0B734" import="1">Art/Resources/Poppy/resource_poppy.fxsxml</File>
+    <File md5="52AF96DC02FF88A69A813E02938FC4A5" import="1">Art/Resources/Poppy/resource_poppy.gr2</File>
+    <File md5="BD590FE05991A85A8DAB632FC6E6F52F" import="1">Art/Resources/Poppy/SV_Poppy.dds</File>
+    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Tin/fx_triggers_pl_ind_mine_tin.ftsxml</File>
+    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Tin/fx_triggers_pl_med_mine_tin.ftsxml</File>
+    <File md5="23E94CFCF213DB5AF8766FAF458B56E2" import="1">Art/Resources/Tin/hb_ind_tin_mine.fxsxml</File>
+    <File md5="7A4BEAE6304C2D1EBE293CAF1FD45E26" import="1">Art/Resources/Tin/hb_ind_tin_mine.gr2</File>
+    <File md5="CFED48E0FFC858DD0912CB2F2B9171EB" import="1">Art/Resources/Tin/hb_med_tin_mine.fxsxml</File>
+    <File md5="1CB33DB9DA3A035A31C28A34E144381D" import="1">Art/Resources/Tin/hb_med_tin_mine.gr2</File>
+    <File md5="74520142D4FE4C6ACDD30B9154B30AD8" import="1">Art/Resources/Tin/ind_mine_tin.fxsxml</File>
+    <File md5="B6E8F30CAD596A461575A509429B78E7" import="1">Art/Resources/Tin/ind_mine_tin.gr2</File>
+    <File md5="87D5A4F7B042326AD0AE4E355AD4E97C" import="1">Art/Resources/Tin/med_mine_tin.fxsxml</File>
+    <File md5="B5F479710A8719A05CF082029F1083E4" import="1">Art/Resources/Tin/med_mine_tin.gr2</File>
+    <File md5="821AC036FB0B72A372E9CC957C06ACA0" import="1">Art/Resources/Tin/med_tin_mine.fxsxml</File>
+    <File md5="841282A4E01B73EF5FDA3171F415EF15" import="1">Art/Resources/Tin/med_tin_mine.gr2</File>
+    <File md5="0F2ACF18D488811C9B38D533A4A118B9" import="1">Art/Resources/Tin/mine_tin_decal_d.dds</File>
+    <File md5="624229BD642A7B257350D996911297B3" import="1">Art/Resources/Tin/pl_ind_mine_tin.fxsxml</File>
+    <File md5="7D2DB7C5B73FF0D797433F2E4E14A127" import="1">Art/Resources/Tin/pl_ind_mine_tin.gr2</File>
+    <File md5="EF5B45B6ADEAA1D5DB77E7BB97F818E4" import="1">Art/Resources/Tin/pl_med_mine_tin.fxsxml</File>
+    <File md5="6B41F1F32F3C944A2AF5BB299F47B944" import="1">Art/Resources/Tin/pl_med_mine_tin.gr2</File>
+    <File md5="AD15688810BCC67705EB28D107D1B7F7" import="1">Art/Resources/Tin/pl_mine_tin_decal_d.dds</File>
+    <File md5="295A7065EF31ECD34A24DA5B7AB5CD69" import="1">Art/Resources/Tin/SV_Tin.dds</File>
+    <File md5="CAA4B7538CF9F3CCF966227CEAEFC841" import="1">Art/Resources/Tin/tin.fxsxml</File>
+    <File md5="1E2EC62DE1FCB97CB57D38C12D5676D2" import="1">Art/Resources/Tin/tin.gr2</File>
+    <File md5="EA87E0E2415978E8653EF04938CB2D11" import="1">Art/Resources/Tin/tin_decal_diff.dds</File>
+    <File md5="CDD43C0F6C12ECACB64B2139437CA03B" import="1">Art/Resources/Tin/tin_ore_diff.dds</File>
+    <File md5="0D0C597147130E080911BA4A4668A0C8" import="1">Art/Resources/Tin/tin_ore_sref.dds</File>
+    <File md5="33469B1560D243D4ABE82CE829B61633" import="1">Art/Resources/Tin/tin_rubble_diff.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Titanium/fx_triggers_pl_ind_mine_titanium.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Titanium/fx_triggers_pl_ind_mine_titanium_heavy.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Titanium/fx_triggers_pl_med_mine_titanium.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Titanium/fx_triggers_pl_med_mine_titanium_heavy.ftsxml</File>
+    <File md5="0DBEAAD3D3A23E9CFDF2E08C6351EA8D" import="1">Art/Resources/Titanium/hb_ind_mine_titanium.fxsxml</File>
+    <File md5="3F71AEBB74BE8DC1334F19DEC28D59F2" import="1">Art/Resources/Titanium/hb_ind_mine_titanium.gr2</File>
+    <File md5="E26B4B3B2A9383CBDEEA92122F49A55A" import="1">Art/Resources/Titanium/hb_ind_mine_titanium_heavy.fxsxml</File>
+    <File md5="A28CBCD0D580F0E75D5196527951550D" import="1">Art/Resources/Titanium/hb_ind_mine_titanium_heavy.gr2</File>
+    <File md5="3736E3371E3BFCF1BB189D0DA8FCA81A" import="1">Art/Resources/Titanium/hb_med_mine_titanium.fxsxml</File>
+    <File md5="885DCF877CE702CA2D843341EC67E6C5" import="1">Art/Resources/Titanium/hb_med_mine_titanium.gr2</File>
+    <File md5="47FA2BF1A0B50095258C9570DBA87206" import="1">Art/Resources/Titanium/hb_med_mine_titanium_heavy.fxsxml</File>
+    <File md5="2B5D3A567544964394A18F7541EA6D32" import="1">Art/Resources/Titanium/hb_med_mine_titanium_heavy.gr2</File>
+    <File md5="A71186EFF99FB96D00D0A216E0A70F69" import="1">Art/Resources/Titanium/ind_mine_titanium.fxsxml</File>
+    <File md5="9EDAD2C293E1BA67F94B68DEDB1DC5F7" import="1">Art/Resources/Titanium/ind_mine_titanium.gr2</File>
+    <File md5="45E927D152DD7D99711E142492B64F14" import="1">Art/Resources/Titanium/ind_mine_titanium_heavy.fxsxml</File>
+    <File md5="B2774DC86B3752103A6B3D52D57B3B6B" import="1">Art/Resources/Titanium/ind_mine_titanium_heavy.gr2</File>
+    <File md5="54F0E6DCA0A229881B0DA5AA9376D868" import="1">Art/Resources/Titanium/med_mine_titanium.fxsxml</File>
+    <File md5="97C7A74845B94F5DE2DF35B612E94F60" import="1">Art/Resources/Titanium/med_mine_titanium.gr2</File>
+    <File md5="CDE85CAF8D5540E11C5A44CAC458B9D4" import="1">Art/Resources/Titanium/med_mine_titanium_heavy.fxsxml</File>
+    <File md5="98457E462A535F666EA163D74C29057A" import="1">Art/Resources/Titanium/med_mine_titanium_heavy.gr2</File>
+    <File md5="089BB204A9869D1B407B4E69D19FD5D6" import="1">Art/Resources/Titanium/mine_titanium_decal_d.dds</File>
+    <File md5="818D22FE9C33F959A2AE5B076C0F84E8" import="1">Art/Resources/Titanium/pl_ind_mine_titanium.fxsxml</File>
+    <File md5="F7FE96C794BEF41F47B436FE5E279CF1" import="1">Art/Resources/Titanium/pl_ind_mine_titanium.gr2</File>
+    <File md5="91CDE2DD0A34A3A2A922EBB13766CE6B" import="1">Art/Resources/Titanium/pl_ind_mine_titanium_heavy.fxsxml</File>
+    <File md5="71940F56834B1C08DA72159C2733F140" import="1">Art/Resources/Titanium/pl_ind_mine_titanium_heavy.gr2</File>
+    <File md5="2F2395EFD29FD8094BD26307DBA36370" import="1">Art/Resources/Titanium/pl_med_mine_titanium.fxsxml</File>
+    <File md5="12D9D64362973214E5033047E3E1C3BD" import="1">Art/Resources/Titanium/pl_med_mine_titanium.gr2</File>
+    <File md5="AB71CAB8764BF36810C6F490A0451E9B" import="1">Art/Resources/Titanium/pl_med_mine_titanium_heavy.fxsxml</File>
+    <File md5="727D0A05EC66E15A01ECD07BDF724449" import="1">Art/Resources/Titanium/pl_med_mine_titanium_heavy.gr2</File>
+    <File md5="291BE703021AE05347CAF927C062EA58" import="1">Art/Resources/Titanium/pl_mine_titanium_decal_d.dds</File>
+    <File md5="BEDA54BA87F6EB787DED6CCC8B7079AA" import="1">Art/Resources/Titanium/pl_super_titanium_mine_decal.dds</File>
+    <File md5="DE740737FEF0D271449903359094591F" import="1">Art/Resources/Titanium/super_titanium_mine_decal_d.dds</File>
+    <File md5="D2C44E6F958E20FF591B77023244BEF9" import="1">Art/Resources/Titanium/sv_titanium.dds</File>
+    <File md5="E549573E3B0009DEB50D65AF04856CDD" import="1">Art/Resources/Titanium/titanium.fxsxml</File>
+    <File md5="8FFA662484B9CAB59B9511C191D16B15" import="1">Art/Resources/Titanium/titanium.gr2</File>
+    <File md5="E806AB3F9F99D17DCDF335CCE9DAD6A7" import="1">Art/Resources/Titanium/titanium_decal_diff.dds</File>
+    <File md5="69A734C1DCB05474EBA3C71CF208976A" import="1">Art/Resources/Titanium/titanium_decal_h.dds</File>
+    <File md5="D4CF73BCA9ECA29249E009632DDA5E8A" import="1">Art/Resources/Titanium/titanium_heavy.fxsxml</File>
+    <File md5="EDEE0DEAFF7827CF7E896FE006199B33" import="1">Art/Resources/Titanium/titanium_heavy.gr2</File>
+    <File md5="C3439094BB1FE74A1F8AE4EF37C685AD" import="1">Art/Resources/Titanium/titanium_heavy_decal_diff.dds</File>
+    <File md5="9ED9F2164CB24B064AAFC86EB3011E51" import="1">Art/Resources/Titanium/titanium_heavy_marsh.fxsxml</File>
+    <File md5="29AF20F5E0282F966791CF3B32724DDD" import="1">Art/Resources/Titanium/titanium_heavy_marsh.gr2</File>
+    <File md5="7B0DAA1A7D0E12F0D6016C81D5EBFAE5" import="1">Art/Resources/Titanium/titanium_marsh.fxsxml</File>
+    <File md5="6ADC30E8EAC9ABBF11CE8D75DFB20B8E" import="1">Art/Resources/Titanium/titanium_marsh.gr2</File>
+    <File md5="DF7ACC876225019CB3F87A4AB7D32B8A" import="1">Art/Resources/Titanium/titanium_marsh_decal_d.dds</File>
+    <File md5="1C0B002BB4AD23DA7EA29116FC06ADFE" import="1">Art/Resources/Titanium/titanium_marsh_heavy_decal_d.dds</File>
+    <File md5="04CA53D6BD0131E032FE9623099DEC16" import="1">Art/Resources/Titanium/titanium_ore_decal_h.dds</File>
+    <File md5="CCE08AB0CD0E764BF88F21AA82FFE7EF" import="1">Art/Resources/Titanium/titanium_ore_diff.dds</File>
+    <File md5="6CFF6B52C886CB8398D8354FDED4205C" import="1">Art/Resources/Titanium/titanium_ore_heavy_decal_h.dds</File>
+    <File md5="25498B4B12345895E56E7631C2C548C4" import="1">Art/Resources/Titanium/titanium_ore_sref.dds</File>
+    <File md5="42CEFA5BE2C4D705252DF3D37278158B" import="1">Art/Resources/Titanium/titanium_rubble_diff.dds</File>
+    <File md5="8E3B04BBC98E39DE0AF00FA01D5AA7EA" import="1">Art/Resources/Tobacco/crop_ground_tobacco_d.dds</File>
+    <File md5="9285C31AB78D5892FFB82652F3C6D09C" import="1">Art/Resources/Tobacco/crop_ground_tobacco_h.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Tobacco/fx_triggers_pl_plantation_ind_tobacco.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Tobacco/fx_triggers_pl_plantation_mid_tobacco.ftsxml</File>
+    <File md5="DD7BC093800AD4CE27F6249B99AADE9A" import="1">Art/Resources/Tobacco/hb_plantation_ind_tobacco.fxsxml</File>
+    <File md5="5C724942A96F55F70575279F060FB6AA" import="1">Art/Resources/Tobacco/hb_plantation_ind_tobacco.gr2</File>
+    <File md5="04AEF196387A5425CDC944A8CD9B1B4F" import="1">Art/Resources/Tobacco/hb_plantation_mid_tobacco.fxsxml</File>
+    <File md5="FF19793B18BFC0B449C79A5AF329E67A" import="1">Art/Resources/Tobacco/hb_plantation_mid_tobacco.gr2</File>
+    <File md5="7A3CA8F023908DA3666641CBBADB3E8D" import="1">Art/Resources/Tobacco/plantation_ind_tobacco.fxsxml</File>
+    <File md5="F4725D23D0CEAC49A5C815054C1701DA" import="1">Art/Resources/Tobacco/plantation_ind_tobacco.gr2</File>
+    <File md5="C2559BB675AFA33316EC146E42003697" import="1">Art/Resources/Tobacco/plantation_mid_tobacco.fxsxml</File>
+    <File md5="522E2671C81C52B1A84B70FDC344390A" import="1">Art/Resources/Tobacco/plantation_mid_tobacco.gr2</File>
+    <File md5="058222D73F474106748B962B99929012" import="1">Art/Resources/Tobacco/pl_crop_ground_tobacco_d.dds</File>
+    <File md5="8EE38C11178E1F935A6A377836E875E7" import="1">Art/Resources/Tobacco/pl_plantation_ind_tobacco.fxsxml</File>
+    <File md5="86C5A9E974EEB92175C77D8C97E3E43C" import="1">Art/Resources/Tobacco/pl_plantation_ind_tobacco.gr2</File>
+    <File md5="E0FCB89CF45E62952D969E21A0B5FB09" import="1">Art/Resources/Tobacco/pl_plantation_mid_tobacco.fxsxml</File>
+    <File md5="33CCFDD3132232ACD7CD39640D764A2D" import="1">Art/Resources/Tobacco/pl_plantation_mid_tobacco.gr2</File>
+    <File md5="B4254586727BF4138248D7116A92749C" import="1">Art/Resources/Tobacco/pl_tobacco_diff.dds</File>
+    <File md5="39B5BB9B82EF081F68FC04C4C12CE1A2" import="1">Art/Resources/Tobacco/resource_tobacco.fxsxml</File>
+    <File md5="8B9D6E7437A0F8F8C42E2B1861397869" import="1">Art/Resources/Tobacco/resource_tobacco.gr2</File>
+    <File md5="28668C6C737A553D988D026F74C8CED8" import="1">Art/Resources/Tobacco/SV_Tobacco.dds</File>
+    <File md5="F80EAC029E70CC48BC97617DDF1262B9" import="1">Art/Resources/Tobacco/tobacco_diff.dds</File>
+    <File md5="56177E4DAC7F49305B0E756AF4CC70D1" import="1">Art/Resources/Tobacco/tobacco_sref.dds</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Wood/fx_triggers_pl_plantation_ind_wood.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Wood/fx_triggers_pl_plantation_mid_wood.ftsxml</File>
+    <File md5="52F13E4B4F442AE1D625557AD6F06805" import="1">Art/Resources/Wood/hb_plantation_ind_wood.fxsxml</File>
+    <File md5="F8AF327D225D0DD7F6F21F2BA9A83C91" import="1">Art/Resources/Wood/hb_plantation_ind_wood.gr2</File>
+    <File md5="E6755865412ACAB4100AD764F1F05FAB" import="1">Art/Resources/Wood/hb_plantation_mid_wood.fxsxml</File>
+    <File md5="288851D356AD5BC2E29970DAFB15D9E1" import="1">Art/Resources/Wood/hb_plantation_mid_wood.gr2</File>
+    <File md5="792ED24FA132B6B789338710D658DA9E" import="1">Art/Resources/Wood/plantation_ind_wood.fxsxml</File>
+    <File md5="79F6DA7FEFCF8448967512C1542FF4F5" import="1">Art/Resources/Wood/plantation_ind_wood.gr2</File>
+    <File md5="1D8B5FD4CD1560093DEF5CE5CE9FC6F6" import="1">Art/Resources/Wood/plantation_mid_wood.fxsxml</File>
+    <File md5="06FEA351F9245B46A64F30954303F640" import="1">Art/Resources/Wood/plantation_mid_wood.gr2</File>
+    <File md5="93B9137940090565DCF52CFE8D164C84" import="1">Art/Resources/Wood/pl_plantation_ind_wood.fxsxml</File>
+    <File md5="103671941620291319C0C25D5D8B96F4" import="1">Art/Resources/Wood/pl_plantation_ind_wood.gr2</File>
+    <File md5="9B507D80DED3950E5E09219C4F9216B4" import="1">Art/Resources/Wood/pl_plantation_mid_wood.fxsxml</File>
+    <File md5="64784463F89B87363990F736B42AC307" import="1">Art/Resources/Wood/pl_plantation_mid_wood.gr2</File>
+    <File md5="8513325D7A8FAFF6303997B0D75111AE" import="1">Art/Resources/Wood/pl_resource_wood_02_diff.dds</File>
+    <File md5="7944E3B81C796A119231EBF67BA94060" import="1">Art/Resources/Wood/resource_wood.fxsxml</File>
+    <File md5="4511EB563E3CEC24FBE91E09C21FE441" import="1">Art/Resources/Wood/resource_wood.gr2</File>
+    <File md5="9009E4228345E37352FD208C7266FA43" import="1">Art/Resources/Wood/resource_wood_02_diff.dds</File>
+    <File md5="0BDA1EA82D827649BB33E0DAF648E3B6" import="1">Art/Resources/Wood/resource_wood_02_sref.dds</File>
+    <File md5="24994858942FFF001EC8ACC0D48D02F9" import="1">Art/Resources/Wood/wood_ground_d.dds</File>
+    <File md5="FFB6AE60EA9F811D71563B52D4D84946" import="1">Art/Resources/Wood/wood_ground_h.dds</File>
+    <File md5="B497461EBB395911A3071B5FA3226275" import="1">Art/Units Flags/unitflagatlaswhiteTwo.dds</File>
     <File md5="6C47CB47977F424C54A8F8955D33577D" import="1">Art/Units/Effects/fx_ig_heavy.ftsxml</File>
     <File md5="3D03BB8B12A861E9E919A8ECF96635EB" import="1">Art/Units/Effects/fx_ig_soldier.ftsxml</File>
     <File md5="7C9B3B60F920B85AD94747A739EB0B3E" import="1">Art/Units/Effects/fx_triggers_baneblade.ftsxml</File>
@@ -527,25 +914,25 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="2F47E7B12D8AC9ABA49BF04B1C900C15" import="1">Art/Units/W40K/Manticore Dozer/leman_russ_dozer_spc.dds</File>
     <File md5="374ABD4895074553370B19DC1DA1578B" import="1">Art/Units/W40K/Manticore Dozer/manticore_spc.dds</File>
     <File md5="2B2BF068F28DC8F5EDB0B9440A73C87C" import="1">Art/Units/W40K/Manticore Dozer/tank_unlocks_spc.dds</File>
-    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Manticore Vetran/chimera_spc.dds</File>
-    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Manticore Vetran/chimera_treads_dif.dds</File>
-    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Manticore Vetran/chimera_treads_spc.dds</File>
-    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="1">Art/Units/W40K/Manticore Vetran/edited_chimera_dif.dds</File>
-    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Manticore Vetran/edited_leman_russ_chassis_dif.dds</File>
-    <File md5="F2B708482173D4C1E1AA05B791A7E689" import="1">Art/Units/W40K/Manticore Vetran/edited_manticore_dif.dds</File>
-    <File md5="F9F0760EE2818C3CD7F10DCFE5C6DF39" import="1">Art/Units/W40K/Manticore Vetran/edited_tank_unlocks_dif.dds</File>
-    <File md5="D2A918A59BD8F88D77277EDF33669E18" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vet.fxsxml</File>
-    <File md5="2251096DCE0458E467C8B1E4EBAA2848" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vet.gr2</File>
-    <File md5="00577B77BB66919CD5AD2C536E232CDA" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetAttackA.gr2</File>
-    <File md5="0629D26A8FDBC3AC44E9DEEB4A44FEEF" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetAttackB.gr2</File>
-    <File md5="3B5435F8BDA1AB66F45C6D74FC793E43" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetDeath.gr2</File>
-    <File md5="91004C91E2A3060AD5F564C635F21A33" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetDrive.gr2</File>
-    <File md5="E32CFE77D912D63F6BF737E8C828387F" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetFidget.gr2</File>
-    <File md5="05F32BC96A25CEDB4A27E41355FFC5EE" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetIdle.gr2</File>
-    <File md5="0D9AAE08D854AA99DCDB8BB0D393DD41" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetReload.gr2</File>
-    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Manticore Vetran/leman_russ_chassis_spc.dds</File>
-    <File md5="374ABD4895074553370B19DC1DA1578B" import="1">Art/Units/W40K/Manticore Vetran/manticore_spc.dds</File>
-    <File md5="2B2BF068F28DC8F5EDB0B9440A73C87C" import="1">Art/Units/W40K/Manticore Vetran/tank_unlocks_spc.dds</File>
+    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="0">Art/Units/W40K/Manticore Vetran/chimera_spc.dds</File>
+    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="0">Art/Units/W40K/Manticore Vetran/chimera_treads_dif.dds</File>
+    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="0">Art/Units/W40K/Manticore Vetran/chimera_treads_spc.dds</File>
+    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="0">Art/Units/W40K/Manticore Vetran/edited_chimera_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="0">Art/Units/W40K/Manticore Vetran/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="F2B708482173D4C1E1AA05B791A7E689" import="0">Art/Units/W40K/Manticore Vetran/edited_manticore_dif.dds</File>
+    <File md5="F9F0760EE2818C3CD7F10DCFE5C6DF39" import="0">Art/Units/W40K/Manticore Vetran/edited_tank_unlocks_dif.dds</File>
+    <File md5="D2A918A59BD8F88D77277EDF33669E18" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vet.fxsxml</File>
+    <File md5="2251096DCE0458E467C8B1E4EBAA2848" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vet.gr2</File>
+    <File md5="00577B77BB66919CD5AD2C536E232CDA" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetAttackA.gr2</File>
+    <File md5="0629D26A8FDBC3AC44E9DEEB4A44FEEF" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetAttackB.gr2</File>
+    <File md5="3B5435F8BDA1AB66F45C6D74FC793E43" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetDeath.gr2</File>
+    <File md5="91004C91E2A3060AD5F564C635F21A33" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetDrive.gr2</File>
+    <File md5="E32CFE77D912D63F6BF737E8C828387F" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetFidget.gr2</File>
+    <File md5="05F32BC96A25CEDB4A27E41355FFC5EE" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetIdle.gr2</File>
+    <File md5="0D9AAE08D854AA99DCDB8BB0D393DD41" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetReload.gr2</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="0">Art/Units/W40K/Manticore Vetran/leman_russ_chassis_spc.dds</File>
+    <File md5="374ABD4895074553370B19DC1DA1578B" import="0">Art/Units/W40K/Manticore Vetran/manticore_spc.dds</File>
+    <File md5="2B2BF068F28DC8F5EDB0B9440A73C87C" import="0">Art/Units/W40K/Manticore Vetran/tank_unlocks_spc.dds</File>
     <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Manticore/chimera_spc.dds</File>
     <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Manticore/chimera_treads_dif.dds</File>
     <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Manticore/chimera_treads_spc.dds</File>
@@ -679,319 +1066,6 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="E96150EBF99980912C4C481A717A8A28" import="1">Art/Units/W40K/Vetran/ig_vetIdleShort.gr2</File>
     <File md5="ED4CEAABFBA735A5E51DCC11F2292B73" import="1">Art/Units/W40K/Vetran/ig_vetRun.gr2</File>
     <File md5="861D7266D3ADCFDFE1A41F71DBC0CC8C" import="1">Art/Units/W40K/Vetran/laspistol_spc.dds</File>
-    <File md5="A23C711914750FBA0EADB34CFB76F5FD" import="0">AI/BetterAI.xml</File>
-    <File md5="FC81F758CC3470C4420A8336EDBF2FCB" import="0">AI/GlobalAIDefines.xml</File>
-    <File md5="430E3324CCAE144AE5E0122AEC85D074" import="0">AI/Leaders.xml</File>
-    <File md5="81644D7E27AACD4671792FA34E2CB317" import="1">Art/Icons/Building Icons/buildingatlasFour.dds</File>
-    <File md5="DED849FF1C95A0877A8217943CE662A4" import="1">Art/Icons/Building Icons/buildingatlasFour1024.dds</File>
-    <File md5="8DFD02FBC795665FEAD4D0522391DAAE" import="1">Art/Icons/Building Icons/buildingatlasFour360.dds</File>
-    <File md5="FC7771EB3762F83A938B8B55E8E775AE" import="1">Art/Icons/Building Icons/buildingatlasFour512.dds</File>
-    <File md5="B4E7942AEFF0696B9E485CB0B5646C00" import="1">Art/Icons/Building Icons/buildingatlasFour640.dds</File>
-    <File md5="7B885D0FF7A5A743B42ED831933F63CF" import="1">Art/Icons/Building Icons/buildingatlasThree.dds</File>
-    <File md5="CACC421A6637B44E155A83500B4CAF5B" import="1">Art/Icons/Building Icons/buildingatlasThree1024.dds</File>
-    <File md5="0036C6ECA8DFAFEDE08D9B2B64F644E5" import="1">Art/Icons/Building Icons/buildingatlasThree360.dds</File>
-    <File md5="3565060EE869A1A69A5AD86425B0A98E" import="1">Art/Icons/Building Icons/buildingatlasThree512.dds</File>
-    <File md5="1B6E248D6209AEB30CAA4EF270978F6F" import="1">Art/Icons/Building Icons/buildingatlasThree640.dds</File>
-    <File md5="18914AB48367CC90DF3D3B058247F71D" import="1">Art/Icons/Building Icons/buildingatlasTwo.dds</File>
-    <File md5="58B74EDEB780FFBBBE60FDA0FD497541" import="1">Art/Icons/Building Icons/buildingatlasTwo1024.dds</File>
-    <File md5="CB2D78A77B1D3F8DB892B42B10F10A1D" import="1">Art/Icons/Building Icons/buildingatlasTwo360.dds</File>
-    <File md5="FECC5AD72BB43082BC8915CDB75EDFCF" import="1">Art/Icons/Building Icons/buildingatlasTwo512.dds</File>
-    <File md5="ED0D97A7FD2F61FE4ACD27E7DE70AA88" import="1">Art/Icons/Building Icons/buildingatlasTwo640.dds</File>
-    <File md5="20D248A7497685FEA277357707A84EF7" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive.dds</File>
-    <File md5="8BC536BE561D9C5680DE3ECD0CDFFB54" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive1024.dds</File>
-    <File md5="53AC89EA003CDC872B82D89EFD4BFD13" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive360.dds</File>
-    <File md5="A3B45F21708583928E1EDFA115F72A81" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive512.dds</File>
-    <File md5="4A6581E18ED332DC9C541D176C608729" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFive640.dds</File>
-    <File md5="040C46573368044572CB80EFCD161BC9" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour.dds</File>
-    <File md5="FF467B70C109BE20B48D42CEA98A844D" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour1024.dds</File>
-    <File md5="342BA58B71368329166EB68E8E97BBBC" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour360.dds</File>
-    <File md5="3BFB6CCA453D3858594E0B775EB80B21" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour512.dds</File>
-    <File md5="6980A373804412060A42DAAEB0010728" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyFour640.dds</File>
-    <File md5="A006B15CBC9BD957E24493E7F939AA48" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne.dds</File>
-    <File md5="5644E2E855D9CCE80F62C2A95477541F" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne1024.dds</File>
-    <File md5="CF637FD003DA5F52D19DAB6D60FAF739" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne360.dds</File>
-    <File md5="F75B0EAB0F89C9DE56B70196F908D849" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne512.dds</File>
-    <File md5="4F265B19E6D7013248F84CCDE26520F6" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyOne640.dds</File>
-    <File md5="E36171C86EB73313E30CAC40C71768A2" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree.dds</File>
-    <File md5="98CBC539922E6017029B095DCF20B6D6" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree1024.dds</File>
-    <File md5="6CDF1733DA5E675A2C0167696C040423" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree360.dds</File>
-    <File md5="3E27ED7557EC77A3D97C4B12C795E5BB" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree512.dds</File>
-    <File md5="1B5B6CEDFED7F8E9C627ED1D6A4204A2" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyThree640.dds</File>
-    <File md5="07615B3FE0DB50A090C0C481023B916A" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo.dds</File>
-    <File md5="45576754226E1C07F885F9A763CEE6E2" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo1024.dds</File>
-    <File md5="72821BDB71ED14CA20250F4AE34E7A5A" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo360.dds</File>
-    <File md5="B20F8FE47F74E59632D1D76BFAF1C78E" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo512.dds</File>
-    <File md5="0F96C1B0D8772A30329DB93C1BEFF63E" import="1">Art/Icons/Building Icons/Monopoly/buildingmonopolyTwo640.dds</File>
-    <File md5="C7115DAFE31E51D2E8BB38DC269D02F0" import="1">Art/Icons/Resource Icons/resourcesTwo2048.dds</File>
-    <File md5="CBE0884C7470ACF5DDA61B4C3A5510D5" import="1">Art/Icons/Resource Icons/resourcesTwo360.dds</File>
-    <File md5="93E7F0A03675F3D5C12FFD5F31172525" import="1">Art/Icons/Resource Icons/resourcesTwo512.dds</File>
-    <File md5="1853B2385FCF69F2CCCDCF6CA8DF9754" import="1">Art/Icons/Resource Icons/resourcesTwo640.dds</File>
-    <File md5="4BB3245E64B013AF2279D3E03A295BC4" import="1">Art/Icons/Tech Icons/technologyatlasFive.dds</File>
-    <File md5="F300F840BA3D7B9DEF096B38026E63B6" import="1">Art/Icons/Tech Icons/technologyatlasFive1024.dds</File>
-    <File md5="113728754D3366FEEC88E5CA40CFEEE2" import="1">Art/Icons/Tech Icons/technologyatlasFive1712.dds</File>
-    <File md5="0774F0805ACEC1D445A80229C81EAAE5" import="1">Art/Icons/Tech Icons/technologyatlasFive360.dds</File>
-    <File md5="1B2D5F12FFAE4294958286F246B60C93" import="1">Art/Icons/Tech Icons/technologyatlasFive512.dds</File>
-    <File md5="2C248A9246D9D7DE6B80EF3C001C617D" import="1">Art/Icons/Tech Icons/technologyatlasFive640.dds</File>
-    <File md5="48229560BB3F5006B0024B739482A8C7" import="1">Art/Icons/Tech Icons/technologyatlasFour.dds</File>
-    <File md5="C0A9F353C966219312B2C909FA448A0F" import="1">Art/Icons/Tech Icons/technologyatlasFour1024.dds</File>
-    <File md5="F9EFD6E2AAE66821E4161D2423F1AEE6" import="1">Art/Icons/Tech Icons/technologyatlasFour1712.dds</File>
-    <File md5="A83E32EADAEEBC6DE59B24415BC1E75E" import="1">Art/Icons/Tech Icons/technologyatlasFour360.dds</File>
-    <File md5="667178B33181F57C6A597CCEAE0EE2E0" import="1">Art/Icons/Tech Icons/technologyatlasFour512.dds</File>
-    <File md5="43F86444383A94722084B4471C5B6542" import="1">Art/Icons/Tech Icons/technologyatlasFour640.dds</File>
-    <File md5="3471F0A9F279F8B39114FFC79A86902C" import="1">Art/Icons/Tech Icons/technologyatlasThree.dds</File>
-    <File md5="5CA357EE4E731BB1B31637ACFF9DB8DF" import="1">Art/Icons/Tech Icons/technologyatlasThree1024.dds</File>
-    <File md5="077B07634FF05F002B33142746E773BD" import="1">Art/Icons/Tech Icons/technologyatlasThree1712.dds</File>
-    <File md5="5F11688D73B8EA7D7F6B6EB828C1B51B" import="1">Art/Icons/Tech Icons/technologyatlasThree360.dds</File>
-    <File md5="2BB9CD83FC314680E1FF16CBD79742E3" import="1">Art/Icons/Tech Icons/technologyatlasThree512.dds</File>
-    <File md5="F31D4659B9D25302BEE6B82C53C1AA26" import="1">Art/Icons/Tech Icons/technologyatlasThree640.dds</File>
-    <File md5="90BDCCCE41EC9D99F328D1B34B071210" import="1">Art/Icons/Unit Icons/unitportraitsPower.dds</File>
-    <File md5="EC31EF13749F812B039576BC8BDE0822" import="1">Art/Icons/Unit Icons/unitportraitsPower1024.dds</File>
-    <File md5="337FF941C2674607D1DE1BF545724DE2" import="1">Art/Icons/Unit Icons/unitportraitsPower360.dds</File>
-    <File md5="5A7A62D6CD178A362FAD002A06EEA19D" import="1">Art/Icons/Unit Icons/unitportraitsPower512.dds</File>
-    <File md5="04DF7AC4A875A7F3DA19D12543E8C8E3" import="1">Art/Icons/Unit Icons/unitportraitsPower640.dds</File>
-    <File md5="2D5DBBBAF8C4D4FCABAEA3429A05B0CE" import="1">Art/MPMButtonAtlas256.dds</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Aloe Vera/fx_triggers_pl_plantation_ind_aloevera.ftsxml</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Aloe Vera/fx_triggers_pl_plantation_mid_aloevera.ftsxml</File>
-    <File md5="F22D434B719D61D09E1C7ADAC807DD2B" import="1">Art/Resources/Aloe Vera/hb_plantation_ind_aloevera.fxsxml</File>
-    <File md5="A877D6D2E233A50941FBEDC1334ED6F6" import="1">Art/Resources/Aloe Vera/hb_plantation_ind_aloevera.gr2</File>
-    <File md5="1E036E7DB06C2F93C7362C76D6C0935E" import="1">Art/Resources/Aloe Vera/hb_plantation_mid_aloevera.fxsxml</File>
-    <File md5="CEB09C3432B9F9B1CFB7BB13E8AB0E5E" import="1">Art/Resources/Aloe Vera/hb_plantation_mid_aloevera.gr2</File>
-    <File md5="C7405DB866611B5BC2EED5A332D92921" import="1">Art/Resources/Aloe Vera/plantation_ind_aloevera.fxsxml</File>
-    <File md5="2D211FB660E6CEC2C6E3A2F1FBDF0C6A" import="1">Art/Resources/Aloe Vera/plantation_ind_aloevera.gr2</File>
-    <File md5="74FE356DFA66D5AC1D605F928B8D8F0A" import="1">Art/Resources/Aloe Vera/plantation_mid_aloevera.fxsxml</File>
-    <File md5="5E4E600EFBCB21B93E1150B7F8770B0C" import="1">Art/Resources/Aloe Vera/plantation_mid_aloevera.gr2</File>
-    <File md5="8B583E6F629FC75C04EEC73C03B38D28" import="1">Art/Resources/Aloe Vera/pl_plantation_ind_aloevera.fxsxml</File>
-    <File md5="135F6DF9F4FDCA2B0FBA7C1710EDEB51" import="1">Art/Resources/Aloe Vera/pl_plantation_ind_aloevera.gr2</File>
-    <File md5="ED35D30C09E2A78E8E1EEC3CB02CBCD1" import="1">Art/Resources/Aloe Vera/pl_plantation_mid_aloevera.fxsxml</File>
-    <File md5="E4685C8655185BDD70ACB90B9E3D9758" import="1">Art/Resources/Aloe Vera/pl_plantation_mid_aloevera.gr2</File>
-    <File md5="69A6D285BD2F69E1D1BAEF78AD3CA367" import="1">Art/Resources/Aloe Vera/pl_resource_aloevera_diff.dds</File>
-    <File md5="854151A35CBAA3450156607597E30C0B" import="1">Art/Resources/Aloe Vera/resource_aloevera.fxsxml</File>
-    <File md5="94F6BF1561C6C1843D89398A5086655B" import="1">Art/Resources/Aloe Vera/resource_aloevera.gr2</File>
-    <File md5="45F640F207D06F5A1863A2AD510FEAAE" import="1">Art/Resources/Aloe Vera/resource_aloevera_diff.dds</File>
-    <File md5="629451428E956C93FE3890EDB71EE363" import="1">Art/Resources/Aloe Vera/resource_aloevera_sref.dds</File>
-    <File md5="F78C29E0A6B906A82F90AC72B0626572" import="1">Art/Resources/Amber/amber.fxsxml</File>
-    <File md5="86B125031834599D43247569919A20B8" import="1">Art/Resources/Amber/amber.gr2</File>
-    <File md5="E55FA7D5525DBBC82E2ABDC4D2AE3A6F" import="1">Art/Resources/Amber/amber_decal_diff.dds</File>
-    <File md5="E1CE05DCD5D37057693F7A0179719912" import="1">Art/Resources/Amber/amber_ore_diff.dds</File>
-    <File md5="60CBFDAFBDD58CCA5EBD67C989CF1C48" import="1">Art/Resources/Amber/amber_ore_sref.dds</File>
-    <File md5="DE9B1395FB4C20A487B5CB4C84A64F3F" import="1">Art/Resources/Amber/amber_rubble_diff.dds</File>
-    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Amber/fx_triggers_pl_ind_mine_amber.ftsxml</File>
-    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Amber/fx_triggers_pl_med_mine_amber.ftsxml</File>
-    <File md5="3DD42228C7C00EA658E3F4179BCD8A7F" import="1">Art/Resources/Amber/hb_ind_amber_mine.fxsxml</File>
-    <File md5="32E2D7DE503E4AECD5D6FD5A7807069E" import="1">Art/Resources/Amber/hb_ind_amber_mine.gr2</File>
-    <File md5="AD8C66EA287DF48484407BA6C37E360A" import="1">Art/Resources/Amber/hb_med_amber_mine.fxsxml</File>
-    <File md5="509FCBF587976B70F1B4C068B64A5861" import="1">Art/Resources/Amber/hb_med_amber_mine.gr2</File>
-    <File md5="8E0A9102F69DFC0FD871831B301908A7" import="1">Art/Resources/Amber/ind_mine_amber.fxsxml</File>
-    <File md5="68B7AB7EB0CFED4E1D78C9C3ACA86F73" import="1">Art/Resources/Amber/ind_mine_amber.gr2</File>
-    <File md5="C02576D0735178C5F607779404D5643E" import="1">Art/Resources/Amber/med_amber_mine.fxsxml</File>
-    <File md5="FDBFEB8F2346ACDCF0FEAE0253CC7057" import="1">Art/Resources/Amber/med_amber_mine.gr2</File>
-    <File md5="42EF9AC3B421A84E99DC56185F6CAFB3" import="1">Art/Resources/Amber/med_mine_amber.fxsxml</File>
-    <File md5="E75EFA730C94C3DFD17864A068ABA086" import="1">Art/Resources/Amber/med_mine_amber.gr2</File>
-    <File md5="F86622B553E4E604E2BE157EF5DA643D" import="1">Art/Resources/Amber/mine_amber_decal_d.dds</File>
-    <File md5="484851DC74A98A68887FD3D6EAB8E11C" import="1">Art/Resources/Amber/pl_ind_mine_amber.fxsxml</File>
-    <File md5="207D798FC2F701AA2B8A5BDBB38F1C2E" import="1">Art/Resources/Amber/pl_ind_mine_amber.gr2</File>
-    <File md5="AFFFB1D4EC8E78344915EDD63F0FC73C" import="1">Art/Resources/Amber/pl_med_mine_amber.fxsxml</File>
-    <File md5="1602B2DC5740FE74D71CBDE0B5F24B79" import="1">Art/Resources/Amber/pl_med_mine_amber.gr2</File>
-    <File md5="060CAA8D650DDF2971CF0B389991297C" import="1">Art/Resources/Amber/pl_mine_amber_decal_d.dds</File>
-    <File md5="99B61D65A5BC4FA1AA61BBE192CDCCB3" import="1">Art/Resources/Coffee/plantation_ind_coffee.fxsxml</File>
-    <File md5="0818DDD23A69BB427943DA76CE77857F" import="1">Art/Resources/Coffee/plantation_ind_coffee.gr2</File>
-    <File md5="0DBFCCDE9E0E81CCC3D18A9AC89B10AA" import="1">Art/Resources/Coffee/plantation_mid_coffee.fxsxml</File>
-    <File md5="8E78E467EC2453261E950F310CCFD3A8" import="1">Art/Resources/Coffee/plantation_mid_coffee.gr2</File>
-    <File md5="A761CF468D1FF14BD853B91DB7EF463F" import="1">Art/Resources/Coffee/resource_coffee.fxsxml</File>
-    <File md5="7BF4DD39DB4C69039C4DA13ADCB8562E" import="1">Art/Resources/Coffee/resource_coffee.gr2</File>
-    <File md5="7ED9D0412A70AEB6EFDBB0EC9988BFEC" import="1">Art/Resources/Coffee/resource_coffee_diff.dds</File>
-    <File md5="6649B224B5990B60E86E38D8838D3AF4" import="1">Art/Resources/Coffee/SV_CoffeeBean.dds</File>
-    <File md5="FDFDEBE9BB521781195C079688597EA1" import="1">Art/Resources/Aloe Vera/SV_Aloevera.dds</File>
-    <File md5="4AA7F48D7252B2C212B3357EDA39EC32" import="1">Art/Resources/Amber/SV_Amber.dds</File>
-    <File md5="558CD1735165AF1870048EFA07B19025" import="1">Art/Resources/Manganese/SV_Manganese.dds</File>
-    <File md5="EFC2ED044202B679BA7B3F3C91232AE5" import="1">Art/Resources/Poppy/SV_Poppy.dds</File>
-    <File md5="565D3D35C9818DAEF6EA393777077B29" import="1">Art/Resources/Tin/SV_Tin.dds</File>
-    <File md5="9BFE9E796DC86F0652403A2CEBB4ADEA" import="1">Art/Resources/Titanium/sv_titanium.dds</File>
-    <File md5="06E3CBA1BC80233FCDE52FE083386BBB" import="1">Art/Resources/Tobacco/SV_Tobacco.dds</File>
-    <File md5="DFEDE1ED69BE2B93268FF0ABB89BAAA7" import="1">Art/Resources/Jade/hb_ind_luboric_mine.gr2</File>
-    <File md5="805FD4F5A1BD6F18EEC54AFD8AF82466" import="1">Art/Resources/Jade/hb_med_luboric_mine.fxsxml</File>
-    <File md5="F12D07FAAF873DB2E8DEA98B69F28587" import="1">Art/Resources/Jade/hb_med_luboric_mine.gr2</File>
-    <File md5="5FF5C53261864DCC93DE39874738213D" import="1">Art/Resources/Jade/ind_mine_luboric.fxsxml</File>
-    <File md5="87B96F920F20737EC36C17AA282AC292" import="1">Art/Resources/Jade/ind_mine_luboric.gr2</File>
-    <File md5="C5FDAF71AC0C92EB04BB9736B90D2619" import="1">Art/Resources/Jade/luboric.fxsxml</File>
-    <File md5="ACFF2487A190A54062FD2DBF40D6EFA2" import="1">Art/Resources/Jade/luboric.gr2</File>
-    <File md5="B84AF54C48ECDDF0E7324E17D084FEAE" import="1">Art/Resources/Jade/luboric_decal_diff.dds</File>
-    <File md5="5795A025D528D18457BE4FD82413650E" import="1">Art/Resources/Jade/luboric_ore_diff.dds</File>
-    <File md5="2969A329F4A02613F2E07D1A232A1DF9" import="1">Art/Resources/Jade/luboric_rubble_diff.dds</File>
-    <File md5="199A5BD9273223799E9B3E6377A1EEE3" import="1">Art/Resources/Jade/med_mine_luboric.fxsxml</File>
-    <File md5="E731D0B02C63F1E12C92C39CC3FE532C" import="1">Art/Resources/Jade/med_mine_luboric.gr2</File>
-    <File md5="4C08F14641435079532697B48D3DB68E" import="1">Art/Resources/Jade/mine_luboric_decal_d.dds</File>
-    <File md5="CD6FA42DE8FB78D9F20AEEAF33D12900" import="1">Art/Resources/Jade/pl_ind_mine_luboric.fxsxml</File>
-    <File md5="1B4135C2856F31B8C63F62A9E86DB0EA" import="1">Art/Resources/Jade/pl_ind_mine_luboric.gr2</File>
-    <File md5="BC9C47E5E7B696CDC935151E16622042" import="1">Art/Resources/Jade/pl_med_mine_luboric.fxsxml</File>
-    <File md5="5D9F34524E82426A3AE46DC6B24CB265" import="1">Art/Resources/Jade/pl_med_mine_luboric.gr2</File>
-    <File md5="E28B0069A1F8FA97ED13585E947F6555" import="1">Art/Resources/Jade/pl_mine_luboric_decal_d.dds</File>
-    <File md5="242B5ADD613B4E9C7507A67372E37E55" import="1">Art/Resources/Oak/crop_ground_oak_d.dds</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Oak/fx_triggers_pl_plantation_ind_oak.ftsxml</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Oak/fx_triggers_pl_plantation_mid_oak.ftsxml</File>
-    <File md5="604DBB13105AB6BBF0EE7BB371A31FB7" import="1">Art/Resources/Oak/hb_plantation_ind_oak.fxsxml</File>
-    <File md5="2B8FACC138BE660CFE5552585564B531" import="1">Art/Resources/Oak/hb_plantation_ind_oak.gr2</File>
-    <File md5="4A5F87A07206A0128E3B92FABA022D9F" import="1">Art/Resources/Oak/hb_plantation_mid_oak.fxsxml</File>
-    <File md5="3415512F6375E35375C0776698B8943E" import="1">Art/Resources/Oak/hb_plantation_mid_oak.gr2</File>
-    <File md5="6A7FFF163C9FE3E3D2459834AA19FD6B" import="1">Art/Resources/Oak/oakery_improved_idle.gr2</File>
-    <File md5="6A7FFF163C9FE3E3D2459834AA19FD6B" import="1">Art/Resources/Oak/oakery_improved_worked.gr2</File>
-    <File md5="3BA271BFEDFE803E6166F55CC85B71B7" import="1">Art/Resources/Oak/oak_diff.dds</File>
-    <File md5="2FF7571A479071BBF67D9E13400EAEE8" import="1">Art/Resources/Oak/oak_grnd_decal_diff.dds</File>
-    <File md5="17F304A29EBB0892BD62CF4502D7A4A5" import="1">Art/Resources/Oak/oak_improved.fxsxml</File>
-    <File md5="491EA26548D1AEF7509AE2DFB002B2AF" import="1">Art/Resources/Oak/oak_improved.gr2</File>
-    <File md5="152137585143527DEB6234CD2082172E" import="1">Art/Resources/Oak/oak_improved_idle.gr2</File>
-    <File md5="152137585143527DEB6234CD2082172E" import="1">Art/Resources/Oak/oak_improved_worked.gr2</File>
-    <File md5="6162341C01354BDF8C0D01BFE1F122A8" import="1">Art/Resources/Oak/oak_sref.dds</File>
-    <File md5="8941E16A89DD9486803FAC99E60ED764" import="1">Art/Resources/Oak/oak_vineyard_diff.dds</File>
-    <File md5="5C129471178C95318B004769458D7AF3" import="1">Art/Resources/Oak/oak_vineyard_sref.dds</File>
-    <File md5="3877FD7D5F0AFDDAD253C63552F78CDD" import="1">Art/Resources/Oak/plantation_ind_oak.fxsxml</File>
-    <File md5="7DE0B9AB6DFD2A7DC55FD870D9C79454" import="1">Art/Resources/Oak/plantation_ind_oak.gr2</File>
-    <File md5="174787ACC2C13BA4828A62D6EFDC483A" import="1">Art/Resources/Oak/plantation_mid_oak.fxsxml</File>
-    <File md5="4B463AED57AE78C1F8B05D4A30E76CAD" import="1">Art/Resources/Oak/plantation_mid_oak.gr2</File>
-    <File md5="F279CCE2C423ABC0D5777BEEBB062DB0" import="1">Art/Resources/Oak/pl_plantation_ind_oak.fxsxml</File>
-    <File md5="ECD6641FB9B17BB9FEDBD8674AD74027" import="1">Art/Resources/Oak/pl_plantation_ind_oak.gr2</File>
-    <File md5="DDEBA53994931661998E6426FD063218" import="1">Art/Resources/Oak/pl_plantation_mid_oak.fxsxml</File>
-    <File md5="3CBD9FC22B8F8264B1EEA1CDD7997113" import="1">Art/Resources/Oak/pl_plantation_mid_oak.gr2</File>
-    <File md5="45A8D830F2F617F540BFC29DAA8A2A8E" import="1">Art/Resources/Oak/resource_oak.fxsxml</File>
-    <File md5="8F4BF4560A6D76A5ADDA1FCB8AAA5BDE" import="1">Art/Resources/Oak/resource_oak.gr2</File>    
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Poppy/fx_triggers_pl_plantation_ind_poppy.ftsxml</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Poppy/fx_triggers_pl_plantation_mid_poppy.ftsxml</File>
-    <File md5="E125C040BC1D10CCF4389D3B404C01FC" import="1">Art/Resources/Poppy/hb_plantation_ind_poppy.fxsxml</File>
-    <File md5="8A57C78A8777E68E463BF5C4E2EBCBE9" import="1">Art/Resources/Poppy/hb_plantation_ind_poppy.gr2</File>
-    <File md5="56C656D8DDFF71F10DC2B7AA66B3978D" import="1">Art/Resources/Poppy/hb_plantation_mid_poppy.fxsxml</File>
-    <File md5="69E75D4183979DCC027C0D2F894793C6" import="1">Art/Resources/Poppy/hb_plantation_mid_poppy.gr2</File>
-    <File md5="12DF3F50DB6A82E0C8371D28D7A46FEB" import="1">Art/Resources/Poppy/plantation_ind_poppy.fxsxml</File>
-    <File md5="E1E51889D8DC2F47891A6A799FCA5AF1" import="1">Art/Resources/Poppy/plantation_ind_poppy.gr2</File>
-    <File md5="B0D52FC7C699D0D8129E0A2DBFBBF50B" import="1">Art/Resources/Poppy/plantation_mid_poppy.fxsxml</File>
-    <File md5="D66D0EE4F910BF0D8294B532C44B5F5C" import="1">Art/Resources/Poppy/plantation_mid_poppy.gr2</File>
-    <File md5="A706342C69CDE1DD3E8008769EA01CF2" import="1">Art/Resources/Poppy/pl_plantation_ind_poppy.fxsxml</File>
-    <File md5="743894E6365BCC0774DD521DC79BFF4A" import="1">Art/Resources/Poppy/pl_plantation_ind_poppy.gr2</File>
-    <File md5="FA87B6CFC7B203230478AA5925CD8A2B" import="1">Art/Resources/Poppy/pl_plantation_mid_poppy.fxsxml</File>
-    <File md5="1740E350EFD70996BCC7363EF4996173" import="1">Art/Resources/Poppy/pl_plantation_mid_poppy.gr2</File>
-    <File md5="D434409747385E6511593999FDAB60AA" import="1">Art/Resources/Poppy/pl_poppy_diff.dds</File>
-    <File md5="66193C3E1F00BEB07B5243C2AAE9AE30" import="1">Art/Resources/Poppy/poppy_diff.dds</File>
-    <File md5="C952ECC71A2DCEF599433229EE86205D" import="1">Art/Resources/Poppy/poppy_sref.dds</File>
-    <File md5="8533982C3A52734F4C3AE15568F0B734" import="1">Art/Resources/Poppy/resource_poppy.fxsxml</File>
-    <File md5="52AF96DC02FF88A69A813E02938FC4A5" import="1">Art/Resources/Poppy/resource_poppy.gr2</File>
-    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Tin/fx_triggers_pl_ind_mine_tin.ftsxml</File>
-    <File md5="34312FAE4DAF47C3CDEC57D07086C61F" import="1">Art/Resources/Tin/fx_triggers_pl_med_mine_tin.ftsxml</File>
-    <File md5="23E94CFCF213DB5AF8766FAF458B56E2" import="1">Art/Resources/Tin/hb_ind_tin_mine.fxsxml</File>
-    <File md5="7A4BEAE6304C2D1EBE293CAF1FD45E26" import="1">Art/Resources/Tin/hb_ind_tin_mine.gr2</File>
-    <File md5="CFED48E0FFC858DD0912CB2F2B9171EB" import="1">Art/Resources/Tin/hb_med_tin_mine.fxsxml</File>
-    <File md5="1CB33DB9DA3A035A31C28A34E144381D" import="1">Art/Resources/Tin/hb_med_tin_mine.gr2</File>
-    <File md5="74520142D4FE4C6ACDD30B9154B30AD8" import="1">Art/Resources/Tin/ind_mine_tin.fxsxml</File>
-    <File md5="B6E8F30CAD596A461575A509429B78E7" import="1">Art/Resources/Tin/ind_mine_tin.gr2</File>
-    <File md5="87D5A4F7B042326AD0AE4E355AD4E97C" import="1">Art/Resources/Tin/med_mine_tin.fxsxml</File>
-    <File md5="B5F479710A8719A05CF082029F1083E4" import="1">Art/Resources/Tin/med_mine_tin.gr2</File>
-    <File md5="821AC036FB0B72A372E9CC957C06ACA0" import="1">Art/Resources/Tin/med_tin_mine.fxsxml</File>
-    <File md5="841282A4E01B73EF5FDA3171F415EF15" import="1">Art/Resources/Tin/med_tin_mine.gr2</File>
-    <File md5="4AA5E8677F2B2B989DCFF8149669FBCE" import="1">Art/Resources/Tin/mine_tin_decal_d.dds</File>
-    <File md5="624229BD642A7B257350D996911297B3" import="1">Art/Resources/Tin/pl_ind_mine_tin.fxsxml</File>
-    <File md5="7D2DB7C5B73FF0D797433F2E4E14A127" import="1">Art/Resources/Tin/pl_ind_mine_tin.gr2</File>
-    <File md5="EF5B45B6ADEAA1D5DB77E7BB97F818E4" import="1">Art/Resources/Tin/pl_med_mine_tin.fxsxml</File>
-    <File md5="6B41F1F32F3C944A2AF5BB299F47B944" import="1">Art/Resources/Tin/pl_med_mine_tin.gr2</File>
-    <File md5="B2E54C57C426AB4A40D2BD043B3E5D11" import="1">Art/Resources/Tin/pl_mine_tin_decal_d.dds</File>
-    <File md5="CAA4B7538CF9F3CCF966227CEAEFC841" import="1">Art/Resources/Tin/tin.fxsxml</File>
-    <File md5="1E2EC62DE1FCB97CB57D38C12D5676D2" import="1">Art/Resources/Tin/tin.gr2</File>
-    <File md5="164C0D3D6566AAC637C3D9AB5FA5F349" import="1">Art/Resources/Tin/tin_decal_diff.dds</File>
-    <File md5="D881BD4A2DFC82EADCA1EB9F3E9E0A54" import="1">Art/Resources/Tin/tin_ore_diff.dds</File>
-    <File md5="5289222C72A9E4F4472FA9C0445DECE7" import="1">Art/Resources/Tin/tin_ore_sref.dds</File>
-    <File md5="5FA10FA84C2FEBBF0CB7AC8589D79375" import="1">Art/Resources/Tin/tin_rubble_diff.dds</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Titanium/fx_triggers_pl_ind_mine_titanium.ftsxml</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Titanium/fx_triggers_pl_ind_mine_titanium_heavy.ftsxml</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Titanium/fx_triggers_pl_med_mine_titanium.ftsxml</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Titanium/fx_triggers_pl_med_mine_titanium_heavy.ftsxml</File>
-    <File md5="0DBEAAD3D3A23E9CFDF2E08C6351EA8D" import="1">Art/Resources/Titanium/hb_ind_mine_titanium.fxsxml</File>
-    <File md5="3F71AEBB74BE8DC1334F19DEC28D59F2" import="1">Art/Resources/Titanium/hb_ind_mine_titanium.gr2</File>
-    <File md5="E26B4B3B2A9383CBDEEA92122F49A55A" import="1">Art/Resources/Titanium/hb_ind_mine_titanium_heavy.fxsxml</File>
-    <File md5="A28CBCD0D580F0E75D5196527951550D" import="1">Art/Resources/Titanium/hb_ind_mine_titanium_heavy.gr2</File>
-    <File md5="3736E3371E3BFCF1BB189D0DA8FCA81A" import="1">Art/Resources/Titanium/hb_med_mine_titanium.fxsxml</File>
-    <File md5="885DCF877CE702CA2D843341EC67E6C5" import="1">Art/Resources/Titanium/hb_med_mine_titanium.gr2</File>
-    <File md5="47FA2BF1A0B50095258C9570DBA87206" import="1">Art/Resources/Titanium/hb_med_mine_titanium_heavy.fxsxml</File>
-    <File md5="2B5D3A567544964394A18F7541EA6D32" import="1">Art/Resources/Titanium/hb_med_mine_titanium_heavy.gr2</File>
-    <File md5="A71186EFF99FB96D00D0A216E0A70F69" import="1">Art/Resources/Titanium/ind_mine_titanium.fxsxml</File>
-    <File md5="9EDAD2C293E1BA67F94B68DEDB1DC5F7" import="1">Art/Resources/Titanium/ind_mine_titanium.gr2</File>
-    <File md5="45E927D152DD7D99711E142492B64F14" import="1">Art/Resources/Titanium/ind_mine_titanium_heavy.fxsxml</File>
-    <File md5="B2774DC86B3752103A6B3D52D57B3B6B" import="1">Art/Resources/Titanium/ind_mine_titanium_heavy.gr2</File>
-    <File md5="54F0E6DCA0A229881B0DA5AA9376D868" import="1">Art/Resources/Titanium/med_mine_titanium.fxsxml</File>
-    <File md5="97C7A74845B94F5DE2DF35B612E94F60" import="1">Art/Resources/Titanium/med_mine_titanium.gr2</File>
-    <File md5="CDE85CAF8D5540E11C5A44CAC458B9D4" import="1">Art/Resources/Titanium/med_mine_titanium_heavy.fxsxml</File>
-    <File md5="98457E462A535F666EA163D74C29057A" import="1">Art/Resources/Titanium/med_mine_titanium_heavy.gr2</File>
-    <File md5="3A1E15481873EA34B7E11EEF1555FBA2" import="1">Art/Resources/Titanium/mine_titanium_decal_d.dds</File>
-    <File md5="818D22FE9C33F959A2AE5B076C0F84E8" import="1">Art/Resources/Titanium/pl_ind_mine_titanium.fxsxml</File>
-    <File md5="F7FE96C794BEF41F47B436FE5E279CF1" import="1">Art/Resources/Titanium/pl_ind_mine_titanium.gr2</File>
-    <File md5="91CDE2DD0A34A3A2A922EBB13766CE6B" import="1">Art/Resources/Titanium/pl_ind_mine_titanium_heavy.fxsxml</File>
-    <File md5="71940F56834B1C08DA72159C2733F140" import="1">Art/Resources/Titanium/pl_ind_mine_titanium_heavy.gr2</File>
-    <File md5="2F2395EFD29FD8094BD26307DBA36370" import="1">Art/Resources/Titanium/pl_med_mine_titanium.fxsxml</File>
-    <File md5="12D9D64362973214E5033047E3E1C3BD" import="1">Art/Resources/Titanium/pl_med_mine_titanium.gr2</File>
-    <File md5="AB71CAB8764BF36810C6F490A0451E9B" import="1">Art/Resources/Titanium/pl_med_mine_titanium_heavy.fxsxml</File>
-    <File md5="727D0A05EC66E15A01ECD07BDF724449" import="1">Art/Resources/Titanium/pl_med_mine_titanium_heavy.gr2</File>
-    <File md5="C8B0E15278E6EA458C35FBD8810CDC70" import="1">Art/Resources/Titanium/pl_mine_titanium_decal_d.dds</File>
-    <File md5="B28B90C17C6BC074EA2D9E226DF1CE0C" import="1">Art/Resources/Titanium/pl_super_titanium_mine_decal.dds</File>
-    <File md5="AA10E75C10B646A38DB3FC7C44FCFD0D" import="1">Art/Resources/Titanium/super_titanium_mine_decal_d.dds</File>
-    <File md5="97BDC24EA17DB4568C297470EC47DB4F" import="1">Art/Resources/Titanium/sv_titanium.dds</File>
-    <File md5="E549573E3B0009DEB50D65AF04856CDD" import="1">Art/Resources/Titanium/titanium.fxsxml</File>
-    <File md5="8FFA662484B9CAB59B9511C191D16B15" import="1">Art/Resources/Titanium/titanium.gr2</File>
-    <File md5="B5CB97832423886389DF79F891E3B82C" import="1">Art/Resources/Titanium/titanium_decal_diff.dds</File>
-    <File md5="8457392A701565C33E6D783C3C335644" import="1">Art/Resources/Titanium/titanium_decal_h.dds</File>
-    <File md5="D4CF73BCA9ECA29249E009632DDA5E8A" import="1">Art/Resources/Titanium/titanium_heavy.fxsxml</File>
-    <File md5="EDEE0DEAFF7827CF7E896FE006199B33" import="1">Art/Resources/Titanium/titanium_heavy.gr2</File>
-    <File md5="6D315743628B5C0D08A0D18B54CC9EAA" import="1">Art/Resources/Titanium/titanium_heavy_decal_diff.dds</File>
-    <File md5="9ED9F2164CB24B064AAFC86EB3011E51" import="1">Art/Resources/Titanium/titanium_heavy_marsh.fxsxml</File>
-    <File md5="29AF20F5E0282F966791CF3B32724DDD" import="1">Art/Resources/Titanium/titanium_heavy_marsh.gr2</File>
-    <File md5="7B0DAA1A7D0E12F0D6016C81D5EBFAE5" import="1">Art/Resources/Titanium/titanium_marsh.fxsxml</File>
-    <File md5="6ADC30E8EAC9ABBF11CE8D75DFB20B8E" import="1">Art/Resources/Titanium/titanium_marsh.gr2</File>
-    <File md5="54825ADAB785A047F0AB36AAACB0DB10" import="1">Art/Resources/Titanium/titanium_marsh_decal_d.dds</File>
-    <File md5="886D0D337D56712EC76068B9936FD0B1" import="1">Art/Resources/Titanium/titanium_marsh_heavy_decal_d.dds</File>
-    <File md5="F761DF5C06B8894E4634BF9604448F27" import="1">Art/Resources/Titanium/titanium_ore_decal_h.dds</File>
-    <File md5="1F4B5A898150AE2F2AFDE3432C73601A" import="1">Art/Resources/Titanium/titanium_ore_diff.dds</File>
-    <File md5="B7A907A78DA79BFE7F7EB5FCD9520A91" import="1">Art/Resources/Titanium/titanium_ore_heavy_decal_h.dds</File>
-    <File md5="92649A24F83323CD67FD3147E9272ACF" import="1">Art/Resources/Titanium/titanium_ore_sref.dds</File>
-    <File md5="3B7244884DDD3C2AE62C9DC66A00B0A3" import="1">Art/Resources/Titanium/titanium_rubble_diff.dds</File>
-    <File md5="F7D1F00C3C56A62BE57AE5CE9D7E794F" import="1">Art/Resources/Tobacco/crop_ground_tobacco_d.dds</File>
-    <File md5="32A1909758F150360D462BD73527CC23" import="1">Art/Resources/Tobacco/crop_ground_tobacco_h.dds</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Tobacco/fx_triggers_pl_plantation_ind_tobacco.ftsxml</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Tobacco/fx_triggers_pl_plantation_mid_tobacco.ftsxml</File>
-    <File md5="DD7BC093800AD4CE27F6249B99AADE9A" import="1">Art/Resources/Tobacco/hb_plantation_ind_tobacco.fxsxml</File>
-    <File md5="5C724942A96F55F70575279F060FB6AA" import="1">Art/Resources/Tobacco/hb_plantation_ind_tobacco.gr2</File>
-    <File md5="04AEF196387A5425CDC944A8CD9B1B4F" import="1">Art/Resources/Tobacco/hb_plantation_mid_tobacco.fxsxml</File>
-    <File md5="FF19793B18BFC0B449C79A5AF329E67A" import="1">Art/Resources/Tobacco/hb_plantation_mid_tobacco.gr2</File>
-    <File md5="7A3CA8F023908DA3666641CBBADB3E8D" import="1">Art/Resources/Tobacco/plantation_ind_tobacco.fxsxml</File>
-    <File md5="F4725D23D0CEAC49A5C815054C1701DA" import="1">Art/Resources/Tobacco/plantation_ind_tobacco.gr2</File>
-    <File md5="C2559BB675AFA33316EC146E42003697" import="1">Art/Resources/Tobacco/plantation_mid_tobacco.fxsxml</File>
-    <File md5="522E2671C81C52B1A84B70FDC344390A" import="1">Art/Resources/Tobacco/plantation_mid_tobacco.gr2</File>
-    <File md5="BBB360A6B077343DD35918EF3590DD53" import="1">Art/Resources/Tobacco/pl_crop_ground_tobacco_d.dds</File>
-    <File md5="8EE38C11178E1F935A6A377836E875E7" import="1">Art/Resources/Tobacco/pl_plantation_ind_tobacco.fxsxml</File>
-    <File md5="86C5A9E974EEB92175C77D8C97E3E43C" import="1">Art/Resources/Tobacco/pl_plantation_ind_tobacco.gr2</File>
-    <File md5="E0FCB89CF45E62952D969E21A0B5FB09" import="1">Art/Resources/Tobacco/pl_plantation_mid_tobacco.fxsxml</File>
-    <File md5="33CCFDD3132232ACD7CD39640D764A2D" import="1">Art/Resources/Tobacco/pl_plantation_mid_tobacco.gr2</File>
-    <File md5="3FFC3005923A5EE8CCDCBC3A5DD98E4C" import="1">Art/Resources/Tobacco/pl_tobacco_diff.dds</File>
-    <File md5="39B5BB9B82EF081F68FC04C4C12CE1A2" import="1">Art/Resources/Tobacco/resource_tobacco.fxsxml</File>
-    <File md5="8B9D6E7437A0F8F8C42E2B1861397869" import="1">Art/Resources/Tobacco/resource_tobacco.gr2</File>
-    <File md5="4C7E64E4A84925F77CCB9B894F1B5A6A" import="1">Art/Resources/Tobacco/tobacco_diff.dds</File>
-    <File md5="BA8DA0CE69B5F6B34D459F1EA7A3135C" import="1">Art/Resources/Tobacco/tobacco_sref.dds</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Wood/fx_triggers_pl_plantation_ind_wood.ftsxml</File>
-    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Resources/Wood/fx_triggers_pl_plantation_mid_wood.ftsxml</File>
-    <File md5="52F13E4B4F442AE1D625557AD6F06805" import="1">Art/Resources/Wood/hb_plantation_ind_wood.fxsxml</File>
-    <File md5="F8AF327D225D0DD7F6F21F2BA9A83C91" import="1">Art/Resources/Wood/hb_plantation_ind_wood.gr2</File>
-    <File md5="E6755865412ACAB4100AD764F1F05FAB" import="1">Art/Resources/Wood/hb_plantation_mid_wood.fxsxml</File>
-    <File md5="288851D356AD5BC2E29970DAFB15D9E1" import="1">Art/Resources/Wood/hb_plantation_mid_wood.gr2</File>
-    <File md5="792ED24FA132B6B789338710D658DA9E" import="1">Art/Resources/Wood/plantation_ind_wood.fxsxml</File>
-    <File md5="79F6DA7FEFCF8448967512C1542FF4F5" import="1">Art/Resources/Wood/plantation_ind_wood.gr2</File>
-    <File md5="1D8B5FD4CD1560093DEF5CE5CE9FC6F6" import="1">Art/Resources/Wood/plantation_mid_wood.fxsxml</File>
-    <File md5="06FEA351F9245B46A64F30954303F640" import="1">Art/Resources/Wood/plantation_mid_wood.gr2</File>
-    <File md5="93B9137940090565DCF52CFE8D164C84" import="1">Art/Resources/Wood/pl_plantation_ind_wood.fxsxml</File>
-    <File md5="103671941620291319C0C25D5D8B96F4" import="1">Art/Resources/Wood/pl_plantation_ind_wood.gr2</File>
-    <File md5="9B507D80DED3950E5E09219C4F9216B4" import="1">Art/Resources/Wood/pl_plantation_mid_wood.fxsxml</File>
-    <File md5="64784463F89B87363990F736B42AC307" import="1">Art/Resources/Wood/pl_plantation_mid_wood.gr2</File>
-    <File md5="908357EB571037C84E041B0EF9B83E13" import="1">Art/Resources/Wood/pl_resource_wood_02_diff.dds</File>
-    <File md5="7944E3B81C796A119231EBF67BA94060" import="1">Art/Resources/Wood/resource_wood.fxsxml</File>
-    <File md5="4511EB563E3CEC24FBE91E09C21FE441" import="1">Art/Resources/Wood/resource_wood.gr2</File>
-    <File md5="E74E573E66B71CF1F6A5C1766F931351" import="1">Art/Resources/Wood/resource_wood_02_diff.dds</File>
-    <File md5="BCE1B6C98503B52E17322AC8E6557A7D" import="1">Art/Resources/Wood/resource_wood_02_sref.dds</File>
-    <File md5="CAE1685A6E1DAC63B5431AD424DA3A67" import="1">Art/Resources/Wood/wood_ground_d.dds</File>
-    <File md5="E1A5C5CCF127367795843A49CC77C1FF" import="1">Art/Resources/Wood/wood_ground_h.dds</File>    
-    <File md5="B497461EBB395911A3071B5FA3226275" import="1">Art/Units Flags/unitflagatlaswhiteTwo.dds</File>
     <File md5="DAADEE071F9E3A53EBA57371F646EF8D" import="1">Art/Wonder Splash/SplashAlJabr.dds</File>
     <File md5="028721E1A8C4C7C3C0979330B0D280CE" import="1">Art/Wonder Splash/SplashBachCathedral.dds</File>
     <File md5="D0E1044102511291FD5E500DD7765F09" import="1">Art/Wonder Splash/SplashBrainMap.dds</File>
@@ -1029,8 +1103,8 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="63442591DA5A07FBBBA5491E5B3B16D9" import="1">Art/Wonder Splash/SplashWealthOfNations.dds</File>
     <File md5="0FD2B19C5FF08DA168714C2CD5347DD4" import="1">Art/Wonder Splash/SplashZeus.dds</File>
     <File md5="0A0D119DD3824FFFA1D66799A28A7E35" import="1">Art/Wonder Splash/SplashZiggurat.dds</File>
-    <File md5="18ECD168B008D1433996C97DAA2CD30C" import="0">Buildings/BuildingClasses.xml</File>
-    <File md5="6A17DBE9689A7A3CB6C68A18C4203615" import="0">Buildings/Buildings.xml</File>
+    <File md5="59C595937849C761EE7AC34B773A5980" import="0">Buildings/BuildingClasses.xml</File>
+    <File md5="B2AC87BC48DFC8B38EFE524E5080C9A2" import="0">Buildings/Buildings.xml</File>
     <File md5="F7B896F4F1AF295B229B1736D282A9D2" import="0">Buildings/BuildingIcons.xml</File>
     <File md5="60D1248B24CEBAE4C8789D83EDA5B566" import="1">Buildings/ProjectIcons.xml</File>
     <File md5="CB75FFF368AE2B214094A71287CB735A" import="0">Buildings/Projects.xml</File>
@@ -1038,25 +1112,38 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="5E4354EEDFAC704B2D46EF15C5C84C61" import="0">Buildings/MonopolyBuildingClasses.xml</File>
     <File md5="EA09A04E39ECB49C4045CF4C653D5760" import="1">Buildings/MonopolyBuildingIcons.xml</File>
     <File md5="FB728561BC3BAB71859BF30EA7BB3CD1" import="0">Buildings/MonopolyBuildings.xml</File>
-    <File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/ModsSinglePlayer.xml</File>
-	<File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/CustomMod.xml</File>
-	<File md5="14349035BA08D690C3493842494D64C1" import="1">CCTP Maps/AdvancedCCTPSetup.lua</File>
+    <File md5="74FB7F98A98FD36EAF1F89389329E348" import="1">CCTP Maps/AdvancedCCTPSetup.lua</File>
     <File md5="D30A1389EC38345F3AF388F6F78AD4F6" import="1">CCTP Maps/AdvancedCCTPSetup.xml</File>
+    <File md5="E503D0FED699DA4AB2A9080255FDDE4B" import="0">CCTP Maps/Backup/En.xml</File>
+    <File md5="FB7D7F955C36558C0B84C987B3324D86" import="0">CCTP Maps/Backup/RNELoadScreen/SelectRNEMapVersion - Copy.lua</File>
+    <File md5="4F02D0E484606713FE7C7049F2E19199" import="0">CCTP Maps/Backup/RNELoadScreen/SelectRNEMapVersion - Copy.xml</File>
+    <File md5="57F70258AEE5E6601C877A6CF01C25FF" import="1">CCTP Maps/BasicCCTPSetup.lua</File>
     <File md5="36315C38ECCDE903604AB7846C9123EA" import="1">CCTP Maps/BasicCCTPSetup.xml</File>
-    <File md5="05E43FC5C0209755C91FF53048349C22" import="1">CCTP Maps/CCTPMapManager.lua</File>
+    <File md5="BFFDC5547F024A04C0C3CF1E420FCF11" import="1">CCTP Maps/CCTPMainBG.dds</File>
+    <File md5="9B33BF1492FAD143E0916635EC386017" import="1">CCTP Maps/CCTPMapManager.lua</File>
     <File md5="F699E5FF864A4EE00CD4568ECA3A9666" import="0">CCTP Maps/CCTP/Hex Details.docx</File>
+    <File md5="08A0CDED5E49626BD3D0A0549A10BEED" import="0">CCTP Maps/CCTP/Notepad Macros/1_Top_of_shortcuts_xml_file.jpg</File>
+    <File md5="A8BB397DEF88695042E35367CF1ED82D" import="0">CCTP Maps/CCTP/Notepad Macros/2_Bottom_of_shortcuts_xml_file.jpg</File>
+    <File md5="C5F7FE6767936C70C66F60140F9EFD3D" import="0">CCTP Maps/CCTP/Notepad Macros/ReadMe - How to add Macros to Notepad++.txt</File>
+    <File md5="F6F84ED05C1EA2B2B85D59C05660BAED" import="1">CCTP Maps/CCTP/PlotHelpManager.lua</File>
     <File md5="A4A7028CB7FCCFDD6C86BF77CA59AA6D" import="0">CCTP Maps/CCTP/ResourceLocations.xml</File>
-    <File md5="6C64622A34C9EA8800C30CE7DB33D4B3" import="1">CCTP Maps/MapFiles/LEMMapInfo.lua</File>
-	<File md5="6C64622A34C9EA8800C30CE7DB33D4B3" import="1">CCTP Maps/MapFiles/YNAEMEHMapInfo.lua</File>
-	<File md5="6C64622A34C9EA8800C30CE7DB33D4B3" import="1">CCTP Maps/MapFiles/YNAEMESMapInfo.lua</File>
-	<File md5="6C64622A34C9EA8800C30CE7DB33D4B3" import="1">CCTP Maps/MapFiles/YNAEMEULMapInfo.lua</File>
-	<File md5="4C479D409130641B5212A009D1E09CBE" import="1">Art/MapPics/LEMMapPic.dds</File>
-	<File md5="4C479D409130641B5212A009D1E09CBE" import="1">Art/MapPics/YNAEMMapPic.dds</File>
-    <File md5="0BF8FD364E4BD6457AFB7C561982DA4D" import="1">CCTP Maps/MapFiles/MasterMapInfo.lua</File>
+    <File md5="ADA52A44991CB12EF1D3A5DB96A19D71" import="1">CCTP Maps/CustomMod.xml</File>
+    <File md5="28C898899395F4325A55608D1863E492" import="1">CCTP Maps/MapFiles/LEMMapInfo.lua</File>
+    <File md5="4C479D409130641B5212A009D1E09CBE" import="1">CCTP Maps/MapFiles/LEMMapPic.dds</File>
+    <File md5="4EB7A933C57007D23249C8A6AA206438" import="1">CCTP Maps/MapFiles/MasterMapInfo.lua</File>
     <File md5="8B3C02A2FBDAF8C9F19466989CC32B9F" import="1">CCTP Maps/MapFiles/RNEMapInfo.lua</File>
+    <File md5="F7C14974DF57A8131E49CCD5632A11EB" import="0">CCTP Maps/MapFiles/TemplateMapInfo.lua</File>
+    <File md5="261C9C4BDA54B35EBAD503EEC7CA12E3" import="0">CCTP Maps/MapFiles/Used/Earth_Huge_blank.Civ5Map</File>
+    <File md5="01AA227EB98AE4312F842127279FD0D9" import="0">CCTP Maps/MapFiles/Used/Earth_Standard_Cordiform_blank.Civ5Map</File>
+    <File md5="4AA7E9B76E9813D81C2DFDACD95051C0" import="0">CCTP Maps/MapFiles/Used/Europe_Large_blank.Civ5Map</File>
     <File md5="16A25CFC5A2BB1FE05EFA2AF12DF705E" import="0">CCTP Maps/MapFiles/Used/Legendary Earth I.Civ5Map</File>
+    <File md5="38F8C01782DDF0AE002A7CC90D7E70C3" import="1">CCTP Maps/MapFiles/YNAEMEHMapInfo.lua</File>
+    <File md5="E7E9A2FE8E029EB6D1E31994A986C00A" import="1">CCTP Maps/MapFiles/YNAEMESMapInfo.lua</File>
+    <File md5="029D70B606D137826248600239CDEE02" import="1">CCTP Maps/MapFiles/YNAEMEULMapInfo.lua</File>
+    <File md5="049768D8AEEAEE91175D0BA12E860F78" import="1">CCTP Maps/ModsSinglePlayer.xml</File>
     <File md5="735D11947922A70C9F20DFC852D2E497" import="1">CCTP Maps/RMaps/RMapsAdvancedSetup.lua</File>
     <File md5="76F1BBF4D0C63FDE9EE982F65D581F01" import="1">CCTP Maps/RMaps/RMapsAdvancedSetup.xml</File>
+    <File md5="83C4AEB2EC9F6E70EBF614FBE4919E56" import="1">CCTP Maps/RMaps/RMapsGameSetupScreen.lua</File>
     <File md5="BD02F6C919CD04ACC050005A59FD78F5" import="1">CCTP Maps/RMaps/RMapsGameSetupScreen.xml</File>
     <File md5="AE2E1880CC63C81E2100A0DB97A1A53A" import="1">CCTP Maps/RMaps/RMapsSelectCivilization.lua</File>
     <File md5="139CD4F63C0796A0C5D2827C526C4012" import="1">CCTP Maps/RMaps/RMapsSelectCivilization.xml</File>
@@ -1069,249 +1156,228 @@ Over a 100 new Buildings and Wonders!</Description>
     <File md5="0199B3DE871139272BD445DEF3028EAC" import="1">CCTP Maps/RTPPics/RTPBookBG.dds</File>
     <File md5="9A4492092E396EFC0F3A7F60C089D285" import="1">CCTP Maps/RTPPics/Wanderer.dds</File>
     <File md5="3A2136AEA43563FDA5FC0C0B28C74552" import="1">CCTP Maps/RTPPics/WarLord.dds</File>
-    <File md5="A34365F927390048E3056321A4200779" import="1">CCTP Maps/SelectCCTPCivilization.lua</File>
+    <File md5="3CAD3A0E32C3AEE8F6A95EE9810DFD3E" import="1">CCTP Maps/SelectCCTPCivilization.lua</File>
     <File md5="139CD4F63C0796A0C5D2827C526C4012" import="1">CCTP Maps/SelectCCTPCivilization.xml</File>
-    <File md5="28F63F7F9280A28275E7EA2631BDEE72" import="0">CCTP Maps/SelectCCTPMapVersion.lua</File>
+    <File md5="A27EF329603157428CDF24FE64D1DF43" import="0">CCTP Maps/SelectCCTPMapVersion.lua</File>
     <File md5="42FB6F32796CDCB38E8120716391EEAB" import="0">CCTP Maps/SelectCCTPMapVersion.xml</File>
     <File md5="8D778F007A8144227F79EBD0EC4CEA14" import="1">CCTP Maps/SelectRTP.lua</File>
     <File md5="63E8C11EB77FF819DB26873AA92B4FD2" import="1">CCTP Maps/SelectRTP.xml</File>
     <File md5="78F45A79AEC79D2A9BA8B608636D279B" import="0">CCTP Readme.rtf</File>
-    <File md5="A914FF152C5434F435E4D2860F1EE3FC" import="0">DLC/Moai_Improvement.xml</File>
-    <File md5="4784FEF4BAA3514DE5977BA6483195FA" import="1">Policy/FreePolicies.xml</File>
+    <File md5="590AAFA65D06AA465C584E375D167843" import="1">Events/Active Player Turn/APSPlotEvents.lua</File>
+    <File md5="D41D8CD98F00B204E9800998ECF8427E" import="0">Events/Active Player Turn/Emigration/Emigration V3.txt</File>
+    <File md5="EF07DEA89F8CB40A69996E1666A1FADF" import="1">Events/Active Player Turn/Emigration/Emigration.lua</File>
+    <File md5="A33D43C51A4AF3902EDE37C898DEE3BF" import="1">Events/Active Player Turn/Emigration/ScriptDataManager.lua</File>
+    <File md5="563B7B3DC4F1F1B6B1BABED961230E08" import="1">Events/Active Player Turn/TreeGrowth/TreeGrowth.lua</File>
+    <File md5="9F4CA8A0F56832DBFFEC0A70E92D2E18" import="1">Events/CCTPEventManager.lua</File>
+    <File md5="6FAF61BF0AE546E65CA5E558B26881B0" import="1">Events/CCTPEventManager.xml</File>
+    <File md5="155E43834C7767803378678E974CD312" import="1">Events/Custom Notifications/ClassUtils.lua</File>
+    <File md5="406E93642C7B0BE3EEF66DD114CE0C74" import="1">Events/Custom Notifications/CustomNotification.lua</File>
+    <File md5="2F2947CD72FC50AF9A7FBC76464BAF22" import="1">Events/Custom Notifications/NotificationPanel.lua</File>
+    <File md5="34B522D497F8B6E31AEF8C14E32F8039" import="0">README</File>
+    <File md5="8DD9F4ED280AB8D937E973FF0E5E88B9" import="0">Tech/Eras.xml</File>
+    <File md5="5C12FF03704C18E3AF082BA20AC03812" import="0">Tech/TechCategories.xml</File>
+    <File md5="F9D2A48E55191DEA051FD6508AC956D7" import="1">Tech/TechHelpInclude.lua</File>
+    <File md5="91383E5426E172886069034D636BAD4D" import="1">Tech/TechIcons.xml</File>
+    <File md5="329DCD00D92291953278681014F62AEE" import="0">Tech/Technologies.sql</File>
+    <File md5="BDB63E97C6EC5836B0C13C5C5D137268" import="0">Tech/Technology_Flavors.sql</File>
+    <File md5="DAC963B424F83CA2FA64369F200D3369" import="0">Tech/Technology_PrereqTechs.sql</File>
+    <File md5="BF95142B060A1740EB280E72F4D71E44" import="1">Tech/TechTree.lua</File>
+    <File md5="E78C4DDA40BF14DA8B4BA37066BA209D" import="1">Tech/TechTree.xml</File>
+    <File md5="9797ACC397ABA33775BDD3623BD1EB0C" import="1">Tech/TechTreeBFTT.lua</File>
+    <File md5="A8C145A37FB235F007EAAC01A4DD7BAC" import="1">Tech/TechTreeBFTT.xml</File>
+    <File md5="FF534A62B6F2AB906EBE1019EC88964F" import="0">Text/en_US/CsebExtendedPlotMouseover.xml</File>
+    <File md5="E42729FFB7000FC7B58FF12FE49EB832" import="0">Text/en_US/GameText.xml</File>
+    <File md5="B691DD8D4B67D07B71A516E1A51F915A" import="0">Text/en_US/MapMenuTXT.xml</File>
+    <File md5="39B798AF30B24C9588EB0A6BAE43A883" import="0">Text/en_US/MonopolyText.xml</File>
+    <File md5="C3BAFA2844D7AB1EF1423393748C0A25" import="0">Text/en_US/PolicyText.xml</File>
+    <File md5="0F9C213ABBBD53FF6401D7DCDA108FD8" import="0">Text/en_US/TechTreeText.xml</File>
+    <File md5="980E2D6A005C1F36F9363C140FF6D99A" import="0">Text/en_US/TreeGrowthText.xml</File>
+    <File md5="27BB6BF6F9DABC28A7E83C02D420453C" import="1">UI/CityBanner/CityBannerManager.lua</File>
+    <File md5="BC7A39C536DFED01D943FF3F1C73267E" import="1">UI/CityBanner/CityBannerManager.xml</File>
+    <File md5="7E2F89DBDDD44373724494E0F6B84F81" import="1">UI/PlotPopup/CEPM_Common.lua</File>
+    <File md5="4EA6FDDDA0C0EA68A7A5731EEA025D93" import="1">UI/PlotPopup/CEPM_CommonPlotHelpers.lua</File>
+    <File md5="E273F46FF389298D2865223D0BDD1D75" import="1">UI/PlotPopup/PlotHelpManager.lua</File>
+    <File md5="092372E5674B1F632A9267C1EBCA13BF" import="1">UI/TopPanel/TopPanel.lua</File>
+    <File md5="561CDC5968B2FA2F4DD3C1D8A5A425D6" import="1">UI/TopPanel/TopPanel.xml</File>
+    <File md5="052844AC0737CFE1282669BCB1BBFCE9" import="1">UI/TopPanel/TopPanel_Clock.lua</File>
+    <File md5="FDE4ED6BFA77FEFBAF75674AF25CDE54" import="0">UI/UnitPanel/Included Mods.txt</File>
+    <File md5="BFF0C25D8A7184B4D8B067B80FEC5A85" import="1">UI/UnitPanel/UnitPanel.lua</File>
+    <File md5="F3C290F22DA06048277053FA025CDB44" import="1">UI/UnitPanel/UnitPanel.xml</File>
+    <File md5="E48F92A0880DF181013BFEEFFCD1561D" import="1">UI/UnitPanel/UnitPanel_small.xml</File>
+    <File md5="27A13190F2443DA4E5EC669C23E7D038" import="0">Units/UnitsThatIgnoreBorders.xml</File>
+    <File md5="E14041A6162C83F3D400252307A19864" import="0">Units/Update_UnitArtDefines.xml</File>
+    <File md5="3EB0F27DDA46A3573DC829112FE85CBC" import="1">Whiterabbit/Advisors/advisorEconomic001.dds</File>
+    <File md5="3EB0F27DDA46A3573DC829112FE85CBC" import="1">Whiterabbit/Advisors/advisorEconomic002.dds</File>
+    <File md5="3EB0F27DDA46A3573DC829112FE85CBC" import="1">Whiterabbit/Advisors/advisorEconomic003.dds</File>
+    <File md5="D1CB3CAFB96D558294A9E5B5FBC45509" import="1">Whiterabbit/Advisors/advisorForeign001.dds</File>
+    <File md5="D1CB3CAFB96D558294A9E5B5FBC45509" import="1">Whiterabbit/Advisors/advisorForeign002.dds</File>
+    <File md5="D1CB3CAFB96D558294A9E5B5FBC45509" import="1">Whiterabbit/Advisors/advisorForeign003.dds</File>
+    <File md5="B651890D327FB57BCE60E002D6AA02DE" import="1">Whiterabbit/Advisors/advisorMilitary001.dds</File>
+    <File md5="B651890D327FB57BCE60E002D6AA02DE" import="1">Whiterabbit/Advisors/advisorMilitary002.dds</File>
+    <File md5="B651890D327FB57BCE60E002D6AA02DE" import="1">Whiterabbit/Advisors/advisorMilitary003.dds</File>
+    <File md5="52B536840F605D928CD5E5D66C752E5F" import="1">Whiterabbit/Advisors/advisorScience001.dds</File>
+    <File md5="52B536840F605D928CD5E5D66C752E5F" import="1">Whiterabbit/Advisors/advisorScience002.dds</File>
+    <File md5="52B536840F605D928CD5E5D66C752E5F" import="1">Whiterabbit/Advisors/advisorScience003.dds</File>
+    <File md5="61A69ED953F8B9B455F7EEF31AA89C38" import="1">Whiterabbit/CCTPMainBG.dds</File>
+    <File md5="6ADBBFDD32B20E3764940FC69AB567E4" import="1">Whiterabbit/Civs/Alexander_Scene.xml</File>
+    <File md5="6ACBC38CDF5092CED22A7493A26249D4" import="1">Whiterabbit/Civs/Al_Rashid_Scene.xml</File>
+    <File md5="A0DA0DEAB2D651C3FDF9632F3B6B0876" import="1">Whiterabbit/Civs/Art/America_DiplomacyScene.dds</File>
+    <File md5="110C9B43BCCD894717E3B71C2AD22DC6" import="1">Whiterabbit/Civs/Art/Arabia_DiplomacyScene.dds</File>
+    <File md5="9D58E0E28DC09CB2850538CB50BF64DB" import="1">Whiterabbit/Civs/Art/Austria_DiplomacyScene.dds</File>
+    <File md5="8CD28250F1EE27CDD6AE4FBB8E55F525" import="1">Whiterabbit/Civs/Art/DOM_Alex.dds</File>
+    <File md5="A69A3BA2E3DF926D515B480C7B6DBF66" import="1">Whiterabbit/Civs/Art/DOM_AlRashid.dds</File>
+    <File md5="837FD665B7E8E2E76C64441CE81DFF66" import="1">Whiterabbit/Civs/Art/DOM_Augustus.dds</File>
+    <File md5="45CDBA15AF9FCF581B53D38E67438534" import="1">Whiterabbit/Civs/Art/DOM_Bizmark.dds</File>
+    <File md5="C9B48275983319871AB6CB1FFC43EFAD" import="1">Whiterabbit/Civs/Art/DOM_Catherine.dds</File>
+    <File md5="303E87326B205C9E081FB86F8B7AAAD2" import="1">Whiterabbit/Civs/Art/DOM_Elizabeth.dds</File>
+    <File md5="87B219AA77AEE0EB9C970D05EB191121" import="1">Whiterabbit/Civs/Art/DOM_Gandhi.dds</File>
+    <File md5="6199AD9329594AED78775AA5C9A9D9A4" import="1">Whiterabbit/Civs/Art/DOM_Haile_Selassie.dds</File>
+    <File md5="692FA8C45FB30C750A45EBF76F94971B" import="1">Whiterabbit/Civs/Art/DOM_Maria_Theresa.dds</File>
+    <File md5="37893EF3FDF75D3D196D867F806044D9" import="1">Whiterabbit/Civs/Art/DOM_Napoleon.dds</File>
+    <File md5="9DC9332B6D6753FF902E810A3734E668" import="1">Whiterabbit/Civs/Art/DOM_Oda.dds</File>
+    <File md5="D5A78ED0A7FEF29A27DC5B1E53F882AC" import="1">Whiterabbit/Civs/Art/DOM_Pacal_the_Great.dds</File>
+    <File md5="C36B90730B8D0B2D5F05C4A150B66B9A" import="1">Whiterabbit/Civs/Art/DOM_Washington.dds</File>
+    <File md5="0691AA3B9861527803967D524F279926" import="1">Whiterabbit/Civs/Art/England_DiplomacyScene.dds</File>
+    <File md5="4CFDE74040B06B269C731D621CB12085" import="1">Whiterabbit/Civs/Art/Ethiopia_DiplomacyScene.dds</File>
+    <File md5="82E3AE526B3FA436A3FA81A69230DF18" import="1">Whiterabbit/Civs/Art/France_DiplomacyScene.dds</File>
+    <File md5="D16B83C0F4DA4DA06400C9C176875596" import="1">Whiterabbit/Civs/Art/Germany_DiplomacyScene.dds</File>
+    <File md5="AEBCB504145EE9947572243C28B3ECC7" import="1">Whiterabbit/Civs/Art/Greek_DiplomacyScene.dds</File>
+    <File md5="AD891D791D31CC8AB851FAEE632C0A54" import="1">Whiterabbit/Civs/Art/India_DiplomacyScene.dds</File>
+    <File md5="964AFE9502255AEB4AA5EAA3FCE7EBAF" import="1">Whiterabbit/Civs/Art/Japan_DiplomacyScene.dds</File>
+    <File md5="9537F8D2CFAC34E39B3C5EA8FC1C0DE2" import="1">Whiterabbit/Civs/Art/Maya_DiplomacyScene.dds</File>
+    <File md5="8A704D1AF9758ECC47C4CAB69F26266A" import="1">Whiterabbit/Civs/Art/Rome_DiplomacyScene.dds</File>
+    <File md5="30D28330B2633307BD3AE9F14C6BF7F1" import="1">Whiterabbit/Civs/Art/Russia_DiplomacyScene.dds</File>
+    <File md5="03A9C3F73F65BCA856D412283B9A8FDC" import="1">Whiterabbit/Civs/Atlases/WRLeaderPortraits.dds</File>
+    <File md5="D1C2D9D44C32E4A5389FA310F9B4583C" import="1">Whiterabbit/Civs/Atlases/WRLeaderPortraits1024.dds</File>
+    <File md5="7EA98CB0DDAD54407E82F9F7F50AF08E" import="1">Whiterabbit/Civs/Atlases/WRLeaderPortraits512.dds</File>
+    <File md5="056E9E04728D3777673391B9030E0141" import="1">Whiterabbit/Civs/Augustus_Scene.xml</File>
+    <File md5="846F8EBDAFF83F70E525E967FD2B3D3A" import="1">Whiterabbit/Civs/Austria_Maria_Theresa_Scene.xml</File>
+    <File md5="7B3E80893428312107B7DC98FC89B455" import="1">Whiterabbit/Civs/Bismark_Scene.xml</File>
+    <File md5="76AD60BF130CE63EF1E273C0A2D60C57" import="1">Whiterabbit/Civs/Catherine_Scene.xml</File>
+    <File md5="FFB240D3D533085986DB7B80CCE92774" import="1">Whiterabbit/Civs/CivUpdates.xml</File>
+    <File md5="A8410A3DA91E158F92268C6772C922FB" import="1">Whiterabbit/Civs/Elizabeth_Scene.xml</File>
+    <File md5="A60F907F1846FC9F235437D46EB8C03E" import="1">Whiterabbit/Civs/Ethiopia_Selassie_Scene.xml</File>
+    <File md5="9879FC6990D2FA73A34A11F1271F2382" import="1">Whiterabbit/Civs/Gandhi_Scene.xml</File>
+    <File md5="0DFF987B9B5AAEDBF4B9B5E0ED283171" import="1">Whiterabbit/Civs/Leader_Dialog/Dialog_Leaders.sql</File>
+    <File md5="4BB8E3C79F80E61DCD326E4DA95EB8A1" import="1">Whiterabbit/Civs/Maya_Pacal_Scene.xml</File>
+    <File md5="881D06FB01E60C3EE42B95BE556B40CA" import="1">Whiterabbit/Civs/Napoleon_Scene.xml</File>
+    <File md5="C3AB926B1D1A3E18B2DD36956C3E2A33" import="1">Whiterabbit/Civs/OdaNobunaga_Scene.xml</File>
+    <File md5="DBB526D659378695085B317D0F43ACC2" import="1">Whiterabbit/Civs/Sound/Arabia.mp3</File>
+    <File md5="48B53ACDBF63CCC73F79679BE31F59DA" import="1">Whiterabbit/Civs/Sound/Austria.mp3</File>
+    <File md5="E08FA571E11EE77585A35E8BA861E000" import="1">Whiterabbit/Civs/Sound/England.mp3</File>
+    <File md5="0AA2D78A99A2009C80CF13B5C5BFDAC0" import="1">Whiterabbit/Civs/Sound/Ethiopia.mp3</File>
+    <File md5="A597805E765AA30BA5D7B26F56BEAEED" import="1">Whiterabbit/Civs/Sound/France.mp3</File>
+    <File md5="189A3E8259BA88CDFF42130A23296310" import="1">Whiterabbit/Civs/Sound/Germany.mp3</File>
+    <File md5="C19E9F0F2936AFEB3610753DDEABAB74" import="1">Whiterabbit/Civs/Sound/Greece.mp3</File>
+    <File md5="7596F5A787C5F7E0EB8B2EEFA909B55F" import="1">Whiterabbit/Civs/Sound/India.mp3</File>
+    <File md5="395AB2250078A69AD1548F3349E8E3E9" import="1">Whiterabbit/Civs/Sound/Japan.mp3</File>
+    <File md5="6EC5B33ADEF6BF0F1886DCE0C0852355" import="1">Whiterabbit/Civs/Sound/Maya.mp3</File>
+    <File md5="69AFB29A29D83593ADE6558F8E8029C6" import="1">Whiterabbit/Civs/Sound/Rome.mp3</File>
+    <File md5="9D094E619F0E12C5CB3ADF6285BE401A" import="1">Whiterabbit/Civs/Sound/Russia.mp3</File>
+    <File md5="263227EF0ED3C10DC312B13E3237E852" import="1">Whiterabbit/Civs/Sound/Track List.txt</File>
+    <File md5="C53600D9DC53E2F1B8582DF9F7C90D84" import="1">Whiterabbit/Civs/Sound/UnitedStates.mp3</File>
+    <File md5="2B09BD0D7435F5AD024449EA2087232E" import="1">Whiterabbit/Civs/Washington_Scene.xml</File>
+    <File md5="D41D8CD98F00B204E9800998ECF8427E" import="0">Whiterabbit/Follow the white Rabbit.txt</File>
+    <File md5="9F1BA1F4EBB083E47F9F9D3B20F4B8DC" import="1">Whiterabbit/LUA/AdvancedCCTPSetup.lua</File>
+    <File md5="04823419D5A53495A904703996ACD7C1" import="1">Whiterabbit/LUA/BasicCCTPSetup.lua</File>
+    <File md5="0735EDD8FC2DD22BD6D83D73DF8B002E" import="1">Whiterabbit/LUA/LoadScreen.lua</File>
+    <File md5="72CC980101AC4489AF924AECAF0C408E" import="1">Whiterabbit/LUA/RMapsAdvancedSetup.lua</File>
+    <File md5="B462269DEB1C6EB884929C0FAA29B8FC" import="1">Whiterabbit/LUA/RMapsGameSetupScreen.lua</File>
+    <File md5="83E65D9326F4D169A8CDA9778CF0EAC6" import="1">Whiterabbit/Policies/SocialPoliciesAnarchism.dds</File>
+    <File md5="6A47E41BCD14A4EEB0BCED49B69D3F5C" import="1">Whiterabbit/Policies/SocialPoliciesAristocracy.dds</File>
+    <File md5="32F73D9113384C9231061FDCBFDD6BAD" import="1">Whiterabbit/Policies/SocialPoliciesAutocracy.dds</File>
+    <File md5="967DF98B9034256F0E3A877727FCAC09" import="1">Whiterabbit/Policies/SocialPoliciesCapitalism.dds</File>
+    <File md5="41F7C7310AA678DB30A5FF10916D2015" import="1">Whiterabbit/Policies/SocialPoliciesCommunism.dds</File>
+    <File md5="DA3310897ABF4588E52ADB4074C70ABA" import="1">Whiterabbit/Policies/SocialPoliciesConservatism.dds</File>
+    <File md5="03020E6CCAA71D75EF0DE02D7D79044F" import="1">Whiterabbit/Policies/SocialPoliciesConstitutional.dds</File>
+    <File md5="D997A38E218D5AEB0DF747F7BA3DA7BE" import="1">Whiterabbit/Policies/SocialPoliciesCorporate.dds</File>
+    <File md5="CB54D72268F85F4D9B59F8F16DB86650" import="1">Whiterabbit/Policies/SocialPoliciesDemocracy.dds</File>
+    <File md5="CEEE8291505333751C459A25667BBEFA" import="1">Whiterabbit/Policies/SocialPoliciesEcotopia.dds</File>
+    <File md5="5F34251184D776942370B3DECA2E9112" import="1">Whiterabbit/Policies/SocialPoliciesElectoral.dds</File>
+    <File md5="4916272621C1B4ABFFB9001BF3F04AE5" import="1">Whiterabbit/Policies/SocialPoliciesEnviromentalism.dds</File>
+    <File md5="73785C610676C25A23FBD8783DF82122" import="1">Whiterabbit/Policies/SocialPoliciesFascism.dds</File>
+    <File md5="555AA4EBA67EA22AB95E258183210D84" import="1">Whiterabbit/Policies/SocialPoliciesFederalism.dds</File>
+    <File md5="5834B1FD3A76B8E685C9309469D7A67B" import="1">Whiterabbit/Policies/SocialPoliciesFeudalism.dds</File>
+    <File md5="BE4E39A23294B677205F1DDAB22DC562" import="1">Whiterabbit/Policies/SocialPoliciesImperialism.dds</File>
+    <File md5="007AD7EF91229E22B0FBFE5C6547C3C5" import="1">Whiterabbit/Policies/SocialPoliciesLiberalism.dds</File>
+    <File md5="13BC707D1C3DC804E2C09EEBC0FEA1AF" import="1">Whiterabbit/Policies/SocialPoliciesMonarchy.dds</File>
+    <File md5="BE9A6D9C7503218CDB2AF7211ED795DF" import="1">Whiterabbit/Policies/SocialPoliciesNationalism.dds</File>
+    <File md5="8040123EF80080AD7353EB3D958E4ACC" import="1">Whiterabbit/Policies/SocialPoliciesPacifism.dds</File>
+    <File md5="F2BCF5D8731D05C1C99B6FB72DC05EBF" import="1">Whiterabbit/Policies/SocialPoliciesParliamentary.dds</File>
+    <File md5="B3E4029113C6888E4E30A61B60CD985B" import="1">Whiterabbit/Policies/SocialPoliciesPluralism.dds</File>
+    <File md5="C0E3AB17CC71F29784F52698D559BAB9" import="1">Whiterabbit/Policies/SocialPoliciesPlutocracy.dds</File>
+    <File md5="BBAD3FE4492CC33F6042597D9679AF69" import="1">Whiterabbit/Policies/SocialPoliciesPopulism.dds</File>
+    <File md5="17E20CBC28B4C43EC3ED4819019FB148" import="1">Whiterabbit/Policies/SocialPoliciesRepublic.dds</File>
+    <File md5="C3914B99B29F0AFBC2A095451C4E2D61" import="1">Whiterabbit/Policies/SocialPoliciesSocialism.dds</File>
+    <File md5="1C8BE13806D90C5A6E75814997245C2F" import="1">Whiterabbit/Policies/SocialPoliciesTechnocracy.dds</File>
+    <File md5="5BD55E82CE9F7824BD38EBF33C25AA73" import="1">Whiterabbit/Policies/SocialPoliciesTheocracy.dds</File>
+    <File md5="55AB30D4E54F07BC6D1214AF3E4465DD" import="1">Whiterabbit/Policies/SocialPoliciesTotalitarianism.dds</File>
+    <File md5="B3368E1F78F494F5377C4CF34EACC455" import="1">Whiterabbit/Policies/SocialPoliciesVirtualDemocracy.dds</File>
+    <File md5="56A1C6CB8A03502FDD3B8DF9B0B24532" import="1">Whiterabbit/Popup/Victory_Defeat.dds</File>
+    <File md5="D22E46BE71DF9DABD986AD8668BCC1A2" import="1">Whiterabbit/Techs/AncientTechs.dds</File>
+    <File md5="147C550CC46A1B556C32EE046ABF2898" import="1">Whiterabbit/Techs/ClassicalTechs.dds</File>
+    <File md5="E9630DF7DBDEFEE957B34E4A5FC6C757" import="1">Whiterabbit/Techs/DigitalTechs.dds</File>
+    <File md5="A75A0C8CC710DA7F7FFA091342AA38DA" import="1">Whiterabbit/Techs/IndustrialTechs.dds</File>
+    <File md5="B9ECCCAFF37331904C999702F798B971" import="1">Whiterabbit/Techs/InformationTechs.dds</File>
+    <File md5="9175C383DE658E6736D377655E40FB5E" import="1">Whiterabbit/Techs/MedievalTechs2.dds</File>
+    <File md5="80840E35FCC16853A75967E60D9E97C2" import="1">Whiterabbit/Techs/ModernTechs.dds</File>
+    <File md5="679096B16C952AF1EAA16C9FBEA9F7C1" import="1">Whiterabbit/Techs/RenaissanceTechs.dds</File>
+    <File md5="A0FAD34FDD03DEE55EA0C878104A1EC1" import="1">Whiterabbit/Text/CIV5GameTextInfos_Leaders.xml</File>
+    <File md5="A0073D3DAEABB1548F82FCD7B4A6D019" import="1">Whiterabbit/Text/Updates_Leaders.xml</File>
+    <File md5="A914FF152C5434F435E4D2860F1EE3FC" import="0">_DLC/Moai_Improvement.xml</File>
+    <File md5="BF5DE2908B7880987F561258BA08E5A3" import="1">Policy/FreePolicies.xml</File>
     <File md5="3591D133944C3DFE6CD7A2A97B6489AA" import="1">Policy/Governments.xml</File>
     <File md5="BDD48FE05B3C7A8482A6EA062D35EE62" import="1">Policy/GovIdeology.xml</File>
     <File md5="8576E2387C8C712873FAC43A69F71BC5" import="1">Policy/GovSystems.xml</File>
     <File md5="CA735C40D69A10F31162D68AAFF8BF66" import="1">Policy/PolicyBranch.xml</File>
     <File md5="62E106FFB8B946B7F3A7F9155902CE24" import="1">Policy/PolicyCategories.xml</File>
-    <File md5="A2901CA2F5BFED6939C22F4D46137B6C" import="1">Policy/PolicyTableAdds.sql</File>
+    <File md5="8911410786F425530F1E17F189EC012C" import="1">Policy/PolicyTableAdds.sql</File>
     <File md5="56BF887EF7CC0F95486E4FCC34C684F9" import="0">Policy/Religions.xml</File>
     <File md5="AFBE3093D9715324F43C480FA8A7A653" import="0">Policy/ReligiousIdeology.xml</File>
-    <File md5="7788E308DE47488089A25D1C76CB23A6" import="1">Policy/SocialPolicyPopup.lua</File>
-    <File md5="9F9E854288E57F005D1F960E5BDD59A2" import="1">Policy/SocialPolicyPopup.xml</File>
-    <File md5="F83756136C4E6C071C5946565629C161" import="0">Tech/TechTableAdds.sql</File>
-    <File md5="8DD9F4ED280AB8D937E973FF0E5E88B9" import="0">Tech/Eras.xml</File>
-    <File md5="B2CB6831BCC41CEAAF077951C9A70B88" import="1">Tech/TechCategories.xml</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technologies.sql</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technology_PrereqTechs.sql</File>
-    <File md5="0EE797BBF4FE6B794EC7A69C240D94FF" import="1">Tech/Technology_Flavors.sql</File>
-    <File md5="91383E5426E172886069034D636BAD4D" import="1">Tech/TechIcons.xml</File>
-    <File md5="F9D2A48E55191DEA051FD6508AC956D7" import="1">Tech/TechHelpInclude.lua</File>
-    <File md5="4A1B3075A9E75323278D311C5C6EABE9" import="1">Tech/TechTree.lua</File>
-    <File md5="783DBE94C1E12C78C00F8C8987532B3C" import="1">Tech/TechTree.xml</File>
-    <File md5="EDB463B4D066776BEF03949B920320C3" import="1">Tech/TechTreeBFTT.lua</File>
-    <File md5="0772C55D42AB6986B3D5332EE225457B" import="1">Tech/TechTreeBFTT.xml</File>
-    <File md5="E0832637F2E00AAB889BA28117262AE6" import="1">Terrain/AssignStartingPlots.lua</File>
+    <File md5="7388C7E662F3CDFBC670DFE7AD84E527" import="1">Policy/SocialPolicyPopup.lua</File>
+    <File md5="2AEF55E2AEF7EF513B9B007CA0EEF604" import="1">Policy/SocialPolicyPopup.xml</File>
+    <File md5="4FD2B213A4ED0D73F3A9C81B09CC15EF" import="1">Terrain/AssignStartingPlots.lua</File>
     <File md5="5E8970A2664D6AD11D788B07725CDE92" import="0">Terrain/Features.xml</File>
-    <File md5="11CA716A0B262FB75185085C7C35B1B8" import="0">Terrain/Improvements.xml</File>
+    <File md5="870F43B2E58B09ABC1DAE082FE0902CB" import="0">Terrain/Improvements.xml</File>
     <File md5="440164C6D53984A32CA5878A27C89C49" import="1">Terrain/ResourceIcons.xml</File>
     <File md5="8A8317C745B33C398C7CB303F4A5D413" import="0">Terrain/Resources.xml</File>
     <File md5="D8782BD8D658CF410E6AFEE39050806D" import="0">Terrain/Routes.xml</File>
-    <File md5="09F6BE76DF26FEDAE76A0B395F5BB8ED" import="0">Terrain/Terrains.xml</File>
-    <File md5="092CF3CD9739AADD88F108690FC2330A" import="0">Terrain/ResourceNew.xml</File>
-    <File md5="C42E7B997B29595B78A38F0C0D36F542" import="0">Text/en_US/GameText.xml</File>
-    <File md5="6243772D2DFD8E6CFDBA86122C8A75C6" import="0">Text/en_US/MonopolyText.xml</File>
-    <File md5="CB878F22A7533176DE96513BD444B394" import="0">Text/en_US/PolicyText.xml</File>
-    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Text/en_US/CsebExtendedPlotMouseover.xml</File>
-	<File md5="BB71DAA7AFAFE3B17C43ED981D782663" import="0">Text/en_US/TreeGrowthText.xml</File>
-	<File md5="B57D21BEC5EA32A0977688448A62825A" import="0">Text/en_US/MapMenuTXT.xml</File>
-	<File md5="1441243D18427F3F51DACD75A42CE3A0" import="0">Text/en_US/TechTreeText.xml</File>
-    <File md5="1441243D18427F3F51DACD75A42CE3A0" import="0">Text/en_US/TechTreeTXT.xml</File>
-	<File md5="D4EFE2CCE38861A59B58C6F47DB82D45" import="0">Thanks.txt</File>
+    <File md5="6883D378C3C43EFEEFA26C9317E703B6" import="0">Terrain/Terrains.xml</File>
+    <File md5="DFA83FFF63C3AFAAE4C9A88897FA3E8B" import="0">Terrain/ResourceNew.xml</File>
+    <File md5="D4EFE2CCE38861A59B58C6F47DB82D45" import="0">Thanks.txt</File>
     <File md5="1E0897B59C4C16BBF3015B32BA6C57B5" import="0">Units/Builds.xml</File>
     <File md5="01C9700306FE809E6D2197F887425459" import="0">Units/UnitClasses.xml</File>
-    <File md5="37DF8DBAA16957591B4DE31B7F256DED" import="0">Units/Units.xml</File>
-	<File md5="37DF8DBAA16957591B4DE31B7F256DED" import="0">Units/UnitsThatIgnoreBorders.xml</File>
-    <File md5="906BC8941A010CEF4A271A0136F29C3F" import="0">Version History.txt</File>
-    <File md5="997840CCD18E0165B522DAEE0BA78C2C" import="0">Z_Global/Game Pace Rules.sql</File>
+    <File md5="9FF35CD3683AF819A6E884354448E85E" import="0">Units/Units.xml</File>
+    <File md5="4A6D7280C425EBF2C5C4F48C2309347B" import="0">Version History.txt</File>
+    <File md5="DEBA939B1AA0E6771164977BDA0A0C1E" import="0">Z_Global/Game Pace Rules.sql</File>
     <File md5="3E43AADB2F9FA34B5EC8374C2F927188" import="0">Z_Global/GlobalDefines.xml</File>
     <File md5="19D9DB2D4E6D283A314F138AAC87B728" import="0">Z_Global/HurryInfos.xml</File>
-    <File md5="941F26525F448022CDA69F8512D05742" import="0">Z_Global/HandicapInfos.xml</File>
-    <File md5="F5890BEB4907642352571F8AC85365DD" import="0">Z_Global/IconTextureAtlases.xml</File>
+    <File md5="81CDFF25253840C876CE8C236C3E651B" import="0">Z_Global/HandicapInfos.xml</File>
+    <File md5="2B09821CE4751A40712812E3A4C37933" import="0">Z_Global/IconTextureAtlases.xml</File>
     <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="0">Z_Global/Worlds.xml</File>
-    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/TopPanel/TopPanel.xml</File>
-    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/TopPanel/TopPanel.lua</File>
-    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/TopPanel/TopPanel_Clock.lua</File>
-    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/CityBanner/CityBannerManager.xml</File>
-    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/CityBanner/CityBannerManager.lua</File>
-    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/CEPM_Common.lua</File>
-    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/CEPM_CommonPlotHelpers.lua</File>
-    <File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">UI/PlotPopup/PlotHelpManager.lua</File>
-    <File md5="BFF0C25D8A7184B4D8B067B80FEC5A85" import="1">UI/UnitPanel/UnitPanel.lua</File>
-    <File md5="F3C290F22DA06048277053FA025CDB44" import="1">UI/UnitPanel/UnitPanel.xml</File>
-    <File md5="E48F92A0880DF181013BFEEFFCD1561D" import="1">UI/UnitPanel/UnitPanel_small.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="0">Z_Global/ArtDefines_Resources.sql</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Jungle.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Jungle_Glow.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Forest.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Forest_Glow.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Emigration.dds</File>	
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Emigration_Glow.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Immigration.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Art/NotificationButtons/Notification_Immigration_Glow.dds</File>
-    <File md5="155E43834C7767803378678E974CD312" import="1">Events/CustomNotifications/ClassUtils.lua</File>
-    <File md5="406E93642C7B0BE3EEF66DD114CE0C74" import="1">Events/CustomNotifications/CustomNotification.lua</File>
-    <File md5="2F2947CD72FC50AF9A7FBC76464BAF22" import="1">Events/CustomNotifications/NotificationPanel.lua</File>
-    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/CCTPEventManager.lua</File>
-    <File md5="64C501000C99916C474B3A7BC750850F" import="1">Events/CCTPEventManager.xml</File>
-	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/APSPlotEvents.lua</File>
-	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/TreeGrowth/TreeGrowth.lua</File>
-	<File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/Emigration.lua</File>
-    <File md5="21FE8E28910680FCC2F3BF483B1C261A" import="1">Events/ActivePlayerTurn/Emigration/ScriptDataManager.lua</File>
-    <File md5="B6FF3D47E3F3DDC881014A8DFAE91C89" import="0">SQL/Templates/ArtDefines_Units_Infos.sql</File>
-    <File md5="F8A60FEF876F09138DF7541FBDC21F6F" import="0">SQL/Templates/ArtDefines_Units_Members_Combats.sql</File>
-    <File md5="4718009A5B07D730F1D4B58C619BA247" import="0">SQL/Templates/ArtDefines_Units_Members_Weapons.sql</File>
-    <File md5="1BD4A6C561ADDD9D107B6AF1060B8AD1" import="0">SQL/Templates/ArtDefines_Units_Member_Infos.sql</File>
-    <File md5="168EC236701825F860C883CD6DD644EB" import="0">SQL/Templates/ArtDefines_Units_Info_Member_Infos.sql</File>
-    <File md5="4D4440FFCD1B2C629A98CA63015C403F" import="0">SQL/UnitDefines/MemberCombats.sql</File>
-    <File md5="B6053A71AA3EC6322D0196245E2D6656" import="0">SQL/UnitDefines/MemberCombatWeapons.sql</File>
-    <File md5="3AB86B231208CDD03310C8DEFEBDCCAA" import="0">SQL/UnitDefines/UnitInfos.sql</File>
-    <File md5="F2B3CE294FBBE85D0B567FBDBC2452E2" import="0">SQL/UnitDefines/UnitInfoMemberInfos.sql</File>
-    <File md5="86C770B7EB54B8BFF07AF367B59DC22C" import="0">SQL/UnitDefines/UnitMemberInfos.sql</File>
-    <File md5="D9A21C9C4A8111940034DD5F30BC5395" import="0">XML/Temp.xml</File>
-    <File md5="E14041A6162C83F3D400252307A19864" import="0">XML/Units/Update_UnitArtDefines.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/CCTPMainBG.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorEconomic001.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorEconomic002.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorEconomic003.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorForeign001.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorForeign002.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorForeign003.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorMilitary001.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorMilitary002.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorMilitary003.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorScience001.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorScience002.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Advisors/advisorScience003.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Popup/Victory_Defeat.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesCommunism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesCorporate.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesDemocracy.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesEcotopia.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesFascism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesMonarchy.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesRepublic.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesTheocracy.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesTechnocracy.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesVirtualDemocracy.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesAnarchism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesCapitalism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesConservatism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesEnviromentalism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesImperialism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesLiberalism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesNationalism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPacifism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPopulism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesSocialism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesAristocracy.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesAutocracy.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesConstitutional.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesElectoral.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesFederalism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesFeudalism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesParliamentary.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPluralism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesPlutocracy.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Policies/SocialPoliciesTotalitarianism.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/AncientTechs.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/InformationTechs.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/MedievalTechs2.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/ClassicalTechs.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/DigitalTechs.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/IndustrialTechs.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/ModernTechs.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Techs/RenaissanceTechs.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Russia_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Catherine.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Catherine_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/England_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Elizabeth.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Elizabeth_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/India_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Gandhi.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Gandhi_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Ethiopia_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Haile_Selassie.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Ethiopia_Selassie_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/France_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Napoleon.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Napoleon_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/America_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Washington.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Washington_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Arabia_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Germany_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Greek_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Japan_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Maya_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Rome_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/Austria_DiplomacyScene.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Alex.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_AlRashid.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Bizmark.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Oda.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Augustus.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Maria_Theresa.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Art/DOM_Pacal_the_Great.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Al_Rashid_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Alexander_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Bismark_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/OdaNobunaga_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Augustus_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Austria_Maria_Theresa_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Maya_Pacal_Scene.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/England.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Ethiopia.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/France.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/India.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Russia.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/UnitedStates.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Arabia.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Japan.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Germany.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Greece.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Austria.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Maya.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Sound/Rome.mp3</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/RMapsGameSetupScreen.lua</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/BasicCCTPSetup.lua</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/AdvancedCCTPSetup.lua</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/RMapsAdvancedSetup.lua</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/LUA/LoadScreen.lua</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Text/Updates_Leaders.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Atlases/WRLeaderPortraits.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Atlases/WRLeaderPortraits1024.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Atlases/WRLeaderPortraits512.dds</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/CivUpdates.xml</File>
-	<File md5="30DB7FFAF27AC9637DF3791881ED9339" import="1">Whiterabbit/Civs/Leader_Dialog/Dialog_Leaders.sql</File>
-	
-	
+    <File md5="D270DFB87474BB13EEEE835B52F5DAF7" import="0">_DLC/TempleArtemis.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
-	<UpdateDatabase>Whiterabbit/Civs/Leader_Dialog/Dialog_Leaders.sql</UpdateDatabase>
-	<UpdateDatabase>Whiterabbit/Civs/CivUpdates.xml</UpdateDatabase>
-	<UpdateDatabase>Whiterabbit/Text/Updates_Leaders.xml</UpdateDatabase>
-	<UpdateDatabase>Whiterabbit/Civs/Elizabeth_Scene.xml</UpdateDatabase>
-	<UpdateDatabase>Whiterabbit/Civs/Catherine_Scene.xml</UpdateDatabase>
-	<UpdateDatabase>Whiterabbit/Civs/Gandhi_Scene.xml</UpdateDatabase>
-	<UpdateDatabase>Whiterabbit/Civs/Ethiopia_Selassie_Scene.xml</UpdateDatabase>
-	<UpdateDatabase>Whiterabbit/Civs/Napoleon_Scene.xml</UpdateDatabase>
-	<UpdateDatabase>Whiterabbit/Civs/Washington_Scene.xml</UpdateDatabase>
-      <UpdateDatabase>SQL/UnitDefines/UnitInfos.sql</UpdateDatabase>
-      <UpdateDatabase>SQL/UnitDefines/UnitInfoMemberInfos.sql</UpdateDatabase>
-      <UpdateDatabase>SQL/UnitDefines/UnitMemberInfos.sql</UpdateDatabase>
-      <UpdateDatabase>SQL/UnitDefines/MemberCombats.sql</UpdateDatabase>
-      <UpdateDatabase>SQL/UnitDefines/MemberCombatWeapons.sql</UpdateDatabase>
-      <UpdateDatabase>Z_Global/ArtDefines_Resources.sql</UpdateDatabase>
-      <UpdateDatabase>Tech/TechTableAdds.sql</UpdateDatabase>
-      <UpdateDatabase>Tech/Technologies.sql</UpdateDatabase>
-      <UpdateDatabase>Tech/Technology_Flavors.sql</UpdateDatabase>
-      <UpdateDatabase>Tech/Technology_PrereqTechs.sql</UpdateDatabase>
       <UpdateDatabase>Policy/PolicyTableAdds.sql</UpdateDatabase>
-      <UpdateDatabase>Tech/Eras.xml</UpdateDatabase>
-      <UpdateDatabase>Tech/TechCategories.xml</UpdateDatabase>
       <UpdateDatabase>Policy/PolicyCategories.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/TechCategories.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/TechIcons.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/Technologies.sql</UpdateDatabase>
+      <UpdateDatabase>Tech/Technology_PrereqTechs.sql</UpdateDatabase>
+      <UpdateDatabase>Tech/Technology_Flavors.sql</UpdateDatabase>
+      <UpdateDatabase>Tech/Eras.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/PolicyBranch.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/FreePolicies.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/Governments.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/GovIdeology.xml</UpdateDatabase>
+      <UpdateDatabase>Policy/GovSystems.xml</UpdateDatabase>
+      <UpdateDatabase>Art Defines/Resources/ArtDefines_Resources.sql</UpdateDatabase>
+      <UpdateDatabase>Art Defines/Units/MemberCombats.sql</UpdateDatabase>
+      <UpdateDatabase>Art Defines/Units/MemberCombatWeapons.sql</UpdateDatabase>
+      <UpdateDatabase>Art Defines/Units/UnitInfoMemberInfos.sql</UpdateDatabase>
+      <UpdateDatabase>Art Defines/Units/UnitInfos.sql</UpdateDatabase>
+      <UpdateDatabase>Art Defines/Units/UnitMemberInfos.sql</UpdateDatabase>
       <UpdateDatabase>Units/Builds.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/Features.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/Projects.xml</UpdateDatabase>
@@ -1324,21 +1390,13 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>AI/Leaders.xml</UpdateDatabase>
       <UpdateDatabase>Z_Global/GlobalDefines.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/Improvements.xml</UpdateDatabase>
-      <UpdateDatabase>DLC/Moai_Improvement.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/Terrains.xml</UpdateDatabase>
       <UpdateDatabase>Units/Units.xml</UpdateDatabase>
-      <UpdateDatabase>Units/UnitsThatIgnoreBorders.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/ProjectIcons.xml</UpdateDatabase>
-      <UpdateDatabase>Tech/TechIcons.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/Buildings.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/BuildingClasses.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/BuildingIcons.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/Specialists.xml</UpdateDatabase>
-      <UpdateDatabase>Policy/PolicyBranch.xml</UpdateDatabase>
-      <UpdateDatabase>Policy/FreePolicies.xml</UpdateDatabase>
-      <UpdateDatabase>Policy/Governments.xml</UpdateDatabase>
-      <UpdateDatabase>Policy/GovIdeology.xml</UpdateDatabase>
-      <UpdateDatabase>Policy/GovSystems.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/ResourceNew.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/ResourceIcons.xml</UpdateDatabase>
       <UpdateDatabase>Buildings/MonopolyBuildingClasses.xml</UpdateDatabase>
@@ -1346,35 +1404,32 @@ Over a 100 new Buildings and Wonders!</Description>
       <UpdateDatabase>Buildings/MonopolyBuildingIcons.xml</UpdateDatabase>
       <UpdateDatabase>Z_Global/HandicapInfos.xml</UpdateDatabase>
       <UpdateDatabase>Z_Global/IconTextureAtlases.xml</UpdateDatabase>
-      <UpdateDatabase>Z_Global/Game Pace Rules.sql</UpdateDatabase>
-      <UpdateDatabase>Text/en_US/CsebExtendedPlotMouseover.xml</UpdateDatabase>
       <UpdateDatabase>Text/en_US/TreeGrowthText.xml</UpdateDatabase>
-      <UpdateDatabase>Text/en_US/GameText.xml</UpdateDatabase>
       <UpdateDatabase>Text/en_US/TechTreeText.xml</UpdateDatabase>
-      <UpdateDatabase>Text/en_US/TechTreeTXT.xml</UpdateDatabase>
       <UpdateDatabase>Text/en_US/PolicyText.xml</UpdateDatabase>
-      <UpdateDatabase>Text/en_US/MapMenuTXT.xml</UpdateDatabase>
       <UpdateDatabase>Text/en_US/MonopolyText.xml</UpdateDatabase>
-      <UpdateDatabase>XML/Units/Update_UnitArtDefines.xml</UpdateDatabase>
-      <UpdateDatabase>Art/Resources/Font Icons/CCTPFontIconAtlas.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/AIAttackForces.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/CIV5AIMilitaryStrategies.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_Armies.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_Cities.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_End.sql</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_Handicaps.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_LeaderFlavors.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_LeaderPersonalities.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_Middle.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GlobalAIDefines.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GlobalDiplomacyAIDefines.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GrandStrategy.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/MultiUnitFormations.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Harald.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Kamehameha.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Nebuchadnezzar.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Pachacuti.xml</UpdateDatabase>
-      <UpdateDatabase>GEM AI/GEAI_Leader_Flavors_DLC_Sejong.xml</UpdateDatabase>
+      <UpdateDatabase>Text/en_US/MapMenuTXT.xml</UpdateDatabase>
+      <UpdateDatabase>Text/en_US/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Text/en_US/CsebExtendedPlotMouseover.xml</UpdateDatabase>
+      <UpdateDatabase>Units/UnitsThatIgnoreBorders.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Update_UnitArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Z_Global/Game Pace Rules.sql</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Al_Rashid_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Leader_Dialog/Dialog_Leaders.sql</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Alexander_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Augustus_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Austria_Maria_Theresa_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Bismark_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Catherine_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/CivUpdates.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Elizabeth_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Ethiopia_Selassie_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Gandhi_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Maya_Pacal_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Napoleon_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/OdaNobunaga_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Civs/Washington_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Whiterabbit/Text/Updates_Leaders.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
@@ -1387,12 +1442,8 @@ Over a 100 new Buildings and Wonders!</Description>
       <Description>MapManager</Description>
     </EntryPoint>
     <EntryPoint type="NotificationAddin" file="Events/CCTPEventManager.lua">
-      <Name>CCTPEventManager.lua</Name>
-      <Description>CCTPEventManager.lua</Description>
-    </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Art/Resources/Font Icons/Preview_CCTPFontIconAtlas.xml">
-      <Name>Preview_CCTPFontIconAtlas</Name>
-      <Description>Text for Custom Font Icons</Description>
+      <Name>Notification Events</Name>
+      <Description>Notification Events</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>
