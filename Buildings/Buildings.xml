@@ -399,16 +399,6 @@
 			<Yield>4</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>8</Yield>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>25</Yield>
@@ -913,7 +903,6 @@
 	</Building_PrereqBuildingClasses>
 	<Building_UnitCombatProductionModifiers>
 		<Delete BuildingType="BUILDING_STABLE" UnitCombatType="UNITCOMBAT_MOUNTED"/>
-		<Delete BuildingType="BUILDING_TEMPLE_ARTEMIS" UnitCombatType="UNITCOMBAT_ARCHER"/>
 	</Building_UnitCombatProductionModifiers>
 	<Building_DomainProductionModifiers>
 		<Delete BuildingType="BUILDING_FORGE" DomainType="DOMAIN_LAND"/>
@@ -3059,10 +3048,6 @@
 		<Update>
 			<Set Cost="540" SpecialistCount="2" GreatPeopleRateChange="0" PrereqTech="TECH_PUBLIC_WORKS"/>
 			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
-		</Update>
-		<Update>
-			<Set Cost="400" PrereqTech="TECH_GREAT_MONUMENTS" />
-			<Where Type="BUILDING_TEMPLE_ARTEMIS"/>
 		</Update>
 		<Update>
 			<Set Cost="395" ObsoleteTech="NULL" SpecialistCount="0" GreatPeopleRateChange="0"/>

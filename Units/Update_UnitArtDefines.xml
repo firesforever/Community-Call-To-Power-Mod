@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Horem on 9/7/2012 10:16:00 PM 
+		Unused Art, my guesses at what units should look like what may well be off, so, I am including the unused Art Defines here so you all can have a play,
+		once satisfied we can remove the unused art or make new units:-
+		ART_DEF_UNIT_CHIMERA
+		ART_DEF_UNIT_CHIMERA_VET
+		ART_DEF_UNIT_BANEWOLF_VET
+		ART_DEF_UNIT_BANEWOLF
+		ART_DEF_UNIT_MANTICORE_DOZER
+		ART_DEF_UNIT_MANTICORE 
+		ART_DEF_UNIT_LEMAN_VANQ_DOZER (Tankish with a bulldozer front)
+		ART_DEF_UNIT_LEMAN_EXEC_DOZER (Tankish with a bulldozer front)
+		ART_DEF_UNIT_LEMAN (Tankish)
+		ART_DEF_UNIT_LEMAN_DOZER (Tankish with a bulldozer front)
+		ART_DEF_UNIT_DREAD (Walking Roboty Thing)
+		ART_DEF_UNIT_IG_SGT (Army looking Infantry)
+		-->
+<GameData>
+	<Units>	
+		<!-- Missile Squad - Art, Heavy-->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_IG_HEAVY" />
+			<Where Type="UNIT_MISSILE_SQUAD" />
+		</Update>
+		<!-- Gauss Tank - Art, Baneblade-->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_BANEBLADE" />
+			<Where Type="UNIT_GAUSS_TANK" />
+		</Update>
+		<!-- Mass Driver Artillery - Art, Chimera Dozer-->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_CHIMERA_DOZER" />
+			<Where Type="UNIT_MASS_DRIVER_ARTILLERY" />
+		</Update>
+		<!-- Powered Infantry - Art, Soldier-->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_IG_SOLDIER" />
+			<Where Type="UNIT_POWERED_INFANTRY" />
+		</Update>
+		<!-- Micro UAV Team - Art, Trooper-->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_IG_TROOPER" />
+			<Where Type="UNIT_MICRO_UAV_TEAM" />
+		</Update>
+		<!-- Tactical Laser Air Defense - Art, Heavy-->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_MANTICORE_VET" />
+			<Where Type="UNIT_TACTICAL_LASER_AIR_DEFENSE" />
+		</Update>
+		<!-- Fusion Tank - Art, Banewolf Sgt-->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_BANEWOLF_SGT" />
+			<Where Type="UNIT_FUSION_TANK" />
+		</Update>
+		<!-- Heavy Isotope Projector - Art, Leman Vanquisher-->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_LEMAN_VANQ" />
+			<Where Type="UNIT_HEAVY_ISOTOPE_PROJECTOR" />
+		</Update>
+		<!-- Beam Jumber - Art, Hellfire Dread -->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_HELLFIRE_DREAD" />
+			<Where Type="UNITCLASS_BEAM_JUMPER" />
+		</Update>
+		<!-- Particle Grid Air Defence - Art, Leman Exec-->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_LEMAN_EXEC" />
+			<Where Type="UNIT_PARTICLE_GRID_AIR_DEFENSE" />
+		</Update>
+		<!-- Cybernetic Marauder - Art, Vetran-->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_IG_VET" />
+			<Where Type="UNIT_CYBERNETIC_MARAUDER" />
+		</Update>
+		<!-- Leap Infantry - Art, Ven Dread-->
+		<Update>
+			<Set UnitArtInfo="ART_DEF_UNIT_VEN_DREAD" />
+			<Where Type="UNIT_LEAP_INFANTRY" />
+		</Update>
+	</Units>
+</GameData>

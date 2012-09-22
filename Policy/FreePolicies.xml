@@ -451,7 +451,7 @@
 			<Flavor>3</Flavor>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_STATE_CHRUCH</PolicyType>
+			<PolicyType>POLICY_STATE_CHURCH</PolicyType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
@@ -2144,7 +2144,7 @@
 			<Flavor>45</Flavor>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_POWER_STRUCUTURES</PolicyType>
+			<PolicyType>POLICY_POWER_STRUCTURES</PolicyType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>

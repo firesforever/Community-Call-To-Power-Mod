@@ -2,6 +2,11 @@
 <!-- Created by ModBuddy on 11/10/2010 1:49:15 PM -->
 <GameData>
 	<Language_en_US>
+		<!-- Update Mods Menu -->
+		<Update>
+			<Set Text="START GAME"/>
+			<Where Tag="TXT_KEY_MODDING_CUSTOMGAME"/>
+		</Update>
 		<!-- Additions -->
 		<Row Tag="TXT_KEY_RESOURCE_WOOD">
 			<Text>Exotic Hardwood</Text>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/21/2012 5:44:55 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set Cost="400" PrereqTech="TECH_GREAT_MONUMENTS" />
+			<Where Type="BUILDING_TEMPLE_ARTEMIS"/>
+		</Update>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>8</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_UnitCombatProductionModifiers>
+		<Delete BuildingType="BUILDING_TEMPLE_ARTEMIS" UnitCombatType="UNITCOMBAT_ARCHER"/>		
+	</Building_UnitCombatProductionModifiers>
+</GameData>
