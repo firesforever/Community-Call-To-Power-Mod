@@ -930,6 +930,10 @@
 			<Where Type="UNIT_SWORDSMAN" />
 		</Update>
 		<Update>
+			<Set ObsoleteTech="TECH_METALLURGY" />
+			<Where Type="UNIT_SWORDSMAN" />
+		</Update>
+		<Update>
 			<Set Cost="180" />
 			<Where Type="UNIT_IROQUOIAN_MOHAWKWARRIOR" />
 		</Update>

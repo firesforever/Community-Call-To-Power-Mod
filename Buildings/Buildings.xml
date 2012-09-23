@@ -181,7 +181,7 @@
 		<Row>
 			<BuildingType>BUILDING_BIG_BEN</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>40</Yield>
+			<Yield>20</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
@@ -696,7 +696,7 @@
 		<Row>
 			<BuildingType>BUILDING_BANK</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>10</Yield>
+			<Yield>8</Yield>
 		</Row>
 		<!--<Row>
 			<BuildingType>BUILDING_HORSE_DERBY</BuildingType>
@@ -811,7 +811,7 @@
 		<Row>
 			<BuildingType>BUILDING_BOND_MARKET</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>90</Yield>
+			<Yield>50</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SEMICONDUCTOR_PLANT</BuildingType>
@@ -846,7 +846,7 @@
 		<Row>
 			<BuildingType>BUILDING_REGIONAL_FAIR</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>50</Yield>
+			<Yield>30</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_THE_GRAND_MOSQUE</BuildingType>
@@ -1018,7 +1018,7 @@
 		<Row>
 			<BuildingType>BUILDING_TOWN_HALL</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>50</Yield>
+			<Yield>25</Yield>
 		</Row>
 
 		<Row>

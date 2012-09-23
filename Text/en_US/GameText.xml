@@ -559,7 +559,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_TOWN_HALL_STRATEGY</Tag>
-			<Text>+1 [ICON_GOLD] Gold for every 2 [ICON_CITIZEN] Citizens in this City</Text>
+			<Text>+1 [ICON_GOLD] Gold for every 4 [ICON_CITIZEN] Citizens in this City</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SUN_TZU_ART_OF_WAR</Tag>
