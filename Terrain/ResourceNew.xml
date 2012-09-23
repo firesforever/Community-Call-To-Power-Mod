@@ -20,7 +20,7 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_CACAO]</IconString>
 			<PortraitIndex>15</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
@@ -42,7 +42,7 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_BARLEY]</IconString>
 			<PortraitIndex>22</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
@@ -64,7 +64,7 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_WILDBERRIES]</IconString>
 			<PortraitIndex>16</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
@@ -86,7 +86,7 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_MANGO]</IconString>
 			<PortraitIndex>21</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
@@ -108,7 +108,7 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_FLAX]</IconString>
 			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
@@ -161,7 +161,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_COFFEE</Type>
-			<TechReveal>TECH_COFFEE_TRADE</TechReveal>
+			<!--<TechReveal>TECH_COFFEE_TRADE</TechReveal>-->
 			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_COFFEE</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_COFFEE_TEXT</Civilopedia>
@@ -177,14 +177,14 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_COFFEE]</IconString>
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
 			<Type>RESOURCE_POPPY</Type>
-			<TechReveal>TECH_HERBAL_SCIENCE</TechReveal>
+			<!-- <TechReveal>TECH_HERBAL_SCIENCE</TechReveal>-->
 			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_POPPY</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_POPPY_TEXT</Civilopedia>
@@ -200,14 +200,14 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Flatlands>true</Flatlands>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_POPPY]</IconString>
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
 			<Type>RESOURCE_TITANIUM</Type>
-			<TechReveal>TECH_METAL_CASTING</TechReveal>
+			<!-- <TechReveal>TECH_METAL_CASTING</TechReveal>-->
 			<TechCityTrade>TECH_MINING</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_TITANIUM</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_TITANIUM_TEXT</Civilopedia>
@@ -223,7 +223,7 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_TITANIUM]</IconString>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
@@ -231,7 +231,7 @@
 		<Row>
 			<Type>RESOURCE_ALOE_VERA</Type>
 			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
-			<TechReveal>TECH_HERBAL_SCIENCE</TechReveal>
+			<!-- <TechReveal>TECH_HERBAL_SCIENCE</TechReveal>-->
 			<Description>TXT_KEY_RESOURCE_ALOE_VERA</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_ALOE_VERA_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_ALOE_VERA_HELP</Help>
@@ -247,7 +247,7 @@
 			<TilesPer>5</TilesPer>
 			<Flatlands>true</Flatlands>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_ALOEVERA]</IconString>
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
@@ -255,7 +255,7 @@
 		<Row>
 			<Type>RESOURCE_JADE</Type>
 			<TechCityTrade>TECH_MASONRY</TechCityTrade>
-			<TechReveal>TECH_STONE_MASONS</TechReveal>
+			<!-- <TechReveal>TECH_STONE_MASONS</TechReveal>-->
 			<Description>TXT_KEY_RESOURCE_JADE</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_JADE_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_JADE_HELP</Help>
@@ -271,7 +271,7 @@
 			<TilesPer>5</TilesPer>
 			<Flatlands>true</Flatlands>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_JADE]</IconString>
 			<PortraitIndex>10</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
@@ -279,7 +279,7 @@
 		<Row>
 			<Type>RESOURCE_MANGANESE</Type>
 			<TechCityTrade>TECH_MINING</TechCityTrade>
-			<TechReveal>TECH_METAL_CASTING</TechReveal>
+			<!-- <TechReveal>TECH_METAL_CASTING</TechReveal>-->
 			<Description>TXT_KEY_RESOURCE_MANGANESE</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MANGANESE_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_MANGANESE_HELP</Help>
@@ -295,7 +295,7 @@
 			<TilesPer>5</TilesPer>
 			<Flatlands>true</Flatlands>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_MANGANESE]</IconString>
 			<PortraitIndex>12</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
@@ -303,7 +303,7 @@
 		<Row>
 			<Type>RESOURCE_OAK</Type>
 			<TechCityTrade>TECH_CONSTRUCTION</TechCityTrade>
-			<TechReveal>TECH_WOODWORKING</TechReveal>
+			<!-- <TechReveal>TECH_WOODWORKING</TechReveal>-->
 			<Description>TXT_KEY_RESOURCE_OAK</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_OAK_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_OAK_HELP</Help>
@@ -319,7 +319,7 @@
 			<TilesPer>5</TilesPer>
 			<Flatlands>true</Flatlands>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_OAK]</IconString>
 			<PortraitIndex>7</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
@@ -365,14 +365,14 @@
 			<TilesPer>5</TilesPer>
 			<Flatlands>true</Flatlands>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_AMBER]</IconString>
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
 		</Row>
 		<Row>
 			<Type>RESOURCE_TOBACCO</Type>
-			<TechReveal>TECH_HERBAL_SCIENCE</TechReveal>
+			<!-- <TechReveal>TECH_HERBAL_SCIENCE</TechReveal>-->
 			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_TOBACCO</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_TOBACCO_TEXT</Civilopedia>
@@ -388,7 +388,7 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Flatlands>true</Flatlands>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_TOBACCO]</IconString>
 			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
@@ -410,7 +410,7 @@
 			<Unique>1</Unique>
 			<TilesPer>5</TilesPer>
 			<Hills>true</Hills>
-			<Normalize>true</Normalize>
+			<Normalize>false</Normalize>
 			<IconString>[ICON_TIN]</IconString>
 			<PortraitIndex>13</PortraitIndex>
 			<IconAtlas>CCTP_RESOURCE_ATLAS</IconAtlas>
