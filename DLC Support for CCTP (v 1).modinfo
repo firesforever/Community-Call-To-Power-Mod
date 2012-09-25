@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="afada6f9-20af-4e62-8313-0dd8c8bf61f3" version="1">
+  <Properties>
+    <Name>DLC Support for CCTP</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>DLC Support for CCTP:-
+
+Adds extra yields to Maoi Statues and Temple of Artimis</Teaser>
+    <Description>DLC Support for CCTP:-
+
+Adds extra yields to Maoi Improvement and Temple of Artimis</Description>
+    <Authors>Chrome-rome, FiresForever, Horem</Authors>
+    <SpecialThanks>Civfanatics</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A914FF152C5434F435E4D2860F1EE3FC" import="0">_DLC/Moai_Improvement.xml</File>
+    <File md5="D270DFB87474BB13EEEE835B52F5DAF7" import="0">_DLC/TempleArtemis.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>_DLC/Moai_Improvement.xml</UpdateDatabase>
+      <UpdateDatabase>_DLC/TempleArtemis.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
