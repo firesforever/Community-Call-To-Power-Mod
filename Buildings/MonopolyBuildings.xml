@@ -332,7 +332,7 @@
 			<Type>BUILDING_POPPY_REFINERY</Type>
 			<BuildingClass>BUILDINGCLASS_POPPY_REFINERY</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_APOTHECARY</PrereqTech>
+			<PrereqTech>TECH_HERBAL_SCIENCE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POPPY_REFINERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POPPY_REFINERY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_POPPY_REFINERY_HELP</Help>
