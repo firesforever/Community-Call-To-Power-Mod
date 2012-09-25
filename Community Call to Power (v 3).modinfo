@@ -953,25 +953,25 @@ Over 340 Buildings and Wonders!</Description>
     <File md5="2F47E7B12D8AC9ABA49BF04B1C900C15" import="1">Art/Units/W40K/Manticore Dozer/leman_russ_dozer_spc.dds</File>
     <File md5="374ABD4895074553370B19DC1DA1578B" import="1">Art/Units/W40K/Manticore Dozer/manticore_spc.dds</File>
     <File md5="2B2BF068F28DC8F5EDB0B9440A73C87C" import="1">Art/Units/W40K/Manticore Dozer/tank_unlocks_spc.dds</File>
-    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="0">Art/Units/W40K/Manticore Vetran/chimera_spc.dds</File>
-    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="0">Art/Units/W40K/Manticore Vetran/chimera_treads_dif.dds</File>
-    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="0">Art/Units/W40K/Manticore Vetran/chimera_treads_spc.dds</File>
-    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="0">Art/Units/W40K/Manticore Vetran/edited_chimera_dif.dds</File>
-    <File md5="AFE1192AD16622957535137E8BA9E63E" import="0">Art/Units/W40K/Manticore Vetran/edited_leman_russ_chassis_dif.dds</File>
-    <File md5="F2B708482173D4C1E1AA05B791A7E689" import="0">Art/Units/W40K/Manticore Vetran/edited_manticore_dif.dds</File>
-    <File md5="F9F0760EE2818C3CD7F10DCFE5C6DF39" import="0">Art/Units/W40K/Manticore Vetran/edited_tank_unlocks_dif.dds</File>
-    <File md5="D2A918A59BD8F88D77277EDF33669E18" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vet.fxsxml</File>
-    <File md5="2251096DCE0458E467C8B1E4EBAA2848" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vet.gr2</File>
-    <File md5="00577B77BB66919CD5AD2C536E232CDA" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetAttackA.gr2</File>
-    <File md5="0629D26A8FDBC3AC44E9DEEB4A44FEEF" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetAttackB.gr2</File>
-    <File md5="3B5435F8BDA1AB66F45C6D74FC793E43" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetDeath.gr2</File>
-    <File md5="91004C91E2A3060AD5F564C635F21A33" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetDrive.gr2</File>
-    <File md5="E32CFE77D912D63F6BF737E8C828387F" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetFidget.gr2</File>
-    <File md5="05F32BC96A25CEDB4A27E41355FFC5EE" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetIdle.gr2</File>
-    <File md5="0D9AAE08D854AA99DCDB8BB0D393DD41" import="0">Art/Units/W40K/Manticore Vetran/ig_manticore_vetReload.gr2</File>
-    <File md5="848CCF084A07E1FAADC95CE32332D604" import="0">Art/Units/W40K/Manticore Vetran/leman_russ_chassis_spc.dds</File>
-    <File md5="374ABD4895074553370B19DC1DA1578B" import="0">Art/Units/W40K/Manticore Vetran/manticore_spc.dds</File>
-    <File md5="2B2BF068F28DC8F5EDB0B9440A73C87C" import="0">Art/Units/W40K/Manticore Vetran/tank_unlocks_spc.dds</File>
+    <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Manticore Vetran/chimera_spc.dds</File>
+    <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Manticore Vetran/chimera_treads_dif.dds</File>
+    <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Manticore Vetran/chimera_treads_spc.dds</File>
+    <File md5="5567E0DC49E0F9B0225498222853E8EC" import="1">Art/Units/W40K/Manticore Vetran/edited_chimera_dif.dds</File>
+    <File md5="AFE1192AD16622957535137E8BA9E63E" import="1">Art/Units/W40K/Manticore Vetran/edited_leman_russ_chassis_dif.dds</File>
+    <File md5="F2B708482173D4C1E1AA05B791A7E689" import="1">Art/Units/W40K/Manticore Vetran/edited_manticore_dif.dds</File>
+    <File md5="F9F0760EE2818C3CD7F10DCFE5C6DF39" import="1">Art/Units/W40K/Manticore Vetran/edited_tank_unlocks_dif.dds</File>
+    <File md5="D2A918A59BD8F88D77277EDF33669E18" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vet.fxsxml</File>
+    <File md5="2251096DCE0458E467C8B1E4EBAA2848" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vet.gr2</File>
+    <File md5="00577B77BB66919CD5AD2C536E232CDA" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetAttackA.gr2</File>
+    <File md5="0629D26A8FDBC3AC44E9DEEB4A44FEEF" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetAttackB.gr2</File>
+    <File md5="3B5435F8BDA1AB66F45C6D74FC793E43" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetDeath.gr2</File>
+    <File md5="91004C91E2A3060AD5F564C635F21A33" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetDrive.gr2</File>
+    <File md5="E32CFE77D912D63F6BF737E8C828387F" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetFidget.gr2</File>
+    <File md5="05F32BC96A25CEDB4A27E41355FFC5EE" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetIdle.gr2</File>
+    <File md5="0D9AAE08D854AA99DCDB8BB0D393DD41" import="1">Art/Units/W40K/Manticore Vetran/ig_manticore_vetReload.gr2</File>
+    <File md5="848CCF084A07E1FAADC95CE32332D604" import="1">Art/Units/W40K/Manticore Vetran/leman_russ_chassis_spc.dds</File>
+    <File md5="374ABD4895074553370B19DC1DA1578B" import="1">Art/Units/W40K/Manticore Vetran/manticore_spc.dds</File>
+    <File md5="2B2BF068F28DC8F5EDB0B9440A73C87C" import="1">Art/Units/W40K/Manticore Vetran/tank_unlocks_spc.dds</File>
     <File md5="B55B225B0B482AB80BD5CB9CF6D393FA" import="1">Art/Units/W40K/Manticore/chimera_spc.dds</File>
     <File md5="60753981B7BC0DBFF55B3A1088A6CFC8" import="1">Art/Units/W40K/Manticore/chimera_treads_dif.dds</File>
     <File md5="AB409435890FD8D4DAF1296EF2BEAF8F" import="1">Art/Units/W40K/Manticore/chimera_treads_spc.dds</File>
