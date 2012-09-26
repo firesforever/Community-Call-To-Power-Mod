@@ -5,28 +5,26 @@ include( "IconSupport" );
 include( "InstanceManager" );
 include( "TechHelpInclude" );
 
+--[[
+
 local g_InfoButtonManager1 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.AncientButtonStack );
-local g_TechPageButtonManager1 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.AncientButtonStack );
-
 local g_InfoButtonManager2 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.Classical1ButtonStack );
-local g_TechPageButtonManager2 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.Classical1ButtonStack );
-
 local g_InfoButtonManager3 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.MedievalButtonStack );
-local g_TechPageButtonManager3 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.MedievalButtonStack );
-
 local g_InfoButtonManager4 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.RenaissanceButtonStack );
-local g_TechPageButtonManager4 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.RenaissanceButtonStack );
-
 local g_InfoButtonManager5 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.IndustrialButtonStack );
-local g_TechPageButtonManager5 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.IndustrialButtonStack );
-
 local g_InfoButtonManager6 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.ModernButtonStack );
-local g_TechPageButtonManager6 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.ModernButtonStack );
-
 local g_InfoButtonManager7 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.DigitalButtonStack );
-local g_TechPageButtonManager7 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.DigitalButtonStack );
-
 local g_InfoButtonManager8 = InstanceManager:new( "InfoButton", "OpenInfo", Controls.InformationButtonStack );
+
+--]]
+
+local g_TechPageButtonManager1 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.AncientButtonStack );
+local g_TechPageButtonManager2 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.Classical1ButtonStack );
+local g_TechPageButtonManager3 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.MedievalButtonStack );
+local g_TechPageButtonManager4 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.RenaissanceButtonStack );
+local g_TechPageButtonManager5 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.IndustrialButtonStack );
+local g_TechPageButtonManager6 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.ModernButtonStack );
+local g_TechPageButtonManager7 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.DigitalButtonStack );
 local g_TechPageButtonManager8 = InstanceManager:new( "TechPageButton", "OpenTechPageButton", Controls.InformationButtonStack );
 
 local m_PopupInfo = nil;
@@ -63,6 +61,7 @@ function AddAncientButton( )
 	local TechPage = 901
 	local xx = -10
 	local yy = -10
+--[[
 	while TechPage ~= 904 do
 		local controlTable1 = g_InfoButtonManager1:GetInstance();
 		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
@@ -82,9 +81,11 @@ function AddAncientButton( )
 		yy = yy - 118
 		TechPage = TechPage + 1
 	end
+--]]
 	TechPage = 901
 	xx = 50
-	yy = 325
+	--yy = 325
+	yy = 440
 	while TechPage ~= 904 do
 		
 		local TechPageDesc
@@ -122,6 +123,7 @@ function AddClassicalButton( )
 	local TechPage = 904
 	local xx = -10
 	local yy = -10
+--[[	
 	while TechPage ~= 907 do
 		local controlTable1 = g_InfoButtonManager2:GetInstance();
 		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
@@ -141,9 +143,12 @@ function AddClassicalButton( )
 		yy = yy - 118
 		TechPage = TechPage + 1
 	end
+--]]
+
 	TechPage = 904
 	xx = 50
-	yy = 325
+	--yy = 325
+	yy = 440
 	while TechPage ~= 907 do
 		
 		local TechPageDesc
@@ -181,6 +186,7 @@ function AddMedievalButton( )
 	local TechPage = 907
 	local xx = -10
 	local yy = -10
+--[[	
 	while TechPage ~= 910 do
 		local controlTable1 = g_InfoButtonManager3:GetInstance();
 		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
@@ -200,9 +206,11 @@ function AddMedievalButton( )
 		yy = yy - 118
 		TechPage = TechPage + 1
 	end
+--]]
 	TechPage = 907
 	xx = 50
-	yy = 325
+	--yy = 325
+	yy = 440
 	while TechPage ~= 910 do
 		
 		local TechPageDesc
@@ -240,6 +248,7 @@ function AddRenaissanceButton( )
 	local TechPage = 910
 	local xx = -10
 	local yy = -10
+--[[	
 	while TechPage ~= 913 do
 		local controlTable1 = g_InfoButtonManager4:GetInstance();
 		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
@@ -259,9 +268,11 @@ function AddRenaissanceButton( )
 		yy = yy - 118
 		TechPage = TechPage + 1
 	end
+--]]
 	TechPage = 910
 	xx = 50
-	yy = 325
+	--yy = 325
+	yy = 440
 	while TechPage ~= 913 do
 		
 		local TechPageDesc
@@ -299,6 +310,7 @@ function AddIndustrialButton( )
 	local TechPage = 913
 	local xx = -10
 	local yy = -10
+--[[	
 	while TechPage ~= 916 do
 		local controlTable1 = g_InfoButtonManager5:GetInstance();
 		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
@@ -318,9 +330,11 @@ function AddIndustrialButton( )
 		yy = yy - 118
 		TechPage = TechPage + 1
 	end
+--]]
 	TechPage = 913
 	xx = 50
-	yy = 325
+	--yy = 325
+	yy = 440
 	while TechPage ~= 916 do
 		
 		local TechPageDesc
@@ -358,6 +372,7 @@ function AddModernButton( )
 	local TechPage = 916
 	local xx = -10
 	local yy = -10
+--[[	
 	while TechPage ~= 919 do
 		local controlTable1 = g_InfoButtonManager6:GetInstance();
 		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
@@ -377,9 +392,11 @@ function AddModernButton( )
 		yy = yy - 118
 		TechPage = TechPage + 1
 	end
+--]]
 	TechPage = 916
 	xx = 50
-	yy = 325
+	--yy = 325
+	yy = 440
 	while TechPage ~= 919 do
 		
 		local TechPageDesc
@@ -417,6 +434,7 @@ function AddDigitalButton( )
 	local TechPage = 919
 	local xx = -10
 	local yy = -10
+--[[	
 	while TechPage ~= 922 do
 		local controlTable1 = g_InfoButtonManager7:GetInstance();
 		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
@@ -436,9 +454,11 @@ function AddDigitalButton( )
 		yy = yy - 118
 		TechPage = TechPage + 1
 	end
+--]]
 	TechPage = 919
 	xx = 50
-	yy = 325
+	--yy = 325
+	yy = 440
 	while TechPage ~= 922 do
 		
 		local TechPageDesc
@@ -476,6 +496,7 @@ function AddInformationButton( )
 	local TechPage = 922
 	local xx = -10
 	local yy = -10
+--[[	
 	while TechPage ~= 925 do
 		local controlTable1 = g_InfoButtonManager8:GetInstance();
 		controlTable1.OpenInfo:SetVoid1( TechPage ); -- indicates type
@@ -495,9 +516,11 @@ function AddInformationButton( )
 		yy = yy - 118
 		TechPage = TechPage + 1
 	end
+--]]
 	TechPage = 922
 	xx = 50
-	yy = 325
+	--yy = 325
+	yy = 440
 	while TechPage ~= 925 do
 		
 		local TechPageDesc
