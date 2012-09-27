@@ -5,7 +5,7 @@
 		<!-- New Unassigned -->
 		<Row>
 			<Type>RESOURCE_CACAO</Type>
-			<TechCityTrade>TECH_POTTERY</TechCityTrade>
+			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_CACAO</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_CACAO_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_CACAO_HELP</Help>
@@ -27,7 +27,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_BARLEY</Type>
-			<TechCityTrade>TECH_POTTERY</TechCityTrade>
+			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_BARLEY</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_BARLEY_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_BARLEY_HELP</Help>
@@ -49,7 +49,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_BERRIES</Type>
-			<TechCityTrade>TECH_POTTERY</TechCityTrade>
+			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_BERRIES</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_BERRIES_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_BERRIES_HELP</Help>
@@ -71,7 +71,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_MANGO</Type>
-			<TechCityTrade>TECH_POTTERY</TechCityTrade>
+			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_MANGO</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MANGO_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_MANGO_HELP</Help>
@@ -93,7 +93,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_FLAX</Type>
-			<TechCityTrade>TECH_POTTERY</TechCityTrade>
+			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_FLAX</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_FLAX_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_FLAX_HELP</Help>
@@ -115,8 +115,8 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_WOOD</Type>
-			<TechCityTrade>TECH_SAILING</TechCityTrade>
-			<!-- <TechReveal>TECH_SAILING</TechReveal>-->
+			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
+			<TechReveal>TECH_WOODWORKING</TechReveal>
 			<Description>TXT_KEY_RESOURCE_WOOD</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_WOOD_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_WOOD_HELP</Help>
@@ -161,7 +161,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_COFFEE</Type>
-			<!--<TechReveal>TECH_COFFEE_TRADE</TechReveal>-->
+			<TechReveal>TECH_COFFEE_TRADE</TechReveal>
 			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_COFFEE</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_COFFEE_TEXT</Civilopedia>
@@ -184,7 +184,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_POPPY</Type>
-			<!-- <TechReveal>TECH_HERBAL_SCIENCE</TechReveal>-->
+			<TechReveal>TECH_HERBAL_SCIENCE</TechReveal>
 			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_POPPY</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_POPPY_TEXT</Civilopedia>
@@ -207,7 +207,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_TITANIUM</Type>
-			<!-- <TechReveal>TECH_METAL_CASTING</TechReveal>-->
+			<TechReveal>TECH_METAL_CASTING</TechReveal>
 			<TechCityTrade>TECH_MINING</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_TITANIUM</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_TITANIUM_TEXT</Civilopedia>
@@ -231,7 +231,7 @@
 		<Row>
 			<Type>RESOURCE_ALOE_VERA</Type>
 			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
-			<!-- <TechReveal>TECH_HERBAL_SCIENCE</TechReveal>-->
+			<TechReveal>TECH_HERBAL_SCIENCE</TechReveal>
 			<Description>TXT_KEY_RESOURCE_ALOE_VERA</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_ALOE_VERA_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_ALOE_VERA_HELP</Help>
@@ -255,7 +255,7 @@
 		<Row>
 			<Type>RESOURCE_JADE</Type>
 			<TechCityTrade>TECH_MASONRY</TechCityTrade>
-			<!-- <TechReveal>TECH_STONE_MASONS</TechReveal>-->
+			<TechReveal>TECH_STONE_MASONS</TechReveal>
 			<Description>TXT_KEY_RESOURCE_JADE</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_JADE_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_JADE_HELP</Help>
@@ -279,7 +279,7 @@
 		<Row>
 			<Type>RESOURCE_MANGANESE</Type>
 			<TechCityTrade>TECH_MINING</TechCityTrade>
-			<!-- <TechReveal>TECH_METAL_CASTING</TechReveal>-->
+			<TechReveal>TECH_METAL_CASTING</TechReveal>
 			<Description>TXT_KEY_RESOURCE_MANGANESE</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MANGANESE_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_MANGANESE_HELP</Help>
@@ -303,7 +303,7 @@
 		<Row>
 			<Type>RESOURCE_OAK</Type>
 			<TechCityTrade>TECH_CONSTRUCTION</TechCityTrade>
-			<!-- <TechReveal>TECH_WOODWORKING</TechReveal>-->
+			<TechReveal>TECH_WOODWORKING</TechReveal>
 			<Description>TXT_KEY_RESOURCE_OAK</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_OAK_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_OAK_HELP</Help>
@@ -349,7 +349,7 @@
 		<Row>
 			<Type>RESOURCE_AMBER</Type>
 			<TechCityTrade>TECH_CONSTRUCTION</TechCityTrade> 
-			<!-- <TechReveal>TECH_HERBAL_SCIENCE</TechReveal>-->
+			<TechReveal>TECH_HERBAL_SCIENCE</TechReveal>
 			<Description>TXT_KEY_RESOURCE_AMBER</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_AMBER_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_AMBER_HELP</Help>
@@ -372,7 +372,7 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_TOBACCO</Type>
-			<!-- <TechReveal>TECH_HERBAL_SCIENCE</TechReveal>-->
+			<TechReveal>TECH_HERBAL_SCIENCE</TechReveal>
 			<TechCityTrade>TECH_ECONOMY_OF_SCALE</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_TOBACCO</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_TOBACCO_TEXT</Civilopedia>
