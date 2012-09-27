@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="d048269c-70a9-4ad0-b3ae-27478912b1c8" version="3">
   <Properties>
-    <Name>Community Call to Power</Name>
+    <Name>Community Call to Power (v3b)</Name>
     <Stability>Alpha</Stability>
     <Teaser>A revamp of CiV to resemble Call to Power!</Teaser>
     <Description>This mod Requires Gods and Kings Expansion.
@@ -54,6 +54,7 @@ Over 340 Buildings and Wonders!</Description>
     <Mod id="5e509896-6ed1-4805-8163-71763190a545" minversion="0" maxversion="999" />
   </Blocks>
   <Files>
+    <File md5="2E2B0DBB17E9DD6B2BBB278C74E66396" import="0">Art Defines/Improvements/FarmTempFix.sql</File>
     <File md5="A23C711914750FBA0EADB34CFB76F5FD" import="0">AI/BetterAI.xml</File>
     <File md5="FC81F758CC3470C4420A8336EDBF2FCB" import="0">AI/GlobalAIDefines.xml</File>
     <File md5="430E3324CCAE144AE5E0122AEC85D074" import="0">AI/Leaders.xml</File>
@@ -1335,6 +1336,7 @@ Over 340 Buildings and Wonders!</Description>
       <UpdateDatabase>Units/UnitsThatIgnoreBorders.xml</UpdateDatabase>
       <UpdateDatabase>Units/Update_UnitArtDefines.xml</UpdateDatabase>
       <UpdateDatabase>Z_Global/Game Pace Rules.sql</UpdateDatabase>
+      <UpdateDatabase>Art Defines/Improvements/FarmTempFix.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
