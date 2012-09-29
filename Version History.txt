@@ -1,4 +1,18 @@
 -- Version History
+Version 3b
+
+	Farm CTD Fix, Changed graphic to Polder one, scaled down 20%.
+	Changed Composite Bowman ObsoleteTech to Metal Casting.
+	Reduced overall Build costs by 10%.
+	Reduced Units costs by 5%.
+	Reduced Base Trade Route gold  by 50%.
+	Changed Monarchy to +1 Happiness per Garrisoned Unit, increased production by 5% and added +1 Happiness to Walls.
+	Updated Projects, Spaceship Parts now require Wormhole Detection Array instead of The Apollo Program. Wormhole Detection Array requires The Apollo Program.
+
+Version 3a
+
+	Bugfixing.
+
 Version 3
 
 	New 3D Resource Art
