@@ -124,7 +124,7 @@
 			<Where Name="UNIT_MAINTENANCE_GAME_EXPONENT_DIVISOR" />
 		</Update>
 		<Update>
-			<Set Value="100" />
+			<Set Value="50" />
 			<Where Name="TRADE_ROUTE_BASE_GOLD" />
 		</Update>
 		<Update>

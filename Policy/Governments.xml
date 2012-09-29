@@ -839,6 +839,11 @@
 			<BuildingClassType>BUILDINGCLASS_RECYCLING_PLANT</BuildingClassType>
 			<Happiness>2</Happiness>
 		</Row>
+		<Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
 
 	</Policy_BuildingClassHappiness>
 
@@ -953,7 +958,7 @@
 		<Row>
 			<PolicyType>POLICY_MONARCHY</PolicyType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>5</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONARCHY</PolicyType>

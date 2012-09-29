@@ -942,7 +942,7 @@
 			<Where Type="UNIT_ROMAN_LEGION" />
 		</Update>
 		<Update>
-			<Set Cost="180" PrereqTech="TECH_WOODWORKING"/>
+			<Set Cost="180" PrereqTech="TECH_WOODWORKING" ObsoleteTech="TECH_METAL_CASTING"/>
 			<Where Type="UNIT_COMPOSITE_BOWMAN" />
 		</Update>
 		<!--MEDIEVAL ERA-->
