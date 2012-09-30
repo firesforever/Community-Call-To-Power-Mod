@@ -812,19 +812,19 @@
 	<Units>
 		<!--Ancient Era-->
 		<Update>
-			<Set Cost="110" />
+			<Set Cost="110" ObsoleteTech="TECH_WOODWORKING"/>
 			<Where Type="UNIT_ARCHER" />
 		</Update>
 		<Update>
-			<Set Cost="115" />
+			<Set Cost="115" ObsoleteTech="TECH_WOODWORKING"/>
 			<Where Type="UNIT_BABYLONIAN_BOWMAN" />
 		</Update>
 		<Update>
-			<Set Cost="100" />
+			<Set Cost="100" ObsoleteTech="TECH_WOODWORKING"/>
 			<Where Type="UNIT_INCAN_SLINGER" />
 		</Update>
 		<Update>
-			<Set Cost="100" />
+			<Set Cost="100" ObsoleteTech="TECH_WOODWORKING"/>
 			<Where Type="UNIT_MAYAN_ATLATLIST" />
 		</Update>
 		<Update>

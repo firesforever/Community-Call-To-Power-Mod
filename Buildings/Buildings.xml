@@ -141,7 +141,7 @@
 		<Row>
 			<BuildingType>BUILDING_PUBLISHING_HOUSE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BURIAL_MOUND</BuildingType>
