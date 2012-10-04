@@ -1,26 +1,29 @@
 -- Version History
-Version 3b
+Version 3
 
+	Updated new resource text.
 	Farm CTD Fix, Changed graphic to Polder one, scaled down 20%.
 	Changed Composite Bowman ObsoleteTech to Metal Casting.
 	Reduced overall Build costs by 10%.
 	Reduced Units costs by 5%.
-	Reduced Base Trade Route gold  by 50%.
+	Reduced Base Trade Route gold by 50%.
 	Changed Monarchy to +1 Happiness per Garrisoned Unit, increased production by 5% and added +1 Happiness to Walls.
-	Updated Projects, Spaceship Parts now require Wormhole Detection Array instead of The Apollo Program. Wormhole Detection Array requires The Apollo Program.
-
-Version 3a
-
-	Bugfixing.
-
-Version 3
-
+	Updated Projects,	Spaceship Parts now require Wormhole Detection Array instead of The Apollo Program.
+						Wormhole Detection Array requires The Apollo Program.
+	Fixed Pottery Text.
+	Fixed Publishing House Text.
+	Fixed Parthenon Text.
+	Fixed Archer ObsoleteTech, its now Woodworking.
 	New 3D Resource Art
 	New 3d Models for the Land units in Digital and Information Eras
-	New Tech Tree Layout
-
-	Bug Fixing.
+	New Tech Tree Layout, Along with a Tier'd Cost system for each of the 3 Trees per era(Balanced upto Renaissance, from here on is up for debate).
 	Emigration, Tree Growth and some elements of CivUP are now included in this mod.
+	Town hall now gives 1 gold per 4 population down from 1 in 2.
+	Regional Fair gold reduced to 30.
+
+		Known Issues:-
+		Policies - Science yield text is wrong.
+		Game Text - Many vanilla building and wonders tooltip text is wrong(Report any findings on the forums)
 
 Version 2 
 
@@ -34,7 +37,7 @@ Version 2
 	New Woodworking Tech. Composite Bow, Catapult, and Oak reveal moved to this tech, Woodworking needs Military Training.
 
 	Fixed civilopedia entries that weren’t showing for many
-	Fixed Economic Freedom (gave 5fo/ 5g instead of 1fo/1g)
+	Fixed Economic Freedom (gave 5fo/5g instead of 1fo/1g)
 	Fixed Traditional Institutions (gave 5fo to farms, fishing boats, and plantations in addition to the production to Stone Works)
 	Fixed Lobbyist, Top 1%, and Interest Groups, and State Owed Enterprise giving more than they should (some were 25x what they should have been.)
 	Fixed Nationalism and Socialism displays
