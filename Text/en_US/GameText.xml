@@ -25,46 +25,46 @@
 			<Text>Wild Berries</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_BERRIES_TEXT">
-			<Text>No Text</Text>
+			<Text>In everyday English, "berry" is a term for any small edible fruit. These "berries" are usually juicy, round or semi-oblong, brightly coloured, sweet or sour, and do not have a stone or pit, although many seeds may be present.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_BERRIES_HELP">
-			<Text>No Text</Text>
+			<Text>Small edible fruit</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_FLAX">
 			<Text>Flax</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_FLAX_TEXT">
-			<Text>No Text</Text>
+			<Text>Flax is an erect annual plant growing to 1.2 m (3 ft 11 in) tall, with slender stems. The leaves are glaucous green, slender lanceolate, 20–40 mm long and 3 mm broad. The flowers are pure pale blue, 15–25 mm diameter, with five petals; they can also be bright red. The fruit is a round, dry capsule 5–9 mm diameter, containing several glossy brown seeds shaped like an apple pip, 4–7 mm long. In addition to referring to the plant itself, the word "flax" may refer to the unspun fibres of the flax plant.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_FLAX_HELP">
-			<Text>No Text</Text>
+			<Text>Flax is grown both for its use as an edible oil, as a nutritional supplement, and as an ingredient in many wood finishing products.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_CACAO">
 			<Text>Cacao Trees</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_CACAO_TEXT">
-			<Text>No Text</Text>
+			<Text>Cacao tree is a small (4–8 m (13–26 ft) tall) evergreen tree in the family Sterculiaceae, native to the deep tropical regions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_CACAO_HELP">
-			<Text>No Text</Text>
+			<Text>Its seeds are used to make cocoa powder and chocolate.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MANGO">
 			<Text>Mango trees</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MANGO_TEXT">
-			<Text>No Text</Text>
+			<Text>Mango trees grow up to 35–40 m (115–130 ft) tall, with a crown radius of 10 m (33 ft). The trees are long-lived, as some specimens still fruit after 300 years. In deep soil, the taproot descends to a depth of 6 m (20 ft), with profuse, wide-spreading feeder roots; the tree also sends down many anchor roots, which penetrate several feet of soil.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MANGO_HELP">
-			<Text>No Text</Text>
+			<Text>Mangoes are widely used in cuisine. Sour, unripe mangoes are used in chutneys, athanu, pickles, or side dishes, or may be eaten raw with salt, chili, or soy sauce.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_BARLEY">
 			<Text>Barley</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_BARLEY_TEXT">
-			<Text>No Text</Text>
+			<Text>Barley, a member of the grass family, is a major cereal grain. Important uses include use as animal fodder, as a source of fermentable material for beer and certain distilled beverages, and as a component of various health foods. It is used in soups and stews, and in barley bread of various cultures. Barley grains are commonly made into malt in a traditional and ancient method of preparation.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_BARLEY_HELP">
-			<Text>No Text</Text>
+			<Text>It is currently popular in temperate areas where it is grown as a summer crop and tropical areas where it is sown as a winter crop.</Text>
 		</Row>
 		<!-- Update Gamespeed Names -->
 		<Update>
