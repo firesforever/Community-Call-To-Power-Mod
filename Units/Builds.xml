@@ -22,7 +22,7 @@
 
 	<BuildFeatures>
 		<Update>
-			<Set Production="20" />
+			<Set Production="20" PrereqTech="TECH_MINING"/>
 			<Where BuildType="BUILD_REMOVE_JUNGLE" />
 		</Update>
 		<Update>
