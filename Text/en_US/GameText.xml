@@ -2,9 +2,18 @@
 <!-- Created by ModBuddy on 11/10/2010 1:49:15 PM -->
 <GameData>
 	<Language_en_US>
+		<!-- Update Missed Vanilla Text -->
 		<Update>
 			<Set Text="Allows your cities to build the [COLOR_POSITIVE_TEXT]Granary[ENDCOLOR], which provides [ICON_FOOD] Food, helping your cities grow larger. Also allows you to build [COLOR_POSITIVE_TEXT]Ziggurt of Marduk[ENDCOLOR] Wonder."/>
 			<Where Tag="TXT_KEY_TECH_POTTERY_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Publishing House[ENDCOLOR] building. Also allows you to build the [COLOR_POSITIVE_TEXT]Leaning Tower of Pisa[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Gutenberg Gate[ENDCOLOR] Wonders."/>
+			<Where Tag="TXT_KEY_TECH_PRINTING_PRESS_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="Great War Infantry is significantly stronger than its predecessor, the Rifleman."/>
+			<Where Tag="TXT_KEY_UNIT_GREAT_WAR_INFANTRY_STRATEGY"/>			
 		</Update>
 		<!-- Update Mods Menu -->
 		<Update>
@@ -93,11 +102,11 @@
 			<Where Tag="TXT_KEY_GAMESPEED_STANDARD_HELP"/>
 		</Update>
 		<Update>
-			<Set Text="UNBALANCED. A slow paced game. Ideal for players who like to experience most of what an Era has to offer."/>
+			<Set Text="UNBALANCED and BROKEN. A slow paced game. Ideal for players who like to experience most of what an Era has to offer."/>
 			<Where Tag="TXT_KEY_GAMESPEED_EPIC_HELP"/>
 		</Update>
 		<Update>
-			<Set Text="UNBALANCED. A very slow paced game. Ideal for players that like to experience ALL an Era has to offer."/>
+			<Set Text="UNBALANCED and BROKEN. A very slow paced game. Ideal for players that like to experience ALL an Era has to offer."/>
 			<Where Tag="TXT_KEY_GAMESPEED_MARATHON_HELP"/>
 		</Update>
 		<!--TECH TREES-->
