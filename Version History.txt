@@ -1,6 +1,7 @@
 -- Version History
 Version 3
 
+	Added Extended CCTP.
 	Updated new resource text.
 	Farm CTD Fix, Changed graphic to Polder one, scaled down 20%.
 	Changed Composite Bowman ObsoleteTech to Metal Casting.

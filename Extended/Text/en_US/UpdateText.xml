@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/7/2012 2:17:06 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Update Top Panel-->
+		<Update>
+			<Set Text=""/>
+			<Where Tag="TXT_KEY_TIME_AD"/>
+		</Update>
+		<Update>
+			<Set Text=""/>
+			<Where Tag="TXT_KEY_TIME_BC"/>
+		</Update>
+		<!-- Update Gamespeed Names -->
+		<Update>
+			<Set Text="Extended 1000"/>
+			<Where Tag="TXT_KEY_GAMESPEED_QUICK"/>
+		</Update>
+		<Update>
+			<Set Text="Extended 1250"/>
+			<Where Tag="TXT_KEY_GAMESPEED_STANDARD"/>
+		</Update>
+		<Update>
+			<Set Text="Extended 1500"/>
+			<Where Tag="TXT_KEY_GAMESPEED_EPIC"/>
+		</Update>
+		<Update>
+			<Set Text="Extended 1750"/>
+			<Where Tag="TXT_KEY_GAMESPEED_MARATHON"/>
+		</Update>
+		<!-- Update Gamespeed Help -->
+		<Update>
+			<Set Text="Extended Game, to advance to the next Era you need ALL of the previous Eras Technologies. 1000 Turn Limit."/>
+			<Where Tag="TXT_KEY_GAMESPEED_QUICK_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="Extended Game +25% Technology Costs, to advance to the next Era you need ALL of the previous Eras Technologies. 1250 Turn Limit."/>
+			<Where Tag="TXT_KEY_GAMESPEED_STANDARD_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="Extended Game +50% Technology Costs, to advance to the next Era you need ALL of the previous Eras Technologies. 1500 Turn Limit."/>
+			<Where Tag="TXT_KEY_GAMESPEED_EPIC_HELP"/>
+		</Update>
+		<Update>
+			<Set Text="Extended Game +75% Technology Costs, to advance to the next Era you need ALL of the previous Eras Technologies. 1750 Turn Limit."/>
+			<Where Tag="TXT_KEY_GAMESPEED_MARATHON_HELP"/>
+		</Update>		
+	</Language_en_US>  
+</GameData>
