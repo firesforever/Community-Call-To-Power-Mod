@@ -3,10 +3,9 @@
   <Properties>
     <Name>Extended Community Call to Power</Name>
     <Stability>Alpha</Stability>
-    <Teaser>IMPORTANT! Increases Load times by 3m! Not recommended for low end PC's.</Teaser>
+    <Teaser>Complete all Technologies from an Era before advancing to the next.</Teaser>
     <Description>
 		This mod Requires Gods and Kings Expansion. Extended Eras for Community Call to Power, to progress to the next Era you require ALL the previous Era's Technologies. 
-		IMPORTANT!! Increases inital load time by 3m on a medium end PC due to all the added Technology Prereq's, NOT recommended for low end PC's(Less than 4gig ram, under a Quad Core CPU)!!
    </Description>
     <Authors>Chrome-Rome</Authors>
     <SpecialThanks>Decimatus, FiresForever, Horem</SpecialThanks>
@@ -34,6 +33,7 @@
     <Mod id="5e509896-6ed1-4805-8163-71763190a545" minversion="0" maxversion="999" />
   </Blocks>
   <Files>
+	<File md5="44DB50B3DCF2D5EBFBBFFB88F4DE6618" import="0">Extended/Z_Global/UpdateTechPrereqs.sql</File>
 	<File md5="E92773F2EACAFD8654A65ED8AF2B9662" import="0">Extended Community Call to Power (v 3).modinfo</File>
 	<File md5="813FFB893C9CED52DB1F0E7B81ECB82F" import="0">Extended/Text/en_US/UpdateText.xml</File>
 	<File md5="1C37247DEF2FF135E00D6BAEE27C9398" import="0">Extended/Z_Global/Technology_PrereqTechs.sql</File>
@@ -1310,7 +1310,7 @@
       <UpdateDatabase>Art Defines/Improvements/FarmTempFix.sql</UpdateDatabase>
 	  <UpdateDatabase>Extended/Text/en_US/UpdateText.xml</UpdateDatabase>
 	  <UpdateDatabase>Extended/Z_Global/UpdateRules.sql</UpdateDatabase>
-	  <UpdateDatabase>Extended/Z_Global/Technology_PrereqTechs.sql</UpdateDatabase>
+	  <UpdateDatabase>Extended/Z_Global/UpdateTechPrereqs.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
