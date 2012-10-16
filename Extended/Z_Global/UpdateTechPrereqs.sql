@@ -22,3 +22,10 @@ INSERT INTO Technology_PrereqTechs(TechType, PrereqTech, Display)
 UPDATE Defines 
   SET Value=(SELECT Max(c) FROM (SELECT Count(PrereqTech) AS c FROM Technology_PrereqTechs GROUP BY TechType))
   WHERE Name='NUM_AND_TECH_PREREQS';
+
+-- Update Prereq's that the code above missed.
+INSERT INTO Technology_PrereqTechs		(TechType,								PrereqTech)
+-- Archery (Ancient)
+SELECT									'TECH_MILITARY_TRAINING',				'TECH_ARCHERY'					UNION ALL
+-- Fermentation (Ancient)
+SELECT									'TECH_MILITARY_TRAINING',				'TECH_FERMENTATION';

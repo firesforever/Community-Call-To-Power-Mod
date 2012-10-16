@@ -7960,6 +7960,12 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SHAMAN_HUT</BuildingType>
+			<ResourceType>RESOURCE_BERRIES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHAMAN_HUT</BuildingType>
 			<ResourceType>RESOURCE_WINE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>

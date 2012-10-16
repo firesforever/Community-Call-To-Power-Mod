@@ -13,7 +13,7 @@
 		<Row>
 			<TerrainType>TERRAIN_COAST</TerrainType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -48,11 +48,6 @@
 		<Row>
 			<TerrainType>TERRAIN_TUNDRA</TerrainType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<TerrainType>TERRAIN_TUNDRA</TerrainType>
-			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Terrain_Yields>

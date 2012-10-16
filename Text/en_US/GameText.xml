@@ -15,12 +15,16 @@
 			<Set Text="Great War Infantry is significantly stronger than its predecessor, the Rifleman."/>
 			<Where Tag="TXT_KEY_UNIT_GREAT_WAR_INFANTRY_STRATEGY"/>			
 		</Update>
+		<Update>
+			<Set Text="The Market significantly increases a city's output of [ICON_GOLD] Gold. +1 [ICON_GOLD] Gold from [ICON_CACAO] Cacao and [ICON_MANGO] Mango."/>
+			<Where Tag="TXT_KEY_BUILDING_MARKET_STRATEGY"/>
+		</Update>
 		<!-- Update Mods Menu -->
 		<Update>
 			<Set Text="START GAME"/>
 			<Where Tag="TXT_KEY_MODDING_CUSTOMGAME"/>
 		</Update>
-		<!-- Additions -->
+		<!-- Resource Additions -->
 		<Row Tag="TXT_KEY_RESOURCE_WOOD">
 			<Text>Exotic Hardwood</Text>
 		</Row>
@@ -98,15 +102,15 @@
 			<Where Tag="TXT_KEY_GAMESPEED_QUICK_HELP"/>
 		</Update>
 		<Update>
-			<Set Text="Normal Pace"/>
+			<Set Text="This is the standard option for use with CCTP, it is the only option that is balanced and enjoyable to play."/>
 			<Where Tag="TXT_KEY_GAMESPEED_STANDARD_HELP"/>
 		</Update>
 		<Update>
-			<Set Text="UNBALANCED and BROKEN. A slow paced game. Ideal for players who like to experience most of what an Era has to offer."/>
+			<Set Text="Using this option will BREAK the game, please use Extended CCTP if you wish to play Epic style games."/>
 			<Where Tag="TXT_KEY_GAMESPEED_EPIC_HELP"/>
 		</Update>
 		<Update>
-			<Set Text="UNBALANCED and BROKEN. A very slow paced game. Ideal for players that like to experience ALL an Era has to offer."/>
+			<Set Text="Using this option will BREAK the game, please use Extended CCTP if you wish to play Marathon style games."/>
 			<Where Tag="TXT_KEY_GAMESPEED_MARATHON_HELP"/>
 		</Update>
 		<!--TECH TREES-->
@@ -161,7 +165,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BREWERY_HELP</Tag>
-			<Text>Each source of [ICON_RES_SUGAR] Sugar, [ICON_RES_SPICES] Spices, [ICON_RES_CITRUS] Citrus, or [ICON_RES_SALT] Salt worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of one of these resources nearby.</Text>
+			<Text>Each source of [ICON_RES_SUGAR] Sugar, [ICON_RES_SPICES] Spices, [ICON_RES_CITRUS] Citrus, or [ICON_BARLEY] Barley worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must have an improved source of one of these resources nearby.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BREWERY_STRATEGY</Tag>
