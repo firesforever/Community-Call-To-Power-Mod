@@ -46,7 +46,6 @@ function OnStart()
 end
 Controls.StartButton:RegisterCallback( Mouse.eLClick, OnStart );
 
-
 -------------------------------------------------
 -------------------------------------------------
 function OnSetCivNames()
@@ -224,7 +223,10 @@ function InitCCTP()
 				print ("The player has chosen a civ")
 				playerNum = playerNum + 1
 				
-				if playerNum == numCivs then  -- This needs to relate to number of players in the game
+				if playerNum > numCivs then  -- This needs to relate to number of players in the game
+					print ("second player num and num civs")
+					print (playerNum)
+					print (numCivs)
 					break;
 				end
 				
@@ -245,7 +247,10 @@ function InitCCTP()
 					end
 				until found == 1 or CivAllowed == nil
 			
-				if playerNum == numCivs then  -- This needs to relate to number of players in the game
+				if playerNum > numCivs then  -- This needs to relate to number of players in the game
+					print ("player num and num civs")
+					print (playerNum)
+					print (numCivs)
 					break;
 				end
 			end

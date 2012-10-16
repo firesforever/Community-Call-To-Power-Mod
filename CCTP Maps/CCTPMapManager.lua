@@ -405,6 +405,7 @@ function CCTPBalanceAndAssign()
 	local numCivs = modUserData.GetValue ("numCivs")
 	
 	for row in DB.Query(sql) do
+		local endFile = "notEnd"
 		i = 0
 		n = 1
 		found = 0
@@ -425,12 +426,14 @@ function CCTPBalanceAndAssign()
 						print ( "Placing " .. row.Type .. " at : " .. civsxy [2] .. ", " .. civsxy [3])
 					else
 						n = n + 1
+						--print (n)
 					end	
 				until found == 1 or civsxy[1] == "end"
+				endFile = civsxy[1]
 			else 
 				i = i + 1
 			end
-		until found == 1 or playerID == -1	
+		until found == 1 or playerID == -1	or endFile == "end"
 	end
 		
 	-- Now lets set the minor civs to the starting positions

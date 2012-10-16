@@ -237,8 +237,6 @@
             </Stack>
         </Box>
 
-        <!-- Start Game  -->
-        <GridButton Anchor="R,B" ID="StartButton"   Font="TwCenMT22"  Offset="38,54"     Size="260,45"    Style="BaseButton" String="TXT_KEY_START_GAME" />
     </Grid>
 
     <LuaContext FileName="Assets/UI/FrontEnd/GameSetup/SetCivNames" ID="SetCivNames" Hidden="1" />

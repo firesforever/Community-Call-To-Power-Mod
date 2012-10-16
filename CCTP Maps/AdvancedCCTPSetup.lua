@@ -839,13 +839,6 @@ function PerformValidation()
 	local args = {Valid = true};
 	ForEachScreenOption("Validate", args);
 	
-	Controls.StartButton:SetDisabled(not args.Valid);
-	
-	if(not args.Valid) then
-		Controls.StartButton:LocalizeAndSetToolTip(args.Reason);
-	else
-		Controls.StartButton:SetToolTipString(nil);
-	end
 end
 ------------------------------------------------------------------
 
@@ -920,11 +913,6 @@ Controls.BackButton:RegisterCallback(Mouse.eLClick, OnBackClicked);
 ---------------------------------------------------------------- 
 -- Start Button Handler
 ---------------------------------------------------------------- 
-function OnStartClicked()
-	Events.SerialEventStartGame();
-	UIManager:SetUICursor( 1 );
-end
-Controls.StartButton:RegisterCallback(Mouse.eLClick, OnStartClicked);
 
 ----------------------------------------------------------------
 -- Input Handler
