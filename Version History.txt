@@ -1,6 +1,7 @@
 -- Version History
 Version 3
-
+	
+	Added Extended CCTP.
 	Updated new resource text.
 	Farm CTD Fix, Changed graphic to Polder one, scaled down 20%.
 	Changed Composite Bowman ObsoleteTech to Metal Casting.
@@ -14,16 +15,20 @@ Version 3
 	Fixed Publishing House Text.
 	Fixed Parthenon Text.
 	Fixed Archer ObsoleteTech, its now Woodworking.
+	Fixed Printing Press text.
+	Fixed Great War Infantry text.
 	New 3D Resource Art
 	New 3d Models for the Land units in Digital and Information Eras
 	New Tech Tree Layout, Along with a Tier'd Cost system for each of the 3 Trees per era(Balanced upto Renaissance, from here on is up for debate).
 	Emigration, Tree Growth and some elements of CivUP are now included in this mod.
 	Town hall now gives 1 gold per 4 population down from 1 in 2.
 	Regional Fair gold reduced to 30.
+	Market Gold reduced by 2, +1 gold from Cacao & Mango.
+	Added Barley to Brewery and removed Salt.
 
 		Known Issues:-
-		Policies - Science yield text is wrong.
-		Game Text - Many vanilla building and wonders tooltip text is wrong(Report any findings on the forums)
+		Policies - Science yield text is wrong(its only displays half the amount it should).
+		Game Text - Many vanilla building and wonders tooltip text is wrong(Report any findings on the forums).
 
 Version 2 
 
