@@ -1268,7 +1268,7 @@ Over 340 Buildings and Wonders!</Description>
     <File md5="DFA83FFF63C3AFAAE4C9A88897FA3E8B" import="0">Terrain/ResourceNew.xml</File>
     <File md5="D4EFE2CCE38861A59B58C6F47DB82D45" import="0">Thanks.txt</File>
     <File md5="1E0897B59C4C16BBF3015B32BA6C57B5" import="0">Units/Builds.xml</File>
-    <File md5="01C9700306FE809E6D2197F887425459" import="0">Units/UnitClasses.xml</File>
+    <File md5="01C9700306FE809E6D2197F887425459" import="0">Units/UnitClasses.sql</File>
     <File md5="9FF35CD3683AF819A6E884354448E85E" import="0">Units/Units.xml</File>
     <File md5="4A6D7280C425EBF2C5C4F48C2309347B" import="0">Version History.txt</File>
     <File md5="DEBA939B1AA0E6771164977BDA0A0C1E" import="0">Z_Global/Game Pace Rules.sql</File>
@@ -1305,7 +1305,7 @@ Over 340 Buildings and Wonders!</Description>
       <UpdateDatabase>Buildings/Projects.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/Resources.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/Routes.xml</UpdateDatabase>
-      <UpdateDatabase>Units/UnitClasses.xml</UpdateDatabase>
+      <UpdateDatabase>Units/UnitClasses.sql</UpdateDatabase>
       <UpdateDatabase>AI/BetterAI.xml</UpdateDatabase>
       <UpdateDatabase>AI/GlobalAIDefines.xml</UpdateDatabase>
       <UpdateDatabase>Z_Global/HurryInfos.xml</UpdateDatabase>
