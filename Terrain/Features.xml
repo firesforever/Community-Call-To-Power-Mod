@@ -89,12 +89,12 @@
 		<Row>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>-2</Yield>
+			<Yield>-1</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -110,11 +110,6 @@
 			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_FOREST</FeatureType>

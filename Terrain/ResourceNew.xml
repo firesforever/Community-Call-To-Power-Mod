@@ -435,7 +435,7 @@
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_FLAX</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -495,7 +495,7 @@
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TIN</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>

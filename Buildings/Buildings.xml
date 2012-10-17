@@ -671,12 +671,12 @@
 		<Row>
 			<BuildingType>BUILDING_MARKET</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BAZAAR</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>6</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_JEWELRY_STORE</BuildingType>
@@ -7947,6 +7947,24 @@
 	<Building_ResourceYieldChanges>
 		<Delete/>
 		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<ResourceType>RESOURCE_CACAO</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<ResourceType>RESOURCE_MANGO</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHAMAN_HUT</BuildingType>
+			<ResourceType>RESOURCE_BERRIES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_SHAMAN_HUT</BuildingType>
 			<ResourceType>RESOURCE_WINE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -8044,7 +8062,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
-			<ResourceType>RESOURCE_SALT</ResourceType>
+			<ResourceType>RESOURCE_BARLEY</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
